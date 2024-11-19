@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="catv__frame__sync__enc__bb__pydoc_8h" kind="file" language="C++">
+    <compoundname>catv_frame_sync_enc_bb_pydoc.h</compoundname>
+    <includes refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>catv_frame_sync_enc_bb_pydoc.h</label>
+        <link refid="catv__frame__sync__enc__bb__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="catv__frame__sync__enc__bb__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, dtv, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/catv_frame_sync_enc_bb_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/catv_frame_sync_enc_bb_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="catv__frame__sync__enc__bb__pydoc_8h_1ac0a4f30308d5fc0594f35374344a2849" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_catv_frame_sync_enc_bb</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_catv_frame_sync_enc_bb</name>
+        <initializer>= R&quot;doc(Frame Sync Encoder. Adds a 42-bit (64QAM) or 40-bit (256QAM) frame sync pattern with control word.
+
+Input: Scrambled FEC Frame packets of 60 * 128 (64QAM) or 88 * 128 (256QAM) 7-bit symbols.
+ Output: Scrambled FEC Frame packets of 60 * 128 (64QAM) or 88 * 128 (256QAM) 7-bit symbols with 42-bit (64QAM) or 40-bit (256QAM) FSYNC word.
+
+Constructor Specific Documentation:
+
+Create an ITU-T J.83B Frame Sync Encoder.
+
+Args:
+    constellation : 64QAM or 256QAM constellation.
+    ctrlword : convolutional interleaver control word.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/catv_frame_sync_enc_bb_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/catv_frame_sync_enc_bb_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="catv__frame__sync__enc__bb__pydoc_8h_1a7bc03140091170cdd7ce8841dcff286d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_catv_frame_sync_enc_bb_catv_frame_sync_enc_bb</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_catv_frame_sync_enc_bb_catv_frame_sync_enc_bb</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/catv_frame_sync_enc_bb_pydoc.h" line="32" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/catv_frame_sync_enc_bb_pydoc.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="catv__frame__sync__enc__bb__pydoc_8h_1afdc5247982383c3a36b19d41672eb4b6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_catv_frame_sync_enc_bb_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_catv_frame_sync_enc_bb_make</name>
+        <initializer>= R&quot;doc(Frame Sync Encoder. Adds a 42-bit (64QAM) or 40-bit (256QAM) frame sync pattern with control word.
+
+Input: Scrambled FEC Frame packets of 60 * 128 (64QAM) or 88 * 128 (256QAM) 7-bit symbols.
+ Output: Scrambled FEC Frame packets of 60 * 128 (64QAM) or 88 * 128 (256QAM) 7-bit symbols with 42-bit (64QAM) or 40-bit (256QAM) FSYNC word.
+
+Constructor Specific Documentation:
+
+Create an ITU-T J.83B Frame Sync Encoder.
+
+Args:
+    constellation : 64QAM or 256QAM constellation.
+    ctrlword : convolutional interleaver control word.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/catv_frame_sync_enc_bb_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/catv_frame_sync_enc_bb_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/catv_frame_sync_enc_bb_pydoc.h"/>
+  </compounddef>
+</doxygen>

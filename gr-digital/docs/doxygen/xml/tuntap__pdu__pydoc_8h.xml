@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="tuntap__pdu__pydoc_8h" kind="file" language="C++">
+    <compoundname>tuntap_pdu_pydoc.h</compoundname>
+    <includes refid="build_2gr-network_2python_2network_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-network_2python_2network_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>tuntap_pdu_pydoc.h</label>
+        <link refid="tuntap__pdu__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="tuntap__pdu__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, network, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tuntap_pdu_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tuntap_pdu_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="tuntap__pdu__pydoc_8h_1a29464596fc44dbe342c01ad64c1e918c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_network_tuntap_pdu</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_network_tuntap_pdu</name>
+        <initializer>= R&quot;doc(Creates TUNTAP interface and translates traffic to PDUs.
+
+Constructor Specific Documentation:
+
+Construct a TUNTAP PDU interface.
+
+Args:
+    dev : Device name to create
+    MTU : Maximum Transmission Unit size
+    istunflag : Flag to indicate TUN or Tap)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tuntap_pdu_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tuntap_pdu_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tuntap__pdu__pydoc_8h_1a0041d259fda3db174eaa793f5029555f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_network_tuntap_pdu_tuntap_pdu</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_network_tuntap_pdu_tuntap_pdu</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tuntap_pdu_pydoc.h" line="30" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tuntap_pdu_pydoc.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tuntap__pdu__pydoc_8h_1a4854833c5cb610c6e60a642553b56575" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_network_tuntap_pdu_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_network_tuntap_pdu_make</name>
+        <initializer>= R&quot;doc(Creates TUNTAP interface and translates traffic to PDUs.
+
+Constructor Specific Documentation:
+
+Construct a TUNTAP PDU interface.
+
+Args:
+    dev : Device name to create
+    MTU : Maximum Transmission Unit size
+    istunflag : Flag to indicate TUN or Tap)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tuntap_pdu_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tuntap_pdu_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tuntap_pdu_pydoc.h"/>
+  </compounddef>
+</doxygen>

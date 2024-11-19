@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classrpcbasic__register__handler" kind="class" language="C++" prot="public">
+    <compoundname>rpcbasic_register_handler</compoundname>
+    <basecompoundref refid="classrpcbasic__base" prot="public" virt="non-virtual">rpcbasic_base</basecompoundref>
+    <includes refid="rpcregisterhelpers_8h" local="no">gnuradio/rpcregisterhelpers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classrpcbasic__register__handler_1aa6780b58b7474fe0973a4dc3afcdd05f" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string rpcbasic_register_handler&lt; T &gt;::d_id</definition>
+        <argsstring></argsstring>
+        <name>d_id</name>
+        <qualifiedname>rpcbasic_register_handler::d_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1663" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1663" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrpcbasic__register__handler_1acb6b1edef9f5a2e935294664c51233a9" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string rpcbasic_register_handler&lt; T &gt;::d_units</definition>
+        <argsstring></argsstring>
+        <name>d_units</name>
+        <qualifiedname>rpcbasic_register_handler::d_units</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1664" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1664" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrpcbasic__register__handler_1ac50bd7dc35631dba093e5a339f95b1df" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string rpcbasic_register_handler&lt; T &gt;::d_desc</definition>
+        <argsstring></argsstring>
+        <name>d_desc</name>
+        <qualifiedname>rpcbasic_register_handler::d_desc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1664" column="25" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1664" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrpcbasic__register__handler_1af6544585d7a27cf2f9dcfb4fdfdd1cc8" prot="private" static="no" mutable="no">
+        <type><ref refid="rpccallbackregister__base_8h_1a49bbe5b25d6264b2ebfc1ffd260cb096" kindref="member">priv_lvl_t</ref></type>
+        <definition>priv_lvl_t rpcbasic_register_handler&lt; T &gt;::d_minpriv</definition>
+        <argsstring></argsstring>
+        <name>d_minpriv</name>
+        <qualifiedname>rpcbasic_register_handler::d_minpriv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1665" column="16" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1665" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrpcbasic__register__handler_1a66415884bdbaed12dc225dbb4cd7dd0c" prot="private" static="no" mutable="no">
+        <type><ref refid="rpccallbackregister__base_8h_1aba9c0dec36f846b8a092d7d45ad4ecd3" kindref="member">DisplayType</ref></type>
+        <definition>DisplayType rpcbasic_register_handler&lt; T &gt;::d_display</definition>
+        <argsstring></argsstring>
+        <name>d_display</name>
+        <qualifiedname>rpcbasic_register_handler::d_display</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1666" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1666" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrpcbasic__register__handler_1a03430d25832604ec73fbbc7c08a18494" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* rpcbasic_register_handler&lt; T &gt;::d_object</definition>
+        <argsstring></argsstring>
+        <name>d_object</name>
+        <qualifiedname>rpcbasic_register_handler::d_object</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1667" column="7" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1667" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrpcbasic__register__handler_1a988eb7c3331580616d6077a0a02ef8e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>rpcbasic_register_handler&lt; T &gt;::rpcbasic_register_handler</definition>
+        <argsstring>(const std::string &amp;block_alias, const char *handler, const char *units_=&quot;&quot;, const char *desc_=&quot;&quot;, priv_lvl_t minpriv_=RPC_PRIVLVL_MIN, DisplayType display_=DISPNULL)</argsstring>
+        <name>rpcbasic_register_handler</name>
+        <qualifiedname>rpcbasic_register_handler::rpcbasic_register_handler</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>block_alias</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>handler</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>units_</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>desc_</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type><ref refid="rpccallbackregister__base_8h_1a49bbe5b25d6264b2ebfc1ffd260cb096" kindref="member">priv_lvl_t</ref></type>
+          <declname>minpriv_</declname>
+          <defval><ref refid="rpccallbackregister__base_8h_1a49bbe5b25d6264b2ebfc1ffd260cb096acc5682c79636a2486c194425df36d2d4" kindref="member">RPC_PRIVLVL_MIN</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="rpccallbackregister__base_8h_1aba9c0dec36f846b8a092d7d45ad4ecd3" kindref="member">DisplayType</ref></type>
+          <declname>display_</declname>
+          <defval><ref refid="rpccallbackregister__base_8h_1a083912edd1265872708667efecd2444b" kindref="member">DISPNULL</ref></defval>
+        </param>
+        <briefdescription>
+<para>Adds the ability to pass a message over ControlPort. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This makes any message handler function available over ControlPort. Since message handlers always take in a single PMT message input, this interface provides a very generic way of setting values in a block in a flowgraph.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block_alias</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Alias of the block </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>handler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the message port in the block </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>units_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string to describe what units to represent the variable with </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>desc_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string to describing the variable. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minpriv_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The required minimum privilege level </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>display_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The display mask </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1614" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1614" bodyend="1643"/>
+        <references refid="classgr_1_1block__registry_1a67a83c42e2030bba463c99d51e7a8f92">gr::block_registry::block_lookup</references>
+        <references refid="classrpcmanager_1a1ba8b0847e9023e46e32e20d189e8d03">rpcmanager::get</references>
+        <references refid="block__registry_8h_1ae4e7cd1be7c7f7e231b1644731f18eeb">global_block_registry</references>
+        <references refid="classrpcserver__booter__base_1aa6e5532f1193df5bff6bc34645982c67">rpcserver_booter_base::i</references>
+        <references refid="namespacepmt_1adcc4bde4742800dfea924f4e17477f2e">pmt::intern</references>
+        <references refid="classrpcserver__base_1a515e34f811de6f6bda2c953928235d72">rpcserver_base::registerHandlerCallback</references>
+      </memberdef>
+      <memberdef kind="function" id="classrpcbasic__register__handler_1a3e9d3af1ff30096774c4c9a6e141e3c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>rpcbasic_register_handler&lt; T &gt;::~rpcbasic_register_handler</definition>
+        <argsstring>() override</argsstring>
+        <name>~rpcbasic_register_handler</name>
+        <qualifiedname>rpcbasic_register_handler::~rpcbasic_register_handler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1645" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1645" bodyend="1650"/>
+        <references refid="classrpcmanager_1a1ba8b0847e9023e46e32e20d189e8d03">rpcmanager::get</references>
+        <references refid="classrpcserver__booter__base_1aa6e5532f1193df5bff6bc34645982c67">rpcserver_booter_base::i</references>
+        <references refid="classrpcserver__base_1a0560b00be225fc74cbce09b4850e2b98">rpcserver_base::unregisterHandlerCallback</references>
+      </memberdef>
+      <memberdef kind="function" id="classrpcbasic__register__handler_1ad4210f8bea988531389d6512b5d6b551" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string rpcbasic_register_handler&lt; T &gt;::units</definition>
+        <argsstring>() const</argsstring>
+        <name>units</name>
+        <qualifiedname>rpcbasic_register_handler::units</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1652" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1652" bodyend="1652"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcbasic__register__handler_1a13700b24ff86472a3333ad1361a5ab61" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string rpcbasic_register_handler&lt; T &gt;::description</definition>
+        <argsstring>() const</argsstring>
+        <name>description</name>
+        <qualifiedname>rpcbasic_register_handler::description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1653" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1653" bodyend="1653"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcbasic__register__handler_1ab1f38140b9fd0a300a97fdec84fe41b0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="rpccallbackregister__base_8h_1a49bbe5b25d6264b2ebfc1ffd260cb096" kindref="member">priv_lvl_t</ref></type>
+        <definition>priv_lvl_t rpcbasic_register_handler&lt; T &gt;::privilege_level</definition>
+        <argsstring>() const</argsstring>
+        <name>privilege_level</name>
+        <qualifiedname>rpcbasic_register_handler::privilege_level</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1654" column="16" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1654" bodyend="1654"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcbasic__register__handler_1aa3d07ca6e5f849dba82b9b7fbdca16e2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="rpccallbackregister__base_8h_1aba9c0dec36f846b8a092d7d45ad4ecd3" kindref="member">DisplayType</ref></type>
+        <definition>DisplayType rpcbasic_register_handler&lt; T &gt;::default_display</definition>
+        <argsstring>() const</argsstring>
+        <name>default_display</name>
+        <qualifiedname>rpcbasic_register_handler::default_display</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1655" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1655" bodyend="1655"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcbasic__register__handler_1ad371309fc60541983a98cf4594891823" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void rpcbasic_register_handler&lt; T &gt;::units</definition>
+        <argsstring>(std::string u)</argsstring>
+        <name>units</name>
+        <qualifiedname>rpcbasic_register_handler::units</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1657" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1657" bodyend="1657"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcbasic__register__handler_1a05b4875e5ccdbf82614451e6fda2b46b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void rpcbasic_register_handler&lt; T &gt;::description</definition>
+        <argsstring>(std::string d)</argsstring>
+        <name>description</name>
+        <qualifiedname>rpcbasic_register_handler::description</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1658" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1658" bodyend="1658"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcbasic__register__handler_1a3787fda40ec002f334b515a2dd2be83b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void rpcbasic_register_handler&lt; T &gt;::privilege_level</definition>
+        <argsstring>(priv_lvl_t p)</argsstring>
+        <name>privilege_level</name>
+        <qualifiedname>rpcbasic_register_handler::privilege_level</qualifiedname>
+        <param>
+          <type><ref refid="rpccallbackregister__base_8h_1a49bbe5b25d6264b2ebfc1ffd260cb096" kindref="member">priv_lvl_t</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1659" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1659" bodyend="1659"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcbasic__register__handler_1af4fadee84ce42a4ed0c0926a245e7678" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void rpcbasic_register_handler&lt; T &gt;::default_display</definition>
+        <argsstring>(DisplayType d)</argsstring>
+        <name>default_display</name>
+        <qualifiedname>rpcbasic_register_handler::default_display</qualifiedname>
+        <param>
+          <type><ref refid="rpccallbackregister__base_8h_1aba9c0dec36f846b8a092d7d45ad4ecd3" kindref="member">DisplayType</ref></type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1660" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1660" bodyend="1660"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Registers a message handler function to post a message to a block&apos;s handler. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>rpcbasic_base</label>
+        <link refid="classrpcbasic__base"/>
+      </node>
+      <node id="1">
+        <label>rpcbasic_register_handler&lt; T &gt;</label>
+        <link refid="classrpcbasic__register__handler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>rpcbasic_base</label>
+        <link refid="classrpcbasic__base"/>
+      </node>
+      <node id="1">
+        <label>rpcbasic_register_handler&lt; T &gt;</label>
+        <link refid="classrpcbasic__register__handler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="1595" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="1596" bodyend="1668"/>
+    <listofallmembers>
+      <member refid="classrpcbasic__register__handler_1ac50bd7dc35631dba093e5a339f95b1df" prot="private" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>d_desc</name></member>
+      <member refid="classrpcbasic__register__handler_1a66415884bdbaed12dc225dbb4cd7dd0c" prot="private" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>d_display</name></member>
+      <member refid="classrpcbasic__register__handler_1aa6780b58b7474fe0973a4dc3afcdd05f" prot="private" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>d_id</name></member>
+      <member refid="classrpcbasic__register__handler_1af6544585d7a27cf2f9dcfb4fdfdd1cc8" prot="private" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>d_minpriv</name></member>
+      <member refid="classrpcbasic__register__handler_1a03430d25832604ec73fbbc7c08a18494" prot="private" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>d_object</name></member>
+      <member refid="classrpcbasic__register__handler_1acb6b1edef9f5a2e935294664c51233a9" prot="private" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>d_units</name></member>
+      <member refid="classrpcbasic__register__handler_1aa3d07ca6e5f849dba82b9b7fbdca16e2" prot="public" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>default_display</name></member>
+      <member refid="classrpcbasic__register__handler_1af4fadee84ce42a4ed0c0926a245e7678" prot="public" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>default_display</name></member>
+      <member refid="classrpcbasic__register__handler_1a13700b24ff86472a3333ad1361a5ab61" prot="public" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>description</name></member>
+      <member refid="classrpcbasic__register__handler_1a05b4875e5ccdbf82614451e6fda2b46b" prot="public" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>description</name></member>
+      <member refid="classrpcbasic__register__handler_1ab1f38140b9fd0a300a97fdec84fe41b0" prot="public" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>privilege_level</name></member>
+      <member refid="classrpcbasic__register__handler_1a3787fda40ec002f334b515a2dd2be83b" prot="public" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>privilege_level</name></member>
+      <member refid="classrpcbasic__base_1ab0f3d0bf323958aa51750ccea26cefdb" prot="public" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>rpcbasic_base</name></member>
+      <member refid="classrpcbasic__register__handler_1a988eb7c3331580616d6077a0a02ef8e2" prot="public" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>rpcbasic_register_handler</name></member>
+      <member refid="classrpcbasic__register__handler_1ad4210f8bea988531389d6512b5d6b551" prot="public" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>units</name></member>
+      <member refid="classrpcbasic__register__handler_1ad371309fc60541983a98cf4594891823" prot="public" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>units</name></member>
+      <member refid="classrpcbasic__base_1ae3f50018ff739652e1a5420acc1503c3" prot="public" virt="virtual"><scope>rpcbasic_register_handler</scope><name>~rpcbasic_base</name></member>
+      <member refid="classrpcbasic__register__handler_1a3e9d3af1ff30096774c4c9a6e141e3c0" prot="public" virt="non-virtual"><scope>rpcbasic_register_handler</scope><name>~rpcbasic_register_handler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -44,7 +44,7 @@ ofdm_frame_equalizer_vcvc_impl::ofdm_frame_equalizer_vcvc_impl(
           io_signature::make(1, 1, sizeof(gr_complex) * equalizer->fft_len()),
           io_signature::make(1, 1, sizeof(gr_complex) * equalizer->fft_len()),
           tsb_key),
-      d_fft_len(equalizer->fft_len()),
+      d_fft_len(equalizer->fft_len()), // what is the different between :: and ->
       d_cp_len(cp_len),
       d_eq(equalizer),
       d_propagate_channel_state(propagate_channel_state),
@@ -101,7 +101,7 @@ int ofdm_frame_equalizer_vcvc_impl::work(int noutput_items,
     get_tags_in_window(tags, 0, 0, 1);
     for (unsigned i = 0; i < tags.size(); i++) {
         if (pmt::symbol_to_string(tags[i].key) == "ofdm_sync_chan_taps") {
-            d_channel_state = pmt::c32vector_elements(tags[i].value);
+            d_channel_state = pmt::c32vector_elements(tags[i].value);// d_channel-state --> channel_taps
         }
         if (pmt::symbol_to_string(tags[i].key) == "ofdm_sync_carr_offset") {
             carrier_offset = pmt::to_long(tags[i].value);
@@ -110,8 +110,9 @@ int ofdm_frame_equalizer_vcvc_impl::work(int noutput_items,
 
     // Copy the frame and the channel state vector such that the symbols are shifted to
     // the correct position
+    //when <0, means symbols need to be shifted right
     if (carrier_offset < 0) {
-        memset((void*)out, 0x00, sizeof(gr_complex) * (-carrier_offset));
+        memset((void*)out, 0x00, sizeof(gr_complex) * (-carrier_offset));/// pointer to the object, 0x00-the character to copy. sizeof(sss), the number of bytes to copy
         memcpy((void*)&out[-carrier_offset],
                (const void*)in,
                sizeof(gr_complex) * (d_fft_len * frame_len + carrier_offset));
@@ -119,6 +120,7 @@ int ofdm_frame_equalizer_vcvc_impl::work(int noutput_items,
         memset((void*)(out + d_fft_len * frame_len - carrier_offset),
                0x00,
                sizeof(gr_complex) * carrier_offset);
+        // shifted left
         memcpy((void*)out,
                (const void*)(in + carrier_offset),
                sizeof(gr_complex) * (d_fft_len * frame_len - carrier_offset));

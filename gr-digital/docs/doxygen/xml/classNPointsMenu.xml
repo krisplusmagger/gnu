@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classNPointsMenu" kind="class" language="C++" prot="public">
+    <compoundname>NPointsMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QAction</basecompoundref>
+    <includes refid="form__menus_8h" local="no">gnuradio/qtgui/form_menus.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classNPointsMenu_1afc28bf93782390e6cda696e08ac04b7f" prot="private" static="no" mutable="no">
+        <type>QDialog *</type>
+        <definition>QDialog* NPointsMenu::d_diag</definition>
+        <argsstring></argsstring>
+        <name>d_diag</name>
+        <qualifiedname>NPointsMenu::d_diag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="723" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="723" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNPointsMenu_1a4b40ed7b18f90f824edd36f0ec981fc2" prot="private" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* NPointsMenu::d_text</definition>
+        <argsstring></argsstring>
+        <name>d_text</name>
+        <qualifiedname>NPointsMenu::d_text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="724" column="15" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="724" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classNPointsMenu_1a87d8d8dd4deeb916596126e244e3746a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NPointsMenu::NPointsMenu</definition>
+        <argsstring>(QWidget *parent)</argsstring>
+        <name>NPointsMenu</name>
+        <qualifiedname>NPointsMenu::NPointsMenu</qualifiedname>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="683" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="683" bodyend="703"/>
+        <references refid="classNPointsMenu_1a34eecfc2166fc38626df164486b3fa3e" compoundref="form__menus_8h" startline="713" endline="713">getTextDiag</references>
+      </memberdef>
+      <memberdef kind="function" id="classNPointsMenu_1a421a0c3c946f4f52782ad80f619b3f9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NPointsMenu::~NPointsMenu</definition>
+        <argsstring>() override</argsstring>
+        <name>~NPointsMenu</name>
+        <qualifiedname>NPointsMenu::~NPointsMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="705" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="705" bodyend="705"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classNPointsMenu_1a384572629a0d63bfd76e9b86c8308f5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NPointsMenu::whichTrigger</definition>
+        <argsstring>(const int npts)</argsstring>
+        <name>whichTrigger</name>
+        <qualifiedname>NPointsMenu::whichTrigger</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>npts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="708" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classNPointsMenu_1a1d65b9a15f23c183c8ce257d9ee33880" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NPointsMenu::setDiagText</definition>
+        <argsstring>(const int npts)</argsstring>
+        <name>setDiagText</name>
+        <qualifiedname>NPointsMenu::setDiagText</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>npts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="711" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="711" bodyend="711"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNPointsMenu_1a34eecfc2166fc38626df164486b3fa3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NPointsMenu::getTextDiag</definition>
+        <argsstring>()</argsstring>
+        <name>getTextDiag</name>
+        <qualifiedname>NPointsMenu::getTextDiag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="713" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="713" bodyend="713"/>
+        <referencedby refid="classNPointsMenu_1a87d8d8dd4deeb916596126e244e3746a" compoundref="form__menus_8h" startline="683" endline="703">NPointsMenu</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classNPointsMenu_1a46bd7576e8519b04cd1a588771c290aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NPointsMenu::getText</definition>
+        <argsstring>()</argsstring>
+        <name>getText</name>
+        <qualifiedname>NPointsMenu::getText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="716" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="716" bodyend="720"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>NPointsMenu</label>
+        <link refid="classNPointsMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QAction</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>NPointsMenu</label>
+        <link refid="classNPointsMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QAction</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="678" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="679" bodyend="725"/>
+    <listofallmembers>
+      <member refid="classNPointsMenu_1afc28bf93782390e6cda696e08ac04b7f" prot="private" virt="non-virtual"><scope>NPointsMenu</scope><name>d_diag</name></member>
+      <member refid="classNPointsMenu_1a4b40ed7b18f90f824edd36f0ec981fc2" prot="private" virt="non-virtual"><scope>NPointsMenu</scope><name>d_text</name></member>
+      <member refid="classNPointsMenu_1a46bd7576e8519b04cd1a588771c290aa" prot="private" virt="non-virtual"><scope>NPointsMenu</scope><name>getText</name></member>
+      <member refid="classNPointsMenu_1a34eecfc2166fc38626df164486b3fa3e" prot="public" virt="non-virtual"><scope>NPointsMenu</scope><name>getTextDiag</name></member>
+      <member refid="classNPointsMenu_1a87d8d8dd4deeb916596126e244e3746a" prot="public" virt="non-virtual"><scope>NPointsMenu</scope><name>NPointsMenu</name></member>
+      <member refid="classNPointsMenu_1a1d65b9a15f23c183c8ce257d9ee33880" prot="public" virt="non-virtual"><scope>NPointsMenu</scope><name>setDiagText</name></member>
+      <member refid="classNPointsMenu_1a384572629a0d63bfd76e9b86c8308f5d" prot="public" virt="non-virtual"><scope>NPointsMenu</scope><name>whichTrigger</name></member>
+      <member refid="classNPointsMenu_1a421a0c3c946f4f52782ad80f619b3f9b" prot="public" virt="non-virtual"><scope>NPointsMenu</scope><name>~NPointsMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

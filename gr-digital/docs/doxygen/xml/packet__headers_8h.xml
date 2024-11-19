@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="packet__headers_8h" kind="file" language="C++">
+    <compoundname>packet_headers.h</compoundname>
+    <includes refid="udp__header__types_8h" local="no">gnuradio/network/udp_header_types.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>packet_headers.h</label>
+        <link refid="packet__headers_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gnuradio/network/udp_header_types.h</label>
+        <link refid="udp__header__types_8h"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classheader__seq__num" prot="public">header_seq_num</innerclass>
+    <innerclass refid="classheader__seq__plus__size" prot="public">header_seq_plus_size</innerclass>
+    <innerclass refid="classata__header" prot="public">ata_header</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-network/include/gnuradio/network/packet_headers.h"/>
+  </compounddef>
+</doxygen>

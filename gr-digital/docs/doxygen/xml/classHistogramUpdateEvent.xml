@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classHistogramUpdateEvent" kind="class" language="C++" prot="public">
+    <compoundname>HistogramUpdateEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QEvent</basecompoundref>
+    <includes refid="spectrumUpdateEvents_8h" local="no">gnuradio/qtgui/spectrumUpdateEvents.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classHistogramUpdateEvent_1afe874b77fe0d7aa7e7c0f0c6cae1d0dc" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t HistogramUpdateEvent::_nplots</definition>
+        <argsstring></argsstring>
+        <name>_nplots</name>
+        <qualifiedname>HistogramUpdateEvent::_nplots</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="297" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHistogramUpdateEvent_1ac5431f883de7d74bc5c2ebf670a2a5bd" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; const double * &gt;</type>
+        <definition>std::vector&lt;const double*&gt; HistogramUpdateEvent::_points</definition>
+        <argsstring></argsstring>
+        <name>_points</name>
+        <qualifiedname>HistogramUpdateEvent::_points</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="298" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHistogramUpdateEvent_1a545d6d9d3cc7ce987d5d3bdc1b812106" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t HistogramUpdateEvent::_npoints</definition>
+        <argsstring></argsstring>
+        <name>_npoints</name>
+        <qualifiedname>HistogramUpdateEvent::_npoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="299" column="14" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHistogramUpdateEvent_1a3eee118e23e7bb1a9c77fd1e75aacba5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HistogramUpdateEvent::HistogramUpdateEvent</definition>
+        <argsstring>(const std::vector&lt; volk::vector&lt; double &gt; &gt; points, const uint64_t npoints)</argsstring>
+        <name>HistogramUpdateEvent</name>
+        <qualifiedname>HistogramUpdateEvent::HistogramUpdateEvent</qualifiedname>
+        <param>
+          <type>const std::vector&lt; volk::vector&lt; double &gt; &gt;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const uint64_t</type>
+          <declname>npoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="283" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classHistogramUpdateEvent_1aff81843add10affb0a237f7e79a6098d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HistogramUpdateEvent::~HistogramUpdateEvent</definition>
+        <argsstring>() override</argsstring>
+        <name>~HistogramUpdateEvent</name>
+        <qualifiedname>HistogramUpdateEvent::~HistogramUpdateEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="286" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classHistogramUpdateEvent_1a1295632e948b07a5128d3c42ce0cdeed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int HistogramUpdateEvent::which</definition>
+        <argsstring>() const</argsstring>
+        <name>which</name>
+        <qualifiedname>HistogramUpdateEvent::which</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="288" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classHistogramUpdateEvent_1a8733e9810cc2d16075a708629ec98667" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; const double * &gt;</type>
+        <definition>const std::vector&lt; const double * &gt; HistogramUpdateEvent::getDataPoints</definition>
+        <argsstring>() const</argsstring>
+        <name>getDataPoints</name>
+        <qualifiedname>HistogramUpdateEvent::getDataPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="289" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classHistogramUpdateEvent_1a9effde5639a83f23b51940d24f114365" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t HistogramUpdateEvent::getNumDataPoints</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumDataPoints</name>
+        <qualifiedname>HistogramUpdateEvent::getNumDataPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="290" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classHistogramUpdateEvent_1a58a209e9bab7920f49598ddd857c4c24" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool HistogramUpdateEvent::getRepeatDataFlag</definition>
+        <argsstring>() const</argsstring>
+        <name>getRepeatDataFlag</name>
+        <qualifiedname>HistogramUpdateEvent::getRepeatDataFlag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="291" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classHistogramUpdateEvent_1a565404fae18a3d95e75a21b5289eafe5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QEvent::Type</type>
+        <definition>static QEvent::Type HistogramUpdateEvent::Type</definition>
+        <argsstring>()</argsstring>
+        <name>Type</name>
+        <qualifiedname>HistogramUpdateEvent::Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="293" column="25" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="293" bodyend="293"/>
+        <references refid="spectrumUpdateEvents_8h_1ac31addf0edee93b209aba289ae383b5d" compoundref="spectrumUpdateEvents_8h" startline="24">SpectrumUpdateEventType</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>HistogramUpdateEvent</label>
+        <link refid="classHistogramUpdateEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>HistogramUpdateEvent</label>
+        <link refid="classHistogramUpdateEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="280" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="281" bodyend="300"/>
+    <listofallmembers>
+      <member refid="classHistogramUpdateEvent_1afe874b77fe0d7aa7e7c0f0c6cae1d0dc" prot="private" virt="non-virtual"><scope>HistogramUpdateEvent</scope><name>_nplots</name></member>
+      <member refid="classHistogramUpdateEvent_1a545d6d9d3cc7ce987d5d3bdc1b812106" prot="private" virt="non-virtual"><scope>HistogramUpdateEvent</scope><name>_npoints</name></member>
+      <member refid="classHistogramUpdateEvent_1ac5431f883de7d74bc5c2ebf670a2a5bd" prot="private" virt="non-virtual"><scope>HistogramUpdateEvent</scope><name>_points</name></member>
+      <member refid="classHistogramUpdateEvent_1a8733e9810cc2d16075a708629ec98667" prot="public" virt="non-virtual"><scope>HistogramUpdateEvent</scope><name>getDataPoints</name></member>
+      <member refid="classHistogramUpdateEvent_1a9effde5639a83f23b51940d24f114365" prot="public" virt="non-virtual"><scope>HistogramUpdateEvent</scope><name>getNumDataPoints</name></member>
+      <member refid="classHistogramUpdateEvent_1a58a209e9bab7920f49598ddd857c4c24" prot="public" virt="non-virtual"><scope>HistogramUpdateEvent</scope><name>getRepeatDataFlag</name></member>
+      <member refid="classHistogramUpdateEvent_1a3eee118e23e7bb1a9c77fd1e75aacba5" prot="public" virt="non-virtual"><scope>HistogramUpdateEvent</scope><name>HistogramUpdateEvent</name></member>
+      <member refid="classHistogramUpdateEvent_1a565404fae18a3d95e75a21b5289eafe5" prot="public" virt="non-virtual"><scope>HistogramUpdateEvent</scope><name>Type</name></member>
+      <member refid="classHistogramUpdateEvent_1a1295632e948b07a5128d3c42ce0cdeed" prot="public" virt="non-virtual"><scope>HistogramUpdateEvent</scope><name>which</name></member>
+      <member refid="classHistogramUpdateEvent_1aff81843add10affb0a237f7e79a6098d" prot="public" virt="non-virtual"><scope>HistogramUpdateEvent</scope><name>~HistogramUpdateEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

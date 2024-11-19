@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="thrift__application__base_8h" kind="file" language="C++">
+    <compoundname>thrift_application_base.h</compoundname>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2api_8h" local="no">gnuradio/api.h</includes>
+    <includes refid="logger_8h" local="no">gnuradio/logger.h</includes>
+    <includes refid="prefs_8h" local="no">gnuradio/prefs.h</includes>
+    <includes refid="thread_8h" local="no">gnuradio/thread/thread.h</includes>
+    <includes local="no">chrono</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">thread</includes>
+    <includedby refid="thrift__server__template_8h" local="no">thrift_server_template.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="4">
+        <label>gnuradio/logger.h</label>
+        <link refid="logger_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>gnuradio/prefs.h</label>
+        <link refid="prefs_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>gnuradio/thread/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>thrift_application_base.h</label>
+        <link refid="thrift__application__base_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>boost/thread/barrier.hpp</label>
+      </node>
+      <node id="15">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="16">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="17">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="18">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="23">
+        <label>chrono</label>
+      </node>
+      <node id="20">
+        <label>map</label>
+      </node>
+      <node id="9">
+        <label>memory</label>
+      </node>
+      <node id="21">
+        <label>mutex</label>
+      </node>
+      <node id="5">
+        <label>spdlog/common.h</label>
+      </node>
+      <node id="6">
+        <label>spdlog/fmt/fmt.h</label>
+      </node>
+      <node id="7">
+        <label>spdlog/fmt/ostr.h</label>
+      </node>
+      <node id="11">
+        <label>spdlog/sinks/dist_sink.h</label>
+      </node>
+      <node id="10">
+        <label>spdlog/spdlog.h</label>
+      </node>
+      <node id="8">
+        <label>spdlog/version.h</label>
+      </node>
+      <node id="22">
+        <label>string</label>
+      </node>
+      <node id="24">
+        <label>thread</label>
+      </node>
+      <node id="19">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>rpcserver_booter_thrift.h</label>
+        <link refid="rpcserver__booter__thrift_8h"/>
+      </node>
+      <node id="1">
+        <label>thrift_application_base.h</label>
+        <link refid="thrift__application__base_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>thrift_server_template.h</label>
+        <link refid="thrift__server__template_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classthrift__application__base__impl" prot="public">thrift_application_base_impl</innerclass>
+    <innerclass refid="classthrift__application__base" prot="public">thrift_application_base</innerclass>
+    <innernamespace refid="namespaceapache">apache</innernamespace>
+    <innernamespace refid="namespaceapache_1_1thrift">apache::thrift</innernamespace>
+    <innernamespace refid="namespaceapache_1_1thrift_1_1server">apache::thrift::server</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_application_base.h"/>
+  </compounddef>
+</doxygen>

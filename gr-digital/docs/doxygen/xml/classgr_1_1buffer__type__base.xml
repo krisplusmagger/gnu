@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1buffer__type__base" kind="class" language="C++" prot="public">
+    <compoundname>gr::buffer_type_base</compoundname>
+    <derivedcompoundref refid="structgr_1_1buftype" prot="public" virt="non-virtual">gr::buftype&lt; classname, factory_class &gt;</derivedcompoundref>
+    <includes refid="buffer__type_8h" local="no">gnuradio/buffer_type.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgr_1_1buffer__type__base_1a1ea44b95f0c66af30d974fdd01b87240" prot="protected" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string gr::buffer_type_base::d_name</definition>
+        <argsstring></argsstring>
+        <name>d_name</name>
+        <qualifiedname>gr::buffer_type_base::d_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" line="80" column="23" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" bodystart="80" bodyend="-1"/>
+        <referencedby refid="classgr_1_1buffer__type__base_1a51088119434e0ed799e3a2e4d9aa51eb" compoundref="buffer__type_8h" startline="47" endline="50">operator!=</referencedby>
+        <referencedby refid="classgr_1_1buffer__type__base_1afe953b2c3664bd6e1dd7c9e027f5ec50" compoundref="buffer__type_8h" startline="42" endline="45">operator==</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1buffer__type__base_1ad8aad554fb5adc3ac4979ce335791717" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual gr::buffer_type_base::~buffer_type_base</definition>
+        <argsstring>()</argsstring>
+        <name>~buffer_type_base</name>
+        <qualifiedname>gr::buffer_type_base::~buffer_type_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" line="30" column="13" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1buffer__type__base_1ad0db69313a18c047b6efc2de235fb5e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::buffer_type_base::buffer_type_base</definition>
+        <argsstring>(buffer_type_base const &amp;other)</argsstring>
+        <name>buffer_type_base</name>
+        <qualifiedname>gr::buffer_type_base::buffer_type_base</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1buffer__type__base" kindref="compound">buffer_type_base</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" line="37" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1buffer__type__base_1af6808dc24226aca5dc8bf719093ba9be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::buffer_type_base::operator=</definition>
+        <argsstring>(buffer_type_base const &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>gr::buffer_type_base::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1buffer__type__base" kindref="compound">buffer_type_base</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" line="39" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1buffer__type__base_1afe953b2c3664bd6e1dd7c9e027f5ec50" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::buffer_type_base::operator==</definition>
+        <argsstring>(const buffer_type_base &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gr::buffer_type_base::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1buffer__type__base" kindref="compound">buffer_type_base</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" line="42" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" bodystart="42" bodyend="45"/>
+        <references refid="classgr_1_1buffer__type__base_1a1ea44b95f0c66af30d974fdd01b87240" compoundref="buffer__type_8h" startline="80">d_name</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1buffer__type__base_1a51088119434e0ed799e3a2e4d9aa51eb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::buffer_type_base::operator!=</definition>
+        <argsstring>(const buffer_type_base &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gr::buffer_type_base::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1buffer__type__base" kindref="compound">buffer_type_base</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" line="47" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" bodystart="47" bodyend="50"/>
+        <references refid="classgr_1_1buffer__type__base_1a1ea44b95f0c66af30d974fdd01b87240" compoundref="buffer__type_8h" startline="80">d_name</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1buffer__type__base_1abc6340575b5ecf6f9e8ef71bbca9a40c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::buffer_type_base::operator&lt;</definition>
+        <argsstring>(const buffer_type_base &amp;other)=delete</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>gr::buffer_type_base::operator&lt;</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1buffer__type__base" kindref="compound">buffer_type_base</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" line="53" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1buffer__type__base_1ae2ca834856e2347d3c3a2ad240e6678c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::buffer_type_base::operator&gt;</definition>
+        <argsstring>(const buffer_type_base &amp;other)=delete</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>gr::buffer_type_base::operator&gt;</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1buffer__type__base" kindref="compound">buffer_type_base</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" line="54" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1buffer__type__base_1a49752b06265c6cbfa4f0328def602e2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::buffer_type_base::operator&lt;=</definition>
+        <argsstring>(const buffer_type_base &amp;other)=delete</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>gr::buffer_type_base::operator&lt;=</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1buffer__type__base" kindref="compound">buffer_type_base</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" line="55" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1buffer__type__base_1a3b6f4ef420dc2ed00cca2c36e0ef912b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::buffer_type_base::operator&gt;=</definition>
+        <argsstring>(const buffer_type_base &amp;other)=delete</argsstring>
+        <name>operator&gt;=</name>
+        <qualifiedname>gr::buffer_type_base::operator&gt;=</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1buffer__type__base" kindref="compound">buffer_type_base</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" line="56" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1buffer__type__base_1a81bbcdec91d35295a7e35cecb6c5cce5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string &amp; gr::buffer_type_base::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <qualifiedname>gr::buffer_type_base::name</qualifiedname>
+        <briefdescription>
+<para>Get the human-readable name of the type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" line="60" column="23" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1buffer__type__base_1a09bcb7c87443c9be4c9a0e82ce5c2095" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>buffer_sptr</type>
+        <definition>virtual buffer_sptr gr::buffer_type_base::make_buffer</definition>
+        <argsstring>(int nitems, size_t sizeof_item, uint64_t downstream_lcm_nitems, uint32_t downstream_max_out_mult, block_sptr link=block_sptr(), block_sptr buf_owner=block_sptr()) const</argsstring>
+        <name>make_buffer</name>
+        <qualifiedname>gr::buffer_type_base::make_buffer</qualifiedname>
+        <reimplementedby refid="structgr_1_1buftype_1a239fa49d0b42ac297a445d2c054f4e52">make_buffer</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>nitems</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>sizeof_item</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>downstream_lcm_nitems</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>downstream_max_out_mult</declname>
+        </param>
+        <param>
+          <type>block_sptr</type>
+          <declname>link</declname>
+          <defval>block_sptr()</defval>
+        </param>
+        <param>
+          <type>block_sptr</type>
+          <declname>buf_owner</declname>
+          <defval>block_sptr()</defval>
+        </param>
+        <briefdescription>
+<para>Make and return a buffer subclass of the corresponding type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" line="66" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" bodystart="66" bodyend="77"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1buffer__type__base_1a6300757c88f61b84a37d3b5c69f5de0f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::buffer_type_base::buffer_type_base</definition>
+        <argsstring>(const std::string name)</argsstring>
+        <name>buffer_type_base</name>
+        <qualifiedname>gr::buffer_type_base::buffer_type_base</qualifiedname>
+        <param>
+          <type>const std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" line="82" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Base class for describing a buffer&apos;s type. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::buffer_type_base</label>
+        <link refid="classgr_1_1buffer__type__base"/>
+      </node>
+      <node id="2">
+        <label>gr::buftype&lt; classname, factory_class &gt;</label>
+        <link refid="structgr_1_1buftype"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::buffer_type_base</label>
+        <link refid="classgr_1_1buffer__type__base"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>d_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="2">
+        <label>std::string</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" line="27" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/buffer_type.h" bodystart="28" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classgr_1_1buffer__type__base_1ad0db69313a18c047b6efc2de235fb5e2" prot="public" virt="non-virtual"><scope>gr::buffer_type_base</scope><name>buffer_type_base</name></member>
+      <member refid="classgr_1_1buffer__type__base_1a6300757c88f61b84a37d3b5c69f5de0f" prot="protected" virt="non-virtual"><scope>gr::buffer_type_base</scope><name>buffer_type_base</name></member>
+      <member refid="classgr_1_1buffer__type__base_1a1ea44b95f0c66af30d974fdd01b87240" prot="protected" virt="non-virtual"><scope>gr::buffer_type_base</scope><name>d_name</name></member>
+      <member refid="classgr_1_1buffer__type__base_1a09bcb7c87443c9be4c9a0e82ce5c2095" prot="public" virt="virtual"><scope>gr::buffer_type_base</scope><name>make_buffer</name></member>
+      <member refid="classgr_1_1buffer__type__base_1a81bbcdec91d35295a7e35cecb6c5cce5" prot="public" virt="non-virtual"><scope>gr::buffer_type_base</scope><name>name</name></member>
+      <member refid="classgr_1_1buffer__type__base_1a51088119434e0ed799e3a2e4d9aa51eb" prot="public" virt="non-virtual"><scope>gr::buffer_type_base</scope><name>operator!=</name></member>
+      <member refid="classgr_1_1buffer__type__base_1abc6340575b5ecf6f9e8ef71bbca9a40c" prot="public" virt="non-virtual"><scope>gr::buffer_type_base</scope><name>operator&lt;</name></member>
+      <member refid="classgr_1_1buffer__type__base_1a49752b06265c6cbfa4f0328def602e2c" prot="public" virt="non-virtual"><scope>gr::buffer_type_base</scope><name>operator&lt;=</name></member>
+      <member refid="classgr_1_1buffer__type__base_1af6808dc24226aca5dc8bf719093ba9be" prot="public" virt="non-virtual"><scope>gr::buffer_type_base</scope><name>operator=</name></member>
+      <member refid="classgr_1_1buffer__type__base_1afe953b2c3664bd6e1dd7c9e027f5ec50" prot="public" virt="non-virtual"><scope>gr::buffer_type_base</scope><name>operator==</name></member>
+      <member refid="classgr_1_1buffer__type__base_1ae2ca834856e2347d3c3a2ad240e6678c" prot="public" virt="non-virtual"><scope>gr::buffer_type_base</scope><name>operator&gt;</name></member>
+      <member refid="classgr_1_1buffer__type__base_1a3b6f4ef420dc2ed00cca2c36e0ef912b" prot="public" virt="non-virtual"><scope>gr::buffer_type_base</scope><name>operator&gt;=</name></member>
+      <member refid="classgr_1_1buffer__type__base_1ad8aad554fb5adc3ac4979ce335791717" prot="public" virt="virtual"><scope>gr::buffer_type_base</scope><name>~buffer_type_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

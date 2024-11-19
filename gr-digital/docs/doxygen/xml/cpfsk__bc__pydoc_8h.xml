@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="cpfsk__bc__pydoc_8h" kind="file" language="C++">
+    <compoundname>cpfsk_bc_pydoc.h</compoundname>
+    <includes refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>cpfsk_bc_pydoc.h</label>
+        <link refid="cpfsk__bc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="cpfsk__bc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, analog, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="cpfsk__bc__pydoc_8h_1a23d90b58fa69489a5a5e56ec46cf3df5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_cpfsk_bc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_cpfsk_bc</name>
+        <initializer>= R&quot;doc(Perform continuous phase 2-level frequency shift keying modulation on an input stream of unpacked bits.
+
+Constructor Specific Documentation:
+
+Make a CPFSK block.
+
+Args:
+    k : modulation index
+    ampl : output amplitude
+    samples_per_sym : number of output samples per input bit)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpfsk__bc__pydoc_8h_1ae3bc777a2b4886b9cc9388f613db3c5e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_cpfsk_bc_cpfsk_bc_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_cpfsk_bc_cpfsk_bc_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" line="30" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpfsk__bc__pydoc_8h_1a6d035ca6d7ad9c1acb319f1d53ba71ba" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_cpfsk_bc_cpfsk_bc_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_cpfsk_bc_cpfsk_bc_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpfsk__bc__pydoc_8h_1a16d52426ad489c3014cf4fcee3514873" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_cpfsk_bc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_cpfsk_bc_make</name>
+        <initializer>= R&quot;doc(Perform continuous phase 2-level frequency shift keying modulation on an input stream of unpacked bits.
+
+Constructor Specific Documentation:
+
+Make a CPFSK block.
+
+Args:
+    k : modulation index
+    ampl : output amplitude
+    samples_per_sym : number of output samples per input bit)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpfsk__bc__pydoc_8h_1ab8a792f6c91ed6ed8964c36442fc05d7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_cpfsk_bc_set_amplitude</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_cpfsk_bc_set_amplitude</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpfsk__bc__pydoc_8h_1a5676d402345cd1b771fb79f7e49a3c29" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_cpfsk_bc_amplitude</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_cpfsk_bc_amplitude</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpfsk__bc__pydoc_8h_1a1ea38b08e89cdc7f056f9fb4c3d83ebc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_cpfsk_bc_freq</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_cpfsk_bc_freq</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" line="54" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpfsk__bc__pydoc_8h_1a48cf6bc1b655b92a48f0c8f43cff9936" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_cpfsk_bc_phase</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_cpfsk_bc_phase</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" line="57" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpfsk_bc_pydoc.h"/>
+  </compounddef>
+</doxygen>

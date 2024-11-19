@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1fft_1_1planner" kind="class" language="C++" prot="public">
+    <compoundname>gr::fft::planner</compoundname>
+    <includes refid="fft_8h" local="no">gnuradio/fft/fft.h</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1fft_1_1planner_1ac9be06d762c9a77e31044dd592fe65d5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::mutex &amp;</type>
+        <definition>static std::mutex &amp; gr::fft::planner::mutex</definition>
+        <argsstring>()</argsstring>
+        <name>mutex</name>
+        <qualifiedname>gr::fft::planner::mutex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return reference to planner mutex </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="37" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Export reference to planner mutex for those apps that want to use FFTW w/o using the fft_impl_fftw* classes. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="31" column="1" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="32" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classgr_1_1fft_1_1planner_1ac9be06d762c9a77e31044dd592fe65d5" prot="public" virt="non-virtual"><scope>gr::fft::planner</scope><name>mutex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

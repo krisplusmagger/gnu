@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1custom__lock__if" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::custom_lock_if</compoundname>
+    <derivedcompoundref refid="classgr_1_1buffer" prot="public" virt="non-virtual">gr::buffer</derivedcompoundref>
+    <includes refid="custom__lock_8h" local="no">gnuradio/custom_lock.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1custom__lock__if_1a4584fd142418e846054e5e4bb21bf729" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual gr::custom_lock_if::~custom_lock_if</definition>
+        <argsstring>()</argsstring>
+        <name>~custom_lock_if</name>
+        <qualifiedname>gr::custom_lock_if::~custom_lock_if</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/custom_lock.h" line="29" column="13" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/custom_lock.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1custom__lock__if_1a635151b55d5f9d3a32a3eeeaa0f70b7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::custom_lock_if::on_lock</definition>
+        <argsstring>(gr::thread::scoped_lock &amp;lock)=0</argsstring>
+        <name>on_lock</name>
+        <qualifiedname>gr::custom_lock_if::on_lock</qualifiedname>
+        <reimplementedby refid="classgr_1_1buffer_1acd0478ad163d735f6d11bdeaa264087d">on_lock</reimplementedby>
+        <param>
+          <type><ref refid="namespacegr_1_1thread_1a52544c0aefde22b130e0beabece1683b" kindref="member">gr::thread::scoped_lock</ref> &amp;</type>
+          <declname>lock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will be executed on construction of the custom lock. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/custom_lock.h" line="34" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1custom__lock__if_1a10f842111515022eb36b7481f41b6dbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::custom_lock_if::on_unlock</definition>
+        <argsstring>()=0</argsstring>
+        <name>on_unlock</name>
+        <qualifiedname>gr::custom_lock_if::on_unlock</qualifiedname>
+        <reimplementedby refid="classgr_1_1buffer_1a8bdc182def9a32d696a7f47e2eee6fc1">on_unlock</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will be executed on destruction of the custom lock. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/custom_lock.h" line="39" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Custom lock interface. Objects should implement this interface in order to use the <ref refid="classgr_1_1custom__lock" kindref="compound">custom_lock</ref> object below. The interface defines two functions that, as their names suggest, are called when the lock is locked and unlocked respectively. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::buffer</label>
+        <link refid="classgr_1_1buffer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::buffer_double_mapped</label>
+        <link refid="classgr_1_1buffer__double__mapped"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gr::buffer_single_mapped</label>
+        <link refid="classgr_1_1buffer__single__mapped"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::custom_lock_if</label>
+        <link refid="classgr_1_1custom__lock__if"/>
+      </node>
+      <node id="5">
+        <label>gr::host_buffer</label>
+        <link refid="classgr_1_1host__buffer"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/custom_lock.h" line="26" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/custom_lock.h" bodystart="27" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classgr_1_1custom__lock__if_1a635151b55d5f9d3a32a3eeeaa0f70b7a" prot="public" virt="pure-virtual"><scope>gr::custom_lock_if</scope><name>on_lock</name></member>
+      <member refid="classgr_1_1custom__lock__if_1a10f842111515022eb36b7481f41b6dbb" prot="public" virt="pure-virtual"><scope>gr::custom_lock_if</scope><name>on_unlock</name></member>
+      <member refid="classgr_1_1custom__lock__if_1a4584fd142418e846054e5e4bb21bf729" prot="public" virt="virtual"><scope>gr::custom_lock_if</scope><name>~custom_lock_if</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

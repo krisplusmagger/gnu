@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="udp__source__pydoc_8h" kind="file" language="C++">
+    <compoundname>udp_source_pydoc.h</compoundname>
+    <includes refid="build_2gr-network_2python_2network_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-network_2python_2network_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>udp_source_pydoc.h</label>
+        <link refid="udp__source__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="udp__source__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, network, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/udp_source_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/udp_source_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="udp__source__pydoc_8h_1a86f6d7711560f6ff50e43e355aadbe50" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_network_udp_source</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_network_udp_source</name>
+        <initializer>= R&quot;doc(This block provides a UDP source block that starts a listener on the specified port and waits for inbound UDP packets.
+
+This block provides a UDP source that supports receiving data over a UDP stream from external applications. A number of header formats are supported including None (raw stream), and other header formats that allow for sequence numbers to be tracked. This feature allows the flowgraph to be aware of any frames dropped in transit or by its receiving stack. However, this needs to be appropriately paired with the sending application (it needs to send the same header). The UDP packet size can also be adjusted to support jumbo frames. For most networks, 1472 is the correct UDP data packet size that optimizes network transmission. Adjusting this value without a full understanding of the network implications can create additional network fragmentation and inefficient packet usage so should be avoided. For networks and endpoints supporting jumbo frames of 9000, 8972 would be the appropriate size (9000 - 28 header bytes). This block does support IPv4 only or dual stack IPv4/IPv6 listening as an endpoint with an enable IPv6 option that can be set on the block properties page. It can also be set to source zeros (no signal) in the event no data is being received.
+
+Constructor Specific Documentation:
+
+Build a udp_source block.
+
+Args:
+    itemsize : 
+    vecLen : 
+    port : 
+    header_type : 
+    payloadsize : 
+    notify_missed : 
+    source_zeros : 
+    ipv6 : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/udp_source_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/udp_source_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="udp__source__pydoc_8h_1ab0394ec83078370bc29e47bc41b16ea9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_network_udp_source_udp_source</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_network_udp_source_udp_source</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/udp_source_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/udp_source_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="udp__source__pydoc_8h_1a2e84196d11dfc655b5f5f575df0e0b0f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_network_udp_source_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_network_udp_source_make</name>
+        <initializer>= R&quot;doc(This block provides a UDP source block that starts a listener on the specified port and waits for inbound UDP packets.
+
+This block provides a UDP source that supports receiving data over a UDP stream from external applications. A number of header formats are supported including None (raw stream), and other header formats that allow for sequence numbers to be tracked. This feature allows the flowgraph to be aware of any frames dropped in transit or by its receiving stack. However, this needs to be appropriately paired with the sending application (it needs to send the same header). The UDP packet size can also be adjusted to support jumbo frames. For most networks, 1472 is the correct UDP data packet size that optimizes network transmission. Adjusting this value without a full understanding of the network implications can create additional network fragmentation and inefficient packet usage so should be avoided. For networks and endpoints supporting jumbo frames of 9000, 8972 would be the appropriate size (9000 - 28 header bytes). This block does support IPv4 only or dual stack IPv4/IPv6 listening as an endpoint with an enable IPv6 option that can be set on the block properties page. It can also be set to source zeros (no signal) in the event no data is being received.
+
+Constructor Specific Documentation:
+
+Build a udp_source block.
+
+Args:
+    itemsize : 
+    vecLen : 
+    port : 
+    header_type : 
+    payloadsize : 
+    notify_missed : 
+    source_zeros : 
+    ipv6 : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/udp_source_pydoc.h" line="40" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/udp_source_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/udp_source_pydoc.h"/>
+  </compounddef>
+</doxygen>

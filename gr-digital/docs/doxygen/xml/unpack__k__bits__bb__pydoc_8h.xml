@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="unpack__k__bits__bb__pydoc_8h" kind="file" language="C++">
+    <compoundname>unpack_k_bits_bb_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>unpack_k_bits_bb_pydoc.h</label>
+        <link refid="unpack__k__bits__bb__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="unpack__k__bits__bb__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/unpack_k_bits_bb_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/unpack_k_bits_bb_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="unpack__k__bits__bb__pydoc_8h_1a60ae6aa361343c56f5b2ce861d234cc8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_unpack_k_bits_bb</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_unpack_k_bits_bb</name>
+        <initializer>= R&quot;doc(Converts a byte with k relevant bits to k output bytes with 1 bit in the LSB.
+
+This block picks the K least significant bits from a byte, and expands them into K bytes of 0 or 1.
+
+
+Example: k = 4 in = [0xf5, 0x08] out = [0,1,0,1, 1,0,0,0]
+
+Constructor Specific Documentation:
+
+Make an unpack_k_bits block.
+
+Args:
+    k : number of bits to unpack.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/unpack_k_bits_bb_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/unpack_k_bits_bb_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unpack__k__bits__bb__pydoc_8h_1a24c334e122cc9dc41e0c433b65e1ee58" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_unpack_k_bits_bb_unpack_k_bits_bb</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_unpack_k_bits_bb_unpack_k_bits_bb</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/unpack_k_bits_bb_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/unpack_k_bits_bb_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unpack__k__bits__bb__pydoc_8h_1a27a8c2ce92dd58c42592e3159a112768" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_unpack_k_bits_bb_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_unpack_k_bits_bb_make</name>
+        <initializer>= R&quot;doc(Converts a byte with k relevant bits to k output bytes with 1 bit in the LSB.
+
+This block picks the K least significant bits from a byte, and expands them into K bytes of 0 or 1.
+
+
+Example: k = 4 in = [0xf5, 0x08] out = [0,1,0,1, 1,0,0,0]
+
+Constructor Specific Documentation:
+
+Make an unpack_k_bits block.
+
+Args:
+    k : number of bits to unpack.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/unpack_k_bits_bb_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/unpack_k_bits_bb_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/unpack_k_bits_bb_pydoc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1channels" kind="namespace" language="C++">
+    <compoundname>gr::channels</compoundname>
+    <innerclass refid="classgr_1_1channels_1_1cfo__model" prot="public">gr::channels::cfo_model</innerclass>
+    <innerclass refid="classgr_1_1channels_1_1channel__model" prot="public">gr::channels::channel_model</innerclass>
+    <innerclass refid="classgr_1_1channels_1_1channel__model2" prot="public">gr::channels::channel_model2</innerclass>
+    <innerclass refid="classgr_1_1channels_1_1dynamic__channel__model" prot="public">gr::channels::dynamic_channel_model</innerclass>
+    <innerclass refid="classgr_1_1channels_1_1fading__model" prot="public">gr::channels::fading_model</innerclass>
+    <innerclass refid="classgr_1_1channels_1_1selective__fading__model" prot="public">gr::channels::selective_fading_model</innerclass>
+    <innerclass refid="classgr_1_1channels_1_1selective__fading__model2" prot="public">gr::channels::selective_fading_model2</innerclass>
+    <innerclass refid="classgr_1_1channels_1_1sro__model" prot="public">gr::channels::sro_model</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacegr_1_1channels_1ad111f149b296e29e36e39c57e626eeab" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr float</type>
+        <definition>constexpr float gr::channels::default_delays[]</definition>
+        <argsstring>[]</argsstring>
+        <name>default_delays</name>
+        <qualifiedname>gr::channels::default_delays</qualifiedname>
+        <initializer>= { 0.0, 0.1, 0.5 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-channels/include/gnuradio/channels/selective_fading_model.h" line="21" column="17" bodyfile="/home/desktop2/gnuradio/gr-channels/include/gnuradio/channels/selective_fading_model.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1channels_1a0888f56a68092366cca2aae78c2ad761" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr float</type>
+        <definition>constexpr float gr::channels::default_mags[]</definition>
+        <argsstring>[]</argsstring>
+        <name>default_mags</name>
+        <qualifiedname>gr::channels::default_mags</qualifiedname>
+        <initializer>= { 1.0, 0.8, 0.3 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-channels/include/gnuradio/channels/selective_fading_model.h" line="22" column="17" bodyfile="/home/desktop2/gnuradio/gr-channels/include/gnuradio/channels/selective_fading_model.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1channels_1af44fd9f586da31301202933aac9663eb" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr float</type>
+        <definition>constexpr float gr::channels::default_delays2[]</definition>
+        <argsstring>[]</argsstring>
+        <name>default_delays2</name>
+        <qualifiedname>gr::channels::default_delays2</qualifiedname>
+        <initializer>= { 1.0, 1.9, 2.7 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-channels/include/gnuradio/channels/selective_fading_model2.h" line="21" column="17" bodyfile="/home/desktop2/gnuradio/gr-channels/include/gnuradio/channels/selective_fading_model2.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1channels_1a258c68cbc9feec6321dd4bc0455301f7" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr float</type>
+        <definition>constexpr float gr::channels::default_mags2[]</definition>
+        <argsstring>[]</argsstring>
+        <name>default_mags2</name>
+        <qualifiedname>gr::channels::default_mags2</qualifiedname>
+        <initializer>= { 1.0, 0.95, 0.8 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-channels/include/gnuradio/channels/selective_fading_model2.h" line="22" column="17" bodyfile="/home/desktop2/gnuradio/gr-channels/include/gnuradio/channels/selective_fading_model2.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-channels/include/gnuradio/channels/cfo_model.h" line="19" column="1"/>
+  </compounddef>
+</doxygen>

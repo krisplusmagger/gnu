@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="iio__types_8h" kind="file" language="C++">
+    <compoundname>iio_types.h</compoundname>
+    <includes refid="gr-iio_2include_2gnuradio_2iio_2api_8h" local="no">gnuradio/iio/api.h</includes>
+    <includes local="no">charconv</includes>
+    <includes local="no">string</includes>
+    <includes local="no">variant</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="attr__sink_8h" local="no">attr_sink.h</includedby>
+    <includedby refid="attr__source_8h" local="no">attr_source.h</includedby>
+    <includedby refid="device__sink_8h" local="no">device_sink.h</includedby>
+    <includedby refid="device__source_8h" local="no">device_source.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="2">
+        <label>gnuradio/iio/api.h</label>
+        <link refid="gr-iio_2include_2gnuradio_2iio_2api_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>iio_types.h</label>
+        <link refid="iio__types_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>charconv</label>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>variant</label>
+      </node>
+      <node id="7">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>attr_sink.h</label>
+        <link refid="attr__sink_8h"/>
+      </node>
+      <node id="3">
+        <label>attr_source.h</label>
+        <link refid="attr__source_8h"/>
+      </node>
+      <node id="4">
+        <label>device_sink.h</label>
+        <link refid="device__sink_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>device_source.h</label>
+        <link refid="device__source_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>fmcomms2_sink.h</label>
+        <link refid="fmcomms2__sink_8h"/>
+      </node>
+      <node id="7">
+        <label>fmcomms2_source.h</label>
+        <link refid="fmcomms2__source_8h"/>
+      </node>
+      <node id="1">
+        <label>iio_types.h</label>
+        <link refid="iio__types_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1iio_1_1iio__param__t" prot="public">gr::iio::iio_param_t</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1iio">gr::iio</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-iio/include/gnuradio/iio/iio_types.h"/>
+  </compounddef>
+</doxygen>

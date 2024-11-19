@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="rfnoc__siggen__pydoc_8h" kind="file" language="C++">
+    <compoundname>rfnoc_siggen_pydoc.h</compoundname>
+    <includes refid="build_2gr-uhd_2python_2uhd_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-uhd_2python_2uhd_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>rfnoc_siggen_pydoc.h</label>
+        <link refid="rfnoc__siggen__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="rfnoc__siggen__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, uhd, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1aad9c7d90199ed7a68edf897bae1c81f1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen</name>
+        <initializer>= R&quot;doc(RFNoC Signal Generator Block
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    graph : Reference to the rfnoc_graph object this block is attached to
+    block_args : Additional block arguments
+    device_select : Device Selection
+    instance : Instance Selection)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1a56d7a3b02c06d6f5d9f9a49babff9899" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen_make</name>
+        <initializer>= R&quot;doc(RFNoC Signal Generator Block
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    graph : Reference to the rfnoc_graph object this block is attached to
+    block_args : Additional block arguments
+    device_select : Device Selection
+    instance : Instance Selection)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="31" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1a702f2502d7d12b62cf42cd42501a6c66" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen_set_amplitude</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen_set_amplitude</name>
+        <initializer>= R&quot;doc(Set the amplitude of the signal)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="44" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1a3192b0e7b8487baf2a455ee594410173" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen_get_amplitude</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen_get_amplitude</name>
+        <initializer>= R&quot;doc(Get the amplitude of the signal)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="47" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1a288916831304b398ab96b793d5f9d93c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen_set_constant</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen_set_constant</name>
+        <initializer>= R&quot;doc(Set a complex constant of the signal)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1ab1928f4de5d46f8b81a0db914a450afd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen_get_constant</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen_get_constant</name>
+        <initializer>= R&quot;doc(Get the complex constant of the signal)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1ac4f304608666ce12b2fcc938ff8116ad" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen_set_enable</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen_set_enable</name>
+        <initializer>= R&quot;doc(Enable the channel)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="56" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1a1c7dbde969fde80924ec3fc29899b454" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen_get_enable</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen_get_enable</name>
+        <initializer>= R&quot;doc(Get the channel enable state)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="59" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1a38316fa366e6f1e7a60e0aa741715cd6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen_set_sine_frequency</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen_set_sine_frequency</name>
+        <initializer>= R&quot;doc(Set the sine frequency in terms of the sample_rate)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="62" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1ae59122ca7026d2dd05f72eb335318b9e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen_set_sine_phase_increment</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen_set_sine_phase_increment</name>
+        <initializer>= R&quot;doc(Set the sine frequency phase increment)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="65" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1a60d349e82f24536468fa4e7e861347e2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen_get_sine_phase_increment</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen_get_sine_phase_increment</name>
+        <initializer>= R&quot;doc(Get the sine frequency phase increment)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="68" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1afbf3639b61c2159e18111cbc7218959b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen_set_waveform</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen_set_waveform</name>
+        <initializer>= R&quot;doc(Set the type of waveform using the siggen_waveform class)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="71" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1ad7d51b634a8d6012ab5bb056f907fa1c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen_get_waveform_string</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen_get_waveform_string</name>
+        <initializer>= R&quot;doc(Get the type of waveform as a string)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="74" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1ad52c17b1a976fd64083c119bdacd3bb6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen_get_waveform</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen_get_waveform</name>
+        <initializer>= R&quot;doc(Get the waveform)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="77" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1a2333e9698eb3d3b6207a8572801a804f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen_set_samples_per_packet</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen_set_samples_per_packet</name>
+        <initializer>= R&quot;doc(Set the number of samples per packet)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="80" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__siggen__pydoc_8h_1ae0a286bba4fbbf9c2386e3c0c72ceda0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_siggen_get_samples_per_packet</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_siggen_get_samples_per_packet</name>
+        <initializer>= R&quot;doc(Get the number of samples per packet)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" line="83" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_siggen_pydoc.h"/>
+  </compounddef>
+</doxygen>

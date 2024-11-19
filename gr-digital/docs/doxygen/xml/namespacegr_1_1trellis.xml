@@ -1,0 +1,1742 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1trellis" kind="namespace" language="C++">
+    <compoundname>gr::trellis</compoundname>
+    <innerclass refid="classgr_1_1trellis_1_1constellation__metrics__cf" prot="public">gr::trellis::constellation_metrics_cf</innerclass>
+    <innerclass refid="classgr_1_1trellis_1_1encoder" prot="public">gr::trellis::encoder</innerclass>
+    <innerclass refid="classgr_1_1trellis_1_1fsm" prot="public">gr::trellis::fsm</innerclass>
+    <innerclass refid="classgr_1_1trellis_1_1interleaver" prot="public">gr::trellis::interleaver</innerclass>
+    <innerclass refid="classgr_1_1trellis_1_1metrics" prot="public">gr::trellis::metrics</innerclass>
+    <innerclass refid="classgr_1_1trellis_1_1pccc__decoder__blk" prot="public">gr::trellis::pccc_decoder_blk</innerclass>
+    <innerclass refid="classgr_1_1trellis_1_1pccc__decoder__combined__blk" prot="public">gr::trellis::pccc_decoder_combined_blk</innerclass>
+    <innerclass refid="classgr_1_1trellis_1_1pccc__encoder" prot="public">gr::trellis::pccc_encoder</innerclass>
+    <innerclass refid="classgr_1_1trellis_1_1permutation" prot="public">gr::trellis::permutation</innerclass>
+    <innerclass refid="classgr_1_1trellis_1_1sccc__decoder__blk" prot="public">gr::trellis::sccc_decoder_blk</innerclass>
+    <innerclass refid="classgr_1_1trellis_1_1sccc__decoder__combined__blk" prot="public">gr::trellis::sccc_decoder_combined_blk</innerclass>
+    <innerclass refid="classgr_1_1trellis_1_1sccc__encoder" prot="public">gr::trellis::sccc_encoder</innerclass>
+    <innerclass refid="classgr_1_1trellis_1_1siso__combined__f" prot="public">gr::trellis::siso_combined_f</innerclass>
+    <innerclass refid="classgr_1_1trellis_1_1siso__f" prot="public">gr::trellis::siso_f</innerclass>
+    <innerclass refid="classgr_1_1trellis_1_1viterbi" prot="public">gr::trellis::viterbi</innerclass>
+    <innerclass refid="classgr_1_1trellis_1_1viterbi__combined" prot="public">gr::trellis::viterbi_combined</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacegr_1_1trellis_1a81bf88f927ae66cf1a73a9d5b1444a8f" prot="public" static="no" strong="no">
+        <type></type>
+        <name>siso_type_t</name>
+        <qualifiedname>gr::trellis::siso_type_t</qualifiedname>
+        <enumvalue id="namespacegr_1_1trellis_1a81bf88f927ae66cf1a73a9d5b1444a8fab539e706dfc3be1040c40fecb0ec358e" prot="public">
+          <name>TRELLIS_MIN_SUM</name>
+          <initializer>= 200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1trellis_1a81bf88f927ae66cf1a73a9d5b1444a8fae0e52b1a65c47be1e123d240ca5dc73e" prot="public">
+          <name>TRELLIS_SUM_PRODUCT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/siso_type.h" line="17" column="1" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/siso_type.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a0ecef116e29a00a564a3269e07111358" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1encoder" kindref="compound">encoder</ref>&lt; std::uint8_t, std::uint8_t &gt;</type>
+        <definition>typedef encoder&lt;std::uint8_t, std::uint8_t&gt; gr::trellis::encoder_bb</definition>
+        <argsstring></argsstring>
+        <name>encoder_bb</name>
+        <qualifiedname>gr::trellis::encoder_bb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/encoder.h" line="41" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/encoder.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a783370446d24f64f681a6e8c9b53e06e" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1encoder" kindref="compound">encoder</ref>&lt; std::uint8_t, std::int16_t &gt;</type>
+        <definition>typedef encoder&lt;std::uint8_t, std::int16_t&gt; gr::trellis::encoder_bs</definition>
+        <argsstring></argsstring>
+        <name>encoder_bs</name>
+        <qualifiedname>gr::trellis::encoder_bs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/encoder.h" line="42" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/encoder.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a1845ff25cc0e6ee08c293362f914a6e4" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1encoder" kindref="compound">encoder</ref>&lt; std::uint8_t, std::int32_t &gt;</type>
+        <definition>typedef encoder&lt;std::uint8_t, std::int32_t&gt; gr::trellis::encoder_bi</definition>
+        <argsstring></argsstring>
+        <name>encoder_bi</name>
+        <qualifiedname>gr::trellis::encoder_bi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/encoder.h" line="43" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/encoder.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1ab7299c949ae26cbae2d17bd2f32e4dad" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1encoder" kindref="compound">encoder</ref>&lt; std::int16_t, std::int16_t &gt;</type>
+        <definition>typedef encoder&lt;std::int16_t, std::int16_t&gt; gr::trellis::encoder_ss</definition>
+        <argsstring></argsstring>
+        <name>encoder_ss</name>
+        <qualifiedname>gr::trellis::encoder_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/encoder.h" line="44" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/encoder.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1ad859f89c54f83272af28a84c5aaabdda" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1encoder" kindref="compound">encoder</ref>&lt; std::int16_t, std::int32_t &gt;</type>
+        <definition>typedef encoder&lt;std::int16_t, std::int32_t&gt; gr::trellis::encoder_si</definition>
+        <argsstring></argsstring>
+        <name>encoder_si</name>
+        <qualifiedname>gr::trellis::encoder_si</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/encoder.h" line="45" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/encoder.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a742132d85bc6afff0e1a1790d4be0a2b" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1encoder" kindref="compound">encoder</ref>&lt; std::int32_t, std::int32_t &gt;</type>
+        <definition>typedef encoder&lt;std::int32_t, std::int32_t&gt; gr::trellis::encoder_ii</definition>
+        <argsstring></argsstring>
+        <name>encoder_ii</name>
+        <qualifiedname>gr::trellis::encoder_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/encoder.h" line="46" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/encoder.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a6436293714605771481361eb58cc188e" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1metrics" kindref="compound">metrics</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef metrics&lt;std::int16_t&gt; gr::trellis::metrics_s</definition>
+        <argsstring></argsstring>
+        <name>metrics_s</name>
+        <qualifiedname>gr::trellis::metrics_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/metrics.h" line="49" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/metrics.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1aafb8c827cb4e730e13e6b090f2fff551" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1metrics" kindref="compound">metrics</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef metrics&lt;std::int32_t&gt; gr::trellis::metrics_i</definition>
+        <argsstring></argsstring>
+        <name>metrics_i</name>
+        <qualifiedname>gr::trellis::metrics_i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/metrics.h" line="50" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/metrics.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a6d594bf401a7c6f714e33bf98e2f686b" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1metrics" kindref="compound">metrics</ref>&lt; float &gt;</type>
+        <definition>typedef metrics&lt;float&gt; gr::trellis::metrics_f</definition>
+        <argsstring></argsstring>
+        <name>metrics_f</name>
+        <qualifiedname>gr::trellis::metrics_f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/metrics.h" line="51" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/metrics.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a5a80e73397f87cb9989a9ab75a548a40" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1metrics" kindref="compound">metrics</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef metrics&lt;gr_complex&gt; gr::trellis::metrics_c</definition>
+        <argsstring></argsstring>
+        <name>metrics_c</name>
+        <qualifiedname>gr::trellis::metrics_c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/metrics.h" line="52" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/metrics.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a366464b28360c569045d827a0524a98e" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1pccc__decoder__blk" kindref="compound">pccc_decoder_blk</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef pccc_decoder_blk&lt;std::uint8_t&gt; gr::trellis::pccc_decoder_b</definition>
+        <argsstring></argsstring>
+        <name>pccc_decoder_b</name>
+        <qualifiedname>gr::trellis::pccc_decoder_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_blk.h" line="59" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_blk.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1afe6c64621a63c9d95322e6d93b2679ee" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1pccc__decoder__blk" kindref="compound">pccc_decoder_blk</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef pccc_decoder_blk&lt;std::int16_t&gt; gr::trellis::pccc_decoder_s</definition>
+        <argsstring></argsstring>
+        <name>pccc_decoder_s</name>
+        <qualifiedname>gr::trellis::pccc_decoder_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_blk.h" line="60" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_blk.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a31b3991265700bd18163359ad11f93c2" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1pccc__decoder__blk" kindref="compound">pccc_decoder_blk</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef pccc_decoder_blk&lt;std::int32_t&gt; gr::trellis::pccc_decoder_i</definition>
+        <argsstring></argsstring>
+        <name>pccc_decoder_i</name>
+        <qualifiedname>gr::trellis::pccc_decoder_i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_blk.h" line="61" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_blk.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a19a1bccd9c47933ec21e4855af910815" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1pccc__decoder__combined__blk" kindref="compound">pccc_decoder_combined_blk</ref>&lt; float, std::uint8_t &gt;</type>
+        <definition>typedef pccc_decoder_combined_blk&lt;float, std::uint8_t&gt; gr::trellis::pccc_decoder_combined_fb</definition>
+        <argsstring></argsstring>
+        <name>pccc_decoder_combined_fb</name>
+        <qualifiedname>gr::trellis::pccc_decoder_combined_fb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_combined_blk.h" line="67" column="35" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_combined_blk.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a84c9e6f63b021920f818c3c80f8afc27" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1pccc__decoder__combined__blk" kindref="compound">pccc_decoder_combined_blk</ref>&lt; float, std::int16_t &gt;</type>
+        <definition>typedef pccc_decoder_combined_blk&lt;float, std::int16_t&gt; gr::trellis::pccc_decoder_combined_fs</definition>
+        <argsstring></argsstring>
+        <name>pccc_decoder_combined_fs</name>
+        <qualifiedname>gr::trellis::pccc_decoder_combined_fs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_combined_blk.h" line="68" column="35" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_combined_blk.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a5118715aa8bc3b10dc5e908cdee05547" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1pccc__decoder__combined__blk" kindref="compound">pccc_decoder_combined_blk</ref>&lt; float, std::int32_t &gt;</type>
+        <definition>typedef pccc_decoder_combined_blk&lt;float, std::int32_t&gt; gr::trellis::pccc_decoder_combined_fi</definition>
+        <argsstring></argsstring>
+        <name>pccc_decoder_combined_fi</name>
+        <qualifiedname>gr::trellis::pccc_decoder_combined_fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_combined_blk.h" line="69" column="35" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_combined_blk.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1ac2feb3f9ff9b4e544cbf8646e1f6257d" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1pccc__decoder__combined__blk" kindref="compound">pccc_decoder_combined_blk</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, std::uint8_t &gt;</type>
+        <definition>typedef pccc_decoder_combined_blk&lt;gr_complex, std::uint8_t&gt; gr::trellis::pccc_decoder_combined_cb</definition>
+        <argsstring></argsstring>
+        <name>pccc_decoder_combined_cb</name>
+        <qualifiedname>gr::trellis::pccc_decoder_combined_cb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_combined_blk.h" line="70" column="35" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_combined_blk.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1af10e0bea33059cf75c29472d391e64bf" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1pccc__decoder__combined__blk" kindref="compound">pccc_decoder_combined_blk</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, std::int16_t &gt;</type>
+        <definition>typedef pccc_decoder_combined_blk&lt;gr_complex, std::int16_t&gt; gr::trellis::pccc_decoder_combined_cs</definition>
+        <argsstring></argsstring>
+        <name>pccc_decoder_combined_cs</name>
+        <qualifiedname>gr::trellis::pccc_decoder_combined_cs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_combined_blk.h" line="71" column="35" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_combined_blk.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a6f640cc4a1ab61597d5379451ea229e1" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1pccc__decoder__combined__blk" kindref="compound">pccc_decoder_combined_blk</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, std::int32_t &gt;</type>
+        <definition>typedef pccc_decoder_combined_blk&lt;gr_complex, std::int32_t&gt; gr::trellis::pccc_decoder_combined_ci</definition>
+        <argsstring></argsstring>
+        <name>pccc_decoder_combined_ci</name>
+        <qualifiedname>gr::trellis::pccc_decoder_combined_ci</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_combined_blk.h" line="72" column="35" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_decoder_combined_blk.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a4a2d520ab111e73f9a7aaadb77a269cc" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1pccc__encoder" kindref="compound">pccc_encoder</ref>&lt; std::uint8_t, std::uint8_t &gt;</type>
+        <definition>typedef pccc_encoder&lt;std::uint8_t, std::uint8_t&gt; gr::trellis::pccc_encoder_bb</definition>
+        <argsstring></argsstring>
+        <name>pccc_encoder_bb</name>
+        <qualifiedname>gr::trellis::pccc_encoder_bb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_encoder.h" line="48" column="22" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_encoder.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1ae49d7d85873f9254bb8db922b9b4a9f8" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1pccc__encoder" kindref="compound">pccc_encoder</ref>&lt; std::uint8_t, std::int16_t &gt;</type>
+        <definition>typedef pccc_encoder&lt;std::uint8_t, std::int16_t&gt; gr::trellis::pccc_encoder_bs</definition>
+        <argsstring></argsstring>
+        <name>pccc_encoder_bs</name>
+        <qualifiedname>gr::trellis::pccc_encoder_bs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_encoder.h" line="49" column="22" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_encoder.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a863cedf2e044216e7e2d4c83916e83b7" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1pccc__encoder" kindref="compound">pccc_encoder</ref>&lt; std::uint8_t, std::int32_t &gt;</type>
+        <definition>typedef pccc_encoder&lt;std::uint8_t, std::int32_t&gt; gr::trellis::pccc_encoder_bi</definition>
+        <argsstring></argsstring>
+        <name>pccc_encoder_bi</name>
+        <qualifiedname>gr::trellis::pccc_encoder_bi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_encoder.h" line="50" column="22" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_encoder.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a7c5b889b752fefa5ffa18ae6407bd13d" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1pccc__encoder" kindref="compound">pccc_encoder</ref>&lt; std::int16_t, std::int16_t &gt;</type>
+        <definition>typedef pccc_encoder&lt;std::int16_t, std::int16_t&gt; gr::trellis::pccc_encoder_ss</definition>
+        <argsstring></argsstring>
+        <name>pccc_encoder_ss</name>
+        <qualifiedname>gr::trellis::pccc_encoder_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_encoder.h" line="51" column="22" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_encoder.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1ad45fcac136258ff856312643cb6c54fc" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1pccc__encoder" kindref="compound">pccc_encoder</ref>&lt; std::int16_t, std::int32_t &gt;</type>
+        <definition>typedef pccc_encoder&lt;std::int16_t, std::int32_t&gt; gr::trellis::pccc_encoder_si</definition>
+        <argsstring></argsstring>
+        <name>pccc_encoder_si</name>
+        <qualifiedname>gr::trellis::pccc_encoder_si</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_encoder.h" line="52" column="22" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_encoder.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1ab569786bb54ea0e24920f294e5019c6e" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1pccc__encoder" kindref="compound">pccc_encoder</ref>&lt; std::int32_t, std::int32_t &gt;</type>
+        <definition>typedef pccc_encoder&lt;std::int32_t, std::int32_t&gt; gr::trellis::pccc_encoder_ii</definition>
+        <argsstring></argsstring>
+        <name>pccc_encoder_ii</name>
+        <qualifiedname>gr::trellis::pccc_encoder_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_encoder.h" line="53" column="22" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/pccc_encoder.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a3fa7c2fa3a4904fd407fd8607cd59805" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1sccc__decoder__blk" kindref="compound">sccc_decoder_blk</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef sccc_decoder_blk&lt;std::uint8_t&gt; gr::trellis::sccc_decoder_b</definition>
+        <argsstring></argsstring>
+        <name>sccc_decoder_b</name>
+        <qualifiedname>gr::trellis::sccc_decoder_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_blk.h" line="59" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_blk.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a6de9923be9815966930a9c4c8874bdb0" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1sccc__decoder__blk" kindref="compound">sccc_decoder_blk</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef sccc_decoder_blk&lt;std::int16_t&gt; gr::trellis::sccc_decoder_s</definition>
+        <argsstring></argsstring>
+        <name>sccc_decoder_s</name>
+        <qualifiedname>gr::trellis::sccc_decoder_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_blk.h" line="60" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_blk.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a8646cf362dc2dad72b5538f9c380762b" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1sccc__decoder__blk" kindref="compound">sccc_decoder_blk</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef sccc_decoder_blk&lt;std::int32_t&gt; gr::trellis::sccc_decoder_i</definition>
+        <argsstring></argsstring>
+        <name>sccc_decoder_i</name>
+        <qualifiedname>gr::trellis::sccc_decoder_i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_blk.h" line="61" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_blk.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1ac23ca4bb0ac77a02bf4d1de4477c57fb" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1sccc__decoder__combined__blk" kindref="compound">sccc_decoder_combined_blk</ref>&lt; float, std::uint8_t &gt;</type>
+        <definition>typedef sccc_decoder_combined_blk&lt;float, std::uint8_t&gt; gr::trellis::sccc_decoder_combined_fb</definition>
+        <argsstring></argsstring>
+        <name>sccc_decoder_combined_fb</name>
+        <qualifiedname>gr::trellis::sccc_decoder_combined_fb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_combined_blk.h" line="68" column="35" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_combined_blk.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a99e7679d7785741cbf175fa64e2080a2" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1sccc__decoder__combined__blk" kindref="compound">sccc_decoder_combined_blk</ref>&lt; float, std::int16_t &gt;</type>
+        <definition>typedef sccc_decoder_combined_blk&lt;float, std::int16_t&gt; gr::trellis::sccc_decoder_combined_fs</definition>
+        <argsstring></argsstring>
+        <name>sccc_decoder_combined_fs</name>
+        <qualifiedname>gr::trellis::sccc_decoder_combined_fs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_combined_blk.h" line="69" column="35" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_combined_blk.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a3b5caa53a139eff0e3637f2d4793f15f" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1sccc__decoder__combined__blk" kindref="compound">sccc_decoder_combined_blk</ref>&lt; float, std::int32_t &gt;</type>
+        <definition>typedef sccc_decoder_combined_blk&lt;float, std::int32_t&gt; gr::trellis::sccc_decoder_combined_fi</definition>
+        <argsstring></argsstring>
+        <name>sccc_decoder_combined_fi</name>
+        <qualifiedname>gr::trellis::sccc_decoder_combined_fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_combined_blk.h" line="70" column="35" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_combined_blk.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a7ac40315ce12c8b21f3993c438310cae" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1sccc__decoder__combined__blk" kindref="compound">sccc_decoder_combined_blk</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, std::uint8_t &gt;</type>
+        <definition>typedef sccc_decoder_combined_blk&lt;gr_complex, std::uint8_t&gt; gr::trellis::sccc_decoder_combined_cb</definition>
+        <argsstring></argsstring>
+        <name>sccc_decoder_combined_cb</name>
+        <qualifiedname>gr::trellis::sccc_decoder_combined_cb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_combined_blk.h" line="71" column="35" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_combined_blk.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a079c4c3b1cb9efd1920d9981d54fcc9c" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1sccc__decoder__combined__blk" kindref="compound">sccc_decoder_combined_blk</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, std::int16_t &gt;</type>
+        <definition>typedef sccc_decoder_combined_blk&lt;gr_complex, std::int16_t&gt; gr::trellis::sccc_decoder_combined_cs</definition>
+        <argsstring></argsstring>
+        <name>sccc_decoder_combined_cs</name>
+        <qualifiedname>gr::trellis::sccc_decoder_combined_cs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_combined_blk.h" line="72" column="35" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_combined_blk.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a6bb925954d56005cf842363070043611" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1sccc__decoder__combined__blk" kindref="compound">sccc_decoder_combined_blk</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, std::int32_t &gt;</type>
+        <definition>typedef sccc_decoder_combined_blk&lt;gr_complex, std::int32_t&gt; gr::trellis::sccc_decoder_combined_ci</definition>
+        <argsstring></argsstring>
+        <name>sccc_decoder_combined_ci</name>
+        <qualifiedname>gr::trellis::sccc_decoder_combined_ci</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_combined_blk.h" line="73" column="35" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_decoder_combined_blk.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a800580e1398e5a9ac0182aa0e4a094ee" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1sccc__encoder" kindref="compound">sccc_encoder</ref>&lt; std::uint8_t, std::uint8_t &gt;</type>
+        <definition>typedef sccc_encoder&lt;std::uint8_t, std::uint8_t&gt; gr::trellis::sccc_encoder_bb</definition>
+        <argsstring></argsstring>
+        <name>sccc_encoder_bb</name>
+        <qualifiedname>gr::trellis::sccc_encoder_bb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_encoder.h" line="47" column="22" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_encoder.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a442fd51fbccbcffff1fc76144faafedc" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1sccc__encoder" kindref="compound">sccc_encoder</ref>&lt; std::uint8_t, std::int16_t &gt;</type>
+        <definition>typedef sccc_encoder&lt;std::uint8_t, std::int16_t&gt; gr::trellis::sccc_encoder_bs</definition>
+        <argsstring></argsstring>
+        <name>sccc_encoder_bs</name>
+        <qualifiedname>gr::trellis::sccc_encoder_bs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_encoder.h" line="48" column="22" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_encoder.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1afd1a5e4931602be1eb5484c4b3436cfe" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1sccc__encoder" kindref="compound">sccc_encoder</ref>&lt; std::uint8_t, std::int32_t &gt;</type>
+        <definition>typedef sccc_encoder&lt;std::uint8_t, std::int32_t&gt; gr::trellis::sccc_encoder_bi</definition>
+        <argsstring></argsstring>
+        <name>sccc_encoder_bi</name>
+        <qualifiedname>gr::trellis::sccc_encoder_bi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_encoder.h" line="49" column="22" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_encoder.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1af7461e3cee0690f849a0401d1a6271ed" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1sccc__encoder" kindref="compound">sccc_encoder</ref>&lt; std::int16_t, std::int16_t &gt;</type>
+        <definition>typedef sccc_encoder&lt;std::int16_t, std::int16_t&gt; gr::trellis::sccc_encoder_ss</definition>
+        <argsstring></argsstring>
+        <name>sccc_encoder_ss</name>
+        <qualifiedname>gr::trellis::sccc_encoder_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_encoder.h" line="50" column="22" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_encoder.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a667d9ac90d0f3e5bb6b58002416c269b" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1sccc__encoder" kindref="compound">sccc_encoder</ref>&lt; std::uint8_t, std::int32_t &gt;</type>
+        <definition>typedef sccc_encoder&lt;std::uint8_t, std::int32_t&gt; gr::trellis::sccc_encoder_si</definition>
+        <argsstring></argsstring>
+        <name>sccc_encoder_si</name>
+        <qualifiedname>gr::trellis::sccc_encoder_si</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_encoder.h" line="51" column="22" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_encoder.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1aa24139436eda6ee01be61e0cfac865f0" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1sccc__encoder" kindref="compound">sccc_encoder</ref>&lt; std::int32_t, std::int32_t &gt;</type>
+        <definition>typedef sccc_encoder&lt;std::int32_t, std::int32_t&gt; gr::trellis::sccc_encoder_ii</definition>
+        <argsstring></argsstring>
+        <name>sccc_encoder_ii</name>
+        <qualifiedname>gr::trellis::sccc_encoder_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_encoder.h" line="52" column="22" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/sccc_encoder.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a930f7153847c2713c717d8c71fa707e7" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1viterbi" kindref="compound">viterbi</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef viterbi&lt;std::uint8_t&gt; gr::trellis::viterbi_b</definition>
+        <argsstring></argsstring>
+        <name>viterbi_b</name>
+        <qualifiedname>gr::trellis::viterbi_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi.h" line="47" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a8a5f12dad832240af30278f939950714" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1viterbi" kindref="compound">viterbi</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef viterbi&lt;std::int16_t&gt; gr::trellis::viterbi_s</definition>
+        <argsstring></argsstring>
+        <name>viterbi_s</name>
+        <qualifiedname>gr::trellis::viterbi_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi.h" line="48" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a2a677736128e389ae846c31c957c1f44" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1viterbi" kindref="compound">viterbi</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef viterbi&lt;std::int32_t&gt; gr::trellis::viterbi_i</definition>
+        <argsstring></argsstring>
+        <name>viterbi_i</name>
+        <qualifiedname>gr::trellis::viterbi_i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi.h" line="49" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a02f2debddfafe4e1f12c6445f65c61f2" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1viterbi__combined" kindref="compound">viterbi_combined</ref>&lt; std::int16_t, std::uint8_t &gt;</type>
+        <definition>typedef viterbi_combined&lt;std::int16_t, std::uint8_t&gt; gr::trellis::viterbi_combined_sb</definition>
+        <argsstring></argsstring>
+        <name>viterbi_combined_sb</name>
+        <qualifiedname>gr::trellis::viterbi_combined_sb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" line="58" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a8660ef970eb60e3151a05fff2b503f7d" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1viterbi__combined" kindref="compound">viterbi_combined</ref>&lt; std::int16_t, std::int16_t &gt;</type>
+        <definition>typedef viterbi_combined&lt;std::int16_t, std::int16_t&gt; gr::trellis::viterbi_combined_ss</definition>
+        <argsstring></argsstring>
+        <name>viterbi_combined_ss</name>
+        <qualifiedname>gr::trellis::viterbi_combined_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" line="59" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1af4ec446f18fdeaf5290a0b37b8d637e9" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1viterbi__combined" kindref="compound">viterbi_combined</ref>&lt; std::int16_t, std::int32_t &gt;</type>
+        <definition>typedef viterbi_combined&lt;std::int16_t, std::int32_t&gt; gr::trellis::viterbi_combined_si</definition>
+        <argsstring></argsstring>
+        <name>viterbi_combined_si</name>
+        <qualifiedname>gr::trellis::viterbi_combined_si</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" line="60" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a9bc394cb0e239ac9a5d15c6f6a68fcec" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1viterbi__combined" kindref="compound">viterbi_combined</ref>&lt; std::int32_t, std::uint8_t &gt;</type>
+        <definition>typedef viterbi_combined&lt;std::int32_t, std::uint8_t&gt; gr::trellis::viterbi_combined_ib</definition>
+        <argsstring></argsstring>
+        <name>viterbi_combined_ib</name>
+        <qualifiedname>gr::trellis::viterbi_combined_ib</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" line="61" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1abd6bd7ebfb3d80e176fb4fa13d4a9674" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1viterbi__combined" kindref="compound">viterbi_combined</ref>&lt; std::int32_t, std::int16_t &gt;</type>
+        <definition>typedef viterbi_combined&lt;std::int32_t, std::int16_t&gt; gr::trellis::viterbi_combined_is</definition>
+        <argsstring></argsstring>
+        <name>viterbi_combined_is</name>
+        <qualifiedname>gr::trellis::viterbi_combined_is</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" line="62" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a2557569d2a541832511f3a1157f41b4c" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1viterbi__combined" kindref="compound">viterbi_combined</ref>&lt; std::int32_t, std::int32_t &gt;</type>
+        <definition>typedef viterbi_combined&lt;std::int32_t, std::int32_t&gt; gr::trellis::viterbi_combined_ii</definition>
+        <argsstring></argsstring>
+        <name>viterbi_combined_ii</name>
+        <qualifiedname>gr::trellis::viterbi_combined_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" line="63" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1afa8ea4239db96c2187b092d296a77f2c" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1viterbi__combined" kindref="compound">viterbi_combined</ref>&lt; float, std::uint8_t &gt;</type>
+        <definition>typedef viterbi_combined&lt;float, std::uint8_t&gt; gr::trellis::viterbi_combined_fb</definition>
+        <argsstring></argsstring>
+        <name>viterbi_combined_fb</name>
+        <qualifiedname>gr::trellis::viterbi_combined_fb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" line="64" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a33b51441aa1183deb4234113f603b652" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1viterbi__combined" kindref="compound">viterbi_combined</ref>&lt; float, std::int16_t &gt;</type>
+        <definition>typedef viterbi_combined&lt;float, std::int16_t&gt; gr::trellis::viterbi_combined_fs</definition>
+        <argsstring></argsstring>
+        <name>viterbi_combined_fs</name>
+        <qualifiedname>gr::trellis::viterbi_combined_fs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" line="65" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1ac45cd99d60920da1ea2833d1d6b10ef7" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1viterbi__combined" kindref="compound">viterbi_combined</ref>&lt; float, std::int32_t &gt;</type>
+        <definition>typedef viterbi_combined&lt;float, std::int32_t&gt; gr::trellis::viterbi_combined_fi</definition>
+        <argsstring></argsstring>
+        <name>viterbi_combined_fi</name>
+        <qualifiedname>gr::trellis::viterbi_combined_fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" line="66" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1abc77a8c98a86a3acf78c2c894fea55b6" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1viterbi__combined" kindref="compound">viterbi_combined</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, std::uint8_t &gt;</type>
+        <definition>typedef viterbi_combined&lt;gr_complex, std::uint8_t&gt; gr::trellis::viterbi_combined_cb</definition>
+        <argsstring></argsstring>
+        <name>viterbi_combined_cb</name>
+        <qualifiedname>gr::trellis::viterbi_combined_cb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" line="67" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1ad5d054b21c17a564d2ccdefeba60b5c8" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1viterbi__combined" kindref="compound">viterbi_combined</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, std::int16_t &gt;</type>
+        <definition>typedef viterbi_combined&lt;gr_complex, std::int16_t&gt; gr::trellis::viterbi_combined_cs</definition>
+        <argsstring></argsstring>
+        <name>viterbi_combined_cs</name>
+        <qualifiedname>gr::trellis::viterbi_combined_cs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" line="68" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1trellis_1a8e171ea36112677dcbc2141bef4b59f5" prot="public" static="no">
+        <type><ref refid="classgr_1_1trellis_1_1viterbi__combined" kindref="compound">viterbi_combined</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, std::int32_t &gt;</type>
+        <definition>typedef viterbi_combined&lt;gr_complex, std::int32_t&gt; gr::trellis::viterbi_combined_ci</definition>
+        <argsstring></argsstring>
+        <name>viterbi_combined_ci</name>
+        <qualifiedname>gr::trellis::viterbi_combined_ci</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" line="69" column="26" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/viterbi_combined.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacegr_1_1trellis_1a368ce403464bb5e681d3a9d2d9a51fb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::trellis::dec2base</definition>
+        <argsstring>(unsigned int num, int base, std::vector&lt; int &gt; &amp;s)</argsstring>
+        <name>dec2base</name>
+        <qualifiedname>gr::trellis::dec2base</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt; &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>change base </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/base.h" line="23" column="6" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/base.h" declline="23" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1a2d6d15bfbfbd40a026613e6267fce7fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::trellis::dec2bases</definition>
+        <argsstring>(unsigned int num, const std::vector&lt; int &gt; &amp;bases, std::vector&lt; int &gt; &amp;s)</argsstring>
+        <name>dec2bases</name>
+        <qualifiedname>gr::trellis::dec2bases</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>bases</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt; &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/base.h" line="24" column="6" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/base.h" declline="24" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1afe9e847de03c88f6d3f3a80dbffffa32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::trellis::base2dec</definition>
+        <argsstring>(const std::vector&lt; int &gt; &amp;s, int base)</argsstring>
+        <name>base2dec</name>
+        <qualifiedname>gr::trellis::base2dec</qualifiedname>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/base.h" line="25" column="14" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/base.h" declline="25" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1a633280cf76f335309095d86e9f2e6b1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::trellis::bases2dec</definition>
+        <argsstring>(const std::vector&lt; int &gt; &amp;s, const std::vector&lt; int &gt; &amp;bases)</argsstring>
+        <name>bases2dec</name>
+        <qualifiedname>gr::trellis::bases2dec</qualifiedname>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>bases</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/base.h" line="26" column="14" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/base.h" declline="26" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1aeee768ec21fa293deff6863870aeb2e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::trellis::calc_metric</definition>
+        <argsstring>(int O, int D, const std::vector&lt; T &gt; &amp;TABLE, const T *input, float *metric, digital::trellis_metric_type_t type)</argsstring>
+        <name>calc_metric</name>
+        <qualifiedname>gr::trellis::calc_metric</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>O</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>D</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; T &gt; &amp;</type>
+          <declname>TABLE</declname>
+        </param>
+        <param>
+          <type>const T *</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacegr_1_1digital_1a53f5dbe3f2097d58ae646db19f4be8cc" kindref="member">digital::trellis_metric_type_t</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/calc_metric.h" line="22" column="6" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/calc_metric.h" declline="22" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1a3ba3344ae359b264e10c4e31a593bd66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::trellis::calc_metric</definition>
+        <argsstring>(int O, int D, const std::vector&lt; gr_complex &gt; &amp;TABLE, const gr_complex *input, float *metric, digital::trellis_metric_type_t type)</argsstring>
+        <name>calc_metric</name>
+        <qualifiedname>gr::trellis::calc_metric</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>O</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>D</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &amp;</type>
+          <declname>TABLE</declname>
+        </param>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacegr_1_1digital_1a53f5dbe3f2097d58ae646db19f4be8cc" kindref="member">digital::trellis_metric_type_t</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/calc_metric.h" line="40" column="6" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/calc_metric.h" declline="40" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1aa1d6afaca822df7b2a521046596d3230" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::trellis::min</definition>
+        <argsstring>(float a, float b)</argsstring>
+        <name>min</name>
+        <qualifiedname>gr::trellis::min</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" line="23" column="7" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" declline="23" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1a189698aed5998cbf265f31e5dbde181d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::trellis::min_star</definition>
+        <argsstring>(float a, float b)</argsstring>
+        <name>min_star</name>
+        <qualifiedname>gr::trellis::min_star</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" line="24" column="7" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" declline="24" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1a6c2d799cdc916bb31f3bcdc9c631c502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::trellis::viterbi_algorithm</definition>
+        <argsstring>(int I, int S, int O, const std::vector&lt; int &gt; &amp;NS, const std::vector&lt; int &gt; &amp;OS, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;PS, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;PI, int K, int S0, int SK, const float *in, T *out)</argsstring>
+        <name>viterbi_algorithm</name>
+        <qualifiedname>gr::trellis::viterbi_algorithm</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>I</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>S</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>O</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>NS</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>OS</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>PS</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>PI</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>K</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>S0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>SK</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" line="27" column="6" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" declline="27" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1aac3ff175700850a652cf80fb44b436eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Ti</type>
+          </param>
+          <param>
+            <type>class To</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::trellis::viterbi_algorithm_combined</definition>
+        <argsstring>(int I, int S, int O, const std::vector&lt; int &gt; &amp;NS, const std::vector&lt; int &gt; &amp;OS, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;PS, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;PI, int K, int S0, int SK, int D, const std::vector&lt; Ti &gt; &amp;TABLE, digital::trellis_metric_type_t TYPE, const Ti *in, To *out)</argsstring>
+        <name>viterbi_algorithm_combined</name>
+        <qualifiedname>gr::trellis::viterbi_algorithm_combined</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>I</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>S</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>O</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>NS</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>OS</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>PS</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>PI</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>K</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>S0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>SK</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>D</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; Ti &gt; &amp;</type>
+          <declname>TABLE</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacegr_1_1digital_1a53f5dbe3f2097d58ae646db19f4be8cc" kindref="member">digital::trellis_metric_type_t</ref></type>
+          <declname>TYPE</declname>
+        </param>
+        <param>
+          <type>const Ti *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>To *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" line="41" column="6" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" declline="41" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1a11756484c315daf4bc235ae60c57bfbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::trellis::siso_algorithm</definition>
+        <argsstring>(int I, int S, int O, const std::vector&lt; int &gt; &amp;NS, const std::vector&lt; int &gt; &amp;OS, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;PS, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;PI, int K, int S0, int SK, bool POSTI, bool POSTO, float(*p2mymin)(float, float), const float *priori, const float *prioro, float *post)</argsstring>
+        <name>siso_algorithm</name>
+        <qualifiedname>gr::trellis::siso_algorithm</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>I</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>S</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>O</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>NS</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>OS</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>PS</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>PI</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>K</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>S0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>SK</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>POSTI</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>POSTO</declname>
+        </param>
+        <param>
+          <type>float(*)(float, float)</type>
+          <declname>p2mymin</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>priori</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>prioro</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>post</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" line="57" column="6" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" declline="57" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1a544bcd162afc0d04a3a2a9bc1ff04b98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::trellis::siso_algorithm_combined</definition>
+        <argsstring>(int I, int S, int O, const std::vector&lt; int &gt; &amp;NS, const std::vector&lt; int &gt; &amp;OS, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;PS, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;PI, int K, int S0, int SK, bool POSTI, bool POSTO, float(*p2mymin)(float, float), int D, const std::vector&lt; T &gt; &amp;TABLE, digital::trellis_metric_type_t TYPE, const float *priori, const T *observations, float *post)</argsstring>
+        <name>siso_algorithm_combined</name>
+        <qualifiedname>gr::trellis::siso_algorithm_combined</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>I</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>S</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>O</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>NS</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>OS</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>PS</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>PI</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>K</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>S0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>SK</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>POSTI</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>POSTO</declname>
+        </param>
+        <param>
+          <type>float(*)(float, float)</type>
+          <declname>p2mymin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>D</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; T &gt; &amp;</type>
+          <declname>TABLE</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacegr_1_1digital_1a53f5dbe3f2097d58ae646db19f4be8cc" kindref="member">digital::trellis_metric_type_t</ref></type>
+          <declname>TYPE</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>priori</declname>
+        </param>
+        <param>
+          <type>const T *</type>
+          <declname>observations</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>post</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" line="75" column="6" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" declline="75" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1addd866113cad1b7a999e34bff2e6d699" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::trellis::sccc_decoder</definition>
+        <argsstring>(const fsm &amp;FSMo, int STo0, int SToK, const fsm &amp;FSMi, int STi0, int STiK, const interleaver &amp;INTERLEAVER, int blocklength, int iterations, float(*p2mymin)(float, float), const float *iprioro, T *data)</argsstring>
+        <name>sccc_decoder</name>
+        <qualifiedname>gr::trellis::sccc_decoder</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1fsm" kindref="compound">fsm</ref> &amp;</type>
+          <declname>FSMo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>STo0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>SToK</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1fsm" kindref="compound">fsm</ref> &amp;</type>
+          <declname>FSMi</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>STi0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>STiK</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1interleaver" kindref="compound">interleaver</ref> &amp;</type>
+          <declname>INTERLEAVER</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>blocklength</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterations</declname>
+        </param>
+        <param>
+          <type>float(*)(float, float)</type>
+          <declname>p2mymin</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>iprioro</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" line="96" column="6" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" declline="96" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1a117b91b96313c0bf5faf0f72f4717745" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Ti</type>
+          </param>
+          <param>
+            <type>class To</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::trellis::sccc_decoder_combined</definition>
+        <argsstring>(const fsm &amp;FSMo, int STo0, int SToK, const fsm &amp;FSMi, int STi0, int STiK, const interleaver &amp;INTERLEAVER, int blocklength, int iterations, float(*p2mymin)(float, float), int D, const std::vector&lt; Ti &gt; &amp;TABLE, digital::trellis_metric_type_t METRIC_TYPE, float scaling, const Ti *observations, To *data)</argsstring>
+        <name>sccc_decoder_combined</name>
+        <qualifiedname>gr::trellis::sccc_decoder_combined</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1fsm" kindref="compound">fsm</ref> &amp;</type>
+          <declname>FSMo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>STo0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>SToK</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1fsm" kindref="compound">fsm</ref> &amp;</type>
+          <declname>FSMi</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>STi0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>STiK</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1interleaver" kindref="compound">interleaver</ref> &amp;</type>
+          <declname>INTERLEAVER</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>blocklength</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterations</declname>
+        </param>
+        <param>
+          <type>float(*)(float, float)</type>
+          <declname>p2mymin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>D</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; Ti &gt; &amp;</type>
+          <declname>TABLE</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacegr_1_1digital_1a53f5dbe3f2097d58ae646db19f4be8cc" kindref="member">digital::trellis_metric_type_t</ref></type>
+          <declname>METRIC_TYPE</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scaling</declname>
+        </param>
+        <param>
+          <type>const Ti *</type>
+          <declname>observations</declname>
+        </param>
+        <param>
+          <type>To *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" line="110" column="6" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" declline="110" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1a44c4ddd95a7405f447f6a09e6dade321" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::trellis::pccc_decoder</definition>
+        <argsstring>(const fsm &amp;FSM1, int ST10, int ST1K, const fsm &amp;FSM2, int ST20, int ST2K, const interleaver &amp;INTERLEAVER, int blocklength, int iterations, float(*p2mymin)(float, float), const float *cprioro, T *data)</argsstring>
+        <name>pccc_decoder</name>
+        <qualifiedname>gr::trellis::pccc_decoder</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1fsm" kindref="compound">fsm</ref> &amp;</type>
+          <declname>FSM1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ST10</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ST1K</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1fsm" kindref="compound">fsm</ref> &amp;</type>
+          <declname>FSM2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ST20</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ST2K</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1interleaver" kindref="compound">interleaver</ref> &amp;</type>
+          <declname>INTERLEAVER</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>blocklength</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterations</declname>
+        </param>
+        <param>
+          <type>float(*)(float, float)</type>
+          <declname>p2mymin</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>cprioro</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" line="128" column="6" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" declline="128" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1a5bb9ef92152d50b9aeee57db14b52837" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Ti</type>
+          </param>
+          <param>
+            <type>class To</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::trellis::pccc_decoder_combined</definition>
+        <argsstring>(const fsm &amp;FSM1, int ST10, int ST1K, const fsm &amp;FSM2, int ST20, int ST2K, const interleaver &amp;INTERLEAVER, int blocklength, int iterations, float(*p2mymin)(float, float), int D, const std::vector&lt; Ti &gt; &amp;TABLE, digital::trellis_metric_type_t METRIC_TYPE, float scaling, const Ti *observations, To *data)</argsstring>
+        <name>pccc_decoder_combined</name>
+        <qualifiedname>gr::trellis::pccc_decoder_combined</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1fsm" kindref="compound">fsm</ref> &amp;</type>
+          <declname>FSM1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ST10</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ST1K</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1fsm" kindref="compound">fsm</ref> &amp;</type>
+          <declname>FSM2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ST20</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ST2K</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1interleaver" kindref="compound">interleaver</ref> &amp;</type>
+          <declname>INTERLEAVER</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>blocklength</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterations</declname>
+        </param>
+        <param>
+          <type>float(*)(float, float)</type>
+          <declname>p2mymin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>D</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; Ti &gt; &amp;</type>
+          <declname>TABLE</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacegr_1_1digital_1a53f5dbe3f2097d58ae646db19f4be8cc" kindref="member">digital::trellis_metric_type_t</ref></type>
+          <declname>METRIC_TYPE</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scaling</declname>
+        </param>
+        <param>
+          <type>const Ti *</type>
+          <declname>observations</declname>
+        </param>
+        <param>
+          <type>To *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" line="142" column="6" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h" declline="142" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1aef7adffeb32109434968b7feded25d0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::trellis::SWAP</definition>
+        <argsstring>(T &amp;a, T &amp;b)</argsstring>
+        <name>SWAP</name>
+        <qualifiedname>gr::trellis::SWAP</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>T &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/quicksort_index.h" line="20" column="6" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/quicksort_index.h" declline="20" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1trellis_1a7559d48949a3e65df8a066f881bfc219" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::trellis::quicksort_index</definition>
+        <argsstring>(std::vector&lt; T &gt; &amp;p, std::vector&lt; int &gt; &amp;index, int left, int right)</argsstring>
+        <name>quicksort_index</name>
+        <qualifiedname>gr::trellis::quicksort_index</qualifiedname>
+        <param>
+          <type>std::vector&lt; T &gt; &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt; &amp;</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/quicksort_index.h" line="23" column="6" declfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/quicksort_index.h" declline="23" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/base.h" line="17" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1uhd_1_1stream__args__t" kind="class" language="C++" prot="public">
+    <compoundname>gr::uhd::stream_args_t</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">uhd::stream_args_t</basecompoundref>
+    <includes refid="uhd__types_8h" local="no">gnuradio/uhd/uhd_types.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1uhd_1_1stream__args__t_1a7e4d8db97d46b4dde5594c9ed1ca4d57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::uhd::stream_args_t::stream_args_t</definition>
+        <argsstring>(const std::string &amp;cpu=&quot;&quot;, const std::string &amp;otw=&quot;&quot;, const ::uhd::device_addr_t &amp;args=::uhd::device_addr_t(), const std::vector&lt; size_t &gt; channels=std::vector&lt; size_t &gt;())</argsstring>
+        <name>stream_args_t</name>
+        <qualifiedname>gr::uhd::stream_args_t::stream_args_t</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>cpu</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>otw</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>const ::uhd::device_addr_t &amp;</type>
+          <declname>args</declname>
+          <defval>::uhd::device_addr_t()</defval>
+        </param>
+        <param>
+          <type>const std::vector&lt; size_t &gt;</type>
+          <declname>channels</declname>
+          <defval>std::vector&lt; size_t &gt;()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/uhd_types.h" line="32" column="5" bodyfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/uhd_types.h" bodystart="32" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::uhd::stream_args_t</label>
+        <link refid="classgr_1_1uhd_1_1stream__args__t"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>uhd::stream_args_t</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::uhd::stream_args_t</label>
+        <link refid="classgr_1_1uhd_1_1stream__args__t"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>uhd::stream_args_t</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/uhd_types.h" line="28" column="1" bodyfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/uhd_types.h" bodystart="29" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classgr_1_1uhd_1_1stream__args__t_1a7e4d8db97d46b4dde5594c9ed1ca4d57" prot="public" virt="non-virtual"><scope>gr::uhd::stream_args_t</scope><name>stream_args_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

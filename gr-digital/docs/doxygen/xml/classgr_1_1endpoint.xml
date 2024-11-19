@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1endpoint" kind="class" language="C++" prot="public">
+    <compoundname>gr::endpoint</compoundname>
+    <includes refid="flowgraph_8h" local="no">gnuradio/flowgraph.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1endpoint_1a5a45719e51fd20f8d19a62c6548f364c" prot="private" static="no" mutable="no">
+        <type>basic_block_sptr</type>
+        <definition>basic_block_sptr gr::endpoint::d_basic_block</definition>
+        <argsstring></argsstring>
+        <name>d_basic_block</name>
+        <qualifiedname>gr::endpoint::d_basic_block</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="27" column="22" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1endpoint_1a2167001cd96d3e4a06d25443c6519a49" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::endpoint::d_port</definition>
+        <argsstring></argsstring>
+        <name>d_port</name>
+        <qualifiedname>gr::endpoint::d_port</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="28" column="9" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1endpoint_1ad3952d059a58c086169fd7c5a4aa39be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::endpoint::endpoint</definition>
+        <argsstring>()</argsstring>
+        <name>endpoint</name>
+        <qualifiedname>gr::endpoint::endpoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="31" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1endpoint_1aab3fb6b011efd6e534c605fd7a93b953" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::endpoint::endpoint</definition>
+        <argsstring>(basic_block_sptr block, int port)</argsstring>
+        <name>endpoint</name>
+        <qualifiedname>gr::endpoint::endpoint</qualifiedname>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="32" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1endpoint_1adaa9a9ea089819f59f8cb54380f98835" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>basic_block_sptr</type>
+        <definition>basic_block_sptr gr::endpoint::block</definition>
+        <argsstring>() const</argsstring>
+        <name>block</name>
+        <qualifiedname>gr::endpoint::block</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="37" column="22" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1endpoint_1ac6b9724d8fbf5c4c27ed48ff477da0bf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::endpoint::port</definition>
+        <argsstring>() const</argsstring>
+        <name>port</name>
+        <qualifiedname>gr::endpoint::port</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="38" column="9" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1endpoint_1a6f0248e7cb91569347f2984a7c9993d1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string gr::endpoint::identifier</definition>
+        <argsstring>() const</argsstring>
+        <name>identifier</name>
+        <qualifiedname>gr::endpoint::identifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="39" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="39" bodyend="42"/>
+        <referencedby refid="namespacegr_1a0323aa3d91d5e7abab85b9d26038f320" compoundref="flowgraph_8h" startline="303" endline="307">gr::operator&lt;&lt;</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1endpoint_1abd5066398a0650b6005db673390b8b15" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::endpoint::operator==</definition>
+        <argsstring>(const endpoint &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gr::endpoint::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1endpoint" kindref="compound">endpoint</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="44" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="47" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class representing a specific input or output graph endpoint. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="24" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="25" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classgr_1_1endpoint_1adaa9a9ea089819f59f8cb54380f98835" prot="public" virt="non-virtual"><scope>gr::endpoint</scope><name>block</name></member>
+      <member refid="classgr_1_1endpoint_1a5a45719e51fd20f8d19a62c6548f364c" prot="private" virt="non-virtual"><scope>gr::endpoint</scope><name>d_basic_block</name></member>
+      <member refid="classgr_1_1endpoint_1a2167001cd96d3e4a06d25443c6519a49" prot="private" virt="non-virtual"><scope>gr::endpoint</scope><name>d_port</name></member>
+      <member refid="classgr_1_1endpoint_1ad3952d059a58c086169fd7c5a4aa39be" prot="public" virt="non-virtual"><scope>gr::endpoint</scope><name>endpoint</name></member>
+      <member refid="classgr_1_1endpoint_1aab3fb6b011efd6e534c605fd7a93b953" prot="public" virt="non-virtual"><scope>gr::endpoint</scope><name>endpoint</name></member>
+      <member refid="classgr_1_1endpoint_1a6f0248e7cb91569347f2984a7c9993d1" prot="public" virt="non-virtual"><scope>gr::endpoint</scope><name>identifier</name></member>
+      <member refid="classgr_1_1endpoint_1abd5066398a0650b6005db673390b8b15" prot="public" virt="non-virtual"><scope>gr::endpoint</scope><name>operator==</name></member>
+      <member refid="classgr_1_1endpoint_1ac6b9724d8fbf5c4c27ed48ff477da0bf" prot="public" virt="non-virtual"><scope>gr::endpoint</scope><name>port</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

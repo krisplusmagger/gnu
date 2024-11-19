@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classpmt_1_1wrong__type" kind="class" language="C++" prot="public">
+    <compoundname>pmt::wrong_type</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::invalid_argument</basecompoundref>
+    <includes refid="pmt_8h" local="no">pmt/pmt.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpmt_1_1wrong__type_1a96246079ecf986ebb0ec0d918f3a7eac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pmt::wrong_type::wrong_type</definition>
+        <argsstring>(const std::string &amp;msg, pmt_t obj)</argsstring>
+        <name>wrong_type</name>
+        <qualifiedname>pmt::wrong_type::wrong_type</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt_t</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt.h" line="96" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>pmt::wrong_type</label>
+        <link refid="classpmt_1_1wrong__type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::exception</label>
+      </node>
+      <node id="2">
+        <label>std::invalid_argument</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::logic_error</label>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>pmt::wrong_type</label>
+        <link refid="classpmt_1_1wrong__type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::exception</label>
+      </node>
+      <node id="2">
+        <label>std::invalid_argument</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::logic_error</label>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt.h" line="93" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt.h" bodystart="94" bodyend="97"/>
+    <listofallmembers>
+      <member refid="classpmt_1_1wrong__type_1a96246079ecf986ebb0ec0d918f3a7eac" prot="public" virt="non-virtual"><scope>pmt::wrong_type</scope><name>wrong_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

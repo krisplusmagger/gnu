@@ -1,0 +1,654 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEyeControlPanel" kind="class" language="C++" prot="public">
+    <compoundname>EyeControlPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QVBoxLayout</basecompoundref>
+    <includes refid="eyecontrolpanel_8h" local="no">gnuradio/qtgui/eyecontrolpanel.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classEyeControlPanel_1a644628f13e6965b09b91a5f03891674d" prot="private" static="no" mutable="no">
+        <type><ref refid="classEyeDisplayForm" kindref="compound">EyeDisplayForm</ref> *</type>
+        <definition>EyeDisplayForm* EyeControlPanel::d_parent</definition>
+        <argsstring></argsstring>
+        <name>d_parent</name>
+        <qualifiedname>EyeControlPanel::d_parent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="44" column="20" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1a011990f03d100fad6adb6c3cc388c8ec" prot="private" static="no" mutable="no">
+        <type>QGroupBox *</type>
+        <definition>QGroupBox* EyeControlPanel::d_axes_box</definition>
+        <argsstring></argsstring>
+        <name>d_axes_box</name>
+        <qualifiedname>EyeControlPanel::d_axes_box</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="45" column="15" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1ac81ebe64d31e514525f381d9d0734517" prot="private" static="no" mutable="no">
+        <type>QGroupBox *</type>
+        <definition>QGroupBox* EyeControlPanel::d_trigger_box</definition>
+        <argsstring></argsstring>
+        <name>d_trigger_box</name>
+        <qualifiedname>EyeControlPanel::d_trigger_box</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="46" column="15" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1a13625d1035329c0c2c35d64ea6d45549" prot="private" static="no" mutable="no">
+        <type>QGroupBox *</type>
+        <definition>QGroupBox* EyeControlPanel::d_extras_box</definition>
+        <argsstring></argsstring>
+        <name>d_extras_box</name>
+        <qualifiedname>EyeControlPanel::d_extras_box</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="47" column="15" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1a2e0bcb1f3c2ffbd375e2d519d749bfd0" prot="private" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* EyeControlPanel::d_axes_layout</definition>
+        <argsstring></argsstring>
+        <name>d_axes_layout</name>
+        <qualifiedname>EyeControlPanel::d_axes_layout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="49" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1a14893338785782ddbd8d2220da454e5a" prot="private" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* EyeControlPanel::d_yoff_layout</definition>
+        <argsstring></argsstring>
+        <name>d_yoff_layout</name>
+        <qualifiedname>EyeControlPanel::d_yoff_layout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="50" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1ab091232821cad8a0abc57d747987b5bc" prot="private" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* EyeControlPanel::d_yrange_layout</definition>
+        <argsstring></argsstring>
+        <name>d_yrange_layout</name>
+        <qualifiedname>EyeControlPanel::d_yrange_layout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="51" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1a11f4ceefdf7c8dec559eb9de7a5849fe" prot="private" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* EyeControlPanel::d_trigger_layout</definition>
+        <argsstring></argsstring>
+        <name>d_trigger_layout</name>
+        <qualifiedname>EyeControlPanel::d_trigger_layout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="52" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1adbcf0863c50b2271f83a41a3f39f5b00" prot="private" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* EyeControlPanel::d_trigger_level_layout</definition>
+        <argsstring></argsstring>
+        <name>d_trigger_level_layout</name>
+        <qualifiedname>EyeControlPanel::d_trigger_level_layout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="53" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1ae7b1894c809d0f5cd2bdf9dadf19f3aa" prot="private" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* EyeControlPanel::d_trigger_delay_layout</definition>
+        <argsstring></argsstring>
+        <name>d_trigger_delay_layout</name>
+        <qualifiedname>EyeControlPanel::d_trigger_delay_layout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="54" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1ae0c2d0e9db9c2c5f1ff0c9d684302431" prot="private" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* EyeControlPanel::d_extras_layout</definition>
+        <argsstring></argsstring>
+        <name>d_extras_layout</name>
+        <qualifiedname>EyeControlPanel::d_extras_layout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="55" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1aae3b99d4ed8ef186cc56ea629768e9c6" prot="private" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* EyeControlPanel::d_yoff_label</definition>
+        <argsstring></argsstring>
+        <name>d_yoff_label</name>
+        <qualifiedname>EyeControlPanel::d_yoff_label</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="57" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1ab87b6036cd3b0efbef16dd17f12259ad" prot="private" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* EyeControlPanel::d_yrange_label</definition>
+        <argsstring></argsstring>
+        <name>d_yrange_label</name>
+        <qualifiedname>EyeControlPanel::d_yrange_label</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="58" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1aca1b1b8ae8eb3ec81610a2442a00694c" prot="private" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* EyeControlPanel::d_trigger_level_label</definition>
+        <argsstring></argsstring>
+        <name>d_trigger_level_label</name>
+        <qualifiedname>EyeControlPanel::d_trigger_level_label</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="59" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1aa56d86ff252bc9e704487be63337d359" prot="private" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* EyeControlPanel::d_trigger_delay_label</definition>
+        <argsstring></argsstring>
+        <name>d_trigger_delay_label</name>
+        <qualifiedname>EyeControlPanel::d_trigger_delay_label</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="60" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1a0629fc79689e276d364df32e57341ccb" prot="private" static="no" mutable="no">
+        <type>QCheckBox *</type>
+        <definition>QCheckBox* EyeControlPanel::d_autoscale_check</definition>
+        <argsstring></argsstring>
+        <name>d_autoscale_check</name>
+        <qualifiedname>EyeControlPanel::d_autoscale_check</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="62" column="15" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1a6396886d80d4ec8e999da7847abff9dc" prot="private" static="no" mutable="no">
+        <type>QCheckBox *</type>
+        <definition>QCheckBox* EyeControlPanel::d_grid_check</definition>
+        <argsstring></argsstring>
+        <name>d_grid_check</name>
+        <qualifiedname>EyeControlPanel::d_grid_check</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="63" column="15" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1aae30074c993361062bb3ea651d8e667a" prot="private" static="no" mutable="no">
+        <type>QCheckBox *</type>
+        <definition>QCheckBox* EyeControlPanel::d_axislabels_check</definition>
+        <argsstring></argsstring>
+        <name>d_axislabels_check</name>
+        <qualifiedname>EyeControlPanel::d_axislabels_check</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="64" column="15" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1a49924a3787002ea0170dc5f835b899d4" prot="private" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* EyeControlPanel::d_yoff_plus</definition>
+        <argsstring></argsstring>
+        <name>d_yoff_plus</name>
+        <qualifiedname>EyeControlPanel::d_yoff_plus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="66" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1a425a7546a410e027798046dcd8eca96c" prot="private" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton * EyeControlPanel::d_yoff_minus</definition>
+        <argsstring></argsstring>
+        <name>d_yoff_minus</name>
+        <qualifiedname>EyeControlPanel::d_yoff_minus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="66" column="29" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1adc4cbe7bafd928055da3f3573cd2d871" prot="private" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* EyeControlPanel::d_yrange_plus</definition>
+        <argsstring></argsstring>
+        <name>d_yrange_plus</name>
+        <qualifiedname>EyeControlPanel::d_yrange_plus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="67" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1aff477173d04a48c5896300990548c8b2" prot="private" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton * EyeControlPanel::d_yrange_minus</definition>
+        <argsstring></argsstring>
+        <name>d_yrange_minus</name>
+        <qualifiedname>EyeControlPanel::d_yrange_minus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="67" column="31" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1ab7f0a487b8122885aa36ba577d1f5bf3" prot="private" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* EyeControlPanel::d_trigger_mode_combo</definition>
+        <argsstring></argsstring>
+        <name>d_trigger_mode_combo</name>
+        <qualifiedname>EyeControlPanel::d_trigger_mode_combo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="68" column="15" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1a0e5a1509e345d0b499c96f405531828c" prot="private" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* EyeControlPanel::d_trigger_slope_combo</definition>
+        <argsstring></argsstring>
+        <name>d_trigger_slope_combo</name>
+        <qualifiedname>EyeControlPanel::d_trigger_slope_combo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="69" column="15" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1af6f7228e3c0548a8cef9ed579d240371" prot="private" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* EyeControlPanel::d_trigger_level_plus</definition>
+        <argsstring></argsstring>
+        <name>d_trigger_level_plus</name>
+        <qualifiedname>EyeControlPanel::d_trigger_level_plus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="70" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1afb11cbfe7ccbe9dc69ce0afe5d146d9b" prot="private" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton * EyeControlPanel::d_trigger_level_minus</definition>
+        <argsstring></argsstring>
+        <name>d_trigger_level_minus</name>
+        <qualifiedname>EyeControlPanel::d_trigger_level_minus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="70" column="38" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1afd36b8624c2ea1b680bfae2e9534707e" prot="private" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* EyeControlPanel::d_trigger_delay_plus</definition>
+        <argsstring></argsstring>
+        <name>d_trigger_delay_plus</name>
+        <qualifiedname>EyeControlPanel::d_trigger_delay_plus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="71" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1a77acdef0ace85b85abbf182d5ab6d55d" prot="private" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton * EyeControlPanel::d_trigger_delay_minus</definition>
+        <argsstring></argsstring>
+        <name>d_trigger_delay_minus</name>
+        <qualifiedname>EyeControlPanel::d_trigger_delay_minus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="71" column="38" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1a41ec6a908a4315b0d17f7443426e94ac" prot="private" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* EyeControlPanel::d_autoscale_button</definition>
+        <argsstring></argsstring>
+        <name>d_autoscale_button</name>
+        <qualifiedname>EyeControlPanel::d_autoscale_button</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="72" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeControlPanel_1a2d507ff8efc7b09c70d3b178be7d89f1" prot="private" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* EyeControlPanel::d_stop_button</definition>
+        <argsstring></argsstring>
+        <name>d_stop_button</name>
+        <qualifiedname>EyeControlPanel::d_stop_button</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="73" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEyeControlPanel_1a104aecda57efcda3abcdeb501b0cdde1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EyeControlPanel::EyeControlPanel</definition>
+        <argsstring>(EyeDisplayForm *form)</argsstring>
+        <name>EyeControlPanel</name>
+        <qualifiedname>EyeControlPanel::EyeControlPanel</qualifiedname>
+        <param>
+          <type><ref refid="classEyeDisplayForm" kindref="compound">EyeDisplayForm</ref> *</type>
+          <declname>form</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="29" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeControlPanel_1a62e465c954632e79681b5781e85be803" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EyeControlPanel::~EyeControlPanel</definition>
+        <argsstring>() override</argsstring>
+        <name>~EyeControlPanel</name>
+        <qualifiedname>EyeControlPanel::~EyeControlPanel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="30" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classEyeControlPanel_1ab056e26c6ced16e6025c27866cb6d8a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeControlPanel::toggleAutoScale</definition>
+        <argsstring>(bool en)</argsstring>
+        <name>toggleAutoScale</name>
+        <qualifiedname>EyeControlPanel::toggleAutoScale</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="33" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeControlPanel_1aed44a87cc87240a6d79d48ea761d171a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeControlPanel::toggleGrid</definition>
+        <argsstring>(bool en)</argsstring>
+        <name>toggleGrid</name>
+        <qualifiedname>EyeControlPanel::toggleGrid</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="34" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeControlPanel_1ab2719075803bdf35e560cd93493ce691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeControlPanel::toggleTriggerMode</definition>
+        <argsstring>(gr::qtgui::trigger_mode mode)</argsstring>
+        <name>toggleTriggerMode</name>
+        <qualifiedname>EyeControlPanel::toggleTriggerMode</qualifiedname>
+        <param>
+          <type><ref refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91" kindref="member">gr::qtgui::trigger_mode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="35" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeControlPanel_1a4363891a19da646f3ab3e18d4acf7b43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeControlPanel::toggleTriggerSlope</definition>
+        <argsstring>(gr::qtgui::trigger_slope slope)</argsstring>
+        <name>toggleTriggerSlope</name>
+        <qualifiedname>EyeControlPanel::toggleTriggerSlope</qualifiedname>
+        <param>
+          <type><ref refid="namespacegr_1_1qtgui_1ad9b40f0b7d2d567bd8002fb3b9b0fd10" kindref="member">gr::qtgui::trigger_slope</ref></type>
+          <declname>slope</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="36" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeControlPanel_1a632b1b171b05731496a041e8933e44f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeControlPanel::toggleStopButton</definition>
+        <argsstring>()</argsstring>
+        <name>toggleStopButton</name>
+        <qualifiedname>EyeControlPanel::toggleStopButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="37" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeControlPanel_1ad88d453cc57d478dc49d3fdc7eaceb76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeControlPanel::updateStopLabel</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>updateStopLabel</name>
+        <qualifiedname>EyeControlPanel::updateStopLabel</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="38" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classEyeControlPanel_1accc42d4b087063de91c54ebd890be074" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeControlPanel::signalToggleStopButton</definition>
+        <argsstring>()</argsstring>
+        <name>signalToggleStopButton</name>
+        <qualifiedname>EyeControlPanel::signalToggleStopButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="41" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EyeControlPanel</label>
+        <link refid="classEyeControlPanel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QVBoxLayout</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EyeControlPanel</label>
+        <link refid="classEyeControlPanel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QVBoxLayout</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" line="24" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyecontrolpanel.h" bodystart="25" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classEyeControlPanel_1a41ec6a908a4315b0d17f7443426e94ac" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_autoscale_button</name></member>
+      <member refid="classEyeControlPanel_1a0629fc79689e276d364df32e57341ccb" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_autoscale_check</name></member>
+      <member refid="classEyeControlPanel_1a011990f03d100fad6adb6c3cc388c8ec" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_axes_box</name></member>
+      <member refid="classEyeControlPanel_1a2e0bcb1f3c2ffbd375e2d519d749bfd0" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_axes_layout</name></member>
+      <member refid="classEyeControlPanel_1aae30074c993361062bb3ea651d8e667a" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_axislabels_check</name></member>
+      <member refid="classEyeControlPanel_1a13625d1035329c0c2c35d64ea6d45549" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_extras_box</name></member>
+      <member refid="classEyeControlPanel_1ae0c2d0e9db9c2c5f1ff0c9d684302431" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_extras_layout</name></member>
+      <member refid="classEyeControlPanel_1a6396886d80d4ec8e999da7847abff9dc" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_grid_check</name></member>
+      <member refid="classEyeControlPanel_1a644628f13e6965b09b91a5f03891674d" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_parent</name></member>
+      <member refid="classEyeControlPanel_1a2d507ff8efc7b09c70d3b178be7d89f1" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_stop_button</name></member>
+      <member refid="classEyeControlPanel_1ac81ebe64d31e514525f381d9d0734517" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_trigger_box</name></member>
+      <member refid="classEyeControlPanel_1aa56d86ff252bc9e704487be63337d359" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_trigger_delay_label</name></member>
+      <member refid="classEyeControlPanel_1ae7b1894c809d0f5cd2bdf9dadf19f3aa" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_trigger_delay_layout</name></member>
+      <member refid="classEyeControlPanel_1a77acdef0ace85b85abbf182d5ab6d55d" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_trigger_delay_minus</name></member>
+      <member refid="classEyeControlPanel_1afd36b8624c2ea1b680bfae2e9534707e" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_trigger_delay_plus</name></member>
+      <member refid="classEyeControlPanel_1a11f4ceefdf7c8dec559eb9de7a5849fe" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_trigger_layout</name></member>
+      <member refid="classEyeControlPanel_1aca1b1b8ae8eb3ec81610a2442a00694c" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_trigger_level_label</name></member>
+      <member refid="classEyeControlPanel_1adbcf0863c50b2271f83a41a3f39f5b00" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_trigger_level_layout</name></member>
+      <member refid="classEyeControlPanel_1afb11cbfe7ccbe9dc69ce0afe5d146d9b" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_trigger_level_minus</name></member>
+      <member refid="classEyeControlPanel_1af6f7228e3c0548a8cef9ed579d240371" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_trigger_level_plus</name></member>
+      <member refid="classEyeControlPanel_1ab7f0a487b8122885aa36ba577d1f5bf3" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_trigger_mode_combo</name></member>
+      <member refid="classEyeControlPanel_1a0e5a1509e345d0b499c96f405531828c" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_trigger_slope_combo</name></member>
+      <member refid="classEyeControlPanel_1aae3b99d4ed8ef186cc56ea629768e9c6" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_yoff_label</name></member>
+      <member refid="classEyeControlPanel_1a14893338785782ddbd8d2220da454e5a" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_yoff_layout</name></member>
+      <member refid="classEyeControlPanel_1a425a7546a410e027798046dcd8eca96c" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_yoff_minus</name></member>
+      <member refid="classEyeControlPanel_1a49924a3787002ea0170dc5f835b899d4" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_yoff_plus</name></member>
+      <member refid="classEyeControlPanel_1ab87b6036cd3b0efbef16dd17f12259ad" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_yrange_label</name></member>
+      <member refid="classEyeControlPanel_1ab091232821cad8a0abc57d747987b5bc" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_yrange_layout</name></member>
+      <member refid="classEyeControlPanel_1aff477173d04a48c5896300990548c8b2" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_yrange_minus</name></member>
+      <member refid="classEyeControlPanel_1adc4cbe7bafd928055da3f3573cd2d871" prot="private" virt="non-virtual"><scope>EyeControlPanel</scope><name>d_yrange_plus</name></member>
+      <member refid="classEyeControlPanel_1a104aecda57efcda3abcdeb501b0cdde1" prot="public" virt="non-virtual"><scope>EyeControlPanel</scope><name>EyeControlPanel</name></member>
+      <member refid="classEyeControlPanel_1accc42d4b087063de91c54ebd890be074" prot="public" virt="non-virtual"><scope>EyeControlPanel</scope><name>signalToggleStopButton</name></member>
+      <member refid="classEyeControlPanel_1ab056e26c6ced16e6025c27866cb6d8a7" prot="public" virt="non-virtual"><scope>EyeControlPanel</scope><name>toggleAutoScale</name></member>
+      <member refid="classEyeControlPanel_1aed44a87cc87240a6d79d48ea761d171a" prot="public" virt="non-virtual"><scope>EyeControlPanel</scope><name>toggleGrid</name></member>
+      <member refid="classEyeControlPanel_1a632b1b171b05731496a041e8933e44f2" prot="public" virt="non-virtual"><scope>EyeControlPanel</scope><name>toggleStopButton</name></member>
+      <member refid="classEyeControlPanel_1ab2719075803bdf35e560cd93493ce691" prot="public" virt="non-virtual"><scope>EyeControlPanel</scope><name>toggleTriggerMode</name></member>
+      <member refid="classEyeControlPanel_1a4363891a19da646f3ab3e18d4acf7b43" prot="public" virt="non-virtual"><scope>EyeControlPanel</scope><name>toggleTriggerSlope</name></member>
+      <member refid="classEyeControlPanel_1ad88d453cc57d478dc49d3fdc7eaceb76" prot="public" virt="non-virtual"><scope>EyeControlPanel</scope><name>updateStopLabel</name></member>
+      <member refid="classEyeControlPanel_1a62e465c954632e79681b5781e85be803" prot="public" virt="non-virtual"><scope>EyeControlPanel</scope><name>~EyeControlPanel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

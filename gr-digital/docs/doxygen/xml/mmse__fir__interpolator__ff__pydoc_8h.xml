@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mmse__fir__interpolator__ff__pydoc_8h" kind="file" language="C++">
+    <compoundname>mmse_fir_interpolator_ff_pydoc.h</compoundname>
+    <includes refid="build_2gr-filter_2python_2filter_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>mmse_fir_interpolator_ff_pydoc.h</label>
+        <link refid="mmse__fir__interpolator__ff__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-filter_2python_2filter_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="mmse__fir__interpolator__ff__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, filter, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_fir_interpolator_ff_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_fir_interpolator_ff_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="mmse__fir__interpolator__ff__pydoc_8h_1a61d9e8acee69acf8b1869fe5a066c936" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_mmse_fir_interpolator_ff</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_mmse_fir_interpolator_ff</name>
+        <initializer>= R&quot;doc(Compute intermediate samples between signal samples x(k*Ts)
+
+This implements a Minimum Mean Squared Error interpolator with 8 taps. It is suitable for signals where the bandwidth of interest B = 1/(4*Ts) Where Ts is the time between samples.
+
+
+Although mu, the fractional delay, is specified as a float, it is actually quantized. 0.0 &lt;= mu &lt;= 1.0. That is, mu is quantized in the interpolate method to 32nd&apos;s of a sample.
+
+
+For more information, in the GNU Radio source code, see:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_fir_interpolator_ff_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_fir_interpolator_ff_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mmse__fir__interpolator__ff__pydoc_8h_1a961ee472c99857c702f8fc17eab3d215" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_mmse_fir_interpolator_ff_mmse_fir_interpolator_ff_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_mmse_fir_interpolator_ff_mmse_fir_interpolator_ff_0</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_fir_interpolator_ff_pydoc.h" line="29" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_fir_interpolator_ff_pydoc.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mmse__fir__interpolator__ff__pydoc_8h_1a842d28fc6feea07e8d3d6fef5258ac4b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_mmse_fir_interpolator_ff_mmse_fir_interpolator_ff_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_mmse_fir_interpolator_ff_mmse_fir_interpolator_ff_1</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_fir_interpolator_ff_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_fir_interpolator_ff_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mmse__fir__interpolator__ff__pydoc_8h_1aada90721f48fc6d1235f28516abb3ee6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_mmse_fir_interpolator_ff_ntaps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_mmse_fir_interpolator_ff_ntaps</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_fir_interpolator_ff_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_fir_interpolator_ff_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mmse__fir__interpolator__ff__pydoc_8h_1af75465874ed67f4ac7e13d8ddea9f631" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_mmse_fir_interpolator_ff_nsteps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_mmse_fir_interpolator_ff_nsteps</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_fir_interpolator_ff_pydoc.h" line="40" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_fir_interpolator_ff_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mmse__fir__interpolator__ff__pydoc_8h_1a3e25f143f5ed0ebc1aa387d219e4abca" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_mmse_fir_interpolator_ff_interpolate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_mmse_fir_interpolator_ff_interpolate</name>
+        <initializer>= R&quot;doc(compute a single interpolated output value.  must have ntaps() valid entries. input[0] .. input[ntaps() - 1] are referenced to compute the output value.
+
+must be in the range [0, 1] and specifies the fractional delay.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_fir_interpolator_ff_pydoc.h" line="43" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_fir_interpolator_ff_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_fir_interpolator_ff_pydoc.h"/>
+  </compounddef>
+</doxygen>

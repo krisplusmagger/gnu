@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="descrambler__bb__pydoc_8h" kind="file" language="C++">
+    <compoundname>descrambler_bb_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>descrambler_bb_pydoc.h</label>
+        <link refid="descrambler__bb__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="descrambler__bb__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/descrambler_bb_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/descrambler_bb_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="descrambler__bb__pydoc_8h_1a74453f5f4ad57a048a78a05dac4805ff" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_descrambler_bb</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_descrambler_bb</name>
+        <initializer>= R&quot;doc(Descramber an input stream using an LFSR.
+
+Descramble an input stream using an LFSR. This block works on the LSB only of the input data stream, i.e., on an \&quot;unpacked
+binary\&quot; stream, and produces the same format on its output.
+
+Constructor Specific Documentation:
+
+Make a descrambler block.
+
+Args:
+    mask : Polynomial mask for LFSR
+    seed : Initial shift register contents
+    len : Shift register length)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/descrambler_bb_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/descrambler_bb_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="descrambler__bb__pydoc_8h_1af0dd222453fa43a549f1c15dc8136054" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_descrambler_bb_descrambler_bb</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_descrambler_bb_descrambler_bb</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/descrambler_bb_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/descrambler_bb_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="descrambler__bb__pydoc_8h_1a24b13a238609235a9f057c8b1f8d165a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_descrambler_bb_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_descrambler_bb_make</name>
+        <initializer>= R&quot;doc(Descramber an input stream using an LFSR.
+
+Descramble an input stream using an LFSR. This block works on the LSB only of the input data stream, i.e., on an \&quot;unpacked
+binary\&quot; stream, and produces the same format on its output.
+
+Constructor Specific Documentation:
+
+Make a descrambler block.
+
+Args:
+    mask : Polynomial mask for LFSR
+    seed : Initial shift register contents
+    len : Shift register length)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/descrambler_bb_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/descrambler_bb_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/descrambler_bb_pydoc.h"/>
+  </compounddef>
+</doxygen>

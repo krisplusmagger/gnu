@@ -59,17 +59,22 @@ void ofdm_equalizer_static::equalize(gr_complex* frame,
 {
     d_channel_state = initial_taps;
 
+    // n_sym -> ofdm symbols 
     for (int i = 0; i < n_sym; i++) {
         for (int k = 0; k < d_fft_len; k++) {
             if (!d_occupied_carriers[k]) {
                 continue;
             }
+            // if the subcarrier is a pilot, updates the state by dividing the received symbol by the know pilot_value
             if (!d_pilot_carriers.empty() && d_pilot_carriers[d_pilot_carr_set][k]) {
                 d_channel_state[k] =
                     frame[i * d_fft_len + k] / d_pilot_symbols[d_pilot_carr_set][k];
-                frame[i * d_fft_len + k] = d_pilot_symbols[d_pilot_carr_set][k];
-            } else {
-                frame[i * d_fft_len + k] /= d_channel_state[k];
+                frame[i * d_fft_len + k] = d_pilot_symbols[d_pilot_carr_set][k];// the received frame at this location then replaced 
+                //by the known pilot symbol.
+            } 
+            // for date carriers, it equalizes the received value by dividing it by the estimited channel response
+            else {
+                frame[i * d_fft_len + k] /= d_channel_state[k]; // x = y/h
             }
         }
         if (!d_pilot_carriers.empty()) {

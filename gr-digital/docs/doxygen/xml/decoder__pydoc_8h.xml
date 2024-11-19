@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="decoder__pydoc_8h" kind="file" language="C++">
+    <compoundname>decoder_pydoc.h</compoundname>
+    <includes refid="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>decoder_pydoc.h</label>
+        <link refid="decoder__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="decoder__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, fec, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="decoder__pydoc_8h_1a794922b759f4f3b89f7bb6e042cc3d46" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_decoder</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_decoder</name>
+        <initializer>= R&quot;doc(General FEC decoding block that takes in a decoder variable object (derived from gr::fec::general_decoder) for use in a flowgraph.
+
+This block uses a decoder variable object (derived from <ref refid="classgr_1_1fec_1_1generic__decoder" kindref="compound">gr::fec::generic_decoder</ref>) to decode data within a flowgraph. This block interacts with the general FECAPI architecture to handle all passing all input and output data in a flowgraph. The decoder variable takes care of understanding the requirements, data types and sizes, and boundary conditions of the specific FEC decoding algorithm.
+
+
+Generally, this block is used within the fec.extended_decoder Python block to handle some input/output formatting issues. In the FECAPI, the decoder variable sets properties like the input and output types and sizes and whether the output is packed or unpacked bytes. The fec.extended_decoder uses this information to set up an <ref refid="classgr_1_1hier__block2" kindref="compound">gr::hier_block2</ref> structure to make sure the I/O to the variable is handled consistently, such as to make sure all inputs are floats with one soft symbol per item and the outputs are unpacked bytes with the bit in the LSB.
+
+
+See <ref refid="classgr_1_1fec_1_1generic__decoder" kindref="compound">gr::fec::generic_decoder</ref> for detail on what information an FECAPI variable object can set if using this block directly and not as part of the fec.extended_decoder.
+
+Constructor Specific Documentation:
+
+Create the FEC decoder block by taking in the FECAPI decoder object as well as input and output sizes.
+
+Args:
+    my_decoder : An FECAPI decoder object (See <ref refid="classgr_1_1fec_1_1generic__decoder" kindref="compound">gr::fec::generic_decoder</ref>).
+    input_item_size : The size of the input items (often the my_decoder object can tell us this).
+    output_item_size : The size of the output items (often the my_decoder object can tell us this).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="decoder__pydoc_8h_1a588d6625e6c42501316921e6f79329dc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_decoder_decoder_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_decoder_decoder_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" line="38" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="decoder__pydoc_8h_1abc87486ad6c46902cff322edab460108" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_decoder_decoder_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_decoder_decoder_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="decoder__pydoc_8h_1a477528e21ad2202c1d9f66dcb564e44b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_decoder_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_decoder_make</name>
+        <initializer>= R&quot;doc(General FEC decoding block that takes in a decoder variable object (derived from gr::fec::general_decoder) for use in a flowgraph.
+
+This block uses a decoder variable object (derived from <ref refid="classgr_1_1fec_1_1generic__decoder" kindref="compound">gr::fec::generic_decoder</ref>) to decode data within a flowgraph. This block interacts with the general FECAPI architecture to handle all passing all input and output data in a flowgraph. The decoder variable takes care of understanding the requirements, data types and sizes, and boundary conditions of the specific FEC decoding algorithm.
+
+
+Generally, this block is used within the fec.extended_decoder Python block to handle some input/output formatting issues. In the FECAPI, the decoder variable sets properties like the input and output types and sizes and whether the output is packed or unpacked bytes. The fec.extended_decoder uses this information to set up an <ref refid="classgr_1_1hier__block2" kindref="compound">gr::hier_block2</ref> structure to make sure the I/O to the variable is handled consistently, such as to make sure all inputs are floats with one soft symbol per item and the outputs are unpacked bytes with the bit in the LSB.
+
+
+See <ref refid="classgr_1_1fec_1_1generic__decoder" kindref="compound">gr::fec::generic_decoder</ref> for detail on what information an FECAPI variable object can set if using this block directly and not as part of the fec.extended_decoder.
+
+Constructor Specific Documentation:
+
+Create the FEC decoder block by taking in the FECAPI decoder object as well as input and output sizes.
+
+Args:
+    my_decoder : An FECAPI decoder object (See <ref refid="classgr_1_1fec_1_1generic__decoder" kindref="compound">gr::fec::generic_decoder</ref>).
+    input_item_size : The size of the input items (often the my_decoder object can tell us this).
+    output_item_size : The size of the output items (often the my_decoder object can tell us this).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" line="44" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="decoder__pydoc_8h_1ad773ec6108580a04b38f4f9c85fa2e9d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_decoder_general_work</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_decoder_general_work</name>
+        <initializer>= R&quot;doc(compute output items from input items
+
+WORK_CALLED_PRODUCE is used where not all outputs produce the same number of items. general_work must call produce() for each output to indicate the number of items actually produced.
+
+
+WORK_DONE indicates that no more data will be produced by this block.
+
+
+general_work must call consume or consume_each to indicate how many items were consumed on each input stream.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" line="64" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="decoder__pydoc_8h_1ad41e824c5327a463740f2a00c52c44b5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_decoder_fixed_rate_ninput_to_noutput</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_decoder_fixed_rate_ninput_to_noutput</name>
+        <initializer>= R&quot;doc(Given ninput samples, return number of output samples that will be produced. N.B. this is only defined if fixed_rate returns true. Generally speaking, you don&apos;t need to override this.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" line="75" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="decoder__pydoc_8h_1acca8e4f7d124ad4c8e88ccb7ef3c58a7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_decoder_fixed_rate_noutput_to_ninput</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_decoder_fixed_rate_noutput_to_ninput</name>
+        <initializer>= R&quot;doc(Given noutput samples, return number of input samples required to produce noutput. N.B. this is only defined if fixed_rate returns true. Generally speaking, you don&apos;t need to override this.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" line="78" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="decoder__pydoc_8h_1a3340680a085b6788a367d36affddb4c9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_decoder_forecast</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_decoder_forecast</name>
+        <initializer>= R&quot;doc(Estimate input requirements given output request.
+
+Given a request to product , estimate the number of data items required on each input stream. The estimate doesn&apos;t have to be exact, but should be close.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" line="81" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/decoder_pydoc.h"/>
+  </compounddef>
+</doxygen>

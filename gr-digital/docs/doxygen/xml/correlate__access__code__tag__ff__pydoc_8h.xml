@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="correlate__access__code__tag__ff__pydoc_8h" kind="file" language="C++">
+    <compoundname>correlate_access_code_tag_ff_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>correlate_access_code_tag_ff_pydoc.h</label>
+        <link refid="correlate__access__code__tag__ff__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="correlate__access__code__tag__ff__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="correlate__access__code__tag__ff__pydoc_8h_1a72e7d2ec121e0aca483363df08c04ba1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_correlate_access_code_tag_ff</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_correlate_access_code_tag_ff</name>
+        <initializer>= R&quot;doc(Examine input for specified access code, one bit at a time.
+
+input: stream of floats (generally, soft decisions) output: unaltered stream of bits (plus tags)
+
+
+This block annotates the input stream with tags. The tags have key name [tag_name], specified in the constructor. Used for searching an input data stream for preambles, etc., by slicing the soft decision symbol inputs.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    access_code : is represented with 1 byte per bit, e.g., \&quot;010101010111000100\&quot;
+    threshold : maximum number of bits that may be wrong
+    tag_name : key of the tag inserted into the tag stream)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correlate__access__code__tag__ff__pydoc_8h_1a8f9136691ca08aa68bfff45868f8e8a0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_correlate_access_code_tag_ff_correlate_access_code_tag_ff_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_correlate_access_code_tag_ff_correlate_access_code_tag_ff_0</name>
+        <initializer>=
+        R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" line="36" column="5" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correlate__access__code__tag__ff__pydoc_8h_1a65a4beb6729b1ac93729982726c2812c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_correlate_access_code_tag_ff_correlate_access_code_tag_ff_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_correlate_access_code_tag_ff_correlate_access_code_tag_ff_1</name>
+        <initializer>=
+        R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" line="41" column="5" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correlate__access__code__tag__ff__pydoc_8h_1a8bb0e21a7caf0a422441a070b7f9a660" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_correlate_access_code_tag_ff_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_correlate_access_code_tag_ff_make</name>
+        <initializer>= R&quot;doc(Examine input for specified access code, one bit at a time.
+
+input: stream of floats (generally, soft decisions) output: unaltered stream of bits (plus tags)
+
+
+This block annotates the input stream with tags. The tags have key name [tag_name], specified in the constructor. Used for searching an input data stream for preambles, etc., by slicing the soft decision symbol inputs.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    access_code : is represented with 1 byte per bit, e.g., \&quot;010101010111000100\&quot;
+    threshold : maximum number of bits that may be wrong
+    tag_name : key of the tag inserted into the tag stream)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" line="45" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correlate__access__code__tag__ff__pydoc_8h_1aad7b7378d651e67a4d94723a9dd44dcf" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_correlate_access_code_tag_ff_set_access_code</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_correlate_access_code_tag_ff_set_access_code</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" line="62" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correlate__access__code__tag__ff__pydoc_8h_1ab355188a7e7aed50dd7dea5e2fcc47de" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_correlate_access_code_tag_ff_set_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_correlate_access_code_tag_ff_set_threshold</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" line="66" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correlate__access__code__tag__ff__pydoc_8h_1a471ea32c893c4c6785bbe0c7939adb59" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_correlate_access_code_tag_ff_set_tagname</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_correlate_access_code_tag_ff_set_tagname</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" line="70" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_tag_ff_pydoc.h"/>
+  </compounddef>
+</doxygen>

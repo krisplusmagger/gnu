@@ -1,0 +1,2204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1blocks" kind="namespace" language="C++">
+    <compoundname>gr::blocks</compoundname>
+    <innerclass refid="classgr_1_1blocks_1_1abs__blk" prot="public">gr::blocks::abs_blk</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1add__blk" prot="public">gr::blocks::add_blk</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1add__const__bb" prot="public">gr::blocks::add_const_bb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1add__const__cc" prot="public">gr::blocks::add_const_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1add__const__ff" prot="public">gr::blocks::add_const_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1add__const__ii" prot="public">gr::blocks::add_const_ii</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1add__const__ss" prot="public">gr::blocks::add_const_ss</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1add__const__v" prot="public">gr::blocks::add_const_v</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1and__blk" prot="public">gr::blocks::and_blk</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1and__const" prot="public">gr::blocks::and_const</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1annotator__1to1" prot="public">gr::blocks::annotator_1to1</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1annotator__alltoall" prot="public">gr::blocks::annotator_alltoall</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1annotator__raw" prot="public">gr::blocks::annotator_raw</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1argmax" prot="public">gr::blocks::argmax</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1blockinterleaver__xx" prot="public">gr::blocks::blockinterleaver_xx</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1burst__tagger" prot="public">gr::blocks::burst_tagger</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1burst__to__stream" prot="public">gr::blocks::burst_to_stream</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1char__to__float" prot="public">gr::blocks::char_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1char__to__short" prot="public">gr::blocks::char_to_short</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1check__lfsr__32k__s" prot="public">gr::blocks::check_lfsr_32k_s</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__arg" prot="public">gr::blocks::complex_to_arg</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__float" prot="public">gr::blocks::complex_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__imag" prot="public">gr::blocks::complex_to_imag</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__interleaved__char" prot="public">gr::blocks::complex_to_interleaved_char</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__interleaved__short" prot="public">gr::blocks::complex_to_interleaved_short</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag" prot="public">gr::blocks::complex_to_mag</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag__squared" prot="public">gr::blocks::complex_to_mag_squared</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__magphase" prot="public">gr::blocks::complex_to_magphase</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__real" prot="public">gr::blocks::complex_to_real</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1conjugate__cc" prot="public">gr::blocks::conjugate_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1control__loop" prot="public">gr::blocks::control_loop</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1copy" prot="public">gr::blocks::copy</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1correctiq" prot="public">gr::blocks::correctiq</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1correctiq__auto" prot="public">gr::blocks::correctiq_auto</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1correctiq__man" prot="public">gr::blocks::correctiq_man</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1ctrlport__probe2__b" prot="public">gr::blocks::ctrlport_probe2_b</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1ctrlport__probe2__c" prot="public">gr::blocks::ctrlport_probe2_c</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1ctrlport__probe2__f" prot="public">gr::blocks::ctrlport_probe2_f</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1ctrlport__probe2__i" prot="public">gr::blocks::ctrlport_probe2_i</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1ctrlport__probe2__s" prot="public">gr::blocks::ctrlport_probe2_s</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1ctrlport__probe__c" prot="public">gr::blocks::ctrlport_probe_c</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1deinterleave" prot="public">gr::blocks::deinterleave</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1delay" prot="public">gr::blocks::delay</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1divide" prot="public">gr::blocks::divide</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1endian__swap" prot="public">gr::blocks::endian_swap</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1exponentiate__const__cci" prot="public">gr::blocks::exponentiate_const_cci</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__descriptor__sink" prot="public">gr::blocks::file_descriptor_sink</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__descriptor__source" prot="public">gr::blocks::file_descriptor_source</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__meta__sink" prot="public">gr::blocks::file_meta_sink</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__meta__source" prot="public">gr::blocks::file_meta_source</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__sink" prot="public">gr::blocks::file_sink</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__sink__base" prot="public">gr::blocks::file_sink_base</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__source" prot="public">gr::blocks::file_source</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__char" prot="public">gr::blocks::float_to_char</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__complex" prot="public">gr::blocks::float_to_complex</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__int" prot="public">gr::blocks::float_to_int</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__short" prot="public">gr::blocks::float_to_short</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__uchar" prot="public">gr::blocks::float_to_uchar</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1head" prot="public">gr::blocks::head</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1host__buffer__copy" prot="public">gr::blocks::host_buffer_copy</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1int__to__float" prot="public">gr::blocks::int_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1integrate" prot="public">gr::blocks::integrate</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1interleave" prot="public">gr::blocks::interleave</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1interleaved__char__to__complex" prot="public">gr::blocks::interleaved_char_to_complex</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1interleaved__short__to__complex" prot="public">gr::blocks::interleaved_short_to_complex</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1keep__m__in__n" prot="public">gr::blocks::keep_m_in_n</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1keep__one__in__n" prot="public">gr::blocks::keep_one_in_n</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1lfsr__15__1__0" prot="public">gr::blocks::lfsr_15_1_0</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1lfsr__32k" prot="public">gr::blocks::lfsr_32k</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1lfsr__32k__source__s" prot="public">gr::blocks::lfsr_32k_source_s</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1magphase__to__complex" prot="public">gr::blocks::magphase_to_complex</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1max__blk" prot="public">gr::blocks::max_blk</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1message__debug" prot="public">gr::blocks::message_debug</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1message__strobe" prot="public">gr::blocks::message_strobe</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1message__strobe__random" prot="public">gr::blocks::message_strobe_random</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1min__blk" prot="public">gr::blocks::min_blk</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1moving__average" prot="public">gr::blocks::moving_average</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply" prot="public">gr::blocks::multiply</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__by__tag__value__cc" prot="public">gr::blocks::multiply_by_tag_value_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__conjugate__cc" prot="public">gr::blocks::multiply_conjugate_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__const" prot="public">gr::blocks::multiply_const</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__const__v" prot="public">gr::blocks::multiply_const_v</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__matrix" prot="public">gr::blocks::multiply_matrix</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1mute__blk" prot="public">gr::blocks::mute_blk</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1nlog10__ff" prot="public">gr::blocks::nlog10_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1nop" prot="public">gr::blocks::nop</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1not__blk" prot="public">gr::blocks::not_blk</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1null__sink" prot="public">gr::blocks::null_sink</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1null__source" prot="public">gr::blocks::null_source</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1or__blk" prot="public">gr::blocks::or_blk</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1pack__k__bits__bb" prot="public">gr::blocks::pack_k_bits_bb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1packed__to__unpacked" prot="public">gr::blocks::packed_to_unpacked</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1patterned__interleaver" prot="public">gr::blocks::patterned_interleaver</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1peak__detector" prot="public">gr::blocks::peak_detector</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1peak__detector2__fb" prot="public">gr::blocks::peak_detector2_fb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1phase__shift" prot="public">gr::blocks::phase_shift</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1plateau__detector__fb" prot="public">gr::blocks::plateau_detector_fb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1probe__rate" prot="public">gr::blocks::probe_rate</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1probe__signal" prot="public">gr::blocks::probe_signal</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1probe__signal__v" prot="public">gr::blocks::probe_signal_v</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1regenerate__bb" prot="public">gr::blocks::regenerate_bb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1repack__bits__bb" prot="public">gr::blocks::repack_bits_bb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1repeat" prot="public">gr::blocks::repeat</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1rms__cf" prot="public">gr::blocks::rms_cf</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1rms__ff" prot="public">gr::blocks::rms_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1rotator" prot="public">gr::blocks::rotator</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1rotator__cc" prot="public">gr::blocks::rotator_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1sample__and__hold" prot="public">gr::blocks::sample_and_hold</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1selector" prot="public">gr::blocks::selector</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1short__to__char" prot="public">gr::blocks::short_to_char</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1short__to__float" prot="public">gr::blocks::short_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1skiphead" prot="public">gr::blocks::skiphead</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__demux" prot="public">gr::blocks::stream_demux</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__mux" prot="public">gr::blocks::stream_mux</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__to__streams" prot="public">gr::blocks::stream_to_streams</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__to__tagged__stream" prot="public">gr::blocks::stream_to_tagged_stream</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__to__vector" prot="public">gr::blocks::stream_to_vector</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1streams__to__stream" prot="public">gr::blocks::streams_to_stream</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1streams__to__vector" prot="public">gr::blocks::streams_to_vector</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stretch__ff" prot="public">gr::blocks::stretch_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1sub" prot="public">gr::blocks::sub</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1swap__iq" prot="public">gr::blocks::swap_iq</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1tag__debug" prot="public">gr::blocks::tag_debug</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1tag__gate" prot="public">gr::blocks::tag_gate</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1tag__share" prot="public">gr::blocks::tag_share</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1tagged__file__sink" prot="public">gr::blocks::tagged_file_sink</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1tagged__stream__align" prot="public">gr::blocks::tagged_stream_align</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1tagged__stream__multiply__length" prot="public">gr::blocks::tagged_stream_multiply_length</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1tagged__stream__mux" prot="public">gr::blocks::tagged_stream_mux</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1tags__strobe" prot="public">gr::blocks::tags_strobe</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1test__tag__variable__rate__ff" prot="public">gr::blocks::test_tag_variable_rate_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1threshold__ff" prot="public">gr::blocks::threshold_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1throttle" prot="public">gr::blocks::throttle</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1transcendental" prot="public">gr::blocks::transcendental</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1tsb__vector__sink" prot="public">gr::blocks::tsb_vector_sink</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1uchar__to__float" prot="public">gr::blocks::uchar_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1unpack__k__bits__bb" prot="public">gr::blocks::unpack_k_bits_bb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1unpacked__to__packed" prot="public">gr::blocks::unpacked_to_packed</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vco__c" prot="public">gr::blocks::vco_c</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vco__f" prot="public">gr::blocks::vco_f</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__insert" prot="public">gr::blocks::vector_insert</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__map" prot="public">gr::blocks::vector_map</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__sink" prot="public">gr::blocks::vector_sink</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__source" prot="public">gr::blocks::vector_source</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__to__stream" prot="public">gr::blocks::vector_to_stream</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__to__streams" prot="public">gr::blocks::vector_to_streams</innerclass>
+    <innerclass refid="structgr_1_1blocks_1_1wav__header__info" prot="public">gr::blocks::wav_header_info</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1wavfile__sink" prot="public">gr::blocks::wavfile_sink</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1wavfile__source" prot="public">gr::blocks::wavfile_source</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1xor__blk" prot="public">gr::blocks::xor_blk</innerclass>
+    <innernamespace refid="namespacegr_1_1blocks_1_1kernel">gr::blocks::kernel</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6" prot="public" static="no" strong="no">
+        <type></type>
+        <name>gr_file_types</name>
+        <qualifiedname>gr::blocks::gr_file_types</qualifiedname>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6a0ccdd1487ca349aea3efde7daecaef65" prot="public">
+          <name>GR_FILE_BYTE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6a9398c5264fb25d5aa2a9d08f1e68ad79" prot="public">
+          <name>GR_FILE_CHAR</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6af08508c6dd7fc2dfb9529a9d82d6164f" prot="public">
+          <name>GR_FILE_SHORT</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6ad98b7975f581d3864006ca663aee722d" prot="public">
+          <name>GR_FILE_INT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6a07ad82268bf96f539676f8545be40ec8" prot="public">
+          <name>GR_FILE_LONG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6aeba7eac37ba5a0ab76cf12efae97e39a" prot="public">
+          <name>GR_FILE_LONG_LONG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6acc39a9c09fab2b114ddb5ac6ec3a63f9" prot="public">
+          <name>GR_FILE_FLOAT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6a59bbff58dc3f23afa79642d7c9e09a14" prot="public">
+          <name>GR_FILE_DOUBLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/file_meta_sink.h" line="23" column="1" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/file_meta_sink.h" bodystart="23" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacegr_1_1blocks_1a490c2cae201320eaa480f5ec66bf376f" prot="public" static="no" strong="no">
+        <type></type>
+        <name>message_strobe_random_distribution_t</name>
+        <qualifiedname>gr::blocks::message_strobe_random_distribution_t</qualifiedname>
+        <enumvalue id="namespacegr_1_1blocks_1a490c2cae201320eaa480f5ec66bf376fafd7b4c1255146011421efb5239cd4c9a" prot="public">
+          <name>STROBE_POISSON</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1a490c2cae201320eaa480f5ec66bf376fa92297cc6d3a78010bfba33969389fa21" prot="public">
+          <name>STROBE_GAUSSIAN</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1a490c2cae201320eaa480f5ec66bf376faa0e1b65ba2c05cdef8dbb428c122e465" prot="public">
+          <name>STROBE_UNIFORM</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1a490c2cae201320eaa480f5ec66bf376fae7683feedf79a94222cc785fbbb89f80" prot="public">
+          <name>STROBE_EXPONENTIAL</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/message_strobe_random.h" line="23" column="1" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/message_strobe_random.h" bodystart="23" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacegr_1_1blocks_1aa284b4582d3dc28ffe25a6610bbe3d79" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wavfile_format_t</name>
+        <qualifiedname>gr::blocks::wavfile_format_t</qualifiedname>
+        <enumvalue id="namespacegr_1_1blocks_1aa284b4582d3dc28ffe25a6610bbe3d79a9496dcae5657f1a7643558172cfaffc2" prot="public">
+          <name>FORMAT_WAV</name>
+          <initializer>= 0x010000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aa284b4582d3dc28ffe25a6610bbe3d79a69d635ac9d8cc77cb422c9e333a4abd3" prot="public">
+          <name>FORMAT_FLAC</name>
+          <initializer>= 0x170000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aa284b4582d3dc28ffe25a6610bbe3d79a3c27bddb8e3cba1d2320444097339d9f" prot="public">
+          <name>FORMAT_OGG</name>
+          <initializer>= 0x200000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aa284b4582d3dc28ffe25a6610bbe3d79a1b657d6d8d4ff63987cbc79331729210" prot="public">
+          <name>FORMAT_RF64</name>
+          <initializer>= 0x220000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" line="44" column="1" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" bodystart="44" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacegr_1_1blocks_1a626fe6bd71c1a78ba9a3780d2dcaa0e1" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wavfile_subformat_t</name>
+        <qualifiedname>gr::blocks::wavfile_subformat_t</qualifiedname>
+        <enumvalue id="namespacegr_1_1blocks_1a626fe6bd71c1a78ba9a3780d2dcaa0e1a75716242a37e0a119aea2a70578780ec" prot="public">
+          <name>FORMAT_PCM_S8</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1a626fe6bd71c1a78ba9a3780d2dcaa0e1a533ce5b61edb7232c3666cd1a747fa99" prot="public">
+          <name>FORMAT_PCM_16</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1a626fe6bd71c1a78ba9a3780d2dcaa0e1a3721a075a012821a5a755e0df27185d1" prot="public">
+          <name>FORMAT_PCM_24</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1a626fe6bd71c1a78ba9a3780d2dcaa0e1ae26e2252196cdfa9d0f92b9945e295ee" prot="public">
+          <name>FORMAT_PCM_32</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1a626fe6bd71c1a78ba9a3780d2dcaa0e1a570265a1e59720548239358f1f661b9c" prot="public">
+          <name>FORMAT_PCM_U8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1a626fe6bd71c1a78ba9a3780d2dcaa0e1aee5d5c4a9bc876e0ee781c41433a0d4e" prot="public">
+          <name>FORMAT_FLOAT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1a626fe6bd71c1a78ba9a3780d2dcaa0e1aea23f17fa6d9f302d36fc35f3a668b01" prot="public">
+          <name>FORMAT_DOUBLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1a626fe6bd71c1a78ba9a3780d2dcaa0e1abbad3fa76dde4288673bd0043a6f2f3f" prot="public">
+          <name>FORMAT_VORBIS</name>
+          <initializer>= 0x0060</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1a626fe6bd71c1a78ba9a3780d2dcaa0e1a75501c161f78e2cf7f1f7f629fc2f2f5" prot="public">
+          <name>FORMAT_OPUS</name>
+          <initializer>= 0x0064</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" line="51" column="1" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" bodystart="51" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a086ce75e02ac5615f148d4f78d9d4f0f" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1abs__blk" kindref="compound">abs_blk</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef abs_blk&lt;std::int16_t&gt; gr::blocks::abs_ss</definition>
+        <argsstring></argsstring>
+        <name>abs_ss</name>
+        <qualifiedname>gr::blocks::abs_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/abs_blk.h" line="43" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/abs_blk.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1aa2e5564a23b1a6da28e43eead58e94d2" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1abs__blk" kindref="compound">abs_blk</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef abs_blk&lt;std::int32_t&gt; gr::blocks::abs_ii</definition>
+        <argsstring></argsstring>
+        <name>abs_ii</name>
+        <qualifiedname>gr::blocks::abs_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/abs_blk.h" line="44" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/abs_blk.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a390be8e8bec638c148e15e36ca2be7e7" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1abs__blk" kindref="compound">abs_blk</ref>&lt; float &gt;</type>
+        <definition>typedef abs_blk&lt;float&gt; gr::blocks::abs_ff</definition>
+        <argsstring></argsstring>
+        <name>abs_ff</name>
+        <qualifiedname>gr::blocks::abs_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/abs_blk.h" line="45" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/abs_blk.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a264a9b53a1cfc6a3ebd5f100d584e1e6" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1add__blk" kindref="compound">add_blk</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef add_blk&lt;std::int16_t&gt; gr::blocks::add_ss</definition>
+        <argsstring></argsstring>
+        <name>add_ss</name>
+        <qualifiedname>gr::blocks::add_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_blk.h" line="44" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_blk.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a65a37db5b0f9b1c9d6b3f5d6bc768f83" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1add__blk" kindref="compound">add_blk</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef add_blk&lt;std::int32_t&gt; gr::blocks::add_ii</definition>
+        <argsstring></argsstring>
+        <name>add_ii</name>
+        <qualifiedname>gr::blocks::add_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_blk.h" line="45" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_blk.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ad5b16a821a5b0dfe96f9dacfaa4a21ec" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1add__blk" kindref="compound">add_blk</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef add_blk&lt;gr_complex&gt; gr::blocks::add_cc</definition>
+        <argsstring></argsstring>
+        <name>add_cc</name>
+        <qualifiedname>gr::blocks::add_cc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_blk.h" line="46" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_blk.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a3d0612bdbc5f194241993180d9398e64" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1add__blk" kindref="compound">add_blk</ref>&lt; float &gt;</type>
+        <definition>typedef add_blk&lt;float&gt; gr::blocks::add_ff</definition>
+        <argsstring></argsstring>
+        <name>add_ff</name>
+        <qualifiedname>gr::blocks::add_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_blk.h" line="47" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_blk.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ad195f9220f946b94ef5657c64c658930" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1add__const__v" kindref="compound">add_const_v</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef add_const_v&lt;std::uint8_t&gt; gr::blocks::add_const_vbb</definition>
+        <argsstring></argsstring>
+        <name>add_const_vbb</name>
+        <qualifiedname>gr::blocks::add_const_vbb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_const_v.h" line="49" column="21" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_const_v.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a566841a064ea7799b928dc6ae05568d4" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1add__const__v" kindref="compound">add_const_v</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef add_const_v&lt;std::int16_t&gt; gr::blocks::add_const_vss</definition>
+        <argsstring></argsstring>
+        <name>add_const_vss</name>
+        <qualifiedname>gr::blocks::add_const_vss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_const_v.h" line="50" column="21" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_const_v.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1aff8869b1ab9f74135e114ae757aaf146" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1add__const__v" kindref="compound">add_const_v</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef add_const_v&lt;std::int32_t&gt; gr::blocks::add_const_vii</definition>
+        <argsstring></argsstring>
+        <name>add_const_vii</name>
+        <qualifiedname>gr::blocks::add_const_vii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_const_v.h" line="51" column="21" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_const_v.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a97dc6283d9b3634237d2eadf8acaf704" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1add__const__v" kindref="compound">add_const_v</ref>&lt; float &gt;</type>
+        <definition>typedef add_const_v&lt;float&gt; gr::blocks::add_const_vff</definition>
+        <argsstring></argsstring>
+        <name>add_const_vff</name>
+        <qualifiedname>gr::blocks::add_const_vff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_const_v.h" line="52" column="21" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_const_v.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1accd34cfb91570a0b271ba8531bab2464" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1add__const__v" kindref="compound">add_const_v</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef add_const_v&lt;gr_complex&gt; gr::blocks::add_const_vcc</definition>
+        <argsstring></argsstring>
+        <name>add_const_vcc</name>
+        <qualifiedname>gr::blocks::add_const_vcc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_const_v.h" line="53" column="21" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/add_const_v.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a8c9317daf8441fc8352967f278b01a6f" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1and__blk" kindref="compound">and_blk</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef and_blk&lt;std::uint8_t&gt; gr::blocks::and_bb</definition>
+        <argsstring></argsstring>
+        <name>and_bb</name>
+        <qualifiedname>gr::blocks::and_bb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/and_blk.h" line="39" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/and_blk.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a559238e43c2d902be476070b67dc3518" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1and__blk" kindref="compound">and_blk</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef and_blk&lt;std::int16_t&gt; gr::blocks::and_ss</definition>
+        <argsstring></argsstring>
+        <name>and_ss</name>
+        <qualifiedname>gr::blocks::and_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/and_blk.h" line="40" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/and_blk.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a9fd2bf4caf4d4558de90b83a77c42d68" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1and__blk" kindref="compound">and_blk</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef and_blk&lt;std::int32_t&gt; gr::blocks::and_ii</definition>
+        <argsstring></argsstring>
+        <name>and_ii</name>
+        <qualifiedname>gr::blocks::and_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/and_blk.h" line="41" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/and_blk.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a304818f53cfbd3c6293a205aa511ef03" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1and__const" kindref="compound">and_const</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef and_const&lt;std::uint8_t&gt; gr::blocks::and_const_bb</definition>
+        <argsstring></argsstring>
+        <name>and_const_bb</name>
+        <qualifiedname>gr::blocks::and_const_bb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/and_const.h" line="54" column="19" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/and_const.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1afc863fd6a5b1dc57d4b44be5b0b974c3" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1and__const" kindref="compound">and_const</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef and_const&lt;std::int16_t&gt; gr::blocks::and_const_ss</definition>
+        <argsstring></argsstring>
+        <name>and_const_ss</name>
+        <qualifiedname>gr::blocks::and_const_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/and_const.h" line="55" column="19" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/and_const.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a75f67773ca9bfa879fcb024e0efebce2" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1and__const" kindref="compound">and_const</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef and_const&lt;std::int32_t&gt; gr::blocks::and_const_ii</definition>
+        <argsstring></argsstring>
+        <name>and_const_ii</name>
+        <qualifiedname>gr::blocks::and_const_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/and_const.h" line="56" column="19" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/and_const.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1aec9c4f22b08a89969953d5e16b44dcba" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1argmax" kindref="compound">argmax</ref>&lt; float &gt;</type>
+        <definition>typedef argmax&lt;float&gt; gr::blocks::argmax_fs</definition>
+        <argsstring></argsstring>
+        <name>argmax_fs</name>
+        <qualifiedname>gr::blocks::argmax_fs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/argmax.h" line="47" column="16" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/argmax.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1abf4c9a7cc498278e4d5a46339792edc8" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1argmax" kindref="compound">argmax</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef argmax&lt;std::int32_t&gt; gr::blocks::argmax_is</definition>
+        <argsstring></argsstring>
+        <name>argmax_is</name>
+        <qualifiedname>gr::blocks::argmax_is</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/argmax.h" line="48" column="16" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/argmax.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a7ada47651778b92c485985a3c53a2631" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1argmax" kindref="compound">argmax</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef argmax&lt;std::int16_t&gt; gr::blocks::argmax_ss</definition>
+        <argsstring></argsstring>
+        <name>argmax_ss</name>
+        <qualifiedname>gr::blocks::argmax_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/argmax.h" line="49" column="16" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/argmax.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a59de5ff12381ea6ea2cf4cc6f88befe8" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1blockinterleaver__xx" kindref="compound">blockinterleaver_xx</ref>&lt; uint8_t &gt;</type>
+        <definition>typedef blockinterleaver_xx&lt;uint8_t&gt; gr::blocks::blockinterleaver_bb</definition>
+        <argsstring></argsstring>
+        <name>blockinterleaver_bb</name>
+        <qualifiedname>gr::blocks::blockinterleaver_bb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaver_xx.h" line="73" column="29" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaver_xx.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a92545f9390e438079b540545ce228944" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1blockinterleaver__xx" kindref="compound">blockinterleaver_xx</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef blockinterleaver_xx&lt;gr_complex&gt; gr::blocks::blockinterleaver_cc</definition>
+        <argsstring></argsstring>
+        <name>blockinterleaver_cc</name>
+        <qualifiedname>gr::blocks::blockinterleaver_cc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaver_xx.h" line="74" column="29" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaver_xx.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ab3f1692adc45fc7079f71689697302e4" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1blockinterleaver__xx" kindref="compound">blockinterleaver_xx</ref>&lt; float &gt;</type>
+        <definition>typedef blockinterleaver_xx&lt;float&gt; gr::blocks::blockinterleaver_ff</definition>
+        <argsstring></argsstring>
+        <name>blockinterleaver_ff</name>
+        <qualifiedname>gr::blocks::blockinterleaver_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaver_xx.h" line="75" column="29" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaver_xx.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a92d26646e5fb2da023c54f2baa887686" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1blockinterleaver__xx" kindref="compound">blockinterleaver_xx</ref>&lt; int32_t &gt;</type>
+        <definition>typedef blockinterleaver_xx&lt;int32_t&gt; gr::blocks::blockinterleaver_ii</definition>
+        <argsstring></argsstring>
+        <name>blockinterleaver_ii</name>
+        <qualifiedname>gr::blocks::blockinterleaver_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaver_xx.h" line="76" column="29" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaver_xx.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ab06602cbd205bb516d20b441091826ff" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1blockinterleaver__xx" kindref="compound">blockinterleaver_xx</ref>&lt; int16_t &gt;</type>
+        <definition>typedef blockinterleaver_xx&lt;int16_t&gt; gr::blocks::blockinterleaver_ss</definition>
+        <argsstring></argsstring>
+        <name>blockinterleaver_ss</name>
+        <qualifiedname>gr::blocks::blockinterleaver_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaver_xx.h" line="77" column="29" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaver_xx.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a42a64e7853c006d5ce35c7521085e2e3" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1divide" kindref="compound">divide</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef divide&lt;std::int16_t&gt; gr::blocks::divide_ss</definition>
+        <argsstring></argsstring>
+        <name>divide_ss</name>
+        <qualifiedname>gr::blocks::divide_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/divide.h" line="39" column="16" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/divide.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a459b192c49b49365a723530946e240aa" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1divide" kindref="compound">divide</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef divide&lt;std::int32_t&gt; gr::blocks::divide_ii</definition>
+        <argsstring></argsstring>
+        <name>divide_ii</name>
+        <qualifiedname>gr::blocks::divide_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/divide.h" line="40" column="16" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/divide.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a2da706db5e765a2753bcfe47af7e2112" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1divide" kindref="compound">divide</ref>&lt; float &gt;</type>
+        <definition>typedef divide&lt;float&gt; gr::blocks::divide_ff</definition>
+        <argsstring></argsstring>
+        <name>divide_ff</name>
+        <qualifiedname>gr::blocks::divide_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/divide.h" line="41" column="16" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/divide.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a827904b31f89b02ccba68ce0a8f44dad" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1divide" kindref="compound">divide</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef divide&lt;gr_complex&gt; gr::blocks::divide_cc</definition>
+        <argsstring></argsstring>
+        <name>divide_cc</name>
+        <qualifiedname>gr::blocks::divide_cc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/divide.h" line="42" column="16" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/divide.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a5bf1e844501dac469260e6f55df00121" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1integrate" kindref="compound">integrate</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef integrate&lt;std::int16_t&gt; gr::blocks::integrate_ss</definition>
+        <argsstring></argsstring>
+        <name>integrate_ss</name>
+        <qualifiedname>gr::blocks::integrate_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/integrate.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/integrate.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1aa58d65cac80154c0f477834359056e92" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1integrate" kindref="compound">integrate</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef integrate&lt;std::int32_t&gt; gr::blocks::integrate_ii</definition>
+        <argsstring></argsstring>
+        <name>integrate_ii</name>
+        <qualifiedname>gr::blocks::integrate_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/integrate.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/integrate.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1acf01ac22a3cef6b80836d026e0d6d29b" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1integrate" kindref="compound">integrate</ref>&lt; float &gt;</type>
+        <definition>typedef integrate&lt;float&gt; gr::blocks::integrate_ff</definition>
+        <argsstring></argsstring>
+        <name>integrate_ff</name>
+        <qualifiedname>gr::blocks::integrate_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/integrate.h" line="38" column="19" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/integrate.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a2492674050e563a668e7a5c772cdd5ba" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1integrate" kindref="compound">integrate</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef integrate&lt;gr_complex&gt; gr::blocks::integrate_cc</definition>
+        <argsstring></argsstring>
+        <name>integrate_cc</name>
+        <qualifiedname>gr::blocks::integrate_cc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/integrate.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/integrate.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a75f001179d5760ea822d87aa6b4bc136" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1max__blk" kindref="compound">max_blk</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef max_blk&lt;std::int16_t&gt; gr::blocks::max_ss</definition>
+        <argsstring></argsstring>
+        <name>max_ss</name>
+        <qualifiedname>gr::blocks::max_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/max_blk.h" line="47" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/max_blk.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1aa1f5c8cd24665e4566d1f8b7dce735cf" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1max__blk" kindref="compound">max_blk</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef max_blk&lt;std::int32_t&gt; gr::blocks::max_ii</definition>
+        <argsstring></argsstring>
+        <name>max_ii</name>
+        <qualifiedname>gr::blocks::max_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/max_blk.h" line="48" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/max_blk.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1aeff2d8290134e6154b5d1f63d6cf737b" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1max__blk" kindref="compound">max_blk</ref>&lt; float &gt;</type>
+        <definition>typedef max_blk&lt;float&gt; gr::blocks::max_ff</definition>
+        <argsstring></argsstring>
+        <name>max_ff</name>
+        <qualifiedname>gr::blocks::max_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/max_blk.h" line="49" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/max_blk.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ab8cfc51f3208ecb8004b3133688e7223" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1min__blk" kindref="compound">min_blk</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef min_blk&lt;std::int16_t&gt; gr::blocks::min_ss</definition>
+        <argsstring></argsstring>
+        <name>min_ss</name>
+        <qualifiedname>gr::blocks::min_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/min_blk.h" line="46" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/min_blk.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a160c1a089e0d57c1c5c807b8e446a30f" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1min__blk" kindref="compound">min_blk</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef min_blk&lt;std::int32_t&gt; gr::blocks::min_ii</definition>
+        <argsstring></argsstring>
+        <name>min_ii</name>
+        <qualifiedname>gr::blocks::min_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/min_blk.h" line="47" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/min_blk.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a5acd9291ee1cefbb40bf5f532c5e5e3e" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1min__blk" kindref="compound">min_blk</ref>&lt; float &gt;</type>
+        <definition>typedef min_blk&lt;float&gt; gr::blocks::min_ff</definition>
+        <argsstring></argsstring>
+        <name>min_ff</name>
+        <qualifiedname>gr::blocks::min_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/min_blk.h" line="48" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/min_blk.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a804ec9c4826067a7543347cc11125457" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1moving__average" kindref="compound">moving_average</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef moving_average&lt;std::int16_t&gt; gr::blocks::moving_average_ss</definition>
+        <argsstring></argsstring>
+        <name>moving_average_ss</name>
+        <qualifiedname>gr::blocks::moving_average_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/moving_average.h" line="70" column="24" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/moving_average.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a00e9fca3198b16d46adb40537b4d0081" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1moving__average" kindref="compound">moving_average</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef moving_average&lt;std::int32_t&gt; gr::blocks::moving_average_ii</definition>
+        <argsstring></argsstring>
+        <name>moving_average_ii</name>
+        <qualifiedname>gr::blocks::moving_average_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/moving_average.h" line="71" column="24" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/moving_average.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a7535e61d03952c8e0a6fbc7a1d42608b" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1moving__average" kindref="compound">moving_average</ref>&lt; float &gt;</type>
+        <definition>typedef moving_average&lt;float&gt; gr::blocks::moving_average_ff</definition>
+        <argsstring></argsstring>
+        <name>moving_average_ff</name>
+        <qualifiedname>gr::blocks::moving_average_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/moving_average.h" line="72" column="24" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/moving_average.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a621c9c49974f50083eba10bf6acb4c41" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1moving__average" kindref="compound">moving_average</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef moving_average&lt;gr_complex&gt; gr::blocks::moving_average_cc</definition>
+        <argsstring></argsstring>
+        <name>moving_average_cc</name>
+        <qualifiedname>gr::blocks::moving_average_cc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/moving_average.h" line="73" column="24" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/moving_average.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a252741b89a625114e77928b2a2a74c04" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply" kindref="compound">multiply</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef multiply&lt;std::int16_t&gt; gr::blocks::multiply_ss</definition>
+        <argsstring></argsstring>
+        <name>multiply_ss</name>
+        <qualifiedname>gr::blocks::multiply_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply.h" line="39" column="18" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1afc350affdc2ab67a3d75c3a403f35aba" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply" kindref="compound">multiply</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef multiply&lt;std::int32_t&gt; gr::blocks::multiply_ii</definition>
+        <argsstring></argsstring>
+        <name>multiply_ii</name>
+        <qualifiedname>gr::blocks::multiply_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply.h" line="40" column="18" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1abe7378d89d84ef58c48eebdcc81b8265" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply" kindref="compound">multiply</ref>&lt; float &gt;</type>
+        <definition>typedef multiply&lt;float&gt; gr::blocks::multiply_ff</definition>
+        <argsstring></argsstring>
+        <name>multiply_ff</name>
+        <qualifiedname>gr::blocks::multiply_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply.h" line="41" column="18" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a8734ca9e383b87fbacd7fca031636539" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply" kindref="compound">multiply</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef multiply&lt;gr_complex&gt; gr::blocks::multiply_cc</definition>
+        <argsstring></argsstring>
+        <name>multiply_cc</name>
+        <qualifiedname>gr::blocks::multiply_cc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply.h" line="42" column="18" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ab617a6b2a9e6ed5a401e71d1f2e563e6" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply__const" kindref="compound">multiply_const</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef multiply_const&lt;std::int16_t&gt; gr::blocks::multiply_const_ss</definition>
+        <argsstring></argsstring>
+        <name>multiply_const_ss</name>
+        <qualifiedname>gr::blocks::multiply_const_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const.h" line="52" column="24" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a3130833e87d2b03bfecc6f18197da858" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply__const" kindref="compound">multiply_const</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef multiply_const&lt;std::int32_t&gt; gr::blocks::multiply_const_ii</definition>
+        <argsstring></argsstring>
+        <name>multiply_const_ii</name>
+        <qualifiedname>gr::blocks::multiply_const_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const.h" line="53" column="24" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1abcb9f51275230a25727d0eca90efb72a" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply__const" kindref="compound">multiply_const</ref>&lt; float &gt;</type>
+        <definition>typedef multiply_const&lt;float&gt; gr::blocks::multiply_const_ff</definition>
+        <argsstring></argsstring>
+        <name>multiply_const_ff</name>
+        <qualifiedname>gr::blocks::multiply_const_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const.h" line="54" column="24" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ad04d930026e9fc8b4b609aa50c6d87b7" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply__const" kindref="compound">multiply_const</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef multiply_const&lt;gr_complex&gt; gr::blocks::multiply_const_cc</definition>
+        <argsstring></argsstring>
+        <name>multiply_const_cc</name>
+        <qualifiedname>gr::blocks::multiply_const_cc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const.h" line="55" column="24" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1af1795c9729a04aba97b399a0c851a86c" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply__const__v" kindref="compound">multiply_const_v</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef multiply_const_v&lt;std::int16_t&gt; gr::blocks::multiply_const_vss</definition>
+        <argsstring></argsstring>
+        <name>multiply_const_vss</name>
+        <qualifiedname>gr::blocks::multiply_const_vss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const_v.h" line="50" column="26" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const_v.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a1da0a0426b6a165432a7a7591e53752a" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply__const__v" kindref="compound">multiply_const_v</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef multiply_const_v&lt;std::int32_t&gt; gr::blocks::multiply_const_vii</definition>
+        <argsstring></argsstring>
+        <name>multiply_const_vii</name>
+        <qualifiedname>gr::blocks::multiply_const_vii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const_v.h" line="51" column="26" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const_v.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1af283c6928d80b90f5ef3d70d33cc835c" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply__const__v" kindref="compound">multiply_const_v</ref>&lt; float &gt;</type>
+        <definition>typedef multiply_const_v&lt;float&gt; gr::blocks::multiply_const_vff</definition>
+        <argsstring></argsstring>
+        <name>multiply_const_vff</name>
+        <qualifiedname>gr::blocks::multiply_const_vff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const_v.h" line="52" column="26" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const_v.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ad491a6ae683c120d18c0c0287b1edbe7" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply__const__v" kindref="compound">multiply_const_v</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef multiply_const_v&lt;gr_complex&gt; gr::blocks::multiply_const_vcc</definition>
+        <argsstring></argsstring>
+        <name>multiply_const_vcc</name>
+        <qualifiedname>gr::blocks::multiply_const_vcc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const_v.h" line="53" column="26" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_const_v.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1aa4557724259a272283c30e771310238b" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply__matrix" kindref="compound">multiply_matrix</ref>&lt; float &gt;</type>
+        <definition>typedef multiply_matrix&lt;float&gt; gr::blocks::multiply_matrix_ff</definition>
+        <argsstring></argsstring>
+        <name>multiply_matrix_ff</name>
+        <qualifiedname>gr::blocks::multiply_matrix_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_matrix.h" line="85" column="25" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_matrix.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a65352377820d2d88d1d25107b79df56c" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply__matrix" kindref="compound">multiply_matrix</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef multiply_matrix&lt;gr_complex&gt; gr::blocks::multiply_matrix_cc</definition>
+        <argsstring></argsstring>
+        <name>multiply_matrix_cc</name>
+        <qualifiedname>gr::blocks::multiply_matrix_cc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_matrix.h" line="86" column="25" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/multiply_matrix.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1afec235834bfc4e451075dbe36ab508ef" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1mute__blk" kindref="compound">mute_blk</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef mute_blk&lt;std::int16_t&gt; gr::blocks::mute_ss</definition>
+        <argsstring></argsstring>
+        <name>mute_ss</name>
+        <qualifiedname>gr::blocks::mute_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/mute.h" line="38" column="18" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/mute.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a45ddd1f145e57872e2a50c80eb534af8" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1mute__blk" kindref="compound">mute_blk</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef mute_blk&lt;std::int32_t&gt; gr::blocks::mute_ii</definition>
+        <argsstring></argsstring>
+        <name>mute_ii</name>
+        <qualifiedname>gr::blocks::mute_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/mute.h" line="39" column="18" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/mute.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ac8da47e2667d4ed23c5d68b4c48c341b" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1mute__blk" kindref="compound">mute_blk</ref>&lt; float &gt;</type>
+        <definition>typedef mute_blk&lt;float&gt; gr::blocks::mute_ff</definition>
+        <argsstring></argsstring>
+        <name>mute_ff</name>
+        <qualifiedname>gr::blocks::mute_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/mute.h" line="40" column="18" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/mute.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1aaf9b753f8073570053513d6e9aeb160a" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1mute__blk" kindref="compound">mute_blk</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef mute_blk&lt;gr_complex&gt; gr::blocks::mute_cc</definition>
+        <argsstring></argsstring>
+        <name>mute_cc</name>
+        <qualifiedname>gr::blocks::mute_cc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/mute.h" line="41" column="18" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/mute.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a598249d62a5af052d2e2beb06ba35c1b" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1not__blk" kindref="compound">not_blk</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef not_blk&lt;std::uint8_t&gt; gr::blocks::not_bb</definition>
+        <argsstring></argsstring>
+        <name>not_bb</name>
+        <qualifiedname>gr::blocks::not_bb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/not_blk.h" line="37" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/not_blk.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ab737564c52c2f46cc7d3be187c747847" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1not__blk" kindref="compound">not_blk</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef not_blk&lt;std::int16_t&gt; gr::blocks::not_ss</definition>
+        <argsstring></argsstring>
+        <name>not_ss</name>
+        <qualifiedname>gr::blocks::not_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/not_blk.h" line="38" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/not_blk.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1acf09998c1ebf8653f1a11640c02c4487" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1not__blk" kindref="compound">not_blk</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef not_blk&lt;std::int32_t&gt; gr::blocks::not_ii</definition>
+        <argsstring></argsstring>
+        <name>not_ii</name>
+        <qualifiedname>gr::blocks::not_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/not_blk.h" line="39" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/not_blk.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a3a2fff94a3094be4498561ece71d66f8" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1or__blk" kindref="compound">or_blk</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef or_blk&lt;std::uint8_t&gt; gr::blocks::or_bb</definition>
+        <argsstring></argsstring>
+        <name>or_bb</name>
+        <qualifiedname>gr::blocks::or_bb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/or_blk.h" line="37" column="16" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/or_blk.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1af4e5c4a5b73e1a9f20764ae206ecf55d" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1or__blk" kindref="compound">or_blk</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef or_blk&lt;std::int16_t&gt; gr::blocks::or_ss</definition>
+        <argsstring></argsstring>
+        <name>or_ss</name>
+        <qualifiedname>gr::blocks::or_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/or_blk.h" line="38" column="16" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/or_blk.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ac29d6cef4a68cf19c0743cf8c6ac4847" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1or__blk" kindref="compound">or_blk</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef or_blk&lt;std::int32_t&gt; gr::blocks::or_ii</definition>
+        <argsstring></argsstring>
+        <name>or_ii</name>
+        <qualifiedname>gr::blocks::or_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/or_blk.h" line="39" column="16" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/or_blk.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ace0e3c40fbf38cc24b39a1362563c827" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1packed__to__unpacked" kindref="compound">packed_to_unpacked</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef packed_to_unpacked&lt;std::uint8_t&gt; gr::blocks::packed_to_unpacked_bb</definition>
+        <argsstring></argsstring>
+        <name>packed_to_unpacked_bb</name>
+        <qualifiedname>gr::blocks::packed_to_unpacked_bb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/packed_to_unpacked.h" line="59" column="28" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/packed_to_unpacked.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a93a8283546e82e1263d2aceaeb477dd7" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1packed__to__unpacked" kindref="compound">packed_to_unpacked</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef packed_to_unpacked&lt;std::int16_t&gt; gr::blocks::packed_to_unpacked_ss</definition>
+        <argsstring></argsstring>
+        <name>packed_to_unpacked_ss</name>
+        <qualifiedname>gr::blocks::packed_to_unpacked_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/packed_to_unpacked.h" line="60" column="28" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/packed_to_unpacked.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ac9019819336e79deed5582806f61331d" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1packed__to__unpacked" kindref="compound">packed_to_unpacked</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef packed_to_unpacked&lt;std::int32_t&gt; gr::blocks::packed_to_unpacked_ii</definition>
+        <argsstring></argsstring>
+        <name>packed_to_unpacked_ii</name>
+        <qualifiedname>gr::blocks::packed_to_unpacked_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/packed_to_unpacked.h" line="61" column="28" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/packed_to_unpacked.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1abde475e36d056cdaf8effcf4ebae4d08" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1peak__detector" kindref="compound">peak_detector</ref>&lt; float &gt;</type>
+        <definition>typedef peak_detector&lt;float&gt; gr::blocks::peak_detector_fb</definition>
+        <argsstring></argsstring>
+        <name>peak_detector_fb</name>
+        <qualifiedname>gr::blocks::peak_detector_fb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/peak_detector.h" line="102" column="23" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/peak_detector.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a299d5eb4de05160c0864ad90d8246589" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1peak__detector" kindref="compound">peak_detector</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef peak_detector&lt;std::int32_t&gt; gr::blocks::peak_detector_ib</definition>
+        <argsstring></argsstring>
+        <name>peak_detector_ib</name>
+        <qualifiedname>gr::blocks::peak_detector_ib</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/peak_detector.h" line="103" column="23" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/peak_detector.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a5893c300b2b789bdd8bbd5d4962d2a73" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1peak__detector" kindref="compound">peak_detector</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef peak_detector&lt;std::int16_t&gt; gr::blocks::peak_detector_sb</definition>
+        <argsstring></argsstring>
+        <name>peak_detector_sb</name>
+        <qualifiedname>gr::blocks::peak_detector_sb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/peak_detector.h" line="104" column="23" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/peak_detector.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a2159cf55a8370a74804f7160f3973bf7" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1probe__signal" kindref="compound">probe_signal</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef probe_signal&lt;std::uint8_t&gt; gr::blocks::probe_signal_b</definition>
+        <argsstring></argsstring>
+        <name>probe_signal_b</name>
+        <qualifiedname>gr::blocks::probe_signal_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal.h" line="38" column="22" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ab308e327615d89ef7adb0609b03147dd" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1probe__signal" kindref="compound">probe_signal</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef probe_signal&lt;std::int16_t&gt; gr::blocks::probe_signal_s</definition>
+        <argsstring></argsstring>
+        <name>probe_signal_s</name>
+        <qualifiedname>gr::blocks::probe_signal_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal.h" line="39" column="22" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a1452b55405e3153777f5ef3d88bf2fc9" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1probe__signal" kindref="compound">probe_signal</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef probe_signal&lt;std::int32_t&gt; gr::blocks::probe_signal_i</definition>
+        <argsstring></argsstring>
+        <name>probe_signal_i</name>
+        <qualifiedname>gr::blocks::probe_signal_i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal.h" line="40" column="22" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1af2553f36f0ba07addbe91830be14bf11" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1probe__signal" kindref="compound">probe_signal</ref>&lt; float &gt;</type>
+        <definition>typedef probe_signal&lt;float&gt; gr::blocks::probe_signal_f</definition>
+        <argsstring></argsstring>
+        <name>probe_signal_f</name>
+        <qualifiedname>gr::blocks::probe_signal_f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal.h" line="41" column="22" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a6a21f44a58733ad89151693aab5c0217" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1probe__signal" kindref="compound">probe_signal</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef probe_signal&lt;gr_complex&gt; gr::blocks::probe_signal_c</definition>
+        <argsstring></argsstring>
+        <name>probe_signal_c</name>
+        <qualifiedname>gr::blocks::probe_signal_c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal.h" line="42" column="22" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a4e125916ef77d2ef3ce4df53f0241b27" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1probe__signal__v" kindref="compound">probe_signal_v</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef probe_signal_v&lt;std::uint8_t&gt; gr::blocks::probe_signal_vb</definition>
+        <argsstring></argsstring>
+        <name>probe_signal_vb</name>
+        <qualifiedname>gr::blocks::probe_signal_vb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal_v.h" line="38" column="24" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal_v.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a4599df076d230b3fb715c2261677ff99" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1probe__signal__v" kindref="compound">probe_signal_v</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef probe_signal_v&lt;std::int16_t&gt; gr::blocks::probe_signal_vs</definition>
+        <argsstring></argsstring>
+        <name>probe_signal_vs</name>
+        <qualifiedname>gr::blocks::probe_signal_vs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal_v.h" line="39" column="24" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal_v.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ab271d7d4a49003493595ae703e4c046f" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1probe__signal__v" kindref="compound">probe_signal_v</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef probe_signal_v&lt;std::int32_t&gt; gr::blocks::probe_signal_vi</definition>
+        <argsstring></argsstring>
+        <name>probe_signal_vi</name>
+        <qualifiedname>gr::blocks::probe_signal_vi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal_v.h" line="40" column="24" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal_v.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a6d40086aff0d3a3656ac209fcf5a3a28" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1probe__signal__v" kindref="compound">probe_signal_v</ref>&lt; float &gt;</type>
+        <definition>typedef probe_signal_v&lt;float&gt; gr::blocks::probe_signal_vf</definition>
+        <argsstring></argsstring>
+        <name>probe_signal_vf</name>
+        <qualifiedname>gr::blocks::probe_signal_vf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal_v.h" line="41" column="24" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal_v.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a544b5db81fee65320c6b5a96e15c2a3e" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1probe__signal__v" kindref="compound">probe_signal_v</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef probe_signal_v&lt;gr_complex&gt; gr::blocks::probe_signal_vc</definition>
+        <argsstring></argsstring>
+        <name>probe_signal_vc</name>
+        <qualifiedname>gr::blocks::probe_signal_vc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal_v.h" line="42" column="24" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/probe_signal_v.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ac6d8156308044384852b7e3cae3bf620" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1sample__and__hold" kindref="compound">sample_and_hold</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef sample_and_hold&lt;std::uint8_t&gt; gr::blocks::sample_and_hold_bb</definition>
+        <argsstring></argsstring>
+        <name>sample_and_hold_bb</name>
+        <qualifiedname>gr::blocks::sample_and_hold_bb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sample_and_hold.h" line="40" column="25" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sample_and_hold.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1afb23bdd5ce940298daa101445050243e" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1sample__and__hold" kindref="compound">sample_and_hold</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef sample_and_hold&lt;std::int16_t&gt; gr::blocks::sample_and_hold_ss</definition>
+        <argsstring></argsstring>
+        <name>sample_and_hold_ss</name>
+        <qualifiedname>gr::blocks::sample_and_hold_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sample_and_hold.h" line="41" column="25" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sample_and_hold.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ae3a910c1d619f854640a86ad7c28e881" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1sample__and__hold" kindref="compound">sample_and_hold</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef sample_and_hold&lt;std::int32_t&gt; gr::blocks::sample_and_hold_ii</definition>
+        <argsstring></argsstring>
+        <name>sample_and_hold_ii</name>
+        <qualifiedname>gr::blocks::sample_and_hold_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sample_and_hold.h" line="42" column="25" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sample_and_hold.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1adff7ddf32b9fbaffa5dfcb8747184bed" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1sample__and__hold" kindref="compound">sample_and_hold</ref>&lt; float &gt;</type>
+        <definition>typedef sample_and_hold&lt;float&gt; gr::blocks::sample_and_hold_ff</definition>
+        <argsstring></argsstring>
+        <name>sample_and_hold_ff</name>
+        <qualifiedname>gr::blocks::sample_and_hold_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sample_and_hold.h" line="43" column="25" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sample_and_hold.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1aec6acab2a1c459e3ef8ceab8f93dc368" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1sub" kindref="compound">sub</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef sub&lt;std::int16_t&gt; gr::blocks::sub_ss</definition>
+        <argsstring></argsstring>
+        <name>sub_ss</name>
+        <qualifiedname>gr::blocks::sub_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sub.h" line="39" column="13" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sub.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1aa72da713c5ddca7f4932442d123e170c" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1sub" kindref="compound">sub</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef sub&lt;std::int32_t&gt; gr::blocks::sub_ii</definition>
+        <argsstring></argsstring>
+        <name>sub_ii</name>
+        <qualifiedname>gr::blocks::sub_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sub.h" line="40" column="13" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sub.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a186d6860fdcee225735bb97ee7a4c801" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1sub" kindref="compound">sub</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef sub&lt;gr_complex&gt; gr::blocks::sub_cc</definition>
+        <argsstring></argsstring>
+        <name>sub_cc</name>
+        <qualifiedname>gr::blocks::sub_cc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sub.h" line="41" column="13" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sub.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a9f78779c52727820f828c3e4afcba08f" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1sub" kindref="compound">sub</ref>&lt; float &gt;</type>
+        <definition>typedef sub&lt;float&gt; gr::blocks::sub_ff</definition>
+        <argsstring></argsstring>
+        <name>sub_ff</name>
+        <qualifiedname>gr::blocks::sub_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sub.h" line="42" column="13" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/sub.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a5a6348a1891561547903d248812d362f" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1tsb__vector__sink" kindref="compound">tsb_vector_sink</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef tsb_vector_sink&lt;std::uint8_t&gt; gr::blocks::tsb_vector_sink_b</definition>
+        <argsstring></argsstring>
+        <name>tsb_vector_sink_b</name>
+        <qualifiedname>gr::blocks::tsb_vector_sink_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/tsb_vector_sink.h" line="47" column="25" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/tsb_vector_sink.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ad2d38c9d712494ba35508c3626574612" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1tsb__vector__sink" kindref="compound">tsb_vector_sink</ref>&lt; std::uint32_t &gt;</type>
+        <definition>typedef tsb_vector_sink&lt;std::uint32_t&gt; gr::blocks::tsb_vector_sink_i</definition>
+        <argsstring></argsstring>
+        <name>tsb_vector_sink_i</name>
+        <qualifiedname>gr::blocks::tsb_vector_sink_i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/tsb_vector_sink.h" line="48" column="25" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/tsb_vector_sink.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a0bfbc19b0ee48df9c2612912c0039130" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1tsb__vector__sink" kindref="compound">tsb_vector_sink</ref>&lt; std::uint16_t &gt;</type>
+        <definition>typedef tsb_vector_sink&lt;std::uint16_t&gt; gr::blocks::tsb_vector_sink_s</definition>
+        <argsstring></argsstring>
+        <name>tsb_vector_sink_s</name>
+        <qualifiedname>gr::blocks::tsb_vector_sink_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/tsb_vector_sink.h" line="49" column="25" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/tsb_vector_sink.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a174b51b363824a8cff75a80c6cead819" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1tsb__vector__sink" kindref="compound">tsb_vector_sink</ref>&lt; float &gt;</type>
+        <definition>typedef tsb_vector_sink&lt;float&gt; gr::blocks::tsb_vector_sink_f</definition>
+        <argsstring></argsstring>
+        <name>tsb_vector_sink_f</name>
+        <qualifiedname>gr::blocks::tsb_vector_sink_f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/tsb_vector_sink.h" line="50" column="25" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/tsb_vector_sink.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a176c0c819725a73914eb3a1803467bc6" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1tsb__vector__sink" kindref="compound">tsb_vector_sink</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef tsb_vector_sink&lt;gr_complex&gt; gr::blocks::tsb_vector_sink_c</definition>
+        <argsstring></argsstring>
+        <name>tsb_vector_sink_c</name>
+        <qualifiedname>gr::blocks::tsb_vector_sink_c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/tsb_vector_sink.h" line="51" column="25" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/tsb_vector_sink.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a4a86d76e0de6876bed1947276157f24f" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1unpacked__to__packed" kindref="compound">unpacked_to_packed</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef unpacked_to_packed&lt;std::uint8_t&gt; gr::blocks::unpacked_to_packed_bb</definition>
+        <argsstring></argsstring>
+        <name>unpacked_to_packed_bb</name>
+        <qualifiedname>gr::blocks::unpacked_to_packed_bb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/unpacked_to_packed.h" line="58" column="28" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/unpacked_to_packed.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ac599aa2017401b3538569ec4030bd5c0" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1unpacked__to__packed" kindref="compound">unpacked_to_packed</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef unpacked_to_packed&lt;std::int16_t&gt; gr::blocks::unpacked_to_packed_ss</definition>
+        <argsstring></argsstring>
+        <name>unpacked_to_packed_ss</name>
+        <qualifiedname>gr::blocks::unpacked_to_packed_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/unpacked_to_packed.h" line="59" column="28" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/unpacked_to_packed.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a9e736e88c341e575e6e48804b2570033" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1unpacked__to__packed" kindref="compound">unpacked_to_packed</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef unpacked_to_packed&lt;std::int32_t&gt; gr::blocks::unpacked_to_packed_ii</definition>
+        <argsstring></argsstring>
+        <name>unpacked_to_packed_ii</name>
+        <qualifiedname>gr::blocks::unpacked_to_packed_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/unpacked_to_packed.h" line="60" column="28" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/unpacked_to_packed.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ac1a235875810b16ecda55ae35a88c8e5" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1vector__insert" kindref="compound">vector_insert</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef vector_insert&lt;std::uint8_t&gt; gr::blocks::vector_insert_b</definition>
+        <argsstring></argsstring>
+        <name>vector_insert_b</name>
+        <qualifiedname>gr::blocks::vector_insert_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_insert.h" line="46" column="23" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_insert.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1aa71460effad976e3f14d08527b0192be" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1vector__insert" kindref="compound">vector_insert</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef vector_insert&lt;std::int16_t&gt; gr::blocks::vector_insert_s</definition>
+        <argsstring></argsstring>
+        <name>vector_insert_s</name>
+        <qualifiedname>gr::blocks::vector_insert_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_insert.h" line="47" column="23" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_insert.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a90581db5d27335cf8b57e12957b1b0df" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1vector__insert" kindref="compound">vector_insert</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef vector_insert&lt;std::int32_t&gt; gr::blocks::vector_insert_i</definition>
+        <argsstring></argsstring>
+        <name>vector_insert_i</name>
+        <qualifiedname>gr::blocks::vector_insert_i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_insert.h" line="48" column="23" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_insert.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a461c62606d88398f698380cf3fd6ce68" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1vector__insert" kindref="compound">vector_insert</ref>&lt; float &gt;</type>
+        <definition>typedef vector_insert&lt;float&gt; gr::blocks::vector_insert_f</definition>
+        <argsstring></argsstring>
+        <name>vector_insert_f</name>
+        <qualifiedname>gr::blocks::vector_insert_f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_insert.h" line="49" column="23" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_insert.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a1493c28d7f357aef1f2e74b0b7da40ba" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1vector__insert" kindref="compound">vector_insert</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef vector_insert&lt;gr_complex&gt; gr::blocks::vector_insert_c</definition>
+        <argsstring></argsstring>
+        <name>vector_insert_c</name>
+        <qualifiedname>gr::blocks::vector_insert_c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_insert.h" line="50" column="23" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_insert.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a8ea07014eb6e3b0a4bb07b2de4dafd68" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1vector__sink" kindref="compound">vector_sink</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef vector_sink&lt;std::uint8_t&gt; gr::blocks::vector_sink_b</definition>
+        <argsstring></argsstring>
+        <name>vector_sink_b</name>
+        <qualifiedname>gr::blocks::vector_sink_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_sink.h" line="50" column="21" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_sink.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a542ee17b0c51f15b21ac814b33808430" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1vector__sink" kindref="compound">vector_sink</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef vector_sink&lt;std::int16_t&gt; gr::blocks::vector_sink_s</definition>
+        <argsstring></argsstring>
+        <name>vector_sink_s</name>
+        <qualifiedname>gr::blocks::vector_sink_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_sink.h" line="51" column="21" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_sink.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1abe6e389d9cc445fbb28026dfe2941fe7" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1vector__sink" kindref="compound">vector_sink</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef vector_sink&lt;std::int32_t&gt; gr::blocks::vector_sink_i</definition>
+        <argsstring></argsstring>
+        <name>vector_sink_i</name>
+        <qualifiedname>gr::blocks::vector_sink_i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_sink.h" line="52" column="21" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_sink.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a0d250e6666c56952bc6a1150dec93d93" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1vector__sink" kindref="compound">vector_sink</ref>&lt; float &gt;</type>
+        <definition>typedef vector_sink&lt;float&gt; gr::blocks::vector_sink_f</definition>
+        <argsstring></argsstring>
+        <name>vector_sink_f</name>
+        <qualifiedname>gr::blocks::vector_sink_f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_sink.h" line="53" column="21" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_sink.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a21e4d3207da5c3cddd29a4c62bf620cc" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1vector__sink" kindref="compound">vector_sink</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef vector_sink&lt;gr_complex&gt; gr::blocks::vector_sink_c</definition>
+        <argsstring></argsstring>
+        <name>vector_sink_c</name>
+        <qualifiedname>gr::blocks::vector_sink_c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_sink.h" line="54" column="21" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_sink.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a9b5e3bf2778a37a8a7113636b9cd17d9" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1vector__source" kindref="compound">vector_source</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef vector_source&lt;std::uint8_t&gt; gr::blocks::vector_source_b</definition>
+        <argsstring></argsstring>
+        <name>vector_source_b</name>
+        <qualifiedname>gr::blocks::vector_source_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_source.h" line="72" column="23" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_source.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a704e154a40c6932b47f925e376b15da7" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1vector__source" kindref="compound">vector_source</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef vector_source&lt;std::int16_t&gt; gr::blocks::vector_source_s</definition>
+        <argsstring></argsstring>
+        <name>vector_source_s</name>
+        <qualifiedname>gr::blocks::vector_source_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_source.h" line="73" column="23" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_source.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a5507a01c700bc25a82d1ca74c03c48d3" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1vector__source" kindref="compound">vector_source</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef vector_source&lt;std::int32_t&gt; gr::blocks::vector_source_i</definition>
+        <argsstring></argsstring>
+        <name>vector_source_i</name>
+        <qualifiedname>gr::blocks::vector_source_i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_source.h" line="74" column="23" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_source.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a950deab7c13b90f6dc4a2e988bbff194" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1vector__source" kindref="compound">vector_source</ref>&lt; float &gt;</type>
+        <definition>typedef vector_source&lt;float&gt; gr::blocks::vector_source_f</definition>
+        <argsstring></argsstring>
+        <name>vector_source_f</name>
+        <qualifiedname>gr::blocks::vector_source_f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_source.h" line="75" column="23" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_source.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ac1e95207292e38e5a33f1480bb6e9485" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1vector__source" kindref="compound">vector_source</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef vector_source&lt;gr_complex&gt; gr::blocks::vector_source_c</definition>
+        <argsstring></argsstring>
+        <name>vector_source_c</name>
+        <qualifiedname>gr::blocks::vector_source_c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_source.h" line="76" column="23" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/vector_source.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a408122ae6f058d650b7dc6cfd364998d" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1xor__blk" kindref="compound">xor_blk</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef xor_blk&lt;std::uint8_t&gt; gr::blocks::xor_bb</definition>
+        <argsstring></argsstring>
+        <name>xor_bb</name>
+        <qualifiedname>gr::blocks::xor_bb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/xor_blk.h" line="38" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/xor_blk.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a18a241f7a82454d0cdce54d6c5d8884e" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1xor__blk" kindref="compound">xor_blk</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef xor_blk&lt;std::int16_t&gt; gr::blocks::xor_ss</definition>
+        <argsstring></argsstring>
+        <name>xor_ss</name>
+        <qualifiedname>gr::blocks::xor_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/xor_blk.h" line="39" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/xor_blk.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a158c43cc61d2995619c3b2f248ca8f66" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1xor__blk" kindref="compound">xor_blk</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef xor_blk&lt;std::int32_t&gt; gr::blocks::xor_ii</definition>
+        <argsstring></argsstring>
+        <name>xor_ii</name>
+        <qualifiedname>gr::blocks::xor_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/xor_blk.h" line="40" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/xor_blk.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacegr_1_1blocks_1a2e0e62186a74c6671f9b6f026f16085c" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float gr::blocks::tanh_lut_table[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>tanh_lut_table</name>
+        <qualifiedname>gr::blocks::tanh_lut_table</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/control_loop.h" line="278" column="14" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/control_loop.h" bodystart="278" bodyend="322"/>
+        <referencedby refid="namespacegr_1_1blocks_1aaa703e3bc0759584334326530f776a35" compoundref="control__loop_8h" startline="337" endline="347">tanhf_lut</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1blocks_1a00242fd8ec9239748d3e4f46b6a1442c" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr char</type>
+        <definition>constexpr char gr::blocks::METADATA_VERSION</definition>
+        <argsstring></argsstring>
+        <name>METADATA_VERSION</name>
+        <qualifiedname>gr::blocks::METADATA_VERSION</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/file_meta_sink.h" line="20" column="16" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/file_meta_sink.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1blocks_1ab617294617e0bbde7cd22e35a6f8c2c0" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t gr::blocks::METADATA_HEADER_SIZE</definition>
+        <argsstring></argsstring>
+        <name>METADATA_HEADER_SIZE</name>
+        <qualifiedname>gr::blocks::METADATA_HEADER_SIZE</qualifiedname>
+        <initializer>= 149</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/file_meta_sink.h" line="21" column="18" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/file_meta_sink.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacegr_1_1blocks_1aaa703e3bc0759584334326530f776a35" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float gr::blocks::tanhf_lut</definition>
+        <argsstring>(float x)</argsstring>
+        <name>tanhf_lut</name>
+        <qualifiedname>gr::blocks::tanhf_lut</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A look-up table (LUT) tanh calculation. This function returns an estimate to tanh(x) based on a 256-point LUT between -2 and<orderedlist>
+<listitem><para>If x &lt; -2, it returns -1; if &gt; 2, it returns 1.</para>
+</listitem></orderedlist>
+</para>
+<para>This LUT form of the tanh is &quot;hidden&quot; in this code because it is likely too coarse an estimate for any real uses of a tanh. It is useful, however, in certain control loop applications where the input is expected to be within these bounds and the noise will be greater than the quanitzation of this small LUT. For more accurate forms of tanh, see volk_32f_tanh_32f. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/control_loop.h" line="337" column="21" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/control_loop.h" bodystart="337" bodyend="347"/>
+        <references refid="namespacegr_1_1blocks_1a2e0e62186a74c6671f9b6f026f16085c" compoundref="control__loop_8h" startline="278" endline="322">tanh_lut_table</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1aa2c8be0465f48ed11997af6b6764ebcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-blocks_2include_2gnuradio_2blocks_2api_8h_1a0bb81384d93233b7a728722dbf3d8e0a" kindref="member">BLOCKS_API</ref> unsigned int</type>
+        <definition>BLOCKS_API unsigned int gr::blocks::count_bits8</definition>
+        <argsstring>(unsigned int x)</argsstring>
+        <name>count_bits8</name>
+        <qualifiedname>gr::blocks::count_bits8</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>return number of set bits in the low 8 bits of x </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/count_bits.h" line="22" column="25" declfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/count_bits.h" declline="22" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1a46a6bc555ad50d9ee0c677f511adbb1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-blocks_2include_2gnuradio_2blocks_2api_8h_1a0bb81384d93233b7a728722dbf3d8e0a" kindref="member">BLOCKS_API</ref> unsigned int</type>
+        <definition>BLOCKS_API unsigned int gr::blocks::count_bits16</definition>
+        <argsstring>(unsigned int x)</argsstring>
+        <name>count_bits16</name>
+        <qualifiedname>gr::blocks::count_bits16</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>return number of set bits in the low 16 bits of x </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/count_bits.h" line="25" column="25" declfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/count_bits.h" declline="25" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1a7ebfd2060ea6defdbcbf0e9f0f1fe633" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-blocks_2include_2gnuradio_2blocks_2api_8h_1a0bb81384d93233b7a728722dbf3d8e0a" kindref="member">BLOCKS_API</ref> unsigned int</type>
+        <definition>BLOCKS_API unsigned int gr::blocks::count_bits32</definition>
+        <argsstring>(unsigned int x)</argsstring>
+        <name>count_bits32</name>
+        <qualifiedname>gr::blocks::count_bits32</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>return number of set bits in the low 32 bits of x </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/count_bits.h" line="28" column="25" declfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/count_bits.h" declline="28" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1a021742a9e7416b1077fffffa395822d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-blocks_2include_2gnuradio_2blocks_2api_8h_1a0bb81384d93233b7a728722dbf3d8e0a" kindref="member">BLOCKS_API</ref> unsigned int</type>
+        <definition>BLOCKS_API unsigned int gr::blocks::count_bits64</definition>
+        <argsstring>(uint64_t x)</argsstring>
+        <name>count_bits64</name>
+        <qualifiedname>gr::blocks::count_bits64</qualifiedname>
+        <param>
+          <type>uint64_t</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>return number of set bits in a 64-bit word </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/count_bits.h" line="31" column="25" declfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/count_bits.h" declline="31" declcolumn="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/abs_blk.h" line="20" column="1"/>
+  </compounddef>
+</doxygen>

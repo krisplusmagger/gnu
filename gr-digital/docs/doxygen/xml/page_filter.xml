@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="page_filter" kind="page">
+    <compoundname>page_filter</compoundname>
+    <title>Filter Signal Processing Blocks</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="page_filter_1filter_introduction">
+<title>Introduction</title>
+<para>This is the gr-filter package. It contains signal processing blocks to perform filtering operations.</para>
+<para>The Python namespace is in gnuradio.filter, which would be normally imported as:</para>
+<para><programlisting><codeline><highlight class="normal">from<sp/><ref refid="namespacegnuradio" kindref="compound">gnuradio</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>filter</highlight></codeline>
+</programlisting></para>
+<para>See the Doxygen documentation for details about the blocks available in this package. A quick listing of the details can be found in Python after importing by using:</para>
+<para><programlisting><codeline><highlight class="normal">help(filter)</highlight></codeline>
+</programlisting></para>
+</sect1>
+<sect1 id="page_filter_1filter_dependencies">
+<title>Dependencies</title>
+<para>The filter blocks depend on <ref refid="page_fft" kindref="compound">FFT Signal Processing Blocks</ref>.</para>
+</sect1>
+<sect1 id="page_filter_1filter_usage">
+<title>Usage</title>
+<para>There are many filter blocks and kernels in GNU Radio. Filter blocks are standard GNU Radio blocks that fit into a flowgraph. Filter kernels are the guts of the filtering operations that are C++ classes which are designed to be useful within other blocks. The filtering module also comes with a number of filter design tools.</para>
+<sect2 id="page_filter_1filter_kernels">
+<title>Kernels</title>
+<para><itemizedlist>
+<listitem><para>FIR filters (see <ref refid="fir__filter_8h" kindref="compound">fir_filter.h</ref>): filters that compute finite impulse response (FIR) filtering in the time domain.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para>FFT filters (see <ref refid="fft__filter_8h" kindref="compound">fft_filter.h</ref>): filters that compute FIR filtering in the frequency domain (i.e., fast convolution).</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para>FIR filters with internal buffers (see <ref refid="fir__filter__with__buffer_8h" kindref="compound">fir_filter_with_buffer.h</ref>): filters that perform time-domain FIR filtering but keep an internal buffer so the input vectors are not affected or used. This is not as efficient as the normal FIR filters but can be necessary under certain conditions.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para>IIR filters (see <ref refid="iir__filter_8h" kindref="compound">iir_filter.h</ref>): filters that compute infinite impulse response (IIR) filtering.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para>Single-pole IIR filters (see <ref refid="single__pole__iir_8h" kindref="compound">single_pole_iir.h</ref>): a special case of an IIR filter with a single pole (also known as a moving average filter).</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para>PFB arbitrary resampler (see <ref refid="pfb__arb__resampler_8h" kindref="compound">pfb_arb_resampler.h</ref>): performs arbitrary resampling (i.e., using any real number) using the polyphase filterbank method. <simplesect kind="see"><para><ulink url="https://wiki.gnuradio.org/index.php/Polyphase_Filterbanks">The PFB Arbitrary Resampler Kernel</ulink></para>
+</simplesect>
+</para>
+</listitem>
+<listitem><para>Polyphase filterbank (see <ref refid="polyphase__filterbank_8h" kindref="compound">polyphase_filterbank.h</ref>): a set of base classes with standard functions for building many polyphase filterbank blocks.</para>
+</listitem>
+</itemizedlist>
+</para>
+</sect2>
+<sect2 id="page_filter_1filter_blocks">
+<title>Blocks</title>
+<para><itemizedlist>
+<listitem>
+<para>FIR Filters <itemizedlist>
+<listitem>
+<para><ref refid="namespacegr_1_1filter_1ac4a0cd7e21a7e210454c415910a3b53b" kindref="member">gr::filter::fir_filter_ccc</ref> </para>
+</listitem>
+<listitem>
+<para><ref refid="namespacegr_1_1filter_1a3579591196cddb312c6099f8970a0040" kindref="member">gr::filter::fir_filter_ccf</ref> </para>
+</listitem>
+<listitem>
+<para><ref refid="namespacegr_1_1filter_1ae2bc3e64eee8abd70391ecf2662ffec3" kindref="member">gr::filter::fir_filter_fcc</ref> </para>
+</listitem>
+<listitem>
+<para><ref refid="namespacegr_1_1filter_1a4603e316df3818b84523b7123b5a444b" kindref="member">gr::filter::fir_filter_fff</ref> </para>
+</listitem>
+<listitem>
+<para><ref refid="namespacegr_1_1filter_1a12e3607660ca8b4aaf51762e6c03d82d" kindref="member">gr::filter::fir_filter_fsf</ref> </para>
+</listitem>
+<listitem>
+<para><ref refid="namespacegr_1_1filter_1a0cf68e24c2900c50467b9e914378f7b8" kindref="member">gr::filter::fir_filter_scc</ref> </para>
+</listitem>
+</itemizedlist>
+</para>
+</listitem>
+<listitem>
+<para>FFT Filters <itemizedlist>
+<listitem>
+<para><ref refid="classgr_1_1filter_1_1fft__filter__ccc" kindref="compound">gr::filter::fft_filter_ccc</ref> </para>
+</listitem>
+<listitem>
+<para><ref refid="classgr_1_1filter_1_1fft__filter__fff" kindref="compound">gr::filter::fft_filter_fff</ref> </para>
+</listitem>
+</itemizedlist>
+</para>
+</listitem>
+<listitem>
+<para>IIR Filters <itemizedlist>
+<listitem>
+<para><ref refid="classgr_1_1filter_1_1iir__filter__ffd" kindref="compound">gr::filter::iir_filter_ffd</ref> </para>
+</listitem>
+</itemizedlist>
+</para>
+</listitem>
+<listitem>
+<para>Single-Pole IIR Filters <itemizedlist>
+<listitem>
+<para><ref refid="classgr_1_1filter_1_1single__pole__iir__filter__cc" kindref="compound">gr::filter::single_pole_iir_filter_cc</ref> </para>
+</listitem>
+<listitem>
+<para><ref refid="classgr_1_1filter_1_1single__pole__iir__filter__ff" kindref="compound">gr::filter::single_pole_iir_filter_ff</ref> </para>
+</listitem>
+</itemizedlist>
+</para>
+</listitem>
+<listitem>
+<para>Polyphase Filterbanks <itemizedlist>
+<listitem>
+<para><ref refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf" kindref="compound">gr::filter::pfb_arb_resampler_ccf</ref> </para>
+</listitem>
+<listitem>
+<para><ref refid="classgr_1_1filter_1_1pfb__arb__resampler__fff" kindref="compound">gr::filter::pfb_arb_resampler_fff</ref> </para>
+</listitem>
+<listitem>
+<para><ref refid="classgr_1_1filter_1_1pfb__channelizer__ccf" kindref="compound">gr::filter::pfb_channelizer_ccf</ref> </para>
+</listitem>
+<listitem>
+<para><ref refid="classgr_1_1filter_1_1pfb__decimator__ccf" kindref="compound">gr::filter::pfb_decimator_ccf</ref> </para>
+</listitem>
+<listitem>
+<para><ref refid="classgr_1_1filter_1_1pfb__interpolator__ccf" kindref="compound">gr::filter::pfb_interpolator_ccf</ref> </para>
+</listitem>
+<listitem>
+<para><ref refid="classgr_1_1filter_1_1pfb__synthesizer__ccf" kindref="compound">gr::filter::pfb_synthesizer_ccf</ref> </para>
+</listitem>
+<listitem>
+<para><ref refid="classgr_1_1digital_1_1pfb__clock__sync__ccf" kindref="compound">gr::digital::pfb_clock_sync_ccf</ref> </para>
+</listitem>
+<listitem>
+<para><ref refid="classgr_1_1digital_1_1pfb__clock__sync__fff" kindref="compound">gr::digital::pfb_clock_sync_fff</ref> </para>
+</listitem>
+</itemizedlist>
+</para>
+</listitem>
+</itemizedlist>
+</para>
+</sect2>
+<sect2 id="page_filter_1filter_design_tools">
+<title>Design Tools</title>
+<para>To help build filters, GNU Radio includes a number of design tools. These tools build standard filters like low pass, high pass, band pass, etc. There are two main flavors of the filter design tools:</para>
+<para><itemizedlist>
+<listitem><para>Windowed filters (see <ref refid="firdes_8h" kindref="compound">firdes.h</ref>): filters defined as sinc functions and a window function.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para>Equiripple filters (see optfir.py): filters defined by using the Parks-McClellen algorithm given a set of conditions.</para>
+</listitem>
+</itemizedlist>
+The GNU Radio filter library also exports the Parks-McClellen algorithm in both C++ and Python as <ref refid="group__filter__design_1gaeb926a91ce5acb128e6c348a782b47dc" kindref="member">gr::filter::pm_remez</ref>.</para>
+<para>The <ref refid="firdes_8h" kindref="compound">firdes.h</ref> filter contains functions to design the following types of filters (see <ref refid="classgr_1_1filter_1_1firdes" kindref="compound">gr::filter::firdes</ref>):</para>
+<para><itemizedlist>
+<listitem><para><ref refid="classgr_1_1filter_1_1firdes_1ac5c97679af99a9c784e2c78f0ac6da11" kindref="member">gr::filter::firdes::low_pass</ref>: defines a low pass filter based on a pass band bandwidth and transition bandwidth.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para><ref refid="classgr_1_1filter_1_1firdes_1ac025e225bf4ed55262bb5252ae110796" kindref="member">gr::filter::firdes::low_pass_2</ref>: same as the low pass filter with added argument to set the out-of-band attenuation (in dB).</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para><ref refid="classgr_1_1filter_1_1firdes_1a383ac801840fb9a1266f1f249c830219" kindref="member">gr::filter::firdes::high_pass</ref>: defines a high pass filter based on a pass band bandwidth and transition bandwidth.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para><ref refid="classgr_1_1filter_1_1firdes_1af4a3663635ed0504d9982424734ea6bb" kindref="member">gr::filter::firdes::high_pass_2</ref>: same as the high pass filter with added argument to set the out-of-band attenuation (in dB).</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para><ref refid="classgr_1_1filter_1_1firdes_1a2a5ec6b59b49d75ea97ea96a6bbf111f" kindref="member">gr::filter::firdes::band_pass</ref>: defines a band pass filter based on the pass band start and stop frequencies and transition bandwidth.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para><ref refid="classgr_1_1filter_1_1firdes_1a7d1cb88e4578541900fbca2d053cf25f" kindref="member">gr::filter::firdes::band_pass_2</ref>: same as the band pass filter with added argument to set the out-of-band attenuation (in dB).</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para><ref refid="classgr_1_1filter_1_1firdes_1a7999cb699445f73e57583ac9676420e1" kindref="member">gr::filter::firdes::complex_band_pass</ref>: defines a complex band pass filter based on the pass band start and stop frequencies and transition bandwidth. Returns complex taps for one-sided spectrum.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para><ref refid="classgr_1_1filter_1_1firdes_1a8388f75f9a95dd96aef8d2deda25c87f" kindref="member">gr::filter::firdes::complex_band_pass_2</ref>: same as the complex band pass filter with added argument to set the out-of-band attenuation (in dB).</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para><ref refid="classgr_1_1filter_1_1firdes_1a351328f55fe5cdd6c8a66cbd0fd5a8bf" kindref="member">gr::filter::firdes::band_reject</ref>: defines a band reject filter based on a stop band bandwidth and transition bandwidth.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para><ref refid="classgr_1_1filter_1_1firdes_1afff838fc78f0ce895355b5f95f9a6158" kindref="member">gr::filter::firdes::band_reject_2</ref>: same as the band reject filter with added argument to set the out-of-band attenuation (in dB).</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para><ref refid="classgr_1_1filter_1_1firdes_1a04a8c30287741eeef1d79fc6fa4ddcc0" kindref="member">gr::filter::firdes::hilbert</ref>: creates a Hilbert transform filter.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para><ref refid="classgr_1_1filter_1_1firdes_1a8cd862a6d5924355eafcce0b1d3f636b" kindref="member">gr::filter::firdes::root_raised_cosine</ref>: creates a root raised cosine (RRC) pulse shaping filter.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para><ref refid="classgr_1_1filter_1_1firdes_1a16a51b114cdbba574a57fc5fc63a17f3" kindref="member">gr::filter::firdes::gaussian</ref>: creates a Gaussian pulse shaping filter.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para><ref refid="classgr_1_1filter_1_1firdes_1a1886cb24f9dbf66d995c1ea7a4254d3a" kindref="member">gr::filter::firdes::window</ref>: Returns the window function for the given window at the given number of taps.</para>
+</listitem>
+</itemizedlist>
+The optfir.py contains a set of Python-only functions that define equiripple filters using the Parks-McClellen algorithm:</para>
+<para><itemizedlist>
+<listitem><para>low_pass: defines a low pass filter based off the end of the pass band, the start of the stop band, the pass band ripple, and the stop band attenuation.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para>band_pass: defines a band pass filter based the end of the first stop band, the start of the pass band, the end of the pass band, the start of the second stop band, the pass band ripple, and the stop band attenuation.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para>complex_band_pass: defines a band pass filter based the end of the first stop band, the start of the pass band, the end of the pass band, the start of the second stop band, the pass band ripple, and the stop band attenuation. Returns complex taps for one-sided spectrum.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para>band_reject: defines a band reject filter based the end of the first pass band, the start of the stop band, the end of the stop band, the start of the second pass band, the pass band ripple, and the stop band attenuation. Unlike the <ref refid="firdes_8h" kindref="compound">firdes.h</ref> band_reject filter, this filter does not have to be symmetrical.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para>high_pass defines a high pass filter based off the end of the stop band, the start of the pass band, the pass band ripple, and the stop band attenuation.</para>
+</listitem>
+</itemizedlist>
+</para>
+</sect2>
+<sect2 id="page_filter_1filter_design">
+<title>Filter Design GUI Tool</title>
+<para>GNU Radio has a filter design GUI tool called <bold>gr_filter_design</bold>. This tool allows us to build filters using the filter design methods above and look at the results immediately. The frequency and time domain along with other aspects of the filter like the phase profile, group delay, the filter taps as a list, impulse response, and step response. Also displayed is a pole-zero plot.</para>
+<para>The filter design tool is useful to provide immediate feedback on the shape, behavior, and complexity of the filter from the design parameters. The tool also includes a <bold>save</bold> capability to save the taps and parameters in a simple comma-separated value (CSV) format.</para>
+<para>Furthermore, the filter design program can be called and used for interaction within a Python program. There are a few ways in which we can interact with the tool programmatically.</para>
+<para>The tool can be simply launched from Python, and when closed, it returns an object filled with the filter parameters and taps. An example of this can be found in <bold>examples/filter/gr_filtdes_api.py</bold>.</para>
+<para><programlisting><codeline><highlight class="normal">filtobj<sp/>=<sp/>filter_design.launch(sys.argv)</highlight></codeline>
+<codeline><highlight class="normal"><ref refid="namespacepmt_1acf4beefce8c6c5c70bdce4e246a54886" kindref="member">print</ref><sp/></highlight><highlight class="stringliteral">&quot;Filter<sp/>Count:&quot;</highlight><highlight class="normal">,<sp/>filtobj.get_filtercount()</highlight></codeline>
+<codeline><highlight class="normal"><ref refid="namespacepmt_1acf4beefce8c6c5c70bdce4e246a54886" kindref="member">print</ref><sp/></highlight><highlight class="stringliteral">&quot;Filter<sp/>type:&quot;</highlight><highlight class="normal">,<sp/>filtobj.get_restype()</highlight></codeline>
+<codeline><highlight class="normal"><ref refid="namespacepmt_1acf4beefce8c6c5c70bdce4e246a54886" kindref="member">print</ref><sp/></highlight><highlight class="stringliteral">&quot;Filter<sp/>params&quot;</highlight><highlight class="normal">,<sp/>filtobj.get_params()</highlight></codeline>
+<codeline><highlight class="normal"><ref refid="namespacepmt_1acf4beefce8c6c5c70bdce4e246a54886" kindref="member">print</ref><sp/></highlight><highlight class="stringliteral">&quot;Filter<sp/>Coefficients&quot;</highlight><highlight class="normal">,<sp/>filtobj.get_taps()</highlight></codeline>
+</programlisting></para>
+<para>Another way of using the filter design tool is to give it a callback function that is called whenever the &quot;Design&quot; button is pressed in the GUI. The following code comes from the <bold>examples/filter/gr_filtdes_callback.py</bold> example. Whenever &quot;Design&quot; is pressed, the &quot;print_params&quot; function is called with the filter parameters and taps inside of the &quot;filtobj&quot; object.</para>
+<para><programlisting><codeline><highlight class="normal">def<sp/>print_params(filtobj):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacepmt_1acf4beefce8c6c5c70bdce4e246a54886" kindref="member">print</ref><sp/></highlight><highlight class="stringliteral">&quot;Filter<sp/>Count:&quot;</highlight><highlight class="normal">,<sp/>filtobj.get_filtercount()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacepmt_1acf4beefce8c6c5c70bdce4e246a54886" kindref="member">print</ref><sp/></highlight><highlight class="stringliteral">&quot;Filter<sp/>type:&quot;</highlight><highlight class="normal">,<sp/>filtobj.get_restype()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacepmt_1acf4beefce8c6c5c70bdce4e246a54886" kindref="member">print</ref><sp/></highlight><highlight class="stringliteral">&quot;Filter<sp/>params&quot;</highlight><highlight class="normal">,<sp/>filtobj.get_params()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacepmt_1acf4beefce8c6c5c70bdce4e246a54886" kindref="member">print</ref><sp/></highlight><highlight class="stringliteral">&quot;Filter<sp/>Coefficients&quot;</highlight><highlight class="normal">,<sp/>filtobj.get_taps()</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">app<sp/>=<sp/>Qt.QApplication(sys.argv)</highlight></codeline>
+<codeline><highlight class="normal">main_win<sp/>=<sp/>filter_design.launch(sys.argv,<sp/>print_params)</highlight></codeline>
+<codeline><highlight class="normal">main_win.show()</highlight></codeline>
+<codeline><highlight class="normal">app.exec_()</highlight></codeline>
+</programlisting></para>
+<para>Changing one line in the above code allows us to set restrictions on what type of filter the design tool can build. This concept is shown in <bold>examples/filter/gr_filtdes_restrict.py</bold>. Here, the filter type is restricted to using IIR filters.</para>
+<para><programlisting><codeline><highlight class="normal">main_win<sp/>=<sp/>filter_design.launch(sys.argv,<sp/>callback<sp/>=<sp/>print_params,<sp/>restype<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;iir&quot;</highlight><highlight class="normal">)</highlight></codeline>
+</programlisting></para>
+<para>An application running a full GNU Radio flowgraph can actually launch the filter design tool and have it update a filter while the system is running. This concept is an extension of the callback function and is shown in the example <bold>examples/filter/gr_filtdes_live_upd.py</bold>. The code is not shown here as the full code is quite long. </para>
+</sect2>
+</sect1>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-filter/docs/filter.dox"/>
+  </compounddef>
+</doxygen>

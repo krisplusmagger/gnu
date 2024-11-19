@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="decision__feedback__equalizer__pydoc_8h" kind="file" language="C++">
+    <compoundname>decision_feedback_equalizer_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>decision_feedback_equalizer_pydoc.h</label>
+        <link refid="decision__feedback__equalizer__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="decision__feedback__equalizer__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="decision__feedback__equalizer__pydoc_8h_1a825ed0f2fc1793b101314f2e72b2663c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_decision_feedback_equalizer</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_decision_feedback_equalizer</name>
+        <initializer>= R&quot;doc(Decision Feedback Equalizer.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of gr::digital::decision_feedback_equalizer.
+
+The Decision Feedback Equalizer block equalizes the incoming signal using an FIR filter representing both the forward and feedback <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref>
+
+
+If provided with a training sequence and a training start tag, data aided equalization will be performed starting with the tagged sample. If training-based equalization is active and the training sequence ends, then optionally decision directed equalization will be performed given the adapt_after_training If no training sequence or no tag is provided, decision directed equalization will be performed This equalizer decimates to the symbol rate according to the samples per symbol param
+
+Args:
+    num_taps_forward : Number of feedforward <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> for the FIR filter
+    num_taps_feedback : Number of feedback <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> for the FIR filter
+    sps : int - Samples per Symbol
+    alg : Adaptive algorithm object
+    training_sequence : Sequence of samples that will be used to train the equalizer. Provide empty vector to default to DD equalizer
+    adapt_after_training : bool - set true to continue DD training after training sequence has been used up
+    training_start_tag : string - tag that indicates the start of the training sequence in the incoming data)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="decision__feedback__equalizer__pydoc_8h_1ac8181f3e23342cd9f09d9eeaefc7827d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_decision_feedback_equalizer_decision_feedback_equalizer_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_decision_feedback_equalizer_decision_feedback_equalizer_0</name>
+        <initializer>=
+        R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" line="40" column="5" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="decision__feedback__equalizer__pydoc_8h_1a85f0489cc81e0f7be182146ed6403210" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_decision_feedback_equalizer_decision_feedback_equalizer_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_decision_feedback_equalizer_decision_feedback_equalizer_1</name>
+        <initializer>=
+        R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" line="45" column="5" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="decision__feedback__equalizer__pydoc_8h_1aca03beb661d9085e3bd6ae25cc660d65" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_decision_feedback_equalizer_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_decision_feedback_equalizer_make</name>
+        <initializer>= R&quot;doc(Decision Feedback Equalizer.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of gr::digital::decision_feedback_equalizer.
+
+The Decision Feedback Equalizer block equalizes the incoming signal using an FIR filter representing both the forward and feedback <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref>
+
+
+If provided with a training sequence and a training start tag, data aided equalization will be performed starting with the tagged sample. If training-based equalization is active and the training sequence ends, then optionally decision directed equalization will be performed given the adapt_after_training If no training sequence or no tag is provided, decision directed equalization will be performed This equalizer decimates to the symbol rate according to the samples per symbol param
+
+Args:
+    num_taps_forward : Number of feedforward <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> for the FIR filter
+    num_taps_feedback : Number of feedback <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> for the FIR filter
+    sps : int - Samples per Symbol
+    alg : Adaptive algorithm object
+    training_sequence : Sequence of samples that will be used to train the equalizer. Provide empty vector to default to DD equalizer
+    adapt_after_training : bool - set true to continue DD training after training sequence has been used up
+    training_start_tag : string - tag that indicates the start of the training sequence in the incoming data)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" line="49" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="decision__feedback__equalizer__pydoc_8h_1a3c8816b35a52021b3b0f775cb333302f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_decision_feedback_equalizer_set_taps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_decision_feedback_equalizer_set_taps</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" line="70" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="decision__feedback__equalizer__pydoc_8h_1ad3b626a33368e490ad1219a263233e10" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_decision_feedback_equalizer_taps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_decision_feedback_equalizer_taps</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" line="73" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="decision__feedback__equalizer__pydoc_8h_1ac70b88830e54cd548d12e18af10ac911" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_decision_feedback_equalizer_equalize</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_decision_feedback_equalizer_equalize</name>
+        <initializer>= R&quot;doc(Public \&quot;work\&quot; function - equalize a block of input samples.
+
+Behaves similar to the block&apos;s work function, but made public to be able to be called outside the GNU Radio scheduler on bursty data)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" line="76" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/decision_feedback_equalizer_pydoc.h"/>
+  </compounddef>
+</doxygen>

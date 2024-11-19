@@ -1,0 +1,422 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf" kind="class" language="C++" prot="public">
+    <compoundname>gr::filter::kernel::fir_filter_with_buffer_ccf</compoundname>
+    <includes refid="fir__filter__with__buffer_8h" local="no">gnuradio/filter/fir_filter_with_buffer.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a9f817f163a2c52cf9e547b48463b538e" prot="private" static="no" mutable="yes">
+        <type>volk::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>volk::vector&lt;gr_complex&gt; gr::filter::kernel::fir_filter_with_buffer_ccf::d_output</definition>
+        <argsstring></argsstring>
+        <name>d_output</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::d_output</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="230" column="26" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a712727cc3e7c5b13803578cead494ea7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::filter::kernel::fir_filter_with_buffer_ccf::d_align</definition>
+        <argsstring></argsstring>
+        <name>d_align</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::d_align</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="231" column="9" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a89f61ab863537f038b2106441083ea9e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::filter::kernel::fir_filter_with_buffer_ccf::d_naligned</definition>
+        <argsstring></argsstring>
+        <name>d_naligned</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::d_naligned</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="232" column="9" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1af7276bd77ddda7f70eed504dcb48c6ab" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::filter::kernel::fir_filter_with_buffer_ccf::d_taps</definition>
+        <argsstring></argsstring>
+        <name>d_taps</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::d_taps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="233" column="17" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1af47ffec26e37dcb7e44eb3a7c0a77c79" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::kernel::fir_filter_with_buffer_ccf::d_ntaps</definition>
+        <argsstring></argsstring>
+        <name>d_ntaps</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::d_ntaps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="234" column="18" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1afcbd32ab19b825626771128b72973d76" prot="private" static="no" mutable="no">
+        <type>volk::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>volk::vector&lt;gr_complex&gt; gr::filter::kernel::fir_filter_with_buffer_ccf::d_buffer_ptr</definition>
+        <argsstring></argsstring>
+        <name>d_buffer_ptr</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::d_buffer_ptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="235" column="18" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1ac441082e5d386cd0fd9d4742ace179cf" prot="private" static="no" mutable="no">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+        <definition>gr_complex* gr::filter::kernel::fir_filter_with_buffer_ccf::d_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_buffer</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::d_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="236" column="16" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1ad038d35853210fd516b4ad8073d0316a" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::kernel::fir_filter_with_buffer_ccf::d_idx</definition>
+        <argsstring></argsstring>
+        <name>d_idx</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::d_idx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="237" column="18" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1ace6702096851a9eb53e0dd13f8190878" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; volk::vector&lt; float &gt; &gt;</type>
+        <definition>std::vector&lt;volk::vector&lt;float&gt; &gt; gr::filter::kernel::fir_filter_with_buffer_ccf::d_aligned_taps</definition>
+        <argsstring></argsstring>
+        <name>d_aligned_taps</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::d_aligned_taps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="238" column="17" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a73c91d167110d566388afc448560dba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::kernel::fir_filter_with_buffer_ccf::fir_filter_with_buffer_ccf</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;taps)</argsstring>
+        <name>fir_filter_with_buffer_ccf</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::fir_filter_with_buffer_ccf</qualifiedname>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+<para>construct new FIR with given taps. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Note that taps must be in forward order, e.g., coefficient 0 is stored in new_taps[0], coefficient 1 is stored in new_taps[1], etc. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="250" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a6800840667f392fbb6fa808e8a62874b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::kernel::fir_filter_with_buffer_ccf::fir_filter_with_buffer_ccf</definition>
+        <argsstring>(const fir_filter_with_buffer_ccf &amp;)=delete</argsstring>
+        <name>fir_filter_with_buffer_ccf</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::fir_filter_with_buffer_ccf</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf" kindref="compound">fir_filter_with_buffer_ccf</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="253" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a6a2422da7c7ba6b0fb522e23f0edfa62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf" kindref="compound">fir_filter_with_buffer_ccf</ref> &amp;</type>
+        <definition>fir_filter_with_buffer_ccf &amp; gr::filter::kernel::fir_filter_with_buffer_ccf::operator=</definition>
+        <argsstring>(const fir_filter_with_buffer_ccf &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf" kindref="compound">fir_filter_with_buffer_ccf</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="254" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1aefe41dd32286cc6222f00177897dc345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::kernel::fir_filter_with_buffer_ccf::fir_filter_with_buffer_ccf</definition>
+        <argsstring>(fir_filter_with_buffer_ccf &amp;&amp;)=default</argsstring>
+        <name>fir_filter_with_buffer_ccf</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::fir_filter_with_buffer_ccf</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf" kindref="compound">fir_filter_with_buffer_ccf</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="255" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a5e32f1be49dab2dd33426ba4df7c4d2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf" kindref="compound">fir_filter_with_buffer_ccf</ref> &amp;</type>
+        <definition>fir_filter_with_buffer_ccf &amp; gr::filter::kernel::fir_filter_with_buffer_ccf::operator=</definition>
+        <argsstring>(fir_filter_with_buffer_ccf &amp;&amp;)=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf" kindref="compound">fir_filter_with_buffer_ccf</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="256" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1aee5fcc132e7cd91216dfa0f5762aa600" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::filter::kernel::fir_filter_with_buffer_ccf::filter</definition>
+        <argsstring>(gr_complex input)</argsstring>
+        <name>filter</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::filter</qualifiedname>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+<para>compute a single output value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>input</computeroutput> is a single input value of the filter type</para>
+<para><simplesect kind="return"><para>the filtered input value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="267" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a150e620f4e727f6d71d8566fdde94541" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::filter::kernel::fir_filter_with_buffer_ccf::filter</definition>
+        <argsstring>(const gr_complex input[], unsigned long dec)</argsstring>
+        <name>filter</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::filter</qualifiedname>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>input</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>dec</declname>
+        </param>
+        <briefdescription>
+<para>compute a single output value; designed for decimating filters. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>input</computeroutput> is a single input value of the filter type. The value of dec is the decimating value of the filter, so input[] must have dec valid values. The filter pushes dec number of items onto the circ. buffer before computing a single output.</para>
+<para><simplesect kind="return"><para>the filtered input value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="279" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1ae707ee89c972797216f3cb05c176380c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::kernel::fir_filter_with_buffer_ccf::filterN</definition>
+        <argsstring>(gr_complex output[], const gr_complex input[], unsigned long n)</argsstring>
+        <name>filterN</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::filterN</qualifiedname>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>output</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>input</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>compute an array of N output values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>input</computeroutput> must have (n - 1 + <ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1abf75fd41e290ec8359b3ab46ccf7d83a" kindref="member">ntaps()</ref>) valid entries. input[0] .. input[n - 1 + <ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1abf75fd41e290ec8359b3ab46ccf7d83a" kindref="member">ntaps()</ref> - 1] are referenced to compute the output values. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="287" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a30fb88a18267e64a550878be82f245e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::kernel::fir_filter_with_buffer_ccf::filterNdec</definition>
+        <argsstring>(gr_complex output[], const gr_complex input[], unsigned long n, unsigned long decimate)</argsstring>
+        <name>filterNdec</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::filterNdec</qualifiedname>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>output</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>input</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>decimate</declname>
+        </param>
+        <briefdescription>
+<para>compute an array of N output values, decimating the input </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>input</computeroutput> must have (decimate * (n - 1) + <ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1abf75fd41e290ec8359b3ab46ccf7d83a" kindref="member">ntaps()</ref>) valid entries. input[0] .. input[decimate * (n - 1) + <ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1abf75fd41e290ec8359b3ab46ccf7d83a" kindref="member">ntaps()</ref> - 1] are referenced to compute the output values. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="296" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1abf75fd41e290ec8359b3ab46ccf7d83a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::kernel::fir_filter_with_buffer_ccf::ntaps</definition>
+        <argsstring>() const</argsstring>
+        <name>ntaps</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::ntaps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>number of taps in filter. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="306" column="18" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" bodystart="306" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a708f0d065aa726f84bc09b55f2bd1feb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::kernel::fir_filter_with_buffer_ccf::set_taps</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;taps)</argsstring>
+        <name>set_taps</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::set_taps</qualifiedname>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+<para>install <computeroutput>new_taps</computeroutput> as the current taps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="311" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1ae65904bb95497c0ec74e8340c8906a57" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt; float &gt; gr::filter::kernel::fir_filter_with_buffer_ccf::taps</definition>
+        <argsstring>() const</argsstring>
+        <name>taps</name>
+        <qualifiedname>gr::filter::kernel::fir_filter_with_buffer_ccf::taps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>current taps </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="316" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>FIR with internal buffer for gr_complex input, gr_complex output and gr_complex taps. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" line="227" column="1" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_with_buffer.h" bodystart="228" bodyend="317"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a712727cc3e7c5b13803578cead494ea7" prot="private" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>d_align</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1ace6702096851a9eb53e0dd13f8190878" prot="private" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>d_aligned_taps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1ac441082e5d386cd0fd9d4742ace179cf" prot="private" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>d_buffer</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1afcbd32ab19b825626771128b72973d76" prot="private" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>d_buffer_ptr</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1ad038d35853210fd516b4ad8073d0316a" prot="private" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>d_idx</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a89f61ab863537f038b2106441083ea9e" prot="private" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>d_naligned</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1af47ffec26e37dcb7e44eb3a7c0a77c79" prot="private" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>d_ntaps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a9f817f163a2c52cf9e547b48463b538e" prot="private" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>d_output</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1af7276bd77ddda7f70eed504dcb48c6ab" prot="private" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>d_taps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1aee5fcc132e7cd91216dfa0f5762aa600" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>filter</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a150e620f4e727f6d71d8566fdde94541" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>filter</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1ae707ee89c972797216f3cb05c176380c" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>filterN</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a30fb88a18267e64a550878be82f245e0" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>filterNdec</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a73c91d167110d566388afc448560dba3" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>fir_filter_with_buffer_ccf</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a6800840667f392fbb6fa808e8a62874b" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>fir_filter_with_buffer_ccf</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1aefe41dd32286cc6222f00177897dc345" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>fir_filter_with_buffer_ccf</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1abf75fd41e290ec8359b3ab46ccf7d83a" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>ntaps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a6a2422da7c7ba6b0fb522e23f0edfa62" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>operator=</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a5e32f1be49dab2dd33426ba4df7c4d2c" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>operator=</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1a708f0d065aa726f84bc09b55f2bd1feb" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter__with__buffer__ccf_1ae65904bb95497c0ec74e8340c8906a57" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter_with_buffer_ccf</scope><name>taps</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

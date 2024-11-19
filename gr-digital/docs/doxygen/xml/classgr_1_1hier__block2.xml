@@ -1,0 +1,1172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1hier__block2" kind="class" language="C++" prot="public">
+    <compoundname>gr::hier_block2</compoundname>
+    <basecompoundref refid="classgr_1_1basic__block" prot="public" virt="non-virtual">gr::basic_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1channels_1_1channel__model" prot="public" virt="virtual">gr::channels::channel_model</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1channels_1_1channel__model2" prot="public" virt="virtual">gr::channels::channel_model2</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1channels_1_1dynamic__channel__model" prot="public" virt="virtual">gr::channels::dynamic_channel_model</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1digital_1_1cpmmod__bc" prot="public" virt="virtual">gr::digital::cpmmod_bc</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1digital_1_1ofdm__sync__sc__cfb" prot="public" virt="virtual">gr::digital::ofdm_sync_sc_cfb</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1top__block" prot="public" virt="non-virtual">gr::top_block</derivedcompoundref>
+    <includes refid="hier__block2_8h" local="no">gnuradio/hier_block2.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1hier__block2_1a95a312a6bfcc965eb32e265fef158e49" prot="public" static="no">
+        <type>basic_block_sptr</type>
+        <definition>typedef basic_block_sptr gr::hier_block2::opaque_self</definition>
+        <argsstring></argsstring>
+        <name>opaque_self</name>
+        <qualifiedname>gr::hier_block2::opaque_self</qualifiedname>
+        <briefdescription>
+<para>typedef for object returned from <ref refid="classgr_1_1hier__block2_1a5550e29555b0b731103a57ed6a5db888" kindref="member">self()</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This type is only guaranteed to be passable to connect and disconnect. No other assumptions should be made about it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="64" column="30" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classgr_1_1hier__block2_1ad8a613b38d2a49c8f9db5e1c29926f85" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class hier_block2_detail</definition>
+        <argsstring></argsstring>
+        <name>hier_block2_detail</name>
+        <qualifiedname>gr::hier_block2::hier_block2_detail</qualifiedname>
+        <param>
+          <type>hier_block2_detail</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="36" column="18" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1hier__block2_1af4aa4ec297a6d61c9a0dd2857362dfae" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classgr_1_1hier__block2_1ad8a613b38d2a49c8f9db5e1c29926f85" kindref="member">hier_block2_detail</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;hier_block2_detail&gt; gr::hier_block2::d_detail</definition>
+        <argsstring></argsstring>
+        <name>d_detail</name>
+        <qualifiedname>gr::hier_block2::d_detail</qualifiedname>
+        <briefdescription>
+<para>Private implementation details of <ref refid="classgr_1_1hier__block2" kindref="compound">gr::hier_block2</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is a pointer in order to not break ABI when implementation object changes. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="46" column="21" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1hier__block2_1ac7af7d4c523ab61a4ab1351938de1a91" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>pmt::pmt_t gr::hier_block2::hier_message_ports_in</definition>
+        <argsstring></argsstring>
+        <name>hier_message_ports_in</name>
+        <qualifiedname>gr::hier_block2::hier_message_ports_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="226" column="16" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1hier__block2_1a4cab051364b1ed01dbc4dc499f61a67b" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>pmt::pmt_t gr::hier_block2::hier_message_ports_out</definition>
+        <argsstring></argsstring>
+        <name>hier_message_ports_out</name>
+        <qualifiedname>gr::hier_block2::hier_message_ports_out</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="227" column="16" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a3d27e71a3a3406240b92f60144a0cc66" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::hier_block2::hier_block2</definition>
+        <argsstring>()</argsstring>
+        <name>hier_block2</name>
+        <qualifiedname>gr::hier_block2::hier_block2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="50" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a77e75ab4c5696750469dd0b062be7503" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::hier_block2::hier_block2</definition>
+        <argsstring>(const std::string &amp;name, gr::io_signature::sptr input_signature, gr::io_signature::sptr output_signature)</argsstring>
+        <name>hier_block2</name>
+        <qualifiedname>gr::hier_block2::hier_block2</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classgr_1_1io__signature_1a3aa5219846c4dfe7e8ebf03b322741f1" kindref="member">gr::io_signature::sptr</ref></type>
+          <declname>input_signature</declname>
+        </param>
+        <param>
+          <type><ref refid="classgr_1_1io__signature_1a3aa5219846c4dfe7e8ebf03b322741f1" kindref="member">gr::io_signature::sptr</ref></type>
+          <declname>output_signature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="51" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a4b9562c4c3028a001ca273086c3dc6e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::hier_block2::~hier_block2</definition>
+        <argsstring>() override</argsstring>
+        <name>~hier_block2</name>
+        <qualifiedname>gr::hier_block2::~hier_block2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="56" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a5550e29555b0b731103a57ed6a5db888" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1hier__block2_1a95a312a6bfcc965eb32e265fef158e49" kindref="member">opaque_self</ref></type>
+        <definition>opaque_self gr::hier_block2::self</definition>
+        <argsstring>()</argsstring>
+        <name>self</name>
+        <qualifiedname>gr::hier_block2::self</qualifiedname>
+        <briefdescription>
+<para>Return an object, representing the current block, which can be passed to connect. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The returned object may only be used as an argument to connect or disconnect. Any other use of <ref refid="classgr_1_1hier__block2_1a5550e29555b0b731103a57ed6a5db888" kindref="member">self()</ref> results in unspecified (erroneous) behavior. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="74" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1ab21892550c8fea3867628400bb8ed0be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::connect</definition>
+        <argsstring>(basic_block_sptr block)</argsstring>
+        <name>connect</name>
+        <qualifiedname>gr::hier_block2::connect</qualifiedname>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+<para>Add a stand-alone (possibly hierarchical) block to internal graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This adds a gr-block or hierarchical block to the internal graph without wiring it to anything else. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="83" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a915d1d5b4b6d8a9db4211d9a4507c955" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::connect</definition>
+        <argsstring>(basic_block_sptr src, int src_port, basic_block_sptr dst, int dst_port)</argsstring>
+        <name>connect</name>
+        <qualifiedname>gr::hier_block2::connect</qualifiedname>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_port</declname>
+        </param>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_port</declname>
+        </param>
+        <briefdescription>
+<para>Add gr-blocks or hierarchical blocks to internal graph and wire together. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This adds (if not done earlier by another connect) a pair of gr-blocks or hierarchical blocks to the internal flowgraph, and wires the specified output port to the specified input port. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="93" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a8abff96c559930893d3ffdb22a3c43fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::msg_connect</definition>
+        <argsstring>(basic_block_sptr src, pmt::pmt_t srcport, basic_block_sptr dst, pmt::pmt_t dstport)</argsstring>
+        <name>msg_connect</name>
+        <qualifiedname>gr::hier_block2::msg_connect</qualifiedname>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+          <declname>srcport</declname>
+        </param>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+          <declname>dstport</declname>
+        </param>
+        <briefdescription>
+<para>Add gr-blocks or hierarchical blocks to internal graph and wire together. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This adds (if not done earlier by another connect) a pair of gr-blocks or hierarchical blocks to the internal message port subscription </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="103" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1aa4ede49780196a89826355a7ec929a04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::msg_connect</definition>
+        <argsstring>(basic_block_sptr src, std::string srcport, basic_block_sptr dst, std::string dstport)</argsstring>
+        <name>msg_connect</name>
+        <qualifiedname>gr::hier_block2::msg_connect</qualifiedname>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>srcport</declname>
+        </param>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>dstport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="107" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a30377e2b23e464000d19c97700a801c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::msg_disconnect</definition>
+        <argsstring>(basic_block_sptr src, pmt::pmt_t srcport, basic_block_sptr dst, pmt::pmt_t dstport)</argsstring>
+        <name>msg_disconnect</name>
+        <qualifiedname>gr::hier_block2::msg_disconnect</qualifiedname>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+          <declname>srcport</declname>
+        </param>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+          <declname>dstport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="111" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a3e9aa7a73245ec3322e11a32da2842fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::msg_disconnect</definition>
+        <argsstring>(basic_block_sptr src, std::string srcport, basic_block_sptr dst, std::string dstport)</argsstring>
+        <name>msg_disconnect</name>
+        <qualifiedname>gr::hier_block2::msg_disconnect</qualifiedname>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>srcport</declname>
+        </param>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>dstport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="115" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a51fcbfb415871366a5418045b661ed9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::disconnect</definition>
+        <argsstring>(basic_block_sptr block)</argsstring>
+        <name>disconnect</name>
+        <qualifiedname>gr::hier_block2::disconnect</qualifiedname>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+<para>Remove a gr-block or hierarchical block from the internal flowgraph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This removes a gr-block or hierarchical block from the internal flowgraph, disconnecting it from other blocks as needed. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="127" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a9a7d58a081d3bff3e8c41b22bebd9ebb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::disconnect</definition>
+        <argsstring>(basic_block_sptr src, int src_port, basic_block_sptr dst, int dst_port)</argsstring>
+        <name>disconnect</name>
+        <qualifiedname>gr::hier_block2::disconnect</qualifiedname>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_port</declname>
+        </param>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_port</declname>
+        </param>
+        <briefdescription>
+<para>Disconnect a pair of gr-blocks or hierarchical blocks in internal flowgraph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This disconnects the specified input port from the specified output port of a pair of gr-blocks or hierarchical blocks. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="137" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a353fcc6e1967daa2e6994d766b4422b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::disconnect_all</definition>
+        <argsstring>()</argsstring>
+        <name>disconnect_all</name>
+        <qualifiedname>gr::hier_block2::disconnect_all</qualifiedname>
+        <briefdescription>
+<para>Disconnect all connections in the internal flowgraph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This call removes all output port to input port connections in the internal flowgraph. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="145" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1aac39fda08a7191359a104699d356217b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::hier_block2::lock</definition>
+        <argsstring>()</argsstring>
+        <name>lock</name>
+        <qualifiedname>gr::hier_block2::lock</qualifiedname>
+        <reimplementedby refid="classgr_1_1top__block_1a8fde90cf01a32abf8741aeb5947443ff">lock</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Lock a flowgraph in preparation for reconfiguration. When an equal number of calls to <ref refid="classgr_1_1hier__block2_1aac39fda08a7191359a104699d356217b" kindref="member">lock()</ref> and <ref refid="classgr_1_1hier__block2_1ac2a6cca7cf228bb24328751a32f08c82" kindref="member">unlock()</ref> have occurred, the flowgraph will be reconfigured.</para>
+<para>N.B. <ref refid="classgr_1_1hier__block2_1aac39fda08a7191359a104699d356217b" kindref="member">lock()</ref> and <ref refid="classgr_1_1hier__block2_1ac2a6cca7cf228bb24328751a32f08c82" kindref="member">unlock()</ref> may not be called from a flowgraph thread (E.g., gr::block::work method) or deadlock will occur when reconfiguration happens. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="156" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1ac2a6cca7cf228bb24328751a32f08c82" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::hier_block2::unlock</definition>
+        <argsstring>()</argsstring>
+        <name>unlock</name>
+        <qualifiedname>gr::hier_block2::unlock</qualifiedname>
+        <reimplementedby refid="classgr_1_1top__block_1afd3d137ac11f8f07661f3bc44a1a1240">unlock</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Unlock a flowgraph in preparation for reconfiguration. When an equal number of calls to <ref refid="classgr_1_1hier__block2_1aac39fda08a7191359a104699d356217b" kindref="member">lock()</ref> and <ref refid="classgr_1_1hier__block2_1ac2a6cca7cf228bb24328751a32f08c82" kindref="member">unlock()</ref> have occurred, the flowgraph will be reconfigured.</para>
+<para>N.B. <ref refid="classgr_1_1hier__block2_1aac39fda08a7191359a104699d356217b" kindref="member">lock()</ref> and <ref refid="classgr_1_1hier__block2_1ac2a6cca7cf228bb24328751a32f08c82" kindref="member">unlock()</ref> may not be called from a flowgraph thread (E.g., gr::block::work method) or deadlock will occur when reconfiguration happens. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="167" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a8498a7299d44d5429b789a3c6ee00437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::hier_block2::max_output_buffer</definition>
+        <argsstring>(size_t port=0)</argsstring>
+        <name>max_output_buffer</name>
+        <qualifiedname>gr::hier_block2::max_output_buffer</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>port</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Returns max buffer size (itemcount) on output port <computeroutput>i</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="172" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a13a574363cb8f73826369cfbf3b1cd85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::set_max_output_buffer</definition>
+        <argsstring>(int max_output_buffer)</argsstring>
+        <name>set_max_output_buffer</name>
+        <qualifiedname>gr::hier_block2::set_max_output_buffer</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>max_output_buffer</declname>
+        </param>
+        <briefdescription>
+<para>Sets max buffer size (itemcount) on all output ports. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="177" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a25a47c501c0ab88f9e389faa0a2331c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::set_max_output_buffer</definition>
+        <argsstring>(size_t port, int max_output_buffer)</argsstring>
+        <name>set_max_output_buffer</name>
+        <qualifiedname>gr::hier_block2::set_max_output_buffer</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_output_buffer</declname>
+        </param>
+        <briefdescription>
+<para>Sets max buffer size (itemcount) on output port <computeroutput>port</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="182" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1ae7b482b12d9b644472a58e76bf0fadef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::hier_block2::min_output_buffer</definition>
+        <argsstring>(size_t port=0)</argsstring>
+        <name>min_output_buffer</name>
+        <qualifiedname>gr::hier_block2::min_output_buffer</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>port</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Returns min buffer size (itemcount) on output port <computeroutput>i</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="187" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a77341eac69914f5ece84927e08c0911e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::set_min_output_buffer</definition>
+        <argsstring>(int min_output_buffer)</argsstring>
+        <name>set_min_output_buffer</name>
+        <qualifiedname>gr::hier_block2::set_min_output_buffer</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>min_output_buffer</declname>
+        </param>
+        <briefdescription>
+<para>Sets min buffer size (itemcount) on all output ports. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="192" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1abec28f7d55c08f832fca368e65f419b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::set_min_output_buffer</definition>
+        <argsstring>(size_t port, int min_output_buffer)</argsstring>
+        <name>set_min_output_buffer</name>
+        <qualifiedname>gr::hier_block2::set_min_output_buffer</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>min_output_buffer</declname>
+        </param>
+        <briefdescription>
+<para>Sets min buffer size (itemcount) on output port <computeroutput>port</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="197" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a3e369450bf9e6fa07b2ddd0b17032cfa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>flat_flowgraph_sptr</type>
+        <definition>flat_flowgraph_sptr gr::hier_block2::flatten</definition>
+        <argsstring>() const</argsstring>
+        <name>flatten</name>
+        <qualifiedname>gr::hier_block2::flatten</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="202" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1aa2b277abb1cf213e1ee95092c2182ad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>hier_block2_sptr</type>
+        <definition>hier_block2_sptr gr::hier_block2::to_hier_block2</definition>
+        <argsstring>()</argsstring>
+        <name>to_hier_block2</name>
+        <qualifiedname>gr::hier_block2::to_hier_block2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="204" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1ab8ca3476c548d762efa51831a561a804" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool gr::hier_block2::has_msg_port</definition>
+        <argsstring>(pmt::pmt_t which_port) override</argsstring>
+        <name>has_msg_port</name>
+        <qualifiedname>gr::hier_block2::has_msg_port</qualifiedname>
+        <reimplements refid="classgr_1_1basic__block_1a8cdeb25c366bedbadf918b7f106dbf85">has_msg_port</reimplements>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+          <declname>which_port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="206" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" bodystart="206" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a9cdeeae8ff217d8980cf1372d7f085f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool gr::hier_block2::message_port_is_hier</definition>
+        <argsstring>(pmt::pmt_t port_id) override</argsstring>
+        <name>message_port_is_hier</name>
+        <qualifiedname>gr::hier_block2::message_port_is_hier</qualifiedname>
+        <reimplements refid="classgr_1_1basic__block_1a8780d41bb2091c00a9637e15e872a7ce">message_port_is_hier</reimplements>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+          <declname>port_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="211" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" bodystart="211" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a846dce3618a126fc835993af603d2501" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool gr::hier_block2::message_port_is_hier_in</definition>
+        <argsstring>(pmt::pmt_t port_id) override</argsstring>
+        <name>message_port_is_hier_in</name>
+        <qualifiedname>gr::hier_block2::message_port_is_hier_in</qualifiedname>
+        <reimplements refid="classgr_1_1basic__block_1a5cc9ea399d0940de8440e028b7352ed7">message_port_is_hier_in</reimplements>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+          <declname>port_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="216" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" bodystart="216" bodyend="219"/>
+        <references refid="namespacepmt_1ae7d21874a6de2a79afe1e10bb18732c9">pmt::list_has</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1ad6c64426fe47a304a232a826435d81c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool gr::hier_block2::message_port_is_hier_out</definition>
+        <argsstring>(pmt::pmt_t port_id) override</argsstring>
+        <name>message_port_is_hier_out</name>
+        <qualifiedname>gr::hier_block2::message_port_is_hier_out</qualifiedname>
+        <reimplements refid="classgr_1_1basic__block_1a218a3ea133d838c8344fb3914c54ba3a">message_port_is_hier_out</reimplements>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+          <declname>port_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="221" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" bodystart="221" bodyend="224"/>
+        <references refid="namespacepmt_1ae7d21874a6de2a79afe1e10bb18732c9">pmt::list_has</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1afd358ba5936e3e031c0e5a18221ac387" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::message_port_register_hier_in</definition>
+        <argsstring>(pmt::pmt_t port_id)</argsstring>
+        <name>message_port_register_hier_in</name>
+        <qualifiedname>gr::hier_block2::message_port_register_hier_in</qualifiedname>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+          <declname>port_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="229" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" bodystart="229" bodyend="238"/>
+        <references refid="namespacepmt_1a16161bb1e4464f04d5a3f4748d78ac53">pmt::list_add</references>
+        <references refid="namespacepmt_1ae7d21874a6de2a79afe1e10bb18732c9">pmt::list_has</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1ab31564539e36494fa73d8cde4e815dce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::message_port_register_hier_out</definition>
+        <argsstring>(pmt::pmt_t port_id)</argsstring>
+        <name>message_port_register_hier_out</name>
+        <qualifiedname>gr::hier_block2::message_port_register_hier_out</qualifiedname>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+          <declname>port_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="240" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" bodystart="240" bodyend="249"/>
+        <references refid="namespacepmt_1a04b50148b5db6420f968694f093189a1">pmt::dict_has_key</references>
+        <references refid="namespacepmt_1a16161bb1e4464f04d5a3f4748d78ac53">pmt::list_add</references>
+        <references refid="namespacepmt_1ae7d21874a6de2a79afe1e10bb18732c9">pmt::list_has</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1aa3d9d79f8cf578c84a8280dda1cef82e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::set_processor_affinity</definition>
+        <argsstring>(const std::vector&lt; int &gt; &amp;mask) override</argsstring>
+        <name>set_processor_affinity</name>
+        <qualifiedname>gr::hier_block2::set_processor_affinity</qualifiedname>
+        <reimplements refid="classgr_1_1basic__block_1a53f88988bf0d8a2174de1854f4deb6cb">set_processor_affinity</reimplements>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>Set the affinity of all blocks in <ref refid="classgr_1_1hier__block2" kindref="compound">hier_block2</ref> to processor core <computeroutput>n</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a vector of ints of the core numbers available to this block. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="256" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a994b49ccbcd03723a2a02ab93fdfc5b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::unset_processor_affinity</definition>
+        <argsstring>() override</argsstring>
+        <name>unset_processor_affinity</name>
+        <qualifiedname>gr::hier_block2::unset_processor_affinity</qualifiedname>
+        <reimplements refid="classgr_1_1basic__block_1ac6648d85a9e1c808ba18789bf4d525ae">unset_processor_affinity</reimplements>
+        <briefdescription>
+<para>Remove processor affinity for all blocks in <ref refid="classgr_1_1hier__block2" kindref="compound">hier_block2</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="261" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a0686247f4f6e57b20461026e3296743c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; gr::hier_block2::processor_affinity</definition>
+        <argsstring>() override</argsstring>
+        <name>processor_affinity</name>
+        <qualifiedname>gr::hier_block2::processor_affinity</qualifiedname>
+        <reimplements refid="classgr_1_1basic__block_1a7507b5bcfbad500e0511ab73af4ebb7a">processor_affinity</reimplements>
+        <briefdescription>
+<para>Get the current processor affinity. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This returns the processor affinity value for the first block in the <ref refid="classgr_1_1hier__block2" kindref="compound">hier_block2</ref>&apos;s list of blocks with the assumption that they have always only been set through the <ref refid="classgr_1_1hier__block2" kindref="compound">hier_block2</ref>&apos;s interface. If any block has been individually set, then this call could be misleading. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="272" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1aed2317b6ab296436f32916e96fee887a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::hier_block2::set_log_level</definition>
+        <argsstring>(const std::string &amp;level) override</argsstring>
+        <name>set_log_level</name>
+        <qualifiedname>gr::hier_block2::set_log_level</qualifiedname>
+        <reimplements refid="classgr_1_1basic__block_1a0c938f2850bf465d06e97bf9ff97165e">set_log_level</reimplements>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+<para>Set the logger&apos;s output level. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the level of the logger for all connected blocks. This takes a string that is translated to the standard levels and can be (case insensitive):</para>
+<para><itemizedlist>
+<listitem><para>off , notset </para>
+</listitem>
+<listitem><para>debug </para>
+</listitem>
+<listitem><para>info </para>
+</listitem>
+<listitem><para>notice </para>
+</listitem>
+<listitem><para>warn </para>
+</listitem>
+<listitem><para>error </para>
+</listitem>
+<listitem><para>crit </para>
+</listitem>
+<listitem><para>alert </para>
+</listitem>
+<listitem><para>fatal </para>
+</listitem>
+<listitem><para>emerg </para>
+</listitem>
+</itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="292" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1a0b7de3dbc4dcb4625fc96353ad400e6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string gr::hier_block2::log_level</definition>
+        <argsstring>() override</argsstring>
+        <name>log_level</name>
+        <qualifiedname>gr::hier_block2::log_level</qualifiedname>
+        <reimplements refid="classgr_1_1basic__block_1a75e374a40ecba3d1cae0e704522a3337">log_level</reimplements>
+        <briefdescription>
+<para>Get the logger&apos;s output level. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="297" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1aa525f789e7a197076ab064f08d5c5116" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::hier_block2::all_min_output_buffer_p</definition>
+        <argsstring>(void)</argsstring>
+        <name>all_min_output_buffer_p</name>
+        <qualifiedname>gr::hier_block2::all_min_output_buffer_p</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get if all block min buffers should be set. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>this returns whether all the block min output buffers should be set or just the block ports connected to the hier ports. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="305" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hier__block2_1adbf0ce503909afe41d6a4b97174f4352" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::hier_block2::all_max_output_buffer_p</definition>
+        <argsstring>(void)</argsstring>
+        <name>all_max_output_buffer_p</name>
+        <qualifiedname>gr::hier_block2::all_max_output_buffer_p</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get if all block max buffers should be set. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>this returns whether all the block max output buffers should be set or just the block ports connected to the hier ports. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="313" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Hierarchical container class for <ref refid="classgr_1_1block" kindref="compound">gr::block</ref>&apos;s and <ref refid="classgr_1_1hier__block2" kindref="compound">gr::hier_block2</ref>&apos;s. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::basic_block</label>
+        <link refid="classgr_1_1basic__block"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gr::channels::channel_model</label>
+        <link refid="classgr_1_1channels_1_1channel__model"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::channels::channel_model2</label>
+        <link refid="classgr_1_1channels_1_1channel__model2"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>gr::channels::dynamic_channel_model</label>
+        <link refid="classgr_1_1channels_1_1dynamic__channel__model"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>gr::digital::cpmmod_bc</label>
+        <link refid="classgr_1_1digital_1_1cpmmod__bc"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>gr::digital::ofdm_sync_sc_cfb</label>
+        <link refid="classgr_1_1digital_1_1ofdm__sync__sc__cfb"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::hier_block2</label>
+        <link refid="classgr_1_1hier__block2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gr::messages::msg_accepter</label>
+        <link refid="classgr_1_1messages_1_1msg__accepter"/>
+      </node>
+      <node id="3">
+        <label>gr::msg_accepter</label>
+        <link refid="classgr_1_1msg__accepter"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gr::top_block</label>
+        <link refid="classgr_1_1top__block"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::enable_shared_from_this&lt; basic_block &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="13">
+        <label>T</label>
+      </node>
+      <node id="2">
+        <label>gr::basic_block</label>
+        <link refid="classgr_1_1basic__block"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>d_name</edgelabel>
+          <edgelabel>d_symbol_alias</edgelabel>
+          <edgelabel>d_symbol_name</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>d_input_signature</edgelabel>
+          <edgelabel>d_output_signature</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>d_debug_logger</edgelabel>
+          <edgelabel>d_logger</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>msg_queue</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>d_rpc_vars</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>d_message_subscribers</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::hier_block2</label>
+        <link refid="classgr_1_1hier__block2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>hier_message_ports_in</edgelabel>
+          <edgelabel>hier_message_ports_out</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>gr::io_signature</label>
+        <link refid="classgr_1_1io__signature"/>
+      </node>
+      <node id="4">
+        <label>gr::messages::msg_accepter</label>
+        <link refid="classgr_1_1messages_1_1msg__accepter"/>
+      </node>
+      <node id="3">
+        <label>gr::msg_accepter</label>
+        <link refid="classgr_1_1msg__accepter"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>std::map&lt; pmt::pmt_t, msg_queue_t, msg_queue_comparator &gt;</label>
+        <childnode refid="12" relation="usage">
+          <edgelabel>keys</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>std::shared_ptr&lt; io_signature &gt;</label>
+        <childnode refid="9" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>std::shared_ptr&lt; logger &gt;</label>
+      </node>
+      <node id="16">
+        <label>std::shared_ptr&lt; pmt_base &gt;</label>
+      </node>
+      <node id="7">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="14">
+        <label>std::deque&lt; T &gt;</label>
+        <childnode refid="13" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::enable_shared_from_this&lt; basic_block &gt;</label>
+      </node>
+      <node id="12">
+        <label>std::shared_ptr&lt; T &gt;</label>
+        <childnode refid="13" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::string</label>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>std::vector&lt; rpcbasic_sptr &gt;</label>
+        <childnode refid="12" relation="usage">
+          <edgelabel>elements</edgelabel>
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" line="33" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/hier_block2.h" bodystart="34" bodyend="314"/>
+    <listofallmembers>
+      <member refid="classgr_1_1basic__block_1ab82376fe13f515cb904c0d2e9fec87b6" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>_post</name></member>
+      <member refid="classgr_1_1basic__block_1ab6bc65ad989bb7aa762e9f6064e05534" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>alias</name></member>
+      <member refid="classgr_1_1basic__block_1a7c23228d2623680d85ce836dea19da21" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>alias_pmt</name></member>
+      <member refid="classgr_1_1basic__block_1abd5fd45a3aab213bdf7e826ef0baf654" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>alias_set</name></member>
+      <member refid="classgr_1_1hier__block2_1adbf0ce503909afe41d6a4b97174f4352" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>all_max_output_buffer_p</name></member>
+      <member refid="classgr_1_1hier__block2_1aa525f789e7a197076ab064f08d5c5116" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>all_min_output_buffer_p</name></member>
+      <member refid="classgr_1_1basic__block_1a6cc897729213ab4d2e3ade44c6942100" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>basic_block</name></member>
+      <member refid="classgr_1_1basic__block_1a451b45483aec67682289f4cf94e53f74" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>basic_block</name></member>
+      <member refid="classgr_1_1basic__block_1ac84f6979cb9e7650de9d9205901401aaab729ab9b0c860fece10ea1eddab6ce52" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>BLACK</name></member>
+      <member refid="classgr_1_1basic__block_1aca13d6f083397aada5b44d0f349ce151" prot="public" virt="virtual"><scope>gr::hier_block2</scope><name>check_topology</name></member>
+      <member refid="classgr_1_1basic__block_1ae6531de80c07321b7fb6f93d47952a12" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>color</name></member>
+      <member refid="classgr_1_1hier__block2_1ab21892550c8fea3867628400bb8ed0be" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>connect</name></member>
+      <member refid="classgr_1_1hier__block2_1a915d1d5b4b6d8a9db4211d9a4507c955" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>connect</name></member>
+      <member refid="classgr_1_1basic__block_1afc7a00e9e0ff69ceb903d3d6ff506473" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>d_color</name></member>
+      <member refid="classgr_1_1basic__block_1a13bd702ed57a052484e8c431b4ba3a63" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>d_debug_logger</name></member>
+      <member refid="classgr_1_1hier__block2_1af4aa4ec297a6d61c9a0dd2857362dfae" prot="private" virt="non-virtual"><scope>gr::hier_block2</scope><name>d_detail</name></member>
+      <member refid="classgr_1_1basic__block_1a84d6b200bb5e268424e9e4630cb22e5a" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>d_input_signature</name></member>
+      <member refid="classgr_1_1basic__block_1a65abdb3eefde2c95646944b18094dddc" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>d_logger</name></member>
+      <member refid="classgr_1_1basic__block_1aefa8ebb27b9d86bef179e30e37f0dfc3" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>d_message_subscribers</name></member>
+      <member refid="classgr_1_1basic__block_1ad7da20e98a288f84597882e047df63f4" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>d_name</name></member>
+      <member refid="classgr_1_1basic__block_1a84c091a90172b2eb6d617f6346bbce3f" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>d_output_signature</name></member>
+      <member refid="classgr_1_1basic__block_1a8d54f7ea6ebf134e68e028294488354d" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>d_rpc_set</name></member>
+      <member refid="classgr_1_1basic__block_1ae5d5ad853077c6eaf83c0ebce53d14f2" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>d_rpc_vars</name></member>
+      <member refid="classgr_1_1basic__block_1a2de4ae58aaf6af63fe57ecf0e64dcbe0" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>d_symbol_alias</name></member>
+      <member refid="classgr_1_1basic__block_1af6b5f158f329834b12d9b204cf62a10e" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>d_symbol_name</name></member>
+      <member refid="classgr_1_1basic__block_1a7073674b5876118ae50cd7cc5646ad80" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>d_symbolic_id</name></member>
+      <member refid="classgr_1_1basic__block_1a8afb0c354fb5fc2141fc7580361c2f00" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>d_unique_id</name></member>
+      <member refid="classgr_1_1basic__block_1af9e69c810222df1bccbd159d660eda06" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>delete_head_nowait</name></member>
+      <member refid="classgr_1_1hier__block2_1a51fcbfb415871366a5418045b661ed9f" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>disconnect</name></member>
+      <member refid="classgr_1_1hier__block2_1a9a7d58a081d3bff3e8c41b22bebd9ebb" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>disconnect</name></member>
+      <member refid="classgr_1_1hier__block2_1a353fcc6e1967daa2e6994d766b4422b4" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>disconnect_all</name></member>
+      <member refid="classgr_1_1basic__block_1aa0c8bc1d82de984c872fbaefc0ff954b" prot="protected" virt="virtual"><scope>gr::hier_block2</scope><name>dispatch_msg</name></member>
+      <member refid="classgr_1_1basic__block_1a0ea70146bf5ce65a8c20c0b7234063d9" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>empty_handled_p</name></member>
+      <member refid="classgr_1_1basic__block_1a75b7c42c06430e9f5330f7462a5350a1" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>empty_handled_p</name></member>
+      <member refid="classgr_1_1basic__block_1aea4958dfb6cc37d60db6afaba91f6e6e" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>empty_p</name></member>
+      <member refid="classgr_1_1basic__block_1aecb5d318b3d3689e6f7f448d29a03032" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>empty_p</name></member>
+      <member refid="classgr_1_1basic__block_1acffa27c6be8af72ae44773185687d49c" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>erase_msg</name></member>
+      <member refid="classgr_1_1hier__block2_1a3e369450bf9e6fa07b2ddd0b17032cfa" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>flatten</name></member>
+      <member refid="classgr_1_1basic__block_1a33724cc678371b3713e13ed29217963e" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>get_iterator</name></member>
+      <member refid="classgr_1_1basic__block_1a30fdffa888cd7433a1fe06caa6de2ec8" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>get_msg_map</name></member>
+      <member refid="classgr_1_1basic__block_1ac84f6979cb9e7650de9d9205901401aaa229412131f1cac62bf1cb3c63b12a19d" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>GREY</name></member>
+      <member refid="classgr_1_1basic__block_1ac8bf058b47b635100945e20f3cc5d0b0" prot="protected" virt="virtual"><scope>gr::hier_block2</scope><name>has_msg_handler</name></member>
+      <member refid="classgr_1_1hier__block2_1ab8ca3476c548d762efa51831a561a804" prot="public" virt="virtual"><scope>gr::hier_block2</scope><name>has_msg_port</name></member>
+      <member refid="classgr_1_1hier__block2_1a3d27e71a3a3406240b92f60144a0cc66" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>hier_block2</name></member>
+      <member refid="classgr_1_1hier__block2_1a77e75ab4c5696750469dd0b062be7503" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>hier_block2</name></member>
+      <member refid="classgr_1_1hier__block2_1ad8a613b38d2a49c8f9db5e1c29926f85" prot="private" virt="non-virtual"><scope>gr::hier_block2</scope><name>hier_block2_detail</name></member>
+      <member refid="classgr_1_1hier__block2_1ac7af7d4c523ab61a4ab1351938de1a91" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>hier_message_ports_in</name></member>
+      <member refid="classgr_1_1hier__block2_1a4cab051364b1ed01dbc4dc499f61a67b" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>hier_message_ports_out</name></member>
+      <member refid="classgr_1_1basic__block_1a7aab2dfa9aab194186d3737facb1cd46" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>identifier</name></member>
+      <member refid="classgr_1_1basic__block_1a0067e4bfc94bd79182de1a9c7ab7d267" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>input_signature</name></member>
+      <member refid="classgr_1_1basic__block_1acbf0d8127f9b1da8dcb327b29391812a" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>insert_tail</name></member>
+      <member refid="classgr_1_1basic__block_1a10bd994a51158fd3803377960d688795" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>is_rpc_set</name></member>
+      <member refid="classgr_1_1hier__block2_1aac39fda08a7191359a104699d356217b" prot="public" virt="virtual"><scope>gr::hier_block2</scope><name>lock</name></member>
+      <member refid="classgr_1_1hier__block2_1a0b7de3dbc4dcb4625fc96353ad400e6a" prot="public" virt="virtual"><scope>gr::hier_block2</scope><name>log_level</name></member>
+      <member refid="classgr_1_1hier__block2_1a8498a7299d44d5429b789a3c6ee00437" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>max_output_buffer</name></member>
+      <member refid="classgr_1_1hier__block2_1a9cdeeae8ff217d8980cf1372d7f085f0" prot="public" virt="virtual"><scope>gr::hier_block2</scope><name>message_port_is_hier</name></member>
+      <member refid="classgr_1_1hier__block2_1a846dce3618a126fc835993af603d2501" prot="public" virt="virtual"><scope>gr::hier_block2</scope><name>message_port_is_hier_in</name></member>
+      <member refid="classgr_1_1hier__block2_1ad6c64426fe47a304a232a826435d81c7" prot="public" virt="virtual"><scope>gr::hier_block2</scope><name>message_port_is_hier_out</name></member>
+      <member refid="classgr_1_1basic__block_1a485fa8f9fa04a1abcfe3f111d22e8e5f" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>message_port_pub</name></member>
+      <member refid="classgr_1_1hier__block2_1afd358ba5936e3e031c0e5a18221ac387" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>message_port_register_hier_in</name></member>
+      <member refid="classgr_1_1hier__block2_1ab31564539e36494fa73d8cde4e815dce" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>message_port_register_hier_out</name></member>
+      <member refid="classgr_1_1basic__block_1a362b6de38292cca9c1d56439a6efad04" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>message_port_register_in</name></member>
+      <member refid="classgr_1_1basic__block_1ac3047921885668943a13dabd35d5eda4" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>message_port_register_out</name></member>
+      <member refid="classgr_1_1basic__block_1adddd339f229f55bd96229d7a7dd5cc8f" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>message_port_sub</name></member>
+      <member refid="classgr_1_1basic__block_1ad5496693b3c7c8be32529d695f83db1c" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>message_port_unsub</name></member>
+      <member refid="classgr_1_1basic__block_1ae92faa0b6775de0100f6d202140403a2" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>message_ports_in</name></member>
+      <member refid="classgr_1_1basic__block_1ad6351658056b5381f3803233cb75c928" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>message_ports_out</name></member>
+      <member refid="classgr_1_1basic__block_1a15300c27e1a332bc7dcff6438ec6c080" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>message_subscribers</name></member>
+      <member refid="classgr_1_1hier__block2_1ae7b482b12d9b644472a58e76bf0fadef" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>min_output_buffer</name></member>
+      <member refid="classgr_1_1msg__accepter_1ae25bb0b46019f4dbe2bdcecdf50dc755" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>msg_accepter</name></member>
+      <member refid="classgr_1_1hier__block2_1a8abff96c559930893d3ffdb22a3c43fd" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>msg_connect</name></member>
+      <member refid="classgr_1_1hier__block2_1aa4ede49780196a89826355a7ec929a04" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>msg_connect</name></member>
+      <member refid="classgr_1_1hier__block2_1a30377e2b23e464000d19c97700a801c2" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>msg_disconnect</name></member>
+      <member refid="classgr_1_1hier__block2_1a3e9aa7a73245ec3322e11a32da2842fc" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>msg_disconnect</name></member>
+      <member refid="classgr_1_1basic__block_1a68e92e54cda7a02697074705b9a7c08d" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>msg_queue</name></member>
+      <member refid="classgr_1_1basic__block_1af3a5056e2de6b3e561c02f2de37de44c" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>name</name></member>
+      <member refid="classgr_1_1basic__block_1a4e3baf2d69f2a00871c89993e28b50ea" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>nmsgs</name></member>
+      <member refid="classgr_1_1hier__block2_1a95a312a6bfcc965eb32e265fef158e49" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>opaque_self</name></member>
+      <member refid="classgr_1_1basic__block_1ae1a185fca1da861c9e6213f9e8284fed" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>output_signature</name></member>
+      <member refid="classgr_1_1msg__accepter_1a1032a8f3bf410b7670bc9af0c7c6d7ad" prot="public" virt="virtual"><scope>gr::hier_block2</scope><name>post</name></member>
+      <member refid="classgr_1_1hier__block2_1a0686247f4f6e57b20461026e3296743c" prot="public" virt="virtual"><scope>gr::hier_block2</scope><name>processor_affinity</name></member>
+      <member refid="classgr_1_1basic__block_1ac349eee015757c75f8486b36ee08b106" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>rpc_set</name></member>
+      <member refid="classgr_1_1hier__block2_1a5550e29555b0b731103a57ed6a5db888" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>self</name></member>
+      <member refid="classgr_1_1basic__block_1ad5251b68da76a9ce6bef105ef8136547" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>set_block_alias</name></member>
+      <member refid="classgr_1_1basic__block_1a2c4a58849217d8b76ba2d25c0dfd8bd0" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>set_color</name></member>
+      <member refid="classgr_1_1basic__block_1a3f3f8f70bd0f0f2925b09bb75725c2b6" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>set_input_signature</name></member>
+      <member refid="classgr_1_1hier__block2_1aed2317b6ab296436f32916e96fee887a" prot="public" virt="virtual"><scope>gr::hier_block2</scope><name>set_log_level</name></member>
+      <member refid="classgr_1_1hier__block2_1a13a574363cb8f73826369cfbf3b1cd85" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>set_max_output_buffer</name></member>
+      <member refid="classgr_1_1hier__block2_1a25a47c501c0ab88f9e389faa0a2331c6" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>set_max_output_buffer</name></member>
+      <member refid="classgr_1_1hier__block2_1a77341eac69914f5ece84927e08c0911e" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>set_min_output_buffer</name></member>
+      <member refid="classgr_1_1hier__block2_1abec28f7d55c08f832fca368e65f419b1" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>set_min_output_buffer</name></member>
+      <member refid="classgr_1_1basic__block_1a7fed11ec01538bfea999fb37687b43b4" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>set_msg_handler</name></member>
+      <member refid="classgr_1_1basic__block_1a7933b6bc4ad512774bbb40616cc31b4d" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>set_output_signature</name></member>
+      <member refid="classgr_1_1hier__block2_1aa3d9d79f8cf578c84a8280dda1cef82e" prot="public" virt="virtual"><scope>gr::hier_block2</scope><name>set_processor_affinity</name></member>
+      <member refid="classgr_1_1basic__block_1a7f8bf6b9f28014657a6e8b5f25ca7802" prot="public" virt="virtual"><scope>gr::hier_block2</scope><name>setup_rpc</name></member>
+      <member refid="classgr_1_1basic__block_1a5b3a3265861764bbfb189e70f7a68cf1" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>shared_from_base</name></member>
+      <member refid="classgr_1_1basic__block_1ab4985e58945604020bb5fd252df7b4c5" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>symbol_name</name></member>
+      <member refid="classgr_1_1basic__block_1a7c225b210f999a526e5b714eb603ddd5" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>symbolic_id</name></member>
+      <member refid="classgr_1_1basic__block_1a84bf6924dfa0bb724caca46575669557" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>to_basic_block</name></member>
+      <member refid="classgr_1_1hier__block2_1aa2b277abb1cf213e1ee95092c2182ad5" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>to_hier_block2</name></member>
+      <member refid="classgr_1_1basic__block_1a2e458ea6cf1129f1c3bb6f66229303ca" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>unique_id</name></member>
+      <member refid="classgr_1_1hier__block2_1ac2a6cca7cf228bb24328751a32f08c82" prot="public" virt="virtual"><scope>gr::hier_block2</scope><name>unlock</name></member>
+      <member refid="classgr_1_1hier__block2_1a994b49ccbcd03723a2a02ab93fdfc5b7" prot="public" virt="virtual"><scope>gr::hier_block2</scope><name>unset_processor_affinity</name></member>
+      <member refid="classgr_1_1basic__block_1ac84f6979cb9e7650de9d9205901401aa" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>vcolor</name></member>
+      <member refid="classgr_1_1basic__block_1ac84f6979cb9e7650de9d9205901401aaa42ae6a0efeb1be877a188c7ad4778f50" prot="protected" virt="non-virtual"><scope>gr::hier_block2</scope><name>WHITE</name></member>
+      <member refid="classgr_1_1basic__block_1a6f1b212d7fb9637d34d078b073e7e803" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>~basic_block</name></member>
+      <member refid="classgr_1_1hier__block2_1a4b9562c4c3028a001ca273086c3dc6e1" prot="public" virt="non-virtual"><scope>gr::hier_block2</scope><name>~hier_block2</name></member>
+      <member refid="classgr_1_1msg__accepter_1a06c38c26efbfb1c4fd05eae97d2de748" prot="public" virt="virtual"><scope>gr::hier_block2</scope><name>~msg_accepter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

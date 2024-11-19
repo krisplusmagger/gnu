@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dvbt2__modulator__bc__pydoc_8h" kind="file" language="C++">
+    <compoundname>dvbt2_modulator_bc_pydoc.h</compoundname>
+    <includes refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>dvbt2_modulator_bc_pydoc.h</label>
+        <link refid="dvbt2__modulator__bc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dvbt2__modulator__bc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, dtv, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_modulator_bc_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_modulator_bc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="dvbt2__modulator__bc__pydoc_8h_1af2d40c191d45cd7580639946f80db877" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbt2_modulator_bc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbt2_modulator_bc</name>
+        <initializer>= R&quot;doc(Modulates DVB-T2 cells.
+
+Input: Bit interleaved (with column twist and bit to cell word de-multiplexing) cells. 
+ Output: QPSK, 16QAM, 64QAM or 256QAM modulated complex IQ values (cells).
+
+Constructor Specific Documentation:
+
+Create a DVB-T2 constellation modulator.
+
+Args:
+    framesize : FEC frame size (normal or short).
+    constellation : DVB-T2 constellation.
+    rotation : DVB-T2 constellation rotation (on or off).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_modulator_bc_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_modulator_bc_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvbt2__modulator__bc__pydoc_8h_1afe651511eb6a8d97de3fd0c6d5a7eb15" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbt2_modulator_bc_dvbt2_modulator_bc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbt2_modulator_bc_dvbt2_modulator_bc</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_modulator_bc_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_modulator_bc_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvbt2__modulator__bc__pydoc_8h_1a71ab28a57499c6e1719a01361b576d21" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbt2_modulator_bc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbt2_modulator_bc_make</name>
+        <initializer>= R&quot;doc(Modulates DVB-T2 cells.
+
+Input: Bit interleaved (with column twist and bit to cell word de-multiplexing) cells. 
+ Output: QPSK, 16QAM, 64QAM or 256QAM modulated complex IQ values (cells).
+
+Constructor Specific Documentation:
+
+Create a DVB-T2 constellation modulator.
+
+Args:
+    framesize : FEC frame size (normal or short).
+    constellation : DVB-T2 constellation.
+    rotation : DVB-T2 constellation rotation (on or off).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_modulator_bc_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_modulator_bc_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_modulator_bc_pydoc.h"/>
+  </compounddef>
+</doxygen>

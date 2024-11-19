@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classLineWidthMenu" kind="class" language="C++" prot="public">
+    <compoundname>LineWidthMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMenu</basecompoundref>
+    <includes refid="form__menus_8h" local="no">gnuradio/qtgui/form_menus.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classLineWidthMenu_1a6adcf20cab8f159891821aaedb8b0870" prot="private" static="no" mutable="no">
+        <type>QActionGroup *</type>
+        <definition>QActionGroup* LineWidthMenu::d_grp</definition>
+        <argsstring></argsstring>
+        <name>d_grp</name>
+        <qualifiedname>LineWidthMenu::d_grp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="181" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLineWidthMenu_1aa262eaaa3aeb418cbe49403efbfa161d" prot="private" static="no" mutable="no">
+        <type>QList&lt; QAction * &gt;</type>
+        <definition>QList&lt;QAction*&gt; LineWidthMenu::d_act</definition>
+        <argsstring></argsstring>
+        <name>d_act</name>
+        <qualifiedname>LineWidthMenu::d_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="182" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLineWidthMenu_1a177498f314cb6ce29e55d22001f6ab87" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LineWidthMenu::d_which</definition>
+        <argsstring></argsstring>
+        <name>d_which</name>
+        <qualifiedname>LineWidthMenu::d_which</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="183" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLineWidthMenu_1a4e0fd0268d6b13d35c9e3c355c22a993" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LineWidthMenu::LineWidthMenu</definition>
+        <argsstring>(unsigned int which, QWidget *parent)</argsstring>
+        <name>LineWidthMenu</name>
+        <qualifiedname>LineWidthMenu::LineWidthMenu</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="117" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="117" bodyend="151"/>
+        <references refid="classLineWidthMenu_1a83aa184efee138f4db15f5efaa650042" compoundref="form__menus_8h" startline="176" endline="176">getEight</references>
+        <references refid="classLineWidthMenu_1acee9ca5d49522d6251e43439a12733f8" compoundref="form__menus_8h" startline="173" endline="173">getFive</references>
+        <references refid="classLineWidthMenu_1ace3ee67363d112b08b2347911d6ff4e5" compoundref="form__menus_8h" startline="172" endline="172">getFour</references>
+        <references refid="classLineWidthMenu_1a6581f405f8d93757b3ae5cab7d3b367e" compoundref="form__menus_8h" startline="177" endline="177">getNine</references>
+        <references refid="classLineWidthMenu_1a762a782021201fc0a1a02a289c2b00d9" compoundref="form__menus_8h" startline="169" endline="169">getOne</references>
+        <references refid="classLineWidthMenu_1ae02731e25357c8952c308a514b1bc6a4" compoundref="form__menus_8h" startline="175" endline="175">getSeven</references>
+        <references refid="classLineWidthMenu_1a0c1807ce3bef3871149f5bfe8e33e7c8" compoundref="form__menus_8h" startline="174" endline="174">getSix</references>
+        <references refid="classLineWidthMenu_1ae739f07c0de2049dd82f3403e163862e" compoundref="form__menus_8h" startline="178" endline="178">getTen</references>
+        <references refid="classLineWidthMenu_1af732f04546ee5747c081ee29adcdb975" compoundref="form__menus_8h" startline="171" endline="171">getThree</references>
+        <references refid="classLineWidthMenu_1aac6504cc00885d0232efc8f8be8248a7" compoundref="form__menus_8h" startline="170" endline="170">getTwo</references>
+      </memberdef>
+      <memberdef kind="function" id="classLineWidthMenu_1a57ff3c8c97136568f8970093c878359d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LineWidthMenu::~LineWidthMenu</definition>
+        <argsstring>() override</argsstring>
+        <name>~LineWidthMenu</name>
+        <qualifiedname>LineWidthMenu::~LineWidthMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="153" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="153" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classLineWidthMenu_1af58f98b54f317023fe6c5d1bf4de9de9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int LineWidthMenu::getNumActions</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumActions</name>
+        <qualifiedname>LineWidthMenu::getNumActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="155" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="155" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classLineWidthMenu_1aa8908f1c6137036a7dee7a677c086f4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * LineWidthMenu::getAction</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>getAction</name>
+        <qualifiedname>LineWidthMenu::getAction</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="157" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="157" bodyend="163"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classLineWidthMenu_1a7f922769dd00285b58f544bbdfbb2afc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineWidthMenu::whichTrigger</definition>
+        <argsstring>(unsigned int which, unsigned int width)</argsstring>
+        <name>whichTrigger</name>
+        <qualifiedname>LineWidthMenu::whichTrigger</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="166" column="10"/>
+        <referencedby refid="classLineWidthMenu_1a83aa184efee138f4db15f5efaa650042" compoundref="form__menus_8h" startline="176" endline="176">getEight</referencedby>
+        <referencedby refid="classLineWidthMenu_1acee9ca5d49522d6251e43439a12733f8" compoundref="form__menus_8h" startline="173" endline="173">getFive</referencedby>
+        <referencedby refid="classLineWidthMenu_1ace3ee67363d112b08b2347911d6ff4e5" compoundref="form__menus_8h" startline="172" endline="172">getFour</referencedby>
+        <referencedby refid="classLineWidthMenu_1a6581f405f8d93757b3ae5cab7d3b367e" compoundref="form__menus_8h" startline="177" endline="177">getNine</referencedby>
+        <referencedby refid="classLineWidthMenu_1a762a782021201fc0a1a02a289c2b00d9" compoundref="form__menus_8h" startline="169" endline="169">getOne</referencedby>
+        <referencedby refid="classLineWidthMenu_1ae02731e25357c8952c308a514b1bc6a4" compoundref="form__menus_8h" startline="175" endline="175">getSeven</referencedby>
+        <referencedby refid="classLineWidthMenu_1a0c1807ce3bef3871149f5bfe8e33e7c8" compoundref="form__menus_8h" startline="174" endline="174">getSix</referencedby>
+        <referencedby refid="classLineWidthMenu_1ae739f07c0de2049dd82f3403e163862e" compoundref="form__menus_8h" startline="178" endline="178">getTen</referencedby>
+        <referencedby refid="classLineWidthMenu_1af732f04546ee5747c081ee29adcdb975" compoundref="form__menus_8h" startline="171" endline="171">getThree</referencedby>
+        <referencedby refid="classLineWidthMenu_1aac6504cc00885d0232efc8f8be8248a7" compoundref="form__menus_8h" startline="170" endline="170">getTwo</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classLineWidthMenu_1a762a782021201fc0a1a02a289c2b00d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineWidthMenu::getOne</definition>
+        <argsstring>()</argsstring>
+        <name>getOne</name>
+        <qualifiedname>LineWidthMenu::getOne</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="169" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="169" bodyend="169"/>
+        <references refid="classLineWidthMenu_1a7f922769dd00285b58f544bbdfbb2afc">whichTrigger</references>
+        <referencedby refid="classLineWidthMenu_1a4e0fd0268d6b13d35c9e3c355c22a993" compoundref="form__menus_8h" startline="117" endline="151">LineWidthMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineWidthMenu_1aac6504cc00885d0232efc8f8be8248a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineWidthMenu::getTwo</definition>
+        <argsstring>()</argsstring>
+        <name>getTwo</name>
+        <qualifiedname>LineWidthMenu::getTwo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="170" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="170" bodyend="170"/>
+        <references refid="classLineWidthMenu_1a7f922769dd00285b58f544bbdfbb2afc">whichTrigger</references>
+        <referencedby refid="classLineWidthMenu_1a4e0fd0268d6b13d35c9e3c355c22a993" compoundref="form__menus_8h" startline="117" endline="151">LineWidthMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineWidthMenu_1af732f04546ee5747c081ee29adcdb975" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineWidthMenu::getThree</definition>
+        <argsstring>()</argsstring>
+        <name>getThree</name>
+        <qualifiedname>LineWidthMenu::getThree</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="171" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="171" bodyend="171"/>
+        <references refid="classLineWidthMenu_1a7f922769dd00285b58f544bbdfbb2afc">whichTrigger</references>
+        <referencedby refid="classLineWidthMenu_1a4e0fd0268d6b13d35c9e3c355c22a993" compoundref="form__menus_8h" startline="117" endline="151">LineWidthMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineWidthMenu_1ace3ee67363d112b08b2347911d6ff4e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineWidthMenu::getFour</definition>
+        <argsstring>()</argsstring>
+        <name>getFour</name>
+        <qualifiedname>LineWidthMenu::getFour</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="172" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="172" bodyend="172"/>
+        <references refid="classLineWidthMenu_1a7f922769dd00285b58f544bbdfbb2afc">whichTrigger</references>
+        <referencedby refid="classLineWidthMenu_1a4e0fd0268d6b13d35c9e3c355c22a993" compoundref="form__menus_8h" startline="117" endline="151">LineWidthMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineWidthMenu_1acee9ca5d49522d6251e43439a12733f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineWidthMenu::getFive</definition>
+        <argsstring>()</argsstring>
+        <name>getFive</name>
+        <qualifiedname>LineWidthMenu::getFive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="173" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="173" bodyend="173"/>
+        <references refid="classLineWidthMenu_1a7f922769dd00285b58f544bbdfbb2afc">whichTrigger</references>
+        <referencedby refid="classLineWidthMenu_1a4e0fd0268d6b13d35c9e3c355c22a993" compoundref="form__menus_8h" startline="117" endline="151">LineWidthMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineWidthMenu_1a0c1807ce3bef3871149f5bfe8e33e7c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineWidthMenu::getSix</definition>
+        <argsstring>()</argsstring>
+        <name>getSix</name>
+        <qualifiedname>LineWidthMenu::getSix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="174" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="174" bodyend="174"/>
+        <references refid="classLineWidthMenu_1a7f922769dd00285b58f544bbdfbb2afc">whichTrigger</references>
+        <referencedby refid="classLineWidthMenu_1a4e0fd0268d6b13d35c9e3c355c22a993" compoundref="form__menus_8h" startline="117" endline="151">LineWidthMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineWidthMenu_1ae02731e25357c8952c308a514b1bc6a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineWidthMenu::getSeven</definition>
+        <argsstring>()</argsstring>
+        <name>getSeven</name>
+        <qualifiedname>LineWidthMenu::getSeven</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="175" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="175" bodyend="175"/>
+        <references refid="classLineWidthMenu_1a7f922769dd00285b58f544bbdfbb2afc">whichTrigger</references>
+        <referencedby refid="classLineWidthMenu_1a4e0fd0268d6b13d35c9e3c355c22a993" compoundref="form__menus_8h" startline="117" endline="151">LineWidthMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineWidthMenu_1a83aa184efee138f4db15f5efaa650042" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineWidthMenu::getEight</definition>
+        <argsstring>()</argsstring>
+        <name>getEight</name>
+        <qualifiedname>LineWidthMenu::getEight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="176" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="176" bodyend="176"/>
+        <references refid="classLineWidthMenu_1a7f922769dd00285b58f544bbdfbb2afc">whichTrigger</references>
+        <referencedby refid="classLineWidthMenu_1a4e0fd0268d6b13d35c9e3c355c22a993" compoundref="form__menus_8h" startline="117" endline="151">LineWidthMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineWidthMenu_1a6581f405f8d93757b3ae5cab7d3b367e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineWidthMenu::getNine</definition>
+        <argsstring>()</argsstring>
+        <name>getNine</name>
+        <qualifiedname>LineWidthMenu::getNine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="177" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="177" bodyend="177"/>
+        <references refid="classLineWidthMenu_1a7f922769dd00285b58f544bbdfbb2afc">whichTrigger</references>
+        <referencedby refid="classLineWidthMenu_1a4e0fd0268d6b13d35c9e3c355c22a993" compoundref="form__menus_8h" startline="117" endline="151">LineWidthMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineWidthMenu_1ae739f07c0de2049dd82f3403e163862e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineWidthMenu::getTen</definition>
+        <argsstring>()</argsstring>
+        <name>getTen</name>
+        <qualifiedname>LineWidthMenu::getTen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="178" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="178" bodyend="178"/>
+        <references refid="classLineWidthMenu_1a7f922769dd00285b58f544bbdfbb2afc">whichTrigger</references>
+        <referencedby refid="classLineWidthMenu_1a4e0fd0268d6b13d35c9e3c355c22a993" compoundref="form__menus_8h" startline="117" endline="151">LineWidthMenu</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LineWidthMenu</label>
+        <link refid="classLineWidthMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LineWidthMenu</label>
+        <link refid="classLineWidthMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="112" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="113" bodyend="184"/>
+    <listofallmembers>
+      <member refid="classLineWidthMenu_1aa262eaaa3aeb418cbe49403efbfa161d" prot="private" virt="non-virtual"><scope>LineWidthMenu</scope><name>d_act</name></member>
+      <member refid="classLineWidthMenu_1a6adcf20cab8f159891821aaedb8b0870" prot="private" virt="non-virtual"><scope>LineWidthMenu</scope><name>d_grp</name></member>
+      <member refid="classLineWidthMenu_1a177498f314cb6ce29e55d22001f6ab87" prot="private" virt="non-virtual"><scope>LineWidthMenu</scope><name>d_which</name></member>
+      <member refid="classLineWidthMenu_1aa8908f1c6137036a7dee7a677c086f4b" prot="public" virt="non-virtual"><scope>LineWidthMenu</scope><name>getAction</name></member>
+      <member refid="classLineWidthMenu_1a83aa184efee138f4db15f5efaa650042" prot="public" virt="non-virtual"><scope>LineWidthMenu</scope><name>getEight</name></member>
+      <member refid="classLineWidthMenu_1acee9ca5d49522d6251e43439a12733f8" prot="public" virt="non-virtual"><scope>LineWidthMenu</scope><name>getFive</name></member>
+      <member refid="classLineWidthMenu_1ace3ee67363d112b08b2347911d6ff4e5" prot="public" virt="non-virtual"><scope>LineWidthMenu</scope><name>getFour</name></member>
+      <member refid="classLineWidthMenu_1a6581f405f8d93757b3ae5cab7d3b367e" prot="public" virt="non-virtual"><scope>LineWidthMenu</scope><name>getNine</name></member>
+      <member refid="classLineWidthMenu_1af58f98b54f317023fe6c5d1bf4de9de9" prot="public" virt="non-virtual"><scope>LineWidthMenu</scope><name>getNumActions</name></member>
+      <member refid="classLineWidthMenu_1a762a782021201fc0a1a02a289c2b00d9" prot="public" virt="non-virtual"><scope>LineWidthMenu</scope><name>getOne</name></member>
+      <member refid="classLineWidthMenu_1ae02731e25357c8952c308a514b1bc6a4" prot="public" virt="non-virtual"><scope>LineWidthMenu</scope><name>getSeven</name></member>
+      <member refid="classLineWidthMenu_1a0c1807ce3bef3871149f5bfe8e33e7c8" prot="public" virt="non-virtual"><scope>LineWidthMenu</scope><name>getSix</name></member>
+      <member refid="classLineWidthMenu_1ae739f07c0de2049dd82f3403e163862e" prot="public" virt="non-virtual"><scope>LineWidthMenu</scope><name>getTen</name></member>
+      <member refid="classLineWidthMenu_1af732f04546ee5747c081ee29adcdb975" prot="public" virt="non-virtual"><scope>LineWidthMenu</scope><name>getThree</name></member>
+      <member refid="classLineWidthMenu_1aac6504cc00885d0232efc8f8be8248a7" prot="public" virt="non-virtual"><scope>LineWidthMenu</scope><name>getTwo</name></member>
+      <member refid="classLineWidthMenu_1a4e0fd0268d6b13d35c9e3c355c22a993" prot="public" virt="non-virtual"><scope>LineWidthMenu</scope><name>LineWidthMenu</name></member>
+      <member refid="classLineWidthMenu_1a7f922769dd00285b58f544bbdfbb2afc" prot="public" virt="non-virtual"><scope>LineWidthMenu</scope><name>whichTrigger</name></member>
+      <member refid="classLineWidthMenu_1a57ff3c8c97136568f8970093c878359d" prot="public" virt="non-virtual"><scope>LineWidthMenu</scope><name>~LineWidthMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

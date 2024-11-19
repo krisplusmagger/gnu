@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="async__decoder__pydoc_8h" kind="file" language="C++">
+    <compoundname>async_decoder_pydoc.h</compoundname>
+    <includes refid="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>async_decoder_pydoc.h</label>
+        <link refid="async__decoder__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="async__decoder__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, fec, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/async_decoder_pydoc.h" line="10" column="11" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/async_decoder_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="async__decoder__pydoc_8h_1a6023ca1739fbcceeff882e0d2abf24e2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_async_decoder</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_async_decoder</name>
+        <initializer>= R&quot;doc(Creates the decoder block for use in GNU Radio flowgraphs from a given FEC API object derived from the generic_decoder class.
+
+Decodes frames received as async messages over a message port. This decoder deployment expects messages of soft decision symbols in and can produce either packed, PDU messages ( = True) or messages full of unpacked bits ( = False).
+
+
+This decoder works off a full message as one frame or block to decode. The message length is used to calculate the frame length. To support this, the decoder variable used will have had its frame_size set. This block treats that initial frame_size value as the maximum transmission unit (MTU) and will not process frames larger than that after being decoded.
+
+
+The packed PDU form of this deployment is designed to work well with other PDU-based blocks to operate within the processing flow of data packets or frames.
+
+
+Due to differences in how data is packed and processed, this block also offers the ability to change the direction of how bits are packed. All inputs messages are one soft decision per item. By default, the  mode is set to True. Using this setup allows the async block to behave with PDUs in the same operation and format as the tagged stream decoders. That is, putting the same data into both the tagged stream decoder deployment and this with the default setting should produce the same data.
+
+
+Because the block handles data as a full frame per message, this decoder deployment cannot work with any decoders that require history. For example, the <ref refid="classgr_1_1fec_1_1code_1_1cc__decoder" kindref="compound">gr::fec::code::cc_decoder</ref> decoder in streaming mode requires an extra rate*(K-1) bits to complete the decoding, so it would have to wait for the next message to come in and finish processing. Therefore, the streaming mode of the CC decoder is not allowed. The other three modes will work with this deployment since the frame is self-contained for decoding.
+
+Constructor Specific Documentation:
+
+Build the PDU-based FEC decoder block from an FECAPI decoder object.
+
+Args:
+    my_decoder : An FECAPI decoder object child of the generic_decoder class.
+    packed : Sets output to packed bytes if true; otherwise, 1 bit per byte.
+    rev_pack : If packing bits, should they be reversed?
+    mtu : The Maximum Transmission Unit (MTU) of the output frame that the block will be able to process. Specified in bytes and defaults to 1500.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/async_decoder_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/async_decoder_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="async__decoder__pydoc_8h_1a9d71958f12d0cfc7b8c26ac933f9a0ca" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_async_decoder_async_decoder_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_async_decoder_async_decoder_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/async_decoder_pydoc.h" line="45" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/async_decoder_pydoc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="async__decoder__pydoc_8h_1a06db3e51ca812cf709cdfb849734a2b9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_async_decoder_async_decoder_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_async_decoder_async_decoder_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/async_decoder_pydoc.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/async_decoder_pydoc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="async__decoder__pydoc_8h_1ad2e8044aee56e0ce4f98f61ff49cb734" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_async_decoder_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_async_decoder_make</name>
+        <initializer>= R&quot;doc(Creates the decoder block for use in GNU Radio flowgraphs from a given FEC API object derived from the generic_decoder class.
+
+Decodes frames received as async messages over a message port. This decoder deployment expects messages of soft decision symbols in and can produce either packed, PDU messages ( = True) or messages full of unpacked bits ( = False).
+
+
+This decoder works off a full message as one frame or block to decode. The message length is used to calculate the frame length. To support this, the decoder variable used will have had its frame_size set. This block treats that initial frame_size value as the maximum transmission unit (MTU) and will not process frames larger than that after being decoded.
+
+
+The packed PDU form of this deployment is designed to work well with other PDU-based blocks to operate within the processing flow of data packets or frames.
+
+
+Due to differences in how data is packed and processed, this block also offers the ability to change the direction of how bits are packed. All inputs messages are one soft decision per item. By default, the  mode is set to True. Using this setup allows the async block to behave with PDUs in the same operation and format as the tagged stream decoders. That is, putting the same data into both the tagged stream decoder deployment and this with the default setting should produce the same data.
+
+
+Because the block handles data as a full frame per message, this decoder deployment cannot work with any decoders that require history. For example, the <ref refid="classgr_1_1fec_1_1code_1_1cc__decoder" kindref="compound">gr::fec::code::cc_decoder</ref> decoder in streaming mode requires an extra rate*(K-1) bits to complete the decoding, so it would have to wait for the next message to come in and finish processing. Therefore, the streaming mode of the CC decoder is not allowed. The other three modes will work with this deployment since the frame is self-contained for decoding.
+
+Constructor Specific Documentation:
+
+Build the PDU-based FEC decoder block from an FECAPI decoder object.
+
+Args:
+    my_decoder : An FECAPI decoder object child of the generic_decoder class.
+    packed : Sets output to packed bytes if true; otherwise, 1 bit per byte.
+    rev_pack : If packing bits, should they be reversed?
+    mtu : The Maximum Transmission Unit (MTU) of the output frame that the block will be able to process. Specified in bytes and defaults to 1500.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/async_decoder_pydoc.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/async_decoder_pydoc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="async__decoder__pydoc_8h_1a17dda7345dcef97a5de6e684e4f8987d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_async_decoder_general_work</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_async_decoder_general_work</name>
+        <initializer>= R&quot;doc(compute output items from input items
+
+WORK_CALLED_PRODUCE is used where not all outputs produce the same number of items. general_work must call produce() for each output to indicate the number of items actually produced.
+
+
+WORK_DONE indicates that no more data will be produced by this block.
+
+
+general_work must call consume or consume_each to indicate how many items were consumed on each input stream.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/async_decoder_pydoc.h" line="78" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/async_decoder_pydoc.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/async_decoder_pydoc.h"/>
+  </compounddef>
+</doxygen>

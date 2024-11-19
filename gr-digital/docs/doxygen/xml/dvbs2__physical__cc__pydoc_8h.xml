@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dvbs2__physical__cc__pydoc_8h" kind="file" language="C++">
+    <compoundname>dvbs2_physical_cc_pydoc.h</compoundname>
+    <includes refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>dvbs2_physical_cc_pydoc.h</label>
+        <link refid="dvbs2__physical__cc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dvbs2__physical__cc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, dtv, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbs2_physical_cc_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbs2_physical_cc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="dvbs2__physical__cc__pydoc_8h_1a65febe606505791bab50422af28ffc9b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbs2_physical_cc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbs2_physical_cc</name>
+        <initializer>= R&quot;doc(Signals DVB-S2 physical layer frames.
+
+Input: QPSK, 8PSK, 16APSK or 32APSK modulated complex IQ values (XFECFRAME). 
+Output: DVB-S2 PLFRAME.
+
+Constructor Specific Documentation:
+
+Create a DVB-S2 physical layer framer.
+
+Args:
+    framesize : FEC frame size (normal or short).
+    rate : FEC code rate.
+    constellation : DVB-S2 constellation.
+    pilots : pilot symbols (on/off).
+    goldcode : physical layer scrambler Gold code (0 to 262141 inclusive).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbs2_physical_cc_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbs2_physical_cc_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvbs2__physical__cc__pydoc_8h_1a2be46dd2cb9c81cc7f3b0055d6258db7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbs2_physical_cc_dvbs2_physical_cc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbs2_physical_cc_dvbs2_physical_cc</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbs2_physical_cc_pydoc.h" line="35" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbs2_physical_cc_pydoc.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvbs2__physical__cc__pydoc_8h_1a95f4de7aeb2cb85b0841db145ea694ce" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbs2_physical_cc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbs2_physical_cc_make</name>
+        <initializer>= R&quot;doc(Signals DVB-S2 physical layer frames.
+
+Input: QPSK, 8PSK, 16APSK or 32APSK modulated complex IQ values (XFECFRAME). 
+Output: DVB-S2 PLFRAME.
+
+Constructor Specific Documentation:
+
+Create a DVB-S2 physical layer framer.
+
+Args:
+    framesize : FEC frame size (normal or short).
+    rate : FEC code rate.
+    constellation : DVB-S2 constellation.
+    pilots : pilot symbols (on/off).
+    goldcode : physical layer scrambler Gold code (0 to 262141 inclusive).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbs2_physical_cc_pydoc.h" line="38" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbs2_physical_cc_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbs2_physical_cc_pydoc.h"/>
+  </compounddef>
+</doxygen>

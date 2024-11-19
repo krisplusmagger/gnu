@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1nco" kind="class" language="C++" prot="public">
+    <compoundname>gr::nco</compoundname>
+    <includes refid="nco_8h" local="no">gnuradio/nco.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class o_type</type>
+      </param>
+      <param>
+        <type>class i_type</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgr_1_1nco_1a806d13f4a427f2a0c0f9ee53e173bc94" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::nco&lt; o_type, i_type &gt;::phase</definition>
+        <argsstring></argsstring>
+        <name>phase</name>
+        <qualifiedname>gr::nco::phase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="80" column="12" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="80" bodyend="-1"/>
+        <referencedby refid="classgr_1_1nco_1a728daf10a891d5b130c32da04dcd92ef" compoundref="nco_8h" startline="38" endline="38">gr::nco&lt; o_type, i_type &gt;::adjust_phase</referencedby>
+        <referencedby refid="classgr_1_1nco_1aa321fd406b063f20d7452ac33ec68f7a" compoundref="nco_8h" startline="67" endline="67">gr::nco&lt; o_type, i_type &gt;::cos</referencedby>
+        <referencedby refid="classgr_1_1nco_1aabbf79574dab7c6a74a324851de39ae2" compoundref="nco_8h" startline="60" endline="60">gr::nco&lt; o_type, i_type &gt;::get_phase</referencedby>
+        <referencedby refid="classgr_1_1nco_1a9ee448d73b27e43d95aec596acd102d8" compoundref="nco_8h" startline="36" endline="36">gr::nco&lt; o_type, i_type &gt;::set_phase</referencedby>
+        <referencedby refid="classgr_1_1nco_1a360a6f73bec1f20ec0ad8bac8ade087b" compoundref="nco_8h" startline="68" endline="68">gr::nco&lt; o_type, i_type &gt;::sin</referencedby>
+        <referencedby refid="classgr_1_1nco_1a2249f35249a189c76f144ab823c865b6" compoundref="nco_8h" startline="64" endline="64">gr::nco&lt; o_type, i_type &gt;::sincos</referencedby>
+        <referencedby refid="classgr_1_1nco_1a96fd5b9dfab5cda6bdbb6522f0f0b9b3" compoundref="nco_8h" startline="47" endline="57">gr::nco&lt; o_type, i_type &gt;::step</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1nco_1a0fdf4b81dc1e225fc07b4c1e3e2f193c" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::nco&lt; o_type, i_type &gt;::phase_inc</definition>
+        <argsstring></argsstring>
+        <name>phase_inc</name>
+        <qualifiedname>gr::nco::phase_inc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="81" column="12" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="81" bodyend="-1"/>
+        <referencedby refid="classgr_1_1nco_1a96d75603b9495abc74635930c597cf3b" compoundref="nco_8h" startline="44" endline="44">gr::nco&lt; o_type, i_type &gt;::adjust_freq</referencedby>
+        <referencedby refid="classgr_1_1nco_1ad9aab6f5947b1304a29ec4989640dac0" compoundref="nco_8h" startline="61" endline="61">gr::nco&lt; o_type, i_type &gt;::get_freq</referencedby>
+        <referencedby refid="classgr_1_1nco_1a6c10cb4f383b93ac002f597f2125c73c" compoundref="nco_8h" startline="41" endline="41">gr::nco&lt; o_type, i_type &gt;::set_freq</referencedby>
+        <referencedby refid="classgr_1_1nco_1a96fd5b9dfab5cda6bdbb6522f0f0b9b3" compoundref="nco_8h" startline="47" endline="57">gr::nco&lt; o_type, i_type &gt;::step</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1nco_1afaa188bdf65c27a774091c51d7ec3843" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::nco&lt; o_type, i_type &gt;::nco</definition>
+        <argsstring>()</argsstring>
+        <name>nco</name>
+        <qualifiedname>gr::nco::nco</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="31" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1a76d17da2c982dbbf53bb8853a99faabf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual gr::nco&lt; o_type, i_type &gt;::~nco</definition>
+        <argsstring>()</argsstring>
+        <name>~nco</name>
+        <qualifiedname>gr::nco::~nco</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="33" column="13" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1a9ee448d73b27e43d95aec596acd102d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nco&lt; o_type, i_type &gt;::set_phase</definition>
+        <argsstring>(double angle)</argsstring>
+        <name>set_phase</name>
+        <qualifiedname>gr::nco::set_phase</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="36" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="36" bodyend="36"/>
+        <references refid="classgr_1_1nco_1a806d13f4a427f2a0c0f9ee53e173bc94" compoundref="nco_8h" startline="80">gr::nco&lt; o_type, i_type &gt;::phase</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1a728daf10a891d5b130c32da04dcd92ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nco&lt; o_type, i_type &gt;::adjust_phase</definition>
+        <argsstring>(double delta_phase)</argsstring>
+        <name>adjust_phase</name>
+        <qualifiedname>gr::nco::adjust_phase</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>delta_phase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="38" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="38" bodyend="38"/>
+        <references refid="classgr_1_1nco_1a806d13f4a427f2a0c0f9ee53e173bc94" compoundref="nco_8h" startline="80">gr::nco&lt; o_type, i_type &gt;::phase</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1a6c10cb4f383b93ac002f597f2125c73c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nco&lt; o_type, i_type &gt;::set_freq</definition>
+        <argsstring>(double angle_rate)</argsstring>
+        <name>set_freq</name>
+        <qualifiedname>gr::nco::set_freq</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>angle_rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="41" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="41" bodyend="41"/>
+        <references refid="classgr_1_1nco_1a0fdf4b81dc1e225fc07b4c1e3e2f193c" compoundref="nco_8h" startline="81">gr::nco&lt; o_type, i_type &gt;::phase_inc</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1a96d75603b9495abc74635930c597cf3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nco&lt; o_type, i_type &gt;::adjust_freq</definition>
+        <argsstring>(double delta_angle_rate)</argsstring>
+        <name>adjust_freq</name>
+        <qualifiedname>gr::nco::adjust_freq</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>delta_angle_rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="44" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="44" bodyend="44"/>
+        <references refid="classgr_1_1nco_1a0fdf4b81dc1e225fc07b4c1e3e2f193c" compoundref="nco_8h" startline="81">gr::nco&lt; o_type, i_type &gt;::phase_inc</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1a96fd5b9dfab5cda6bdbb6522f0f0b9b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nco&lt; o_type, i_type &gt;::step</definition>
+        <argsstring>(int n=1)</argsstring>
+        <name>step</name>
+        <qualifiedname>gr::nco::step</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="47" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="47" bodyend="57"/>
+        <references refid="math_8h_1af58397066e4dbeafddbb2f331cd614a0" compoundref="math_8h" startline="32">GR_M_PI</references>
+        <references refid="classgr_1_1nco_1a806d13f4a427f2a0c0f9ee53e173bc94" compoundref="nco_8h" startline="80">gr::nco&lt; o_type, i_type &gt;::phase</references>
+        <references refid="classgr_1_1nco_1a0fdf4b81dc1e225fc07b4c1e3e2f193c" compoundref="nco_8h" startline="81">gr::nco&lt; o_type, i_type &gt;::phase_inc</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1aabbf79574dab7c6a74a324851de39ae2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double gr::nco&lt; o_type, i_type &gt;::get_phase</definition>
+        <argsstring>() const</argsstring>
+        <name>get_phase</name>
+        <qualifiedname>gr::nco::get_phase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="60" column="12" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="60" bodyend="60"/>
+        <references refid="classgr_1_1nco_1a806d13f4a427f2a0c0f9ee53e173bc94" compoundref="nco_8h" startline="80">gr::nco&lt; o_type, i_type &gt;::phase</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1ad9aab6f5947b1304a29ec4989640dac0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double gr::nco&lt; o_type, i_type &gt;::get_freq</definition>
+        <argsstring>() const</argsstring>
+        <name>get_freq</name>
+        <qualifiedname>gr::nco::get_freq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="61" column="12" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="61" bodyend="61"/>
+        <references refid="classgr_1_1nco_1a0fdf4b81dc1e225fc07b4c1e3e2f193c" compoundref="nco_8h" startline="81">gr::nco&lt; o_type, i_type &gt;::phase_inc</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1a2249f35249a189c76f144ab823c865b6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nco&lt; o_type, i_type &gt;::sincos</definition>
+        <argsstring>(float *sinx, float *cosx) const</argsstring>
+        <name>sincos</name>
+        <qualifiedname>gr::nco::sincos</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>sinx</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>cosx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="64" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="64" bodyend="64"/>
+        <references refid="classgr_1_1nco_1a806d13f4a427f2a0c0f9ee53e173bc94" compoundref="nco_8h" startline="80">gr::nco&lt; o_type, i_type &gt;::phase</references>
+        <references refid="namespacegr_1aec8a9ceb4050f2143c7aa376814617c6" compoundref="sincos_8h" startline="49" endline="53">gr::sincosf</references>
+        <referencedby refid="classgr_1_1nco_1a243fbc4235ee5ebedfc7080dda4c1de0" compoundref="nco_8h" startline="139" endline="147">gr::nco&lt; o_type, i_type &gt;::sincos</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1aa321fd406b063f20d7452ac33ec68f7a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::nco&lt; o_type, i_type &gt;::cos</definition>
+        <argsstring>() const</argsstring>
+        <name>cos</name>
+        <qualifiedname>gr::nco::cos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="67" column="11" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="67" bodyend="67"/>
+        <references refid="classgr_1_1nco_1a806d13f4a427f2a0c0f9ee53e173bc94" compoundref="nco_8h" startline="80">gr::nco&lt; o_type, i_type &gt;::phase</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1a360a6f73bec1f20ec0ad8bac8ade087b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::nco&lt; o_type, i_type &gt;::sin</definition>
+        <argsstring>() const</argsstring>
+        <name>sin</name>
+        <qualifiedname>gr::nco::sin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="68" column="11" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="68" bodyend="68"/>
+        <references refid="classgr_1_1nco_1a806d13f4a427f2a0c0f9ee53e173bc94" compoundref="nco_8h" startline="80">gr::nco&lt; o_type, i_type &gt;::phase</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1a868362098d5ecf2bdfdc378ba5c49855" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nco&lt; o_type, i_type &gt;::sin</definition>
+        <argsstring>(float *output, int noutput_items, double ampl=1.0)</argsstring>
+        <name>sin</name>
+        <qualifiedname>gr::nco::sin</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ampl</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="71" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="85" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1a9e3535d93dc43fac8821bebb846ceda0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nco&lt; o_type, i_type &gt;::cos</definition>
+        <argsstring>(float *output, int noutput_items, double ampl=1.0)</argsstring>
+        <name>cos</name>
+        <qualifiedname>gr::nco::cos</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ampl</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="72" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="94" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1a243fbc4235ee5ebedfc7080dda4c1de0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nco&lt; o_type, i_type &gt;::sincos</definition>
+        <argsstring>(gr_complex *output, int noutput_items, double ampl=1.0)</argsstring>
+        <name>sincos</name>
+        <qualifiedname>gr::nco::sincos</qualifiedname>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ampl</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="73" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="139" bodyend="147"/>
+        <references refid="classgr_1_1nco_1a2249f35249a189c76f144ab823c865b6" compoundref="nco_8h" startline="64" endline="64">gr::nco&lt; o_type, i_type &gt;::sincos</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1a8a99f16553365d7876576d5def38799c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nco&lt; o_type, i_type &gt;::sin</definition>
+        <argsstring>(short *output, int noutput_items, double ampl=1.0)</argsstring>
+        <name>sin</name>
+        <qualifiedname>gr::nco::sin</qualifiedname>
+        <param>
+          <type>short *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ampl</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="74" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="103" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1ac88f1d93e1261819345aea93736cfa8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nco&lt; o_type, i_type &gt;::cos</definition>
+        <argsstring>(short *output, int noutput_items, double ampl=1.0)</argsstring>
+        <name>cos</name>
+        <qualifiedname>gr::nco::cos</qualifiedname>
+        <param>
+          <type>short *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ampl</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="75" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="112" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1a0f50fc2b9e9e7287fd46336a1f548257" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nco&lt; o_type, i_type &gt;::sin</definition>
+        <argsstring>(int *output, int noutput_items, double ampl=1.0)</argsstring>
+        <name>sin</name>
+        <qualifiedname>gr::nco::sin</qualifiedname>
+        <param>
+          <type>int *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ampl</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="76" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="121" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nco_1a9d4522d0499ec64f260e8ce93202b1a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nco&lt; o_type, i_type &gt;::cos</definition>
+        <argsstring>(int *output, int noutput_items, double ampl=1.0)</argsstring>
+        <name>cos</name>
+        <qualifiedname>gr::nco::cos</qualifiedname>
+        <param>
+          <type>int *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ampl</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="77" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="130" bodyend="136"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>base class template for Numerically Controlled Oscillator (NCO) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" line="28" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/nco.h" bodystart="29" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classgr_1_1nco_1a96d75603b9495abc74635930c597cf3b" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>adjust_freq</name></member>
+      <member refid="classgr_1_1nco_1a728daf10a891d5b130c32da04dcd92ef" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>adjust_phase</name></member>
+      <member refid="classgr_1_1nco_1aa321fd406b063f20d7452ac33ec68f7a" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>cos</name></member>
+      <member refid="classgr_1_1nco_1a9e3535d93dc43fac8821bebb846ceda0" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>cos</name></member>
+      <member refid="classgr_1_1nco_1ac88f1d93e1261819345aea93736cfa8d" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>cos</name></member>
+      <member refid="classgr_1_1nco_1a9d4522d0499ec64f260e8ce93202b1a9" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>cos</name></member>
+      <member refid="classgr_1_1nco_1ad9aab6f5947b1304a29ec4989640dac0" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>get_freq</name></member>
+      <member refid="classgr_1_1nco_1aabbf79574dab7c6a74a324851de39ae2" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>get_phase</name></member>
+      <member refid="classgr_1_1nco_1afaa188bdf65c27a774091c51d7ec3843" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>nco</name></member>
+      <member refid="classgr_1_1nco_1a806d13f4a427f2a0c0f9ee53e173bc94" prot="protected" virt="non-virtual"><scope>gr::nco</scope><name>phase</name></member>
+      <member refid="classgr_1_1nco_1a0fdf4b81dc1e225fc07b4c1e3e2f193c" prot="protected" virt="non-virtual"><scope>gr::nco</scope><name>phase_inc</name></member>
+      <member refid="classgr_1_1nco_1a6c10cb4f383b93ac002f597f2125c73c" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>set_freq</name></member>
+      <member refid="classgr_1_1nco_1a9ee448d73b27e43d95aec596acd102d8" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>set_phase</name></member>
+      <member refid="classgr_1_1nco_1a360a6f73bec1f20ec0ad8bac8ade087b" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>sin</name></member>
+      <member refid="classgr_1_1nco_1a868362098d5ecf2bdfdc378ba5c49855" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>sin</name></member>
+      <member refid="classgr_1_1nco_1a8a99f16553365d7876576d5def38799c" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>sin</name></member>
+      <member refid="classgr_1_1nco_1a0f50fc2b9e9e7287fd46336a1f548257" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>sin</name></member>
+      <member refid="classgr_1_1nco_1a2249f35249a189c76f144ab823c865b6" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>sincos</name></member>
+      <member refid="classgr_1_1nco_1a243fbc4235ee5ebedfc7080dda4c1de0" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>sincos</name></member>
+      <member refid="classgr_1_1nco_1a96fd5b9dfab5cda6bdbb6522f0f0b9b3" prot="public" virt="non-virtual"><scope>gr::nco</scope><name>step</name></member>
+      <member refid="classgr_1_1nco_1a76d17da2c982dbbf53bb8853a99faabf" prot="public" virt="virtual"><scope>gr::nco</scope><name>~nco</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

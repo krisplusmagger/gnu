@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="generic__decoder__pydoc_8h" kind="file" language="C++">
+    <compoundname>generic_decoder_pydoc.h</compoundname>
+    <includes refid="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>generic_decoder_pydoc.h</label>
+        <link refid="generic__decoder__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="generic__decoder__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, fec, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a91346d4b1bfa5fddcfb7f2ce617d2585" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder</name>
+        <initializer>= R&quot;doc(Parent class for FECAPI objects.
+
+Parent of a decoder variable class for FECAPI that will fit into the <ref refid="classgr_1_1fec_1_1decoder" kindref="compound">gr::fec::decoder</ref> block to handle FEC decoding. This class provides the basic information required to fit into the FECAPI structure. It provides information about input and output data types, potential data conversions, and a few other parameters useful to establish the decoder&apos;s behavior.
+
+
+We create objects from FECAPI-derived classes to go into the actual GNU Radio decoder block. Each object contains its own state and so there should be a one-to-one mapping of an FECAPI object and a GR decoder block. Sharing these objects is not guaranteed to be thread-safe.
+
+
+This is a pure virtual class and must be derived from by a child class.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a0ae16fd8f862490273da14e069657795" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_generic_decoder_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_generic_decoder_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="29" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a71c6f8be02f59266e98cffb90563f652" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_generic_decoder_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_generic_decoder_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="32" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a8809c90be66de3790ecf5dd67159f4d7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_generic_decoder_2</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_generic_decoder_2</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="35" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a99b59d5a61eb7ee0db70567f9517fb95" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_generic_work</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_generic_work</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="38" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a9e90df3e98bf3764a233e1ad59aa61ea" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_unique_id</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_unique_id</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a606083e5bc9db8ee51853a604907a5e9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_alias</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_alias</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="44" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1affa7c50ca41a3886cac961f561c801bf" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_rate</name>
+        <initializer>= R&quot;doc(Returns the rate of the code. For every r input bits, there is 1 output bit, so the rate is 1/r. Used for setting things like the encoder block&apos;s relative rate.
+
+
+This function MUST be reimplemented by the child class.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="47" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a03bc79954b2cec41c3f85eafd0424ff2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_get_input_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_get_input_size</name>
+        <initializer>= R&quot;doc(Returns the input size in items that the decoder object uses to decode a full frame. Often, this number is the number of bits per frame if the input format is unpacked. If the block expects packed bytes, then this value should be the number of bytes (number of bits / 8) per input frame.
+
+
+The child class MUST implement this function.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a75bbc20507e2a4be91d3cf9ef87d7d3e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_get_output_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_get_output_size</name>
+        <initializer>= R&quot;doc(Returns the output size in items that the decoder object produces after decoding a full frame. Often, this number is the number of bits in the outputted frame if the input format is unpacked. If the block produces packed bytes, then this value should be the number of bytes (number of bits / 8) per frame produced. This value is generally something like get_input_size()/R for a 1/R rate code.
+
+
+The child class MUST implement this function.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="59" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1abec5fe041f22a2a7489abd75a09ffe51" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_get_history</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_get_history</name>
+        <initializer>= R&quot;doc(Sets up history for the decoder when the decoder is required to look ahead in the data stream in order to finish its processing.
+
+
+The child class MAY implement this function. If not reimplemented, it returns 0.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="65" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1ac2b032fe509d9faee2f462244c9448f6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_get_shift</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_get_shift</name>
+        <initializer>= R&quot;doc(Some decoders require the input items to float around a particular soft value. We can set that floating value by setting this value to return some non-zero number.
+
+
+The fec.extended_decoder block will use this to create an add_const_ff block before the decoder block to adjust all input samples appropriately.
+
+
+The child class MAY implement this function. If not reimplemented, it returns 0.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="71" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a499d90e83b8b77aad3a65f66c7fec693" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_get_input_item_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_get_input_item_size</name>
+        <initializer>= R&quot;doc(Sets the size of an input item, as in the size of a char or float item.
+
+
+The child class SHOULD implement this function. If not reimplemented, it returns sizeof(float) as the decoders typically expect floating point input types.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="80" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a19750c8e02259f247341c98449c70ece" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_get_output_item_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_get_output_item_size</name>
+        <initializer>= R&quot;doc(Sets the size of an output item, as in the size of a char or float item.
+
+
+The child class SHOULD implement this function. If not reimplemented, it returns sizeof(char) as the decoders typically expect to produce bits or bytes.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="86" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a882d3b6dc16e52dc55b3b30425049a15" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_get_input_conversion</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_get_input_conversion</name>
+        <initializer>= R&quot;doc(Set up a conversion type required to setup the data properly for this decoder. The decoder itself will not implement the conversion and expects an external wrapper (e.g., fec.extended_decoder) to read this value and \&quot;do the right
+thing\&quot; to format the data.
+
+
+The default behavior is &apos;none&apos;, which means no conversion is required. Whatever the get_input_item_size() value returns, the input is expected to conform directly to this.
+
+
+This may also return &apos;uchar&apos;, which indicates that the wrapper should convert the standard float samples to unsigned characters, either hard sliced or 8-bit soft symbols. See <ref refid="classgr_1_1fec_1_1code_1_1cc__decoder" kindref="compound">gr::fec::code::cc_decoder</ref> as an example decoder that uses this conversion format.
+
+
+If &apos;packed_bits&apos;, the block expects the inputs to be packed hard bits. Each input item is a unsigned char where each of the 8-bits is a hard bit value.
+
+
+The child class SHOULD implement this function. If not reimplemented, it returns \&quot;none\&quot;.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="92" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1ae4006f923de8a19f6073a7b713de7d2a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_get_output_conversion</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_get_output_conversion</name>
+        <initializer>= R&quot;doc(Set up a conversion type required to understand the output style of this decoder. Generally, follow-on processing expects unpacked bits, so we specify the conversion type here to indicate what the wrapper (e.g., fec.extended_decoder) should do to convert the output samples from the decoder into unpacked bits.
+
+
+The default behavior is &apos;none&apos;, which means no conversion is required. This should mean that the output data is produced from this decoder as unpacked bit.
+
+
+If &apos;unpack&apos;, the block produces packed bytes that should be unpacked by the wrapper. See gr::fec::code::ccsds_decoder as an example of a decoder that produces packed bytes.
+
+
+The child class SHOULD implement this function. If not reimplemented, it returns \&quot;none\&quot;.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="108" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a1463140b66c4442ecc670631cb2588da" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_set_frame_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_set_frame_size</name>
+        <initializer>= R&quot;doc(Updates the size of a decoded frame.
+
+
+The child class MUST implement this function and interpret how the  information affects the block&apos;s behavior. It should also provide bounds checks.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="120" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1aae2993d64b8952d2046cdfbf16432044" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_generic_decoder_get_iterations</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_generic_decoder_get_iterations</name>
+        <initializer>= R&quot;doc(Get repetitions to decode.
+
+
+The child class should implement this function and return the number of iterations required to decode.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="126" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a6ab5424e1de01eb1c0f7d881d9e8df47" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_get_decoder_output_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_get_decoder_output_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="132" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1af3e80a82e89afeaf21d6c6b723c6f9af" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_get_decoder_input_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_get_decoder_input_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="135" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1add86b74867321444cc333569e185e3ac" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_get_shift</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_get_shift</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="138" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a8326f9196eea23a4b0b4c04fc1598d38" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_get_history</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_get_history</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="141" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a968b1345d6ab8f1b9b71caf30f838802" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_get_decoder_input_item_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_get_decoder_input_item_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="144" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1a08ff541920e41c63055a2f586b053f1e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_get_decoder_output_item_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_get_decoder_output_item_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="147" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1ad91d24bf2692a375ec74a122ea08eeb3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_get_decoder_input_conversion</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_get_decoder_input_conversion</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="150" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="generic__decoder__pydoc_8h_1af8a0c3d73689c8a7f7f56323c7c4cea7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_get_decoder_output_conversion</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_get_decoder_output_conversion</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" line="153" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/generic_decoder_pydoc.h"/>
+  </compounddef>
+</doxygen>

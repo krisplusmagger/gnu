@@ -1,0 +1,27 @@
+var fxpt__nco__pydoc_8h =
+[
+    [ "D", "fxpt__nco__pydoc_8h.html#a74021f021dcdfbb22891787b79c5529d", null ],
+    [ "__doc_gr_fxpt_nco", "fxpt__nco__pydoc_8h.html#a3fd203bd1462dd1dba6841c8e48491c6", null ],
+    [ "__doc_gr_fxpt_nco_adjust_freq", "fxpt__nco__pydoc_8h.html#afbea4bd54fdf99a93862e88b16eee41e", null ],
+    [ "__doc_gr_fxpt_nco_adjust_phase", "fxpt__nco__pydoc_8h.html#a2ad9476a8b802ecbb4b1ee091107ee3e", null ],
+    [ "__doc_gr_fxpt_nco_cos_0", "fxpt__nco__pydoc_8h.html#a431197cbd7431752969943fa6f518223", null ],
+    [ "__doc_gr_fxpt_nco_cos_1", "fxpt__nco__pydoc_8h.html#a92373a140b91085305a7ba0e3a3607fb", null ],
+    [ "__doc_gr_fxpt_nco_cos_2", "fxpt__nco__pydoc_8h.html#a9d11553984f720ffe1f0b83d43f71d8a", null ],
+    [ "__doc_gr_fxpt_nco_cos_3", "fxpt__nco__pydoc_8h.html#a79cdb11a88eba71b6028b97e8e5541e4", null ],
+    [ "__doc_gr_fxpt_nco_cos_4", "fxpt__nco__pydoc_8h.html#ad47a2a82bbff63341f566a7dba864b93", null ],
+    [ "__doc_gr_fxpt_nco_fxpt_nco_0", "fxpt__nco__pydoc_8h.html#a5193def0a038aa5ff49edb72d6f64c36", null ],
+    [ "__doc_gr_fxpt_nco_fxpt_nco_1", "fxpt__nco__pydoc_8h.html#ae0b51cd0c8c90054aa392f56f285df79", null ],
+    [ "__doc_gr_fxpt_nco_get_freq", "fxpt__nco__pydoc_8h.html#abf21aadcd3ed8f1b846e3b252d1cb084", null ],
+    [ "__doc_gr_fxpt_nco_get_phase", "fxpt__nco__pydoc_8h.html#ac6c5feefe5c5e02dc3733d4c4e44ccbf", null ],
+    [ "__doc_gr_fxpt_nco_set_freq", "fxpt__nco__pydoc_8h.html#aec466d6e9169fa367f30f832a8d51157", null ],
+    [ "__doc_gr_fxpt_nco_set_phase", "fxpt__nco__pydoc_8h.html#adf0b7e5435c07ad6116d85364a616237", null ],
+    [ "__doc_gr_fxpt_nco_sin_0", "fxpt__nco__pydoc_8h.html#a6dca4dd0f4db5ccef3b7efa9d3f0a6b7", null ],
+    [ "__doc_gr_fxpt_nco_sin_1", "fxpt__nco__pydoc_8h.html#a315b4453d04918689890fe48c4f4a382", null ],
+    [ "__doc_gr_fxpt_nco_sin_2", "fxpt__nco__pydoc_8h.html#a2f5490352d591ca7af6a1270667c6dbb", null ],
+    [ "__doc_gr_fxpt_nco_sin_3", "fxpt__nco__pydoc_8h.html#a3fc79e65416fc49cdcf8c338dab3a7f2", null ],
+    [ "__doc_gr_fxpt_nco_sin_4", "fxpt__nco__pydoc_8h.html#a00c2ccb338d5df0bfe065fa6dedd2e2a", null ],
+    [ "__doc_gr_fxpt_nco_sincos_0", "fxpt__nco__pydoc_8h.html#ad8299494aaa3b6a2fb52cc54e0f1bec6", null ],
+    [ "__doc_gr_fxpt_nco_sincos_1", "fxpt__nco__pydoc_8h.html#a59d48733b4b85f07d122f225b301de01", null ],
+    [ "__doc_gr_fxpt_nco_step_0", "fxpt__nco__pydoc_8h.html#a8cfb290f91d011db35e601e19c5e0ee9", null ],
+    [ "__doc_gr_fxpt_nco_step_1", "fxpt__nco__pydoc_8h.html#aa79a05eef1896cc5d646a4099cd18caf", null ]
+];

@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="spectrumUpdateEvents_8h" kind="file" language="C++">
+    <compoundname>spectrumUpdateEvents.h</compoundname>
+    <includes refid="high__res__timer_8h" local="no">gnuradio/high_res_timer.h</includes>
+    <includes refid="gr-qtgui_2include_2gnuradio_2qtgui_2api_8h" local="no">gnuradio/qtgui/api.h</includes>
+    <includes refid="tags_8h" local="no">gnuradio/tags.h</includes>
+    <includes local="no">volk/volk_alloc.hh</includes>
+    <includes local="no">QEvent</includes>
+    <includes local="no">QString</includes>
+    <includes local="no">complex</includes>
+    <includes local="no">cstdint</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="SpectrumGUIClass_8h" local="no">SpectrumGUIClass.h</includedby>
+    <includedby refid="constellationdisplayform_8h" local="no">constellationdisplayform.h</includedby>
+    <includedby refid="displayform_8h" local="no">displayform.h</includedby>
+    <includedby refid="eyedisplayform_8h" local="no">eyedisplayform.h</includedby>
+    <includedby refid="eyedisplaysform_8h" local="no">eyedisplaysform.h</includedby>
+    <includedby refid="freqdisplayform_8h" local="no">freqdisplayform.h</includedby>
+    <includedby refid="histogramdisplayform_8h" local="no">histogramdisplayform.h</includedby>
+    <includedby refid="numberdisplayform_8h" local="no">numberdisplayform.h</includedby>
+    <includedby refid="timedisplayform_8h" local="no">timedisplayform.h</includedby>
+    <includedby refid="timerasterdisplayform_8h" local="no">timerasterdisplayform.h</includedby>
+    <includedby refid="vectordisplayform_8h" local="no">vectordisplayform.h</includedby>
+    <includedby refid="waterfalldisplayform_8h" local="no">waterfalldisplayform.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="2">
+        <label>gnuradio/high_res_timer.h</label>
+        <link refid="high__res__timer_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>gnuradio/messages/msg_accepter.h</label>
+        <link refid="messages_2msg__accepter_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>gnuradio/tags.h</label>
+        <link refid="tags_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>pmt/api.h</label>
+        <link refid="gnuradio-runtime_2include_2pmt_2api_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>pmt/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>pmt/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gnuradio/qtgui/api.h</label>
+        <link refid="gr-qtgui_2include_2gnuradio_2qtgui_2api_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>spectrumUpdateEvents.h</label>
+        <link refid="spectrumUpdateEvents_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>QEvent</label>
+      </node>
+      <node id="24">
+        <label>QString</label>
+      </node>
+      <node id="12">
+        <label>any</label>
+      </node>
+      <node id="5">
+        <label>chrono</label>
+      </node>
+      <node id="13">
+        <label>complex</label>
+      </node>
+      <node id="14">
+        <label>cstdint</label>
+      </node>
+      <node id="15">
+        <label>iosfwd</label>
+      </node>
+      <node id="16">
+        <label>memory</label>
+      </node>
+      <node id="6">
+        <label>ratio</label>
+      </node>
+      <node id="17">
+        <label>stdexcept</label>
+      </node>
+      <node id="18">
+        <label>string</label>
+      </node>
+      <node id="11">
+        <label>string_view</label>
+      </node>
+      <node id="19">
+        <label>vector</label>
+      </node>
+      <node id="22">
+        <label>volk/volk_alloc.hh</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>spectrumdisplayform.ui.h</label>
+        <link refid="spectrumdisplayform_8ui_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ui_spectrumdisplayform.h</label>
+        <link refid="ui__spectrumdisplayform_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SpectrumGUIClass.h</label>
+        <link refid="SpectrumGUIClass_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>constellationdisplayform.h</label>
+        <link refid="constellationdisplayform_8h"/>
+      </node>
+      <node id="7">
+        <label>displayform.h</label>
+        <link refid="displayform_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>eyecontrolpanel.h</label>
+        <link refid="eyecontrolpanel_8h"/>
+      </node>
+      <node id="16">
+        <label>eyedisplayform.h</label>
+        <link refid="eyedisplayform_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>eyedisplaysform.h</label>
+        <link refid="eyedisplaysform_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>freqcontrolpanel.h</label>
+        <link refid="freqcontrolpanel_8h"/>
+      </node>
+      <node id="9">
+        <label>freqdisplayform.h</label>
+        <link refid="freqdisplayform_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>histogramdisplayform.h</label>
+        <link refid="histogramdisplayform_8h"/>
+      </node>
+      <node id="19">
+        <label>numberdisplayform.h</label>
+        <link refid="numberdisplayform_8h"/>
+      </node>
+      <node id="1">
+        <label>spectrumUpdateEvents.h</label>
+        <link refid="spectrumUpdateEvents_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>spectrumdisplayform.h</label>
+        <link refid="spectrumdisplayform_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>timecontrolpanel.h</label>
+        <link refid="timecontrolpanel_8h"/>
+      </node>
+      <node id="12">
+        <label>timedisplayform.h</label>
+        <link refid="timedisplayform_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>timerasterdisplayform.h</label>
+        <link refid="timerasterdisplayform_8h"/>
+      </node>
+      <node id="14">
+        <label>vectordisplayform.h</label>
+        <link refid="vectordisplayform_8h"/>
+      </node>
+      <node id="15">
+        <label>waterfalldisplayform.h</label>
+        <link refid="waterfalldisplayform_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classSpectrumUpdateEvent" prot="public">SpectrumUpdateEvent</innerclass>
+    <innerclass refid="classSpectrumWindowCaptionEvent" prot="public">SpectrumWindowCaptionEvent</innerclass>
+    <innerclass refid="classSpectrumWindowResetEvent" prot="public">SpectrumWindowResetEvent</innerclass>
+    <innerclass refid="classSpectrumFrequencyRangeEvent" prot="public">SpectrumFrequencyRangeEvent</innerclass>
+    <innerclass refid="classTimeUpdateEvent" prot="public">TimeUpdateEvent</innerclass>
+    <innerclass refid="classFreqUpdateEvent" prot="public">FreqUpdateEvent</innerclass>
+    <innerclass refid="classSetFreqEvent" prot="public">SetFreqEvent</innerclass>
+    <innerclass refid="classConstUpdateEvent" prot="public">ConstUpdateEvent</innerclass>
+    <innerclass refid="classWaterfallUpdateEvent" prot="public">WaterfallUpdateEvent</innerclass>
+    <innerclass refid="classTimeRasterUpdateEvent" prot="public">TimeRasterUpdateEvent</innerclass>
+    <innerclass refid="classTimeRasterSetSize" prot="public">TimeRasterSetSize</innerclass>
+    <innerclass refid="classHistogramUpdateEvent" prot="public">HistogramUpdateEvent</innerclass>
+    <innerclass refid="classHistogramSetAccumulator" prot="public">HistogramSetAccumulator</innerclass>
+    <innerclass refid="classHistogramClearEvent" prot="public">HistogramClearEvent</innerclass>
+    <innerclass refid="classNumberUpdateEvent" prot="public">NumberUpdateEvent</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="spectrumUpdateEvents_8h_1ac31addf0edee93b209aba289ae383b5d" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int SpectrumUpdateEventType</definition>
+        <argsstring></argsstring>
+        <name>SpectrumUpdateEventType</name>
+        <initializer>= 10005</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="24" column="22" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classTimeUpdateEvent_1a0cb04d0a0f6a235cb4958e9b423e6f6d" compoundref="spectrumUpdateEvents_8h" startline="124" endline="124">TimeUpdateEvent::Type</referencedby>
+        <referencedby refid="classFreqUpdateEvent_1a3275e6a535adeca85e8a6b6b60b34e9b" compoundref="spectrumUpdateEvents_8h" startline="151" endline="151">FreqUpdateEvent::Type</referencedby>
+        <referencedby refid="classConstUpdateEvent_1aff44afeef9f98d139d1bfde0f63d3915" compoundref="spectrumUpdateEvents_8h" startline="193" endline="193">ConstUpdateEvent::Type</referencedby>
+        <referencedby refid="classWaterfallUpdateEvent_1a8822c8e0cc5a316433a851ebdecd7851" compoundref="spectrumUpdateEvents_8h" startline="223" endline="223">WaterfallUpdateEvent::Type</referencedby>
+        <referencedby refid="classTimeRasterUpdateEvent_1a329661ca1481b050c2759f061088c0cf" compoundref="spectrumUpdateEvents_8h" startline="250" endline="250">TimeRasterUpdateEvent::Type</referencedby>
+        <referencedby refid="classTimeRasterSetSize_1a7c2a47fb967a57e837e63f8a730540ec" compoundref="spectrumUpdateEvents_8h" startline="269" endline="269">TimeRasterSetSize::Type</referencedby>
+        <referencedby refid="classHistogramUpdateEvent_1a565404fae18a3d95e75a21b5289eafe5" compoundref="spectrumUpdateEvents_8h" startline="293" endline="293">HistogramUpdateEvent::Type</referencedby>
+        <referencedby refid="classHistogramSetAccumulator_1a16da86fd0e56a847661948afe6d98468" compoundref="spectrumUpdateEvents_8h" startline="311" endline="311">HistogramSetAccumulator::Type</referencedby>
+        <referencedby refid="classHistogramClearEvent_1aaf3a9e7c0a145d85bb0af2a11db558c0" compoundref="spectrumUpdateEvents_8h" startline="324" endline="324">HistogramClearEvent::Type</referencedby>
+        <referencedby refid="classNumberUpdateEvent_1a7748a08084eb55af3b06c6793b3c0457" compoundref="spectrumUpdateEvents_8h" startline="340" endline="340">NumberUpdateEvent::Type</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="spectrumUpdateEvents_8h_1a08bf97e6f1a26499ed2905bb3c64d789" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int SpectrumWindowCaptionEventType</definition>
+        <argsstring></argsstring>
+        <name>SpectrumWindowCaptionEventType</name>
+        <initializer>= 10008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="25" column="22" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spectrumUpdateEvents_8h_1a4a94d694cc2bdf6230a5fca5ee340b7c" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int SpectrumWindowResetEventType</definition>
+        <argsstring></argsstring>
+        <name>SpectrumWindowResetEventType</name>
+        <initializer>= 10009</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="26" column="22" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spectrumUpdateEvents_8h_1ac0d8a27c8d510593010089ecbe7181cf" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int SpectrumFrequencyRangeEventType</definition>
+        <argsstring></argsstring>
+        <name>SpectrumFrequencyRangeEventType</name>
+        <initializer>= 10010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="27" column="22" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h"/>
+  </compounddef>
+</doxygen>

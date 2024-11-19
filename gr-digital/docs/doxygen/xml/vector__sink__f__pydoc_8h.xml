@@ -1,0 +1,624 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="vector__sink__f__pydoc_8h" kind="file" language="C++">
+    <compoundname>vector_sink_f_pydoc.h</compoundname>
+    <includes refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>vector_sink_f_pydoc.h</label>
+        <link refid="vector__sink__f__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="vector__sink__f__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, qtgui, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1ab211b4b8501bca2cf9e54086028d73f7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f</name>
+        <initializer>= R&quot;doc(A graphical sink to display multiple vector-based signals.
+
+This is a QT-based graphical sink that plots vectors of data as-is. Each signal is plotted with a different color, and the set_title() and set_color() functions can be used to change the label and color for a given input number.
+
+
+To specify units for the x- and y-axes, use the set_x_axis_units() and set_y_axis_units() functions. This does not change the x- and y-labels, which are either specified during construction, or by calling the set_x_axis_label() and set_y_axis_label() methods.
+
+Constructor Specific Documentation:
+
+Build a vector plotting sink.
+
+Args:
+    vlen : Vector length at input. This cannot be changed during operations.
+    x_start : The x-Axis value of the first vector element
+    x_step : The step with which x-Axis values increment
+    x_axis_label : The X-Axis label
+    y_axis_label : The Y-Axis label
+    name : title for the plot
+    nconnections : number of signals connected to sink
+    parent : a QWidget parent object, if any)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1aa6a55b152913f2c2ffd5d732208175db" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_vector_sink_f_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_vector_sink_f_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="40" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1ac27d1f4dc1e53b72a8d65e8a0905f043" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_vector_sink_f_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_vector_sink_f_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="43" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1ac6379a9527bca6ee9af332b95ba9b342" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_make</name>
+        <initializer>= R&quot;doc(A graphical sink to display multiple vector-based signals.
+
+This is a QT-based graphical sink that plots vectors of data as-is. Each signal is plotted with a different color, and the set_title() and set_color() functions can be used to change the label and color for a given input number.
+
+
+To specify units for the x- and y-axes, use the set_x_axis_units() and set_y_axis_units() functions. This does not change the x- and y-labels, which are either specified during construction, or by calling the set_x_axis_label() and set_y_axis_label() methods.
+
+Constructor Specific Documentation:
+
+Build a vector plotting sink.
+
+Args:
+    vlen : Vector length at input. This cannot be changed during operations.
+    x_start : The x-Axis value of the first vector element
+    x_step : The step with which x-Axis values increment
+    x_axis_label : The X-Axis label
+    y_axis_label : The Y-Axis label
+    name : title for the plot
+    nconnections : number of signals connected to sink
+    parent : a QWidget parent object, if any)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="46" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1ad998ea668583d3964830fae7a75b9e96" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_exec_</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_exec_</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="68" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a1849a822f5ee135b7f0e91fb0ce48fbb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_qwidget</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_qwidget</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="71" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a41f9a4110dee2b74ae8626396ab71228" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_vlen</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_vlen</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="74" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1afd8636620d3b484ca53147bb7ad3503d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_vec_average</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_vec_average</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="77" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a1eced675b9b483e412b939247c098dd5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_vec_average</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_vec_average</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="80" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a41b5f122fa9e45d535e02f31472808d4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_x_axis</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_x_axis</name>
+        <initializer>= R&quot;doc(Update the values on the x-Axis.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="83" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1ab48c9bc6cfe18b70eed5cc65fce20d9c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_y_axis</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_y_axis</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="86" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a5763fd54d865cb3f4c796fbbded47a41" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_ref_level</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_ref_level</name>
+        <initializer>= R&quot;doc(The ref level is a reference line.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="89" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1afd349805f93a987916e3636674ddbd02" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_x_axis_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_x_axis_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="92" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1ac12fac5d76f23f9f51aff212dad5bdc5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_y_axis_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_y_axis_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="95" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1aceb810b0fb1b9ec770224c3f7c941ff7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_x_axis_units</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_x_axis_units</name>
+        <initializer>= R&quot;doc(Change the units string on the x-Axis (e.g. &apos;m&apos; if x-Axis label was &apos;Distance&apos;))doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="98" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a303f47b7c7328ff378aad2eb2d74607e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_y_axis_units</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_y_axis_units</name>
+        <initializer>= R&quot;doc(Change the units string on the y-Axis (e.g. &apos;V&apos; if x-Axis label was &apos;Amplitude&apos;))doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="101" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a0fea9f21c29701b08aa4e6375220cb83" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_update_time</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_update_time</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="104" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a48db72c0f7668a41232e96136133f6a5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_title</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_title</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="107" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a8deb490d40ff159ffc00354c46d10da2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_line_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_line_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="110" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1ae53ee04e2edf5e0e485cd5f74c437fe3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_line_color</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_line_color</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="113" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a885ef041ac39bbe040ef604d1f110df7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_line_width</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_line_width</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="116" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a289f67d378b6be187ec507de11e5537d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_line_style</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_line_style</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="119" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1adff873daa7fcd985ca0061a4611f32bb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_line_marker</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_line_marker</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="122" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a8ad6245580c40b9bdf0869490622b9f9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_line_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_line_alpha</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="125" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1ad705e17d7c739c48e89419509485421b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_title</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_title</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="128" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a7b7dadba081883cef62620924333c61e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_line_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_line_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="131" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a0f8bf55e4ea07c56ae41ce11933c5727" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_line_color</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_line_color</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="134" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a5fc2f357bd7a98fa5b9f66d7e6de39a2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_line_width</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_line_width</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="137" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1afebc56676ab5f2bf1731ad49ccdd8913" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_line_style</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_line_style</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="140" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a5c0c1a54059099ea620c97d0eb964d92" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_line_marker</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_line_marker</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="143" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a6c223c9cc75b149ba3e17b8e77372929" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_line_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_line_alpha</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="146" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a2066a2d4b60b657b74908e1c9b689bf3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_set_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_set_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="149" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a32786130a79f8917a56040abb5710cd4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_enable_menu</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_enable_menu</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="152" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a5410dad7cfeff87560fddd500d33f7fd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_disable_legend</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_disable_legend</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="155" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a361550df1ece184a2446276e87858cf0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_enable_grid</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_enable_grid</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="158" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a3dcb301dfbd3efd4a1ed1b1fda9bbc8f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_enable_autoscale</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_enable_autoscale</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="161" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1aeab98567fa5650c5009145210ef74c66" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_clear_max_hold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_clear_max_hold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="164" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a5c3ffad45c8a56b6ee022f140b4aa5b4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_clear_min_hold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_clear_min_hold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="167" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__sink__f__pydoc_8h_1a83ba9ce3a96b7e311a6154dbbf0701da" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_vector_sink_f_reset</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_vector_sink_f_reset</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" line="170" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/vector_sink_f_pydoc.h"/>
+  </compounddef>
+</doxygen>

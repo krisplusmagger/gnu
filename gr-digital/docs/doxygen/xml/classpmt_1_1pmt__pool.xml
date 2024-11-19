@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classpmt_1_1pmt__pool" kind="class" language="C++" prot="public">
+    <compoundname>pmt::pmt_pool</compoundname>
+    <includes refid="pmt__pool_8h" local="no">pmt/pmt_pool.h</includes>
+    <innerclass refid="structpmt_1_1pmt__pool_1_1item" prot="private">pmt::pmt_pool::item</innerclass>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classpmt_1_1pmt__pool_1aaf4740dad41fd881b01eb7050935b35e" prot="private" static="no">
+        <type>std::unique_lock&lt; std::mutex &gt;</type>
+        <definition>using pmt::pmt_pool::scoped_lock =  std::unique_lock&lt;std::mutex&gt;</definition>
+        <argsstring></argsstring>
+        <name>scoped_lock</name>
+        <qualifiedname>pmt::pmt_pool::scoped_lock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" line="34" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpmt_1_1pmt__pool_1ac0f1f59d470b81140292c98fc3b0f208" prot="private" static="no" mutable="yes">
+        <type>std::mutex</type>
+        <definition>std::mutex pmt::pmt_pool::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <qualifiedname>pmt::pmt_pool::d_mutex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" line="35" column="24" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpmt_1_1pmt__pool_1a9dee4cb9da8a5b5a17028dfc31a3ba4b" prot="private" static="no" mutable="no">
+        <type>std::condition_variable</type>
+        <definition>std::condition_variable pmt::pmt_pool::d_cond</definition>
+        <argsstring></argsstring>
+        <name>d_cond</name>
+        <qualifiedname>pmt::pmt_pool::d_cond</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" line="36" column="29" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpmt_1_1pmt__pool_1a9630af69a9463f83e38e6e7b8aa4f7cb" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t pmt::pmt_pool::d_itemsize</definition>
+        <argsstring></argsstring>
+        <name>d_itemsize</name>
+        <qualifiedname>pmt::pmt_pool::d_itemsize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" line="38" column="12" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpmt_1_1pmt__pool_1aa0da06f5a95ca83893e959ac2576970b" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t pmt::pmt_pool::d_alignment</definition>
+        <argsstring></argsstring>
+        <name>d_alignment</name>
+        <qualifiedname>pmt::pmt_pool::d_alignment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" line="39" column="12" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpmt_1_1pmt__pool_1aacf60132c116bbadf058459ec9226d3a" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t pmt::pmt_pool::d_allocation_size</definition>
+        <argsstring></argsstring>
+        <name>d_allocation_size</name>
+        <qualifiedname>pmt::pmt_pool::d_allocation_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" line="40" column="12" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpmt_1_1pmt__pool_1a4d4ed68e4fa5cd9d85c76878efc386e6" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t pmt::pmt_pool::d_max_items</definition>
+        <argsstring></argsstring>
+        <name>d_max_items</name>
+        <qualifiedname>pmt::pmt_pool::d_max_items</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" line="41" column="12" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpmt_1_1pmt__pool_1af1dab689d6d70944ad6e99979ff89c48" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t pmt::pmt_pool::d_n_items</definition>
+        <argsstring></argsstring>
+        <name>d_n_items</name>
+        <qualifiedname>pmt::pmt_pool::d_n_items</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" line="42" column="12" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpmt_1_1pmt__pool_1a2d51bdb5a75269e18ecf8e77ad4e117c" prot="private" static="no" mutable="no">
+        <type>item *</type>
+        <definition>item* pmt::pmt_pool::d_freelist</definition>
+        <argsstring></argsstring>
+        <name>d_freelist</name>
+        <qualifiedname>pmt::pmt_pool::d_freelist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" line="43" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpmt_1_1pmt__pool_1a43c04b2a957b2ba9fcd38823ba26e54a" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; char * &gt;</type>
+        <definition>std::vector&lt;char*&gt; pmt::pmt_pool::d_allocations</definition>
+        <argsstring></argsstring>
+        <name>d_allocations</name>
+        <qualifiedname>pmt::pmt_pool::d_allocations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" line="44" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpmt_1_1pmt__pool_1a9438fef8d93d9db926150a2f2aac717c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pmt::pmt_pool::pmt_pool</definition>
+        <argsstring>(size_t itemsize, size_t alignment=16, size_t allocation_size=4096, size_t max_items=0)</argsstring>
+        <name>pmt_pool</name>
+        <qualifiedname>pmt::pmt_pool::pmt_pool</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>alignment</declname>
+          <defval>16</defval>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>allocation_size</declname>
+          <defval>4096</defval>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>max_items</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>itemsize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>size in bytes of the items to be allocated. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>alignment in bytes of all objects to be allocated (must be power-of-2).</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>allocation_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of bytes to allocate at a time from the underlying allocator.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the maximum number of items to allocate. If this number is exceeded, the allocate blocks. 0 implies no limit. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" line="54" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classpmt_1_1pmt__pool_1ab41003391d80e2c7568bbb6929f1d449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pmt::pmt_pool::~pmt_pool</definition>
+        <argsstring>()</argsstring>
+        <name>~pmt_pool</name>
+        <qualifiedname>pmt::pmt_pool::~pmt_pool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" line="58" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classpmt_1_1pmt__pool_1a16f286e544ea7a966cc5ddacc0b50383" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * pmt::pmt_pool::malloc</definition>
+        <argsstring>()</argsstring>
+        <name>malloc</name>
+        <qualifiedname>pmt::pmt_pool::malloc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" line="60" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classpmt_1_1pmt__pool_1a0d02de719662f1ea9b14f78f0fd5c28e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void pmt::pmt_pool::free</definition>
+        <argsstring>(void *p)</argsstring>
+        <name>free</name>
+        <qualifiedname>pmt::pmt_pool::free</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" line="61" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>very simple thread-safe fixed-size allocation pool </para>
+    </briefdescription>
+    <detaileddescription>
+<para>FIXME may want to go to global allocation with per-thread free list. This would eliminate virtually all lock contention. </para>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" line="27" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/pmt/pmt_pool.h" bodystart="28" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classpmt_1_1pmt__pool_1aa0da06f5a95ca83893e959ac2576970b" prot="private" virt="non-virtual"><scope>pmt::pmt_pool</scope><name>d_alignment</name></member>
+      <member refid="classpmt_1_1pmt__pool_1aacf60132c116bbadf058459ec9226d3a" prot="private" virt="non-virtual"><scope>pmt::pmt_pool</scope><name>d_allocation_size</name></member>
+      <member refid="classpmt_1_1pmt__pool_1a43c04b2a957b2ba9fcd38823ba26e54a" prot="private" virt="non-virtual"><scope>pmt::pmt_pool</scope><name>d_allocations</name></member>
+      <member refid="classpmt_1_1pmt__pool_1a9dee4cb9da8a5b5a17028dfc31a3ba4b" prot="private" virt="non-virtual"><scope>pmt::pmt_pool</scope><name>d_cond</name></member>
+      <member refid="classpmt_1_1pmt__pool_1a2d51bdb5a75269e18ecf8e77ad4e117c" prot="private" virt="non-virtual"><scope>pmt::pmt_pool</scope><name>d_freelist</name></member>
+      <member refid="classpmt_1_1pmt__pool_1a9630af69a9463f83e38e6e7b8aa4f7cb" prot="private" virt="non-virtual"><scope>pmt::pmt_pool</scope><name>d_itemsize</name></member>
+      <member refid="classpmt_1_1pmt__pool_1a4d4ed68e4fa5cd9d85c76878efc386e6" prot="private" virt="non-virtual"><scope>pmt::pmt_pool</scope><name>d_max_items</name></member>
+      <member refid="classpmt_1_1pmt__pool_1ac0f1f59d470b81140292c98fc3b0f208" prot="private" virt="non-virtual"><scope>pmt::pmt_pool</scope><name>d_mutex</name></member>
+      <member refid="classpmt_1_1pmt__pool_1af1dab689d6d70944ad6e99979ff89c48" prot="private" virt="non-virtual"><scope>pmt::pmt_pool</scope><name>d_n_items</name></member>
+      <member refid="classpmt_1_1pmt__pool_1a0d02de719662f1ea9b14f78f0fd5c28e" prot="public" virt="non-virtual"><scope>pmt::pmt_pool</scope><name>free</name></member>
+      <member refid="classpmt_1_1pmt__pool_1a16f286e544ea7a966cc5ddacc0b50383" prot="public" virt="non-virtual"><scope>pmt::pmt_pool</scope><name>malloc</name></member>
+      <member refid="classpmt_1_1pmt__pool_1a9438fef8d93d9db926150a2f2aac717c" prot="public" virt="non-virtual"><scope>pmt::pmt_pool</scope><name>pmt_pool</name></member>
+      <member refid="classpmt_1_1pmt__pool_1aaf4740dad41fd881b01eb7050935b35e" prot="private" virt="non-virtual"><scope>pmt::pmt_pool</scope><name>scoped_lock</name></member>
+      <member refid="classpmt_1_1pmt__pool_1ab41003391d80e2c7568bbb6929f1d449" prot="public" virt="non-virtual"><scope>pmt::pmt_pool</scope><name>~pmt_pool</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

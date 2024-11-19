@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="symbol__sync__ff__pydoc_8h" kind="file" language="C++">
+    <compoundname>symbol_sync_ff_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>symbol_sync_ff_pydoc.h</label>
+        <link refid="symbol__sync__ff__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="symbol__sync__ff__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1aecf580c5a0783777eb94faf7e42bbf2e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff</name>
+        <initializer>= R&quot;doc(Symbol Synchronizer block with float input, float output.
+
+This implements a discrete-time error-tracking synchronizer.
+
+
+For this block to work properly, the input stream must meet the following requirements:
+
+Constructor Specific Documentation:
+
+Make a Symbol Synchronizer block.
+
+
+This implements a discrete-time error-tracking synchronizer.
+
+
+For this block to work properly, the input stream must meet the following requirements:
+
+Args:
+    detector_type : The enumerated type of timing error detector to use. See enum ted_type for a list of possible types.
+    sps : User specified nominal clock period in samples per symbol.
+    loop_bw : Approximate normalized loop bandwidth of the symbol clock tracking loop. It should nominally be close to 0, but greater than 0. If unsure, start with a number around 2*pi*0.040, and experiment to find the value that works best for your situation.
+    damping_factor : Damping factor of the symbol clock tracking loop. Damping &lt; 1.0f is an under-damped loop. Damping = 1.0f/sqrt(2.0f) is a maximally flat loop response. Damping = 1.0f is a critically-damped loop. Damping &gt; 1.0f is an over-damped loop.
+    ted_gain : Expected gain of the timing error detector, given the TED in use and the anticipated input amplitude, pulse shape, and Es/No. This value is the slope of the TED&apos;s <ref refid="rpcserver__thrift_8h_1ac4a3ed3432929804c708f7760fb79e28" kindref="member">S</ref>-curve at timing offset tau = 0. This value is normally computed by the user analytically or by simulation in a tool outside of GNURadio. This value must be correct for the loop filter gains to be computed properly from the desired input loop bandwidth and damping factor.
+    max_deviation : Maximum absolute deviation of the average clock period estimate from the user specified nominal clock period in samples per symbol.
+    osps : The number of output samples per symbol (default=1).
+    slicer : A constellation obj shared pointer that will be used by decision directed timing error detectors to make decisions. I.e. the timing error detector will use this constellation as a slicer, if the particular algorithm needs sliced symbols.
+    interp_type : The enumerated type of interpolating resampler to use. See the interpolating resampler type enum for a list of possible types.
+    n_filters : The number of arms in the polyphase filterbank of the interpolating resampler, if using an interpolating resampler that uses a PFB.
+    <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> : The prototype filter for the polyphase filterbank of the interpolating resampler, if using an interpolating resampler that uses a PFB.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1a4b91088ddfa69a58ac390e8dc0f3071e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff_symbol_sync_ff_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff_symbol_sync_ff_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="49" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1afbda39f2810c68b71e45bd0c0c59cb8a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff_symbol_sync_ff_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff_symbol_sync_ff_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="52" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1af2c38bbefc921d6e0a74bfa7c7e82996" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff_make</name>
+        <initializer>= R&quot;doc(Symbol Synchronizer block with float input, float output.
+
+This implements a discrete-time error-tracking synchronizer.
+
+
+For this block to work properly, the input stream must meet the following requirements:
+
+Constructor Specific Documentation:
+
+Make a Symbol Synchronizer block.
+
+
+This implements a discrete-time error-tracking synchronizer.
+
+
+For this block to work properly, the input stream must meet the following requirements:
+
+Args:
+    detector_type : The enumerated type of timing error detector to use. See enum ted_type for a list of possible types.
+    sps : User specified nominal clock period in samples per symbol.
+    loop_bw : Approximate normalized loop bandwidth of the symbol clock tracking loop. It should nominally be close to 0, but greater than 0. If unsure, start with a number around 2*pi*0.040, and experiment to find the value that works best for your situation.
+    damping_factor : Damping factor of the symbol clock tracking loop. Damping &lt; 1.0f is an under-damped loop. Damping = 1.0f/sqrt(2.0f) is a maximally flat loop response. Damping = 1.0f is a critically-damped loop. Damping &gt; 1.0f is an over-damped loop.
+    ted_gain : Expected gain of the timing error detector, given the TED in use and the anticipated input amplitude, pulse shape, and Es/No. This value is the slope of the TED&apos;s <ref refid="rpcserver__thrift_8h_1ac4a3ed3432929804c708f7760fb79e28" kindref="member">S</ref>-curve at timing offset tau = 0. This value is normally computed by the user analytically or by simulation in a tool outside of GNURadio. This value must be correct for the loop filter gains to be computed properly from the desired input loop bandwidth and damping factor.
+    max_deviation : Maximum absolute deviation of the average clock period estimate from the user specified nominal clock period in samples per symbol.
+    osps : The number of output samples per symbol (default=1).
+    slicer : A constellation obj shared pointer that will be used by decision directed timing error detectors to make decisions. I.e. the timing error detector will use this constellation as a slicer, if the particular algorithm needs sliced symbols.
+    interp_type : The enumerated type of interpolating resampler to use. See the interpolating resampler type enum for a list of possible types.
+    n_filters : The number of arms in the polyphase filterbank of the interpolating resampler, if using an interpolating resampler that uses a PFB.
+    <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> : The prototype filter for the polyphase filterbank of the interpolating resampler, if using an interpolating resampler that uses a PFB.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="55" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1afae415c0b31288365933c06614dec28f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff_loop_bandwidth</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff_loop_bandwidth</name>
+        <initializer>= R&quot;doc(Returns the normalized approximate loop bandwidth.
+
+See the documentation for set_loop_bandwidth() for more details.
+
+
+Note that if set_alpha() or set_beta() were called to directly set gains, the value returned by this method will be inaccurate/stale.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="86" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1a2003fab324e50181dc5b52a97c12379d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff_damping_factor</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff_damping_factor</name>
+        <initializer>= R&quot;doc(Returns the loop damping factor.
+
+See the documentation for set_damping_factor() for more details.
+
+
+Note that if set_alpha() or set_beta() were called to directly set gains, the value returned by this method will be inaccurate/stale.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="94" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1a73802972800fc5602296dfe2a0b5fa17" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff_ted_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff_ted_gain</name>
+        <initializer>= R&quot;doc(Returns the user provided expected gain of the Timing Error Detector.
+
+See the documentation for set_ted_gain() for more details.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="102" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1a0461e635314066125dd9e71e614f1b1b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff_alpha</name>
+        <initializer>= R&quot;doc(Returns the PI filter proportional gain, alpha.
+
+See the documentation for set_alpha() for more details.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="107" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1ade363fc5101bf8d42d56e492f0e4cddb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff_beta</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff_beta</name>
+        <initializer>= R&quot;doc(Returns the PI filter integral gain, beta.
+
+See the documentation for set_beta() for more details.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="112" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1aa41c792c0b977fe5177058d9efa4682d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff_sps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff_sps</name>
+        <initializer>= R&quot;doc(Returns the nominal clock period in samples per symbol.
+
+See the doecumentation for set_sps() for more details.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="117" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1ab197c0d502e037c48851aacf7e34c09e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff_set_loop_bandwidth</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff_set_loop_bandwidth</name>
+        <initializer>= R&quot;doc(Set the normalized approximate loop bandwidth.
+
+Set the normalized approximate loop bandwidth. Useful values are usually close to 0.0, e.g. 2*pi*0.045.
+
+
+It should be a small positive number, corresponding to the normalized natural radian frequency of the loop as digital low-pass filter that is filtering the clock phase/timing error.
+
+
+Technically this parameter corresponds to the natural radian frequency of the 2nd order loop transfer function (scaled by Fs), which is the radius of the pole locations in the s-plane of an underdamped analog 2nd order system.
+
+
+The input parameter corresponds to omega_n_norm in the following relation:  where T is the period of the clock being estimated by this clock tracking loop, and omega_n is the natural radian frequency of the 2nd order loop transfer function.
+
+
+When a new loop bandwidth is set, the gains, alpha and beta, of the loop are automatically recalculated.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="122" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1a922fc6d0ee0dfee3f2916c0023193242" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff_set_damping_factor</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff_set_damping_factor</name>
+        <initializer>= R&quot;doc(Set the loop damping factor.
+
+Set the damping factor of the loop. Damping in the range (0.0, 1.0) yields an under-damped loop. Damping in the range (1.0, Inf) yields an over-damped loop. Damping equal to 1.0 yields a crtically-damped loop. Damping equal to 1.0/sqrt(2.0) yields a maximally flat loop filter response.
+
+
+Damping factor of the 2nd order loop transfer function. When a new damping factor is set, the gains, alpha and beta, of the loop are automatically recalculated.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="139" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1ac4dade6bfc907db4ade937895114a4ba" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff_set_ted_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff_set_ted_gain</name>
+        <initializer>= R&quot;doc(Set the expected gain of the Timing Error Detector.
+
+Sets the expected gain of the timing error detector, given the TED in use and the anticipated input amplitude, pulse shape, and Es/No. This value is the slope of the TED&apos;s <ref refid="rpcserver__thrift_8h_1ac4a3ed3432929804c708f7760fb79e28" kindref="member">S</ref>-curve at timing offset tau = 0. This value is normally computed by the user analytically or by simulation in a tool outside of GNURadio. This value must be correct for the loop filter gains to be computed properly from the desired input loop bandwidth and damping factor.
+
+
+When a new ted_gain is set, the gains, alpha and beta, of the loop are automatically recalculated.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="147" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1a3dab402fb07fee0614a32c13812ff6aa" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff_set_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff_set_alpha</name>
+        <initializer>= R&quot;doc(Set the PI filter proportional gain, alpha.
+
+Sets the PI filter proportional gain, alpha. This gain directly multiplies the clock phase/timing error term in the PI filter when advancing the loop. It most directly affects the instantaneous clock period estimate, T_inst, and instantaneous clock phase estimate, tau.
+
+
+This value would normally be adjusted by setting the loop bandwidth and damping factor. However, it can be set here directly if desired.
+
+
+Setting this parameter directly is probably only feasible if the user is directly observing the estimates of average clock period and instantaneous clock period over time in response to an impulsive change in the input stream (i.e. watching the loop transient behavior at the start of a data burst).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="155" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1af6e2af6faa904ee9b155f5327d808c99" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff_set_beta</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff_set_beta</name>
+        <initializer>= R&quot;doc(Set the PI filter integral gain, beta.
+
+Sets the PI filter integral gain, beta. This gain is used when integrating the clock phase/timing error term in the PI filter when advancing the loop. It most directly affects the average clock period estimate, T_avg.
+
+
+This value would normally be adjusted by setting the loop bandwidth and damping factor. However, it can be set here directly if desired.
+
+
+Setting this parameter directly is probably only feasible if the user is directly observing the estimates of average clock period and instantaneous clock period over time in response to an impulsive change in the input stream (i.e. watching the loop transient behavior at the start of a data burst).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="166" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symbol__sync__ff__pydoc_8h_1a625ddcd657a8ada553d60c16234c0323" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_symbol_sync_ff_set_sps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_symbol_sync_ff_set_sps</name>
+        <initializer>= R&quot;doc(Set the nominal clock period in samples per symbol.
+
+Sets the nominal clock period, resetting some of the tracking loop variables to adjust to the new clock period.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" line="177" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/symbol_sync_ff_pydoc.h"/>
+  </compounddef>
+</doxygen>

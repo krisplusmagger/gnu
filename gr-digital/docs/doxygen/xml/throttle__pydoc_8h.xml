@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="throttle__pydoc_8h" kind="file" language="C++">
+    <compoundname>throttle_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>throttle_pydoc.h</label>
+        <link refid="throttle__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="throttle__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/throttle_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/throttle_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="throttle__pydoc_8h_1abdd0a54b6c3ce664f7f9d9d6a3170f5d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_throttle</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_throttle</name>
+        <initializer>= R&quot;doc(throttle flow of samples such that the average rate does not exceed samples_per_sec.
+
+input: one stream of itemsize; output: one stream of itemsize
+
+
+N.B. this should only be used in GUI apps where there is no other rate limiting block. It is not intended nor effective at precisely controlling the rate of samples. That should be controlled by a source or sink tied to sample clock. E.g., a USRP or audio card.
+
+
+You can insert this block \&quot;in series\&quot; with your sample flow, in which case it does a throttled copy of input to output. Alternatively, you can not connect its output and just connect this block&apos;s input in parallel to an existing block in your flow graph. In that case, Throttle will limit the rate at which samples are consumed; especially at higher rates, where the copying overhead might be significant, this is functionally not different to copying at a limited rate.
+
+Constructor Specific Documentation:
+
+Make a sptr to a Throttle block
+
+Args:
+    itemsize : Size of each item, e.g. 8 for <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>
+    samples_per_sec : Number of items to be passed per second. Waiting time is calculated based on this.
+    ignore_tags : Whether or not to react to \&quot;rx_rate\&quot; tags with a double value specifying a new rate.
+    maximum_items_per_chunk : Limit the amount of items that are produced/consumed between waiting. Set to 0 (or leave at default) to always wait for the full duration dictated by the current size of workload items, divided by the samples_per_sec.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/throttle_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/throttle_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="throttle__pydoc_8h_1a6c6d5afcfac80e38c153f4f7226dda38" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_throttle_throttle_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_throttle_throttle_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/throttle_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/throttle_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="throttle__pydoc_8h_1a8aa9ad0cae99ecb10b20e5f34a5e704b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_throttle_throttle_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_throttle_throttle_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/throttle_pydoc.h" line="42" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/throttle_pydoc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="throttle__pydoc_8h_1a1199e14ecda039add65fa0a74f09c23b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_throttle_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_throttle_make</name>
+        <initializer>= R&quot;doc(throttle flow of samples such that the average rate does not exceed samples_per_sec.
+
+input: one stream of itemsize; output: one stream of itemsize
+
+
+N.B. this should only be used in GUI apps where there is no other rate limiting block. It is not intended nor effective at precisely controlling the rate of samples. That should be controlled by a source or sink tied to sample clock. E.g., a USRP or audio card.
+
+
+You can insert this block \&quot;in series\&quot; with your sample flow, in which case it does a throttled copy of input to output. Alternatively, you can not connect its output and just connect this block&apos;s input in parallel to an existing block in your flow graph. In that case, Throttle will limit the rate at which samples are consumed; especially at higher rates, where the copying overhead might be significant, this is functionally not different to copying at a limited rate.
+
+Constructor Specific Documentation:
+
+Make a sptr to a Throttle block
+
+Args:
+    itemsize : Size of each item, e.g. 8 for <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>
+    samples_per_sec : Number of items to be passed per second. Waiting time is calculated based on this.
+    ignore_tags : Whether or not to react to \&quot;rx_rate\&quot; tags with a double value specifying a new rate.
+    maximum_items_per_chunk : Limit the amount of items that are produced/consumed between waiting. Set to 0 (or leave at default) to always wait for the full duration dictated by the current size of workload items, divided by the samples_per_sec.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/throttle_pydoc.h" line="45" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/throttle_pydoc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="throttle__pydoc_8h_1a0440fca93db2df8e7469feaef147f510" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_throttle_set_sample_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_throttle_set_sample_rate</name>
+        <initializer>= R&quot;doc(Sets the sample rate in samples per second.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/throttle_pydoc.h" line="66" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/throttle_pydoc.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="throttle__pydoc_8h_1a5f8cb4c1bcbf7795d6fe055b14a30a3d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_throttle_sample_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_throttle_sample_rate</name>
+        <initializer>= R&quot;doc(Get the sample rate in samples per second.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/throttle_pydoc.h" line="69" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/throttle_pydoc.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/throttle_pydoc.h"/>
+  </compounddef>
+</doxygen>

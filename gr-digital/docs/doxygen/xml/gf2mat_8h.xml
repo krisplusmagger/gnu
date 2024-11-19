@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="gf2mat_8h" kind="file" language="C++">
+    <compoundname>gf2mat.h</compoundname>
+    <includes refid="alist_8h" local="yes">alist.h</includes>
+    <includes refid="gf2vec_8h" local="yes">gf2vec.h</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="awgn__bp_8h" local="yes">awgn_bp.h</includedby>
+    <includedby refid="cldpc_8h" local="yes">cldpc.h</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="2">
+        <label>alist.h</label>
+        <link refid="alist_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gnuradio/fec/api.h</label>
+        <link refid="gr-fec_2include_2gnuradio_2fec_2api_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gf2mat.h</label>
+        <link refid="gf2mat_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>gf2vec.h</label>
+        <link refid="gf2vec_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>cstdint</label>
+      </node>
+      <node id="6">
+        <label>cstdlib</label>
+      </node>
+      <node id="7">
+        <label>fstream</label>
+      </node>
+      <node id="8">
+        <label>sstream</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>awgn_bp.h</label>
+        <link refid="awgn__bp_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>cldpc.h</label>
+        <link refid="cldpc_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gf2mat.h</label>
+        <link refid="gf2mat_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ldpc_decoder.h</label>
+        <link refid="ldpc__decoder_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classGF2Mat" prot="public">GF2Mat</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2mat.h"/>
+  </compounddef>
+</doxygen>

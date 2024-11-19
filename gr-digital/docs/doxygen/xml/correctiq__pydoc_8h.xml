@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="correctiq__pydoc_8h" kind="file" language="C++">
+    <compoundname>correctiq_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>correctiq_pydoc.h</label>
+        <link refid="correctiq__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="correctiq__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="correctiq__pydoc_8h_1a475b19f863c999b8c6f2b5b5baa8fc36" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_correctiq</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_correctiq</name>
+        <initializer>= R&quot;doc(This block to removes that center frequency IQ DC spike with an IIR filter.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of correctiq::correctiq.
+
+To avoid accidental use of raw pointers, correctiq::correctiq&apos;s constructor is in a private implementation class. correctiq::correctiq::make is the public interface for creating new instances.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correctiq__pydoc_8h_1ad392928397d211514572c866d7142b1c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_correctiq_correctiq</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_correctiq_correctiq</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_pydoc.h" line="27" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_pydoc.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correctiq__pydoc_8h_1a8fde6f6436b58c207c0f723c1ea76e00" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_correctiq_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_correctiq_make</name>
+        <initializer>= R&quot;doc(This block to removes that center frequency IQ DC spike with an IIR filter.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of correctiq::correctiq.
+
+To avoid accidental use of raw pointers, correctiq::correctiq&apos;s constructor is in a private implementation class. correctiq::correctiq::make is the public interface for creating new instances.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_pydoc.h" line="30" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_pydoc.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_pydoc.h"/>
+  </compounddef>
+</doxygen>

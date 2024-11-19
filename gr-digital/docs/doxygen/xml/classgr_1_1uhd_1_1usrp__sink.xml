@@ -1,0 +1,1136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1uhd_1_1usrp__sink" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::uhd::usrp_sink</compoundname>
+    <basecompoundref refid="classgr_1_1uhd_1_1usrp__block" prot="public" virt="virtual">gr::uhd::usrp_block</basecompoundref>
+    <includes refid="usrp__sink_8h" local="no">gnuradio/uhd/usrp_sink.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1uhd_1_1usrp__sink_1ae627446d40cb58d4cd2bb31e1bc0dda5" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1uhd_1_1usrp__sink" kindref="compound">usrp_sink</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;usrp_sink&gt; gr::uhd::usrp_sink::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::uhd::usrp_sink::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="92" column="29" bodyfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1uhd_1_1usrp__sink_1af5244ca28a11b22436b2570872ce35b5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1uhd_1_1usrp__sink_1ae627446d40cb58d4cd2bb31e1bc0dda5" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::uhd::usrp_sink::make</definition>
+        <argsstring>(const ::uhd::device_addr_t &amp;device_addr, const ::uhd::stream_args_t &amp;stream_args, const std::string &amp;tsb_tag_name=&quot;&quot;)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::uhd::usrp_sink::make</qualifiedname>
+        <param>
+          <type>const ::uhd::device_addr_t &amp;</type>
+          <declname>device_addr</declname>
+        </param>
+        <param>
+          <type>const ::uhd::stream_args_t &amp;</type>
+          <declname>stream_args</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tsb_tag_name</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>device_addr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the address to identify the hardware </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stream_args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the IO format and channel specification </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tsb_tag_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the tag identifying tagged stream length </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a new USRP sink block object </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="100" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1uhd_1_1usrp__sink_1adf679120dbeab847481b6e67816676a8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgr_1_1uhd_1_1usrp__sink_1ae627446d40cb58d4cd2bb31e1bc0dda5" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::uhd::usrp_sink::make</definition>
+        <argsstring>(const std::string &amp;device_addr_str, const ::uhd::stream_args_t &amp;stream_args, const std::string &amp;tsb_tag_name=&quot;&quot;)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::uhd::usrp_sink::make</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>device_addr_str</declname>
+        </param>
+        <param>
+          <type>const ::uhd::stream_args_t &amp;</type>
+          <declname>stream_args</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tsb_tag_name</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="105" column="17" bodyfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" bodystart="105" bodyend="110"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1uhd_1_1usrp__sink_1a244302d311f9232dc0634ebb920508c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::uhd::usrp_sink::set_start_time</definition>
+        <argsstring>(const ::uhd::time_spec_t &amp;time)=0</argsstring>
+        <name>set_start_time</name>
+        <qualifiedname>gr::uhd::usrp_sink::set_start_time</qualifiedname>
+        <param>
+          <type>const ::uhd::time_spec_t &amp;</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the start time for outgoing samples. To control when samples are transmitted, set this value before starting the flow graph. The value is cleared after each run. When not specified, the start time will be:<itemizedlist>
+<listitem><para>Immediately for the one channel case</para>
+</listitem><listitem><para>in the near future for multi-channel</para>
+</listitem></itemizedlist>
+</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the absolute time for transmission to begin </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="123" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1uhd_1_1usrp__sink_1a49c70793ef9c2369d2dac61dbbaf3739" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>virtual std::vector&lt; std::string &gt; gr::uhd::usrp_sink::get_lo_names</definition>
+        <argsstring>(size_t chan=0)=0</argsstring>
+        <name>get_lo_names</name>
+        <qualifiedname>gr::uhd::usrp_sink::get_lo_names</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>chan</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a list of possible LO stage names <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel index 0 to N-1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a vector of strings for possible LO names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="130" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1uhd_1_1usrp__sink_1a0945dffc70026402b75ec3636652d067" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::uhd::usrp_sink::set_lo_source</definition>
+        <argsstring>(const std::string &amp;src, const std::string &amp;name, size_t chan=0)=0</argsstring>
+        <name>set_lo_source</name>
+        <qualifiedname>gr::uhd::usrp_sink::set_lo_source</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>chan</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the LO source for the usrp device. For usrps that support selectable LOs, this function allows switching between them. Typical options for source: internal, external. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a string representing the LO source </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the LO stage to update </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel index 0 to N-1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="142" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1uhd_1_1usrp__sink_1aa8c7bb5bf1b12a285411420915395e9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const std::string</type>
+        <definition>virtual const std::string gr::uhd::usrp_sink::get_lo_source</definition>
+        <argsstring>(const std::string &amp;name, size_t chan=0)=0</argsstring>
+        <name>get_lo_source</name>
+        <qualifiedname>gr::uhd::usrp_sink::get_lo_source</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>chan</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the currently set LO source. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the LO stage to query </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel index 0 to N-1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the configured LO source </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="150" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1uhd_1_1usrp__sink_1a90a2b2275c604b3333e6ef989a17ab87" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>virtual std::vector&lt; std::string &gt; gr::uhd::usrp_sink::get_lo_sources</definition>
+        <argsstring>(const std::string &amp;name, size_t chan=0)=0</argsstring>
+        <name>get_lo_sources</name>
+        <qualifiedname>gr::uhd::usrp_sink::get_lo_sources</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>chan</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a list of possible LO sources. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the LO stage to query </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel index 0 to N-1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a vector of strings for possible settings </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="158" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1uhd_1_1usrp__sink_1a1ec82a7f4032453d42636fb41c2401e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::uhd::usrp_sink::set_lo_export_enabled</definition>
+        <argsstring>(bool enabled, const std::string &amp;name, size_t chan=0)=0</argsstring>
+        <name>set_lo_export_enabled</name>
+        <qualifiedname>gr::uhd::usrp_sink::set_lo_export_enabled</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>enabled</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>chan</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set whether the LO used by the usrp device is exported For usrps that support exportable LOs, this function configures if the LO used by chan is exported or not. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enabled</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true then export the LO </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the LO stage to update </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel index 0 to N-1 for the source channel </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="170" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1uhd_1_1usrp__sink_1a43fe689902754b3b4d85371acb3eb233" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool gr::uhd::usrp_sink::get_lo_export_enabled</definition>
+        <argsstring>(const std::string &amp;name, size_t chan=0)=0</argsstring>
+        <name>get_lo_export_enabled</name>
+        <qualifiedname>gr::uhd::usrp_sink::get_lo_export_enabled</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>chan</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the currently selected LO is being exported. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the LO stage to query </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel index 0 to N-1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="177" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1uhd_1_1usrp__sink_1a767d7c7797c8580135651a0bf2c636e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double gr::uhd::usrp_sink::set_lo_freq</definition>
+        <argsstring>(double freq, const std::string &amp;name, size_t chan=0)=0</argsstring>
+        <name>set_lo_freq</name>
+        <qualifiedname>gr::uhd::usrp_sink::set_lo_freq</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>freq</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>chan</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the RX LO frequency (Advanced). <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>freq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the frequency to set the LO to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the LO stage to update </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel index 0 to N-1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a coerced LO frequency </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="186" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1uhd_1_1usrp__sink_1aec8bfe0898bf18057b1421020573e2a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double gr::uhd::usrp_sink::get_lo_freq</definition>
+        <argsstring>(const std::string &amp;name, size_t chan=0)=0</argsstring>
+        <name>get_lo_freq</name>
+        <qualifiedname>gr::uhd::usrp_sink::get_lo_freq</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>chan</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the current RX LO frequency (Advanced). <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the LO stage to query </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel index 0 to N-1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the configured LO frequency </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="194" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1uhd_1_1usrp__sink_1a330bf1bfe145a2c34ba843dc6f6c1ef5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>::uhd::freq_range_t</type>
+        <definition>virtual ::uhd::freq_range_t gr::uhd::usrp_sink::get_lo_freq_range</definition>
+        <argsstring>(const std::string &amp;name, size_t chan=0)=0</argsstring>
+        <name>get_lo_freq_range</name>
+        <qualifiedname>gr::uhd::usrp_sink::get_lo_freq_range</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>chan</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the LO frequency range of the RX LO. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the LO stage to query </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel index 0 to N-1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a frequency range object </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="202" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1uhd_1_1usrp__sink_1aeb412d69c966385888be89fff04f7807" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::uhd::usrp_sink::set_dc_offset</definition>
+        <argsstring>(const std::complex&lt; double &gt; &amp;offset, size_t chan=0)=0</argsstring>
+        <name>set_dc_offset</name>
+        <qualifiedname>gr::uhd::usrp_sink::set_dc_offset</qualifiedname>
+        <param>
+          <type>const std::complex&lt; double &gt; &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>chan</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set a constant DC offset value. The value is complex to control both I and Q. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the dc offset (1.0 is full-scale) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel index 0 to N-1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="211" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1uhd_1_1usrp__sink_1a9bb20e5f904bf1403699f09a297a48d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::uhd::usrp_sink::set_iq_balance</definition>
+        <argsstring>(const std::complex&lt; double &gt; &amp;correction, size_t chan=0)=0</argsstring>
+        <name>set_iq_balance</name>
+        <qualifiedname>gr::uhd::usrp_sink::set_iq_balance</qualifiedname>
+        <param>
+          <type>const std::complex&lt; double &gt; &amp;</type>
+          <declname>correction</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>chan</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the RX frontend IQ imbalance correction. Use this to adjust the magnitude and phase of I and Q.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>correction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the complex correction (1.0 is full-scale) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel index 0 to N-1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="220" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>USRP Sink <ndash/> Radio Transmitter</para>
+<para>The USRP sink block reads a stream and transmits the samples. The sink block also provides API calls for transmitter settings. See also <ref refid="classgr_1_1uhd_1_1usrp__block" kindref="compound">gr::uhd::usrp_block</ref> for more public API calls.</para>
+<sect1 id="classgr_1_1uhd_1_1usrp__sink_1uhd_tx_tagging">
+<title>TX Stream tagging</title>
+<para>The following tag keys will be consumed by the work function:<itemizedlist>
+<listitem><para><ref refid="namespacepmt_1a30edd2931d88663ec07f37c42d1cbb15" kindref="member">pmt::string_to_symbol</ref>(&quot;tx_sob&quot;)</para>
+</listitem><listitem><para><ref refid="namespacepmt_1a30edd2931d88663ec07f37c42d1cbb15" kindref="member">pmt::string_to_symbol</ref>(&quot;tx_eob&quot;)</para>
+</listitem><listitem><para><ref refid="namespacepmt_1a30edd2931d88663ec07f37c42d1cbb15" kindref="member">pmt::string_to_symbol</ref>(&quot;tx_time&quot;)</para>
+</listitem><listitem><para><ref refid="namespacepmt_1a30edd2931d88663ec07f37c42d1cbb15" kindref="member">pmt::string_to_symbol</ref>(&quot;tx_freq&quot;)</para>
+</listitem><listitem><para><ref refid="namespacepmt_1a30edd2931d88663ec07f37c42d1cbb15" kindref="member">pmt::string_to_symbol</ref>(&quot;tx_command&quot;)</para>
+</listitem><listitem><para>pmt::string_to_symbol(tsb_tag_name)</para>
+</listitem></itemizedlist>
+</para>
+<para>Any other tag will be ignored.</para>
+</sect1>
+<sect1 id="classgr_1_1uhd_1_1usrp__sink_1uhd_tx_burstys">
+<title>Bursty Transmission</title>
+<para>There are multiple ways to do bursty transmission without triggering underruns:<itemizedlist>
+<listitem><para>Using SOB/EOB tags</para>
+</listitem><listitem><para>Using tagged streams (See <ulink url="https://wiki.gnuradio.org/index.php/Tagged_Stream_Blocks">Tagged Stream Blocks</ulink>)</para>
+</listitem></itemizedlist>
+</para>
+<para>The sob and eob (start and end of burst) tag values are pmt booleans. When present, burst tags should be set to true (pmt::PMT_T).</para>
+<para>If <computeroutput>tsb_tag_name</computeroutput> is not an empty string, all &quot;tx_sob&quot; and &quot;tx_eob&quot; tags will be ignored, and the input is assumed to a tagged stream.</para>
+<para>If sob/eob tags or length tags are used, this block understands that the data is bursty, and will configure the USRP to make sure there&apos;s no underruns after transmitting the final sample of a burst.</para>
+</sect1>
+<sect1 id="classgr_1_1uhd_1_1usrp__sink_1uhd_tx_time">
+<title>Timestamps</title>
+<para>The timestamp tag value is a PMT tuple of the following: (uint64 seconds, double fractional seconds).</para>
+<para>The tx_freq tag has to be a double or a pair of form (channel, frequency), with frequency being a double and channel being an integer. This tag will trigger a tune command to the USRP to the given frequency, if possible. Note that oscillators need some time to stabilize after this! Don&apos;t expect clean data to be sent immediately after this command. If channel is omitted, and only a double is given, it will set this frequency to all channels.</para>
+<para>The command tag can carry a PMT command. See the following section.</para>
+</sect1>
+<sect1 id="classgr_1_1uhd_1_1usrp__sink_1uhd_tx_commands">
+<title>Command interface</title>
+<para>There are two ways of passing commands to this block:<orderedlist>
+<listitem><para>tx_command tag. The command is attached to a sample, and will executed before the sample is transmitted, and after the previous sample.</para>
+</listitem><listitem><para>The &apos;command&apos; message port. The command is executed asynchronously, as soon as possible.</para>
+</listitem></orderedlist>
+</para>
+<para>In both cases, the payload of the command is a PMT command, as described in Section <ref refid="page_uhd_1uhd_command_syntax" kindref="member">Command Syntax</ref>.</para>
+<para>For a more general description of the gr-uhd components, see <ref refid="page_uhd" kindref="compound">UHD Interface</ref>. </para>
+</sect1>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>gr::basic_block</label>
+        <link refid="classgr_1_1basic__block"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gr::block</label>
+        <link refid="classgr_1_1block"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::messages::msg_accepter</label>
+        <link refid="classgr_1_1messages_1_1msg__accepter"/>
+      </node>
+      <node id="6">
+        <label>gr::msg_accepter</label>
+        <link refid="classgr_1_1msg__accepter"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+        <link refid="classgr_1_1sync__block"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::uhd::usrp_block</label>
+        <link refid="classgr_1_1uhd_1_1usrp__block"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::uhd::usrp_sink</label>
+        <link refid="classgr_1_1uhd_1_1usrp__sink"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>std::enable_shared_from_this&lt; basic_block &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>T</label>
+      </node>
+      <node id="5">
+        <label>gr::basic_block</label>
+        <link refid="classgr_1_1basic__block"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>d_name</edgelabel>
+          <edgelabel>d_symbol_alias</edgelabel>
+          <edgelabel>d_symbol_name</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>d_input_signature</edgelabel>
+          <edgelabel>d_output_signature</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>d_debug_logger</edgelabel>
+          <edgelabel>d_logger</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>msg_queue</edgelabel>
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>d_rpc_vars</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>d_message_subscribers</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gr::block</label>
+        <link refid="classgr_1_1block"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>d_max_output_buffer</edgelabel>
+          <edgelabel>d_min_output_buffer</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>d_pmt_done</edgelabel>
+          <edgelabel>d_system_port</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>gr::io_signature</label>
+        <link refid="classgr_1_1io__signature"/>
+      </node>
+      <node id="7">
+        <label>gr::messages::msg_accepter</label>
+        <link refid="classgr_1_1messages_1_1msg__accepter"/>
+      </node>
+      <node id="6">
+        <label>gr::msg_accepter</label>
+        <link refid="classgr_1_1msg__accepter"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+        <link refid="classgr_1_1sync__block"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::uhd::usrp_block</label>
+        <link refid="classgr_1_1uhd_1_1usrp__block"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::uhd::usrp_sink</label>
+        <link refid="classgr_1_1uhd_1_1usrp__sink"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>std::map&lt; pmt::pmt_t, msg_queue_t, msg_queue_comparator &gt;</label>
+        <childnode refid="15" relation="usage">
+          <edgelabel>keys</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>std::shared_ptr&lt; io_signature &gt;</label>
+        <childnode refid="12" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>std::shared_ptr&lt; logger &gt;</label>
+      </node>
+      <node id="19">
+        <label>std::shared_ptr&lt; pmt_base &gt;</label>
+      </node>
+      <node id="10">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="17">
+        <label>std::deque&lt; T &gt;</label>
+        <childnode refid="16" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>std::enable_shared_from_this&lt; basic_block &gt;</label>
+      </node>
+      <node id="15">
+        <label>std::shared_ptr&lt; T &gt;</label>
+        <childnode refid="16" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>std::string</label>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>std::vector&lt; long &gt;</label>
+      </node>
+      <node id="18">
+        <label>std::vector&lt; rpcbasic_sptr &gt;</label>
+        <childnode refid="15" relation="usage">
+          <edgelabel>elements</edgelabel>
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="88" column="1" bodyfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" bodystart="89" bodyend="222"/>
+    <listofallmembers>
+      <member refid="classgr_1_1basic__block_1ab82376fe13f515cb904c0d2e9fec87b6" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>_post</name></member>
+      <member refid="classgr_1_1block_1a099f578878243499d63846bbee61979a" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>active_thread_priority</name></member>
+      <member refid="classgr_1_1block_1a8b7cc51b9d289124d6843bb392f564fc" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>add_item_tag</name></member>
+      <member refid="classgr_1_1block_1a8f0ee37749a77d3f40a5bb04233f6028" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>add_item_tag</name></member>
+      <member refid="classgr_1_1basic__block_1ab6bc65ad989bb7aa762e9f6064e05534" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>alias</name></member>
+      <member refid="classgr_1_1basic__block_1a7c23228d2623680d85ce836dea19da21" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>alias_pmt</name></member>
+      <member refid="classgr_1_1basic__block_1abd5fd45a3aab213bdf7e826ef0baf654" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>alias_set</name></member>
+      <member refid="classgr_1_1block_1a97e9110914ad00e6d8b9b9e4837508c4" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>alignment</name></member>
+      <member refid="classgr_1_1block_1a725dd951d233c6f3f2a5eccce0117033" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>allocate_buffer</name></member>
+      <member refid="classgr_1_1block_1a43d5b375cade3fc372f620ca7cfb939b" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>allocate_detail</name></member>
+      <member refid="classgr_1_1basic__block_1a6cc897729213ab4d2e3ade44c6942100" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>basic_block</name></member>
+      <member refid="classgr_1_1basic__block_1a451b45483aec67682289f4cf94e53f74" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>basic_block</name></member>
+      <member refid="classgr_1_1basic__block_1ac84f6979cb9e7650de9d9205901401aaab729ab9b0c860fece10ea1eddab6ce52" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>BLACK</name></member>
+      <member refid="classgr_1_1block_1a37b0ee4b7eb7b8d334be0125e8464a71" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>blkd_input_timer_value</name></member>
+      <member refid="classgr_1_1block_1a624c3e070c3df38e5d11e4acd0f59b46" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>block</name></member>
+      <member refid="classgr_1_1block_1aebbc2ed68daafc4de5ee0f5df21efe6e" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>block</name></member>
+      <member refid="classgr_1_1basic__block_1aca13d6f083397aada5b44d0f349ce151" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>check_topology</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1afe647fabef73a5159ace22999d6030ca" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>clear_command_time</name></member>
+      <member refid="classgr_1_1block_1af19867ade7536783777a5c5e91b69972" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>clear_finished</name></member>
+      <member refid="classgr_1_1basic__block_1ae6531de80c07321b7fb6f93d47952a12" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>color</name></member>
+      <member refid="classgr_1_1block_1a47193333ce3fe1536fb1663bf314f63d" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>consume</name></member>
+      <member refid="classgr_1_1block_1a12ea5eba701e22a3d023d0ba7c6ee07c" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>consume_each</name></member>
+      <member refid="classgr_1_1block_1a8b2991658d2d61fa34f776f557f5d508" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_blkd_input_timer_value</name></member>
+      <member refid="classgr_1_1basic__block_1afc7a00e9e0ff69ceb903d3d6ff506473" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_color</name></member>
+      <member refid="classgr_1_1basic__block_1a13bd702ed57a052484e8c431b4ba3a63" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_debug_logger</name></member>
+      <member refid="classgr_1_1basic__block_1a84d6b200bb5e268424e9e4630cb22e5a" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_input_signature</name></member>
+      <member refid="classgr_1_1basic__block_1a65abdb3eefde2c95646944b18094dddc" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_logger</name></member>
+      <member refid="classgr_1_1block_1ab740ebd7e5e88ab5ed7039db9f054db1" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_max_output_buffer</name></member>
+      <member refid="classgr_1_1basic__block_1aefa8ebb27b9d86bef179e30e37f0dfc3" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_message_subscribers</name></member>
+      <member refid="classgr_1_1block_1a4c393a6daebc82ddf6844a62f1c5e8ae" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_min_output_buffer</name></member>
+      <member refid="classgr_1_1basic__block_1ad7da20e98a288f84597882e047df63f4" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_name</name></member>
+      <member refid="classgr_1_1basic__block_1a84c091a90172b2eb6d617f6346bbce3f" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_output_signature</name></member>
+      <member refid="classgr_1_1block_1ad72091916b86278b58b6d106876b3e8c" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_pmt_done</name></member>
+      <member refid="classgr_1_1basic__block_1a8d54f7ea6ebf134e68e028294488354d" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_rpc_set</name></member>
+      <member refid="classgr_1_1basic__block_1ae5d5ad853077c6eaf83c0ebce53d14f2" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_rpc_vars</name></member>
+      <member refid="classgr_1_1block_1aaf5b8dd7bba021af7bd93f39453f7482" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_setlock</name></member>
+      <member refid="classgr_1_1basic__block_1a2de4ae58aaf6af63fe57ecf0e64dcbe0" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_symbol_alias</name></member>
+      <member refid="classgr_1_1basic__block_1af6b5f158f329834b12d9b204cf62a10e" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_symbol_name</name></member>
+      <member refid="classgr_1_1basic__block_1a7073674b5876118ae50cd7cc5646ad80" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_symbolic_id</name></member>
+      <member refid="classgr_1_1block_1a2460fc9ff6df7f38a51dadba06b94904" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_system_port</name></member>
+      <member refid="classgr_1_1basic__block_1a8afb0c354fb5fc2141fc7580361c2f00" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>d_unique_id</name></member>
+      <member refid="classgr_1_1block_1acad5d6e62ea885cb77d19f72451581c2" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>declare_sample_delay</name></member>
+      <member refid="classgr_1_1block_1aa7df9d4ebb09530cd3be2ad78da411b4" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>declare_sample_delay</name></member>
+      <member refid="classgr_1_1basic__block_1af9e69c810222df1bccbd159d660eda06" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>delete_head_nowait</name></member>
+      <member refid="classgr_1_1block_1acbed8f29e876494528b826c00e30cffa" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>detail</name></member>
+      <member refid="classgr_1_1basic__block_1aa0c8bc1d82de984c872fbaefc0ff954b" prot="protected" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>dispatch_msg</name></member>
+      <member refid="classgr_1_1basic__block_1a0ea70146bf5ce65a8c20c0b7234063d9" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>empty_handled_p</name></member>
+      <member refid="classgr_1_1basic__block_1a75b7c42c06430e9f5330f7462a5350a1" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>empty_handled_p</name></member>
+      <member refid="classgr_1_1basic__block_1aea4958dfb6cc37d60db6afaba91f6e6e" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>empty_p</name></member>
+      <member refid="classgr_1_1basic__block_1aecb5d318b3d3689e6f7f448d29a03032" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>empty_p</name></member>
+      <member refid="classgr_1_1block_1a71d3cc9f05edecef8b7bda7f16580848" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>enable_update_rate</name></member>
+      <member refid="classgr_1_1basic__block_1acffa27c6be8af72ae44773185687d49c" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>erase_msg</name></member>
+      <member refid="classgr_1_1block_1a9bbf96f6a81d5c289934a68ef44dd1b4" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>expand_minmax_buffer</name></member>
+      <member refid="classgr_1_1block_1a89242cb1ac9d2bf5e75f923745baa576" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>finished</name></member>
+      <member refid="classgr_1_1block_1ab82ebb52662cf4fa6b1417d3571414da" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>fixed_rate</name></member>
+      <member refid="classgr_1_1sync__block_1adf288a9267d2cd9cc7d44ed265d1e0c7" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>fixed_rate_ninput_to_noutput</name></member>
+      <member refid="classgr_1_1sync__block_1a19566d4723a1f4de45d43d08744c6a11" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>fixed_rate_noutput_to_ninput</name></member>
+      <member refid="classgr_1_1sync__block_1ae4096fcd7a8c7f1baaac53350eb17443" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>forecast</name></member>
+      <member refid="classgr_1_1sync__block_1ab88dad1d9876d667004077ff92c33ee0" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>general_work</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a57a71defced5326519d53bb097b6c6ab" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_antenna</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1ac133d80d69fd062dd6c2ae6ed9e14b17" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_antennas</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1aa1d3bb7f11d0084cac2497e2da672d65" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_bandwidth</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1ac9028d873e01e4c5de2b4ef76549b500" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_bandwidth_range</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a89368e675b4cbce87c65a296d9ccb011" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_center_freq</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a86bbb5b0da5275a04b70e7da2cd14632" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_clock_rate</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a3b43de9978559c7e554a071d0181fb1f" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_clock_source</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a90b6c25d5cd38ad1d4de381da6708bf9" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_clock_sources</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a75a2b22e632785076d9aef68f0557dd0" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_dboard_iface</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a2111cef63308c34f542aadf276d64f34" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_dboard_sensor</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a3ed0c67765249c7d00985c36a7093edc" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_dboard_sensor_names</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a4c3da4cab1096663ff720d3eb134927e" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_device</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a3e9d88fbcbd79fa9bd13fec6d063655e" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_filter</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a8c21356afc294a4ef446ecaf7bc7dc96" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_filter_names</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1af79045e2f19c0bd6e6d840420773e97d" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_freq_range</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a01c8c74c099f3bdcf2b60c17811ecf9c" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_gain</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1afdf1d8990c19e1a87da4b777df3ff286" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_gain</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a79fbcc704a74d490580f4afc0ab2fb8a" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_gain_names</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a722ef4baec2f767a92923c53296f63f9" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_gain_range</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a9a7e9623b178c182b7bbeebdd49d8906" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_gain_range</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a5b79614de085c82e6e812d90cdd0a211" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_gpio_attr</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1aa0279c06759ae893ea60357aae6d5ff1" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_gpio_banks</name></member>
+      <member refid="classgr_1_1basic__block_1a33724cc678371b3713e13ed29217963e" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_iterator</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__sink_1a43fe689902754b3b4d85371acb3eb233" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_lo_export_enabled</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__sink_1aec8bfe0898bf18057b1421020573e2a2" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_lo_freq</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__sink_1a330bf1bfe145a2c34ba843dc6f6c1ef5" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_lo_freq_range</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__sink_1a49c70793ef9c2369d2dac61dbbaf3739" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_lo_names</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__sink_1aa8c7bb5bf1b12a285411420915395e9e" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_lo_source</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__sink_1a90a2b2275c604b3333e6ef989a17ab87" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_lo_sources</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a419f5d60d9ca48d162c4001f79511c85" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_mboard_sensor</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1afc105e0b8ec53b9a50b03c657da3819e" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_mboard_sensor_names</name></member>
+      <member refid="classgr_1_1basic__block_1a30fdffa888cd7433a1fe06caa6de2ec8" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_msg_map</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a61375076ede2973359e63ee5c344c9ac" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_normalized_gain</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a073a49047f97dc74c06b8ed2a647633d" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_num_mboards</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1ab98c5bac761dcb4eed50c38129d926ed" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_power_range</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a6d4e5373277562955231300afede8e0e" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_power_reference</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1af5fc38ee96e9e5b04350cfd46419cd41" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_samp_rate</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a1ff8083ab54c12853d12f9f0309a62d9" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_samp_rates</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a249fddbb3710046963c5a13fa5f47c2f" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_sensor</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1af2853a480624decdb6c92c93e8a9cb88" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_sensor_names</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a2a640e06290b4262ca6539de6a346b53" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_subdev_spec</name></member>
+      <member refid="classgr_1_1block_1aa0272555827fe26a1878e53ce4be092c" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_tags_in_range</name></member>
+      <member refid="classgr_1_1block_1a83143d92b16b5bf93bf43a66a46bb60e" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_tags_in_range</name></member>
+      <member refid="classgr_1_1block_1abf2cc497d68c4650be55765d0fe12291" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_tags_in_window</name></member>
+      <member refid="classgr_1_1block_1a451b95d244e27e815eb3f9e56ea6ac32" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_tags_in_window</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a147e4e1bf80082fd646d3376c02cf7b7" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_time_last_pps</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1aa26791e5483d5491e50383f825d79263" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_time_now</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a53bf29fb3c4c870378ead9751baeb1bd" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_time_source</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a3dc6a134102cc07b90b49f1fe3241fda" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_time_sources</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1ad5b87820138bb6e5b0bb3588ecbf4e92" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>get_usrp_info</name></member>
+      <member refid="classgr_1_1basic__block_1ac84f6979cb9e7650de9d9205901401aaa229412131f1cac62bf1cb3c63b12a19d" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>GREY</name></member>
+      <member refid="classgr_1_1basic__block_1ac8bf058b47b635100945e20f3cc5d0b0" prot="protected" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>has_msg_handler</name></member>
+      <member refid="classgr_1_1basic__block_1a8cdeb25c366bedbadf918b7f106dbf85" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>has_msg_port</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a5997b997e8e645fc070270c36edf8821" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>has_power_reference</name></member>
+      <member refid="classgr_1_1block_1aa1bbd70747868454da06ba2049b61a18" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>history</name></member>
+      <member refid="classgr_1_1block_1a77149752323d0e1309cf43d66a31ae65" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>identifier</name></member>
+      <member refid="classgr_1_1basic__block_1a0067e4bfc94bd79182de1a9c7ab7d267" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>input_signature</name></member>
+      <member refid="classgr_1_1basic__block_1acbf0d8127f9b1da8dcb327b29391812a" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>insert_tail</name></member>
+      <member refid="classgr_1_1block_1abf6cf687db7ff69169d7fb7e3e346d65" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>is_pc_rpc_set</name></member>
+      <member refid="classgr_1_1basic__block_1a10bd994a51158fd3803377960d688795" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>is_rpc_set</name></member>
+      <member refid="classgr_1_1block_1a4f67d984bc126aa4d254e62464525b79" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>is_set_max_noutput_items</name></member>
+      <member refid="classgr_1_1block_1aa6323c615066d53d4d1b374900abb3f3" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>is_unaligned</name></member>
+      <member refid="classgr_1_1block_1a7d4018d4bbe1bc19569f674003c60cc9" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>log_level</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__sink_1af5244ca28a11b22436b2570872ce35b5" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>make</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__sink_1adf679120dbeab847481b6e67816676a8" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>make</name></member>
+      <member refid="classgr_1_1block_1af710a90819f19705f2d2ba1aa49d0172" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>max_noutput_items</name></member>
+      <member refid="classgr_1_1block_1a5faeaab35423014dc59749d63cfe4cf1" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>max_output_buffer</name></member>
+      <member refid="classgr_1_1basic__block_1a8780d41bb2091c00a9637e15e872a7ce" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>message_port_is_hier</name></member>
+      <member refid="classgr_1_1basic__block_1a5cc9ea399d0940de8440e028b7352ed7" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>message_port_is_hier_in</name></member>
+      <member refid="classgr_1_1basic__block_1a218a3ea133d838c8344fb3914c54ba3a" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>message_port_is_hier_out</name></member>
+      <member refid="classgr_1_1basic__block_1a485fa8f9fa04a1abcfe3f111d22e8e5f" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>message_port_pub</name></member>
+      <member refid="classgr_1_1basic__block_1a362b6de38292cca9c1d56439a6efad04" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>message_port_register_in</name></member>
+      <member refid="classgr_1_1basic__block_1ac3047921885668943a13dabd35d5eda4" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>message_port_register_out</name></member>
+      <member refid="classgr_1_1basic__block_1adddd339f229f55bd96229d7a7dd5cc8f" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>message_port_sub</name></member>
+      <member refid="classgr_1_1basic__block_1ad5496693b3c7c8be32529d695f83db1c" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>message_port_unsub</name></member>
+      <member refid="classgr_1_1basic__block_1ae92faa0b6775de0100f6d202140403a2" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>message_ports_in</name></member>
+      <member refid="classgr_1_1basic__block_1ad6351658056b5381f3803233cb75c928" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>message_ports_out</name></member>
+      <member refid="classgr_1_1basic__block_1a15300c27e1a332bc7dcff6438ec6c080" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>message_subscribers</name></member>
+      <member refid="classgr_1_1block_1ab90ff4303cdcd140143b4f9f55a441ee" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>min_noutput_items</name></member>
+      <member refid="classgr_1_1block_1ac28e42e36ef843b999cca3702981ccd7" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>min_output_buffer</name></member>
+      <member refid="classgr_1_1block_1a594fc8f2ff2e456ed929221437696bce" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>mp_relative_rate</name></member>
+      <member refid="classgr_1_1msg__accepter_1ae25bb0b46019f4dbe2bdcecdf50dc755" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>msg_accepter</name></member>
+      <member refid="classgr_1_1basic__block_1a68e92e54cda7a02697074705b9a7c08d" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>msg_queue</name></member>
+      <member refid="classgr_1_1basic__block_1af3a5056e2de6b3e561c02f2de37de44c" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>name</name></member>
+      <member refid="classgr_1_1block_1a2279d1eb421203bc5b0f100a6d5dc263" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>nitems_read</name></member>
+      <member refid="classgr_1_1block_1a742128a481fcb9e43a3e0cd535a57f9e" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>nitems_written</name></member>
+      <member refid="classgr_1_1basic__block_1a4e3baf2d69f2a00871c89993e28b50ea" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>nmsgs</name></member>
+      <member refid="classgr_1_1block_1a74745ea741b0aae938b003854f6043e0" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>no_pc_rpc</name></member>
+      <member refid="classgr_1_1block_1adf235647d7ec77995751de89d94a22a6" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>notify_msg_neighbors</name></member>
+      <member refid="classgr_1_1block_1a9a78a1ee7447a340162c719ef948b915" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>output_multiple</name></member>
+      <member refid="classgr_1_1block_1ad3c6867e113ea236e5e07a3674783e1d" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>output_multiple_set</name></member>
+      <member refid="classgr_1_1basic__block_1ae1a185fca1da861c9e6213f9e8284fed" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>output_signature</name></member>
+      <member refid="classgr_1_1block_1a4989096e4edf5e8171b65e3ce663af1e" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_input_buffers_full</name></member>
+      <member refid="classgr_1_1block_1a97d830331a4274ff8060fa925262afcf" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_input_buffers_full</name></member>
+      <member refid="classgr_1_1block_1a08e5deef4ebd0e6c2e11b839eaeadd9f" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_input_buffers_full_avg</name></member>
+      <member refid="classgr_1_1block_1a4d364bfc03abaa13f77b515169a86cb1" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_input_buffers_full_avg</name></member>
+      <member refid="classgr_1_1block_1a00723a35c6e095da35608c8438e16cdf" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_input_buffers_full_var</name></member>
+      <member refid="classgr_1_1block_1aee4a47800f4d1484e276778a2461ce37" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_input_buffers_full_var</name></member>
+      <member refid="classgr_1_1block_1af4a03de0d6609ca0e03b875250b7650c" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_noutput_items</name></member>
+      <member refid="classgr_1_1block_1a3beb47de467a4a117b0c096f8511d3af" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_noutput_items_avg</name></member>
+      <member refid="classgr_1_1block_1ae0725cd4ff4f5040a513c2a61355d434" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_noutput_items_var</name></member>
+      <member refid="classgr_1_1block_1a84ef5905d40b507a2230c996d8857289" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_nproduced</name></member>
+      <member refid="classgr_1_1block_1ad0b4960e100a088caefa99fb39f99a02" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_nproduced_avg</name></member>
+      <member refid="classgr_1_1block_1a1a506f34b8b8c3f968dc0a8cb9da0650" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_nproduced_var</name></member>
+      <member refid="classgr_1_1block_1ab125047ee56cf687e3475674a28d267f" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_output_buffers_full</name></member>
+      <member refid="classgr_1_1block_1abc0ec64aeeb1e51206049f7804f7774f" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_output_buffers_full</name></member>
+      <member refid="classgr_1_1block_1a0ed8f2224fe1d0b27e17cd66723452a8" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_output_buffers_full_avg</name></member>
+      <member refid="classgr_1_1block_1ad7f7e6fbb500e78493bc27b85e6c4c9f" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_output_buffers_full_avg</name></member>
+      <member refid="classgr_1_1block_1a2ad2a99ea794d44956d2878471e5976d" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_output_buffers_full_var</name></member>
+      <member refid="classgr_1_1block_1a43ecae35f34a1fc99d1bcbdccb844505" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_output_buffers_full_var</name></member>
+      <member refid="classgr_1_1block_1a78a27917edcd3b32f10b2166f3362a68" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_throughput_avg</name></member>
+      <member refid="classgr_1_1block_1ae8b89079d24a3216eb1b17d75ec5b8d8" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_work_time</name></member>
+      <member refid="classgr_1_1block_1a2df6452cef2999e1b32458a5e542f948" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_work_time_avg</name></member>
+      <member refid="classgr_1_1block_1a2c9fdd36be297e4b503ccd6290663367" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_work_time_total</name></member>
+      <member refid="classgr_1_1block_1a4918e75c4d11a0b7222c9ba250313ebc" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>pc_work_time_var</name></member>
+      <member refid="classgr_1_1msg__accepter_1a1032a8f3bf410b7670bc9af0c7c6d7ad" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>post</name></member>
+      <member refid="classgr_1_1block_1aa10e476b727d19dc6f95cb2326193607" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>processor_affinity</name></member>
+      <member refid="classgr_1_1block_1aa5581727d057bdd8113f8b2a3fc5bd66" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>produce</name></member>
+      <member refid="classgr_1_1block_1a2a9a0d39af4c22733092d6556042e810" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>relative_rate</name></member>
+      <member refid="classgr_1_1block_1a691c55aa7b05a6b316754b4833c7c08b" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>relative_rate_d</name></member>
+      <member refid="classgr_1_1block_1aa6a82fc4f09727a83d21a491dc355db4" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>relative_rate_i</name></member>
+      <member refid="classgr_1_1block_1a461f6cc92174e83b10c3ec5336036768" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>remove_item_tag</name></member>
+      <member refid="classgr_1_1block_1a94906298cd5995a94172c53dbfbc77dd" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>remove_item_tag</name></member>
+      <member refid="classgr_1_1block_1a13425cc28b7c19d8e6b004cf15df4063" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>replace_buffer</name></member>
+      <member refid="classgr_1_1block_1adb2d3602fe818cef1978090923667009" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>reset_perf_counters</name></member>
+      <member refid="classgr_1_1basic__block_1ac349eee015757c75f8486b36ee08b106" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>rpc_set</name></member>
+      <member refid="classgr_1_1block_1a5fbdc43bbdf257d22298bf5e68adb875" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>sample_delay</name></member>
+      <member refid="classgr_1_1block_1a49b49c097bffefe79f9d730539330edf" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_alignment</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a3dd4bf829a3408fc6dda2e1251347451" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_antenna</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1ad6e22e5d5c6a118d3581641d7a3323b5" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_bandwidth</name></member>
+      <member refid="classgr_1_1block_1abc9220cdf7a9972db81549e0ee1bb275" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_blkd_input_timer_value</name></member>
+      <member refid="classgr_1_1basic__block_1ad5251b68da76a9ce6bef105ef8136547" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_block_alias</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1ae6a04f7001a10c4e39eef04050590f3d" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_center_freq</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1abee715a8a09943f37dde6c893258a58f" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_center_freq</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a050219f726cb7cb6a6bf2a54c68ae54b" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_clock_rate</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a3bbb55b7fe3f71034a226b1c44fb85b6" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_clock_source</name></member>
+      <member refid="classgr_1_1basic__block_1a2c4a58849217d8b76ba2d25c0dfd8bd0" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_color</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1ae5876b4e9350ea4bfbc16fedfcb65741" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_command_time</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__sink_1aeb412d69c966385888be89fff04f7807" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_dc_offset</name></member>
+      <member refid="classgr_1_1block_1a776fbf15f5280bf8da74929b4ea8bb39" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_detail</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a49f262c197473f610ebee4ec37613589" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_filter</name></member>
+      <member refid="classgr_1_1block_1aa927cd4d5b8993122cf60dd556ffe62d" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_fixed_rate</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a17989be71dd8f2c06b071c0553daa82f" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_gain</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a21d8bdb0d51ac04daed10a5cee00581f" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_gain</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1aa798a8bc729a54eb07937a5d2af31d05" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_gpio_attr</name></member>
+      <member refid="classgr_1_1block_1ac2dac90e45498ad53a19544c01114136" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_history</name></member>
+      <member refid="classgr_1_1basic__block_1a3f3f8f70bd0f0f2925b09bb75725c2b6" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_input_signature</name></member>
+      <member refid="classgr_1_1block_1a2cbfba0f5144d425430e4139520bb297" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_inverse_relative_rate</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__sink_1a9bb20e5f904bf1403699f09a297a48d7" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_iq_balance</name></member>
+      <member refid="classgr_1_1block_1a0d33c4cc8b0131b9b8df41e3b46784b1" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_is_unaligned</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__sink_1a1ec82a7f4032453d42636fb41c2401e1" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_lo_export_enabled</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__sink_1a767d7c7797c8580135651a0bf2c636e3" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_lo_freq</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__sink_1a0945dffc70026402b75ec3636652d067" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_lo_source</name></member>
+      <member refid="classgr_1_1block_1ae4c10f5f25c47e15f715eee574cd0951" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>set_log_level</name></member>
+      <member refid="classgr_1_1block_1ae2405dc2f6c84bb8e59aab56e4ce9d84" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_max_noutput_items</name></member>
+      <member refid="classgr_1_1block_1a711fb69e35fb871e9a5e41d6a1f2afb1" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_max_output_buffer</name></member>
+      <member refid="classgr_1_1block_1a96d021628c08db3b138d3ee7c572ad90" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_max_output_buffer</name></member>
+      <member refid="classgr_1_1block_1a65cfc579150dc4d10c6180d3365aa9a8" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_min_noutput_items</name></member>
+      <member refid="classgr_1_1block_1a9d10e3f6747f91b215abe81b60a003d5" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_min_output_buffer</name></member>
+      <member refid="classgr_1_1block_1a46a03397c78096a2f1c7f1b59f225f5b" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_min_output_buffer</name></member>
+      <member refid="classgr_1_1basic__block_1a7fed11ec01538bfea999fb37687b43b4" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_msg_handler</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1acb55eecb7c3949a6940b284af35b5366" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_normalized_gain</name></member>
+      <member refid="classgr_1_1block_1a63d67fd758b70c6f2d7b7d4edcec53b3" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_output_multiple</name></member>
+      <member refid="classgr_1_1basic__block_1a7933b6bc4ad512774bbb40616cc31b4d" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_output_signature</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a56f2859ff75e877a5e5f9def5fa44414" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_power_reference</name></member>
+      <member refid="classgr_1_1block_1a00276b0a919a51d9255131c92ed91b27" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>set_processor_affinity</name></member>
+      <member refid="classgr_1_1block_1aff3003eea3517dd3e8d9a5297c1196b1" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_relative_rate</name></member>
+      <member refid="classgr_1_1block_1adf7794aa6f7ae1f9e243d6bc07687a77" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_relative_rate</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1aec7f2c84fdca8d00c24ab64da4b802ba" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_samp_rate</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__sink_1a244302d311f9232dc0634ebb920508c7" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_start_time</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1abf9dfd3aefb33fc7eff2d8db4538142d" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_stream_args</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1af7967544d9d2883d7867408330b0ee82" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_subdev_spec</name></member>
+      <member refid="classgr_1_1block_1a476e218927e426ac88c26431cbf086cd" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_tag_propagation_policy</name></member>
+      <member refid="classgr_1_1block_1a83e0fd5c4db199e6e6f2fc75cdfb5dfa" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_thread_priority</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a2a8fe19791f663f7aaa6725a6a3f54b5" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_time_next_pps</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a6600322668d82211649e32d1689d1cab" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_time_now</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a8e7143eb310754be92ebf90599c4e1f1" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_time_source</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a0db19ffad09cf57a69343d9cad8564e9" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_time_unknown_pps</name></member>
+      <member refid="classgr_1_1block_1a4d914fbc7814a682e25f5b2a40140d47" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_unaligned</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1ada6bee686090387a100952c755429c19" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>set_user_register</name></member>
+      <member refid="classgr_1_1block_1a9425064fac92607770042f472e140d7e" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>setup_pc_rpc</name></member>
+      <member refid="classgr_1_1basic__block_1a7f8bf6b9f28014657a6e8b5f25ca7802" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>setup_rpc</name></member>
+      <member refid="classgr_1_1basic__block_1a5b3a3265861764bbfb189e70f7a68cf1" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>shared_from_base</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__sink_1ae627446d40cb58d4cd2bb31e1bc0dda5" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>sptr</name></member>
+      <member refid="classgr_1_1block_1a7f58745d1374b30a7b866406dc97850f" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>start</name></member>
+      <member refid="classgr_1_1block_1a0863bc16f7c84adf4cddf5d53124450e" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>stop</name></member>
+      <member refid="classgr_1_1basic__block_1ab4985e58945604020bb5fd252df7b4c5" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>symbol_name</name></member>
+      <member refid="classgr_1_1basic__block_1a7c225b210f999a526e5b714eb603ddd5" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>symbolic_id</name></member>
+      <member refid="classgr_1_1sync__block_1a205473e9112aaffd3f92fcdcfa212ff4" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>sync_block</name></member>
+      <member refid="classgr_1_1sync__block_1a1372aea30148feba7e744c58a88782e4" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>sync_block</name></member>
+      <member refid="classgr_1_1block_1a4070b0462cce39d66b0c7c90ef2153d8" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>system_handler</name></member>
+      <member refid="classgr_1_1block_1a4892196a19ef044a0eedeaa6566893c8" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>tag_propagation_policy</name></member>
+      <member refid="classgr_1_1block_1abc40fd4d514724a5446a2b34b2352b4e" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>tag_propagation_policy_t</name></member>
+      <member refid="classgr_1_1block_1a585b831aea5775730931d7fb9e6e8253" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>thread_priority</name></member>
+      <member refid="classgr_1_1basic__block_1a84bf6924dfa0bb724caca46575669557" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>to_basic_block</name></member>
+      <member refid="classgr_1_1block_1abc40fd4d514724a5446a2b34b2352b4ea5b3fd823d5f918e588008c0bc876e574" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>TPP_ALL_TO_ALL</name></member>
+      <member refid="classgr_1_1block_1abc40fd4d514724a5446a2b34b2352b4eaadf6e1b257eee0590cc2b26161d08cdc" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>TPP_CUSTOM</name></member>
+      <member refid="classgr_1_1block_1abc40fd4d514724a5446a2b34b2352b4ea2e3b11eb10000e0efab110c31a83e502" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>TPP_DONT</name></member>
+      <member refid="classgr_1_1block_1abc40fd4d514724a5446a2b34b2352b4ea747127b6fb520f34be8ae3f951fdc53c" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>TPP_ONE_TO_ONE</name></member>
+      <member refid="classgr_1_1block_1a079b46fddc4241f7d5784f47a4d69893" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>unaligned</name></member>
+      <member refid="classgr_1_1basic__block_1a2e458ea6cf1129f1c3bb6f66229303ca" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>unique_id</name></member>
+      <member refid="classgr_1_1block_1a460e8e5f15a4c5418ce3fc167c20a973" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>unset_max_noutput_items</name></member>
+      <member refid="classgr_1_1block_1a84b99b697f5323c8c062ff6ac5691fc3" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>unset_processor_affinity</name></member>
+      <member refid="classgr_1_1block_1af0c836adc464e4b05983facc66b6e401" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>update_rate</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1ac8e89fcb9cea511367952520b4a9dfa2" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>usrp_block</name></member>
+      <member refid="classgr_1_1uhd_1_1usrp__block_1a62d506ff6101c02274389569d97df060" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>usrp_block</name></member>
+      <member refid="classgr_1_1basic__block_1ac84f6979cb9e7650de9d9205901401aa" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>vcolor</name></member>
+      <member refid="classgr_1_1basic__block_1ac84f6979cb9e7650de9d9205901401aaa42ae6a0efeb1be877a188c7ad4778f50" prot="protected" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>WHITE</name></member>
+      <member refid="classgr_1_1sync__block_1a38942c5d8bee5232404ab71ada9a3956" prot="public" virt="pure-virtual"><scope>gr::uhd::usrp_sink</scope><name>work</name></member>
+      <member refid="classgr_1_1block_1aad622109b3f7676df26c6e75dede24caa8cac307593cf1087803f28eee28ff45a" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>WORK_CALLED_PRODUCE</name></member>
+      <member refid="classgr_1_1block_1aad622109b3f7676df26c6e75dede24caa3e2d37c41af566875030fa1376c4203f" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>WORK_DONE</name></member>
+      <member refid="classgr_1_1block_1aad622109b3f7676df26c6e75dede24ca" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>work_return_t</name></member>
+      <member refid="classgr_1_1basic__block_1a6f1b212d7fb9637d34d078b073e7e803" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>~basic_block</name></member>
+      <member refid="classgr_1_1block_1a7713e4b282e743e8aac3df3c1b68fd6d" prot="public" virt="non-virtual"><scope>gr::uhd::usrp_sink</scope><name>~block</name></member>
+      <member refid="classgr_1_1msg__accepter_1a06c38c26efbfb1c4fd05eae97d2de748" prot="public" virt="virtual"><scope>gr::uhd::usrp_sink</scope><name>~msg_accepter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

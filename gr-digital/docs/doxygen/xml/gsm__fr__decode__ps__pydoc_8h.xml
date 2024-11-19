@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="gsm__fr__decode__ps__pydoc_8h" kind="file" language="C++">
+    <compoundname>gsm_fr_decode_ps_pydoc.h</compoundname>
+    <includes refid="build_2gr-vocoder_2python_2vocoder_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gsm_fr_decode_ps_pydoc.h</label>
+        <link refid="gsm__fr__decode__ps__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-vocoder_2python_2vocoder_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="gsm__fr__decode__ps__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, vocoder, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-vocoder/python/vocoder/bindings/gsm_fr_decode_ps_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-vocoder/python/vocoder/bindings/gsm_fr_decode_ps_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="gsm__fr__decode__ps__pydoc_8h_1af8ee1053cf018f3c633571ba3b2a1cf7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_vocoder_gsm_fr_decode_ps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_vocoder_gsm_fr_decode_ps</name>
+        <initializer>= R&quot;doc(GSM 06.10 Full Rate Vocoder Decoder.
+
+Input: Vector of 33 bytes per 160 input samples Output: 16-bit shorts representing speech samples
+
+Constructor Specific Documentation:
+
+Make GSM decoder block.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-vocoder/python/vocoder/bindings/gsm_fr_decode_ps_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-vocoder/python/vocoder/bindings/gsm_fr_decode_ps_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gsm__fr__decode__ps__pydoc_8h_1a67c4a0d686527969d13d98c06aaa623d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_vocoder_gsm_fr_decode_ps_gsm_fr_decode_ps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_vocoder_gsm_fr_decode_ps_gsm_fr_decode_ps</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-vocoder/python/vocoder/bindings/gsm_fr_decode_ps_pydoc.h" line="27" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-vocoder/python/vocoder/bindings/gsm_fr_decode_ps_pydoc.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gsm__fr__decode__ps__pydoc_8h_1a976d0abafd2c1ae144e59151825566b1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_vocoder_gsm_fr_decode_ps_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_vocoder_gsm_fr_decode_ps_make</name>
+        <initializer>= R&quot;doc(GSM 06.10 Full Rate Vocoder Decoder.
+
+Input: Vector of 33 bytes per 160 input samples Output: 16-bit shorts representing speech samples
+
+Constructor Specific Documentation:
+
+Make GSM decoder block.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-vocoder/python/vocoder/bindings/gsm_fr_decode_ps_pydoc.h" line="30" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-vocoder/python/vocoder/bindings/gsm_fr_decode_ps_pydoc.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-vocoder/python/vocoder/bindings/gsm_fr_decode_ps_pydoc.h"/>
+  </compounddef>
+</doxygen>

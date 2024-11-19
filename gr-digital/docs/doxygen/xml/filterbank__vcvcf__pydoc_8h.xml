@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="filterbank__vcvcf__pydoc_8h" kind="file" language="C++">
+    <compoundname>filterbank_vcvcf_pydoc.h</compoundname>
+    <includes refid="build_2gr-filter_2python_2filter_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>filterbank_vcvcf_pydoc.h</label>
+        <link refid="filterbank__vcvcf__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-filter_2python_2filter_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="filterbank__vcvcf__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, filter, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="filterbank__vcvcf__pydoc_8h_1a01d18b2dfaec197f0f2122f0273ad40f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_filterbank_vcvcf</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_filterbank_vcvcf</name>
+        <initializer>= R&quot;doc(Filterbank with vector of <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> input, vector of <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> output and float taps.
+
+This block takes in complex vectors and outputs complex vectors of the same size. Vectors of length N, rather than N normal streams are used to reduce overhead.
+
+Constructor Specific Documentation:
+
+Build the filterbank.
+
+Args:
+    <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> : (vector of vector of floats/list of list of floats) Used to populate the filters.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="filterbank__vcvcf__pydoc_8h_1ac4e9eec421d91595937dc31c6df81c21" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_filterbank_vcvcf_filterbank_vcvcf_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_filterbank_vcvcf_filterbank_vcvcf_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" line="30" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="filterbank__vcvcf__pydoc_8h_1a147528a588d0f1b53e8583813622e4dc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_filterbank_vcvcf_filterbank_vcvcf_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_filterbank_vcvcf_filterbank_vcvcf_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="filterbank__vcvcf__pydoc_8h_1abda9814deb99c3284b1b4cac963a977a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_filterbank_vcvcf_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_filterbank_vcvcf_make</name>
+        <initializer>= R&quot;doc(Filterbank with vector of <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> input, vector of <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> output and float taps.
+
+This block takes in complex vectors and outputs complex vectors of the same size. Vectors of length N, rather than N normal streams are used to reduce overhead.
+
+Constructor Specific Documentation:
+
+Build the filterbank.
+
+Args:
+    <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> : (vector of vector of floats/list of list of floats) Used to populate the filters.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="filterbank__vcvcf__pydoc_8h_1ad4a33510538991a9cfb68b51601bc6c7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_filterbank_vcvcf_set_taps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_filterbank_vcvcf_set_taps</name>
+        <initializer>= R&quot;doc(Resets the filterbank&apos;s filter <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> with the new prototype filter)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="filterbank__vcvcf__pydoc_8h_1af8596a5819e3ecdd853197d23adbd5a3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_filterbank_vcvcf_print_taps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_filterbank_vcvcf_print_taps</name>
+        <initializer>= R&quot;doc(Print all of the filterbank <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> to screen.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="filterbank__vcvcf__pydoc_8h_1ab8bc7d2033246ead657068998da27478" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_filterbank_vcvcf_taps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_filterbank_vcvcf_taps</name>
+        <initializer>= R&quot;doc(Return a vector&lt;vector&lt;&gt;&gt; of the filterbank <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref>)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" line="54" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/filterbank_vcvcf_pydoc.h"/>
+  </compounddef>
+</doxygen>

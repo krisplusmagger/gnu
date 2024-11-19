@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="group__uhd__blk" kind="group">
+    <compoundname>uhd_blk</compoundname>
+    <title>UHD Interface</title>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__block__generic" prot="public">gr::uhd::rfnoc_block_generic</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__ddc" prot="public">gr::uhd::rfnoc_ddc</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__duc" prot="public">gr::uhd::rfnoc_duc</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__fir__filter" prot="public">gr::uhd::rfnoc_fir_filter</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__replay" prot="public">gr::uhd::rfnoc_replay</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__rx__radio" prot="public">gr::uhd::rfnoc_rx_radio</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__rx__streamer" prot="public">gr::uhd::rfnoc_rx_streamer</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__siggen" prot="public">gr::uhd::rfnoc_siggen</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__tx__radio" prot="public">gr::uhd::rfnoc_tx_radio</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__window" prot="public">gr::uhd::rfnoc_window</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1usrp__block" prot="public">gr::uhd::usrp_block</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1usrp__sink" prot="public">gr::uhd::usrp_sink</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1usrp__source" prot="public">gr::uhd::usrp_source</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__uhd__blk_1gacf4de92d23244606851818761c53d228" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sptr</type>
+        <definition>static sptr gr::uhd::amsg_source::make</definition>
+        <argsstring>(const ::uhd::device_addr_t &amp;device_addr, msg_queue::sptr msgq)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::uhd::amsg_source::make</qualifiedname>
+        <param>
+          <type>const ::uhd::device_addr_t &amp;</type>
+          <declname>device_addr</declname>
+        </param>
+        <param>
+          <type>msg_queue::sptr</type>
+          <declname>msgq</declname>
+        </param>
+        <briefdescription>
+<para>Make a new USRP asynchronous message-based source block. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/amsg_source.h" line="42" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="cfo__model__pydoc_8h" kind="file" language="C++">
+    <compoundname>cfo_model_pydoc.h</compoundname>
+    <includes refid="build_2gr-channels_2python_2channels_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>cfo_model_pydoc.h</label>
+        <link refid="cfo__model__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-channels_2python_2channels_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="cfo__model__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, channels, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" line="10" column="11" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="cfo__model__pydoc_8h_1a5ef11302572dd02a886d5995386db140" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_cfo_model</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_cfo_model</name>
+        <initializer>= R&quot;doc(channel simulator
+
+This block implements a carrier frequency offset model that can be used to simulate carrier frequency drift typically from mixer LO drift on either transmit or receive hardware.
+
+
+A clipped gaussian random walk process is used.
+
+Constructor Specific Documentation:
+
+Build the carrier frequency offset model.
+
+Args:
+    sample_rate_hz : Sample rate of the input signal in Hz
+    std_dev_hz : Desired standard deviation of the random walk process every sample in Hz
+    max_dev_hz : Maximum carrier frequency deviation in Hz.
+    noise_seed : A random number generator seed for the noise source.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cfo__model__pydoc_8h_1acf1180c0f4ae83a4765b0d94d7973d43" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_cfo_model_cfo_model_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_cfo_model_cfo_model_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cfo__model__pydoc_8h_1a0826c59c007f85eac635e4cb932238e9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_cfo_model_cfo_model_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_cfo_model_cfo_model_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cfo__model__pydoc_8h_1ab0a546c11f597aadefc505a477ec61ac" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_cfo_model_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_cfo_model_make</name>
+        <initializer>= R&quot;doc(channel simulator
+
+This block implements a carrier frequency offset model that can be used to simulate carrier frequency drift typically from mixer LO drift on either transmit or receive hardware.
+
+
+A clipped gaussian random walk process is used.
+
+Constructor Specific Documentation:
+
+Build the carrier frequency offset model.
+
+Args:
+    sample_rate_hz : Sample rate of the input signal in Hz
+    std_dev_hz : Desired standard deviation of the random walk process every sample in Hz
+    max_dev_hz : Maximum carrier frequency deviation in Hz.
+    noise_seed : A random number generator seed for the noise source.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" line="42" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cfo__model__pydoc_8h_1a1bcc662984b3c6bc4697b2ecd79f131d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_cfo_model_set_std_dev</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_cfo_model_set_std_dev</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" line="60" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cfo__model__pydoc_8h_1aa634c071784338e5e385ccbc211ccde1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_cfo_model_set_max_dev</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_cfo_model_set_max_dev</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" line="63" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cfo__model__pydoc_8h_1a3e2f8bf006de45edc9fecad2f20ff1f0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_cfo_model_set_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_cfo_model_set_samp_rate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" line="66" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cfo__model__pydoc_8h_1adf775b596c833d07cb5b44c785f101bd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_cfo_model_std_dev</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_cfo_model_std_dev</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" line="69" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cfo__model__pydoc_8h_1a11d7f363eb22abc0b7fcca0235700453" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_cfo_model_max_dev</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_cfo_model_max_dev</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" line="72" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cfo__model__pydoc_8h_1a4d4beebb573a20cc91bf13c6cfa5808b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_cfo_model_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_cfo_model_samp_rate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" line="75" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/cfo_model_pydoc.h"/>
+  </compounddef>
+</doxygen>

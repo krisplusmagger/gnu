@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classAverageMenu" kind="class" language="C++" prot="public">
+    <compoundname>AverageMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMenu</basecompoundref>
+    <derivedcompoundref refid="classFFTAverageMenu" prot="public" virt="non-virtual">FFTAverageMenu</derivedcompoundref>
+    <includes refid="form__menus_8h" local="no">gnuradio/qtgui/form_menus.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classAverageMenu_1a5e6083997399860c1a12bea75b4a20ef" prot="private" static="no" mutable="no">
+        <type>QList&lt; QAction * &gt;</type>
+        <definition>QList&lt;QAction*&gt; AverageMenu::d_act</definition>
+        <argsstring></argsstring>
+        <name>d_act</name>
+        <qualifiedname>AverageMenu::d_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="553" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="553" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAverageMenu_1a26fc36ff0ca82728ededb350cc35ec8f" prot="private" static="no" mutable="no">
+        <type>QActionGroup *</type>
+        <definition>QActionGroup* AverageMenu::d_grp</definition>
+        <argsstring></argsstring>
+        <name>d_grp</name>
+        <qualifiedname>AverageMenu::d_grp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="554" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="554" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAverageMenu_1aa4b45da84626b2ce7ff7418fa0f134e2" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AverageMenu::d_off</definition>
+        <argsstring></argsstring>
+        <name>d_off</name>
+        <qualifiedname>AverageMenu::d_off</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="555" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="555" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAverageMenu_1a0462eff00516213ea85eda6486af1922" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AverageMenu::d_high</definition>
+        <argsstring></argsstring>
+        <name>d_high</name>
+        <qualifiedname>AverageMenu::d_high</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="555" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="555" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAverageMenu_1a177806219924bf98a33773c1c40824b6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AverageMenu::d_medium</definition>
+        <argsstring></argsstring>
+        <name>d_medium</name>
+        <qualifiedname>AverageMenu::d_medium</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="555" column="24" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="555" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAverageMenu_1ad9a64a340bdc9702c278cb4b89c55776" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AverageMenu::d_low</definition>
+        <argsstring></argsstring>
+        <name>d_low</name>
+        <qualifiedname>AverageMenu::d_low</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="555" column="33" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="555" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAverageMenu_1a53e287a5048ac8e6223ce701ce75606e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AverageMenu::AverageMenu</definition>
+        <argsstring>(const std::string &amp;menuTitle, QWidget *parent)</argsstring>
+        <name>AverageMenu</name>
+        <qualifiedname>AverageMenu::AverageMenu</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>menuTitle</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="470" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="470" bodyend="504"/>
+        <references refid="classAverageMenu_1acf4f581a013424db4333b4d79488d7a1" compoundref="form__menus_8h" startline="543" endline="543">getHigh</references>
+        <references refid="classAverageMenu_1a1d3c80700c99c6b8e7777118f36d74bd" compoundref="form__menus_8h" startline="545" endline="545">getLow</references>
+        <references refid="classAverageMenu_1a497e266b82007bca53ef3c4e4d170f41" compoundref="form__menus_8h" startline="544" endline="544">getMedium</references>
+        <references refid="classAverageMenu_1a4ee943c4f3b0610f668c81ca0d6a4ce4" compoundref="form__menus_8h" startline="542" endline="542">getOff</references>
+      </memberdef>
+      <memberdef kind="function" id="classAverageMenu_1a3618f75199355ebf0ac604624f38c7c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AverageMenu::~AverageMenu</definition>
+        <argsstring>() override</argsstring>
+        <name>~AverageMenu</name>
+        <qualifiedname>AverageMenu::~AverageMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="506" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="506" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="classAverageMenu_1ae504ea592907f6f90f3a8fbde2f3a53e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int AverageMenu::getNumActions</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumActions</name>
+        <qualifiedname>AverageMenu::getNumActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="508" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="508" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="classAverageMenu_1a89091d7f93f64729175edaf1b1b98d21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * AverageMenu::getAction</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>getAction</name>
+        <qualifiedname>AverageMenu::getAction</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="510" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="510" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="classAverageMenu_1a70ca9603ac63ba77ab19e443ca4768f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * AverageMenu::getActionFromAvg</definition>
+        <argsstring>(float avg)</argsstring>
+        <name>getActionFromAvg</name>
+        <qualifiedname>AverageMenu::getActionFromAvg</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>avg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="518" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="518" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="classAverageMenu_1aa0bd2a3fd1cb6835f814fd63bcb425e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AverageMenu::setHigh</definition>
+        <argsstring>(float x)</argsstring>
+        <name>setHigh</name>
+        <qualifiedname>AverageMenu::setHigh</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="532" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="532" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="classAverageMenu_1aaf7a13e03fbfd70dc9eec486327bb06a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AverageMenu::setMedium</definition>
+        <argsstring>(float x)</argsstring>
+        <name>setMedium</name>
+        <qualifiedname>AverageMenu::setMedium</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="534" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="534" bodyend="534"/>
+      </memberdef>
+      <memberdef kind="function" id="classAverageMenu_1acbef5cba6a427a02c9f54f8c0899b09b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AverageMenu::setLow</definition>
+        <argsstring>(float x)</argsstring>
+        <name>setLow</name>
+        <qualifiedname>AverageMenu::setLow</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="536" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="536" bodyend="536"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classAverageMenu_1a00581369d26cd2b37027f62c1a1c71f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AverageMenu::whichTrigger</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>whichTrigger</name>
+        <qualifiedname>AverageMenu::whichTrigger</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="539" column="10"/>
+        <referencedby refid="classAverageMenu_1acf4f581a013424db4333b4d79488d7a1" compoundref="form__menus_8h" startline="543" endline="543">getHigh</referencedby>
+        <referencedby refid="classAverageMenu_1a1d3c80700c99c6b8e7777118f36d74bd" compoundref="form__menus_8h" startline="545" endline="545">getLow</referencedby>
+        <referencedby refid="classAverageMenu_1a497e266b82007bca53ef3c4e4d170f41" compoundref="form__menus_8h" startline="544" endline="544">getMedium</referencedby>
+        <referencedby refid="classAverageMenu_1a4ee943c4f3b0610f668c81ca0d6a4ce4" compoundref="form__menus_8h" startline="542" endline="542">getOff</referencedby>
+        <referencedby refid="classAverageMenu_1ad2f54731a3a40a703879831bc7b6cdc2" compoundref="form__menus_8h" startline="546" endline="550">getOther</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classAverageMenu_1a4ee943c4f3b0610f668c81ca0d6a4ce4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AverageMenu::getOff</definition>
+        <argsstring>()</argsstring>
+        <name>getOff</name>
+        <qualifiedname>AverageMenu::getOff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="542" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="542" bodyend="542"/>
+        <references refid="classAverageMenu_1a00581369d26cd2b37027f62c1a1c71f0">whichTrigger</references>
+        <referencedby refid="classAverageMenu_1a53e287a5048ac8e6223ce701ce75606e" compoundref="form__menus_8h" startline="470" endline="504">AverageMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classAverageMenu_1acf4f581a013424db4333b4d79488d7a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AverageMenu::getHigh</definition>
+        <argsstring>()</argsstring>
+        <name>getHigh</name>
+        <qualifiedname>AverageMenu::getHigh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="543" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="543" bodyend="543"/>
+        <references refid="classAverageMenu_1a00581369d26cd2b37027f62c1a1c71f0">whichTrigger</references>
+        <referencedby refid="classAverageMenu_1a53e287a5048ac8e6223ce701ce75606e" compoundref="form__menus_8h" startline="470" endline="504">AverageMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classAverageMenu_1a497e266b82007bca53ef3c4e4d170f41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AverageMenu::getMedium</definition>
+        <argsstring>()</argsstring>
+        <name>getMedium</name>
+        <qualifiedname>AverageMenu::getMedium</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="544" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="544" bodyend="544"/>
+        <references refid="classAverageMenu_1a00581369d26cd2b37027f62c1a1c71f0">whichTrigger</references>
+        <referencedby refid="classAverageMenu_1a53e287a5048ac8e6223ce701ce75606e" compoundref="form__menus_8h" startline="470" endline="504">AverageMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classAverageMenu_1a1d3c80700c99c6b8e7777118f36d74bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AverageMenu::getLow</definition>
+        <argsstring>()</argsstring>
+        <name>getLow</name>
+        <qualifiedname>AverageMenu::getLow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="545" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="545" bodyend="545"/>
+        <references refid="classAverageMenu_1a00581369d26cd2b37027f62c1a1c71f0">whichTrigger</references>
+        <referencedby refid="classAverageMenu_1a53e287a5048ac8e6223ce701ce75606e" compoundref="form__menus_8h" startline="470" endline="504">AverageMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classAverageMenu_1ad2f54731a3a40a703879831bc7b6cdc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AverageMenu::getOther</definition>
+        <argsstring>(const QString &amp;str)</argsstring>
+        <name>getOther</name>
+        <qualifiedname>AverageMenu::getOther</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="546" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="546" bodyend="550"/>
+        <references refid="classAverageMenu_1a00581369d26cd2b37027f62c1a1c71f0">whichTrigger</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AverageMenu</label>
+        <link refid="classAverageMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FFTAverageMenu</label>
+        <link refid="classFFTAverageMenu"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AverageMenu</label>
+        <link refid="classAverageMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="465" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="466" bodyend="556"/>
+    <listofallmembers>
+      <member refid="classAverageMenu_1a53e287a5048ac8e6223ce701ce75606e" prot="public" virt="non-virtual"><scope>AverageMenu</scope><name>AverageMenu</name></member>
+      <member refid="classAverageMenu_1a5e6083997399860c1a12bea75b4a20ef" prot="private" virt="non-virtual"><scope>AverageMenu</scope><name>d_act</name></member>
+      <member refid="classAverageMenu_1a26fc36ff0ca82728ededb350cc35ec8f" prot="private" virt="non-virtual"><scope>AverageMenu</scope><name>d_grp</name></member>
+      <member refid="classAverageMenu_1a0462eff00516213ea85eda6486af1922" prot="private" virt="non-virtual"><scope>AverageMenu</scope><name>d_high</name></member>
+      <member refid="classAverageMenu_1ad9a64a340bdc9702c278cb4b89c55776" prot="private" virt="non-virtual"><scope>AverageMenu</scope><name>d_low</name></member>
+      <member refid="classAverageMenu_1a177806219924bf98a33773c1c40824b6" prot="private" virt="non-virtual"><scope>AverageMenu</scope><name>d_medium</name></member>
+      <member refid="classAverageMenu_1aa4b45da84626b2ce7ff7418fa0f134e2" prot="private" virt="non-virtual"><scope>AverageMenu</scope><name>d_off</name></member>
+      <member refid="classAverageMenu_1a89091d7f93f64729175edaf1b1b98d21" prot="public" virt="non-virtual"><scope>AverageMenu</scope><name>getAction</name></member>
+      <member refid="classAverageMenu_1a70ca9603ac63ba77ab19e443ca4768f3" prot="public" virt="non-virtual"><scope>AverageMenu</scope><name>getActionFromAvg</name></member>
+      <member refid="classAverageMenu_1acf4f581a013424db4333b4d79488d7a1" prot="public" virt="non-virtual"><scope>AverageMenu</scope><name>getHigh</name></member>
+      <member refid="classAverageMenu_1a1d3c80700c99c6b8e7777118f36d74bd" prot="public" virt="non-virtual"><scope>AverageMenu</scope><name>getLow</name></member>
+      <member refid="classAverageMenu_1a497e266b82007bca53ef3c4e4d170f41" prot="public" virt="non-virtual"><scope>AverageMenu</scope><name>getMedium</name></member>
+      <member refid="classAverageMenu_1ae504ea592907f6f90f3a8fbde2f3a53e" prot="public" virt="non-virtual"><scope>AverageMenu</scope><name>getNumActions</name></member>
+      <member refid="classAverageMenu_1a4ee943c4f3b0610f668c81ca0d6a4ce4" prot="public" virt="non-virtual"><scope>AverageMenu</scope><name>getOff</name></member>
+      <member refid="classAverageMenu_1ad2f54731a3a40a703879831bc7b6cdc2" prot="public" virt="non-virtual"><scope>AverageMenu</scope><name>getOther</name></member>
+      <member refid="classAverageMenu_1aa0bd2a3fd1cb6835f814fd63bcb425e0" prot="public" virt="non-virtual"><scope>AverageMenu</scope><name>setHigh</name></member>
+      <member refid="classAverageMenu_1acbef5cba6a427a02c9f54f8c0899b09b" prot="public" virt="non-virtual"><scope>AverageMenu</scope><name>setLow</name></member>
+      <member refid="classAverageMenu_1aaf7a13e03fbfd70dc9eec486327bb06a" prot="public" virt="non-virtual"><scope>AverageMenu</scope><name>setMedium</name></member>
+      <member refid="classAverageMenu_1a00581369d26cd2b37027f62c1a1c71f0" prot="public" virt="non-virtual"><scope>AverageMenu</scope><name>whichTrigger</name></member>
+      <member refid="classAverageMenu_1a3618f75199355ebf0ac604624f38c7c0" prot="public" virt="non-virtual"><scope>AverageMenu</scope><name>~AverageMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

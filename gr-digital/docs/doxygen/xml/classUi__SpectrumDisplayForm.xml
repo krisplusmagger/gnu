@@ -1,0 +1,729 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classUi__SpectrumDisplayForm" kind="class" language="C++" prot="public">
+    <compoundname>Ui_SpectrumDisplayForm</compoundname>
+    <derivedcompoundref refid="classUi_1_1SpectrumDisplayForm" prot="public" virt="non-virtual">Ui::SpectrumDisplayForm</derivedcompoundref>
+    <includes refid="ui__spectrumdisplayform_8h" local="no">/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1ae1429590ff616eb46c5337200d43086a" prot="public" static="no" mutable="no">
+        <type>QGridLayout *</type>
+        <definition>QGridLayout* Ui_SpectrumDisplayForm::gridLayout</definition>
+        <argsstring></argsstring>
+        <name>gridLayout</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::gridLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="39" column="17" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a8c96add02517c9df757d2d4854f661ee" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Ui_SpectrumDisplayForm::FFTSizeComboBox</definition>
+        <argsstring></argsstring>
+        <name>FFTSizeComboBox</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::FFTSizeComboBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="40" column="15" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a96f59870d3cb3d1db0629c9f5c01d1f9" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_SpectrumDisplayForm::FFTSizeLabel</definition>
+        <argsstring></argsstring>
+        <name>FFTSizeLabel</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::FFTSizeLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="41" column="12" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a7a42c7ad4d09bc0677a744006b806487" prot="public" static="no" mutable="no">
+        <type>QCheckBox *</type>
+        <definition>QCheckBox* Ui_SpectrumDisplayForm::UseRFFrequenciesCheckBox</definition>
+        <argsstring></argsstring>
+        <name>UseRFFrequenciesCheckBox</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::UseRFFrequenciesCheckBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="42" column="15" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a6c9fb9c0f9060b3035c5e3fb14fb09cc" prot="public" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* Ui_SpectrumDisplayForm::horizontalLayout</definition>
+        <argsstring></argsstring>
+        <name>horizontalLayout</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::horizontalLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="43" column="17" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a03dc284e25b12062b64bd72e1faca434" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_SpectrumDisplayForm::WindowLbl</definition>
+        <argsstring></argsstring>
+        <name>WindowLbl</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::WindowLbl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="44" column="12" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a83c80d15ec5f91d4e96d6053dcab9d86" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Ui_SpectrumDisplayForm::WindowComboBox</definition>
+        <argsstring></argsstring>
+        <name>WindowComboBox</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::WindowComboBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="45" column="15" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1af919cbfc991dffb2c83a526fbf8d64e9" prot="public" static="no" mutable="no">
+        <type>QTabWidget *</type>
+        <definition>QTabWidget* Ui_SpectrumDisplayForm::SpectrumTypeTab</definition>
+        <argsstring></argsstring>
+        <name>SpectrumTypeTab</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::SpectrumTypeTab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="46" column="16" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1af5474226f16248f2cbcb84b918e9183b" prot="public" static="no" mutable="no">
+        <type>QWidget *</type>
+        <definition>QWidget* Ui_SpectrumDisplayForm::FrequencyPage</definition>
+        <argsstring></argsstring>
+        <name>FrequencyPage</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::FrequencyPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="47" column="13" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1aee1df4aea4163dcf2fa01c88131066aa" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_SpectrumDisplayForm::verticalLayout</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::verticalLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="48" column="17" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="48" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a489e854b087478ed8b439ed50a6f369a" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_SpectrumDisplayForm::verticalLayout_2</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout_2</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::verticalLayout_2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="49" column="17" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="49" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1ab1995cda41d1f4b02533529783ff1e7f" prot="public" static="no" mutable="no">
+        <type>QFrame *</type>
+        <definition>QFrame* Ui_SpectrumDisplayForm::FrequencyPlotDisplayFrame</definition>
+        <argsstring></argsstring>
+        <name>FrequencyPlotDisplayFrame</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::FrequencyPlotDisplayFrame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="50" column="12" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="50" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a1c828fad08b3286b5e33f6cea1780324" prot="public" static="no" mutable="no">
+        <type>QGridLayout *</type>
+        <definition>QGridLayout* Ui_SpectrumDisplayForm::gridLayout_2</definition>
+        <argsstring></argsstring>
+        <name>gridLayout_2</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::gridLayout_2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="51" column="17" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="51" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a98a7e8df35d2a2ff3a27287bf67c9e92" prot="public" static="no" mutable="no">
+        <type>QCheckBox *</type>
+        <definition>QCheckBox* Ui_SpectrumDisplayForm::MaxHoldCheckBox</definition>
+        <argsstring></argsstring>
+        <name>MaxHoldCheckBox</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::MaxHoldCheckBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="52" column="15" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="52" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1aef6ac793a5ed074d711a49bace3085b2" prot="public" static="no" mutable="no">
+        <type>QCheckBox *</type>
+        <definition>QCheckBox* Ui_SpectrumDisplayForm::MinHoldCheckBox</definition>
+        <argsstring></argsstring>
+        <name>MinHoldCheckBox</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::MinHoldCheckBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="53" column="15" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="53" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1abc2a415309c7c8e2fdf2290057c9c34c" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_SpectrumDisplayForm::MaxHoldResetBtn</definition>
+        <argsstring></argsstring>
+        <name>MaxHoldResetBtn</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::MaxHoldResetBtn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="54" column="17" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="54" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a2d612cc2fba4c769bec23ad99aaa8ca2" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_SpectrumDisplayForm::AvgLabel</definition>
+        <argsstring></argsstring>
+        <name>AvgLabel</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::AvgLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="55" column="12" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="55" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a7cf47ba96d9e4ac3f899fde74ce41ae9" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_SpectrumDisplayForm::MinHoldResetBtn</definition>
+        <argsstring></argsstring>
+        <name>MinHoldResetBtn</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::MinHoldResetBtn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="56" column="17" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="56" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1afdb12106fe08e43c56f4bdda06bcb9a0" prot="public" static="no" mutable="no">
+        <type>QSpinBox *</type>
+        <definition>QSpinBox* Ui_SpectrumDisplayForm::AvgLineEdit</definition>
+        <argsstring></argsstring>
+        <name>AvgLineEdit</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::AvgLineEdit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="57" column="14" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="57" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a50f1f7061bbfea4b7a0a7059c6384f26" prot="public" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* Ui_SpectrumDisplayForm::horizontalSpacer_2</definition>
+        <argsstring></argsstring>
+        <name>horizontalSpacer_2</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::horizontalSpacer_2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="58" column="17" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="58" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a60836cbc6ecd5a864c7d6ffb3494fee1" prot="public" static="no" mutable="no">
+        <type>QWidget *</type>
+        <definition>QWidget* Ui_SpectrumDisplayForm::WaterfallPage</definition>
+        <argsstring></argsstring>
+        <name>WaterfallPage</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::WaterfallPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="59" column="13" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="59" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1af0babb82beee6214e14fd287542afe35" prot="public" static="no" mutable="no">
+        <type>QGridLayout *</type>
+        <definition>QGridLayout* Ui_SpectrumDisplayForm::gridLayout_3</definition>
+        <argsstring></argsstring>
+        <name>gridLayout_3</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::gridLayout_3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="60" column="17" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="60" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a51d853a4c69d3e96ad0e3df8abaf022d" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_SpectrumDisplayForm::textLabel1</definition>
+        <argsstring></argsstring>
+        <name>textLabel1</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::textLabel1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="61" column="12" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="61" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a75ceb11df22114832e0f414dac06f9a9" prot="public" static="no" mutable="no">
+        <type>QwtSlider *</type>
+        <definition>QwtSlider* Ui_SpectrumDisplayForm::WaterfallMaximumIntensitySlider</definition>
+        <argsstring></argsstring>
+        <name>WaterfallMaximumIntensitySlider</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::WaterfallMaximumIntensitySlider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="62" column="15" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="62" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a8bb6c51acea374a857905baa3da830ef" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_SpectrumDisplayForm::WaterfallMaximumIntensityLabel</definition>
+        <argsstring></argsstring>
+        <name>WaterfallMaximumIntensityLabel</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::WaterfallMaximumIntensityLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="63" column="12" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="63" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a45566aeceb97c104bac3b2ac6276e271" prot="public" static="no" mutable="no">
+        <type>QFrame *</type>
+        <definition>QFrame* Ui_SpectrumDisplayForm::WaterfallPlotDisplayFrame</definition>
+        <argsstring></argsstring>
+        <name>WaterfallPlotDisplayFrame</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::WaterfallPlotDisplayFrame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="64" column="12" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="64" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1ae173e0e36ac122955eaef6d5249bd8e7" prot="public" static="no" mutable="no">
+        <type>QwtSlider *</type>
+        <definition>QwtSlider* Ui_SpectrumDisplayForm::WaterfallMinimumIntensitySlider</definition>
+        <argsstring></argsstring>
+        <name>WaterfallMinimumIntensitySlider</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::WaterfallMinimumIntensitySlider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="65" column="15" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="65" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a54fd2ffa6e65a3a06ab1d5f65c42e4a4" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_SpectrumDisplayForm::WaterfallMinimumIntensityLabel</definition>
+        <argsstring></argsstring>
+        <name>WaterfallMinimumIntensityLabel</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::WaterfallMinimumIntensityLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="66" column="12" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="66" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1aba34a33a9700d2a35542cc8618c0614e" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_SpectrumDisplayForm::WaterfallAutoScaleBtn</definition>
+        <argsstring></argsstring>
+        <name>WaterfallAutoScaleBtn</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::WaterfallAutoScaleBtn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="67" column="17" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="67" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a7fd1d4ddca502168e19b11a773bbf7fb" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Ui_SpectrumDisplayForm::WaterfallIntensityComboBox</definition>
+        <argsstring></argsstring>
+        <name>WaterfallIntensityComboBox</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::WaterfallIntensityComboBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="68" column="15" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="68" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a5a8c32f03bfa89609f328d4b086de097" prot="public" static="no" mutable="no">
+        <type>QWidget *</type>
+        <definition>QWidget* Ui_SpectrumDisplayForm::TimeDomainPage</definition>
+        <argsstring></argsstring>
+        <name>TimeDomainPage</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::TimeDomainPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="69" column="13" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="69" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1ab9656a1d75ad792cd453b4abbc74b019" prot="public" static="no" mutable="no">
+        <type>QGridLayout *</type>
+        <definition>QGridLayout* Ui_SpectrumDisplayForm::gridLayout_4</definition>
+        <argsstring></argsstring>
+        <name>gridLayout_4</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::gridLayout_4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="70" column="17" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="70" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a3c9511757687071784c13b5a12881a3e" prot="public" static="no" mutable="no">
+        <type>QFrame *</type>
+        <definition>QFrame* Ui_SpectrumDisplayForm::TimeDomainDisplayFrame</definition>
+        <argsstring></argsstring>
+        <name>TimeDomainDisplayFrame</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::TimeDomainDisplayFrame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="71" column="12" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a483ae312e12b0f5492f0272ac738e54b" prot="public" static="no" mutable="no">
+        <type>QWidget *</type>
+        <definition>QWidget* Ui_SpectrumDisplayForm::ConstellationPage</definition>
+        <argsstring></argsstring>
+        <name>ConstellationPage</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::ConstellationPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="72" column="13" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="72" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</referencedby>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1a569470a666147c9fa5c53e2e3f6e630e" prot="public" static="no" mutable="no">
+        <type>QGridLayout *</type>
+        <definition>QGridLayout* Ui_SpectrumDisplayForm::gridLayout_5</definition>
+        <argsstring></argsstring>
+        <name>gridLayout_5</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::gridLayout_5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="73" column="17" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="73" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__SpectrumDisplayForm_1abdd6ac96ae46e5d67a7dbfae6e3b949c" prot="public" static="no" mutable="no">
+        <type>QFrame *</type>
+        <definition>QFrame* Ui_SpectrumDisplayForm::ConstellationDisplayFrame</definition>
+        <argsstring></argsstring>
+        <name>ConstellationDisplayFrame</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::ConstellationDisplayFrame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="74" column="12" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="74" bodyend="-1"/>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_SpectrumDisplayForm::setupUi</definition>
+        <argsstring>(QWidget *SpectrumDisplayForm)</argsstring>
+        <name>setupUi</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::setupUi</qualifiedname>
+        <param>
+          <type>QWidget *</type>
+          <declname>SpectrumDisplayForm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="76" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="76" bodyend="358"/>
+        <references refid="classUi__SpectrumDisplayForm_1a2d612cc2fba4c769bec23ad99aaa8ca2" compoundref="ui__spectrumdisplayform_8h" startline="55">AvgLabel</references>
+        <references refid="classUi__SpectrumDisplayForm_1afdb12106fe08e43c56f4bdda06bcb9a0" compoundref="ui__spectrumdisplayform_8h" startline="57">AvgLineEdit</references>
+        <references refid="classUi__SpectrumDisplayForm_1abdd6ac96ae46e5d67a7dbfae6e3b949c" compoundref="ui__spectrumdisplayform_8h" startline="74">ConstellationDisplayFrame</references>
+        <references refid="classUi__SpectrumDisplayForm_1a483ae312e12b0f5492f0272ac738e54b" compoundref="ui__spectrumdisplayform_8h" startline="72">ConstellationPage</references>
+        <references refid="classUi__SpectrumDisplayForm_1a8c96add02517c9df757d2d4854f661ee" compoundref="ui__spectrumdisplayform_8h" startline="40">FFTSizeComboBox</references>
+        <references refid="classUi__SpectrumDisplayForm_1a96f59870d3cb3d1db0629c9f5c01d1f9" compoundref="ui__spectrumdisplayform_8h" startline="41">FFTSizeLabel</references>
+        <references refid="classUi__SpectrumDisplayForm_1af5474226f16248f2cbcb84b918e9183b" compoundref="ui__spectrumdisplayform_8h" startline="47">FrequencyPage</references>
+        <references refid="classUi__SpectrumDisplayForm_1ab1995cda41d1f4b02533529783ff1e7f" compoundref="ui__spectrumdisplayform_8h" startline="50">FrequencyPlotDisplayFrame</references>
+        <references refid="classUi__SpectrumDisplayForm_1ae1429590ff616eb46c5337200d43086a" compoundref="ui__spectrumdisplayform_8h" startline="39">gridLayout</references>
+        <references refid="classUi__SpectrumDisplayForm_1a1c828fad08b3286b5e33f6cea1780324" compoundref="ui__spectrumdisplayform_8h" startline="51">gridLayout_2</references>
+        <references refid="classUi__SpectrumDisplayForm_1af0babb82beee6214e14fd287542afe35" compoundref="ui__spectrumdisplayform_8h" startline="60">gridLayout_3</references>
+        <references refid="classUi__SpectrumDisplayForm_1ab9656a1d75ad792cd453b4abbc74b019" compoundref="ui__spectrumdisplayform_8h" startline="70">gridLayout_4</references>
+        <references refid="classUi__SpectrumDisplayForm_1a569470a666147c9fa5c53e2e3f6e630e" compoundref="ui__spectrumdisplayform_8h" startline="73">gridLayout_5</references>
+        <references refid="classUi__SpectrumDisplayForm_1a6c9fb9c0f9060b3035c5e3fb14fb09cc" compoundref="ui__spectrumdisplayform_8h" startline="43">horizontalLayout</references>
+        <references refid="classUi__SpectrumDisplayForm_1a50f1f7061bbfea4b7a0a7059c6384f26" compoundref="ui__spectrumdisplayform_8h" startline="58">horizontalSpacer_2</references>
+        <references refid="classUi__SpectrumDisplayForm_1a98a7e8df35d2a2ff3a27287bf67c9e92" compoundref="ui__spectrumdisplayform_8h" startline="52">MaxHoldCheckBox</references>
+        <references refid="classUi__SpectrumDisplayForm_1abc2a415309c7c8e2fdf2290057c9c34c" compoundref="ui__spectrumdisplayform_8h" startline="54">MaxHoldResetBtn</references>
+        <references refid="classUi__SpectrumDisplayForm_1aef6ac793a5ed074d711a49bace3085b2" compoundref="ui__spectrumdisplayform_8h" startline="53">MinHoldCheckBox</references>
+        <references refid="classUi__SpectrumDisplayForm_1a7cf47ba96d9e4ac3f899fde74ce41ae9" compoundref="ui__spectrumdisplayform_8h" startline="56">MinHoldResetBtn</references>
+        <references refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" compoundref="ui__spectrumdisplayform_8h" startline="360" endline="404">retranslateUi</references>
+        <references refid="classUi__SpectrumDisplayForm_1af919cbfc991dffb2c83a526fbf8d64e9" compoundref="ui__spectrumdisplayform_8h" startline="46">SpectrumTypeTab</references>
+        <references refid="classUi__SpectrumDisplayForm_1a51d853a4c69d3e96ad0e3df8abaf022d" compoundref="ui__spectrumdisplayform_8h" startline="61">textLabel1</references>
+        <references refid="classUi__SpectrumDisplayForm_1a3c9511757687071784c13b5a12881a3e" compoundref="ui__spectrumdisplayform_8h" startline="71">TimeDomainDisplayFrame</references>
+        <references refid="classUi__SpectrumDisplayForm_1a5a8c32f03bfa89609f328d4b086de097" compoundref="ui__spectrumdisplayform_8h" startline="69">TimeDomainPage</references>
+        <references refid="classUi__SpectrumDisplayForm_1a7a42c7ad4d09bc0677a744006b806487" compoundref="ui__spectrumdisplayform_8h" startline="42">UseRFFrequenciesCheckBox</references>
+        <references refid="classUi__SpectrumDisplayForm_1aee1df4aea4163dcf2fa01c88131066aa" compoundref="ui__spectrumdisplayform_8h" startline="48">verticalLayout</references>
+        <references refid="classUi__SpectrumDisplayForm_1a489e854b087478ed8b439ed50a6f369a" compoundref="ui__spectrumdisplayform_8h" startline="49">verticalLayout_2</references>
+        <references refid="classUi__SpectrumDisplayForm_1aba34a33a9700d2a35542cc8618c0614e" compoundref="ui__spectrumdisplayform_8h" startline="67">WaterfallAutoScaleBtn</references>
+        <references refid="classUi__SpectrumDisplayForm_1a7fd1d4ddca502168e19b11a773bbf7fb" compoundref="ui__spectrumdisplayform_8h" startline="68">WaterfallIntensityComboBox</references>
+        <references refid="classUi__SpectrumDisplayForm_1a8bb6c51acea374a857905baa3da830ef" compoundref="ui__spectrumdisplayform_8h" startline="63">WaterfallMaximumIntensityLabel</references>
+        <references refid="classUi__SpectrumDisplayForm_1a75ceb11df22114832e0f414dac06f9a9" compoundref="ui__spectrumdisplayform_8h" startline="62">WaterfallMaximumIntensitySlider</references>
+        <references refid="classUi__SpectrumDisplayForm_1a54fd2ffa6e65a3a06ab1d5f65c42e4a4" compoundref="ui__spectrumdisplayform_8h" startline="66">WaterfallMinimumIntensityLabel</references>
+        <references refid="classUi__SpectrumDisplayForm_1ae173e0e36ac122955eaef6d5249bd8e7" compoundref="ui__spectrumdisplayform_8h" startline="65">WaterfallMinimumIntensitySlider</references>
+        <references refid="classUi__SpectrumDisplayForm_1a60836cbc6ecd5a864c7d6ffb3494fee1" compoundref="ui__spectrumdisplayform_8h" startline="59">WaterfallPage</references>
+        <references refid="classUi__SpectrumDisplayForm_1a45566aeceb97c104bac3b2ac6276e271" compoundref="ui__spectrumdisplayform_8h" startline="64">WaterfallPlotDisplayFrame</references>
+        <references refid="classUi__SpectrumDisplayForm_1a83c80d15ec5f91d4e96d6053dcab9d86" compoundref="ui__spectrumdisplayform_8h" startline="45">WindowComboBox</references>
+        <references refid="classUi__SpectrumDisplayForm_1a03dc284e25b12062b64bd72e1faca434" compoundref="ui__spectrumdisplayform_8h" startline="44">WindowLbl</references>
+      </memberdef>
+      <memberdef kind="function" id="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_SpectrumDisplayForm::retranslateUi</definition>
+        <argsstring>(QWidget *SpectrumDisplayForm)</argsstring>
+        <name>retranslateUi</name>
+        <qualifiedname>Ui_SpectrumDisplayForm::retranslateUi</qualifiedname>
+        <param>
+          <type>QWidget *</type>
+          <declname>SpectrumDisplayForm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="360" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="360" bodyend="404"/>
+        <references refid="classUi__SpectrumDisplayForm_1a2d612cc2fba4c769bec23ad99aaa8ca2" compoundref="ui__spectrumdisplayform_8h" startline="55">AvgLabel</references>
+        <references refid="classUi__SpectrumDisplayForm_1a483ae312e12b0f5492f0272ac738e54b" compoundref="ui__spectrumdisplayform_8h" startline="72">ConstellationPage</references>
+        <references refid="classUi__SpectrumDisplayForm_1a8c96add02517c9df757d2d4854f661ee" compoundref="ui__spectrumdisplayform_8h" startline="40">FFTSizeComboBox</references>
+        <references refid="classUi__SpectrumDisplayForm_1a96f59870d3cb3d1db0629c9f5c01d1f9" compoundref="ui__spectrumdisplayform_8h" startline="41">FFTSizeLabel</references>
+        <references refid="classUi__SpectrumDisplayForm_1af5474226f16248f2cbcb84b918e9183b" compoundref="ui__spectrumdisplayform_8h" startline="47">FrequencyPage</references>
+        <references refid="classUi__SpectrumDisplayForm_1a98a7e8df35d2a2ff3a27287bf67c9e92" compoundref="ui__spectrumdisplayform_8h" startline="52">MaxHoldCheckBox</references>
+        <references refid="classUi__SpectrumDisplayForm_1abc2a415309c7c8e2fdf2290057c9c34c" compoundref="ui__spectrumdisplayform_8h" startline="54">MaxHoldResetBtn</references>
+        <references refid="classUi__SpectrumDisplayForm_1aef6ac793a5ed074d711a49bace3085b2" compoundref="ui__spectrumdisplayform_8h" startline="53">MinHoldCheckBox</references>
+        <references refid="classUi__SpectrumDisplayForm_1a7cf47ba96d9e4ac3f899fde74ce41ae9" compoundref="ui__spectrumdisplayform_8h" startline="56">MinHoldResetBtn</references>
+        <references refid="classUi__SpectrumDisplayForm_1af919cbfc991dffb2c83a526fbf8d64e9" compoundref="ui__spectrumdisplayform_8h" startline="46">SpectrumTypeTab</references>
+        <references refid="classUi__SpectrumDisplayForm_1a51d853a4c69d3e96ad0e3df8abaf022d" compoundref="ui__spectrumdisplayform_8h" startline="61">textLabel1</references>
+        <references refid="classUi__SpectrumDisplayForm_1a5a8c32f03bfa89609f328d4b086de097" compoundref="ui__spectrumdisplayform_8h" startline="69">TimeDomainPage</references>
+        <references refid="classUi__SpectrumDisplayForm_1a7a42c7ad4d09bc0677a744006b806487" compoundref="ui__spectrumdisplayform_8h" startline="42">UseRFFrequenciesCheckBox</references>
+        <references refid="classUi__SpectrumDisplayForm_1aba34a33a9700d2a35542cc8618c0614e" compoundref="ui__spectrumdisplayform_8h" startline="67">WaterfallAutoScaleBtn</references>
+        <references refid="classUi__SpectrumDisplayForm_1a7fd1d4ddca502168e19b11a773bbf7fb" compoundref="ui__spectrumdisplayform_8h" startline="68">WaterfallIntensityComboBox</references>
+        <references refid="classUi__SpectrumDisplayForm_1a8bb6c51acea374a857905baa3da830ef" compoundref="ui__spectrumdisplayform_8h" startline="63">WaterfallMaximumIntensityLabel</references>
+        <references refid="classUi__SpectrumDisplayForm_1a54fd2ffa6e65a3a06ab1d5f65c42e4a4" compoundref="ui__spectrumdisplayform_8h" startline="66">WaterfallMinimumIntensityLabel</references>
+        <references refid="classUi__SpectrumDisplayForm_1a60836cbc6ecd5a864c7d6ffb3494fee1" compoundref="ui__spectrumdisplayform_8h" startline="59">WaterfallPage</references>
+        <references refid="classUi__SpectrumDisplayForm_1a83c80d15ec5f91d4e96d6053dcab9d86" compoundref="ui__spectrumdisplayform_8h" startline="45">WindowComboBox</references>
+        <references refid="classUi__SpectrumDisplayForm_1a03dc284e25b12062b64bd72e1faca434" compoundref="ui__spectrumdisplayform_8h" startline="44">WindowLbl</references>
+        <referencedby refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" compoundref="ui__spectrumdisplayform_8h" startline="76" endline="358">setupUi</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>SpectrumDisplayForm</label>
+        <link refid="classSpectrumDisplayForm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ui::SpectrumDisplayForm</label>
+        <link refid="classUi_1_1SpectrumDisplayForm"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Ui_SpectrumDisplayForm</label>
+        <link refid="classUi__SpectrumDisplayForm"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" line="36" column="1" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/lib/ui_spectrumdisplayform.h" bodystart="37" bodyend="406"/>
+    <listofallmembers>
+      <member refid="classUi__SpectrumDisplayForm_1a2d612cc2fba4c769bec23ad99aaa8ca2" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>AvgLabel</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1afdb12106fe08e43c56f4bdda06bcb9a0" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>AvgLineEdit</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1abdd6ac96ae46e5d67a7dbfae6e3b949c" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>ConstellationDisplayFrame</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a483ae312e12b0f5492f0272ac738e54b" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>ConstellationPage</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a8c96add02517c9df757d2d4854f661ee" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>FFTSizeComboBox</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a96f59870d3cb3d1db0629c9f5c01d1f9" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>FFTSizeLabel</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1af5474226f16248f2cbcb84b918e9183b" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>FrequencyPage</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1ab1995cda41d1f4b02533529783ff1e7f" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>FrequencyPlotDisplayFrame</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1ae1429590ff616eb46c5337200d43086a" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>gridLayout</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a1c828fad08b3286b5e33f6cea1780324" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>gridLayout_2</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1af0babb82beee6214e14fd287542afe35" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>gridLayout_3</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1ab9656a1d75ad792cd453b4abbc74b019" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>gridLayout_4</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a569470a666147c9fa5c53e2e3f6e630e" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>gridLayout_5</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a6c9fb9c0f9060b3035c5e3fb14fb09cc" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a50f1f7061bbfea4b7a0a7059c6384f26" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>horizontalSpacer_2</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a98a7e8df35d2a2ff3a27287bf67c9e92" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>MaxHoldCheckBox</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1abc2a415309c7c8e2fdf2290057c9c34c" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>MaxHoldResetBtn</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1aef6ac793a5ed074d711a49bace3085b2" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>MinHoldCheckBox</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a7cf47ba96d9e4ac3f899fde74ce41ae9" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>MinHoldResetBtn</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a6f43babc703e8609f26681caff67fd91" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>retranslateUi</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a26b17a2e08621972c251a697b07a7be1" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>setupUi</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1af919cbfc991dffb2c83a526fbf8d64e9" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>SpectrumTypeTab</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a51d853a4c69d3e96ad0e3df8abaf022d" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>textLabel1</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a3c9511757687071784c13b5a12881a3e" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>TimeDomainDisplayFrame</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a5a8c32f03bfa89609f328d4b086de097" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>TimeDomainPage</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a7a42c7ad4d09bc0677a744006b806487" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>UseRFFrequenciesCheckBox</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1aee1df4aea4163dcf2fa01c88131066aa" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>verticalLayout</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a489e854b087478ed8b439ed50a6f369a" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>verticalLayout_2</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1aba34a33a9700d2a35542cc8618c0614e" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>WaterfallAutoScaleBtn</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a7fd1d4ddca502168e19b11a773bbf7fb" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>WaterfallIntensityComboBox</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a8bb6c51acea374a857905baa3da830ef" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>WaterfallMaximumIntensityLabel</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a75ceb11df22114832e0f414dac06f9a9" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>WaterfallMaximumIntensitySlider</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a54fd2ffa6e65a3a06ab1d5f65c42e4a4" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>WaterfallMinimumIntensityLabel</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1ae173e0e36ac122955eaef6d5249bd8e7" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>WaterfallMinimumIntensitySlider</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a60836cbc6ecd5a864c7d6ffb3494fee1" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>WaterfallPage</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a45566aeceb97c104bac3b2ac6276e271" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>WaterfallPlotDisplayFrame</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a83c80d15ec5f91d4e96d6053dcab9d86" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>WindowComboBox</name></member>
+      <member refid="classUi__SpectrumDisplayForm_1a03dc284e25b12062b64bd72e1faca434" prot="public" virt="non-virtual"><scope>Ui_SpectrumDisplayForm</scope><name>WindowLbl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

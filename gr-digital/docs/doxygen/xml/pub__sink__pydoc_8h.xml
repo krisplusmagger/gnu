@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="pub__sink__pydoc_8h" kind="file" language="C++">
+    <compoundname>pub_sink_pydoc.h</compoundname>
+    <includes refid="build_2gr-zeromq_2python_2zeromq_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>pub_sink_pydoc.h</label>
+        <link refid="pub__sink__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-zeromq_2python_2zeromq_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="pub__sink__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, zeromq, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-zeromq/python/zeromq/bindings/pub_sink_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-zeromq/python/zeromq/bindings/pub_sink_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="pub__sink__pydoc_8h_1a9c58c2434d8fb6e62bba63acfe7d6970" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_zeromq_pub_sink</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_zeromq_pub_sink</name>
+        <initializer>= R&quot;doc(Sink the contents of a stream to a ZMQ PUB socket.
+
+This block acts as a streaming sink for a GNU Radio flowgraph and writes its contents to a ZMQ PUB socket. A PUB socket may have subscribers and will pass all incoming stream data to each subscriber with a matching key. If the publisher&apos;s key is set to \&quot;GNURadio\&quot;, the following example subscriber keys will match: \&quot;G\&quot;, \&quot;GN\&quot;, .., \&quot;GNURadio\&quot;. In other words, the subscriber must contain the first set of characters from the publisher&apos;s key. If the subscriber sets an empty key \&quot;\&quot;, it will accept all input messages from the publisher (including the key itself if one is set). Subscribers can either be another gr-zeromq source block or a non-GNU Radio ZMQ socket.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of zeromq::pub_sink.
+
+Args:
+    itemsize : Size of a stream item in bytes.
+    vlen : Vector length of the input items. Note that one vector is one item.
+    address : ZMQ socket address specifier.
+    timeout : Receive timeout in milliseconds, default is 100ms, 1us increments.
+    pass_tags : Whether sink will serialize and pass tags over the link.
+    hwm : High Watermark to configure the socket to (-1 =&gt; zmq&apos;s default)
+    key : Prepend a key/topic to the start of each message (default is none)
+    drop_on_hwm : Optionally drop samples when high watermark is reached.
+    bind : If true this block will bind to the address, otherwise it will connect; the default is to bind)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-zeromq/python/zeromq/bindings/pub_sink_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-zeromq/python/zeromq/bindings/pub_sink_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pub__sink__pydoc_8h_1a90ce53221d9a79a3bde833fadcfc4e42" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_zeromq_pub_sink_pub_sink_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_zeromq_pub_sink_pub_sink_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-zeromq/python/zeromq/bindings/pub_sink_pydoc.h" line="38" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-zeromq/python/zeromq/bindings/pub_sink_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pub__sink__pydoc_8h_1a8c48f9da0989748672ac8302068755d6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_zeromq_pub_sink_pub_sink_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_zeromq_pub_sink_pub_sink_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-zeromq/python/zeromq/bindings/pub_sink_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-zeromq/python/zeromq/bindings/pub_sink_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pub__sink__pydoc_8h_1a13c037d8dc7cc78c53c7bfe0d58476f9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_zeromq_pub_sink_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_zeromq_pub_sink_make</name>
+        <initializer>= R&quot;doc(Sink the contents of a stream to a ZMQ PUB socket.
+
+This block acts as a streaming sink for a GNU Radio flowgraph and writes its contents to a ZMQ PUB socket. A PUB socket may have subscribers and will pass all incoming stream data to each subscriber with a matching key. If the publisher&apos;s key is set to \&quot;GNURadio\&quot;, the following example subscriber keys will match: \&quot;G\&quot;, \&quot;GN\&quot;, .., \&quot;GNURadio\&quot;. In other words, the subscriber must contain the first set of characters from the publisher&apos;s key. If the subscriber sets an empty key \&quot;\&quot;, it will accept all input messages from the publisher (including the key itself if one is set). Subscribers can either be another gr-zeromq source block or a non-GNU Radio ZMQ socket.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of zeromq::pub_sink.
+
+Args:
+    itemsize : Size of a stream item in bytes.
+    vlen : Vector length of the input items. Note that one vector is one item.
+    address : ZMQ socket address specifier.
+    timeout : Receive timeout in milliseconds, default is 100ms, 1us increments.
+    pass_tags : Whether sink will serialize and pass tags over the link.
+    hwm : High Watermark to configure the socket to (-1 =&gt; zmq&apos;s default)
+    key : Prepend a key/topic to the start of each message (default is none)
+    drop_on_hwm : Optionally drop samples when high watermark is reached.
+    bind : If true this block will bind to the address, otherwise it will connect; the default is to bind)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-zeromq/python/zeromq/bindings/pub_sink_pydoc.h" line="44" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-zeromq/python/zeromq/bindings/pub_sink_pydoc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pub__sink__pydoc_8h_1aab8aa181cfed4e4387c2c047ce849235" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_zeromq_pub_sink_last_endpoint</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_zeromq_pub_sink_last_endpoint</name>
+        <initializer>= R&quot;doc(Return a std::string of ZMQ_LAST_ENDPOINT from the underlying ZMQ socket.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-zeromq/python/zeromq/bindings/pub_sink_pydoc.h" line="64" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-zeromq/python/zeromq/bindings/pub_sink_pydoc.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-zeromq/python/zeromq/bindings/pub_sink_pydoc.h"/>
+  </compounddef>
+</doxygen>

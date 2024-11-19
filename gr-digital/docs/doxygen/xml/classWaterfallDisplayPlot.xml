@@ -1,0 +1,1175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classWaterfallDisplayPlot" kind="class" language="C++" prot="public">
+    <compoundname>WaterfallDisplayPlot</compoundname>
+    <basecompoundref refid="classDisplayPlot" prot="public" virt="non-virtual">DisplayPlot</basecompoundref>
+    <includes refid="WaterfallDisplayPlot_8h" local="no">gnuradio/qtgui/WaterfallDisplayPlot.h</includes>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classWaterfallDisplayPlot_1aa6a25ad0709d410fad92b76fa12e4022" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int WaterfallDisplayPlot::intensity_color_map_type1</definition>
+        <argsstring></argsstring>
+        <name>intensity_color_map_type1</name>
+        <qualifiedname>WaterfallDisplayPlot::intensity_color_map_type1</qualifiedname>
+        <read>getIntensityColorMapType1</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="32" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classWaterfallDisplayPlot_1aba266f7f50045443288f2c7d0d5de582" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QColor</type>
+        <definition>QColor WaterfallDisplayPlot::low_intensity_color</definition>
+        <argsstring></argsstring>
+        <name>low_intensity_color</name>
+        <qualifiedname>WaterfallDisplayPlot::low_intensity_color</qualifiedname>
+        <read>getUserDefinedLowIntensityColor</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="34" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classWaterfallDisplayPlot_1a9ee3a878e80f6bd3952115a8d4989cb6" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QColor</type>
+        <definition>QColor WaterfallDisplayPlot::high_intensity_color</definition>
+        <argsstring></argsstring>
+        <name>high_intensity_color</name>
+        <qualifiedname>WaterfallDisplayPlot::high_intensity_color</qualifiedname>
+        <read>getUserDefinedHighIntensityColor</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="36" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classWaterfallDisplayPlot_1a5b9a2e437bd9b5e8f9c378794e54b35e" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int WaterfallDisplayPlot::color_map_title_font_size</definition>
+        <argsstring></argsstring>
+        <name>color_map_title_font_size</name>
+        <qualifiedname>WaterfallDisplayPlot::color_map_title_font_size</qualifiedname>
+        <read>getColorMapTitleFontSize</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="38" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classWaterfallDisplayPlot_1a110c9d7dab91221dd9d568d764728737" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double WaterfallDisplayPlot::d_start_frequency</definition>
+        <argsstring></argsstring>
+        <name>d_start_frequency</name>
+        <qualifiedname>WaterfallDisplayPlot::d_start_frequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="106" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallDisplayPlot_1a6677d6e1f247718b783b09a2d85d2c5a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double WaterfallDisplayPlot::d_stop_frequency</definition>
+        <argsstring></argsstring>
+        <name>d_stop_frequency</name>
+        <qualifiedname>WaterfallDisplayPlot::d_stop_frequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="107" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallDisplayPlot_1a32eaa44b6f08150676380f99020ec489" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double WaterfallDisplayPlot::d_center_frequency</definition>
+        <argsstring></argsstring>
+        <name>d_center_frequency</name>
+        <qualifiedname>WaterfallDisplayPlot::d_center_frequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="108" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallDisplayPlot_1a290e7881c198fc20fa1f2d552adaee8e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaterfallDisplayPlot::d_xaxis_multiplier</definition>
+        <argsstring></argsstring>
+        <name>d_xaxis_multiplier</name>
+        <qualifiedname>WaterfallDisplayPlot::d_xaxis_multiplier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="109" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallDisplayPlot_1ae74a0bfa59183d0de7a76efc1cf6b82c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WaterfallDisplayPlot::d_half_freq</definition>
+        <argsstring></argsstring>
+        <name>d_half_freq</name>
+        <qualifiedname>WaterfallDisplayPlot::d_half_freq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="110" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallDisplayPlot_1a9041f5fa85363e8d4c72e0f420d09008" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WaterfallDisplayPlot::d_legend_enabled</definition>
+        <argsstring></argsstring>
+        <name>d_legend_enabled</name>
+        <qualifiedname>WaterfallDisplayPlot::d_legend_enabled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="111" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallDisplayPlot_1a3a4584f736674c4f38c91980acac0f66" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaterfallDisplayPlot::d_nrows</definition>
+        <argsstring></argsstring>
+        <name>d_nrows</name>
+        <qualifiedname>WaterfallDisplayPlot::d_nrows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="112" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallDisplayPlot_1ae862be2d749c06ba5d7103b91abbeab4" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classWaterfallData" kindref="compound">WaterfallData</ref> * &gt;</type>
+        <definition>std::vector&lt;WaterfallData*&gt; WaterfallDisplayPlot::d_data</definition>
+        <argsstring></argsstring>
+        <name>d_data</name>
+        <qualifiedname>WaterfallDisplayPlot::d_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="114" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallDisplayPlot_1aecfb8a3012693f707dd2f9c3f871e888" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; QwtPlotSpectrogram * &gt;</type>
+        <definition>std::vector&lt;QwtPlotSpectrogram*&gt; WaterfallDisplayPlot::d_spectrogram</definition>
+        <argsstring></argsstring>
+        <name>d_spectrogram</name>
+        <qualifiedname>WaterfallDisplayPlot::d_spectrogram</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="116" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallDisplayPlot_1a3de519a23af99737cbae1843acab21ca" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; WaterfallDisplayPlot::d_intensity_color_map_type</definition>
+        <argsstring></argsstring>
+        <name>d_intensity_color_map_type</name>
+        <qualifiedname>WaterfallDisplayPlot::d_intensity_color_map_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="118" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallDisplayPlot_1a5b99af06be2dd05ccaad4b84629a695e" prot="private" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor WaterfallDisplayPlot::d_user_defined_low_intensity_color</definition>
+        <argsstring></argsstring>
+        <name>d_user_defined_low_intensity_color</name>
+        <qualifiedname>WaterfallDisplayPlot::d_user_defined_low_intensity_color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="119" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallDisplayPlot_1ac931a94ce450344e2828eef2231137f9" prot="private" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor WaterfallDisplayPlot::d_user_defined_high_intensity_color</definition>
+        <argsstring></argsstring>
+        <name>d_user_defined_high_intensity_color</name>
+        <qualifiedname>WaterfallDisplayPlot::d_user_defined_high_intensity_color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="120" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallDisplayPlot_1a505dc26da16769581005da4ff7b8148e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaterfallDisplayPlot::d_color_bar_title_font_size</definition>
+        <argsstring></argsstring>
+        <name>d_color_bar_title_font_size</name>
+        <qualifiedname>WaterfallDisplayPlot::d_color_bar_title_font_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="121" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1ad175ec92c56981df648ab4b9a5ed2408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>WaterfallDisplayPlot::WaterfallDisplayPlot</definition>
+        <argsstring>(int nplots, QWidget *)</argsstring>
+        <name>WaterfallDisplayPlot</name>
+        <qualifiedname>WaterfallDisplayPlot::WaterfallDisplayPlot</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nplots</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="43" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1a6e55b7c5e04a9e66501f35afae956e50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>WaterfallDisplayPlot::~WaterfallDisplayPlot</definition>
+        <argsstring>() override</argsstring>
+        <name>~WaterfallDisplayPlot</name>
+        <qualifiedname>WaterfallDisplayPlot::~WaterfallDisplayPlot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="44" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1a66bc02adfb51857f68c8913807e9e4e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::resetAxis</definition>
+        <argsstring>()</argsstring>
+        <name>resetAxis</name>
+        <qualifiedname>WaterfallDisplayPlot::resetAxis</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="46" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1ab3cb0d30a21331d005727c9de2767eae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::setFrequencyRange</definition>
+        <argsstring>(const double, const double, const double units=1000.0, const std::string &amp;strunits=&quot;kHz&quot;)</argsstring>
+        <name>setFrequencyRange</name>
+        <qualifiedname>WaterfallDisplayPlot::setFrequencyRange</qualifiedname>
+        <param>
+          <type>const double</type>
+        </param>
+        <param>
+          <type>const double</type>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>units</declname>
+          <defval>1000.0</defval>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>strunits</declname>
+          <defval>&quot;kHz&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="48" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1ae8075deae43910991f807ac4e5066c90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double WaterfallDisplayPlot::getStartFrequency</definition>
+        <argsstring>() const</argsstring>
+        <name>getStartFrequency</name>
+        <qualifiedname>WaterfallDisplayPlot::getStartFrequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="52" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1a3193b16a077bf8ac36d7fb65606077c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double WaterfallDisplayPlot::getStopFrequency</definition>
+        <argsstring>() const</argsstring>
+        <name>getStopFrequency</name>
+        <qualifiedname>WaterfallDisplayPlot::getStopFrequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="53" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1a13d28a363d469dd174adaae37a6c3050" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::plotNewData</definition>
+        <argsstring>(const std::vector&lt; const double * &gt; dataPoints, const int64_t numDataPoints, const double timePerFFT, const gr::high_res_timer_type timestamp, const int droppedFrames)</argsstring>
+        <name>plotNewData</name>
+        <qualifiedname>WaterfallDisplayPlot::plotNewData</qualifiedname>
+        <param>
+          <type>const std::vector&lt; const double * &gt;</type>
+          <declname>dataPoints</declname>
+        </param>
+        <param>
+          <type>const int64_t</type>
+          <declname>numDataPoints</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>timePerFFT</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacegr_1ad4aea84666e5468efd75c7f580cbd967" kindref="member">gr::high_res_timer_type</ref></type>
+          <declname>timestamp</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>droppedFrames</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="55" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1adc29b200204c915d27af1f8969fdfff4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::plotNewData</definition>
+        <argsstring>(const double *dataPoints, const int64_t numDataPoints, const double timePerFFT, const gr::high_res_timer_type timestamp, const int droppedFrames)</argsstring>
+        <name>plotNewData</name>
+        <qualifiedname>WaterfallDisplayPlot::plotNewData</qualifiedname>
+        <param>
+          <type>const double *</type>
+          <declname>dataPoints</declname>
+        </param>
+        <param>
+          <type>const int64_t</type>
+          <declname>numDataPoints</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>timePerFFT</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacegr_1ad4aea84666e5468efd75c7f580cbd967" kindref="member">gr::high_res_timer_type</ref></type>
+          <declname>timestamp</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>droppedFrames</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="62" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1a2e872a57b8c1d7a5ed080c5c14952061" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::setIntensityRange</definition>
+        <argsstring>(const double minIntensity, const double maxIntensity)</argsstring>
+        <name>setIntensityRange</name>
+        <qualifiedname>WaterfallDisplayPlot::setIntensityRange</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>minIntensity</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>maxIntensity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="68" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1ad3dcbfc88887b8948b39e95803acbaf5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double WaterfallDisplayPlot::getMinIntensity</definition>
+        <argsstring>(unsigned int which) const</argsstring>
+        <name>getMinIntensity</name>
+        <qualifiedname>WaterfallDisplayPlot::getMinIntensity</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="69" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1a6e6a5319f5416defdd149950bd8b03d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double WaterfallDisplayPlot::getMaxIntensity</definition>
+        <argsstring>(unsigned int which) const</argsstring>
+        <name>getMaxIntensity</name>
+        <qualifiedname>WaterfallDisplayPlot::getMaxIntensity</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="70" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1ad29210bf078a93e6ac41232bad393d69" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::replot</definition>
+        <argsstring>(void) override</argsstring>
+        <name>replot</name>
+        <qualifiedname>WaterfallDisplayPlot::replot</qualifiedname>
+        <reimplements refid="classDisplayPlot_1aa9114ba6d2490ccc767fe3eee61289d4">replot</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="72" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1a56e07120525f08898f344be38c354bf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::clearData</definition>
+        <argsstring>()</argsstring>
+        <name>clearData</name>
+        <qualifiedname>WaterfallDisplayPlot::clearData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="73" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1aa8ceaf01c648ae6197b5c0b35bdb29b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int WaterfallDisplayPlot::getIntensityColorMapType</definition>
+        <argsstring>(unsigned int) const</argsstring>
+        <name>getIntensityColorMapType</name>
+        <qualifiedname>WaterfallDisplayPlot::getIntensityColorMapType</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="75" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1a57893d57abfb4e476898ea949a24622c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int WaterfallDisplayPlot::getIntensityColorMapType1</definition>
+        <argsstring>() const</argsstring>
+        <name>getIntensityColorMapType1</name>
+        <qualifiedname>WaterfallDisplayPlot::getIntensityColorMapType1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="76" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1a090e221dc3177be1f2b6fc62ae6e7898" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int WaterfallDisplayPlot::getColorMapTitleFontSize</definition>
+        <argsstring>() const</argsstring>
+        <name>getColorMapTitleFontSize</name>
+        <qualifiedname>WaterfallDisplayPlot::getColorMapTitleFontSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="77" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1a4c12894ab6b1229e9e65be8a13fa174f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QColor</type>
+        <definition>const QColor WaterfallDisplayPlot::getUserDefinedLowIntensityColor</definition>
+        <argsstring>() const</argsstring>
+        <name>getUserDefinedLowIntensityColor</name>
+        <qualifiedname>WaterfallDisplayPlot::getUserDefinedLowIntensityColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="78" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1a76787924d64e0248e00487adbacf7e92" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QColor</type>
+        <definition>const QColor WaterfallDisplayPlot::getUserDefinedHighIntensityColor</definition>
+        <argsstring>() const</argsstring>
+        <name>getUserDefinedHighIntensityColor</name>
+        <qualifiedname>WaterfallDisplayPlot::getUserDefinedHighIntensityColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="79" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1ac311b5961797e061482ff3d7cad478b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int WaterfallDisplayPlot::getAlpha</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>getAlpha</name>
+        <qualifiedname>WaterfallDisplayPlot::getAlpha</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="81" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1a039f1472e3eb0fc50299c6bac5602dbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::setAlpha</definition>
+        <argsstring>(unsigned int which, int alpha)</argsstring>
+        <name>setAlpha</name>
+        <qualifiedname>WaterfallDisplayPlot::setAlpha</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="82" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1a52cf9e01640ae951d4f5c486b35bbe97" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int WaterfallDisplayPlot::getNumRows</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumRows</name>
+        <qualifiedname>WaterfallDisplayPlot::getNumRows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="84" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classWaterfallDisplayPlot_1a46582bb657f14062a3c124f0f4b0ba5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::setIntensityColorMapType</definition>
+        <argsstring>(const unsigned int, const int, const QColor, const QColor)</argsstring>
+        <name>setIntensityColorMapType</name>
+        <qualifiedname>WaterfallDisplayPlot::setIntensityColorMapType</qualifiedname>
+        <param>
+          <type>const unsigned int</type>
+        </param>
+        <param>
+          <type>const int</type>
+        </param>
+        <param>
+          <type>const QColor</type>
+        </param>
+        <param>
+          <type>const QColor</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="88" column="5"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaterfallDisplayPlot_1a60ee8aa2243fc50ee22207d518fa9016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::setIntensityColorMapType1</definition>
+        <argsstring>(int)</argsstring>
+        <name>setIntensityColorMapType1</name>
+        <qualifiedname>WaterfallDisplayPlot::setIntensityColorMapType1</qualifiedname>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="89" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaterfallDisplayPlot_1aa6087d8862f504cc5b397a398c978537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::setColorMapTitleFontSize</definition>
+        <argsstring>(int tfs)</argsstring>
+        <name>setColorMapTitleFontSize</name>
+        <qualifiedname>WaterfallDisplayPlot::setColorMapTitleFontSize</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>tfs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="90" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaterfallDisplayPlot_1aa83d9994df390c101cd5ab136815a778" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::setUserDefinedLowIntensityColor</definition>
+        <argsstring>(QColor)</argsstring>
+        <name>setUserDefinedLowIntensityColor</name>
+        <qualifiedname>WaterfallDisplayPlot::setUserDefinedLowIntensityColor</qualifiedname>
+        <param>
+          <type>QColor</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="91" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaterfallDisplayPlot_1a6bf178ba8258e9e8c7389779ed9521a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::setUserDefinedHighIntensityColor</definition>
+        <argsstring>(QColor)</argsstring>
+        <name>setUserDefinedHighIntensityColor</name>
+        <qualifiedname>WaterfallDisplayPlot::setUserDefinedHighIntensityColor</qualifiedname>
+        <param>
+          <type>QColor</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="92" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaterfallDisplayPlot_1a3a152e84554fc9a115338ab659658915" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::setPlotPosHalf</definition>
+        <argsstring>(bool half)</argsstring>
+        <name>setPlotPosHalf</name>
+        <qualifiedname>WaterfallDisplayPlot::setPlotPosHalf</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>half</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="93" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaterfallDisplayPlot_1a6794347027b5558235df7e99aa2acafa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::disableLegend</definition>
+        <argsstring>() override</argsstring>
+        <name>disableLegend</name>
+        <qualifiedname>WaterfallDisplayPlot::disableLegend</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="94" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaterfallDisplayPlot_1aba40b982d67fd7d5cbff6e909dccb470" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::enableLegend</definition>
+        <argsstring>()</argsstring>
+        <name>enableLegend</name>
+        <qualifiedname>WaterfallDisplayPlot::enableLegend</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="95" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaterfallDisplayPlot_1aba8b56d10ba84f380cd60a09f0068dca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::enableLegend</definition>
+        <argsstring>(bool en)</argsstring>
+        <name>enableLegend</name>
+        <qualifiedname>WaterfallDisplayPlot::enableLegend</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="96" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaterfallDisplayPlot_1a27a22d3682f74ff2911bf7f81af74061" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::setNumRows</definition>
+        <argsstring>(int nrows)</argsstring>
+        <name>setNumRows</name>
+        <qualifiedname>WaterfallDisplayPlot::setNumRows</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nrows</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="97" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classWaterfallDisplayPlot_1a6684879b11dabe62dac757c74fddc8ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::updatedLowerIntensityLevel</definition>
+        <argsstring>(const double)</argsstring>
+        <name>updatedLowerIntensityLevel</name>
+        <qualifiedname>WaterfallDisplayPlot::updatedLowerIntensityLevel</qualifiedname>
+        <param>
+          <type>const double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="100" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="classWaterfallDisplayPlot_1aedce8c7cd9c30c29958653ac07b4cff2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::updatedUpperIntensityLevel</definition>
+        <argsstring>(const double)</argsstring>
+        <name>updatedUpperIntensityLevel</name>
+        <qualifiedname>WaterfallDisplayPlot::updatedUpperIntensityLevel</qualifiedname>
+        <param>
+          <type>const double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="101" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classWaterfallDisplayPlot_1abd58a2b96266807d8dbc68b09da7fd27" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaterfallDisplayPlot::_updateIntensityRangeDisplay</definition>
+        <argsstring>()</argsstring>
+        <name>_updateIntensityRangeDisplay</name>
+        <qualifiedname>WaterfallDisplayPlot::_updateIntensityRangeDisplay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="104" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>QWidget for displaying waterfall (spectrogram) plots. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>DisplayPlot</label>
+        <link refid="classDisplayPlot"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QwtPlot</label>
+      </node>
+      <node id="1">
+        <label>WaterfallDisplayPlot</label>
+        <link refid="classWaterfallDisplayPlot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>DisplayPlot</label>
+        <link refid="classDisplayPlot"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_plot_curve</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>d_picker</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>QwtDblClickPlotPicker</label>
+        <link refid="classQwtDblClickPlotPicker"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QwtPlot</label>
+      </node>
+      <node id="6">
+        <label>QwtPlotPicker</label>
+      </node>
+      <node id="1">
+        <label>WaterfallDisplayPlot</label>
+        <link refid="classWaterfallDisplayPlot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::vector&lt; QwtPlotCurve * &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" line="28" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/WaterfallDisplayPlot.h" bodystart="29" bodyend="122"/>
+    <listofallmembers>
+      <member refid="classWaterfallDisplayPlot_1abd58a2b96266807d8dbc68b09da7fd27" prot="private" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>_updateIntensityRangeDisplay</name></member>
+      <member refid="classDisplayPlot_1a0260e53aed38f1201ac20c11589cc870" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>axes_label_font_size</name></member>
+      <member refid="classWaterfallDisplayPlot_1a56e07120525f08898f344be38c354bf9" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>clearData</name></member>
+      <member refid="classWaterfallDisplayPlot_1a5b9a2e437bd9b5e8f9c378794e54b35e" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>color_map_title_font_size</name></member>
+      <member refid="classDisplayPlot_1a92e5733325c8231d8f0463619777346a" prot="protected" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_autoscale_state</name></member>
+      <member refid="classWaterfallDisplayPlot_1a32eaa44b6f08150676380f99020ec489" prot="private" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_center_frequency</name></member>
+      <member refid="classWaterfallDisplayPlot_1a505dc26da16769581005da4ff7b8148e" prot="private" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_color_bar_title_font_size</name></member>
+      <member refid="classWaterfallDisplayPlot_1ae862be2d749c06ba5d7103b91abbeab4" prot="private" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_data</name></member>
+      <member refid="classWaterfallDisplayPlot_1ae74a0bfa59183d0de7a76efc1cf6b82c" prot="private" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_half_freq</name></member>
+      <member refid="classWaterfallDisplayPlot_1a3de519a23af99737cbae1843acab21ca" prot="private" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_intensity_color_map_type</name></member>
+      <member refid="classWaterfallDisplayPlot_1a9041f5fa85363e8d4c72e0f420d09008" prot="private" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_legend_enabled</name></member>
+      <member refid="classDisplayPlot_1a34130f0375fb54a4c9f95ad234a242dc" prot="protected" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_magnifier</name></member>
+      <member refid="classDisplayPlot_1ac779b2b3fa9712f1d06a0fa00c26386c" prot="protected" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_nplots</name></member>
+      <member refid="classWaterfallDisplayPlot_1a3a4584f736674c4f38c91980acac0f66" prot="private" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_nrows</name></member>
+      <member refid="classDisplayPlot_1ad028a67854d113ef317bce118f68822a" prot="protected" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_numPoints</name></member>
+      <member refid="classDisplayPlot_1a31c48a2b8eb3b9955246ff1669c8211e" prot="protected" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_panner</name></member>
+      <member refid="classDisplayPlot_1a8620a2589683a86c3b7cbac3d9758373" prot="protected" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_picker</name></member>
+      <member refid="classDisplayPlot_1af829ddbdabf8ecd63615209a11d4d9e3" prot="protected" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_plot_curve</name></member>
+      <member refid="classWaterfallDisplayPlot_1aecfb8a3012693f707dd2f9c3f871e888" prot="private" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_spectrogram</name></member>
+      <member refid="classWaterfallDisplayPlot_1a110c9d7dab91221dd9d568d764728737" prot="private" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_start_frequency</name></member>
+      <member refid="classDisplayPlot_1a5bf1d771d169919c492f2fcc4659668b" prot="protected" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_stop</name></member>
+      <member refid="classWaterfallDisplayPlot_1a6677d6e1f247718b783b09a2d85d2c5a" prot="private" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_stop_frequency</name></member>
+      <member refid="classDisplayPlot_1ad21e08d42be40fd6fdca25479f71326d" prot="protected" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_trace_colors</name></member>
+      <member refid="classWaterfallDisplayPlot_1ac931a94ce450344e2828eef2231137f9" prot="private" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_user_defined_high_intensity_color</name></member>
+      <member refid="classWaterfallDisplayPlot_1a5b99af06be2dd05ccaad4b84629a695e" prot="private" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_user_defined_low_intensity_color</name></member>
+      <member refid="classWaterfallDisplayPlot_1a290e7881c198fc20fa1f2d552adaee8e" prot="private" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_xaxis_multiplier</name></member>
+      <member refid="classDisplayPlot_1ad3402266e20ef74bb751c8c5c9b9350e" prot="protected" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>d_zoomer</name></member>
+      <member refid="classWaterfallDisplayPlot_1a6794347027b5558235df7e99aa2acafa" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>disableLegend</name></member>
+      <member refid="classDisplayPlot_1a588f56cb85a0f1c23d0c2fb2880df65f" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>DisplayPlot</name></member>
+      <member refid="classWaterfallDisplayPlot_1aba40b982d67fd7d5cbff6e909dccb470" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>enableLegend</name></member>
+      <member refid="classWaterfallDisplayPlot_1aba8b56d10ba84f380cd60a09f0068dca" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>enableLegend</name></member>
+      <member refid="classWaterfallDisplayPlot_1ac311b5961797e061482ff3d7cad478b0" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getAlpha</name></member>
+      <member refid="classDisplayPlot_1ab61db7a3f7e681c0c5239e94563885a8" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getAxesLabelFontSize</name></member>
+      <member refid="classDisplayPlot_1a78b7a93fa5ab7f8d47d231738a75b10a" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getAxisLabelFontSize</name></member>
+      <member refid="classWaterfallDisplayPlot_1a090e221dc3177be1f2b6fc62ae6e7898" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getColorMapTitleFontSize</name></member>
+      <member refid="classWaterfallDisplayPlot_1aa8ceaf01c648ae6197b5c0b35bdb29b6" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getIntensityColorMapType</name></member>
+      <member refid="classWaterfallDisplayPlot_1a57893d57abfb4e476898ea949a24622c" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getIntensityColorMapType1</name></member>
+      <member refid="classDisplayPlot_1ab82b2590de108b33536169a3d7394b5e" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>getLineColor</name></member>
+      <member refid="classDisplayPlot_1a926a2a4a6ab85bf8e29e524a7df2d246" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineColor1</name></member>
+      <member refid="classDisplayPlot_1a9197daf05fc6806c14c166f69c47ef81" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineColor2</name></member>
+      <member refid="classDisplayPlot_1ac7367bcc7deba96cbad1d7e4649c223c" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineColor3</name></member>
+      <member refid="classDisplayPlot_1a50e0e79f768326dc0fc328d0f754249d" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineColor4</name></member>
+      <member refid="classDisplayPlot_1a2840de96154d54a91fa578dafce8f7f6" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineColor5</name></member>
+      <member refid="classDisplayPlot_1a22a416d8601a7bcf68e03cf831d9543a" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineColor6</name></member>
+      <member refid="classDisplayPlot_1a19f6ce0eebb28c9a78f551383b27ded4" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineColor7</name></member>
+      <member refid="classDisplayPlot_1a1f298544eb26e214da9cc96b194274bf" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineColor8</name></member>
+      <member refid="classDisplayPlot_1a59acb875dc2b27bb7ddaf0e45589d903" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineColor9</name></member>
+      <member refid="classDisplayPlot_1a82ad6a8583d4804852b918319a5207de" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>getLineLabel</name></member>
+      <member refid="classDisplayPlot_1aefa211747847c9b48eed0ff1260a718b" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>getLineMarker</name></member>
+      <member refid="classDisplayPlot_1ac6742fd83302d302fa9a2fbc865c79c9" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineMarker1</name></member>
+      <member refid="classDisplayPlot_1adf0917791d44984adb9dd8b84ed2d62d" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineMarker2</name></member>
+      <member refid="classDisplayPlot_1ae02a5e177b3e3ff21e6eaad119071797" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineMarker3</name></member>
+      <member refid="classDisplayPlot_1ab735c4d44b8ab53d613bea06882c8b3f" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineMarker4</name></member>
+      <member refid="classDisplayPlot_1a981a738dffcd8f3cc3cdcc09603cf5d6" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineMarker5</name></member>
+      <member refid="classDisplayPlot_1a65c338293b068d4591683c5d89692500" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineMarker6</name></member>
+      <member refid="classDisplayPlot_1a2fee80e709a377f420a7ef92badb2da6" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineMarker7</name></member>
+      <member refid="classDisplayPlot_1ad783ec88978052804b426d17f45b3b5a" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineMarker8</name></member>
+      <member refid="classDisplayPlot_1a7627bdfd389a426fa1f80012e17f986b" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineMarker9</name></member>
+      <member refid="classDisplayPlot_1a3879d40f4afe4ad62dfd1ea7193c589c" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>getLineStyle</name></member>
+      <member refid="classDisplayPlot_1a066be975bb64b9cc964f48fb49ba3140" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineStyle1</name></member>
+      <member refid="classDisplayPlot_1aec6b274042f20e66048b91577cace3b4" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineStyle2</name></member>
+      <member refid="classDisplayPlot_1a1d2d3ef50fde4e24939ad4ceae345dd6" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineStyle3</name></member>
+      <member refid="classDisplayPlot_1ae33a1e1f0d36a67f004002eef6d001f6" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineStyle4</name></member>
+      <member refid="classDisplayPlot_1ad745ff0bca0661164a7ad73e4e94df14" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineStyle5</name></member>
+      <member refid="classDisplayPlot_1a96dcfe9dd99957687da72f24ffe86a5b" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineStyle6</name></member>
+      <member refid="classDisplayPlot_1ad3d97367546512413f6c66780d710fe6" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineStyle7</name></member>
+      <member refid="classDisplayPlot_1abb9b2be9a5c414e906847c10bec1bbea" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineStyle8</name></member>
+      <member refid="classDisplayPlot_1ab8de226221e448ca1b8113987fdfd555" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineStyle9</name></member>
+      <member refid="classDisplayPlot_1a5e71e8a49c6d225d001ad5f639c86f60" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>getLineWidth</name></member>
+      <member refid="classDisplayPlot_1a9cddb99da0a5642f03e5b1f1b2a79ff8" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineWidth1</name></member>
+      <member refid="classDisplayPlot_1a2390c5235f2111975c528017d509f28d" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineWidth2</name></member>
+      <member refid="classDisplayPlot_1adf5737a54ae43cf1534ceafc057bca8a" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineWidth3</name></member>
+      <member refid="classDisplayPlot_1a5cc48d31fb0dbfbd62b05dd18fbeefac" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineWidth4</name></member>
+      <member refid="classDisplayPlot_1ad7d8bfff105eb5c518e1232a3fca7e9b" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineWidth5</name></member>
+      <member refid="classDisplayPlot_1a39e78c09b905efd24967b4cac17da388" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineWidth6</name></member>
+      <member refid="classDisplayPlot_1a6fb72173c1c78958ad07da4461a03827" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineWidth7</name></member>
+      <member refid="classDisplayPlot_1aaa8dee8ced522e631f8c1ee89ec91db8" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineWidth8</name></member>
+      <member refid="classDisplayPlot_1addf80d68321539e17b30fa7ce9e302f3" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getLineWidth9</name></member>
+      <member refid="classDisplayPlot_1af3b91884cda040c05529dbb79b0b2ac3" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>getMarkerAlpha</name></member>
+      <member refid="classDisplayPlot_1aa811716f413ada4010c99d2856b297a6" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getMarkerAlpha1</name></member>
+      <member refid="classDisplayPlot_1af616910c8e524dae8b950d422f6b5484" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getMarkerAlpha2</name></member>
+      <member refid="classDisplayPlot_1adecf328fc1e5759243d3bdd2735e2242" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getMarkerAlpha3</name></member>
+      <member refid="classDisplayPlot_1a6c4b0df75ee8a1b6e37c5b7de56aaf5d" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getMarkerAlpha4</name></member>
+      <member refid="classDisplayPlot_1a232055539d65eae1c5010590d8af96af" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getMarkerAlpha5</name></member>
+      <member refid="classDisplayPlot_1a9a05c67d7a27fe4ddcb16d9f4fe04441" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getMarkerAlpha6</name></member>
+      <member refid="classDisplayPlot_1a7bd664940724009a8f14dffbf880b45d" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getMarkerAlpha7</name></member>
+      <member refid="classDisplayPlot_1a29814a3d5de3c0d6599e1a1efb63e9ee" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getMarkerAlpha8</name></member>
+      <member refid="classDisplayPlot_1ac4f6b9ce93d85cc1714fcb2b0a1e536b" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getMarkerAlpha9</name></member>
+      <member refid="classWaterfallDisplayPlot_1a6e6a5319f5416defdd149950bd8b03d1" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getMaxIntensity</name></member>
+      <member refid="classWaterfallDisplayPlot_1ad3dcbfc88887b8948b39e95803acbaf5" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getMinIntensity</name></member>
+      <member refid="classWaterfallDisplayPlot_1a52cf9e01640ae951d4f5c486b35bbe97" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getNumRows</name></member>
+      <member refid="classDisplayPlot_1aa52078b591e3a225895846e2f8b4ccef" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getPaletteColor</name></member>
+      <member refid="classWaterfallDisplayPlot_1ae8075deae43910991f807ac4e5066c90" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getStartFrequency</name></member>
+      <member refid="classWaterfallDisplayPlot_1a3193b16a077bf8ac36d7fb65606077c2" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getStopFrequency</name></member>
+      <member refid="classWaterfallDisplayPlot_1a76787924d64e0248e00487adbacf7e92" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getUserDefinedHighIntensityColor</name></member>
+      <member refid="classWaterfallDisplayPlot_1a4c12894ab6b1229e9e65be8a13fa174f" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getUserDefinedLowIntensityColor</name></member>
+      <member refid="classDisplayPlot_1aca7e3695fe551c61a327abf81f5afc33" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getXaxisLabelFontSize</name></member>
+      <member refid="classDisplayPlot_1ae499a361e276d2ac426b203c32ee15c8" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getYaxisLabelFontSize</name></member>
+      <member refid="classDisplayPlot_1ac8069537f11773d22c7b01740ea44304" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>getZoomerColor</name></member>
+      <member refid="classWaterfallDisplayPlot_1a9ee3a878e80f6bd3952115a8d4989cb6" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>high_intensity_color</name></member>
+      <member refid="classWaterfallDisplayPlot_1aa6a25ad0709d410fad92b76fa12e4022" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>intensity_color_map_type1</name></member>
+      <member refid="classDisplayPlot_1a8a4329aeb84c5ef9a22deebb41b84427" prot="protected" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>legendEntryChecked</name></member>
+      <member refid="classDisplayPlot_1a6254e65dbf7e1412c4c4063f6590dfcf" prot="protected" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>legendEntryChecked</name></member>
+      <member refid="classDisplayPlot_1a87ab74adc02bd448fc26536ff49d438f" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_color1</name></member>
+      <member refid="classDisplayPlot_1a37b92b9a65820ab9f1bdbe136f61f522" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_color2</name></member>
+      <member refid="classDisplayPlot_1a1c55ce39a8e2f5e7a8f5b684d171c1c5" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_color3</name></member>
+      <member refid="classDisplayPlot_1acbb0a0b858073500a4acc052b8a4bc16" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_color4</name></member>
+      <member refid="classDisplayPlot_1a3cab49395685e4bed0ea89561b3980ca" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_color5</name></member>
+      <member refid="classDisplayPlot_1a17ce136ff413c0fc1905633f1c3da9c6" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_color6</name></member>
+      <member refid="classDisplayPlot_1a782da7c221bab22e4c79e66829a3a017" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_color7</name></member>
+      <member refid="classDisplayPlot_1a0ce50d7f15ac5cf964f14cbe2cd77ddf" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_color8</name></member>
+      <member refid="classDisplayPlot_1a242deafdd1355979fbb1a03fd2d0be2c" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_color9</name></member>
+      <member refid="classDisplayPlot_1a2ef1354c6f5838f25bf01b6867feea2c" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_marker1</name></member>
+      <member refid="classDisplayPlot_1a0ba0571bd7dd5806209ef94915d94baa" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_marker2</name></member>
+      <member refid="classDisplayPlot_1a834119ccd2654c3db8cfdb04943e3db1" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_marker3</name></member>
+      <member refid="classDisplayPlot_1ad7077609d555ea650f8dcd04a20611ee" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_marker4</name></member>
+      <member refid="classDisplayPlot_1a2034eb962846f3ad3043e325d9b01104" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_marker5</name></member>
+      <member refid="classDisplayPlot_1abcaf765759825d645671d2b7bc276156" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_marker6</name></member>
+      <member refid="classDisplayPlot_1a99c8290836e8901246a7fe701e9abdc2" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_marker7</name></member>
+      <member refid="classDisplayPlot_1a1e09d8845efeb45336e5ff94a5d621ee" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_marker8</name></member>
+      <member refid="classDisplayPlot_1a9c3cb555eca9e55d13fca9727afecee2" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_marker9</name></member>
+      <member refid="classDisplayPlot_1a53dfe801acf6f784e912cb16f52e4ffe" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_style1</name></member>
+      <member refid="classDisplayPlot_1a47e542b645e902a27fd9f4f7dd3d4c0f" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_style2</name></member>
+      <member refid="classDisplayPlot_1a54f4a0661dadb89a087b7b5999e5e674" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_style3</name></member>
+      <member refid="classDisplayPlot_1a8a3c075154a5f0da3e4e38aa5ea5fd98" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_style4</name></member>
+      <member refid="classDisplayPlot_1ab14fe9fb0b440d355840d4079da72f39" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_style5</name></member>
+      <member refid="classDisplayPlot_1a952b35996baab615ef1d4e7963c3ab22" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_style6</name></member>
+      <member refid="classDisplayPlot_1af875a232e737f78e80277d3a6a664df4" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_style7</name></member>
+      <member refid="classDisplayPlot_1ae0561d4be3462d9c3a48ed0c6dc8a3c6" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_style8</name></member>
+      <member refid="classDisplayPlot_1a797d1dbd6affee54cab9587c0a10d0c5" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_style9</name></member>
+      <member refid="classDisplayPlot_1af3fbde0c2afb71b063f6d02355fac4f6" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_width1</name></member>
+      <member refid="classDisplayPlot_1ad67103198252abdb27a69349396c8770" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_width2</name></member>
+      <member refid="classDisplayPlot_1a2cf70bc3b27870f40fefc7d1ba5ea55c" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_width3</name></member>
+      <member refid="classDisplayPlot_1ab15527362a7f7a1a3df87d67bba60897" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_width4</name></member>
+      <member refid="classDisplayPlot_1a5fbc6f97db7fbe586481e7f296fe7c21" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_width5</name></member>
+      <member refid="classDisplayPlot_1a8f91352605d3091a21d929e2a7f2d537" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_width6</name></member>
+      <member refid="classDisplayPlot_1a27bc5ce3f13209b4620857ada83af4a2" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_width7</name></member>
+      <member refid="classDisplayPlot_1a2366d10fe373f4376baf478a374e8dae" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_width8</name></member>
+      <member refid="classDisplayPlot_1ace8f3cf4c6137a15847c592a08c4a59d" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>line_width9</name></member>
+      <member refid="classWaterfallDisplayPlot_1aba266f7f50045443288f2c7d0d5de582" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>low_intensity_color</name></member>
+      <member refid="classDisplayPlot_1a4a4ce348bd9f8bd9394d8a493e45e787" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>marker_alpha1</name></member>
+      <member refid="classDisplayPlot_1aa311bfe37b936e8b8432093565342c8e" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>marker_alpha2</name></member>
+      <member refid="classDisplayPlot_1aaef336cfa30c760024b1364d3bb85ed8" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>marker_alpha3</name></member>
+      <member refid="classDisplayPlot_1adced30b44aac55b5473ed92a861c24bb" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>marker_alpha4</name></member>
+      <member refid="classDisplayPlot_1a985df75128fe0ffcb42be3d6874a96f4" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>marker_alpha5</name></member>
+      <member refid="classDisplayPlot_1a5b21befaa505fab455ef899410ffaf3a" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>marker_alpha6</name></member>
+      <member refid="classDisplayPlot_1a264182163af63b69b2e4147022313686" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>marker_alpha7</name></member>
+      <member refid="classDisplayPlot_1a5b17c853fc2a606afb35f5978325e27d" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>marker_alpha8</name></member>
+      <member refid="classDisplayPlot_1a73043475dcfad5ab34f1d6ea409f7da7" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>marker_alpha9</name></member>
+      <member refid="classDisplayPlot_1a7ef3610e5a58fb09c482c1f9c9fe1cb2" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>onPickerPointSelected</name></member>
+      <member refid="classDisplayPlot_1a1e3d561106a3672f143f782f6e8974a7" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>palette_color</name></member>
+      <member refid="classWaterfallDisplayPlot_1a13d28a363d469dd174adaae37a6c3050" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>plotNewData</name></member>
+      <member refid="classWaterfallDisplayPlot_1adc29b200204c915d27af1f8969fdfff4" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>plotNewData</name></member>
+      <member refid="classDisplayPlot_1a06de984110abfef870815502f8c79a83" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>plotPointSelected</name></member>
+      <member refid="classWaterfallDisplayPlot_1ad29210bf078a93e6ac41232bad393d69" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>replot</name></member>
+      <member refid="classWaterfallDisplayPlot_1a66bc02adfb51857f68c8913807e9e4e6" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>resetAxis</name></member>
+      <member refid="classDisplayPlot_1ae1d792c3b067aeb6039791b4e8a228f8" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>resizeSlot</name></member>
+      <member refid="classWaterfallDisplayPlot_1a039f1472e3eb0fc50299c6bac5602dbc" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setAlpha</name></member>
+      <member refid="classDisplayPlot_1a10263062efb822aff158bb7d3940fe08" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setAxesLabelFontSize</name></member>
+      <member refid="classDisplayPlot_1a99d5d8eaa7febe3ae5264351dc0da88c" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setAxisLabelFontSize</name></member>
+      <member refid="classDisplayPlot_1a42c89c34bcb2ca2f387ce9f9a97a86a0" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>setAxisLabels</name></member>
+      <member refid="classWaterfallDisplayPlot_1aa6087d8862f504cc5b397a398c978537" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setColorMapTitleFontSize</name></member>
+      <member refid="classWaterfallDisplayPlot_1ab3cb0d30a21331d005727c9de2767eae" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setFrequencyRange</name></member>
+      <member refid="classWaterfallDisplayPlot_1a46582bb657f14062a3c124f0f4b0ba5f" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setIntensityColorMapType</name></member>
+      <member refid="classWaterfallDisplayPlot_1a60ee8aa2243fc50ee22207d518fa9016" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setIntensityColorMapType1</name></member>
+      <member refid="classWaterfallDisplayPlot_1a2e872a57b8c1d7a5ed080c5c14952061" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setIntensityRange</name></member>
+      <member refid="classDisplayPlot_1ab25cc7e3a838c0e0bc7ffa0d7cd36e53" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>setLineColor</name></member>
+      <member refid="classDisplayPlot_1a29b70f45a430f1db4eef8280f2411768" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineColor1</name></member>
+      <member refid="classDisplayPlot_1aab29d19142bc6fce607453a3398d4b72" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineColor2</name></member>
+      <member refid="classDisplayPlot_1a5adde7dce9b3138b521e9601feab53e8" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineColor3</name></member>
+      <member refid="classDisplayPlot_1abbd838c40a5e3b74e56dbdb71553e47c" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineColor4</name></member>
+      <member refid="classDisplayPlot_1a62675298630d90455ad17bb42003722f" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineColor5</name></member>
+      <member refid="classDisplayPlot_1a95cbf2f39bc01d89773050dbafc2c366" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineColor6</name></member>
+      <member refid="classDisplayPlot_1a143f8e3a2c3ba7549ef21d22455c27d3" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineColor7</name></member>
+      <member refid="classDisplayPlot_1a51bcaeb3ead3154c33255e4e751dfb79" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineColor8</name></member>
+      <member refid="classDisplayPlot_1a27b4ed8da67a110b19f3c5380257eeae" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineColor9</name></member>
+      <member refid="classDisplayPlot_1a749acdb1cf2b6652dbd184ce9edb3a5f" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>setLineLabel</name></member>
+      <member refid="classDisplayPlot_1a8a64be042384c3b555e410ccb3abbeba" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>setLineMarker</name></member>
+      <member refid="classDisplayPlot_1af10e3d43c7a4e98d22daa9cb50baef17" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineMarker1</name></member>
+      <member refid="classDisplayPlot_1a10c415a2348fee7d34946a55e5e4334d" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineMarker2</name></member>
+      <member refid="classDisplayPlot_1a0a6b04777fcee62855d2afa5e4e6b344" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineMarker3</name></member>
+      <member refid="classDisplayPlot_1afccdfb8f8817226a785b648c13270e28" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineMarker4</name></member>
+      <member refid="classDisplayPlot_1aabe43efed715d3023fa31fb50fc51eb0" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineMarker5</name></member>
+      <member refid="classDisplayPlot_1a5919c5531b47d3b4ab4d17aa7a89d3c8" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineMarker6</name></member>
+      <member refid="classDisplayPlot_1a97c171606b8e094d3247e8b0daba8443" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineMarker7</name></member>
+      <member refid="classDisplayPlot_1a1db9ea1d817ba3d866da6cce2f512641" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineMarker8</name></member>
+      <member refid="classDisplayPlot_1a3d9affbf73cb66da5fb418a8a52ebd8e" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineMarker9</name></member>
+      <member refid="classDisplayPlot_1a180de031b83c6e1101a0c72c7f90478b" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>setLineStyle</name></member>
+      <member refid="classDisplayPlot_1ad6b4a75b27f9c6d2513b6073b83ef8e4" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineStyle1</name></member>
+      <member refid="classDisplayPlot_1a66957cd79a6c33be7aeef8430dd7e88e" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineStyle2</name></member>
+      <member refid="classDisplayPlot_1a1c43eee6b28a4dae0a45df7f0ad319d3" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineStyle3</name></member>
+      <member refid="classDisplayPlot_1a08d2331335e9b6a05efb6521d3257eb6" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineStyle4</name></member>
+      <member refid="classDisplayPlot_1a38ffadf02e37579b290f90d381e34318" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineStyle5</name></member>
+      <member refid="classDisplayPlot_1ae4e44e1d228a0c5669eb1433200bf93f" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineStyle6</name></member>
+      <member refid="classDisplayPlot_1a6687fd290e5b8694554ec1d4cd060ccf" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineStyle7</name></member>
+      <member refid="classDisplayPlot_1a8f17a88d8b70f451850a74608267e815" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineStyle8</name></member>
+      <member refid="classDisplayPlot_1a7dbe5b4064cfde8f522c73c426fce7b6" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineStyle9</name></member>
+      <member refid="classDisplayPlot_1ae87b15769482bcf810ec80e5ce558136" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>setLineWidth</name></member>
+      <member refid="classDisplayPlot_1ac7347d5f90f2ed4eeffd0459add46c37" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineWidth1</name></member>
+      <member refid="classDisplayPlot_1a524b49f300105b5f3abc67fea52a00a0" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineWidth2</name></member>
+      <member refid="classDisplayPlot_1aedb9079ffed828dd5946c6efcba41111" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineWidth3</name></member>
+      <member refid="classDisplayPlot_1ae47b346bc1ab449a0ec60c8bd35ec0c5" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineWidth4</name></member>
+      <member refid="classDisplayPlot_1a07b77f2a1df172fd0490f12c4cafc3db" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineWidth5</name></member>
+      <member refid="classDisplayPlot_1ab0bba0a5f1087602b4595211b27f0257" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineWidth6</name></member>
+      <member refid="classDisplayPlot_1ab20ccb75e4a6ad7becf68b2015e5f828" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineWidth7</name></member>
+      <member refid="classDisplayPlot_1a539c5eeb1bca4327d9b03abab34c0828" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineWidth8</name></member>
+      <member refid="classDisplayPlot_1aaa38d522b100107540958ad092098c28" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setLineWidth9</name></member>
+      <member refid="classDisplayPlot_1a80ba9ba16c395d34a5d1772bcc6df7bc" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>setMarkerAlpha</name></member>
+      <member refid="classDisplayPlot_1a43b4f96bcce6bb4279c9ce3126d197fc" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setMarkerAlpha1</name></member>
+      <member refid="classDisplayPlot_1a00ae636a27c3e4e700f0c1af9de80def" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setMarkerAlpha2</name></member>
+      <member refid="classDisplayPlot_1ab7082751e854f59cf1bf1ce95fa3e068" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setMarkerAlpha3</name></member>
+      <member refid="classDisplayPlot_1aca45f9299201b26d2ca6c5b492f19b1f" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setMarkerAlpha4</name></member>
+      <member refid="classDisplayPlot_1acbee08790c6fc6f732d043e77efc945b" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setMarkerAlpha5</name></member>
+      <member refid="classDisplayPlot_1ae3f54bba79b58ec4a2e2cdc19856975d" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setMarkerAlpha6</name></member>
+      <member refid="classDisplayPlot_1a39b5736b7b7b3b775a43190a1f1dce00" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setMarkerAlpha7</name></member>
+      <member refid="classDisplayPlot_1ae249059bb5a657bea2405f3cbf8072dd" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setMarkerAlpha8</name></member>
+      <member refid="classDisplayPlot_1a60ff6d9a0abb0076fc3de01611fea0e4" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setMarkerAlpha9</name></member>
+      <member refid="classWaterfallDisplayPlot_1a27a22d3682f74ff2911bf7f81af74061" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setNumRows</name></member>
+      <member refid="classDisplayPlot_1a22903f897ffab9bd33f32cc8bf676d4c" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setPaletteColor</name></member>
+      <member refid="classWaterfallDisplayPlot_1a3a152e84554fc9a115338ab659658915" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setPlotPosHalf</name></member>
+      <member refid="classDisplayPlot_1aa4b181cb717d3f01e7b9f66e0faf2e36" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setStop</name></member>
+      <member refid="classWaterfallDisplayPlot_1a6bf178ba8258e9e8c7389779ed9521a7" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setUserDefinedHighIntensityColor</name></member>
+      <member refid="classWaterfallDisplayPlot_1aa83d9994df390c101cd5ab136815a778" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setUserDefinedLowIntensityColor</name></member>
+      <member refid="classDisplayPlot_1aadf76f7a6698a8c90098d7f57a2ae8c8" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>setXaxis</name></member>
+      <member refid="classDisplayPlot_1a08f362aa783c9fc6b14fbc3ff5aeccb9" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setXaxisLabelFontSize</name></member>
+      <member refid="classDisplayPlot_1a8376aabe947045324a4e882cc3155c8e" prot="public" virt="virtual"><scope>WaterfallDisplayPlot</scope><name>setYaxis</name></member>
+      <member refid="classDisplayPlot_1a83a1d4719128a20298927a2c78c845ed" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setYaxisLabelFontSize</name></member>
+      <member refid="classDisplayPlot_1adfb013186be2f85267c0ae6df609cd43" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>setZoomerColor</name></member>
+      <member refid="classWaterfallDisplayPlot_1a6684879b11dabe62dac757c74fddc8ca" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>updatedLowerIntensityLevel</name></member>
+      <member refid="classWaterfallDisplayPlot_1aedce8c7cd9c30c29958653ac07b4cff2" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>updatedUpperIntensityLevel</name></member>
+      <member refid="classWaterfallDisplayPlot_1ad175ec92c56981df648ab4b9a5ed2408" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>WaterfallDisplayPlot</name></member>
+      <member refid="classDisplayPlot_1a637a37e0bff3bd1367f895edc3c7756f" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>xaxis_label_font_size</name></member>
+      <member refid="classDisplayPlot_1aa5d7720f54f6f778d2b3cdb51aa831f5" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>yaxis_label_font_size</name></member>
+      <member refid="classDisplayPlot_1acc858f57b01b2b1e892da6679460b0d4" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>zoomer_color</name></member>
+      <member refid="classDisplayPlot_1aa99f69f4cd237e9daebaa359b5fa7847" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>~DisplayPlot</name></member>
+      <member refid="classWaterfallDisplayPlot_1a6e55b7c5e04a9e66501f35afae956e50" prot="public" virt="non-virtual"><scope>WaterfallDisplayPlot</scope><name>~WaterfallDisplayPlot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

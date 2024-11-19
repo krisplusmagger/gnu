@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="phase__shift__pydoc_8h" kind="file" language="C++">
+    <compoundname>phase_shift_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>phase_shift_pydoc.h</label>
+        <link refid="phase__shift__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="phase__shift__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/phase_shift_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/phase_shift_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="phase__shift__pydoc_8h_1aa911be10396666e14fa3be8457822ff5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_phase_shift</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_phase_shift</name>
+        <initializer>= R&quot;doc(This block will shift the incoming signal by the specified amount. Shift can be specified in either radians or degrees which is configurable in the constructor.
+
+This block functions like a multiply const, but with the const limited to abs() == 1 to provide a constant phase shift.
+
+Constructor Specific Documentation:
+
+Create an instance of phase_shift.
+
+Args:
+    shift : 
+    is_radians : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/phase_shift_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/phase_shift_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="phase__shift__pydoc_8h_1a70a1dbc415bdabfebc396e6f8cb1f927" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_phase_shift_phase_shift_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_phase_shift_phase_shift_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/phase_shift_pydoc.h" line="31" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/phase_shift_pydoc.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="phase__shift__pydoc_8h_1a4f597ef90426888b48efb070d23aa9b0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_phase_shift_phase_shift_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_phase_shift_phase_shift_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/phase_shift_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/phase_shift_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="phase__shift__pydoc_8h_1a16f9d4d30822413322b57e626e92470d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_phase_shift_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_phase_shift_make</name>
+        <initializer>= R&quot;doc(This block will shift the incoming signal by the specified amount. Shift can be specified in either radians or degrees which is configurable in the constructor.
+
+This block functions like a multiply const, but with the const limited to abs() == 1 to provide a constant phase shift.
+
+Constructor Specific Documentation:
+
+Create an instance of phase_shift.
+
+Args:
+    shift : 
+    is_radians : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/phase_shift_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/phase_shift_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="phase__shift__pydoc_8h_1a58338b47e933c96d502cca3a6c5649e0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_phase_shift_get_shift</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_phase_shift_get_shift</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/phase_shift_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/phase_shift_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="phase__shift__pydoc_8h_1abd682bb5f740f3a6e09fc4a78f41f67a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_phase_shift_set_shift</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_phase_shift_set_shift</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/phase_shift_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/phase_shift_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/phase_shift_pydoc.h"/>
+  </compounddef>
+</doxygen>

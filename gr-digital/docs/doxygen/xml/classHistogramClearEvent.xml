@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classHistogramClearEvent" kind="class" language="C++" prot="public">
+    <compoundname>HistogramClearEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QEvent</basecompoundref>
+    <includes refid="spectrumUpdateEvents_8h" local="no">gnuradio/qtgui/spectrumUpdateEvents.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHistogramClearEvent_1a3fbd4af4b415239bd0bc0522a544a805" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HistogramClearEvent::HistogramClearEvent</definition>
+        <argsstring>()</argsstring>
+        <name>HistogramClearEvent</name>
+        <qualifiedname>HistogramClearEvent::HistogramClearEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="320" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="320" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classHistogramClearEvent_1a1863c7d0423f2bd26edc598c19ed0e6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HistogramClearEvent::~HistogramClearEvent</definition>
+        <argsstring>() override</argsstring>
+        <name>~HistogramClearEvent</name>
+        <qualifiedname>HistogramClearEvent::~HistogramClearEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="322" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="322" bodyend="322"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classHistogramClearEvent_1aaf3a9e7c0a145d85bb0af2a11db558c0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QEvent::Type</type>
+        <definition>static QEvent::Type HistogramClearEvent::Type</definition>
+        <argsstring>()</argsstring>
+        <name>Type</name>
+        <qualifiedname>HistogramClearEvent::Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="324" column="25" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="324" bodyend="324"/>
+        <references refid="spectrumUpdateEvents_8h_1ac31addf0edee93b209aba289ae383b5d" compoundref="spectrumUpdateEvents_8h" startline="24">SpectrumUpdateEventType</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>HistogramClearEvent</label>
+        <link refid="classHistogramClearEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>HistogramClearEvent</label>
+        <link refid="classHistogramClearEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="317" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="318" bodyend="325"/>
+    <listofallmembers>
+      <member refid="classHistogramClearEvent_1a3fbd4af4b415239bd0bc0522a544a805" prot="public" virt="non-virtual"><scope>HistogramClearEvent</scope><name>HistogramClearEvent</name></member>
+      <member refid="classHistogramClearEvent_1aaf3a9e7c0a145d85bb0af2a11db558c0" prot="public" virt="non-virtual"><scope>HistogramClearEvent</scope><name>Type</name></member>
+      <member refid="classHistogramClearEvent_1a1863c7d0423f2bd26edc598c19ed0e6d" prot="public" virt="non-virtual"><scope>HistogramClearEvent</scope><name>~HistogramClearEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="vector__map__pydoc_8h" kind="file" language="C++">
+    <compoundname>vector_map_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>vector_map_pydoc.h</label>
+        <link refid="vector__map__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="vector__map__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/vector_map_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/vector_map_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="vector__map__pydoc_8h_1ada59a8a4f1017fc4d5ae87a10d0bb436" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_vector_map</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_vector_map</name>
+        <initializer>= R&quot;doc(Maps elements from a set of input vectors to a set of output vectors.
+
+If in[i] is the input vector in the i&apos;th stream then the output vector in the j&apos;th stream is:
+
+
+out[j][k] = in[mapping[j][k][0]][mapping[j][k][1]]
+
+
+That is mapping is of the form (out_stream1_mapping, out_stream2_mapping, ...) and out_stream1_mapping is of the form (element1_mapping, element2_mapping, ...) and element1_mapping is of the form (in_stream, in_element).
+
+Constructor Specific Documentation:
+
+Build a vector map block.
+
+Args:
+    item_size : (integer) size of vector elements
+    in_vlens : (vector of integers) number of elements in each input vector
+    mapping : (vector of vectors of vectors of integers) how to map elements from input to output vectors)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/vector_map_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/vector_map_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__map__pydoc_8h_1a02789a346de83de0eff8cb0c4724de70" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_vector_map_vector_map_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_vector_map_vector_map_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/vector_map_pydoc.h" line="38" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/vector_map_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__map__pydoc_8h_1aa2f72348f7f84ca7b30f5cb297c90fe1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_vector_map_vector_map_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_vector_map_vector_map_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/vector_map_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/vector_map_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__map__pydoc_8h_1ac56327929e0a238d87abc6561c9288df" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_vector_map_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_vector_map_make</name>
+        <initializer>= R&quot;doc(Maps elements from a set of input vectors to a set of output vectors.
+
+If in[i] is the input vector in the i&apos;th stream then the output vector in the j&apos;th stream is:
+
+
+out[j][k] = in[mapping[j][k][0]][mapping[j][k][1]]
+
+
+That is mapping is of the form (out_stream1_mapping, out_stream2_mapping, ...) and out_stream1_mapping is of the form (element1_mapping, element2_mapping, ...) and element1_mapping is of the form (in_stream, in_element).
+
+Constructor Specific Documentation:
+
+Build a vector map block.
+
+Args:
+    item_size : (integer) size of vector elements
+    in_vlens : (vector of integers) number of elements in each input vector
+    mapping : (vector of vectors of vectors of integers) how to map elements from input to output vectors)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/vector_map_pydoc.h" line="44" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/vector_map_pydoc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vector__map__pydoc_8h_1a089b94384b05ae20fc88da90734201fa" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_vector_map_set_mapping</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_vector_map_set_mapping</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/vector_map_pydoc.h" line="64" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/vector_map_pydoc.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/vector_map_pydoc.h"/>
+  </compounddef>
+</doxygen>

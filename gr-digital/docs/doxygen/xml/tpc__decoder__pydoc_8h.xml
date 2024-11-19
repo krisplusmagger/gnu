@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="tpc__decoder__pydoc_8h" kind="file" language="C++">
+    <compoundname>tpc_decoder_pydoc.h</compoundname>
+    <includes refid="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>tpc_decoder_pydoc.h</label>
+        <link refid="tpc__decoder__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="tpc__decoder__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, fec, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tpc_decoder_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tpc_decoder_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="tpc__decoder__pydoc_8h_1a45434bade07514526fb1bbf902d99ef1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_tpc_decoder</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_tpc_decoder</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tpc_decoder_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tpc_decoder_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tpc__decoder__pydoc_8h_1a6c662454efab9ce9c55221ca2035a073" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_tpc_decoder_tpc_decoder</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_tpc_decoder_tpc_decoder</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tpc_decoder_pydoc.h" line="21" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tpc_decoder_pydoc.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tpc__decoder__pydoc_8h_1a07ac3f94b48a05129d7dfbd91a08fcd9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_tpc_decoder_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_tpc_decoder_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tpc_decoder_pydoc.h" line="24" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tpc_decoder_pydoc.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tpc__decoder__pydoc_8h_1ab0914fa7330d195501c10be02aae0541" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_tpc_decoder_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_tpc_decoder_rate</name>
+        <initializer>= R&quot;doc(Returns the rate of the code. For every r input bits, there is 1 output bit, so the rate is 1/r. Used for setting things like the encoder block&apos;s relative rate.
+
+
+This function MUST be reimplemented by the child class.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tpc_decoder_pydoc.h" line="27" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tpc_decoder_pydoc.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tpc__decoder__pydoc_8h_1aa4067d3c6480d5b9401c56b27954bf49" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_tpc_decoder_set_frame_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_tpc_decoder_set_frame_size</name>
+        <initializer>= R&quot;doc(Updates the size of a decoded frame.
+
+
+The child class MUST implement this function and interpret how the  information affects the block&apos;s behavior. It should also provide bounds checks.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tpc_decoder_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tpc_decoder_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tpc_decoder_pydoc.h"/>
+  </compounddef>
+</doxygen>

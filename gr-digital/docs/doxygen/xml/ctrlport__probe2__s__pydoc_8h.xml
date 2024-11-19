@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="ctrlport__probe2__s__pydoc_8h" kind="file" language="C++">
+    <compoundname>ctrlport_probe2_s_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>ctrlport_probe2_s_pydoc.h</label>
+        <link refid="ctrlport__probe2__s__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="ctrlport__probe2__s__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/ctrlport_probe2_s_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/ctrlport_probe2_s_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="ctrlport__probe2__s__pydoc_8h_1a13ded297be0009253d0957121ddd7bdd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_ctrlport_probe2_s</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_ctrlport_probe2_s</name>
+        <initializer>= R&quot;doc(A ControlPort probe to export vectors of signals.
+
+This block acts as a sink in the flowgraph but also exports vectors of complex samples over ControlPort. This block holds the latest  number of complex samples so that every query by a ControlPort client will get the same length vector.
+
+Constructor Specific Documentation:
+
+Make a ControlPort probe block.
+
+Args:
+    id : A string ID to name the probe over ControlPort.
+    desc : A string describing the probe.
+    len : Number of samples to transmit.
+    disp_mask : Mask to set default display params.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/ctrlport_probe2_s_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/ctrlport_probe2_s_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ctrlport__probe2__s__pydoc_8h_1a60dc12015e66423634b9adfb9bf51ee5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_ctrlport_probe2_s_ctrlport_probe2_s_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_ctrlport_probe2_s_ctrlport_probe2_s_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/ctrlport_probe2_s_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/ctrlport_probe2_s_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ctrlport__probe2__s__pydoc_8h_1a0e6b224359d8835ed8f00dc37268648c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_ctrlport_probe2_s_ctrlport_probe2_s_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_ctrlport_probe2_s_ctrlport_probe2_s_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/ctrlport_probe2_s_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/ctrlport_probe2_s_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ctrlport__probe2__s__pydoc_8h_1a9b915a0b82ab1a83be3ec436cca16443" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_ctrlport_probe2_s_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_ctrlport_probe2_s_make</name>
+        <initializer>= R&quot;doc(A ControlPort probe to export vectors of signals.
+
+This block acts as a sink in the flowgraph but also exports vectors of complex samples over ControlPort. This block holds the latest  number of complex samples so that every query by a ControlPort client will get the same length vector.
+
+Constructor Specific Documentation:
+
+Make a ControlPort probe block.
+
+Args:
+    id : A string ID to name the probe over ControlPort.
+    desc : A string describing the probe.
+    len : Number of samples to transmit.
+    disp_mask : Mask to set default display params.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/ctrlport_probe2_s_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/ctrlport_probe2_s_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ctrlport__probe2__s__pydoc_8h_1af575238c4fbb160ae41e48b9e6dfa960" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_ctrlport_probe2_s_get</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_ctrlport_probe2_s_get</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/ctrlport_probe2_s_pydoc.h" line="54" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/ctrlport_probe2_s_pydoc.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ctrlport__probe2__s__pydoc_8h_1ac67ab9a2308b2c8abd2ea0df550b2e9d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_ctrlport_probe2_s_set_length</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_ctrlport_probe2_s_set_length</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/ctrlport_probe2_s_pydoc.h" line="57" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/ctrlport_probe2_s_pydoc.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/ctrlport_probe2_s_pydoc.h"/>
+  </compounddef>
+</doxygen>

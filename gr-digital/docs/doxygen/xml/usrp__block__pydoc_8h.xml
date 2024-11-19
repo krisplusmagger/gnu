@@ -1,0 +1,1200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="usrp__block__pydoc_8h" kind="file" language="C++">
+    <compoundname>usrp_block_pydoc.h</compoundname>
+    <includes refid="build_2gr-uhd_2python_2uhd_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-uhd_2python_2uhd_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>usrp_block_pydoc.h</label>
+        <link refid="usrp__block__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="usrp__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, uhd, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a4bc6a593116d1468338ab57d657cb042" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block</name>
+        <initializer>= R&quot;doc(Base class for USRP blocks.
+
+
+Note that many of the functions defined here differ between Rx and Tx configurations. As an example, set_center_freq() will set the Rx frequency for a usrp_source object, and the Tx frequency on a usrp_sink object.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1ad28b59c0baa8d4c32a1d1a05e28dee60" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_subdev_spec</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_subdev_spec</name>
+        <initializer>= R&quot;doc(Set the frontend specification.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="24" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a42563c1def76d7e5c4e4100a4336a306" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_subdev_spec</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_subdev_spec</name>
+        <initializer>= R&quot;doc(Get the frontend specification.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="27" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1ab5abb2fe789c2e2860818e79ca0063f2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_num_mboards</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_num_mboards</name>
+        <initializer>= R&quot;doc(Return the number of motherboards in this configuration.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="30" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1ad674a2aae1ed1842f2c6caa4a630931f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_samp_rate</name>
+        <initializer>= R&quot;doc(Set the sample rate for this connection to the USRP.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a8580e7ed2429c7b0f043f1160d5ba0fe" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_samp_rate</name>
+        <initializer>= R&quot;doc(Get the sample rate for this connection to the USRP. This is the actual sample rate and may differ from the rate set.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1aad561826c01f0d6c55e74800f6c7abc7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_samp_rates</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_samp_rates</name>
+        <initializer>= R&quot;doc(Get the possible sample rates for this connection.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a05c924cd5f35b93a721b17901529e62a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_center_freq_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_center_freq_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="42" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a4976a38c8afcd3b94aeebd3aeb4b098f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_center_freq_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_center_freq_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="45" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a97ed19d73a0e79136327e4a079cd7979" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_center_freq</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_center_freq</name>
+        <initializer>= R&quot;doc(Get the center frequency.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1aeb1b28a5c61461dfa8a32513f805442c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_freq_range</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_freq_range</name>
+        <initializer>= R&quot;doc(Get the tunable frequency range.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a3259250e2ba1e9fdc47cb362f7a7ce7a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_gain_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_gain_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="54" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a4904c708968381f02df8c2fa7a74dc59" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_gain_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_gain_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="57" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a5507c0de5429b704eb7e3c24523cb265" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_normalized_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_normalized_gain</name>
+        <initializer>= R&quot;doc(Set the normalized gain.
+
+
+The normalized gain is always in [0, 1], regardless of the device. 0 corresponds to minimum gain (usually 0 dB, but make sure to read the device notes in the UHD manual) and 1 corresponds to maximum gain. This will work for any UHD device. Use get_gain() to see which dB value the normalized gain value corresponds to.
+
+
+Note that it is not possible to specify a gain name for this function.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="60" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1ad42fc1906b340427b0cb4a68c834d593" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_gain_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_gain_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="69" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a1e9a59317bd4414505ccd4eedbe75c3d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_gain_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_gain_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="72" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1aaca209df73b34d4c8701a7838736d2f1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_normalized_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_normalized_gain</name>
+        <initializer>= R&quot;doc(Returns the normalized gain.
+
+
+The normalized gain is always in [0, 1], regardless of the device. See also set_normalized_gain().
+
+
+Note that it is not possible to specify a gain name for this function, the result is over the entire gain chain.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="75" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a4baf1f8fca6f0d929aa5e1d0619442ff" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_gain_names</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_gain_names</name>
+        <initializer>= R&quot;doc(Get the actual dboard gain setting of named stage.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="84" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1aa2ac6f625fdc66eac8e059e6d07fec6f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_gain_range_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_gain_range_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="87" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1aecaa9086cbb37ed951872d38b24afd45" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_gain_range_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_gain_range_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="90" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a8db20250b492eba2c504f203c2ea904a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_has_power_reference</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_has_power_reference</name>
+        <initializer>= R&quot;doc(Query if this device is capable of absolute power levels
+
+
+If true, the set_power_reference() and get_power_reference() APIs can be used as well. Note that if the underlying UHD version doesn&apos;t support power APIs, a warning will be printed, and the return value is always false.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="93" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a6625060590050070a7fca9859f5d211a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_power_reference</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_power_reference</name>
+        <initializer>= R&quot;doc(Set the absolute power reference level for this channel
+
+
+Note that this API is available for certain devices only, and only if calibration data is available. Refer to the UHD manual for greater detail: 
+
+
+In a nutshell, using the power reference will configure the device such that a full-scale signal (0 dBFS) corresponds to a signal at the antenna connector of . After calling this function, the device will attempt to keep the power level constant after retuning, which means the gain level may be changed after a re-tune.
+
+
+The device may coerce the available power level (for example, if the requested power level is not achievable by the device). The coerced value may be read by calling get_power_reference().)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="99" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a8657f8008133964304ce256e1ac3c1ac" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_power_reference</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_power_reference</name>
+        <initializer>= R&quot;doc(Return the absolute power reference level for this channel
+
+
+Note that this API is only available for certain devices, and assuming the existence of calibration data. Refer to the UHD manual for greater detail: 
+
+
+See also set_power_reference().)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="111" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a3753a55e7208cd546613b9d55edce01f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_power_range</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_power_range</name>
+        <initializer>= R&quot;doc(Return the available power range)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="120" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1ae4bf291472b8364a63e0c0dc79dc3ea3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_antenna</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_antenna</name>
+        <initializer>= R&quot;doc(Set the antenna to use for a given channel.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="123" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1aa360cbf1c8c19499f0211de8217690d6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_antenna</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_antenna</name>
+        <initializer>= R&quot;doc(Get the antenna in use.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="126" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a80e44654940447b26eb1eb32ede59c91" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_antennas</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_antennas</name>
+        <initializer>= R&quot;doc(Get a list of possible antennas on a given channel.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="129" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1ae7de742a369ff77ebe39b5bc50e2daf7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_bandwidth</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_bandwidth</name>
+        <initializer>= R&quot;doc(Set the bandpass filter on the RF frontend.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="132" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1ac6385f02c2a2271cd5bc4ba7bad4b8e5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_bandwidth</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_bandwidth</name>
+        <initializer>= R&quot;doc(Get the bandpass filter setting on the RF frontend.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="135" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1aac24dba95fdbaf98950b7145277e9d5b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_bandwidth_range</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_bandwidth_range</name>
+        <initializer>= R&quot;doc(Get the bandpass filter range of the RF frontend.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="138" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a3c79c1ec4f6ee0cad584ae3682e6f4bd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_sensor</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_sensor</name>
+        <initializer>= R&quot;doc(Get an RF frontend sensor value.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="141" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a0c572e85188e1227705a7e33bf06e427" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_sensor_names</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_sensor_names</name>
+        <initializer>= R&quot;doc(Get a list of possible RF frontend sensor names.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="144" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1abee37a10223a200ef826bce94dc8af04" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_dboard_sensor</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_dboard_sensor</name>
+        <initializer>= R&quot;doc(DEPRECATED use get_sensor.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="147" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a8c767c0ecaa7c32430fe04ca2f734f35" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_dboard_sensor_names</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_dboard_sensor_names</name>
+        <initializer>= R&quot;doc(DEPRECATED use get_sensor_names.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="150" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1af737804db242aad0bd01be3e36c43111" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_mboard_sensor</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_mboard_sensor</name>
+        <initializer>= R&quot;doc(Get a motherboard sensor value.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="153" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a3990102a818546902244bacc806ec780" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_mboard_sensor_names</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_mboard_sensor_names</name>
+        <initializer>= R&quot;doc(Get a list of possible motherboard sensor names.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="156" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1adba41863a135c19abd9b12e724db3ba3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_time_source</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_time_source</name>
+        <initializer>= R&quot;doc(Get the currently set time source.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="159" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a4914886d0686d7ffeaf3a53ab944298b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_time_sources</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_time_sources</name>
+        <initializer>= R&quot;doc(Get a list of possible time sources.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="162" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a5cb607392f4ffd3b0e7e3984aa84c6b3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_clock_source</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_clock_source</name>
+        <initializer>= R&quot;doc(Set the clock source for the usrp device.
+
+
+This sets the source for a 10 MHz reference clock. Typical options for source: internal, external, MIMO.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="165" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1ad20ef3d398d9698d94dde93de7d9742e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_clock_source</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_clock_source</name>
+        <initializer>= R&quot;doc(Get the currently set clock source.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="171" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a83b4f1c2f755a5190255d0c0f0cffa1f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_clock_sources</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_clock_sources</name>
+        <initializer>= R&quot;doc(Get a list of possible clock sources.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="174" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a2189eeb87bc320518d52b91f2a51ad9c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_clock_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_clock_rate</name>
+        <initializer>= R&quot;doc(Get the master clock rate.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="177" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a9d1e808249d1ca18f4bec98e8e390036" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_clock_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_clock_rate</name>
+        <initializer>= R&quot;doc(Set the master clock rate.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="180" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a8ad471acc594235d9020d8f2a354cd23" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_time_now</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_time_now</name>
+        <initializer>= R&quot;doc(Get the current time registers.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="183" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a092833f66acc15f9294826f748d6039e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_time_last_pps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_time_last_pps</name>
+        <initializer>= R&quot;doc(Get the time when the last pps pulse occurred.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="186" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a54333908d48c9b32dd4d9da4cf1d9c32" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_time_now</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_time_now</name>
+        <initializer>= R&quot;doc(Sets the time registers immediately.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="189" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a6cd50721b3ff6cb419aa2829ab5c6d09" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_time_next_pps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_time_next_pps</name>
+        <initializer>= R&quot;doc(Set the time registers at the next pps.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="192" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a33ccd0180a51516a3948b8fb2312496e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_time_unknown_pps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_time_unknown_pps</name>
+        <initializer>= R&quot;doc(Sync the time registers with an unknown pps edge.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="195" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a989822affd842ffe3fc998efe1dfa23f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_command_time</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_command_time</name>
+        <initializer>= R&quot;doc(Set the time at which the control commands will take effect.
+
+
+A timed command will back-pressure all subsequent timed commands, assuming that the subsequent commands occur within the time-window. If the time spec is late, the command will be activated upon arrival.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="198" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1acd281468ff697e30efa8c3dd823573fe" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_clear_command_time</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_clear_command_time</name>
+        <initializer>= R&quot;doc(Clear the command time so future commands are sent ASAP.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="204" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a1c7735d274545df449228be324b9cffa" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_dboard_iface</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_dboard_iface</name>
+        <initializer>= R&quot;doc(Get access to the underlying uhd dboard iface object.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="207" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a30d4c4404dbadac78b6167c6cdc20228" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_device</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_device</name>
+        <initializer>= R&quot;doc(Get access to the underlying uhd device object.
+
+
+NOTE: This function is only available in C++.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="210" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1adb630aea7b120ec13dab39a6ab7ec073" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_user_register</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_user_register</name>
+        <initializer>= R&quot;doc(Perform write on the user configuration register bus. These only exist if the user has implemented custom setting registers in the device FPGA.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="216" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1ab9aefb9f52654850a64ff8d95090cf2a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_time_source</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_time_source</name>
+        <initializer>= R&quot;doc(Set the time source for the USRP device.
+
+
+This sets the method of time synchronization, typically a pulse per second or an encoded time. Typical options for source: external, MIMO.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="219" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a8608d8bc0cab245c191c510b7bbda1ea" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_stream_args</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_stream_args</name>
+        <initializer>= R&quot;doc(Update the stream args for this device.
+
+
+This update will only take effect after a restart of the streaming, or before streaming and after construction. This will also delete the current streamer. Note you cannot change the I/O signature of this block using this function, or it will throw.
+
+
+It is possible to leave the &apos;channels&apos; fields of  unset. In this case, the previous channels field is used.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="225" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1ad0a109165643d94019a2d3f2c8253f2b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_gpio_banks</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_gpio_banks</name>
+        <initializer>= R&quot;doc(Enumerate GPIO banks on the current device.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="234" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a20584e3cf7758cbf386bd1f6cfab7f07" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_gpio_attr</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_gpio_attr</name>
+        <initializer>= R&quot;doc(Set a GPIO attribute on a particular GPIO bank. Possible attribute names:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="237" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1aed427da315ecb2cf66952a05ac9d6d40" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_gpio_attr</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_gpio_attr</name>
+        <initializer>= R&quot;doc(Get a GPIO attribute on a particular GPIO bank. Possible attribute names:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="240" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a6943b1a2801b5a391b86e164b52ea301" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_filter_names</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_filter_names</name>
+        <initializer>= R&quot;doc(Enumerate the available filters in the signal path.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="243" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1ac2ffd0b27bba142b666b7f12decb08f4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_set_filter</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_set_filter</name>
+        <initializer>= R&quot;doc(Write back a filter obtained by get_filter() to the signal path.
+
+
+This filter can be a modified version of the originally returned one. The information about Rx or Tx is contained in the path parameter.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="246" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a3b293adf4aeddd2802e7fdfc6d313a50" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_filter</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_filter</name>
+        <initializer>= R&quot;doc(Return the filter object for the given name.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="252" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a32d48ccd38ea501118992b4cae1aaaea" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_usrp_block_get_usrp_info</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_usrp_block_get_usrp_info</name>
+        <initializer>= R&quot;doc(Returns identifying information about this USRP&apos;s configuration. Returns motherboard ID, name, and serial. Returns daughterboard TX ID, subdev name and spec, serial, and antenna.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="255" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1ad3b9f44f880507c0beb5158b93182148" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_cmd_chan_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_cmd_chan_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="258" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a8a4d70ceeec15eac2dd4de6b8be75940" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_cmd_gain_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_cmd_gain_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="261" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a5eab3bbce4926051b6f600d579deefab" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_cmd_power_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_cmd_power_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="264" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1af61cdbc38056d4aa33bd2845678e08a7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_cmd_freq_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_cmd_freq_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="267" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1af28068eab65820f73d14ed2a0b4dd0d4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_cmd_lo_offset_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_cmd_lo_offset_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="270" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a9a6cf7a050aee5b2c3fc64a870689ea5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_cmd_tune_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_cmd_tune_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="273" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1ac3bc9a393b87700ea6d7a7c26672a63f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_cmd_lo_freq_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_cmd_lo_freq_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="276" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1abb75000e707f71b35496e699978abd8e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_cmd_dsp_freq_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_cmd_dsp_freq_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="279" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a331f5831b76f61ae7e0ae371bb97ea40" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_cmd_rate_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_cmd_rate_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="282" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a680aa2cc388b3bfb3c142f24d27d3030" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_cmd_bandwidth_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_cmd_bandwidth_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="285" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1ad62e97e3b5dca20228e7cd91695faab1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_cmd_time_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_cmd_time_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="288" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a7dceadecc4c0fb6a64da2268682ca2f2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_cmd_mboard_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_cmd_mboard_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="291" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a23db15adee90fb2448b92db81df4452d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_cmd_antenna_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_cmd_antenna_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="294" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a512b08282cf85a92bac2eb28c7e2d27b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_cmd_direction_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_cmd_direction_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="297" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1abb9cd427e64c059f446e6a1012c0189e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_cmd_tag_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_cmd_tag_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="300" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a85b454f23f74d99ad5688120888d032c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_direction_rx</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_direction_rx</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="303" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__block__pydoc_8h_1a59ee1a1c9e2a9073c1ba507d1a57a4dd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_direction_tx</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_direction_tx</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" line="306" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/usrp_block_pydoc.h"/>
+  </compounddef>
+</doxygen>

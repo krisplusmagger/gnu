@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="lfsr__pydoc_8h" kind="file" language="C++">
+    <compoundname>lfsr_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>lfsr_pydoc.h</label>
+        <link refid="lfsr__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="lfsr__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="lfsr__pydoc_8h_1ac35eb103b1da888af44078ff4fc2cc78" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_lfsr</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_lfsr</name>
+        <initializer>= R&quot;doc(Fibonacci Linear Feedback Shift Register using specified polynomial mask.
+
+Generates a maximal length pseudo-random sequence of length 2^degree-1, if supplied with a primitive polynomial.
+
+
+Constructor: digital::lfsr(int mask, int seed, int reg_len);
+
+
+
+Some common masks might be: x^4 + x^3 + x^0 = 0x19, K=3 x^5 + x^3 + x^0 = 0x29, K=4 x^6 + x^5 + x^0 = 0x61, K=5
+
+
+
+see  for more explanation.
+
+
+next_bit() - Standard LFSR operation  next_bit_scramble(unsigned char input) - Scramble an input stream  next_bit_descramble(unsigned char input) - Descramble an input stream  See  for operation of these last two functions (see multiplicative scrambler.)
+
+Args:
+    mask : - polynomial coefficients representing the locations of feedback <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> from a shift register which are xor&apos;ed together to form the new high order bit.
+    seed : - the initialization vector placed into the register during initialization. Low order bit corresponds to x^0 coefficient  the first to be shifted as output.
+    reg_len : - specifies the length of the feedback shift register to be used. During each iteration, the register is rightshifted one and the new bit is placed in bit reg_len. reg_len should generally be at least order(mask) + 1)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lfsr__pydoc_8h_1a629678578b1e13e1e837664ec5659869" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_lfsr_lfsr_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_lfsr_lfsr_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" line="42" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lfsr__pydoc_8h_1a121e700ba0b5b25a25d718877c46587c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_lfsr_lfsr_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_lfsr_lfsr_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" line="45" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lfsr__pydoc_8h_1aae3cff3cbd8211d068b406dc5d9ce177" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_lfsr_next_bit</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_lfsr_next_bit</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lfsr__pydoc_8h_1a0d5d735886011955af031de36a8aaff6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_lfsr_next_bit_scramble</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_lfsr_next_bit_scramble</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lfsr__pydoc_8h_1a215e39c97d2d8eb1516bf33455f46b2f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_lfsr_next_bit_descramble</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_lfsr_next_bit_descramble</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" line="54" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lfsr__pydoc_8h_1adce31ddf67984e3aa812b45661eed5a4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_lfsr_reset</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_lfsr_reset</name>
+        <initializer>= R&quot;doc(Reset shift register to initial seed value)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" line="57" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lfsr__pydoc_8h_1a33557ce5472b8c23a97162561392cf79" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_lfsr_pre_shift</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_lfsr_pre_shift</name>
+        <initializer>= R&quot;doc(Rotate the register through x number of bits where we are just throwing away the results to get queued up correctly)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" line="60" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lfsr__pydoc_8h_1aeb09219342d8573feb43cf79267ccf6e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_lfsr_mask</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_lfsr_mask</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" line="63" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/lfsr_pydoc.h"/>
+  </compounddef>
+</doxygen>

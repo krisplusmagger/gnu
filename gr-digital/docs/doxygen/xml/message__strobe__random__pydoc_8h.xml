@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="message__strobe__random__pydoc_8h" kind="file" language="C++">
+    <compoundname>message_strobe_random_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>message_strobe_random_pydoc.h</label>
+        <link refid="message__strobe__random__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="message__strobe__random__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="message__strobe__random__pydoc_8h_1aed9bf5c6a63d67409cada9fae0ba86b3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_strobe_random</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_strobe_random</name>
+        <initializer>= R&quot;doc(Send message at defined interval.
+
+Takes a PMT message and sends it out at random intervals. The interval is based on a random distribution, , with specified mean () and variance (). Useful for testing/debugging the message system.
+
+Constructor Specific Documentation:
+
+Make a message stobe block to sends message  at random intervals defined by the distribution  with mean  and standard deviation .
+
+Args:
+    msg : The message to send as a PMT.
+    dist : The random distribution from which to draw the time between events.
+    mean_ms : The mean of the distribution, in milliseconds.
+    std_ms : The standard deviation of the Gaussian distribution, or the maximum absolute deviation of the Uniform distribution, in milliseconds. This argument is ignored for other distributions.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__strobe__random__pydoc_8h_1af3c5350d920de3d3ae038ba4c9fcff79" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_strobe_random_message_strobe_random_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_strobe_random_message_strobe_random_0</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__strobe__random__pydoc_8h_1a55d28290ccb870f03d35f12139494a53" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_strobe_random_message_strobe_random_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_strobe_random_message_strobe_random_1</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__strobe__random__pydoc_8h_1a253aebccab7d9eda0120eab2acd92adf" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_strobe_random_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_strobe_random_make</name>
+        <initializer>= R&quot;doc(Send message at defined interval.
+
+Takes a PMT message and sends it out at random intervals. The interval is based on a random distribution, , with specified mean () and variance (). Useful for testing/debugging the message system.
+
+Constructor Specific Documentation:
+
+Make a message stobe block to sends message  at random intervals defined by the distribution  with mean  and standard deviation .
+
+Args:
+    msg : The message to send as a PMT.
+    dist : The random distribution from which to draw the time between events.
+    mean_ms : The mean of the distribution, in milliseconds.
+    std_ms : The standard deviation of the Gaussian distribution, or the maximum absolute deviation of the Uniform distribution, in milliseconds. This argument is ignored for other distributions.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__strobe__random__pydoc_8h_1a5f1a4ac2e5c876e755356698f4c42c4d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_strobe_random_set_msg</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_strobe_random_set_msg</name>
+        <initializer>= R&quot;doc(Reset the message being sent.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" line="56" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__strobe__random__pydoc_8h_1aa6cb35513699f35ec9361e9f86b95e49" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_strobe_random_msg</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_strobe_random_msg</name>
+        <initializer>= R&quot;doc(Get the value of the message being sent.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" line="59" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__strobe__random__pydoc_8h_1ad7c947a295bd7164c2d849f8252b282e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_strobe_random_set_dist</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_strobe_random_set_dist</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" line="62" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__strobe__random__pydoc_8h_1a16ae50a95d4241bf9883ad0be8f93bb6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_strobe_random_dist</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_strobe_random_dist</name>
+        <initializer>= R&quot;doc(get the current distribution.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" line="65" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__strobe__random__pydoc_8h_1a986d74655a4ee94d450b029eb2ca2d0e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_strobe_random_set_mean</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_strobe_random_set_mean</name>
+        <initializer>= R&quot;doc(Reset the sending interval.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" line="68" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__strobe__random__pydoc_8h_1a040e735bbb266f6f31e2de046dcad422" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_strobe_random_mean</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_strobe_random_mean</name>
+        <initializer>= R&quot;doc(Get the time interval of the strobe_random.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" line="71" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__strobe__random__pydoc_8h_1a33b6e6860923f1c66e1198b6900367e0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_strobe_random_set_std</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_strobe_random_set_std</name>
+        <initializer>= R&quot;doc(Reset the sending interval.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" line="74" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__strobe__random__pydoc_8h_1a93f7f97811e5ee81a2290bfebc433d6f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_strobe_random_std</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_strobe_random_std</name>
+        <initializer>= R&quot;doc(Get the std of strobe_random.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" line="77" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_strobe_random_pydoc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,570 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="waterfall__sink__c__pydoc_8h" kind="file" language="C++">
+    <compoundname>waterfall_sink_c_pydoc.h</compoundname>
+    <includes refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>waterfall_sink_c_pydoc.h</label>
+        <link refid="waterfall__sink__c__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="waterfall__sink__c__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, qtgui, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1ab1954ee03a2b5330e81d1abb075ac9dc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c</name>
+        <initializer>= R&quot;doc(A graphical sink to display multiple signals on a waterfall (spectrogram) plot.
+
+This is a QT-based graphical sink the takes set of a complex streams and plots a waterfall (spectrogram) plot.
+
+
+Note that unlike the other qtgui sinks, this one does not support multiple input streams. We have yet to figure out a good way to display multiple, independent signals on this kind of a plot. If there are any suggestions or examples of this, we would love to see them. Otherwise, to display multiple signals here, it&apos;s probably best to sum the signals together and connect that here.
+
+
+The sink supports plotting streaming complex data or messages. The message port is named \&quot;in\&quot;. The two modes cannot be used simultaneously, and  should be set to 0 when using the message mode. GRC handles this issue by providing the \&quot;Complex Message\&quot; type that removes the streaming port(s).
+
+
+This sink can plot messages that contain either uniform vectors of complex 32 values (<ref refid="namespacepmt_1aeb135345903361a969d0e90ddb191272" kindref="member">pmt::is_c32vector</ref>) or PDUs where the data is a uniform vector of complex 32 values.
+
+
+Message Ports:
+
+Constructor Specific Documentation:
+
+Build a complex waterfall sink.
+
+Args:
+    fftsize : size of the FFT to compute and display. If using the PDU message port to plot samples, the length of each PDU must be a multiple of the FFT size.
+    wintype : type of window to apply (see <ref refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2" kindref="member">gr::fft::window::win_type</ref>)
+    fc : center frequency of signal (use for x-axis labels)
+    bw : bandwidth of signal (used to set x-axis labels)
+    name : title for the plot
+    nconnections : number of signals to be connected to the sink. The PDU message port is always available for a connection, and this value must be set to 0 if only the PDU message port is being used.
+    parent : a QWidget parent object, if any)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a5cb4635230559d983f30f19c24fa82b3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_waterfall_sink_c_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_waterfall_sink_c_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1ae010fcf070a0d3c8b0f60612b9c19f9a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_waterfall_sink_c_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_waterfall_sink_c_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a2f48453d4ae51316f1460646b7f4bd80" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_make</name>
+        <initializer>= R&quot;doc(A graphical sink to display multiple signals on a waterfall (spectrogram) plot.
+
+This is a QT-based graphical sink the takes set of a complex streams and plots a waterfall (spectrogram) plot.
+
+
+Note that unlike the other qtgui sinks, this one does not support multiple input streams. We have yet to figure out a good way to display multiple, independent signals on this kind of a plot. If there are any suggestions or examples of this, we would love to see them. Otherwise, to display multiple signals here, it&apos;s probably best to sum the signals together and connect that here.
+
+
+The sink supports plotting streaming complex data or messages. The message port is named \&quot;in\&quot;. The two modes cannot be used simultaneously, and  should be set to 0 when using the message mode. GRC handles this issue by providing the \&quot;Complex Message\&quot; type that removes the streaming port(s).
+
+
+This sink can plot messages that contain either uniform vectors of complex 32 values (<ref refid="namespacepmt_1aeb135345903361a969d0e90ddb191272" kindref="member">pmt::is_c32vector</ref>) or PDUs where the data is a uniform vector of complex 32 values.
+
+
+Message Ports:
+
+Constructor Specific Documentation:
+
+Build a complex waterfall sink.
+
+Args:
+    fftsize : size of the FFT to compute and display. If using the PDU message port to plot samples, the length of each PDU must be a multiple of the FFT size.
+    wintype : type of window to apply (see <ref refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2" kindref="member">gr::fft::window::win_type</ref>)
+    fc : center frequency of signal (use for x-axis labels)
+    bw : bandwidth of signal (used to set x-axis labels)
+    name : title for the plot
+    nconnections : number of signals to be connected to the sink. The PDU message port is always available for a connection, and this value must be set to 0 if only the PDU message port is being used.
+    parent : a QWidget parent object, if any)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="54" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1ad6039dabca9505ef43383960def36ff0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_exec_</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_exec_</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="84" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a7c65bc82725601e2a49c69d42b3b673d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_qwidget</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_qwidget</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="87" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a2aa2470a4d781de52a14e094128dc26f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_clear_data</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_clear_data</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="90" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1ae73019aaee0d9324c900ce3f15bdfc61" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_set_fft_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_set_fft_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="93" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a36f185a0d1034ac631a8e4e1f03c46b9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_fft_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_fft_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="96" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1acf6769c933f9d68756a75027c5ae904e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_set_time_per_fft</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_set_time_per_fft</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="99" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1afa3604e7bc00f70cd3b758c5ef87db68" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_set_fft_average</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_set_fft_average</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="102" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a0c68e304c192c74360d16097e11525e7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_fft_average</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_fft_average</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="105" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1acc7e30a5f0ae5d84bae0cb7d6ce23099" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_set_fft_window</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_set_fft_window</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="108" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a7698e7c62c6f1927b109852c9967ffec" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_fft_window</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_fft_window</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="111" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1ab684122b3f19ddc1a72d3599b2e911b9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_set_frequency_range</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_set_frequency_range</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="114" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1acc69e770ed5f2b76c8cfce05d044da69" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_set_intensity_range</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_set_intensity_range</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="117" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1ae7fa6d2cdfe64cb24ca12f2b91eeaf4f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_set_update_time</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_set_update_time</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="120" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1ac41bf0f40898c910f8a490b865982bda" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_set_title</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_set_title</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="123" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1aaa90c6a9fa0ce6374485276d1f32bfdb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_set_time_title</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_set_time_title</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="126" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a7f567c39d1fc83d6ee571885e4ae330a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_set_line_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_set_line_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="129" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a50fa27357f64b2f64ac598249f29c348" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_set_line_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_set_line_alpha</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="132" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1adbe97aaa34decf881b0d68693307381a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_set_color_map</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_set_color_map</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="135" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1abfb8ecd36ef622c8cecc826efa006d6c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_title</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_title</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="138" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a6941cae5cef7d4ddaae997c28dfa08db" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_line_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_line_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="141" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a72890fd7ff5dac433a296f8054749281" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_line_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_line_alpha</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="144" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a4136d907802de595b6b418075e30630c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_color_map</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_color_map</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="147" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a3c4ccebc648189966331f9b5f7b1e1db" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_set_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_set_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="150" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1acb4de893933a878800b8b0d40b283092" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_auto_scale</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_auto_scale</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="153" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a7d277165ff26b1d8b542692617a76727" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_min_intensity</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_min_intensity</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="156" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a4de7af5923226505710f8275972a6260" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_max_intensity</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_max_intensity</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="159" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a8dbc5d726def314ead64bbc0f4848c6e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_enable_menu</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_enable_menu</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="162" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1af0c7e0a664d85fc6ba0bddb835fdae2d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_enable_grid</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_enable_grid</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="165" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a92413ee5063203710d62224de1c4dd8c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_disable_legend</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_disable_legend</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="168" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="waterfall__sink__c__pydoc_8h_1a70dce63c59ced3735bbadf8aecc44989" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_waterfall_sink_c_enable_axis_labels</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_waterfall_sink_c_enable_axis_labels</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" line="171" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/waterfall_sink_c_pydoc.h"/>
+  </compounddef>
+</doxygen>

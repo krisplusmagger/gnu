@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="tagged__encoder__pydoc_8h" kind="file" language="C++">
+    <compoundname>tagged_encoder_pydoc.h</compoundname>
+    <includes refid="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>tagged_encoder_pydoc.h</label>
+        <link refid="tagged__encoder__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="tagged__encoder__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, fec, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tagged_encoder_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tagged_encoder_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="tagged__encoder__pydoc_8h_1acfe8d255dd0b8783364e4d9ac5b858f2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_tagged_encoder</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_tagged_encoder</name>
+        <initializer>= R&quot;doc(Creates the encoder block for use in GNU Radio flowgraphs from a given FECAPI object derived from the generic_encoder class.
+
+Generally, we would use the fec.extended_encoder Python implementation to instantiate this. The extended_encoder wraps up a few more details, like taking care of puncturing as well as the encoder itself.
+
+Constructor Specific Documentation:
+
+Build the FEC encoder block from an FECAPI encoder object.
+
+Args:
+    my_encoder : An FECAPI encoder object child of the generic_encoder class.
+    input_item_size : size of a block of data for the encoder.
+    output_item_size : size of a block of data the encoder will produce.
+    lengthtagname : Key name of the tagged stream frame size.
+    mtu : The Maximum Transmission Unit (MTU) of the input frame that the block will be able to process. Specified in bytes and defaults to 1500.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tagged_encoder_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tagged_encoder_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tagged__encoder__pydoc_8h_1a6b30e811796a421e7fda4efde79d4523" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_tagged_encoder_tagged_encoder_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_tagged_encoder_tagged_encoder_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tagged_encoder_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tagged_encoder_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tagged__encoder__pydoc_8h_1a297c3757555eb3c382d464ce170e4a07" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_tagged_encoder_tagged_encoder_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_tagged_encoder_tagged_encoder_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tagged_encoder_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tagged_encoder_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tagged__encoder__pydoc_8h_1a5ac6552bc2c17a275fc9105717d59c2f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_tagged_encoder_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_tagged_encoder_make</name>
+        <initializer>= R&quot;doc(Creates the encoder block for use in GNU Radio flowgraphs from a given FECAPI object derived from the generic_encoder class.
+
+Generally, we would use the fec.extended_encoder Python implementation to instantiate this. The extended_encoder wraps up a few more details, like taking care of puncturing as well as the encoder itself.
+
+Constructor Specific Documentation:
+
+Build the FEC encoder block from an FECAPI encoder object.
+
+Args:
+    my_encoder : An FECAPI encoder object child of the generic_encoder class.
+    input_item_size : size of a block of data for the encoder.
+    output_item_size : size of a block of data the encoder will produce.
+    lengthtagname : Key name of the tagged stream frame size.
+    mtu : The Maximum Transmission Unit (MTU) of the input frame that the block will be able to process. Specified in bytes and defaults to 1500.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tagged_encoder_pydoc.h" line="40" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tagged_encoder_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tagged__encoder__pydoc_8h_1a223e58346cd104d04063e911e2491dc4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_tagged_encoder_work</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_tagged_encoder_work</name>
+        <initializer>= R&quot;doc(Just like <ref refid="classgr_1_1block_1a0a482fb96a3d7343ffdd86a21538c2e5" kindref="member">gr::block::general_work</ref>, but makes sure the input is valid.
+
+The user must override work to define the signal processing code. Check the documentation for general_work() to see what happens here.
+
+
+Like <ref refid="classgr_1_1sync__block" kindref="compound">gr::sync_block</ref>, this calls consume() for you (it consumes ninput_items[i] items from the i-th port).
+
+
+A note on tag propagation: The PDU length tags are handled by other functions, but all other tags are handled just as in any other . So, most likely, you either set the tag propagation policy to TPP_DONT and handle the tag propagation manually, or you propagate tags through the scheduler and don&apos;t do anything here.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tagged_encoder_pydoc.h" line="56" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tagged_encoder_pydoc.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tagged__encoder__pydoc_8h_1a716199aa77f8fa9d778bc1b89291724c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_tagged_encoder_calculate_output_stream_length</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_tagged_encoder_calculate_output_stream_length</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tagged_encoder_pydoc.h" line="67" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tagged_encoder_pydoc.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/tagged_encoder_pydoc.h"/>
+  </compounddef>
+</doxygen>

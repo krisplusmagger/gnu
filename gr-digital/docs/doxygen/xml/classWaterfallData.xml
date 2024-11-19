@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classWaterfallData" kind="class" language="C++" prot="public">
+    <compoundname>WaterfallData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QwtRasterData</basecompoundref>
+    <includes refid="waterfallGlobalData_8h" local="no">gnuradio/qtgui/waterfallGlobalData.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classWaterfallData_1afd6b6ad2710f995d9b7f93dc91e4c252" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; WaterfallData::_spectrumData</definition>
+        <argsstring></argsstring>
+        <name>_spectrumData</name>
+        <qualifiedname>WaterfallData::_spectrumData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="51" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallData_1a9935e05dab0f9721aac0188cb032a069" prot="protected" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t WaterfallData::_fftPoints</definition>
+        <argsstring></argsstring>
+        <name>_fftPoints</name>
+        <qualifiedname>WaterfallData::_fftPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="52" column="14" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallData_1a59845b30e412f8b4e76a4e953dab17bc" prot="protected" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t WaterfallData::_historyLength</definition>
+        <argsstring></argsstring>
+        <name>_historyLength</name>
+        <qualifiedname>WaterfallData::_historyLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="53" column="14" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallData_1a23674ed48fa857a5355f9a7f02a9b89a" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaterfallData::_numLinesToUpdate</definition>
+        <argsstring></argsstring>
+        <name>_numLinesToUpdate</name>
+        <qualifiedname>WaterfallData::_numLinesToUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="54" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaterfallData_1a9e85309be3860bc09c22ad86376af0d1" prot="protected" static="no" mutable="no">
+        <type>QwtInterval</type>
+        <definition>QwtInterval WaterfallData::_intensityRange</definition>
+        <argsstring></argsstring>
+        <name>_intensityRange</name>
+        <qualifiedname>WaterfallData::_intensityRange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="56" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classWaterfallData_1a1cf606120aca5f03c36d401de44465de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>WaterfallData::WaterfallData</definition>
+        <argsstring>(const double, const double, const uint64_t, const unsigned int)</argsstring>
+        <name>WaterfallData</name>
+        <qualifiedname>WaterfallData::WaterfallData</qualifiedname>
+        <param>
+          <type>const double</type>
+        </param>
+        <param>
+          <type>const double</type>
+        </param>
+        <param>
+          <type>const uint64_t</type>
+        </param>
+        <param>
+          <type>const unsigned int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="22" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallData_1a4d9ef4fd0e8e5cf5c6b05a4048c3c321" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>WaterfallData::~WaterfallData</definition>
+        <argsstring>() override</argsstring>
+        <name>~WaterfallData</name>
+        <qualifiedname>WaterfallData::~WaterfallData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="23" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallData_1a34ef1d49dfdf73eb321fd3c8f60c0bde" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WaterfallData::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>WaterfallData::reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="25" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallData_1a5950af40f8013aab4096c9be7869ee05" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WaterfallData::copy</definition>
+        <argsstring>(const WaterfallData *)</argsstring>
+        <name>copy</name>
+        <qualifiedname>WaterfallData::copy</qualifiedname>
+        <param>
+          <type>const <ref refid="classWaterfallData" kindref="compound">WaterfallData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="26" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallData_1a6432b3b9ef2cefaafc294d2f2ddcb24e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WaterfallData::resizeData</definition>
+        <argsstring>(const double, const double, const uint64_t, const int history=0)</argsstring>
+        <name>resizeData</name>
+        <qualifiedname>WaterfallData::resizeData</qualifiedname>
+        <param>
+          <type>const double</type>
+        </param>
+        <param>
+          <type>const double</type>
+        </param>
+        <param>
+          <type>const uint64_t</type>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>history</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="29" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallData_1ad00f5348a1a1ac0e4f5c6fca4ac23e32" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QwtRasterData *</type>
+        <definition>virtual QwtRasterData * WaterfallData::copy</definition>
+        <argsstring>() const</argsstring>
+        <name>copy</name>
+        <qualifiedname>WaterfallData::copy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="31" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallData_1a99e8f2bbc4b703335121ec5dfab077e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double WaterfallData::value</definition>
+        <argsstring>(double x, double y) const override</argsstring>
+        <name>value</name>
+        <qualifiedname>WaterfallData::value</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="38" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallData_1adc88f7875ce141d7c10470be00276c0b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>uint64_t</type>
+        <definition>virtual uint64_t WaterfallData::getNumFFTPoints</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumFFTPoints</name>
+        <qualifiedname>WaterfallData::getNumFFTPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="40" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallData_1ab52fd7b1a2bfa45bea2807976b1de558" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WaterfallData::addFFTData</definition>
+        <argsstring>(const double *, const uint64_t, const int)</argsstring>
+        <name>addFFTData</name>
+        <qualifiedname>WaterfallData::addFFTData</qualifiedname>
+        <param>
+          <type>const double *</type>
+        </param>
+        <param>
+          <type>const uint64_t</type>
+        </param>
+        <param>
+          <type>const int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="41" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallData_1a367af2dd1f87c475a300a7408e9cd7b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const double *</type>
+        <definition>virtual const double * WaterfallData::getSpectrumDataBuffer</definition>
+        <argsstring>() const</argsstring>
+        <name>getSpectrumDataBuffer</name>
+        <qualifiedname>WaterfallData::getSpectrumDataBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="43" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallData_1aed60c311784916251b5c7cba557bebc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WaterfallData::setSpectrumDataBuffer</definition>
+        <argsstring>(const double *)</argsstring>
+        <name>setSpectrumDataBuffer</name>
+        <qualifiedname>WaterfallData::setSpectrumDataBuffer</qualifiedname>
+        <param>
+          <type>const double *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="44" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallData_1a2b17cc480124cebbcdf7d515e127828f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>virtual int WaterfallData::getNumLinesToUpdate</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumLinesToUpdate</name>
+        <qualifiedname>WaterfallData::getNumLinesToUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="46" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallData_1ad17b7dcefc6ab5372abd4bf284705b99" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WaterfallData::setNumLinesToUpdate</definition>
+        <argsstring>(const int)</argsstring>
+        <name>setNumLinesToUpdate</name>
+        <qualifiedname>WaterfallData::setNumLinesToUpdate</qualifiedname>
+        <param>
+          <type>const int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="47" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaterfallData_1aa5e3397cd629d829f5f3f975b2f858b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WaterfallData::incrementNumLinesToUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>incrementNumLinesToUpdate</name>
+        <qualifiedname>WaterfallData::incrementNumLinesToUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="48" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QwtRasterData</label>
+      </node>
+      <node id="1">
+        <label>WaterfallData</label>
+        <link refid="classWaterfallData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QwtRasterData</label>
+      </node>
+      <node id="1">
+        <label>WaterfallData</label>
+        <link refid="classWaterfallData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_spectrumData</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::vector&lt; double &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" line="19" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h" bodystart="20" bodyend="63"/>
+    <listofallmembers>
+      <member refid="classWaterfallData_1a9935e05dab0f9721aac0188cb032a069" prot="protected" virt="non-virtual"><scope>WaterfallData</scope><name>_fftPoints</name></member>
+      <member refid="classWaterfallData_1a59845b30e412f8b4e76a4e953dab17bc" prot="protected" virt="non-virtual"><scope>WaterfallData</scope><name>_historyLength</name></member>
+      <member refid="classWaterfallData_1a9e85309be3860bc09c22ad86376af0d1" prot="protected" virt="non-virtual"><scope>WaterfallData</scope><name>_intensityRange</name></member>
+      <member refid="classWaterfallData_1a23674ed48fa857a5355f9a7f02a9b89a" prot="protected" virt="non-virtual"><scope>WaterfallData</scope><name>_numLinesToUpdate</name></member>
+      <member refid="classWaterfallData_1afd6b6ad2710f995d9b7f93dc91e4c252" prot="protected" virt="non-virtual"><scope>WaterfallData</scope><name>_spectrumData</name></member>
+      <member refid="classWaterfallData_1ab52fd7b1a2bfa45bea2807976b1de558" prot="public" virt="virtual"><scope>WaterfallData</scope><name>addFFTData</name></member>
+      <member refid="classWaterfallData_1a5950af40f8013aab4096c9be7869ee05" prot="public" virt="virtual"><scope>WaterfallData</scope><name>copy</name></member>
+      <member refid="classWaterfallData_1ad00f5348a1a1ac0e4f5c6fca4ac23e32" prot="public" virt="virtual"><scope>WaterfallData</scope><name>copy</name></member>
+      <member refid="classWaterfallData_1adc88f7875ce141d7c10470be00276c0b" prot="public" virt="virtual"><scope>WaterfallData</scope><name>getNumFFTPoints</name></member>
+      <member refid="classWaterfallData_1a2b17cc480124cebbcdf7d515e127828f" prot="public" virt="virtual"><scope>WaterfallData</scope><name>getNumLinesToUpdate</name></member>
+      <member refid="classWaterfallData_1a367af2dd1f87c475a300a7408e9cd7b6" prot="public" virt="virtual"><scope>WaterfallData</scope><name>getSpectrumDataBuffer</name></member>
+      <member refid="classWaterfallData_1aa5e3397cd629d829f5f3f975b2f858b0" prot="public" virt="virtual"><scope>WaterfallData</scope><name>incrementNumLinesToUpdate</name></member>
+      <member refid="classWaterfallData_1a34ef1d49dfdf73eb321fd3c8f60c0bde" prot="public" virt="virtual"><scope>WaterfallData</scope><name>reset</name></member>
+      <member refid="classWaterfallData_1a6432b3b9ef2cefaafc294d2f2ddcb24e" prot="public" virt="virtual"><scope>WaterfallData</scope><name>resizeData</name></member>
+      <member refid="classWaterfallData_1ad17b7dcefc6ab5372abd4bf284705b99" prot="public" virt="virtual"><scope>WaterfallData</scope><name>setNumLinesToUpdate</name></member>
+      <member refid="classWaterfallData_1aed60c311784916251b5c7cba557bebc3" prot="public" virt="virtual"><scope>WaterfallData</scope><name>setSpectrumDataBuffer</name></member>
+      <member refid="classWaterfallData_1a99e8f2bbc4b703335121ec5dfab077e4" prot="public" virt="non-virtual"><scope>WaterfallData</scope><name>value</name></member>
+      <member refid="classWaterfallData_1a1cf606120aca5f03c36d401de44465de" prot="public" virt="non-virtual"><scope>WaterfallData</scope><name>WaterfallData</name></member>
+      <member refid="classWaterfallData_1a4d9ef4fd0e8e5cf5c6b05a4048c3c321" prot="public" virt="non-virtual"><scope>WaterfallData</scope><name>~WaterfallData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

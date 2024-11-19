@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structfmt" kind="struct" language="C++" prot="public">
+    <compoundname>fmt</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">formatter&lt; gr::io_signature &gt; formatter</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">formatter&lt; pmt::pmt_t &gt; formatter</basecompoundref>
+    <includes refid="io__signature_8h" local="no">gnuradio/io_signature.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structfmt_1ac49a78d51d1d59cd20d00151baea4092" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>fmt::format_context::iterator</type>
+        <definition>fmt::format_context::iterator fmt::format</definition>
+        <argsstring>(const gr::io_signature &amp;iosig, format_context &amp;ctx) const</argsstring>
+        <name>format</name>
+        <qualifiedname>fmt::format</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1io__signature" kindref="compound">gr::io_signature</ref> &amp;</type>
+          <declname>iosig</declname>
+        </param>
+        <param>
+          <type>format_context &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="195" column="35"/>
+        <referencedby refid="benchmark__common_8h_1a098896c9b5d6dec2c49e0223ee7f6970" compoundref="benchmark__common_8h" startline="60" endline="70">format_duration</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structfmt_1a18bf357bedd5b91084b0485037f00f32" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>fmt::format_context::iterator</type>
+        <definition>fmt::format_context::iterator fmt::format</definition>
+        <argsstring>(const pmt::pmt_t &amp;obj, format_context &amp;ctx) const</argsstring>
+        <name>format</name>
+        <qualifiedname>fmt::format</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>format_context &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/pmt_fmt.h" line="24" column="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>enables PMTs to be formatted with fmt </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>fmt</label>
+        <link refid="structfmt"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>formatter&lt; gr::io_signature &gt; formatter&lt; std::string_view &gt;</label>
+      </node>
+      <node id="3">
+        <label>formatter&lt; pmt::pmt_t &gt; formatter&lt; std::string_view &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>fmt</label>
+        <link refid="structfmt"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>formatter&lt; gr::io_signature &gt; formatter&lt; std::string_view &gt;</label>
+      </node>
+      <node id="3">
+        <label>formatter&lt; pmt::pmt_t &gt; formatter&lt; std::string_view &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="194" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" bodystart="194" bodyend="197"/>
+    <listofallmembers>
+      <member refid="structfmt_1ac49a78d51d1d59cd20d00151baea4092" prot="public" virt="non-virtual"><scope>fmt</scope><name>format</name></member>
+      <member refid="structfmt_1a18bf357bedd5b91084b0485037f00f32" prot="public" virt="non-virtual"><scope>fmt</scope><name>format</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

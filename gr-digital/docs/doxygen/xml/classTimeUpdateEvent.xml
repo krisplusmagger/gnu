@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classTimeUpdateEvent" kind="class" language="C++" prot="public">
+    <compoundname>TimeUpdateEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QEvent</basecompoundref>
+    <includes refid="spectrumUpdateEvents_8h" local="no">gnuradio/qtgui/spectrumUpdateEvents.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classTimeUpdateEvent_1a9ca73a3f292f63792caf013dd0f6cf20" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t TimeUpdateEvent::_nplots</definition>
+        <argsstring></argsstring>
+        <name>_nplots</name>
+        <qualifiedname>TimeUpdateEvent::_nplots</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="128" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTimeUpdateEvent_1a8a1500ebf2c9235d495a964f7d67ca0b" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; const double * &gt;</type>
+        <definition>std::vector&lt;const double*&gt; TimeUpdateEvent::_dataTimeDomainPoints</definition>
+        <argsstring></argsstring>
+        <name>_dataTimeDomainPoints</name>
+        <qualifiedname>TimeUpdateEvent::_dataTimeDomainPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="129" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTimeUpdateEvent_1add52e65bd73b94a8a9d93f3272b5a9be" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t TimeUpdateEvent::_numTimeDomainDataPoints</definition>
+        <argsstring></argsstring>
+        <name>_numTimeDomainDataPoints</name>
+        <qualifiedname>TimeUpdateEvent::_numTimeDomainDataPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="130" column="14" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTimeUpdateEvent_1abbbadb50f9223565d1412a0635d04bb5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; <ref refid="structgr_1_1tag__t" kindref="compound">gr::tag_t</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;gr::tag_t&gt; &gt; TimeUpdateEvent::_tags</definition>
+        <argsstring></argsstring>
+        <name>_tags</name>
+        <qualifiedname>TimeUpdateEvent::_tags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="131" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTimeUpdateEvent_1a8b3e910e715fac6fff1d349e74721398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TimeUpdateEvent::TimeUpdateEvent</definition>
+        <argsstring>(const std::vector&lt; volk::vector&lt; double &gt; &gt; timeDomainPoints, const uint64_t numTimeDomainDataPoints, const std::vector&lt; std::vector&lt; gr::tag_t &gt; &gt; tags)</argsstring>
+        <name>TimeUpdateEvent</name>
+        <qualifiedname>TimeUpdateEvent::TimeUpdateEvent</qualifiedname>
+        <param>
+          <type>const std::vector&lt; volk::vector&lt; double &gt; &gt;</type>
+          <declname>timeDomainPoints</declname>
+        </param>
+        <param>
+          <type>const uint64_t</type>
+          <declname>numTimeDomainDataPoints</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; <ref refid="structgr_1_1tag__t" kindref="compound">gr::tag_t</ref> &gt; &gt;</type>
+          <declname>tags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="111" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeUpdateEvent_1ad01103ff367c978b9f6336bd7978ea0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TimeUpdateEvent::~TimeUpdateEvent</definition>
+        <argsstring>() override</argsstring>
+        <name>~TimeUpdateEvent</name>
+        <qualifiedname>TimeUpdateEvent::~TimeUpdateEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="115" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeUpdateEvent_1a9ed2f08d0d3494816fe10c013a885aaa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TimeUpdateEvent::which</definition>
+        <argsstring>() const</argsstring>
+        <name>which</name>
+        <qualifiedname>TimeUpdateEvent::which</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="117" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeUpdateEvent_1a4b139da53db9fd2e52b2e1fcf9cdc2c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; const double * &gt;</type>
+        <definition>const std::vector&lt; const double * &gt; TimeUpdateEvent::getTimeDomainPoints</definition>
+        <argsstring>() const</argsstring>
+        <name>getTimeDomainPoints</name>
+        <qualifiedname>TimeUpdateEvent::getTimeDomainPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="118" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeUpdateEvent_1a4b2d365d538a3a09b150c156d80855ff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t TimeUpdateEvent::getNumTimeDomainDataPoints</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumTimeDomainDataPoints</name>
+        <qualifiedname>TimeUpdateEvent::getNumTimeDomainDataPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="119" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeUpdateEvent_1adc6bb11dc094a6599a4ca4d0f67a6202" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TimeUpdateEvent::getRepeatDataFlag</definition>
+        <argsstring>() const</argsstring>
+        <name>getRepeatDataFlag</name>
+        <qualifiedname>TimeUpdateEvent::getRepeatDataFlag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="120" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeUpdateEvent_1a986dc588c14c78103154706bd3fa804d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; std::vector&lt; <ref refid="structgr_1_1tag__t" kindref="compound">gr::tag_t</ref> &gt; &gt;</type>
+        <definition>const std::vector&lt; std::vector&lt; gr::tag_t &gt; &gt; TimeUpdateEvent::getTags</definition>
+        <argsstring>() const</argsstring>
+        <name>getTags</name>
+        <qualifiedname>TimeUpdateEvent::getTags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="122" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classTimeUpdateEvent_1a0cb04d0a0f6a235cb4958e9b423e6f6d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QEvent::Type</type>
+        <definition>static QEvent::Type TimeUpdateEvent::Type</definition>
+        <argsstring>()</argsstring>
+        <name>Type</name>
+        <qualifiedname>TimeUpdateEvent::Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="124" column="25" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="124" bodyend="124"/>
+        <references refid="spectrumUpdateEvents_8h_1ac31addf0edee93b209aba289ae383b5d" compoundref="spectrumUpdateEvents_8h" startline="24">SpectrumUpdateEventType</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+      <node id="1">
+        <label>TimeUpdateEvent</label>
+        <link refid="classTimeUpdateEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+      <node id="1">
+        <label>TimeUpdateEvent</label>
+        <link refid="classTimeUpdateEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="108" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="109" bodyend="132"/>
+    <listofallmembers>
+      <member refid="classTimeUpdateEvent_1a8a1500ebf2c9235d495a964f7d67ca0b" prot="private" virt="non-virtual"><scope>TimeUpdateEvent</scope><name>_dataTimeDomainPoints</name></member>
+      <member refid="classTimeUpdateEvent_1a9ca73a3f292f63792caf013dd0f6cf20" prot="private" virt="non-virtual"><scope>TimeUpdateEvent</scope><name>_nplots</name></member>
+      <member refid="classTimeUpdateEvent_1add52e65bd73b94a8a9d93f3272b5a9be" prot="private" virt="non-virtual"><scope>TimeUpdateEvent</scope><name>_numTimeDomainDataPoints</name></member>
+      <member refid="classTimeUpdateEvent_1abbbadb50f9223565d1412a0635d04bb5" prot="private" virt="non-virtual"><scope>TimeUpdateEvent</scope><name>_tags</name></member>
+      <member refid="classTimeUpdateEvent_1a4b2d365d538a3a09b150c156d80855ff" prot="public" virt="non-virtual"><scope>TimeUpdateEvent</scope><name>getNumTimeDomainDataPoints</name></member>
+      <member refid="classTimeUpdateEvent_1adc6bb11dc094a6599a4ca4d0f67a6202" prot="public" virt="non-virtual"><scope>TimeUpdateEvent</scope><name>getRepeatDataFlag</name></member>
+      <member refid="classTimeUpdateEvent_1a986dc588c14c78103154706bd3fa804d" prot="public" virt="non-virtual"><scope>TimeUpdateEvent</scope><name>getTags</name></member>
+      <member refid="classTimeUpdateEvent_1a4b139da53db9fd2e52b2e1fcf9cdc2c9" prot="public" virt="non-virtual"><scope>TimeUpdateEvent</scope><name>getTimeDomainPoints</name></member>
+      <member refid="classTimeUpdateEvent_1a8b3e910e715fac6fff1d349e74721398" prot="public" virt="non-virtual"><scope>TimeUpdateEvent</scope><name>TimeUpdateEvent</name></member>
+      <member refid="classTimeUpdateEvent_1a0cb04d0a0f6a235cb4958e9b423e6f6d" prot="public" virt="non-virtual"><scope>TimeUpdateEvent</scope><name>Type</name></member>
+      <member refid="classTimeUpdateEvent_1a9ed2f08d0d3494816fe10c013a885aaa" prot="public" virt="non-virtual"><scope>TimeUpdateEvent</scope><name>which</name></member>
+      <member refid="classTimeUpdateEvent_1ad01103ff367c978b9f6336bd7978ea0d" prot="public" virt="non-virtual"><scope>TimeUpdateEvent</scope><name>~TimeUpdateEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

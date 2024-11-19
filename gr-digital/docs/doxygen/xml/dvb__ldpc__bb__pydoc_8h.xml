@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dvb__ldpc__bb__pydoc_8h" kind="file" language="C++">
+    <compoundname>dvb_ldpc_bb_pydoc.h</compoundname>
+    <includes refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>dvb_ldpc_bb_pydoc.h</label>
+        <link refid="dvb__ldpc__bb__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dvb__ldpc__bb__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, dtv, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_ldpc_bb_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_ldpc_bb_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="dvb__ldpc__bb__pydoc_8h_1aeee2fd7e059e9f6fd7a042682c0bb4c8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvb_ldpc_bb</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvb_ldpc_bb</name>
+        <initializer>= R&quot;doc(Encodes a LDPC (Low-Density Parity-Check) FEC.
+
+Input: Variable length FEC baseband frames with appended BCH (BCHFEC). 
+Output: Normal, medium or short FEC baseband frames with appended LPDC (LDPCFEC).
+
+Constructor Specific Documentation:
+
+Create a baseband frame LDPC encoder.
+
+Args:
+    standard : DVB standard (DVB-S2 or DVB-T2).
+    framesize : FEC frame size (normal, medium or short).
+    rate : FEC code rate.
+    constellation : DVB-S2 constellation.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_ldpc_bb_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_ldpc_bb_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvb__ldpc__bb__pydoc_8h_1a5a167731d5517b6e2d6fde2e420193a7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvb_ldpc_bb_dvb_ldpc_bb</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvb_ldpc_bb_dvb_ldpc_bb</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_ldpc_bb_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_ldpc_bb_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvb__ldpc__bb__pydoc_8h_1a312285554c446957e7b89e42588b7dc5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvb_ldpc_bb_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvb_ldpc_bb_make</name>
+        <initializer>= R&quot;doc(Encodes a LDPC (Low-Density Parity-Check) FEC.
+
+Input: Variable length FEC baseband frames with appended BCH (BCHFEC). 
+Output: Normal, medium or short FEC baseband frames with appended LPDC (LDPCFEC).
+
+Constructor Specific Documentation:
+
+Create a baseband frame LDPC encoder.
+
+Args:
+    standard : DVB standard (DVB-S2 or DVB-T2).
+    framesize : FEC frame size (normal, medium or short).
+    rate : FEC code rate.
+    constellation : DVB-S2 constellation.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_ldpc_bb_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_ldpc_bb_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_ldpc_bb_pydoc.h"/>
+  </compounddef>
+</doxygen>

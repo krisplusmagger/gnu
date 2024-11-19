@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="fmdet__cf__pydoc_8h" kind="file" language="C++">
+    <compoundname>fmdet_cf_pydoc.h</compoundname>
+    <includes refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>fmdet_cf_pydoc.h</label>
+        <link refid="fmdet__cf__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="fmdet__cf__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, analog, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="fmdet__cf__pydoc_8h_1a8e2f589632a4716b869ce032bf1e08e9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_fmdet_cf</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_fmdet_cf</name>
+        <initializer>= R&quot;doc(Implements an IQ slope detector.
+
+input: stream of complex; output: stream of floats
+
+
+This implements a limiting slope detector. The limiter is in the normalization by the magnitude of the sample
+
+Constructor Specific Documentation:
+
+Make FM detector block.
+
+Args:
+    samplerate : sample rate of signal (is not used; to be removed)
+    freq_low : lowest frequency of signal (Hz)
+    freq_high : highest frequency of signal (Hz)
+    scl : scale factor)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fmdet__cf__pydoc_8h_1a73042d96b7efc87de01ed6ca0b8af999" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_fmdet_cf_fmdet_cf_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_fmdet_cf_fmdet_cf_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fmdet__cf__pydoc_8h_1ac54a83ce3e70396ae150d6359e291fd7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_fmdet_cf_fmdet_cf_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_fmdet_cf_fmdet_cf_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fmdet__cf__pydoc_8h_1ae48e4d8f0bd75fe7cf7a62a73067571b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_fmdet_cf_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_fmdet_cf_make</name>
+        <initializer>= R&quot;doc(Implements an IQ slope detector.
+
+input: stream of complex; output: stream of floats
+
+
+This implements a limiting slope detector. The limiter is in the normalization by the magnitude of the sample
+
+Constructor Specific Documentation:
+
+Make FM detector block.
+
+Args:
+    samplerate : sample rate of signal (is not used; to be removed)
+    freq_low : lowest frequency of signal (Hz)
+    freq_high : highest frequency of signal (Hz)
+    scl : scale factor)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" line="42" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fmdet__cf__pydoc_8h_1a21079f9b26438ba6c04b0e1974af1b72" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_fmdet_cf_set_scale</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_fmdet_cf_set_scale</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" line="60" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fmdet__cf__pydoc_8h_1ae5fe5b46e6cef9286fd6916feff8b05b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_fmdet_cf_set_freq_range</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_fmdet_cf_set_freq_range</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" line="63" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fmdet__cf__pydoc_8h_1a76765ab39f1161b7707d2b6ff4b40f07" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_fmdet_cf_freq</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_fmdet_cf_freq</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" line="66" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fmdet__cf__pydoc_8h_1a2e2381ff44143ec2714208814ccdc811" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_fmdet_cf_freq_high</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_fmdet_cf_freq_high</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" line="69" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fmdet__cf__pydoc_8h_1a22cd66313b62d33dd433d647ed792885" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_fmdet_cf_freq_low</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_fmdet_cf_freq_low</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" line="72" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fmdet__cf__pydoc_8h_1aa4ab73e35e4895effd87b7543615b8c9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_fmdet_cf_scale</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_fmdet_cf_scale</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" line="75" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fmdet__cf__pydoc_8h_1a70d809741c20874adfe2c1bcea35aba6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_fmdet_cf_bias</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_fmdet_cf_bias</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" line="78" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/fmdet_cf_pydoc.h"/>
+  </compounddef>
+</doxygen>

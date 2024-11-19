@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="group__synchronizers__blk" kind="group">
+    <compoundname>synchronizers_blk</compoundname>
+    <title>Synchronizers</title>
+    <innerclass refid="classgr_1_1analog_1_1pll__carriertracking__cc" prot="public">gr::analog::pll_carriertracking_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1pll__freqdet__cf" prot="public">gr::analog::pll_freqdet_cf</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1pll__refout__cc" prot="public">gr::analog::pll_refout_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1clock__recovery__mm__cc" prot="public">gr::digital::clock_recovery_mm_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1clock__recovery__mm__ff" prot="public">gr::digital::clock_recovery_mm_ff</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1costas__loop__cc" prot="public">gr::digital::costas_loop_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1fll__band__edge__cc" prot="public">gr::digital::fll_band_edge_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1msk__timing__recovery__cc" prot="public">gr::digital::msk_timing_recovery_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1ofdm__chanest__vcvc" prot="public">gr::digital::ofdm_chanest_vcvc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1ofdm__sync__sc__cfb" prot="public">gr::digital::ofdm_sync_sc_cfb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1pfb__clock__sync__ccf" prot="public">gr::digital::pfb_clock_sync_ccf</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1pfb__clock__sync__fff" prot="public">gr::digital::pfb_clock_sync_fff</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1pn__correlator__cc" prot="public">gr::digital::pn_correlator_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1symbol__sync__cc" prot="public">gr::digital::symbol_sync_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1symbol__sync__ff" prot="public">gr::digital::symbol_sync_ff</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__synchronizers__blk_1gac1749266339e589356ef04459650a277" prot="public" static="no" strong="no">
+        <type></type>
+        <name>tm_type</name>
+        <qualifiedname>gr::digital::tm_type</qualifiedname>
+        <enumvalue id="group__synchronizers__blk_1ggac1749266339e589356ef04459650a277a4aa0799f0869ae6ded6a31e58f5729c1" prot="public">
+          <name>THRESHOLD_DYNAMIC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__synchronizers__blk_1ggac1749266339e589356ef04459650a277a4970f00fc463af6db76ac33154657439" prot="public">
+          <name>THRESHOLD_ABSOLUTE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Correlate stream with a pre-defined sequence and estimate peak. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Input: <itemizedlist>
+<listitem><para>Stream of complex samples.</para>
+</listitem>
+</itemizedlist>
+Output: <itemizedlist>
+<listitem><para>Output stream that just passes the input complex samples </para>
+</listitem>
+<listitem><para>tag &apos;phase_est&apos;: estimate of phase offset </para>
+</listitem>
+<listitem><para>tag &apos;time_est&apos;: estimate of symbol timing offset </para>
+</listitem>
+<listitem><para>tag &apos;corr_est&apos;: the correlation value of the estimates </para>
+</listitem>
+<listitem><para>tag &apos;amp_est&apos;: 1 over the estimated amplitude </para>
+</listitem>
+<listitem><para>tag &apos;corr_start&apos;: the start sample of the correlation and the value</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem><para>Optional 2nd output stream providing the advanced correlator output</para>
+</listitem>
+</itemizedlist>
+This block is designed to search for a sync word by correlation and uses the results of the correlation to get a time and phase offset estimate. These estimates are passed downstream as stream tags for use by follow-on synchronization blocks.</para>
+<para>The sync word is provided as a set of symbols after being filtered by a baseband matched filter.</para>
+<para>The phase_est tag can be used by downstream blocks to adjust their phase estimator/correction loops, and is currently implemented by the <ref refid="classgr_1_1digital_1_1costas__loop__cc" kindref="compound">gr::digital::costas_loop_cc</ref> block.</para>
+<para>The time_est tag can be used to adjust the sampling timing estimate of any downstream synchronization blocks and is currently implemented by the <ref refid="classgr_1_1digital_1_1pfb__clock__sync__ccf" kindref="compound">gr::digital::pfb_clock_sync_ccf</ref> block.</para>
+<para>The caller must provide a &quot;time_est&quot; and &quot;phase_est&quot; tag marking delay from the start of the correlated signal segment, in order to mark the proper point in the sync word for downstream synchronization blocks. Generally this block cannot know where the actual sync word symbols are located relative to &quot;corr_start&quot;, given that some modulations have pulses with intentional ISI. The user should manually examine the primary output and the &quot;corr_start&quot; tag position to determine the required tag delay settings for the particular modulation, sync word, and downstream blocks used.</para>
+<para>For a discussion of the properties of complex correlations, with respect to signal processing, see: Marple, Jr., S. L., "Estimating Group Delay and Phase Delay via Discrete-Time &apos;Analytic&apos; Cross-Correlation, <emphasis>IEEE_Transcations</emphasis> <emphasis>on_Signal_Processing</emphasis>, Volume 47, No. 9, September 1999 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/corr_est_cc.h" line="73" column="1" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/corr_est_cc.h" bodystart="73" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

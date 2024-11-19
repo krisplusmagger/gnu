@@ -51,18 +51,23 @@ ofdm_sync_sc_cfb_impl::ofdm_sync_sc_cfb_impl(int fft_len,
     gr::blocks::delay::sptr delay(
         gr::blocks::delay::make(sizeof(gr_complex), fft_len / 2));
     gr::blocks::conjugate_cc::sptr delay_conjugate(gr::blocks::conjugate_cc::make());
+
     gr::blocks::multiply_cc::sptr delay_corr(gr::blocks::multiply_cc::make());
+
     gr::filter::fir_filter_ccf::sptr delay_ma(gr::filter::fir_filter_ccf::make(
         1, std::vector<float>(fft_len / 2, use_even_carriers ? 1.0 : -1.0)));
+
+
     gr::blocks::complex_to_mag_squared::sptr delay_magsquare(
         gr::blocks::complex_to_mag_squared::make());
     gr::blocks::divide_ff::sptr delay_normalize(gr::blocks::divide_ff::make());
 
     gr::blocks::complex_to_mag_squared::sptr normalizer_magsquare(
         gr::blocks::complex_to_mag_squared::make());
+
     gr::filter::fir_filter_fff::sptr normalizer_ma(
         gr::filter::fir_filter_fff::make(1, std::vector<float>(fft_len, 0.5)));
-    gr::blocks::multiply_ff::sptr normalizer_square(gr::blocks::multiply_ff::make());
+    gr::blocks::multiply_ff::sptr normalizer_square(gr::blocks::multiply_ff::make()); //Moving Average Filtering
 
     gr::blocks::complex_to_arg::sptr peak_to_angle(gr::blocks::complex_to_arg::make());
     gr::blocks::sample_and_hold_ff::sptr sample_and_hold(
@@ -82,16 +87,20 @@ ofdm_sync_sc_cfb_impl::ofdm_sync_sc_cfb_impl(int fft_len,
     connect(delay_corr, 0, delay_ma, 0);
     connect(delay_ma, 0, delay_magsquare, 0);
     connect(delay_magsquare, 0, delay_normalize, 0);
+
     // Energy Path
     connect(self(), 0, normalizer_magsquare, 0);
     connect(normalizer_magsquare, 0, normalizer_ma, 0);
     connect(normalizer_ma, 0, normalizer_square, 0);
     connect(normalizer_ma, 0, normalizer_square, 1);
     connect(normalizer_square, 0, delay_normalize, 1);
+
+    
     // Fine frequency estimate (output 0)
     connect(delay_ma, 0, peak_to_angle, 0);
     connect(peak_to_angle, 0, sample_and_hold, 0);
     connect(sample_and_hold, 0, self(), 0);
+
     // Peak detect (output 1)
     connect(delay_normalize, 0, plateau_detector, 0);
     connect(plateau_detector, 0, sample_and_hold, 1);

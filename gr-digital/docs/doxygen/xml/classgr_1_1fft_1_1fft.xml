@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1fft_1_1fft" kind="class" language="C++" prot="public">
+    <compoundname>gr::fft::fft</compoundname>
+    <includes refid="fft_8h" local="no">gnuradio/fft/fft.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+      <param>
+        <type>bool</type>
+        <declname>forward</declname>
+        <defname>forward</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1fft_1_1fft_1a8aba21cd5c3baea7f458c9138c91773b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::fft::fft&lt; T, forward &gt;::d_nthreads</definition>
+        <argsstring></argsstring>
+        <name>d_nthreads</name>
+        <qualifiedname>gr::fft::fft::d_nthreads</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="71" column="9" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fft_1_1fft_1a75abc1925c88f0bc839ea81e3a7c2395" prot="private" static="no" mutable="no">
+        <type>volk::vector&lt; typename <ref refid="structgr_1_1fft_1_1fft__inbuf" kindref="compound">fft_inbuf</ref>&lt; T, forward &gt;::type &gt;</type>
+        <definition>volk::vector&lt;typename fft_inbuf&lt;T, forward&gt;::type&gt; gr::fft::fft&lt; T, forward &gt;::d_inbuf</definition>
+        <argsstring></argsstring>
+        <name>d_inbuf</name>
+        <qualifiedname>gr::fft::fft::d_inbuf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="72" column="19" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fft_1_1fft_1a56f8953ab9a4b3bd8efa107e4a6431c8" prot="private" static="no" mutable="no">
+        <type>volk::vector&lt; typename <ref refid="structgr_1_1fft_1_1fft__outbuf" kindref="compound">fft_outbuf</ref>&lt; T, forward &gt;::type &gt;</type>
+        <definition>volk::vector&lt;typename fft_outbuf&lt;T, forward&gt;::type&gt; gr::fft::fft&lt; T, forward &gt;::d_outbuf</definition>
+        <argsstring></argsstring>
+        <name>d_outbuf</name>
+        <qualifiedname>gr::fft::fft::d_outbuf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="73" column="19" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fft_1_1fft_1a6bc1f6a3af3d07ebf051afde6b526234" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* gr::fft::fft&lt; T, forward &gt;::d_plan</definition>
+        <argsstring></argsstring>
+        <name>d_plan</name>
+        <qualifiedname>gr::fft::fft::d_plan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="74" column="10" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fft_1_1fft_1a2f54949ba4118bda4db92f0ab03741d7" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1logger" kindref="compound">gr::logger</ref></type>
+        <definition>gr::logger gr::fft::fft&lt; T, forward &gt;::d_logger</definition>
+        <argsstring></argsstring>
+        <name>d_logger</name>
+        <qualifiedname>gr::fft::fft::d_logger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="75" column="16" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft_1a51f98c00a3ad180455d42d659b5d57b3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::fft::fft&lt; T, forward &gt;::initialize_plan</definition>
+        <argsstring>(int fft_size)</argsstring>
+        <name>initialize_plan</name>
+        <qualifiedname>gr::fft::fft::initialize_plan</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>fft_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="76" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft_1a6242703a306e5fe5f27a2f2783617f85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::fft::fft&lt; T, forward &gt;::fft</definition>
+        <argsstring>(int fft_size, int nthreads=1)</argsstring>
+        <name>fft</name>
+        <qualifiedname>gr::fft::fft::fft</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>fft_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nthreads</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="79" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft_1a02eb82ceba1b4989ab070d2afa17a5eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::fft::fft&lt; T, forward &gt;::fft</definition>
+        <argsstring>(const fft &amp;)=delete</argsstring>
+        <name>fft</name>
+        <qualifiedname>gr::fft::fft::fft</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1fft_1_1fft" kindref="compound">fft</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="81" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft_1ad4f085199047fc6b434edf55c6729aaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1fft_1_1fft" kindref="compound">fft</ref> &amp;</type>
+        <definition>fft &amp; gr::fft::fft&lt; T, forward &gt;::operator=</definition>
+        <argsstring>(const fft &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>gr::fft::fft::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1fft_1_1fft" kindref="compound">fft</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="82" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft_1a7725572ed2fcd27f28e07f74f09afe29" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual gr::fft::fft&lt; T, forward &gt;::~fft</definition>
+        <argsstring>()</argsstring>
+        <name>~fft</name>
+        <qualifiedname>gr::fft::fft::~fft</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="83" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft_1a6fa26725d5728107f4ea545f5499db45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structgr_1_1fft_1_1fft__inbuf" kindref="compound">fft_inbuf</ref>&lt; T, forward &gt;::type *</type>
+        <definition>fft_inbuf&lt; T, forward &gt;::type * gr::fft::fft&lt; T, forward &gt;::get_inbuf</definition>
+        <argsstring>()</argsstring>
+        <name>get_inbuf</name>
+        <qualifiedname>gr::fft::fft::get_inbuf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="90" column="31" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft_1a203dc26dfbf7a2950f617dc7235e7919" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structgr_1_1fft_1_1fft__outbuf" kindref="compound">fft_outbuf</ref>&lt; T, forward &gt;::type *</type>
+        <definition>fft_outbuf&lt; T, forward &gt;::type * gr::fft::fft&lt; T, forward &gt;::get_outbuf</definition>
+        <argsstring>()</argsstring>
+        <name>get_outbuf</name>
+        <qualifiedname>gr::fft::fft::get_outbuf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="91" column="32" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft_1a0fa96238a5b514cf96969437f5aee25e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::fft::fft&lt; T, forward &gt;::inbuf_length</definition>
+        <argsstring>() const</argsstring>
+        <name>inbuf_length</name>
+        <qualifiedname>gr::fft::fft::inbuf_length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="93" column="9" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft_1a74165027ff7b6455183d5f58758f710a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::fft::fft&lt; T, forward &gt;::outbuf_length</definition>
+        <argsstring>() const</argsstring>
+        <name>outbuf_length</name>
+        <qualifiedname>gr::fft::fft::outbuf_length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="94" column="9" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft_1ac5d83b921d2bb1569315b83ae323f05f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::fft::fft&lt; T, forward &gt;::set_nthreads</definition>
+        <argsstring>(int n)</argsstring>
+        <name>set_nthreads</name>
+        <qualifiedname>gr::fft::fft::set_nthreads</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the number of threads to use for calculation. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="99" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft_1af7ca9169d0a75b2707f6d1cb46a02c23" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::fft::fft&lt; T, forward &gt;::nthreads</definition>
+        <argsstring>() const</argsstring>
+        <name>nthreads</name>
+        <qualifiedname>gr::fft::fft::nthreads</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the number of threads being used by FFTW </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="104" column="9" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft_1a5d7ddd1b58f298c15c9acd5a3a5378cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::fft::fft&lt; T, forward &gt;::execute</definition>
+        <argsstring>()</argsstring>
+        <name>execute</name>
+        <qualifiedname>gr::fft::fft::execute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compute FFT. The input comes from inbuf, the output is placed in outbuf. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="110" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="69" column="1" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="70" bodyend="111"/>
+    <listofallmembers>
+      <member refid="classgr_1_1fft_1_1fft_1a75abc1925c88f0bc839ea81e3a7c2395" prot="private" virt="non-virtual"><scope>gr::fft::fft</scope><name>d_inbuf</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1a2f54949ba4118bda4db92f0ab03741d7" prot="private" virt="non-virtual"><scope>gr::fft::fft</scope><name>d_logger</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1a8aba21cd5c3baea7f458c9138c91773b" prot="private" virt="non-virtual"><scope>gr::fft::fft</scope><name>d_nthreads</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1a56f8953ab9a4b3bd8efa107e4a6431c8" prot="private" virt="non-virtual"><scope>gr::fft::fft</scope><name>d_outbuf</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1a6bc1f6a3af3d07ebf051afde6b526234" prot="private" virt="non-virtual"><scope>gr::fft::fft</scope><name>d_plan</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1a5d7ddd1b58f298c15c9acd5a3a5378cc" prot="public" virt="non-virtual"><scope>gr::fft::fft</scope><name>execute</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1a6242703a306e5fe5f27a2f2783617f85" prot="public" virt="non-virtual"><scope>gr::fft::fft</scope><name>fft</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1a02eb82ceba1b4989ab070d2afa17a5eb" prot="public" virt="non-virtual"><scope>gr::fft::fft</scope><name>fft</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1a6fa26725d5728107f4ea545f5499db45" prot="public" virt="non-virtual"><scope>gr::fft::fft</scope><name>get_inbuf</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1a203dc26dfbf7a2950f617dc7235e7919" prot="public" virt="non-virtual"><scope>gr::fft::fft</scope><name>get_outbuf</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1a0fa96238a5b514cf96969437f5aee25e" prot="public" virt="non-virtual"><scope>gr::fft::fft</scope><name>inbuf_length</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1a51f98c00a3ad180455d42d659b5d57b3" prot="private" virt="non-virtual"><scope>gr::fft::fft</scope><name>initialize_plan</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1af7ca9169d0a75b2707f6d1cb46a02c23" prot="public" virt="non-virtual"><scope>gr::fft::fft</scope><name>nthreads</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1ad4f085199047fc6b434edf55c6729aaa" prot="public" virt="non-virtual"><scope>gr::fft::fft</scope><name>operator=</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1a74165027ff7b6455183d5f58758f710a" prot="public" virt="non-virtual"><scope>gr::fft::fft</scope><name>outbuf_length</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1ac5d83b921d2bb1569315b83ae323f05f" prot="public" virt="non-virtual"><scope>gr::fft::fft</scope><name>set_nthreads</name></member>
+      <member refid="classgr_1_1fft_1_1fft_1a7725572ed2fcd27f28e07f74f09afe29" prot="public" virt="virtual"><scope>gr::fft::fft</scope><name>~fft</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

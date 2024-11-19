@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="rail__ff__pydoc_8h" kind="file" language="C++">
+    <compoundname>rail_ff_pydoc.h</compoundname>
+    <includes refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>rail_ff_pydoc.h</label>
+        <link refid="rail__ff__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="rail__ff__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, analog, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="rail__ff__pydoc_8h_1a71513253691e87269a73c593b0383a07" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_rail_ff</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_rail_ff</name>
+        <initializer>= R&quot;doc(clips input values to min, max
+
+Constructor Specific Documentation:
+
+Build a rail block.
+
+Args:
+    lo : the low value to clip to.
+    hi : the high value to clip to.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rail__ff__pydoc_8h_1a81c3784f1f1798148ddb25902ece2f0c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_rail_ff_rail_ff_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_rail_ff_rail_ff_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" line="29" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rail__ff__pydoc_8h_1aa8d7aaa145e37669823d04a24d39d75a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_rail_ff_rail_ff_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_rail_ff_rail_ff_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" line="32" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rail__ff__pydoc_8h_1ae0b427912c7beaf7bfef70591deb64b3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_rail_ff_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_rail_ff_make</name>
+        <initializer>= R&quot;doc(clips input values to min, max
+
+Constructor Specific Documentation:
+
+Build a rail block.
+
+Args:
+    lo : the low value to clip to.
+    hi : the high value to clip to.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" line="35" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rail__ff__pydoc_8h_1ad86e56b1450520e925f39a6bcaf0697d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_rail_ff_lo</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_rail_ff_lo</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" line="46" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rail__ff__pydoc_8h_1ad71c783072e3e4249b1daf2c108a4569" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_rail_ff_hi</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_rail_ff_hi</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" line="49" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rail__ff__pydoc_8h_1a801d4c94e064239a9ca15bde564ec9d2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_rail_ff_set_lo</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_rail_ff_set_lo</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" line="52" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rail__ff__pydoc_8h_1a355e423b51b9582b84e0750e89366970" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_rail_ff_set_hi</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_rail_ff_set_hi</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" line="55" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/rail_ff_pydoc.h"/>
+  </compounddef>
+</doxygen>

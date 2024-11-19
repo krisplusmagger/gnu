@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classalist" kind="class" language="C++" prot="public">
+    <compoundname>alist</compoundname>
+    <includes refid="alist_8h" local="no">gnuradio/fec/alist.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classalist_1a8e2674f7688512aca72cc097171ed188" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool alist::data_ok</definition>
+        <argsstring></argsstring>
+        <name>data_ok</name>
+        <qualifiedname>alist::data_ok</qualifiedname>
+        <briefdescription>
+<para>A variable indicating if data has been read from alist-file. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="82" column="10" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1a2d66f51dac934dd7fc3a4513f47944cc" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int alist::N</definition>
+        <argsstring></argsstring>
+        <name>N</name>
+        <qualifiedname>alist::N</qualifiedname>
+        <briefdescription>
+<para>Number of variable nodes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="85" column="9" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1a3640c1629d32057f2952d3d72db06f46" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int alist::M</definition>
+        <argsstring></argsstring>
+        <name>M</name>
+        <qualifiedname>alist::M</qualifiedname>
+        <briefdescription>
+<para>Number of check nodes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="88" column="9" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1a89caa6d4edc75e8a4a13e76dea1050c6" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int alist::max_num_mlist</definition>
+        <argsstring></argsstring>
+        <name>max_num_mlist</name>
+        <qualifiedname>alist::max_num_mlist</qualifiedname>
+        <briefdescription>
+<para>Maximum weight of rows. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="91" column="9" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1a4d3c0ea2906c7432f5ae4e21c0590656" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int alist::max_num_nlist</definition>
+        <argsstring></argsstring>
+        <name>max_num_nlist</name>
+        <qualifiedname>alist::max_num_nlist</qualifiedname>
+        <briefdescription>
+<para>Maximum weight of columns. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="94" column="9" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1a07ce81d00a94ea4c6bdfe2115bd6ed30" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; alist::num_nlist</definition>
+        <argsstring></argsstring>
+        <name>num_nlist</name>
+        <qualifiedname>alist::num_nlist</qualifiedname>
+        <briefdescription>
+<para>Weight of each column n. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="97" column="17" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1a35fd033f1072fab3dc71a68c00e12a86" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; alist::num_mlist</definition>
+        <argsstring></argsstring>
+        <name>num_mlist</name>
+        <qualifiedname>alist::num_mlist</qualifiedname>
+        <briefdescription>
+<para>Weight of each row m. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="100" column="17" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1a24e518daf7670c1bd08880ad2396cfb4" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; int &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;int&gt; &gt; alist::mlist</definition>
+        <argsstring></argsstring>
+        <name>mlist</name>
+        <qualifiedname>alist::mlist</qualifiedname>
+        <briefdescription>
+<para>List of integer coordinates along each rows with non-zero entries. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="103" column="17" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1a8984232fdba2f1f7ec444d3dfcab6c21" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; int &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;int&gt; &gt; alist::nlist</definition>
+        <argsstring></argsstring>
+        <name>nlist</name>
+        <qualifiedname>alist::nlist</qualifiedname>
+        <briefdescription>
+<para>List of integer coordinates along each column with non-zero entries. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="106" column="17" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classalist_1abc1c3d86e688208532900d6550927e58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>alist::alist</definition>
+        <argsstring>()</argsstring>
+        <name>alist</name>
+        <qualifiedname>alist::alist</qualifiedname>
+        <briefdescription>
+<para>Default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="36" column="5" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a5c2c0d9ac55c8b5a4fa8b697651bead6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>alist::alist</definition>
+        <argsstring>(const char *fname)</argsstring>
+        <name>alist</name>
+        <qualifiedname>alist::alist</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>fname</declname>
+        </param>
+        <briefdescription>
+<para>Constructor which loads alist class from an alist-file. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="39" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a5e0330acee649466ab1d7241a7da7e6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void alist::read</definition>
+        <argsstring>(const char *fname)</argsstring>
+        <name>read</name>
+        <qualifiedname>alist::read</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>fname</declname>
+        </param>
+        <briefdescription>
+<para>Read alist data from a file. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="42" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a6d4c6fc6056d6afbac9e3fe33fcb1c90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void alist::write</definition>
+        <argsstring>(const char *fname) const</argsstring>
+        <name>write</name>
+        <qualifiedname>alist::write</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>fname</declname>
+        </param>
+        <briefdescription>
+<para>Write alist data to a file. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="45" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a6c54432f761b22e74ab3b0d26669e7ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int alist::get_N</definition>
+        <argsstring>()</argsstring>
+        <name>get_N</name>
+        <qualifiedname>alist::get_N</qualifiedname>
+        <briefdescription>
+<para>Returns N, the number of variable nodes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="48" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a21d596d138c1407368bc29a0b9506f99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int alist::get_M</definition>
+        <argsstring>()</argsstring>
+        <name>get_M</name>
+        <qualifiedname>alist::get_M</qualifiedname>
+        <briefdescription>
+<para>Return M, the number of check nodes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="51" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a671b9a10c4c5a9c94521dd9daab7ec81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; int &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; int &gt; &gt; alist::get_mlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_mlist</name>
+        <qualifiedname>alist::get_mlist</qualifiedname>
+        <briefdescription>
+<para>Return the m_list variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="54" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a5a30cd71806840c747c72a2ad0514d54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; int &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; int &gt; &gt; alist::get_nlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_nlist</name>
+        <qualifiedname>alist::get_nlist</qualifiedname>
+        <briefdescription>
+<para>Returns the n_list variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="57" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1ae3ec44456ce3e64b47026c69508f7865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; alist::get_num_mlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_num_mlist</name>
+        <qualifiedname>alist::get_num_mlist</qualifiedname>
+        <briefdescription>
+<para>Returns the num_mlist variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="60" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a06e126141b1de48681110be3d127b402" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; alist::get_num_nlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_num_nlist</name>
+        <qualifiedname>alist::get_num_nlist</qualifiedname>
+        <briefdescription>
+<para>Returns the num_nlist variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="63" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1acc236b9480302ec7c164c340e790849f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int alist::get_max_num_nlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_max_num_nlist</name>
+        <qualifiedname>alist::get_max_num_nlist</qualifiedname>
+        <briefdescription>
+<para>Returns the max_num_nlist variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="66" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a99a91de60597f6145d8c92a64c8a24d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int alist::get_max_num_mlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_max_num_mlist</name>
+        <qualifiedname>alist::get_max_num_mlist</qualifiedname>
+        <briefdescription>
+<para>Returns the max_num_mlist variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="69" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1ac0c15f553cc1e2eabe82e41e0cbd2bf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void alist::print_nlist_i</definition>
+        <argsstring>(int i)</argsstring>
+        <name>print_nlist_i</name>
+        <qualifiedname>alist::print_nlist_i</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Prints the nlist[i] variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="72" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1aafa6a25107fde9ad12ed9834ba4e1830" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void alist::print_mlist_i</definition>
+        <argsstring>(int i)</argsstring>
+        <name>print_mlist_i</name>
+        <qualifiedname>alist::print_mlist_i</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Prints the mlist[i] variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="75" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a2a71c0ca9a9d557ba6dad2b901b33097" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; uint8_t &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; uint8_t &gt; &gt; alist::get_matrix</definition>
+        <argsstring>()</argsstring>
+        <name>get_matrix</name>
+        <qualifiedname>alist::get_matrix</qualifiedname>
+        <briefdescription>
+<para>Returns the corresponding H matrix. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="78" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>alist</label>
+        <link refid="classalist"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>num_mlist</edgelabel>
+          <edgelabel>num_nlist</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>mlist</edgelabel>
+          <edgelabel>nlist</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+      <node id="3">
+        <label>std::vector&lt; std::vector&lt; int &gt; &gt;</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>elements</edgelabel>
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" line="32" column="1" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/alist.h" bodystart="33" bodyend="107"/>
+    <listofallmembers>
+      <member refid="classalist_1abc1c3d86e688208532900d6550927e58" prot="public" virt="non-virtual"><scope>alist</scope><name>alist</name></member>
+      <member refid="classalist_1a5c2c0d9ac55c8b5a4fa8b697651bead6" prot="public" virt="non-virtual"><scope>alist</scope><name>alist</name></member>
+      <member refid="classalist_1a8e2674f7688512aca72cc097171ed188" prot="protected" virt="non-virtual"><scope>alist</scope><name>data_ok</name></member>
+      <member refid="classalist_1a21d596d138c1407368bc29a0b9506f99" prot="public" virt="non-virtual"><scope>alist</scope><name>get_M</name></member>
+      <member refid="classalist_1a2a71c0ca9a9d557ba6dad2b901b33097" prot="public" virt="non-virtual"><scope>alist</scope><name>get_matrix</name></member>
+      <member refid="classalist_1a99a91de60597f6145d8c92a64c8a24d3" prot="public" virt="non-virtual"><scope>alist</scope><name>get_max_num_mlist</name></member>
+      <member refid="classalist_1acc236b9480302ec7c164c340e790849f" prot="public" virt="non-virtual"><scope>alist</scope><name>get_max_num_nlist</name></member>
+      <member refid="classalist_1a671b9a10c4c5a9c94521dd9daab7ec81" prot="public" virt="non-virtual"><scope>alist</scope><name>get_mlist</name></member>
+      <member refid="classalist_1a6c54432f761b22e74ab3b0d26669e7ab" prot="public" virt="non-virtual"><scope>alist</scope><name>get_N</name></member>
+      <member refid="classalist_1a5a30cd71806840c747c72a2ad0514d54" prot="public" virt="non-virtual"><scope>alist</scope><name>get_nlist</name></member>
+      <member refid="classalist_1ae3ec44456ce3e64b47026c69508f7865" prot="public" virt="non-virtual"><scope>alist</scope><name>get_num_mlist</name></member>
+      <member refid="classalist_1a06e126141b1de48681110be3d127b402" prot="public" virt="non-virtual"><scope>alist</scope><name>get_num_nlist</name></member>
+      <member refid="classalist_1a3640c1629d32057f2952d3d72db06f46" prot="protected" virt="non-virtual"><scope>alist</scope><name>M</name></member>
+      <member refid="classalist_1a89caa6d4edc75e8a4a13e76dea1050c6" prot="protected" virt="non-virtual"><scope>alist</scope><name>max_num_mlist</name></member>
+      <member refid="classalist_1a4d3c0ea2906c7432f5ae4e21c0590656" prot="protected" virt="non-virtual"><scope>alist</scope><name>max_num_nlist</name></member>
+      <member refid="classalist_1a24e518daf7670c1bd08880ad2396cfb4" prot="protected" virt="non-virtual"><scope>alist</scope><name>mlist</name></member>
+      <member refid="classalist_1a2d66f51dac934dd7fc3a4513f47944cc" prot="protected" virt="non-virtual"><scope>alist</scope><name>N</name></member>
+      <member refid="classalist_1a8984232fdba2f1f7ec444d3dfcab6c21" prot="protected" virt="non-virtual"><scope>alist</scope><name>nlist</name></member>
+      <member refid="classalist_1a35fd033f1072fab3dc71a68c00e12a86" prot="protected" virt="non-virtual"><scope>alist</scope><name>num_mlist</name></member>
+      <member refid="classalist_1a07ce81d00a94ea4c6bdfe2115bd6ed30" prot="protected" virt="non-virtual"><scope>alist</scope><name>num_nlist</name></member>
+      <member refid="classalist_1aafa6a25107fde9ad12ed9834ba4e1830" prot="public" virt="non-virtual"><scope>alist</scope><name>print_mlist_i</name></member>
+      <member refid="classalist_1ac0c15f553cc1e2eabe82e41e0cbd2bf4" prot="public" virt="non-virtual"><scope>alist</scope><name>print_nlist_i</name></member>
+      <member refid="classalist_1a5e0330acee649466ab1d7241a7da7e6b" prot="public" virt="non-virtual"><scope>alist</scope><name>read</name></member>
+      <member refid="classalist_1a6d4c6fc6056d6afbac9e3fe33fcb1c90" prot="public" virt="non-virtual"><scope>alist</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

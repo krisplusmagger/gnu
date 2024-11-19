@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="message__debug__pydoc_8h" kind="file" language="C++">
+    <compoundname>message_debug_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>message_debug_pydoc.h</label>
+        <link refid="message__debug__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="message__debug__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="message__debug__pydoc_8h_1a1cb14579da52ddc05404723fe22b1777" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_debug</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_debug</name>
+        <initializer>= R&quot;doc(Debug block for the message passing system.
+
+The message debug block is used to capture and print or store messages as they are received. Any block that generates a message may connect that message port to one or more of the two message input ports of this debug block. The message ports are:
+
+Constructor Specific Documentation:
+
+Build the message debug block. It takes a single parameter that can be used to disable PDU vector printing and has two message ports: print and store.
+
+Args:
+    en_uvec : Enable PDU Vector Printing.
+    log_level : The log level of the  port. Defaults to \&quot;info\&quot;.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__debug__pydoc_8h_1a2c39e907216b790eb2741dab82fac56b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_debug_message_debug_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_debug_message_debug_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" line="31" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__debug__pydoc_8h_1afa9a9506fde4ab36dbef3d59c7a1b8b3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_debug_message_debug_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_debug_message_debug_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__debug__pydoc_8h_1a8f1a534afa8da58c55b64f39ab0f7d8a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_debug_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_debug_make</name>
+        <initializer>= R&quot;doc(Debug block for the message passing system.
+
+The message debug block is used to capture and print or store messages as they are received. Any block that generates a message may connect that message port to one or more of the two message input ports of this debug block. The message ports are:
+
+Constructor Specific Documentation:
+
+Build the message debug block. It takes a single parameter that can be used to disable PDU vector printing and has two message ports: print and store.
+
+Args:
+    en_uvec : Enable PDU Vector Printing.
+    log_level : The log level of the  port. Defaults to \&quot;info\&quot;.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__debug__pydoc_8h_1a99f0677bdee89b6b618adf59619291a6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_debug_num_messages</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_debug_num_messages</name>
+        <initializer>= R&quot;doc(Reports the number of messages received by this block.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__debug__pydoc_8h_1a260d6fd4737bffbc1e993079f596ce60" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_debug_get_message</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_debug_get_message</name>
+        <initializer>= R&quot;doc(Get a message (as a PMT) from the message vector at index .
+
+Messages passed to the &apos;store&apos; port will be stored in a vector. This function retrieves those messages by index. They are index in order of when they were received (all messages are just pushed onto the back of a vector). This is mostly useful in debugging message passing graphs and in QA code.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="message__debug__pydoc_8h_1a28af70ec016c4a8da1017c744075c555" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_message_debug_set_vector_print</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_message_debug_set_vector_print</name>
+        <initializer>= R&quot;doc(Enables or disables printing of PDU uniform vector data.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" line="58" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/message_debug_pydoc.h"/>
+  </compounddef>
+</doxygen>

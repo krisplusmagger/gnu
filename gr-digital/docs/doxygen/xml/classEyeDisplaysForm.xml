@@ -1,0 +1,1226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEyeDisplaysForm" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>EyeDisplaysForm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <derivedcompoundref refid="classEyeDisplayForm" prot="public" virt="non-virtual">EyeDisplayForm</derivedcompoundref>
+    <includes refid="eyedisplaysform_8h" local="no">gnuradio/qtgui/eyedisplaysform.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classEyeDisplaysForm_1aca57ba9d35f1619e3af99bc1c53e193a" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int EyeDisplaysForm::d_nplots</definition>
+        <argsstring></argsstring>
+        <name>d_nplots</name>
+        <qualifiedname>EyeDisplaysForm::d_nplots</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="89" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1aee81fc86b8c61fa2bf960373a0d05915" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EyeDisplaysForm::d_sps</definition>
+        <argsstring></argsstring>
+        <name>d_sps</name>
+        <qualifiedname>EyeDisplaysForm::d_sps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="90" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a324e4a6c18b05d9e698db1641fff0c5f" prot="protected" static="no" mutable="no">
+        <type>QGridLayout *</type>
+        <definition>QGridLayout* EyeDisplaysForm::d_layout</definition>
+        <argsstring></argsstring>
+        <name>d_layout</name>
+        <qualifiedname>EyeDisplaysForm::d_layout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="92" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1abd0870770ce6d95691c3dba59f070a95" prot="protected" static="no" mutable="no">
+        <type><ref refid="classDisplayPlot" kindref="compound">DisplayPlot</ref> *</type>
+        <definition>DisplayPlot* EyeDisplaysForm::d_display_plot</definition>
+        <argsstring></argsstring>
+        <name>d_display_plot</name>
+        <qualifiedname>EyeDisplaysForm::d_display_plot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="93" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a17d86bb0f8e6d4ed71bcc85316531201" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classDisplayPlot" kindref="compound">DisplayPlot</ref> * &gt;</type>
+        <definition>std::vector&lt;DisplayPlot*&gt; EyeDisplaysForm::d_displays_plot</definition>
+        <argsstring></argsstring>
+        <name>d_displays_plot</name>
+        <qualifiedname>EyeDisplaysForm::d_displays_plot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="94" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1af773f97f7e28e203852de7c1b2ea86d7" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EyeDisplaysForm::d_system_specified_flag</definition>
+        <argsstring></argsstring>
+        <name>d_system_specified_flag</name>
+        <qualifiedname>EyeDisplaysForm::d_system_specified_flag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="95" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a686f713c0df971452f40452c5bfbad3e" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; QwtPlotGrid * &gt;</type>
+        <definition>std::vector&lt;QwtPlotGrid*&gt; EyeDisplaysForm::d_grids</definition>
+        <argsstring></argsstring>
+        <name>d_grids</name>
+        <qualifiedname>EyeDisplaysForm::d_grids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="97" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1aee3b6c1025a02b1a3f97146c27e71683" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EyeDisplaysForm::d_menu_on</definition>
+        <argsstring></argsstring>
+        <name>d_menu_on</name>
+        <qualifiedname>EyeDisplaysForm::d_menu_on</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="99" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a33852f1c86ec7ae57004210fc70460f4" prot="protected" static="no" mutable="no">
+        <type>QMenu *</type>
+        <definition>QMenu* EyeDisplaysForm::d_menu</definition>
+        <argsstring></argsstring>
+        <name>d_menu</name>
+        <qualifiedname>EyeDisplaysForm::d_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="100" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1abd4499998b509b0a2aff7edbd0245b21" prot="protected" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* EyeDisplaysForm::d_stop_act</definition>
+        <argsstring></argsstring>
+        <name>d_stop_act</name>
+        <qualifiedname>EyeDisplaysForm::d_stop_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="102" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a184d25a41d3c164c62d041d1e48f0127" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EyeDisplaysForm::d_stop_state</definition>
+        <argsstring></argsstring>
+        <name>d_stop_state</name>
+        <qualifiedname>EyeDisplaysForm::d_stop_state</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="103" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a91bd5378971761e9774135b299ce004d" prot="protected" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* EyeDisplaysForm::d_grid_act</definition>
+        <argsstring></argsstring>
+        <name>d_grid_act</name>
+        <qualifiedname>EyeDisplaysForm::d_grid_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="104" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1aed26b5ee39481be93ff911b4902c4577" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EyeDisplaysForm::d_grid_state</definition>
+        <argsstring></argsstring>
+        <name>d_grid_state</name>
+        <qualifiedname>EyeDisplaysForm::d_grid_state</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="105" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a7b25e52c244d3ca766e9f0485a0d4bba" prot="protected" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* EyeDisplaysForm::d_axislabelsmenu</definition>
+        <argsstring></argsstring>
+        <name>d_axislabelsmenu</name>
+        <qualifiedname>EyeDisplaysForm::d_axislabelsmenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="106" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a3bd664f8cbae5608978b5131be3edb63" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EyeDisplaysForm::d_axislabels</definition>
+        <argsstring></argsstring>
+        <name>d_axislabels</name>
+        <qualifiedname>EyeDisplaysForm::d_axislabels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="107" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a5564be4f68fbed45cbc4fdba04f84bcb" prot="protected" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* EyeDisplaysForm::d_autoscale_act</definition>
+        <argsstring></argsstring>
+        <name>d_autoscale_act</name>
+        <qualifiedname>EyeDisplaysForm::d_autoscale_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="109" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a27863d386d0b24910a5acacfb90fd2e9" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EyeDisplaysForm::d_autoscale_state</definition>
+        <argsstring></argsstring>
+        <name>d_autoscale_state</name>
+        <qualifiedname>EyeDisplaysForm::d_autoscale_state</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="110" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a7e5328e905faf9fbdf560e359f46af4c" prot="protected" static="no" mutable="no">
+        <type>QList&lt; QMenu * &gt;</type>
+        <definition>QList&lt;QMenu*&gt; EyeDisplaysForm::d_lines_menu</definition>
+        <argsstring></argsstring>
+        <name>d_lines_menu</name>
+        <qualifiedname>EyeDisplaysForm::d_lines_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="112" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a4a43d0d465d7b7b23dd66fce2c3e1e61" prot="protected" static="no" mutable="no">
+        <type>QList&lt; <ref refid="classLineTitleAction" kindref="compound">LineTitleAction</ref> * &gt;</type>
+        <definition>QList&lt;LineTitleAction*&gt; EyeDisplaysForm::d_line_title_act</definition>
+        <argsstring></argsstring>
+        <name>d_line_title_act</name>
+        <qualifiedname>EyeDisplaysForm::d_line_title_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="113" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a68c5d93ab624a055351a0af48fa90f0b" prot="protected" static="no" mutable="no">
+        <type>QList&lt; <ref refid="classLineColorMenu" kindref="compound">LineColorMenu</ref> * &gt;</type>
+        <definition>QList&lt;LineColorMenu*&gt; EyeDisplaysForm::d_line_color_menu</definition>
+        <argsstring></argsstring>
+        <name>d_line_color_menu</name>
+        <qualifiedname>EyeDisplaysForm::d_line_color_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="114" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a9ecc09ab8a86e4e3cfaa3ed8da52231a" prot="protected" static="no" mutable="no">
+        <type>QList&lt; <ref refid="classLineWidthMenu" kindref="compound">LineWidthMenu</ref> * &gt;</type>
+        <definition>QList&lt;LineWidthMenu*&gt; EyeDisplaysForm::d_line_width_menu</definition>
+        <argsstring></argsstring>
+        <name>d_line_width_menu</name>
+        <qualifiedname>EyeDisplaysForm::d_line_width_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="115" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a3f4c37a4105e81fdcccb118d27839792" prot="protected" static="no" mutable="no">
+        <type>QList&lt; <ref refid="classLineStyleMenu" kindref="compound">LineStyleMenu</ref> * &gt;</type>
+        <definition>QList&lt;LineStyleMenu*&gt; EyeDisplaysForm::d_line_style_menu</definition>
+        <argsstring></argsstring>
+        <name>d_line_style_menu</name>
+        <qualifiedname>EyeDisplaysForm::d_line_style_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="116" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a97a4d10ae45fa385f38a23540c9ec3eb" prot="protected" static="no" mutable="no">
+        <type>QList&lt; <ref refid="classLineMarkerMenu" kindref="compound">LineMarkerMenu</ref> * &gt;</type>
+        <definition>QList&lt;LineMarkerMenu*&gt; EyeDisplaysForm::d_line_marker_menu</definition>
+        <argsstring></argsstring>
+        <name>d_line_marker_menu</name>
+        <qualifiedname>EyeDisplaysForm::d_line_marker_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="117" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a30812f2344f002942fcf566e2701001d" prot="protected" static="no" mutable="no">
+        <type>QList&lt; <ref refid="classMarkerAlphaMenu" kindref="compound">MarkerAlphaMenu</ref> * &gt;</type>
+        <definition>QList&lt;MarkerAlphaMenu*&gt; EyeDisplaysForm::d_marker_alpha_menu</definition>
+        <argsstring></argsstring>
+        <name>d_marker_alpha_menu</name>
+        <qualifiedname>EyeDisplaysForm::d_marker_alpha_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="118" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1a3c39cfb171405df141f6a373bc41dc5d" prot="protected" static="no" mutable="no">
+        <type><ref refid="classPopupMenu" kindref="compound">PopupMenu</ref> *</type>
+        <definition>PopupMenu* EyeDisplaysForm::d_samp_rate_act</definition>
+        <argsstring></argsstring>
+        <name>d_samp_rate_act</name>
+        <qualifiedname>EyeDisplaysForm::d_samp_rate_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="120" column="15" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1ab6de44e419daa4366db4b5c9fc4c58e4" prot="protected" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* EyeDisplaysForm::d_save_act</definition>
+        <argsstring></argsstring>
+        <name>d_save_act</name>
+        <qualifiedname>EyeDisplaysForm::d_save_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="121" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplaysForm_1aa0ed85f133029222e76ca10b3dc675fc" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double EyeDisplaysForm::d_update_time</definition>
+        <argsstring></argsstring>
+        <name>d_update_time</name>
+        <qualifiedname>EyeDisplaysForm::d_update_time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="123" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEyeDisplaysForm_1a646f1371df91b27e5a33a6a7dfaa9388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EyeDisplaysForm::EyeDisplaysForm</definition>
+        <argsstring>(int nplots=1, QWidget *parent=0)</argsstring>
+        <name>EyeDisplaysForm</name>
+        <qualifiedname>EyeDisplaysForm::EyeDisplaysForm</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nplots</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="33" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplaysForm_1ab8dcfa83420212c2830aadcc284bd1b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EyeDisplaysForm::~EyeDisplaysForm</definition>
+        <argsstring>() override</argsstring>
+        <name>~EyeDisplaysForm</name>
+        <qualifiedname>EyeDisplaysForm::~EyeDisplaysForm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="34" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplaysForm_1aa7400ff921736a0055bd30820e494364" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <qualifiedname>EyeDisplaysForm::Reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="36" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplaysForm_1a827bd012c2a067cd92f1821fdbfe4919" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::enableMenu</definition>
+        <argsstring>(bool en=true)</argsstring>
+        <name>enableMenu</name>
+        <qualifiedname>EyeDisplaysForm::enableMenu</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>en</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="38" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a893161ca405a8801fa10015632e62e12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::resizeEvent</definition>
+        <argsstring>(QResizeEvent *e) override</argsstring>
+        <name>resizeEvent</name>
+        <qualifiedname>EyeDisplaysForm::resizeEvent</qualifiedname>
+        <param>
+          <type>QResizeEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="41" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a97b89361b808add9d67d4dc2065de011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::mousePressEvent</definition>
+        <argsstring>(QMouseEvent *e) override</argsstring>
+        <name>mousePressEvent</name>
+        <qualifiedname>EyeDisplaysForm::mousePressEvent</qualifiedname>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="42" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1adb00b9b1b4735c6b0fefcc8457c40626" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::customEvent</definition>
+        <argsstring>(QEvent *e) override=0</argsstring>
+        <name>customEvent</name>
+        <qualifiedname>EyeDisplaysForm::customEvent</qualifiedname>
+        <param>
+          <type>QEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="43" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1afd3a8983b25d7c1fa3c1dba36fb1f626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::closeEvent</definition>
+        <argsstring>(QCloseEvent *e) override</argsstring>
+        <name>closeEvent</name>
+        <qualifiedname>EyeDisplaysForm::closeEvent</qualifiedname>
+        <param>
+          <type>QCloseEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="45" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a0616e253bf9514bf074187ef59e409ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::setUpdateTime</definition>
+        <argsstring>(double t)</argsstring>
+        <name>setUpdateTime</name>
+        <qualifiedname>EyeDisplaysForm::setUpdateTime</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="47" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a738182e2827af1a274463068a906d596" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::setSamplesPerSymbol</definition>
+        <argsstring>(int64_t sps)</argsstring>
+        <name>setSamplesPerSymbol</name>
+        <qualifiedname>EyeDisplaysForm::setSamplesPerSymbol</qualifiedname>
+        <param>
+          <type>int64_t</type>
+          <declname>sps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="48" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1af4a756662efd8693da915f0767ad07c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::setTitle</definition>
+        <argsstring>(const QString &amp;title)</argsstring>
+        <name>setTitle</name>
+        <qualifiedname>EyeDisplaysForm::setTitle</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="49" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1aea1ca59cd46f00269894fe0a0c8a0897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::setLineLabel</definition>
+        <argsstring>(unsigned int which, const QString &amp;label)</argsstring>
+        <name>setLineLabel</name>
+        <qualifiedname>EyeDisplaysForm::setLineLabel</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="50" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a35f9d4001a3e4d0427e8959ae9a45543" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::setLineColor</definition>
+        <argsstring>(unsigned int which, const QString &amp;color)</argsstring>
+        <name>setLineColor</name>
+        <qualifiedname>EyeDisplaysForm::setLineColor</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="51" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1aa3f90155a0d094198148e92c0af67ab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::setLineWidth</definition>
+        <argsstring>(unsigned int which, unsigned int width)</argsstring>
+        <name>setLineWidth</name>
+        <qualifiedname>EyeDisplaysForm::setLineWidth</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="52" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a72d4b4c511ef627c071a976c7802c253" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::setLineStyle</definition>
+        <argsstring>(unsigned int which, Qt::PenStyle style)</argsstring>
+        <name>setLineStyle</name>
+        <qualifiedname>EyeDisplaysForm::setLineStyle</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>Qt::PenStyle</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="53" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1ae12f51e28b584f36a6b82e882b0d5748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::setLineMarker</definition>
+        <argsstring>(unsigned int which, QwtSymbol::Style style)</argsstring>
+        <name>setLineMarker</name>
+        <qualifiedname>EyeDisplaysForm::setLineMarker</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>QwtSymbol::Style</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="54" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a23913e8668ce79c3873c8bc068a6e571" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::setMarkerAlpha</definition>
+        <argsstring>(unsigned int which, unsigned int alpha)</argsstring>
+        <name>setMarkerAlpha</name>
+        <qualifiedname>EyeDisplaysForm::setMarkerAlpha</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="55" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a0322dfedb1346919ab9c373b98e9b8cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString EyeDisplaysForm::title</definition>
+        <argsstring>()</argsstring>
+        <name>title</name>
+        <qualifiedname>EyeDisplaysForm::title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="57" column="13"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1ada3544ccba2c0c7938b7c5810bad814f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString EyeDisplaysForm::lineLabel</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>lineLabel</name>
+        <qualifiedname>EyeDisplaysForm::lineLabel</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="58" column="13"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a6479b4685e680f3c4d2d0de67710bc23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString EyeDisplaysForm::lineColor</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>lineColor</name>
+        <qualifiedname>EyeDisplaysForm::lineColor</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="59" column="13"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a95425089aafd57b2ea52dc2bdcf9d34c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EyeDisplaysForm::lineWidth</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>lineWidth</name>
+        <qualifiedname>EyeDisplaysForm::lineWidth</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="60" column="9"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a48d8de359afc1339b13880c518e68c17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Qt::PenStyle</type>
+        <definition>Qt::PenStyle EyeDisplaysForm::lineStyle</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>lineStyle</name>
+        <qualifiedname>EyeDisplaysForm::lineStyle</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="61" column="18"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a032816df9093bf003193d7dffd12c1cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QwtSymbol::Style</type>
+        <definition>QwtSymbol::Style EyeDisplaysForm::lineMarker</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>lineMarker</name>
+        <qualifiedname>EyeDisplaysForm::lineMarker</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="62" column="22"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1ade6d6eba7e639e18acbc6eed5cc71ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EyeDisplaysForm::markerAlpha</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>markerAlpha</name>
+        <qualifiedname>EyeDisplaysForm::markerAlpha</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="63" column="9"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1ae718880b5dab3323a595b20aa145cea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void EyeDisplaysForm::setSampleRate</definition>
+        <argsstring>(const QString &amp;rate)</argsstring>
+        <name>setSampleRate</name>
+        <qualifiedname>EyeDisplaysForm::setSampleRate</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="65" column="18"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1ae4d4b787d167a143fc556437fc9596a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::setStop</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setStop</name>
+        <qualifiedname>EyeDisplaysForm::setStop</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="67" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a9e91b06b323c6235ea1046d7997cb341" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::setStop</definition>
+        <argsstring>()</argsstring>
+        <name>setStop</name>
+        <qualifiedname>EyeDisplaysForm::setStop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="68" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1add5dd9c9346fd7622a63f3814fa3b0de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::setGrid</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setGrid</name>
+        <qualifiedname>EyeDisplaysForm::setGrid</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="70" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1aa3e1d8b71f3c9fa577d2992b34f23f77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::setAxisLabels</definition>
+        <argsstring>(bool en)</argsstring>
+        <name>setAxisLabels</name>
+        <qualifiedname>EyeDisplaysForm::setAxisLabels</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="71" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a10263600cb64383c018de2bc73bf6a1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::saveFigure</definition>
+        <argsstring>()</argsstring>
+        <name>saveFigure</name>
+        <qualifiedname>EyeDisplaysForm::saveFigure</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="73" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a1f39c6bd4e189708ba79ffb31888a202" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::disableLegend</definition>
+        <argsstring>()</argsstring>
+        <name>disableLegend</name>
+        <qualifiedname>EyeDisplaysForm::disableLegend</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="75" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a28cf06b9af3deac0e26ed1104373c754" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void EyeDisplaysForm::newData</definition>
+        <argsstring>(const QEvent *)=0</argsstring>
+        <name>newData</name>
+        <qualifiedname>EyeDisplaysForm::newData</qualifiedname>
+        <param>
+          <type>const QEvent *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="78" column="18"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a09a328ebcf3f0ba3059d86d4d336f350" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void EyeDisplaysForm::autoScale</definition>
+        <argsstring>(bool)=0</argsstring>
+        <name>autoScale</name>
+        <qualifiedname>EyeDisplaysForm::autoScale</qualifiedname>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="79" column="18"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1a4150095a63ddd41d9b38eef144e5b4c8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::updateGuiTimer</definition>
+        <argsstring>()</argsstring>
+        <name>updateGuiTimer</name>
+        <qualifiedname>EyeDisplaysForm::updateGuiTimer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="80" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplaysForm_1ab5d5f115373df8bba5e201cbad0705e8" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void EyeDisplaysForm::onPlotPointSelected</definition>
+        <argsstring>(const QPointF p)</argsstring>
+        <name>onPlotPointSelected</name>
+        <qualifiedname>EyeDisplaysForm::onPlotPointSelected</qualifiedname>
+        <param>
+          <type>const QPointF</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="82" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classEyeDisplaysForm_1aef324f6c6629bd03b78041ac40cd8530" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::plotPointSelected</definition>
+        <argsstring>(const QPointF p, int type)</argsstring>
+        <name>plotPointSelected</name>
+        <qualifiedname>EyeDisplaysForm::plotPointSelected</qualifiedname>
+        <param>
+          <type>const QPointF</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="85" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="classEyeDisplaysForm_1a040c5e6d9f6d974ad247d1b423776d33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplaysForm::toggleGrid</definition>
+        <argsstring>(bool en)</argsstring>
+        <name>toggleGrid</name>
+        <qualifiedname>EyeDisplaysForm::toggleGrid</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="86" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Base class for setting up and managing QTGUI plot forms. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>EyeDisplayForm</label>
+        <link refid="classEyeDisplayForm"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>EyeDisplaysForm</label>
+        <link refid="classEyeDisplaysForm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>DisplayPlot</label>
+        <link refid="classDisplayPlot"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>d_plot_curve</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>d_picker</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>EyeDisplaysForm</label>
+        <link refid="classEyeDisplaysForm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>d_display_plot</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>d_displays_plot</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>d_grids</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>d_samp_rate_act</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>PopupMenu</label>
+        <link refid="classPopupMenu"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>QAction</label>
+      </node>
+      <node id="2">
+        <label>QWidget</label>
+      </node>
+      <node id="6">
+        <label>QwtDblClickPlotPicker</label>
+        <link refid="classQwtDblClickPlotPicker"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>QwtPlot</label>
+      </node>
+      <node id="7">
+        <label>QwtPlotPicker</label>
+      </node>
+      <node id="8">
+        <label>std::vector&lt; DisplayPlot * &gt;</label>
+        <childnode refid="3" relation="usage">
+          <edgelabel>elements</edgelabel>
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::vector&lt; QwtPlotCurve * &gt;</label>
+      </node>
+      <node id="9">
+        <label>std::vector&lt; QwtPlotGrid * &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" line="28" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplaysform.h" bodystart="29" bodyend="124"/>
+    <listofallmembers>
+      <member refid="classEyeDisplaysForm_1a09a328ebcf3f0ba3059d86d4d336f350" prot="private" virt="pure-virtual"><scope>EyeDisplaysForm</scope><name>autoScale</name></member>
+      <member refid="classEyeDisplaysForm_1afd3a8983b25d7c1fa3c1dba36fb1f626" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>closeEvent</name></member>
+      <member refid="classEyeDisplaysForm_1adb00b9b1b4735c6b0fefcc8457c40626" prot="public" virt="pure-virtual"><scope>EyeDisplaysForm</scope><name>customEvent</name></member>
+      <member refid="classEyeDisplaysForm_1a5564be4f68fbed45cbc4fdba04f84bcb" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_autoscale_act</name></member>
+      <member refid="classEyeDisplaysForm_1a27863d386d0b24910a5acacfb90fd2e9" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_autoscale_state</name></member>
+      <member refid="classEyeDisplaysForm_1a3bd664f8cbae5608978b5131be3edb63" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_axislabels</name></member>
+      <member refid="classEyeDisplaysForm_1a7b25e52c244d3ca766e9f0485a0d4bba" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_axislabelsmenu</name></member>
+      <member refid="classEyeDisplaysForm_1abd0870770ce6d95691c3dba59f070a95" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_display_plot</name></member>
+      <member refid="classEyeDisplaysForm_1a17d86bb0f8e6d4ed71bcc85316531201" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_displays_plot</name></member>
+      <member refid="classEyeDisplaysForm_1a91bd5378971761e9774135b299ce004d" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_grid_act</name></member>
+      <member refid="classEyeDisplaysForm_1aed26b5ee39481be93ff911b4902c4577" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_grid_state</name></member>
+      <member refid="classEyeDisplaysForm_1a686f713c0df971452f40452c5bfbad3e" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_grids</name></member>
+      <member refid="classEyeDisplaysForm_1a324e4a6c18b05d9e698db1641fff0c5f" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_layout</name></member>
+      <member refid="classEyeDisplaysForm_1a68c5d93ab624a055351a0af48fa90f0b" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_line_color_menu</name></member>
+      <member refid="classEyeDisplaysForm_1a97a4d10ae45fa385f38a23540c9ec3eb" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_line_marker_menu</name></member>
+      <member refid="classEyeDisplaysForm_1a3f4c37a4105e81fdcccb118d27839792" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_line_style_menu</name></member>
+      <member refid="classEyeDisplaysForm_1a4a43d0d465d7b7b23dd66fce2c3e1e61" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_line_title_act</name></member>
+      <member refid="classEyeDisplaysForm_1a9ecc09ab8a86e4e3cfaa3ed8da52231a" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_line_width_menu</name></member>
+      <member refid="classEyeDisplaysForm_1a7e5328e905faf9fbdf560e359f46af4c" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_lines_menu</name></member>
+      <member refid="classEyeDisplaysForm_1a30812f2344f002942fcf566e2701001d" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_marker_alpha_menu</name></member>
+      <member refid="classEyeDisplaysForm_1a33852f1c86ec7ae57004210fc70460f4" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_menu</name></member>
+      <member refid="classEyeDisplaysForm_1aee3b6c1025a02b1a3f97146c27e71683" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_menu_on</name></member>
+      <member refid="classEyeDisplaysForm_1aca57ba9d35f1619e3af99bc1c53e193a" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_nplots</name></member>
+      <member refid="classEyeDisplaysForm_1a3c39cfb171405df141f6a373bc41dc5d" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_samp_rate_act</name></member>
+      <member refid="classEyeDisplaysForm_1ab6de44e419daa4366db4b5c9fc4c58e4" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_save_act</name></member>
+      <member refid="classEyeDisplaysForm_1aee81fc86b8c61fa2bf960373a0d05915" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_sps</name></member>
+      <member refid="classEyeDisplaysForm_1abd4499998b509b0a2aff7edbd0245b21" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_stop_act</name></member>
+      <member refid="classEyeDisplaysForm_1a184d25a41d3c164c62d041d1e48f0127" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_stop_state</name></member>
+      <member refid="classEyeDisplaysForm_1af773f97f7e28e203852de7c1b2ea86d7" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_system_specified_flag</name></member>
+      <member refid="classEyeDisplaysForm_1aa0ed85f133029222e76ca10b3dc675fc" prot="protected" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>d_update_time</name></member>
+      <member refid="classEyeDisplaysForm_1a1f39c6bd4e189708ba79ffb31888a202" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>disableLegend</name></member>
+      <member refid="classEyeDisplaysForm_1a827bd012c2a067cd92f1821fdbfe4919" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>enableMenu</name></member>
+      <member refid="classEyeDisplaysForm_1a646f1371df91b27e5a33a6a7dfaa9388" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>EyeDisplaysForm</name></member>
+      <member refid="classEyeDisplaysForm_1a6479b4685e680f3c4d2d0de67710bc23" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>lineColor</name></member>
+      <member refid="classEyeDisplaysForm_1ada3544ccba2c0c7938b7c5810bad814f" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>lineLabel</name></member>
+      <member refid="classEyeDisplaysForm_1a032816df9093bf003193d7dffd12c1cc" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>lineMarker</name></member>
+      <member refid="classEyeDisplaysForm_1a48d8de359afc1339b13880c518e68c17" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>lineStyle</name></member>
+      <member refid="classEyeDisplaysForm_1a95425089aafd57b2ea52dc2bdcf9d34c" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>lineWidth</name></member>
+      <member refid="classEyeDisplaysForm_1ade6d6eba7e639e18acbc6eed5cc71ab3" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>markerAlpha</name></member>
+      <member refid="classEyeDisplaysForm_1a97b89361b808add9d67d4dc2065de011" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>mousePressEvent</name></member>
+      <member refid="classEyeDisplaysForm_1a28cf06b9af3deac0e26ed1104373c754" prot="private" virt="pure-virtual"><scope>EyeDisplaysForm</scope><name>newData</name></member>
+      <member refid="classEyeDisplaysForm_1ab5d5f115373df8bba5e201cbad0705e8" prot="private" virt="virtual"><scope>EyeDisplaysForm</scope><name>onPlotPointSelected</name></member>
+      <member refid="classEyeDisplaysForm_1aef324f6c6629bd03b78041ac40cd8530" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>plotPointSelected</name></member>
+      <member refid="classEyeDisplaysForm_1aa7400ff921736a0055bd30820e494364" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>Reset</name></member>
+      <member refid="classEyeDisplaysForm_1a893161ca405a8801fa10015632e62e12" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>resizeEvent</name></member>
+      <member refid="classEyeDisplaysForm_1a10263600cb64383c018de2bc73bf6a1a" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>saveFigure</name></member>
+      <member refid="classEyeDisplaysForm_1aa3e1d8b71f3c9fa577d2992b34f23f77" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>setAxisLabels</name></member>
+      <member refid="classEyeDisplaysForm_1add5dd9c9346fd7622a63f3814fa3b0de" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>setGrid</name></member>
+      <member refid="classEyeDisplaysForm_1a35f9d4001a3e4d0427e8959ae9a45543" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>setLineColor</name></member>
+      <member refid="classEyeDisplaysForm_1aea1ca59cd46f00269894fe0a0c8a0897" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>setLineLabel</name></member>
+      <member refid="classEyeDisplaysForm_1ae12f51e28b584f36a6b82e882b0d5748" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>setLineMarker</name></member>
+      <member refid="classEyeDisplaysForm_1a72d4b4c511ef627c071a976c7802c253" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>setLineStyle</name></member>
+      <member refid="classEyeDisplaysForm_1aa3f90155a0d094198148e92c0af67ab1" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>setLineWidth</name></member>
+      <member refid="classEyeDisplaysForm_1a23913e8668ce79c3873c8bc068a6e571" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>setMarkerAlpha</name></member>
+      <member refid="classEyeDisplaysForm_1ae718880b5dab3323a595b20aa145cea3" prot="public" virt="virtual"><scope>EyeDisplaysForm</scope><name>setSampleRate</name></member>
+      <member refid="classEyeDisplaysForm_1a738182e2827af1a274463068a906d596" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>setSamplesPerSymbol</name></member>
+      <member refid="classEyeDisplaysForm_1ae4d4b787d167a143fc556437fc9596a4" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>setStop</name></member>
+      <member refid="classEyeDisplaysForm_1a9e91b06b323c6235ea1046d7997cb341" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>setStop</name></member>
+      <member refid="classEyeDisplaysForm_1af4a756662efd8693da915f0767ad07c7" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>setTitle</name></member>
+      <member refid="classEyeDisplaysForm_1a0616e253bf9514bf074187ef59e409ab" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>setUpdateTime</name></member>
+      <member refid="classEyeDisplaysForm_1a0322dfedb1346919ab9c373b98e9b8cc" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>title</name></member>
+      <member refid="classEyeDisplaysForm_1a040c5e6d9f6d974ad247d1b423776d33" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>toggleGrid</name></member>
+      <member refid="classEyeDisplaysForm_1a4150095a63ddd41d9b38eef144e5b4c8" prot="private" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>updateGuiTimer</name></member>
+      <member refid="classEyeDisplaysForm_1ab8dcfa83420212c2830aadcc284bd1b4" prot="public" virt="non-virtual"><scope>EyeDisplaysForm</scope><name>~EyeDisplaysForm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

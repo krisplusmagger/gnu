@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classColorMapMenu" kind="class" language="C++" prot="public">
+    <compoundname>ColorMapMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMenu</basecompoundref>
+    <includes refid="form__menus_8h" local="no">gnuradio/qtgui/form_menus.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classColorMapMenu_1a4d64b8345a00cc20824c6a0155e1af3e" prot="private" static="no" mutable="no">
+        <type>QActionGroup *</type>
+        <definition>QActionGroup* ColorMapMenu::d_grp</definition>
+        <argsstring></argsstring>
+        <name>d_grp</name>
+        <qualifiedname>ColorMapMenu::d_grp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="832" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="832" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classColorMapMenu_1acb548fdf5c54cbb6a45ed2238d29ff22" prot="private" static="no" mutable="no">
+        <type>QList&lt; QAction * &gt;</type>
+        <definition>QList&lt;QAction*&gt; ColorMapMenu::d_act</definition>
+        <argsstring></argsstring>
+        <name>d_act</name>
+        <qualifiedname>ColorMapMenu::d_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="833" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="833" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classColorMapMenu_1a10552e028b42daf4024e7f2b1a23f612" prot="private" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor ColorMapMenu::d_max_value</definition>
+        <argsstring></argsstring>
+        <name>d_max_value</name>
+        <qualifiedname>ColorMapMenu::d_max_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="834" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="834" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classColorMapMenu_1af723ec7d1633516ea76daa87971f7ac1" prot="private" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor ColorMapMenu::d_min_value</definition>
+        <argsstring></argsstring>
+        <name>d_min_value</name>
+        <qualifiedname>ColorMapMenu::d_min_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="834" column="24" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="834" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classColorMapMenu_1a3b82159950b5195dc8d0dc8b28dfd171" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ColorMapMenu::d_which</definition>
+        <argsstring></argsstring>
+        <name>d_which</name>
+        <qualifiedname>ColorMapMenu::d_which</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="835" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="835" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classColorMapMenu_1afda5d1bfdce57f555a2cdea414c4b63c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ColorMapMenu::ColorMapMenu</definition>
+        <argsstring>(unsigned int which, QWidget *parent)</argsstring>
+        <name>ColorMapMenu</name>
+        <qualifiedname>ColorMapMenu::ColorMapMenu</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="736" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="736" bodyend="769"/>
+        <references refid="classColorMapMenu_1a285749556f24fd7bd4c11591d33378ac" compoundref="form__menus_8h" startline="798" endline="801">getBlackHot</references>
+        <references refid="classColorMapMenu_1a22076e137efb3b4c16901634ac07cf0b" compoundref="form__menus_8h" startline="810" endline="813">getCool</references>
+        <references refid="classColorMapMenu_1a931d048bb0af0c7adb937957c6f639c9" compoundref="form__menus_8h" startline="802" endline="805">getIncandescent</references>
+        <references refid="classColorMapMenu_1aff1e0d466a23c7dabde722410c6ccd9e" compoundref="form__menus_8h" startline="790" endline="793">getMultiColor</references>
+        <references refid="classColorMapMenu_1a460e6dcd92d689b3437ff82cf6fe9834" compoundref="form__menus_8h" startline="815" endline="829">getOther</references>
+        <references refid="classColorMapMenu_1aef17165a2777ce72af82f0541b13db32" compoundref="form__menus_8h" startline="806" endline="809">getSunset</references>
+        <references refid="classColorMapMenu_1a072c8f7c1775a6d220ff8c8a03c899d6" compoundref="form__menus_8h" startline="794" endline="797">getWhiteHot</references>
+      </memberdef>
+      <memberdef kind="function" id="classColorMapMenu_1a5d8deb032bf01f2235be10c3e37f5291" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ColorMapMenu::~ColorMapMenu</definition>
+        <argsstring>() override</argsstring>
+        <name>~ColorMapMenu</name>
+        <qualifiedname>ColorMapMenu::~ColorMapMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="771" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="771" bodyend="771"/>
+      </memberdef>
+      <memberdef kind="function" id="classColorMapMenu_1aa8310ac8606c1468f07c1648be97fae7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ColorMapMenu::getNumActions</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumActions</name>
+        <qualifiedname>ColorMapMenu::getNumActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="773" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="773" bodyend="773"/>
+      </memberdef>
+      <memberdef kind="function" id="classColorMapMenu_1ac7e3591c5ef1c17e5a5ae7471a262208" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * ColorMapMenu::getAction</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>getAction</name>
+        <qualifiedname>ColorMapMenu::getAction</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="775" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="775" bodyend="781"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classColorMapMenu_1a616a03233eec2048c5f795cf58c9b06d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorMapMenu::whichTrigger</definition>
+        <argsstring>(unsigned int which, const int type, const QColor &amp;min_color=QColor(), const QColor &amp;max_color=QColor())</argsstring>
+        <name>whichTrigger</name>
+        <qualifiedname>ColorMapMenu::whichTrigger</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const QColor &amp;</type>
+          <declname>min_color</declname>
+          <defval>QColor()</defval>
+        </param>
+        <param>
+          <type>const QColor &amp;</type>
+          <declname>max_color</declname>
+          <defval>QColor()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="784" column="10"/>
+        <referencedby refid="classColorMapMenu_1a285749556f24fd7bd4c11591d33378ac" compoundref="form__menus_8h" startline="798" endline="801">getBlackHot</referencedby>
+        <referencedby refid="classColorMapMenu_1a22076e137efb3b4c16901634ac07cf0b" compoundref="form__menus_8h" startline="810" endline="813">getCool</referencedby>
+        <referencedby refid="classColorMapMenu_1a931d048bb0af0c7adb937957c6f639c9" compoundref="form__menus_8h" startline="802" endline="805">getIncandescent</referencedby>
+        <referencedby refid="classColorMapMenu_1aff1e0d466a23c7dabde722410c6ccd9e" compoundref="form__menus_8h" startline="790" endline="793">getMultiColor</referencedby>
+        <referencedby refid="classColorMapMenu_1a460e6dcd92d689b3437ff82cf6fe9834" compoundref="form__menus_8h" startline="815" endline="829">getOther</referencedby>
+        <referencedby refid="classColorMapMenu_1aef17165a2777ce72af82f0541b13db32" compoundref="form__menus_8h" startline="806" endline="809">getSunset</referencedby>
+        <referencedby refid="classColorMapMenu_1a072c8f7c1775a6d220ff8c8a03c899d6" compoundref="form__menus_8h" startline="794" endline="797">getWhiteHot</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classColorMapMenu_1aff1e0d466a23c7dabde722410c6ccd9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorMapMenu::getMultiColor</definition>
+        <argsstring>()</argsstring>
+        <name>getMultiColor</name>
+        <qualifiedname>ColorMapMenu::getMultiColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="790" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="790" bodyend="793"/>
+        <references refid="classColorMapMenu_1a616a03233eec2048c5f795cf58c9b06d">whichTrigger</references>
+        <referencedby refid="classColorMapMenu_1afda5d1bfdce57f555a2cdea414c4b63c" compoundref="form__menus_8h" startline="736" endline="769">ColorMapMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classColorMapMenu_1a072c8f7c1775a6d220ff8c8a03c899d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorMapMenu::getWhiteHot</definition>
+        <argsstring>()</argsstring>
+        <name>getWhiteHot</name>
+        <qualifiedname>ColorMapMenu::getWhiteHot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="794" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="794" bodyend="797"/>
+        <references refid="classColorMapMenu_1a616a03233eec2048c5f795cf58c9b06d">whichTrigger</references>
+        <referencedby refid="classColorMapMenu_1afda5d1bfdce57f555a2cdea414c4b63c" compoundref="form__menus_8h" startline="736" endline="769">ColorMapMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classColorMapMenu_1a285749556f24fd7bd4c11591d33378ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorMapMenu::getBlackHot</definition>
+        <argsstring>()</argsstring>
+        <name>getBlackHot</name>
+        <qualifiedname>ColorMapMenu::getBlackHot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="798" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="798" bodyend="801"/>
+        <references refid="classColorMapMenu_1a616a03233eec2048c5f795cf58c9b06d">whichTrigger</references>
+        <referencedby refid="classColorMapMenu_1afda5d1bfdce57f555a2cdea414c4b63c" compoundref="form__menus_8h" startline="736" endline="769">ColorMapMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classColorMapMenu_1a931d048bb0af0c7adb937957c6f639c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorMapMenu::getIncandescent</definition>
+        <argsstring>()</argsstring>
+        <name>getIncandescent</name>
+        <qualifiedname>ColorMapMenu::getIncandescent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="802" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="802" bodyend="805"/>
+        <references refid="classColorMapMenu_1a616a03233eec2048c5f795cf58c9b06d">whichTrigger</references>
+        <referencedby refid="classColorMapMenu_1afda5d1bfdce57f555a2cdea414c4b63c" compoundref="form__menus_8h" startline="736" endline="769">ColorMapMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classColorMapMenu_1aef17165a2777ce72af82f0541b13db32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorMapMenu::getSunset</definition>
+        <argsstring>()</argsstring>
+        <name>getSunset</name>
+        <qualifiedname>ColorMapMenu::getSunset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="806" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="806" bodyend="809"/>
+        <references refid="classColorMapMenu_1a616a03233eec2048c5f795cf58c9b06d">whichTrigger</references>
+        <referencedby refid="classColorMapMenu_1afda5d1bfdce57f555a2cdea414c4b63c" compoundref="form__menus_8h" startline="736" endline="769">ColorMapMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classColorMapMenu_1a22076e137efb3b4c16901634ac07cf0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorMapMenu::getCool</definition>
+        <argsstring>()</argsstring>
+        <name>getCool</name>
+        <qualifiedname>ColorMapMenu::getCool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="810" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="810" bodyend="813"/>
+        <references refid="classColorMapMenu_1a616a03233eec2048c5f795cf58c9b06d">whichTrigger</references>
+        <referencedby refid="classColorMapMenu_1afda5d1bfdce57f555a2cdea414c4b63c" compoundref="form__menus_8h" startline="736" endline="769">ColorMapMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classColorMapMenu_1a460e6dcd92d689b3437ff82cf6fe9834" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorMapMenu::getOther</definition>
+        <argsstring>()</argsstring>
+        <name>getOther</name>
+        <qualifiedname>ColorMapMenu::getOther</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="815" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="815" bodyend="829"/>
+        <references refid="classColorMapMenu_1a616a03233eec2048c5f795cf58c9b06d">whichTrigger</references>
+        <referencedby refid="classColorMapMenu_1afda5d1bfdce57f555a2cdea414c4b63c" compoundref="form__menus_8h" startline="736" endline="769">ColorMapMenu</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ColorMapMenu</label>
+        <link refid="classColorMapMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ColorMapMenu</label>
+        <link refid="classColorMapMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="731" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="732" bodyend="836"/>
+    <listofallmembers>
+      <member refid="classColorMapMenu_1afda5d1bfdce57f555a2cdea414c4b63c" prot="public" virt="non-virtual"><scope>ColorMapMenu</scope><name>ColorMapMenu</name></member>
+      <member refid="classColorMapMenu_1acb548fdf5c54cbb6a45ed2238d29ff22" prot="private" virt="non-virtual"><scope>ColorMapMenu</scope><name>d_act</name></member>
+      <member refid="classColorMapMenu_1a4d64b8345a00cc20824c6a0155e1af3e" prot="private" virt="non-virtual"><scope>ColorMapMenu</scope><name>d_grp</name></member>
+      <member refid="classColorMapMenu_1a10552e028b42daf4024e7f2b1a23f612" prot="private" virt="non-virtual"><scope>ColorMapMenu</scope><name>d_max_value</name></member>
+      <member refid="classColorMapMenu_1af723ec7d1633516ea76daa87971f7ac1" prot="private" virt="non-virtual"><scope>ColorMapMenu</scope><name>d_min_value</name></member>
+      <member refid="classColorMapMenu_1a3b82159950b5195dc8d0dc8b28dfd171" prot="private" virt="non-virtual"><scope>ColorMapMenu</scope><name>d_which</name></member>
+      <member refid="classColorMapMenu_1ac7e3591c5ef1c17e5a5ae7471a262208" prot="public" virt="non-virtual"><scope>ColorMapMenu</scope><name>getAction</name></member>
+      <member refid="classColorMapMenu_1a285749556f24fd7bd4c11591d33378ac" prot="public" virt="non-virtual"><scope>ColorMapMenu</scope><name>getBlackHot</name></member>
+      <member refid="classColorMapMenu_1a22076e137efb3b4c16901634ac07cf0b" prot="public" virt="non-virtual"><scope>ColorMapMenu</scope><name>getCool</name></member>
+      <member refid="classColorMapMenu_1a931d048bb0af0c7adb937957c6f639c9" prot="public" virt="non-virtual"><scope>ColorMapMenu</scope><name>getIncandescent</name></member>
+      <member refid="classColorMapMenu_1aff1e0d466a23c7dabde722410c6ccd9e" prot="public" virt="non-virtual"><scope>ColorMapMenu</scope><name>getMultiColor</name></member>
+      <member refid="classColorMapMenu_1aa8310ac8606c1468f07c1648be97fae7" prot="public" virt="non-virtual"><scope>ColorMapMenu</scope><name>getNumActions</name></member>
+      <member refid="classColorMapMenu_1a460e6dcd92d689b3437ff82cf6fe9834" prot="public" virt="non-virtual"><scope>ColorMapMenu</scope><name>getOther</name></member>
+      <member refid="classColorMapMenu_1aef17165a2777ce72af82f0541b13db32" prot="public" virt="non-virtual"><scope>ColorMapMenu</scope><name>getSunset</name></member>
+      <member refid="classColorMapMenu_1a072c8f7c1775a6d220ff8c8a03c899d6" prot="public" virt="non-virtual"><scope>ColorMapMenu</scope><name>getWhiteHot</name></member>
+      <member refid="classColorMapMenu_1a616a03233eec2048c5f795cf58c9b06d" prot="public" virt="non-virtual"><scope>ColorMapMenu</scope><name>whichTrigger</name></member>
+      <member refid="classColorMapMenu_1a5d8deb032bf01f2235be10c3e37f5291" prot="public" virt="non-virtual"><scope>ColorMapMenu</scope><name>~ColorMapMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

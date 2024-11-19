@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="uhd__types_8h" kind="file" language="C++">
+    <compoundname>uhd_types.h</compoundname>
+    <includes local="no">uhd/stream.hpp</includes>
+    <includes local="no">uhd/types/filters.hpp</includes>
+    <includes local="no">uhd/types/ranges.hpp</includes>
+    <includes local="no">uhd/types/sensors.hpp</includes>
+    <includes local="no">uhd/types/stream_cmd.hpp</includes>
+    <includes local="no">uhd/types/tune_request.hpp</includes>
+    <includes local="no">uhd/types/tune_result.hpp</includes>
+    <includes local="no">uhd/types/wb_iface.hpp</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>uhd_types.h</label>
+        <link refid="uhd__types_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>uhd/stream.hpp</label>
+      </node>
+      <node id="3">
+        <label>uhd/types/filters.hpp</label>
+      </node>
+      <node id="4">
+        <label>uhd/types/ranges.hpp</label>
+      </node>
+      <node id="5">
+        <label>uhd/types/sensors.hpp</label>
+      </node>
+      <node id="6">
+        <label>uhd/types/stream_cmd.hpp</label>
+      </node>
+      <node id="7">
+        <label>uhd/types/tune_request.hpp</label>
+      </node>
+      <node id="8">
+        <label>uhd/types/tune_result.hpp</label>
+      </node>
+      <node id="9">
+        <label>uhd/types/wb_iface.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1uhd_1_1stream__args__t" prot="public">gr::uhd::stream_args_t</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1uhd">gr::uhd</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/uhd_types.h"/>
+  </compounddef>
+</doxygen>

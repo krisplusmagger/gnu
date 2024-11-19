@@ -1,0 +1,801 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" kind="file" language="C++">
+    <compoundname>build/gr-digital/python/digital/bindings/pydoc_macros.h</compoundname>
+    <includedby refid="adaptive__algorithm__cma__pydoc_8h" local="yes">adaptive_algorithm_cma_pydoc.h</includedby>
+    <includedby refid="adaptive__algorithm__lms__pydoc_8h" local="yes">adaptive_algorithm_lms_pydoc.h</includedby>
+    <includedby refid="adaptive__algorithm__nlms__pydoc_8h" local="yes">adaptive_algorithm_nlms_pydoc.h</includedby>
+    <includedby refid="adaptive__algorithm__pydoc_8h" local="yes">adaptive_algorithm_pydoc.h</includedby>
+    <includedby refid="additive__scrambler__pydoc_8h" local="yes">additive_scrambler_pydoc.h</includedby>
+    <includedby refid="binary__slicer__fb__pydoc_8h" local="yes">binary_slicer_fb_pydoc.h</includedby>
+    <includedby refid="burst__shaper__pydoc_8h" local="yes">burst_shaper_pydoc.h</includedby>
+    <includedby refid="chunks__to__symbols__pydoc_8h" local="yes">chunks_to_symbols_pydoc.h</includedby>
+    <includedby refid="clock__recovery__mm__cc__pydoc_8h" local="yes">clock_recovery_mm_cc_pydoc.h</includedby>
+    <includedby refid="clock__recovery__mm__ff__pydoc_8h" local="yes">clock_recovery_mm_ff_pydoc.h</includedby>
+    <includedby refid="constellation__decoder__cb__pydoc_8h" local="yes">constellation_decoder_cb_pydoc.h</includedby>
+    <includedby refid="constellation__encoder__bc__pydoc_8h" local="yes">constellation_encoder_bc_pydoc.h</includedby>
+    <includedby refid="constellation__pydoc_8h" local="yes">constellation_pydoc.h</includedby>
+    <includedby refid="constellation__receiver__cb__pydoc_8h" local="yes">constellation_receiver_cb_pydoc.h</includedby>
+    <includedby refid="constellation__soft__decoder__cf__pydoc_8h" local="yes">constellation_soft_decoder_cf_pydoc.h</includedby>
+    <includedby refid="corr__est__cc__pydoc_8h" local="yes">corr_est_cc_pydoc.h</includedby>
+    <includedby refid="correlate__access__code__bb__pydoc_8h" local="yes">correlate_access_code_bb_pydoc.h</includedby>
+    <includedby refid="correlate__access__code__bb__ts__pydoc_8h" local="yes">correlate_access_code_bb_ts_pydoc.h</includedby>
+    <includedby refid="correlate__access__code__ff__ts__pydoc_8h" local="yes">correlate_access_code_ff_ts_pydoc.h</includedby>
+    <includedby refid="correlate__access__code__tag__bb__pydoc_8h" local="yes">correlate_access_code_tag_bb_pydoc.h</includedby>
+    <includedby refid="correlate__access__code__tag__ff__pydoc_8h" local="yes">correlate_access_code_tag_ff_pydoc.h</includedby>
+    <includedby refid="costas__loop__cc__pydoc_8h" local="yes">costas_loop_cc_pydoc.h</includedby>
+    <includedby refid="cpmmod__bc__pydoc_8h" local="yes">cpmmod_bc_pydoc.h</includedby>
+    <includedby refid="crc16__async__bb__pydoc_8h" local="yes">crc16_async_bb_pydoc.h</includedby>
+    <includedby refid="crc32__async__bb__pydoc_8h" local="yes">crc32_async_bb_pydoc.h</includedby>
+    <includedby refid="crc32__bb__pydoc_8h" local="yes">crc32_bb_pydoc.h</includedby>
+    <includedby refid="crc__append__pydoc_8h" local="yes">crc_append_pydoc.h</includedby>
+    <includedby refid="crc__check__pydoc_8h" local="yes">crc_check_pydoc.h</includedby>
+    <includedby refid="crc__pydoc_8h" local="yes">crc_pydoc.h</includedby>
+    <includedby refid="decision__feedback__equalizer__pydoc_8h" local="yes">decision_feedback_equalizer_pydoc.h</includedby>
+    <includedby refid="descrambler__bb__pydoc_8h" local="yes">descrambler_bb_pydoc.h</includedby>
+    <includedby refid="diff__coding__type__pydoc_8h" local="yes">diff_coding_type_pydoc.h</includedby>
+    <includedby refid="diff__decoder__bb__pydoc_8h" local="yes">diff_decoder_bb_pydoc.h</includedby>
+    <includedby refid="diff__encoder__bb__pydoc_8h" local="yes">diff_encoder_bb_pydoc.h</includedby>
+    <includedby refid="diff__phasor__cc__pydoc_8h" local="yes">diff_phasor_cc_pydoc.h</includedby>
+    <includedby refid="fll__band__edge__cc__pydoc_8h" local="yes">fll_band_edge_cc_pydoc.h</includedby>
+    <includedby refid="framer__sink__1__pydoc_8h" local="yes">framer_sink_1_pydoc.h</includedby>
+    <includedby refid="glfsr__pydoc_8h" local="yes">glfsr_pydoc.h</includedby>
+    <includedby refid="glfsr__source__b__pydoc_8h" local="yes">glfsr_source_b_pydoc.h</includedby>
+    <includedby refid="glfsr__source__f__pydoc_8h" local="yes">glfsr_source_f_pydoc.h</includedby>
+    <includedby refid="hdlc__deframer__bp__pydoc_8h" local="yes">hdlc_deframer_bp_pydoc.h</includedby>
+    <includedby refid="hdlc__framer__pb__pydoc_8h" local="yes">hdlc_framer_pb_pydoc.h</includedby>
+    <includedby refid="header__buffer__pydoc_8h" local="yes">header_buffer_pydoc.h</includedby>
+    <includedby refid="header__format__base__pydoc_8h" local="yes">header_format_base_pydoc.h</includedby>
+    <includedby refid="header__format__counter__pydoc_8h" local="yes">header_format_counter_pydoc.h</includedby>
+    <includedby refid="header__format__crc__pydoc_8h" local="yes">header_format_crc_pydoc.h</includedby>
+    <includedby refid="header__format__default__pydoc_8h" local="yes">header_format_default_pydoc.h</includedby>
+    <includedby refid="header__format__ofdm__pydoc_8h" local="yes">header_format_ofdm_pydoc.h</includedby>
+    <includedby refid="header__payload__demux__pydoc_8h" local="yes">header_payload_demux_pydoc.h</includedby>
+    <includedby refid="interpolating__resampler__type__pydoc_8h" local="yes">interpolating_resampler_type_pydoc.h</includedby>
+    <includedby refid="lfsr__pydoc_8h" local="yes">lfsr_pydoc.h</includedby>
+    <includedby refid="linear__equalizer__pydoc_8h" local="yes">linear_equalizer_pydoc.h</includedby>
+    <includedby refid="map__bb__pydoc_8h" local="yes">map_bb_pydoc.h</includedby>
+    <includedby refid="meas__evm__cc__pydoc_8h" local="yes">meas_evm_cc_pydoc.h</includedby>
+    <includedby refid="metric__type__pydoc_8h" local="yes">metric_type_pydoc.h</includedby>
+    <includedby refid="mpsk__snr__est__cc__pydoc_8h" local="yes">mpsk_snr_est_cc_pydoc.h</includedby>
+    <includedby refid="mpsk__snr__est__pydoc_8h" local="yes">mpsk_snr_est_pydoc.h</includedby>
+    <includedby refid="msk__timing__recovery__cc__pydoc_8h" local="yes">msk_timing_recovery_cc_pydoc.h</includedby>
+    <includedby refid="ofdm__carrier__allocator__cvc__pydoc_8h" local="yes">ofdm_carrier_allocator_cvc_pydoc.h</includedby>
+    <includedby refid="ofdm__chanest__vcvc__pydoc_8h" local="yes">ofdm_chanest_vcvc_pydoc.h</includedby>
+    <includedby refid="ofdm__cyclic__prefixer__pydoc_8h" local="yes">ofdm_cyclic_prefixer_pydoc.h</includedby>
+    <includedby refid="ofdm__equalizer__base__pydoc_8h" local="yes">ofdm_equalizer_base_pydoc.h</includedby>
+    <includedby refid="ofdm__equalizer__simpledfe__pydoc_8h" local="yes">ofdm_equalizer_simpledfe_pydoc.h</includedby>
+    <includedby refid="ofdm__equalizer__static__pydoc_8h" local="yes">ofdm_equalizer_static_pydoc.h</includedby>
+    <includedby refid="ofdm__frame__equalizer__vcvc__pydoc_8h" local="yes">ofdm_frame_equalizer_vcvc_pydoc.h</includedby>
+    <includedby refid="ofdm__serializer__vcc__pydoc_8h" local="yes">ofdm_serializer_vcc_pydoc.h</includedby>
+    <includedby refid="ofdm__sync__sc__cfb__pydoc_8h" local="yes">ofdm_sync_sc_cfb_pydoc.h</includedby>
+    <includedby refid="packet__header__default__pydoc_8h" local="yes">packet_header_default_pydoc.h</includedby>
+    <includedby refid="packet__header__ofdm__pydoc_8h" local="yes">packet_header_ofdm_pydoc.h</includedby>
+    <includedby refid="packet__headergenerator__bb__pydoc_8h" local="yes">packet_headergenerator_bb_pydoc.h</includedby>
+    <includedby refid="packet__headerparser__b__pydoc_8h" local="yes">packet_headerparser_b_pydoc.h</includedby>
+    <includedby refid="packet__sink__pydoc_8h" local="yes">packet_sink_pydoc.h</includedby>
+    <includedby refid="pfb__clock__sync__ccf__pydoc_8h" local="yes">pfb_clock_sync_ccf_pydoc.h</includedby>
+    <includedby refid="pfb__clock__sync__fff__pydoc_8h" local="yes">pfb_clock_sync_fff_pydoc.h</includedby>
+    <includedby refid="pn__correlator__cc__pydoc_8h" local="yes">pn_correlator_cc_pydoc.h</includedby>
+    <includedby refid="probe__density__b__pydoc_8h" local="yes">probe_density_b_pydoc.h</includedby>
+    <includedby refid="probe__mpsk__snr__est__c__pydoc_8h" local="yes">probe_mpsk_snr_est_c_pydoc.h</includedby>
+    <includedby refid="protocol__formatter__async__pydoc_8h" local="yes">protocol_formatter_async_pydoc.h</includedby>
+    <includedby refid="protocol__formatter__bb__pydoc_8h" local="yes">protocol_formatter_bb_pydoc.h</includedby>
+    <includedby refid="protocol__parser__b__pydoc_8h" local="yes">protocol_parser_b_pydoc.h</includedby>
+    <includedby refid="scrambler__bb__pydoc_8h" local="yes">scrambler_bb_pydoc.h</includedby>
+    <includedby refid="simple__framer__sync__pydoc_8h" local="yes">simple_framer_sync_pydoc.h</includedby>
+    <includedby refid="symbol__sync__cc__pydoc_8h" local="yes">symbol_sync_cc_pydoc.h</includedby>
+    <includedby refid="symbol__sync__ff__pydoc_8h" local="yes">symbol_sync_ff_pydoc.h</includedby>
+    <includedby refid="timing__error__detector__type__pydoc_8h" local="yes">timing_error_detector_type_pydoc.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>adaptive_algorithm_cma_pydoc.h</label>
+        <link refid="adaptive__algorithm__cma__pydoc_8h"/>
+      </node>
+      <node id="3">
+        <label>adaptive_algorithm_lms_pydoc.h</label>
+        <link refid="adaptive__algorithm__lms__pydoc_8h"/>
+      </node>
+      <node id="4">
+        <label>adaptive_algorithm_nlms_pydoc.h</label>
+        <link refid="adaptive__algorithm__nlms__pydoc_8h"/>
+      </node>
+      <node id="5">
+        <label>adaptive_algorithm_pydoc.h</label>
+        <link refid="adaptive__algorithm__pydoc_8h"/>
+      </node>
+      <node id="6">
+        <label>additive_scrambler_pydoc.h</label>
+        <link refid="additive__scrambler__pydoc_8h"/>
+      </node>
+      <node id="7">
+        <label>binary_slicer_fb_pydoc.h</label>
+        <link refid="binary__slicer__fb__pydoc_8h"/>
+      </node>
+      <node id="8">
+        <label>burst_shaper_pydoc.h</label>
+        <link refid="burst__shaper__pydoc_8h"/>
+      </node>
+      <node id="9">
+        <label>chunks_to_symbols_pydoc.h</label>
+        <link refid="chunks__to__symbols__pydoc_8h"/>
+      </node>
+      <node id="10">
+        <label>clock_recovery_mm_cc_pydoc.h</label>
+        <link refid="clock__recovery__mm__cc__pydoc_8h"/>
+      </node>
+      <node id="11">
+        <label>clock_recovery_mm_ff_pydoc.h</label>
+        <link refid="clock__recovery__mm__ff__pydoc_8h"/>
+      </node>
+      <node id="12">
+        <label>constellation_decoder_cb_pydoc.h</label>
+        <link refid="constellation__decoder__cb__pydoc_8h"/>
+      </node>
+      <node id="13">
+        <label>constellation_encoder_bc_pydoc.h</label>
+        <link refid="constellation__encoder__bc__pydoc_8h"/>
+      </node>
+      <node id="14">
+        <label>constellation_pydoc.h</label>
+        <link refid="constellation__pydoc_8h"/>
+      </node>
+      <node id="15">
+        <label>constellation_receiver_cb_pydoc.h</label>
+        <link refid="constellation__receiver__cb__pydoc_8h"/>
+      </node>
+      <node id="16">
+        <label>constellation_soft_decoder_cf_pydoc.h</label>
+        <link refid="constellation__soft__decoder__cf__pydoc_8h"/>
+      </node>
+      <node id="17">
+        <label>corr_est_cc_pydoc.h</label>
+        <link refid="corr__est__cc__pydoc_8h"/>
+      </node>
+      <node id="18">
+        <label>correlate_access_code_bb_pydoc.h</label>
+        <link refid="correlate__access__code__bb__pydoc_8h"/>
+      </node>
+      <node id="19">
+        <label>correlate_access_code_bb_ts_pydoc.h</label>
+        <link refid="correlate__access__code__bb__ts__pydoc_8h"/>
+      </node>
+      <node id="20">
+        <label>correlate_access_code_ff_ts_pydoc.h</label>
+        <link refid="correlate__access__code__ff__ts__pydoc_8h"/>
+      </node>
+      <node id="21">
+        <label>correlate_access_code_tag_bb_pydoc.h</label>
+        <link refid="correlate__access__code__tag__bb__pydoc_8h"/>
+      </node>
+      <node id="22">
+        <label>correlate_access_code_tag_ff_pydoc.h</label>
+        <link refid="correlate__access__code__tag__ff__pydoc_8h"/>
+      </node>
+      <node id="23">
+        <label>costas_loop_cc_pydoc.h</label>
+        <link refid="costas__loop__cc__pydoc_8h"/>
+      </node>
+      <node id="24">
+        <label>cpmmod_bc_pydoc.h</label>
+        <link refid="cpmmod__bc__pydoc_8h"/>
+      </node>
+      <node id="25">
+        <label>crc16_async_bb_pydoc.h</label>
+        <link refid="crc16__async__bb__pydoc_8h"/>
+      </node>
+      <node id="26">
+        <label>crc32_async_bb_pydoc.h</label>
+        <link refid="crc32__async__bb__pydoc_8h"/>
+      </node>
+      <node id="27">
+        <label>crc32_bb_pydoc.h</label>
+        <link refid="crc32__bb__pydoc_8h"/>
+      </node>
+      <node id="28">
+        <label>crc_append_pydoc.h</label>
+        <link refid="crc__append__pydoc_8h"/>
+      </node>
+      <node id="29">
+        <label>crc_check_pydoc.h</label>
+        <link refid="crc__check__pydoc_8h"/>
+      </node>
+      <node id="30">
+        <label>crc_pydoc.h</label>
+        <link refid="crc__pydoc_8h"/>
+      </node>
+      <node id="31">
+        <label>decision_feedback_equalizer_pydoc.h</label>
+        <link refid="decision__feedback__equalizer__pydoc_8h"/>
+      </node>
+      <node id="32">
+        <label>descrambler_bb_pydoc.h</label>
+        <link refid="descrambler__bb__pydoc_8h"/>
+      </node>
+      <node id="33">
+        <label>diff_coding_type_pydoc.h</label>
+        <link refid="diff__coding__type__pydoc_8h"/>
+      </node>
+      <node id="34">
+        <label>diff_decoder_bb_pydoc.h</label>
+        <link refid="diff__decoder__bb__pydoc_8h"/>
+      </node>
+      <node id="35">
+        <label>diff_encoder_bb_pydoc.h</label>
+        <link refid="diff__encoder__bb__pydoc_8h"/>
+      </node>
+      <node id="36">
+        <label>diff_phasor_cc_pydoc.h</label>
+        <link refid="diff__phasor__cc__pydoc_8h"/>
+      </node>
+      <node id="37">
+        <label>fll_band_edge_cc_pydoc.h</label>
+        <link refid="fll__band__edge__cc__pydoc_8h"/>
+      </node>
+      <node id="38">
+        <label>framer_sink_1_pydoc.h</label>
+        <link refid="framer__sink__1__pydoc_8h"/>
+      </node>
+      <node id="39">
+        <label>glfsr_pydoc.h</label>
+        <link refid="glfsr__pydoc_8h"/>
+      </node>
+      <node id="40">
+        <label>glfsr_source_b_pydoc.h</label>
+        <link refid="glfsr__source__b__pydoc_8h"/>
+      </node>
+      <node id="41">
+        <label>glfsr_source_f_pydoc.h</label>
+        <link refid="glfsr__source__f__pydoc_8h"/>
+      </node>
+      <node id="42">
+        <label>hdlc_deframer_bp_pydoc.h</label>
+        <link refid="hdlc__deframer__bp__pydoc_8h"/>
+      </node>
+      <node id="43">
+        <label>hdlc_framer_pb_pydoc.h</label>
+        <link refid="hdlc__framer__pb__pydoc_8h"/>
+      </node>
+      <node id="44">
+        <label>header_buffer_pydoc.h</label>
+        <link refid="header__buffer__pydoc_8h"/>
+      </node>
+      <node id="45">
+        <label>header_format_base_pydoc.h</label>
+        <link refid="header__format__base__pydoc_8h"/>
+      </node>
+      <node id="46">
+        <label>header_format_counter_pydoc.h</label>
+        <link refid="header__format__counter__pydoc_8h"/>
+      </node>
+      <node id="47">
+        <label>header_format_crc_pydoc.h</label>
+        <link refid="header__format__crc__pydoc_8h"/>
+      </node>
+      <node id="48">
+        <label>header_format_default_pydoc.h</label>
+        <link refid="header__format__default__pydoc_8h"/>
+      </node>
+      <node id="49">
+        <label>header_format_ofdm_pydoc.h</label>
+        <link refid="header__format__ofdm__pydoc_8h"/>
+      </node>
+      <node id="50">
+        <label>header_payload_demux_pydoc.h</label>
+        <link refid="header__payload__demux__pydoc_8h"/>
+      </node>
+      <node id="51">
+        <label>interpolating_resampler_type_pydoc.h</label>
+        <link refid="interpolating__resampler__type__pydoc_8h"/>
+      </node>
+      <node id="52">
+        <label>lfsr_pydoc.h</label>
+        <link refid="lfsr__pydoc_8h"/>
+      </node>
+      <node id="53">
+        <label>linear_equalizer_pydoc.h</label>
+        <link refid="linear__equalizer__pydoc_8h"/>
+      </node>
+      <node id="54">
+        <label>map_bb_pydoc.h</label>
+        <link refid="map__bb__pydoc_8h"/>
+      </node>
+      <node id="55">
+        <label>meas_evm_cc_pydoc.h</label>
+        <link refid="meas__evm__cc__pydoc_8h"/>
+      </node>
+      <node id="56">
+        <label>metric_type_pydoc.h</label>
+        <link refid="metric__type__pydoc_8h"/>
+      </node>
+      <node id="57">
+        <label>mpsk_snr_est_cc_pydoc.h</label>
+        <link refid="mpsk__snr__est__cc__pydoc_8h"/>
+      </node>
+      <node id="58">
+        <label>mpsk_snr_est_pydoc.h</label>
+        <link refid="mpsk__snr__est__pydoc_8h"/>
+      </node>
+      <node id="59">
+        <label>msk_timing_recovery_cc_pydoc.h</label>
+        <link refid="msk__timing__recovery__cc__pydoc_8h"/>
+      </node>
+      <node id="60">
+        <label>ofdm_carrier_allocator_cvc_pydoc.h</label>
+        <link refid="ofdm__carrier__allocator__cvc__pydoc_8h"/>
+      </node>
+      <node id="61">
+        <label>ofdm_chanest_vcvc_pydoc.h</label>
+        <link refid="ofdm__chanest__vcvc__pydoc_8h"/>
+      </node>
+      <node id="62">
+        <label>ofdm_cyclic_prefixer_pydoc.h</label>
+        <link refid="ofdm__cyclic__prefixer__pydoc_8h"/>
+      </node>
+      <node id="63">
+        <label>ofdm_equalizer_base_pydoc.h</label>
+        <link refid="ofdm__equalizer__base__pydoc_8h"/>
+      </node>
+      <node id="64">
+        <label>ofdm_equalizer_simpledfe_pydoc.h</label>
+        <link refid="ofdm__equalizer__simpledfe__pydoc_8h"/>
+      </node>
+      <node id="65">
+        <label>ofdm_equalizer_static_pydoc.h</label>
+        <link refid="ofdm__equalizer__static__pydoc_8h"/>
+      </node>
+      <node id="66">
+        <label>ofdm_frame_equalizer_vcvc_pydoc.h</label>
+        <link refid="ofdm__frame__equalizer__vcvc__pydoc_8h"/>
+      </node>
+      <node id="67">
+        <label>ofdm_serializer_vcc_pydoc.h</label>
+        <link refid="ofdm__serializer__vcc__pydoc_8h"/>
+      </node>
+      <node id="68">
+        <label>ofdm_sync_sc_cfb_pydoc.h</label>
+        <link refid="ofdm__sync__sc__cfb__pydoc_8h"/>
+      </node>
+      <node id="69">
+        <label>packet_header_default_pydoc.h</label>
+        <link refid="packet__header__default__pydoc_8h"/>
+      </node>
+      <node id="70">
+        <label>packet_header_ofdm_pydoc.h</label>
+        <link refid="packet__header__ofdm__pydoc_8h"/>
+      </node>
+      <node id="71">
+        <label>packet_headergenerator_bb_pydoc.h</label>
+        <link refid="packet__headergenerator__bb__pydoc_8h"/>
+      </node>
+      <node id="72">
+        <label>packet_headerparser_b_pydoc.h</label>
+        <link refid="packet__headerparser__b__pydoc_8h"/>
+      </node>
+      <node id="73">
+        <label>packet_sink_pydoc.h</label>
+        <link refid="packet__sink__pydoc_8h"/>
+      </node>
+      <node id="74">
+        <label>pfb_clock_sync_ccf_pydoc.h</label>
+        <link refid="pfb__clock__sync__ccf__pydoc_8h"/>
+      </node>
+      <node id="75">
+        <label>pfb_clock_sync_fff_pydoc.h</label>
+        <link refid="pfb__clock__sync__fff__pydoc_8h"/>
+      </node>
+      <node id="76">
+        <label>pn_correlator_cc_pydoc.h</label>
+        <link refid="pn__correlator__cc__pydoc_8h"/>
+      </node>
+      <node id="77">
+        <label>probe_density_b_pydoc.h</label>
+        <link refid="probe__density__b__pydoc_8h"/>
+      </node>
+      <node id="78">
+        <label>probe_mpsk_snr_est_c_pydoc.h</label>
+        <link refid="probe__mpsk__snr__est__c__pydoc_8h"/>
+      </node>
+      <node id="79">
+        <label>protocol_formatter_async_pydoc.h</label>
+        <link refid="protocol__formatter__async__pydoc_8h"/>
+      </node>
+      <node id="80">
+        <label>protocol_formatter_bb_pydoc.h</label>
+        <link refid="protocol__formatter__bb__pydoc_8h"/>
+      </node>
+      <node id="81">
+        <label>protocol_parser_b_pydoc.h</label>
+        <link refid="protocol__parser__b__pydoc_8h"/>
+      </node>
+      <node id="1">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>scrambler_bb_pydoc.h</label>
+        <link refid="scrambler__bb__pydoc_8h"/>
+      </node>
+      <node id="83">
+        <label>simple_framer_sync_pydoc.h</label>
+        <link refid="simple__framer__sync__pydoc_8h"/>
+      </node>
+      <node id="84">
+        <label>symbol_sync_cc_pydoc.h</label>
+        <link refid="symbol__sync__cc__pydoc_8h"/>
+      </node>
+      <node id="85">
+        <label>symbol_sync_ff_pydoc.h</label>
+        <link refid="symbol__sync__ff__pydoc_8h"/>
+      </node>
+      <node id="86">
+        <label>timing_error_detector_type_pydoc.h</label>
+        <link refid="timing__error__detector__type__pydoc_8h"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" prot="public" static="no">
+        <name>__EXPAND</name>
+        <param><defname>x</defname></param>
+        <initializer>x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" line="4" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" prot="public" static="no">
+        <name>__COUNT</name>
+        <param><defname>_1</defname></param>
+        <param><defname>_2</defname></param>
+        <param><defname>_3</defname></param>
+        <param><defname>_4</defname></param>
+        <param><defname>_5</defname></param>
+        <param><defname>_6</defname></param>
+        <param><defname>_7</defname></param>
+        <param><defname>COUNT</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>COUNT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" line="5" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" prot="public" static="no">
+        <name>__VA_SIZE</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kindref="member">__EXPAND</ref>(<ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" kindref="member">__COUNT</ref>(__VA_ARGS__, 7, 6, 5, 4, 3, 2, 1))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" line="6" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" prot="public" static="no">
+        <name>__CAT1</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>a##b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" line="7" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" prot="public" static="no">
+        <name>__CAT2</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" kindref="member">__CAT1</ref>(a, b)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" line="8" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h_1a43c147206df4346db5e9d6445aab28ae" prot="public" static="no">
+        <name>__DOC1</name>
+        <param><defname>n1</defname></param>
+        <initializer>__doc_##n1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" line="9" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h_1a53738db606593bc1554371d718695fed" prot="public" static="no">
+        <name>__DOC2</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <initializer>__doc_##n1##_##n2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" line="10" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h_1a21baf08c04d32485764f227c32b5bf5d" prot="public" static="no">
+        <name>__DOC3</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" line="11" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h_1a9463ba0ad86bcb4c59b5aecf8a37174c" prot="public" static="no">
+        <name>__DOC4</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" line="12" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h_1a942579d548421ddb2906af7094e5789c" prot="public" static="no">
+        <name>__DOC5</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <param><defname>n5</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4##_##n5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" line="13" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h_1a31ea356761360e78d16525aa69d2dae6" prot="public" static="no">
+        <name>__DOC6</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <param><defname>n5</defname></param>
+        <param><defname>n6</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4##_##n5##_##n6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" line="14" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h_1a6f1e731f1c6d2893ff1bf98582a7de6e" prot="public" static="no">
+        <name>__DOC7</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <param><defname>n5</defname></param>
+        <param><defname>n6</defname></param>
+        <param><defname>n7</defname></param>
+        <initializer>    __doc_##n1##_##n2##_##n3##_##n4##_##n5##_##n6##_##n7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" line="15" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" bodystart="15" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" prot="public" static="no">
+        <name>DOC</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kindref="member">__EXPAND</ref>(<ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kindref="member">__EXPAND</ref>(<ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" kindref="member">__CAT2</ref>(__DOC, <ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" kindref="member">__VA_SIZE</ref>(__VA_ARGS__)))(__VA_ARGS__))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" line="17" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/pydoc_macros.h"/>
+  </compounddef>
+</doxygen>

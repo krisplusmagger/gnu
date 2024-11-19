@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="base__pydoc_8h" kind="file" language="C++">
+    <compoundname>base_pydoc.h</compoundname>
+    <includes refid="build_2gr-trellis_2python_2trellis_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>base_pydoc.h</label>
+        <link refid="base__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-trellis_2python_2trellis_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="base__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, trellis, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/base_pydoc.h" line="10" column="11" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/base_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="base__pydoc_8h_1acad7b489a1605dd769747ac3fca9b134" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_dec2base</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_dec2base</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/base_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/base_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="base__pydoc_8h_1a17b786ea6bd0c1f0860956b97cce8384" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_dec2bases</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_dec2bases</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/base_pydoc.h" line="21" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/base_pydoc.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="base__pydoc_8h_1a5b24e1e12598b92926ba73f2e980b47c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_base2dec</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_base2dec</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/base_pydoc.h" line="24" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/base_pydoc.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="base__pydoc_8h_1a878903487252b7c108ce6e5ceb9261c5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_bases2dec</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_bases2dec</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/base_pydoc.h" line="27" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/base_pydoc.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/base_pydoc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1analog" kind="namespace" language="C++">
+    <compoundname>gr::analog</compoundname>
+    <innerclass refid="classgr_1_1analog_1_1agc2__cc" prot="public">gr::analog::agc2_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1agc2__ff" prot="public">gr::analog::agc2_ff</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1agc3__cc" prot="public">gr::analog::agc3_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1agc__cc" prot="public">gr::analog::agc_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1agc__ff" prot="public">gr::analog::agc_ff</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1cpfsk__bc" prot="public">gr::analog::cpfsk_bc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1cpm" prot="public">gr::analog::cpm</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1ctcss__squelch__ff" prot="public">gr::analog::ctcss_squelch_ff</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1dpll__bb" prot="public">gr::analog::dpll_bb</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1fastnoise__source" prot="public">gr::analog::fastnoise_source</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1feedforward__agc__cc" prot="public">gr::analog::feedforward_agc_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1fmdet__cf" prot="public">gr::analog::fmdet_cf</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1frequency__modulator__fc" prot="public">gr::analog::frequency_modulator_fc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1noise__source" prot="public">gr::analog::noise_source</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1phase__modulator__fc" prot="public">gr::analog::phase_modulator_fc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1pll__carriertracking__cc" prot="public">gr::analog::pll_carriertracking_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1pll__freqdet__cf" prot="public">gr::analog::pll_freqdet_cf</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1pll__refout__cc" prot="public">gr::analog::pll_refout_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__c" prot="public">gr::analog::probe_avg_mag_sqrd_c</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf" prot="public">gr::analog::probe_avg_mag_sqrd_cf</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__f" prot="public">gr::analog::probe_avg_mag_sqrd_f</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1pwr__squelch__cc" prot="public">gr::analog::pwr_squelch_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1pwr__squelch__ff" prot="public">gr::analog::pwr_squelch_ff</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1quadrature__demod__cf" prot="public">gr::analog::quadrature_demod_cf</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1rail__ff" prot="public">gr::analog::rail_ff</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1random__uniform__source" prot="public">gr::analog::random_uniform_source</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1sig__source" prot="public">gr::analog::sig_source</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1simple__squelch__cc" prot="public">gr::analog::simple_squelch_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1squelch__base__cc" prot="public">gr::analog::squelch_base_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1squelch__base__ff" prot="public">gr::analog::squelch_base_ff</innerclass>
+    <innernamespace refid="namespacegr_1_1analog_1_1kernel">gr::analog::kernel</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacegr_1_1analog_1a3f859c26017c44658f7468b87fbe6558" prot="public" static="no" strong="no">
+        <type></type>
+        <name>noise_type_t</name>
+        <qualifiedname>gr::analog::noise_type_t</qualifiedname>
+        <enumvalue id="namespacegr_1_1analog_1a3f859c26017c44658f7468b87fbe6558aba3352cc01cfc51b7a47fe68f4f4a2d6" prot="public">
+          <name>GR_UNIFORM</name>
+          <initializer>= 200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1analog_1a3f859c26017c44658f7468b87fbe6558a37b1df9f15d21293d75df9a3d4575f83" prot="public">
+          <name>GR_GAUSSIAN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1analog_1a3f859c26017c44658f7468b87fbe6558afa81271d79b0158374efd9c09601e1df" prot="public">
+          <name>GR_LAPLACIAN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1analog_1a3f859c26017c44658f7468b87fbe6558a7c46d7567fee8a5bf7628daf64fb4916" prot="public">
+          <name>GR_IMPULSE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/noise_type.h" line="17" column="1" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/noise_type.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <member refid="group__waveform__generators__blk_1gac97c0f42ffb63f1265decceaaeab9177" kind="enum"><name>gr_waveform_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1a10b1802d458e6c13d868c27875064753" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1fastnoise__source" kindref="compound">fastnoise_source</ref>&lt; float &gt;</type>
+        <definition>typedef fastnoise_source&lt;float&gt; gr::analog::fastnoise_source_f</definition>
+        <argsstring></argsstring>
+        <name>fastnoise_source_f</name>
+        <qualifiedname>gr::analog::fastnoise_source_f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/fastnoise_source.h" line="74" column="26" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/fastnoise_source.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1a7d9661407335655f479e91bcbd1611f7" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1fastnoise__source" kindref="compound">fastnoise_source</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef fastnoise_source&lt;std::int32_t&gt; gr::analog::fastnoise_source_i</definition>
+        <argsstring></argsstring>
+        <name>fastnoise_source_i</name>
+        <qualifiedname>gr::analog::fastnoise_source_i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/fastnoise_source.h" line="75" column="26" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/fastnoise_source.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1a88ea85e42154efee8dd2ac26043d3afa" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1fastnoise__source" kindref="compound">fastnoise_source</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef fastnoise_source&lt;std::int16_t&gt; gr::analog::fastnoise_source_s</definition>
+        <argsstring></argsstring>
+        <name>fastnoise_source_s</name>
+        <qualifiedname>gr::analog::fastnoise_source_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/fastnoise_source.h" line="76" column="26" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/fastnoise_source.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1a729f58193bc64586087f6c688a6e72f6" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1fastnoise__source" kindref="compound">fastnoise_source</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef fastnoise_source&lt;gr_complex&gt; gr::analog::fastnoise_source_c</definition>
+        <argsstring></argsstring>
+        <name>fastnoise_source_c</name>
+        <qualifiedname>gr::analog::fastnoise_source_c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/fastnoise_source.h" line="77" column="26" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/fastnoise_source.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1ad54986fc6e831c19ea9c89553f8631f2" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1noise__source" kindref="compound">noise_source</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef noise_source&lt;std::int16_t&gt; gr::analog::noise_source_s</definition>
+        <argsstring></argsstring>
+        <name>noise_source_s</name>
+        <qualifiedname>gr::analog::noise_source_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/noise_source.h" line="66" column="22" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/noise_source.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1a85b393a72e6fd5ce5830f118d1cb0e72" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1noise__source" kindref="compound">noise_source</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef noise_source&lt;std::int32_t&gt; gr::analog::noise_source_i</definition>
+        <argsstring></argsstring>
+        <name>noise_source_i</name>
+        <qualifiedname>gr::analog::noise_source_i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/noise_source.h" line="67" column="22" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/noise_source.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1a83f56f3e15b7e3301c2f581c3b958c85" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1noise__source" kindref="compound">noise_source</ref>&lt; float &gt;</type>
+        <definition>typedef noise_source&lt;float&gt; gr::analog::noise_source_f</definition>
+        <argsstring></argsstring>
+        <name>noise_source_f</name>
+        <qualifiedname>gr::analog::noise_source_f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/noise_source.h" line="68" column="22" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/noise_source.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1a84a09b4b9c12cc7548e52d107360bf58" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1noise__source" kindref="compound">noise_source</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef noise_source&lt;gr_complex&gt; gr::analog::noise_source_c</definition>
+        <argsstring></argsstring>
+        <name>noise_source_c</name>
+        <qualifiedname>gr::analog::noise_source_c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/noise_source.h" line="69" column="22" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/noise_source.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1a696ba1413245916435c630f2a2e905c7" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1random__uniform__source" kindref="compound">random_uniform_source</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef random_uniform_source&lt;std::uint8_t&gt; gr::analog::random_uniform_source_b</definition>
+        <argsstring></argsstring>
+        <name>random_uniform_source_b</name>
+        <qualifiedname>gr::analog::random_uniform_source_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/random_uniform_source.h" line="46" column="31" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/random_uniform_source.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1a5c11264c173367b543eb5f48291eb57f" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1random__uniform__source" kindref="compound">random_uniform_source</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef random_uniform_source&lt;std::int16_t&gt; gr::analog::random_uniform_source_s</definition>
+        <argsstring></argsstring>
+        <name>random_uniform_source_s</name>
+        <qualifiedname>gr::analog::random_uniform_source_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/random_uniform_source.h" line="47" column="31" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/random_uniform_source.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1a39acde8f2b039412d2ff555f6cf267db" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1random__uniform__source" kindref="compound">random_uniform_source</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef random_uniform_source&lt;std::int32_t&gt; gr::analog::random_uniform_source_i</definition>
+        <argsstring></argsstring>
+        <name>random_uniform_source_i</name>
+        <qualifiedname>gr::analog::random_uniform_source_i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/random_uniform_source.h" line="48" column="31" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/random_uniform_source.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1a18f437a517935d017a37e1d958c4cdca" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1sig__source" kindref="compound">sig_source</ref>&lt; std::int8_t &gt;</type>
+        <definition>typedef sig_source&lt;std::int8_t&gt; gr::analog::sig_source_b</definition>
+        <argsstring></argsstring>
+        <name>sig_source_b</name>
+        <qualifiedname>gr::analog::sig_source_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/sig_source.h" line="94" column="20" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/sig_source.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1a6f28830a6f2a862471aacda8c61f5311" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1sig__source" kindref="compound">sig_source</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef sig_source&lt;std::int16_t&gt; gr::analog::sig_source_s</definition>
+        <argsstring></argsstring>
+        <name>sig_source_s</name>
+        <qualifiedname>gr::analog::sig_source_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/sig_source.h" line="95" column="20" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/sig_source.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1adbe21d6811ff7029e7611a109a1c1c8d" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1sig__source" kindref="compound">sig_source</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef sig_source&lt;std::int32_t&gt; gr::analog::sig_source_i</definition>
+        <argsstring></argsstring>
+        <name>sig_source_i</name>
+        <qualifiedname>gr::analog::sig_source_i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/sig_source.h" line="96" column="20" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/sig_source.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1ac47b2703971fd62169e5467af5d7f2e9" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1sig__source" kindref="compound">sig_source</ref>&lt; float &gt;</type>
+        <definition>typedef sig_source&lt;float&gt; gr::analog::sig_source_f</definition>
+        <argsstring></argsstring>
+        <name>sig_source_f</name>
+        <qualifiedname>gr::analog::sig_source_f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/sig_source.h" line="97" column="20" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/sig_source.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1analog_1a0e24495c036b7c83fb13ed54a8df71e9" prot="public" static="no">
+        <type><ref refid="classgr_1_1analog_1_1sig__source" kindref="compound">sig_source</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef sig_source&lt;gr_complex&gt; gr::analog::sig_source_c</definition>
+        <argsstring></argsstring>
+        <name>sig_source_c</name>
+        <qualifiedname>gr::analog::sig_source_c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/sig_source.h" line="98" column="20" bodyfile="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/sig_source.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-analog/include/gnuradio/analog/agc.h" line="19" column="1"/>
+  </compounddef>
+</doxygen>

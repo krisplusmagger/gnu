@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="file__source__pydoc_8h" kind="file" language="C++">
+    <compoundname>file_source_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>file_source_pydoc.h</label>
+        <link refid="file__source__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="file__source__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="file__source__pydoc_8h_1a1df7a8918c3f37685b6da334238c3e03" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_source</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_source</name>
+        <initializer>= R&quot;doc(Read stream from file.
+
+Constructor Specific Documentation:
+
+Create a file source.
+
+Opens  as a source of items into a flowgraph. The data is expected to be in binary format, item after item. The  of the block determines the conversion from bits to items. The first  items (default 0) will be skipped.
+
+
+If  is turned on, the file will repeat the file after it&apos;s reached the end.
+
+
+If  is non-zero, only items (offset, offset+len) will be produced.
+
+Args:
+    itemsize : the size of each item in the file, in bytes
+    filename : name of the file to source from
+    repeat : repeat file from start
+    offset : begin this many items into file
+    len : produce only items (offset, offset+len))doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__source__pydoc_8h_1a7b6af884fed23795e9dd117e8088cd56" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_source_file_source_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_source_file_source_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" line="40" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__source__pydoc_8h_1a9ef5756a7f11f51e2bfaff37f28d887a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_source_file_source_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_source_file_source_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" line="43" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__source__pydoc_8h_1a650948567cca9c7ac8519dcbe15439d1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_source_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_source_make</name>
+        <initializer>= R&quot;doc(Read stream from file.
+
+Constructor Specific Documentation:
+
+Create a file source.
+
+Opens  as a source of items into a flowgraph. The data is expected to be in binary format, item after item. The  of the block determines the conversion from bits to items. The first  items (default 0) will be skipped.
+
+
+If  is turned on, the file will repeat the file after it&apos;s reached the end.
+
+
+If  is non-zero, only items (offset, offset+len) will be produced.
+
+Args:
+    itemsize : the size of each item in the file, in bytes
+    filename : name of the file to source from
+    repeat : repeat file from start
+    offset : begin this many items into file
+    len : produce only items (offset, offset+len))doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" line="46" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__source__pydoc_8h_1aaea42990151423240d389a93610fc735" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_source_seek</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_source_seek</name>
+        <initializer>= R&quot;doc(seek file to  relative to)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" line="68" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__source__pydoc_8h_1a6638ef3a1a6ce772cbfdc2e38643bc61" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_source_open</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_source_open</name>
+        <initializer>= R&quot;doc(Opens a new file.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" line="71" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__source__pydoc_8h_1aa494d5268f89f799ff85b544d02574f8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_source_close</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_source_close</name>
+        <initializer>= R&quot;doc(Close the file handle.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" line="74" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__source__pydoc_8h_1a47107a9cb8a526f574254cf86c330856" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_source_set_begin_tag</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_source_set_begin_tag</name>
+        <initializer>= R&quot;doc(Add a stream tag to the first sample of the file if true.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" line="77" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_source_pydoc.h"/>
+  </compounddef>
+</doxygen>

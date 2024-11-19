@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="attr__sink__pydoc_8h" kind="file" language="C++">
+    <compoundname>attr_sink_pydoc.h</compoundname>
+    <includes refid="build_2gr-iio_2python_2iio_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>attr_sink_pydoc.h</label>
+        <link refid="attr__sink__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-iio_2python_2iio_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="attr__sink__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, iio, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-iio/python/iio/bindings/attr_sink_pydoc.h" line="10" column="11" bodyfile="/home/desktop2/gnuradio/build/gr-iio/python/iio/bindings/attr_sink_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="attr__sink__pydoc_8h_1a7efe750aa6230a8196193f4d2edb1717" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_iio_attr_sink</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_iio_attr_sink</name>
+        <initializer>= R&quot;doc(Generic writer for attributes of IIO devices.
+
+This block allow for updating of any IIO attribute that is writable. This includes channel, device, device buffer, device debug, and direct register attributes. All messages must be a pmt dictionary where the key is the attribute to update and the value is the value to be written. Messages can be an array of dictionaries or a single dictionary.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of iio::attr_sink.
+
+Args:
+    uri : String of context uri
+    device : String of device name
+    channel : String of device name
+    type : Integer determining attribute type: 0: Channel attribute 1: Device attribute 2: Device buffer attribute 3: Device debug attribute 4: Direct register access
+    output : Boolean when True if channel attribute is an output)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-iio/python/iio/bindings/attr_sink_pydoc.h" line="17" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-iio/python/iio/bindings/attr_sink_pydoc.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="attr__sink__pydoc_8h_1af44fb14b88a9fb57aab37e4816dbb074" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_iio_attr_sink_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_iio_attr_sink_make</name>
+        <initializer>= R&quot;doc(Generic writer for attributes of IIO devices.
+
+This block allow for updating of any IIO attribute that is writable. This includes channel, device, device buffer, device debug, and direct register attributes. All messages must be a pmt dictionary where the key is the attribute to update and the value is the value to be written. Messages can be an array of dictionaries or a single dictionary.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of iio::attr_sink.
+
+Args:
+    uri : String of context uri
+    device : String of device name
+    channel : String of device name
+    type : Integer determining attribute type: 0: Channel attribute 1: Device attribute 2: Device buffer attribute 3: Device debug attribute 4: Direct register access
+    output : Boolean when True if channel attribute is an output)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-iio/python/iio/bindings/attr_sink_pydoc.h" line="32" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-iio/python/iio/bindings/attr_sink_pydoc.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-iio/python/iio/bindings/attr_sink_pydoc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1fft_1_1goertzel" kind="class" language="C++" prot="public">
+    <compoundname>gr::fft::goertzel</compoundname>
+    <includes refid="goertzel_8h" local="no">gnuradio/fft/goertzel.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1fft_1_1goertzel_1ae67024dc2deb3cf30b43358927248e8d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::fft::goertzel::d_d1</definition>
+        <argsstring></argsstring>
+        <name>d_d1</name>
+        <qualifiedname>gr::fft::goertzel::d_d1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" line="40" column="11" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fft_1_1goertzel_1a745e9d746b7aa53b2d20c06df508150d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::fft::goertzel::d_d2</definition>
+        <argsstring></argsstring>
+        <name>d_d2</name>
+        <qualifiedname>gr::fft::goertzel::d_d2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" line="41" column="11" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fft_1_1goertzel_1a565e5ab3e3fc2f476d82571fbf30147f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::fft::goertzel::d_wr</definition>
+        <argsstring></argsstring>
+        <name>d_wr</name>
+        <qualifiedname>gr::fft::goertzel::d_wr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" line="42" column="11" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fft_1_1goertzel_1af911e4a3b6759852c998f169f5c0010d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::fft::goertzel::d_wi</definition>
+        <argsstring></argsstring>
+        <name>d_wi</name>
+        <qualifiedname>gr::fft::goertzel::d_wi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" line="43" column="11" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fft_1_1goertzel_1a602fdb4ee70a6b32006d15e3d117473b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::fft::goertzel::d_len</definition>
+        <argsstring></argsstring>
+        <name>d_len</name>
+        <qualifiedname>gr::fft::goertzel::d_len</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" line="44" column="9" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fft_1_1goertzel_1a873e4d01424f0113a15111603a17f8d0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::fft::goertzel::d_processed</definition>
+        <argsstring></argsstring>
+        <name>d_processed</name>
+        <qualifiedname>gr::fft::goertzel::d_processed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" line="45" column="9" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1fft_1_1goertzel_1a181fc9816e0b146b1d13e59a887d5371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::fft::goertzel::goertzel</definition>
+        <argsstring>(int rate, int len, float freq)</argsstring>
+        <name>goertzel</name>
+        <qualifiedname>gr::fft::goertzel::goertzel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" line="27" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1goertzel_1ae43f831d11c86f3f35619911797c7fd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::fft::goertzel::set_params</definition>
+        <argsstring>(int rate, int len, float freq)</argsstring>
+        <name>set_params</name>
+        <qualifiedname>gr::fft::goertzel::set_params</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" line="29" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1goertzel_1a31b44a5c024279f054e737d18a2fad60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::fft::goertzel::batch</definition>
+        <argsstring>(const float *in)</argsstring>
+        <name>batch</name>
+        <qualifiedname>gr::fft::goertzel::batch</qualifiedname>
+        <param>
+          <type>const float *</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" line="32" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1goertzel_1ab093afddb5f67559a8b85dcb6a73ce77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::fft::goertzel::input</definition>
+        <argsstring>(const float &amp;in)</argsstring>
+        <name>input</name>
+        <qualifiedname>gr::fft::goertzel::input</qualifiedname>
+        <param>
+          <type>const float &amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" line="35" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1goertzel_1ad393a2a271a4d461d64ff3b68479e500" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::fft::goertzel::output</definition>
+        <argsstring>()</argsstring>
+        <name>output</name>
+        <qualifiedname>gr::fft::goertzel::output</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" line="36" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1goertzel_1a98f0f7d5691e6db4c84cee674310607b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::fft::goertzel::ready</definition>
+        <argsstring>() const</argsstring>
+        <name>ready</name>
+        <qualifiedname>gr::fft::goertzel::ready</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" line="37" column="10" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Implements Goertzel single-bin DFT calculation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" line="24" column="1" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h" bodystart="25" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classgr_1_1fft_1_1goertzel_1a31b44a5c024279f054e737d18a2fad60" prot="public" virt="non-virtual"><scope>gr::fft::goertzel</scope><name>batch</name></member>
+      <member refid="classgr_1_1fft_1_1goertzel_1ae67024dc2deb3cf30b43358927248e8d" prot="private" virt="non-virtual"><scope>gr::fft::goertzel</scope><name>d_d1</name></member>
+      <member refid="classgr_1_1fft_1_1goertzel_1a745e9d746b7aa53b2d20c06df508150d" prot="private" virt="non-virtual"><scope>gr::fft::goertzel</scope><name>d_d2</name></member>
+      <member refid="classgr_1_1fft_1_1goertzel_1a602fdb4ee70a6b32006d15e3d117473b" prot="private" virt="non-virtual"><scope>gr::fft::goertzel</scope><name>d_len</name></member>
+      <member refid="classgr_1_1fft_1_1goertzel_1a873e4d01424f0113a15111603a17f8d0" prot="private" virt="non-virtual"><scope>gr::fft::goertzel</scope><name>d_processed</name></member>
+      <member refid="classgr_1_1fft_1_1goertzel_1af911e4a3b6759852c998f169f5c0010d" prot="private" virt="non-virtual"><scope>gr::fft::goertzel</scope><name>d_wi</name></member>
+      <member refid="classgr_1_1fft_1_1goertzel_1a565e5ab3e3fc2f476d82571fbf30147f" prot="private" virt="non-virtual"><scope>gr::fft::goertzel</scope><name>d_wr</name></member>
+      <member refid="classgr_1_1fft_1_1goertzel_1a181fc9816e0b146b1d13e59a887d5371" prot="public" virt="non-virtual"><scope>gr::fft::goertzel</scope><name>goertzel</name></member>
+      <member refid="classgr_1_1fft_1_1goertzel_1ab093afddb5f67559a8b85dcb6a73ce77" prot="public" virt="non-virtual"><scope>gr::fft::goertzel</scope><name>input</name></member>
+      <member refid="classgr_1_1fft_1_1goertzel_1ad393a2a271a4d461d64ff3b68479e500" prot="public" virt="non-virtual"><scope>gr::fft::goertzel</scope><name>output</name></member>
+      <member refid="classgr_1_1fft_1_1goertzel_1a98f0f7d5691e6db4c84cee674310607b" prot="public" virt="non-virtual"><scope>gr::fft::goertzel</scope><name>ready</name></member>
+      <member refid="classgr_1_1fft_1_1goertzel_1ae43f831d11c86f3f35619911797c7fd0" prot="public" virt="non-virtual"><scope>gr::fft::goertzel</scope><name>set_params</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

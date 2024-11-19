@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1fec" kind="namespace" language="C++">
+    <compoundname>gr::fec</compoundname>
+    <innerclass refid="classgr_1_1fec_1_1async__decoder" prot="public">gr::fec::async_decoder</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1async__encoder" prot="public">gr::fec::async_encoder</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1ber__bf" prot="public">gr::fec::ber_bf</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1conv__bit__corr__bb" prot="public">gr::fec::conv_bit_corr_bb</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1decode__ccsds__27__fb" prot="public">gr::fec::decode_ccsds_27_fb</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1decoder" prot="public">gr::fec::decoder</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1depuncture__bb" prot="public">gr::fec::depuncture_bb</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1encode__ccsds__27__bb" prot="public">gr::fec::encode_ccsds_27_bb</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1encoder" prot="public">gr::fec::encoder</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1generic__decoder" prot="public">gr::fec::generic_decoder</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1generic__encoder" prot="public">gr::fec::generic_encoder</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1ldpc__decoder" prot="public">gr::fec::ldpc_decoder</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1ldpc__encoder" prot="public">gr::fec::ldpc_encoder</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1puncture__bb" prot="public">gr::fec::puncture_bb</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1puncture__ff" prot="public">gr::fec::puncture_ff</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1tagged__decoder" prot="public">gr::fec::tagged_decoder</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1tagged__encoder" prot="public">gr::fec::tagged_encoder</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1tpc__common" prot="public">gr::fec::tpc_common</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1tpc__decoder" prot="public">gr::fec::tpc_decoder</innerclass>
+    <innerclass refid="classgr_1_1fec_1_1tpc__encoder" prot="public">gr::fec::tpc_encoder</innerclass>
+    <innerclass refid="structgr_1_1fec_1_1viterbi__state" prot="public">gr::fec::viterbi_state</innerclass>
+    <innernamespace refid="namespacegr_1_1fec_1_1code">gr::fec::code</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacegr_1_1fec_1a9bc200e9f88f30191ce49bbccdcfe3db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> int</type>
+        <definition>FEC_API int gr::fec::get_decoder_output_size</definition>
+        <argsstring>(generic_decoder::sptr my_decoder)</argsstring>
+        <name>get_decoder_output_size</name>
+        <qualifiedname>gr::fec::get_decoder_output_size</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1fec_1_1generic__decoder_1a8536c9bc3f1ba576bb1245f1040b32ae" kindref="member">generic_decoder::sptr</ref></type>
+          <declname>my_decoder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>see <ref refid="classgr_1_1fec_1_1generic__decoder_1a0cad8d8b1977ebb9184b6c36ed73db9a" kindref="member">generic_decoder::get_output_size()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" line="212" column="13" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" declline="212" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1a1a4e8cb4d193875690e7d9b129ffdc26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> int</type>
+        <definition>FEC_API int gr::fec::get_decoder_input_size</definition>
+        <argsstring>(generic_decoder::sptr my_decoder)</argsstring>
+        <name>get_decoder_input_size</name>
+        <qualifiedname>gr::fec::get_decoder_input_size</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1fec_1_1generic__decoder_1a8536c9bc3f1ba576bb1245f1040b32ae" kindref="member">generic_decoder::sptr</ref></type>
+          <declname>my_decoder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>see <ref refid="classgr_1_1fec_1_1generic__decoder_1a68f0c06cc9b57e421d4d755fc7eb60d5" kindref="member">generic_decoder::get_input_size()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" line="215" column="13" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" declline="215" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1a46370754e9023aaf0e9c7630a4904b2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> float</type>
+        <definition>FEC_API float gr::fec::get_shift</definition>
+        <argsstring>(generic_decoder::sptr my_decoder)</argsstring>
+        <name>get_shift</name>
+        <qualifiedname>gr::fec::get_shift</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1fec_1_1generic__decoder_1a8536c9bc3f1ba576bb1245f1040b32ae" kindref="member">generic_decoder::sptr</ref></type>
+          <declname>my_decoder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>see <ref refid="classgr_1_1fec_1_1generic__decoder_1a7c46fd20d994c05ece2aa93dc8d3a926" kindref="member">generic_decoder::get_shift()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" line="218" column="15" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" declline="218" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1a24c52f8c2cb2a659c7dd36b9093352e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> int</type>
+        <definition>FEC_API int gr::fec::get_history</definition>
+        <argsstring>(generic_decoder::sptr my_decoder)</argsstring>
+        <name>get_history</name>
+        <qualifiedname>gr::fec::get_history</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1fec_1_1generic__decoder_1a8536c9bc3f1ba576bb1245f1040b32ae" kindref="member">generic_decoder::sptr</ref></type>
+          <declname>my_decoder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>see <ref refid="classgr_1_1fec_1_1generic__decoder_1a9037426d33b865dda50055380f9b85c8" kindref="member">generic_decoder::get_history()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" line="221" column="13" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" declline="221" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1a22aeac631b92f02b04a2bd357e6402c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> int</type>
+        <definition>FEC_API int gr::fec::get_decoder_input_item_size</definition>
+        <argsstring>(generic_decoder::sptr my_decoder)</argsstring>
+        <name>get_decoder_input_item_size</name>
+        <qualifiedname>gr::fec::get_decoder_input_item_size</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1fec_1_1generic__decoder_1a8536c9bc3f1ba576bb1245f1040b32ae" kindref="member">generic_decoder::sptr</ref></type>
+          <declname>my_decoder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>see <ref refid="classgr_1_1fec_1_1generic__decoder_1a1f4ba1fe5a0e9b3508724b48400ff537" kindref="member">generic_decoder::get_input_item_size()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" line="224" column="13" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" declline="224" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1ab9021de5490c33c5c61249bf19c2ccb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> int</type>
+        <definition>FEC_API int gr::fec::get_decoder_output_item_size</definition>
+        <argsstring>(generic_decoder::sptr my_decoder)</argsstring>
+        <name>get_decoder_output_item_size</name>
+        <qualifiedname>gr::fec::get_decoder_output_item_size</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1fec_1_1generic__decoder_1a8536c9bc3f1ba576bb1245f1040b32ae" kindref="member">generic_decoder::sptr</ref></type>
+          <declname>my_decoder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>see <ref refid="classgr_1_1fec_1_1generic__decoder_1a558263fff172b7867ed96afccb93078f" kindref="member">generic_decoder::get_output_item_size()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" line="227" column="13" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" declline="227" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1ad25e10faba875da6d540ceb7822e2acd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> const char *</type>
+        <definition>FEC_API const char * gr::fec::get_decoder_input_conversion</definition>
+        <argsstring>(generic_decoder::sptr my_decoder)</argsstring>
+        <name>get_decoder_input_conversion</name>
+        <qualifiedname>gr::fec::get_decoder_input_conversion</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1fec_1_1generic__decoder_1a8536c9bc3f1ba576bb1245f1040b32ae" kindref="member">generic_decoder::sptr</ref></type>
+          <declname>my_decoder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>see <ref refid="classgr_1_1fec_1_1generic__decoder_1a0da070002d16590ec2f1277431ba2afb" kindref="member">generic_decoder::get_input_conversion()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" line="230" column="20" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" declline="230" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1ae97ddc6afa12add70d214df41d2ec1cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> const char *</type>
+        <definition>FEC_API const char * gr::fec::get_decoder_output_conversion</definition>
+        <argsstring>(generic_decoder::sptr my_decoder)</argsstring>
+        <name>get_decoder_output_conversion</name>
+        <qualifiedname>gr::fec::get_decoder_output_conversion</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1fec_1_1generic__decoder_1a8536c9bc3f1ba576bb1245f1040b32ae" kindref="member">generic_decoder::sptr</ref></type>
+          <declname>my_decoder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>see <ref refid="classgr_1_1fec_1_1generic__decoder_1ae42dd367cb736e35ea3058536597d559" kindref="member">generic_decoder::get_output_conversion()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" line="233" column="20" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_decoder.h" declline="233" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1a956f68b884780f033189e168a9a93e5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> int</type>
+        <definition>FEC_API int gr::fec::get_encoder_output_size</definition>
+        <argsstring>(generic_encoder::sptr my_encoder)</argsstring>
+        <name>get_encoder_output_size</name>
+        <qualifiedname>gr::fec::get_encoder_output_size</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1fec_1_1generic__encoder_1a6a672384d24b60f9111fda607ce3bdd8" kindref="member">generic_encoder::sptr</ref></type>
+          <declname>my_encoder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>see <ref refid="classgr_1_1fec_1_1generic__encoder_1aa72462435284fc66d3b3a2a5b366f4ea" kindref="member">generic_encoder::get_output_size()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_encoder.h" line="125" column="13" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_encoder.h" declline="125" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1a1eb41a1a8de177c57e07b11bc4a74f7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> int</type>
+        <definition>FEC_API int gr::fec::get_encoder_input_size</definition>
+        <argsstring>(generic_encoder::sptr my_encoder)</argsstring>
+        <name>get_encoder_input_size</name>
+        <qualifiedname>gr::fec::get_encoder_input_size</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1fec_1_1generic__encoder_1a6a672384d24b60f9111fda607ce3bdd8" kindref="member">generic_encoder::sptr</ref></type>
+          <declname>my_encoder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>see <ref refid="classgr_1_1fec_1_1generic__encoder_1a95db2880c3e02e52564ea6a04b6ee243" kindref="member">generic_encoder::get_input_size()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_encoder.h" line="128" column="13" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_encoder.h" declline="128" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1aa97c972318372cbf271d8da34e85266c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> const char *</type>
+        <definition>FEC_API const char * gr::fec::get_encoder_input_conversion</definition>
+        <argsstring>(generic_encoder::sptr my_encoder)</argsstring>
+        <name>get_encoder_input_conversion</name>
+        <qualifiedname>gr::fec::get_encoder_input_conversion</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1fec_1_1generic__encoder_1a6a672384d24b60f9111fda607ce3bdd8" kindref="member">generic_encoder::sptr</ref></type>
+          <declname>my_encoder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>see <ref refid="classgr_1_1fec_1_1generic__encoder_1adf46ba604e83c7b8e8ab3b6bd5bbb637" kindref="member">generic_encoder::get_input_conversion()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_encoder.h" line="131" column="20" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_encoder.h" declline="131" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1a567af7be840022b795da6fd2963cc3bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> const char *</type>
+        <definition>FEC_API const char * gr::fec::get_encoder_output_conversion</definition>
+        <argsstring>(generic_encoder::sptr my_encoder)</argsstring>
+        <name>get_encoder_output_conversion</name>
+        <qualifiedname>gr::fec::get_encoder_output_conversion</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1fec_1_1generic__encoder_1a6a672384d24b60f9111fda607ce3bdd8" kindref="member">generic_encoder::sptr</ref></type>
+          <declname>my_encoder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>see <ref refid="classgr_1_1fec_1_1generic__encoder_1afdbb6e85bffb01a6366369d6df98b986" kindref="member">generic_encoder::get_output_conversion()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_encoder.h" line="134" column="20" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/generic_encoder.h" declline="134" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1aeeb9d4f2375d15130e459b9eb37c270c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> void</type>
+        <definition>FEC_API void gr::fec::gen_met</definition>
+        <argsstring>(int mettab[2][256], int amp, double esn0, double bias, int scale)</argsstring>
+        <name>gen_met</name>
+        <qualifiedname>gr::fec::gen_met</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>mettab</declname>
+          <array>[2][256]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>amp</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>esn0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bias</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/viterbi.h" line="29" column="6" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/viterbi.h" declline="29" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1af3a0b62e4845e7c3d9b8011598bab677" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> unsigned char</type>
+        <definition>FEC_API unsigned char gr::fec::encode</definition>
+        <argsstring>(unsigned char *symbols, const unsigned char *data, unsigned int nbytes, unsigned char encstate)</argsstring>
+        <name>encode</name>
+        <qualifiedname>gr::fec::encode</qualifiedname>
+        <param>
+          <type>unsigned char *</type>
+          <declname>symbols</declname>
+        </param>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>nbytes</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>encstate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/viterbi.h" line="35" column="23" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/viterbi.h" declline="35" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1a25ec1314081f2aebb1428fe0f704d56e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> void</type>
+        <definition>FEC_API void gr::fec::viterbi_chunks_init</definition>
+        <argsstring>(struct viterbi_state *state)</argsstring>
+        <name>viterbi_chunks_init</name>
+        <qualifiedname>gr::fec::viterbi_chunks_init</qualifiedname>
+        <param>
+          <type>struct <ref refid="structgr_1_1fec_1_1viterbi__state" kindref="compound">viterbi_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/viterbi.h" line="40" column="14" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/viterbi.h" declline="40" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1ae6eebda53d1af78885cbb1bacd97aee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> void</type>
+        <definition>FEC_API void gr::fec::viterbi_butterfly2</definition>
+        <argsstring>(unsigned char *symbols, int mettab[2][256], struct viterbi_state *state0, struct viterbi_state *state1)</argsstring>
+        <name>viterbi_butterfly2</name>
+        <qualifiedname>gr::fec::viterbi_butterfly2</qualifiedname>
+        <param>
+          <type>unsigned char *</type>
+          <declname>symbols</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mettab</declname>
+          <array>[2][256]</array>
+        </param>
+        <param>
+          <type>struct <ref refid="structgr_1_1fec_1_1viterbi__state" kindref="compound">viterbi_state</ref> *</type>
+          <declname>state0</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structgr_1_1fec_1_1viterbi__state" kindref="compound">viterbi_state</ref> *</type>
+          <declname>state1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/viterbi.h" line="42" column="14" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/viterbi.h" declline="42" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fec_1ab602eeb1db49d72b03a906e21db48459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" kindref="member">FEC_API</ref> unsigned char</type>
+        <definition>FEC_API unsigned char gr::fec::viterbi_get_output</definition>
+        <argsstring>(struct viterbi_state *state, unsigned char *outbuf)</argsstring>
+        <name>viterbi_get_output</name>
+        <qualifiedname>gr::fec::viterbi_get_output</qualifiedname>
+        <param>
+          <type>struct <ref refid="structgr_1_1fec_1_1viterbi__state" kindref="compound">viterbi_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>outbuf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/viterbi.h" line="47" column="23" declfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/viterbi.h" declline="47" declcolumn="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/async_decoder.h" line="20" column="1"/>
+  </compounddef>
+</doxygen>

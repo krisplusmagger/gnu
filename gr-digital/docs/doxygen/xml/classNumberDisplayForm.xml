@@ -1,0 +1,1161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classNumberDisplayForm" kind="class" language="C++" prot="public">
+    <compoundname>NumberDisplayForm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="numberdisplayform_8h" local="no">gnuradio/qtgui/numberdisplayform.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classNumberDisplayForm_1ad978466d594420c9a0e398b6a0e35c45" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int NumberDisplayForm::d_nplots</definition>
+        <argsstring></argsstring>
+        <name>d_nplots</name>
+        <qualifiedname>NumberDisplayForm::d_nplots</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="73" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a082665063bf83367c7987d50e7998596" prot="private" static="no" mutable="no">
+        <type>QGridLayout *</type>
+        <definition>QGridLayout* NumberDisplayForm::d_layout</definition>
+        <argsstring></argsstring>
+        <name>d_layout</name>
+        <qualifiedname>NumberDisplayForm::d_layout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="74" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a6624e6531eead8fdbb5948c35d85b4d2" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; QLabel * &gt;</type>
+        <definition>std::vector&lt;QLabel*&gt; NumberDisplayForm::d_label</definition>
+        <argsstring></argsstring>
+        <name>d_label</name>
+        <qualifiedname>NumberDisplayForm::d_label</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="75" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1aee2f768f3c9eb51d80aae58d5ae495ef" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; QLabel * &gt;</type>
+        <definition>std::vector&lt;QLabel*&gt; NumberDisplayForm::d_text_box</definition>
+        <argsstring></argsstring>
+        <name>d_text_box</name>
+        <qualifiedname>NumberDisplayForm::d_text_box</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="76" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a3b121c0666e2c63b589578d8865eadd2" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; QwtThermo * &gt;</type>
+        <definition>std::vector&lt;QwtThermo*&gt; NumberDisplayForm::d_indicator</definition>
+        <argsstring></argsstring>
+        <name>d_indicator</name>
+        <qualifiedname>NumberDisplayForm::d_indicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="77" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a0c225fc0398f6b13d0d4bcb199e640d9" prot="private" static="no" mutable="no">
+        <type>gr::qtgui::graph_t</type>
+        <definition>gr::qtgui::graph_t NumberDisplayForm::d_graph_type</definition>
+        <argsstring></argsstring>
+        <name>d_graph_type</name>
+        <qualifiedname>NumberDisplayForm::d_graph_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="78" column="24" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a6ce77b73a8f6139d1aa80d656c6431b3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NumberDisplayForm::d_avg</definition>
+        <argsstring></argsstring>
+        <name>d_avg</name>
+        <qualifiedname>NumberDisplayForm::d_avg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="79" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1ad2d12b2af177e46f49b7d7e4d2e5680f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NumberDisplayForm::d_update_time</definition>
+        <argsstring></argsstring>
+        <name>d_update_time</name>
+        <qualifiedname>NumberDisplayForm::d_update_time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="79" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a16b042b3e1f5fd420ba064455c3b1bdc" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; NumberDisplayForm::d_max</definition>
+        <argsstring></argsstring>
+        <name>d_max</name>
+        <qualifiedname>NumberDisplayForm::d_max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="80" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a90c1428b273afc0107b07fd02ec9bbd4" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; NumberDisplayForm::d_min</definition>
+        <argsstring></argsstring>
+        <name>d_min</name>
+        <qualifiedname>NumberDisplayForm::d_min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="80" column="23" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a1d2dc3e38ee986c3d7d168f465bf01ba" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool NumberDisplayForm::d_menu_on</definition>
+        <argsstring></argsstring>
+        <name>d_menu_on</name>
+        <qualifiedname>NumberDisplayForm::d_menu_on</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="82" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1ab2bf4439d22d7369fe51972b810314de" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool NumberDisplayForm::d_stop_state</definition>
+        <argsstring></argsstring>
+        <name>d_stop_state</name>
+        <qualifiedname>NumberDisplayForm::d_stop_state</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="83" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a67e5e436edc952cea9b90631eb96285f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool NumberDisplayForm::d_autoscale_state</definition>
+        <argsstring></argsstring>
+        <name>d_autoscale_state</name>
+        <qualifiedname>NumberDisplayForm::d_autoscale_state</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="84" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1af67ee50719068cbd90b86002bf4d34fb" prot="private" static="no" mutable="no">
+        <type>QMenu *</type>
+        <definition>QMenu* NumberDisplayForm::d_menu</definition>
+        <argsstring></argsstring>
+        <name>d_menu</name>
+        <qualifiedname>NumberDisplayForm::d_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="86" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a959ca02528358f73be7d28a323300513" prot="private" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* NumberDisplayForm::d_stop_act</definition>
+        <argsstring></argsstring>
+        <name>d_stop_act</name>
+        <qualifiedname>NumberDisplayForm::d_stop_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="87" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a72453dd5008c792ac30761230c1381d0" prot="private" static="no" mutable="no">
+        <type>QList&lt; QMenu * &gt;</type>
+        <definition>QList&lt;QMenu*&gt; NumberDisplayForm::d_label_menu</definition>
+        <argsstring></argsstring>
+        <name>d_label_menu</name>
+        <qualifiedname>NumberDisplayForm::d_label_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="88" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1adf06a89c621d47d04879911e21c9bcf3" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classLineTitleAction" kindref="compound">LineTitleAction</ref> * &gt;</type>
+        <definition>std::vector&lt;LineTitleAction*&gt; NumberDisplayForm::d_label_act</definition>
+        <argsstring></argsstring>
+        <name>d_label_act</name>
+        <qualifiedname>NumberDisplayForm::d_label_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="89" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a9be9ed480b985f5ad3e93fcde9dab65f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classItemFloatAct" kindref="compound">ItemFloatAct</ref> * &gt;</type>
+        <definition>std::vector&lt;ItemFloatAct*&gt; NumberDisplayForm::d_factor_act</definition>
+        <argsstring></argsstring>
+        <name>d_factor_act</name>
+        <qualifiedname>NumberDisplayForm::d_factor_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="90" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a020ea89609b99424873936facfced4de" prot="private" static="no" mutable="no">
+        <type><ref refid="classFFTAverageMenu" kindref="compound">FFTAverageMenu</ref> *</type>
+        <definition>FFTAverageMenu* NumberDisplayForm::d_avg_menu</definition>
+        <argsstring></argsstring>
+        <name>d_avg_menu</name>
+        <qualifiedname>NumberDisplayForm::d_avg_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="91" column="20" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1adb2f096383af3f6ce01f7328fcabebcf" prot="private" static="no" mutable="no">
+        <type><ref refid="classNumberLayoutMenu" kindref="compound">NumberLayoutMenu</ref> *</type>
+        <definition>NumberLayoutMenu* NumberDisplayForm::d_layout_menu</definition>
+        <argsstring></argsstring>
+        <name>d_layout_menu</name>
+        <qualifiedname>NumberDisplayForm::d_layout_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="92" column="22" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a7875680361b9e9bc07848a59e2dc670a" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classNumberColorMapMenu" kindref="compound">NumberColorMapMenu</ref> * &gt;</type>
+        <definition>std::vector&lt;NumberColorMapMenu*&gt; NumberDisplayForm::d_color_menu</definition>
+        <argsstring></argsstring>
+        <name>d_color_menu</name>
+        <qualifiedname>NumberDisplayForm::d_color_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="93" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1ae7a0c3794b68a236a0c1f152a3c18fee" prot="private" static="no" mutable="no">
+        <type><ref refid="classPopupMenu" kindref="compound">PopupMenu</ref> *</type>
+        <definition>PopupMenu* NumberDisplayForm::d_maxcolor_menu</definition>
+        <argsstring></argsstring>
+        <name>d_maxcolor_menu</name>
+        <qualifiedname>NumberDisplayForm::d_maxcolor_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="94" column="15" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a78b349296722885cac66bc27d5113fbd" prot="private" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* NumberDisplayForm::d_autoscale_act</definition>
+        <argsstring></argsstring>
+        <name>d_autoscale_act</name>
+        <qualifiedname>NumberDisplayForm::d_autoscale_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="95" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a6a339c586493842b4a184c4bfcfe8c03" prot="private" static="no" mutable="no">
+        <type><ref refid="classPopupMenu" kindref="compound">PopupMenu</ref> *</type>
+        <definition>PopupMenu* NumberDisplayForm::d_update_time_menu</definition>
+        <argsstring></argsstring>
+        <name>d_update_time_menu</name>
+        <qualifiedname>NumberDisplayForm::d_update_time_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="96" column="15" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a5041c6e453578a439c841c19a64e9312" prot="private" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* NumberDisplayForm::d_save_act</definition>
+        <argsstring></argsstring>
+        <name>d_save_act</name>
+        <qualifiedname>NumberDisplayForm::d_save_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="97" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a4d3a5d63394983bf74d700448f134fd2" prot="private" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* NumberDisplayForm::d_title</definition>
+        <argsstring></argsstring>
+        <name>d_title</name>
+        <qualifiedname>NumberDisplayForm::d_title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="99" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1abb16cb59802faee6be0f2915e018ba0f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; NumberDisplayForm::d_unit</definition>
+        <argsstring></argsstring>
+        <name>d_unit</name>
+        <qualifiedname>NumberDisplayForm::d_unit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="100" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberDisplayForm_1a94816851837de0c06c1104ee35e974a8" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; NumberDisplayForm::d_factor</definition>
+        <argsstring></argsstring>
+        <name>d_factor</name>
+        <qualifiedname>NumberDisplayForm::d_factor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="101" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classNumberDisplayForm_1a206ddb425934b6d9be94536b93d3a3b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NumberDisplayForm::NumberDisplayForm</definition>
+        <argsstring>(int nplots=1, gr::qtgui::graph_t type=gr::qtgui::NUM_GRAPH_HORIZ, QWidget *parent=0)</argsstring>
+        <name>NumberDisplayForm</name>
+        <qualifiedname>NumberDisplayForm::NumberDisplayForm</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nplots</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>gr::qtgui::graph_t</type>
+          <declname>type</declname>
+          <defval>gr::qtgui::NUM_GRAPH_HORIZ</defval>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="29" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classNumberDisplayForm_1a80abe4acb2f38cf737e3a4e15212e348" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NumberDisplayForm::~NumberDisplayForm</definition>
+        <argsstring>() override</argsstring>
+        <name>~NumberDisplayForm</name>
+        <qualifiedname>NumberDisplayForm::~NumberDisplayForm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="32" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classNumberDisplayForm_1a8d0746abc9861b8d15cdfe34343c8542" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>gr::qtgui::graph_t</type>
+        <definition>gr::qtgui::graph_t NumberDisplayForm::graphType</definition>
+        <argsstring>() const</argsstring>
+        <name>graphType</name>
+        <qualifiedname>NumberDisplayForm::graphType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="34" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classNumberDisplayForm_1a235915ac887d265910c2964fc9f4a9de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QColor</type>
+        <definition>QColor NumberDisplayForm::colorMin</definition>
+        <argsstring>(unsigned int which) const</argsstring>
+        <name>colorMin</name>
+        <qualifiedname>NumberDisplayForm::colorMin</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="35" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classNumberDisplayForm_1ad0f20d7308b8ec2a31256e5669aa97d3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QColor</type>
+        <definition>QColor NumberDisplayForm::colorMax</definition>
+        <argsstring>(unsigned int which) const</argsstring>
+        <name>colorMax</name>
+        <qualifiedname>NumberDisplayForm::colorMax</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="36" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classNumberDisplayForm_1af177fd3a7d8a98698f30acb6fea7f478" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string NumberDisplayForm::label</definition>
+        <argsstring>(unsigned int which) const</argsstring>
+        <name>label</name>
+        <qualifiedname>NumberDisplayForm::label</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="37" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classNumberDisplayForm_1afd66993e601b1d0fed752d844faa3ed6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float NumberDisplayForm::average</definition>
+        <argsstring>() const</argsstring>
+        <name>average</name>
+        <qualifiedname>NumberDisplayForm::average</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="38" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classNumberDisplayForm_1aae1a68a1adb491e61b4123a8244c2b98" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float NumberDisplayForm::updateTime</definition>
+        <argsstring>() const</argsstring>
+        <name>updateTime</name>
+        <qualifiedname>NumberDisplayForm::updateTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="39" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classNumberDisplayForm_1a447bf86cf0b1d72f3baf9172c6715da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int NumberDisplayForm::scaleMin</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>scaleMin</name>
+        <qualifiedname>NumberDisplayForm::scaleMin</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="40" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classNumberDisplayForm_1aff5f442c53ab96379a831eb240dcb6ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int NumberDisplayForm::scaleMax</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>scaleMax</name>
+        <qualifiedname>NumberDisplayForm::scaleMax</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="41" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classNumberDisplayForm_1a408e702355331e974ac6e0200144f68f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string NumberDisplayForm::title</definition>
+        <argsstring>() const</argsstring>
+        <name>title</name>
+        <qualifiedname>NumberDisplayForm::title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="42" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classNumberDisplayForm_1ac47415bbf2c19bf1d04a848f9f0e9779" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string NumberDisplayForm::unit</definition>
+        <argsstring>(unsigned int which) const</argsstring>
+        <name>unit</name>
+        <qualifiedname>NumberDisplayForm::unit</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="43" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classNumberDisplayForm_1af36fd8d47318ab898570626aa3826947" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float NumberDisplayForm::factor</definition>
+        <argsstring>(unsigned int which) const</argsstring>
+        <name>factor</name>
+        <qualifiedname>NumberDisplayForm::factor</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="44" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classNumberDisplayForm_1a2d633bcdb3e5f31d7b7843e44b87a05f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::mousePressEvent</definition>
+        <argsstring>(QMouseEvent *e) override</argsstring>
+        <name>mousePressEvent</name>
+        <qualifiedname>NumberDisplayForm::mousePressEvent</qualifiedname>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="47" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1a66018be719de82aa678c06ea01f9a55e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::customEvent</definition>
+        <argsstring>(QEvent *e) override</argsstring>
+        <name>customEvent</name>
+        <qualifiedname>NumberDisplayForm::customEvent</qualifiedname>
+        <param>
+          <type>QEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="48" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1a4b42cffc616a1d89eb0fdb581b9b9b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setStop</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setStop</name>
+        <qualifiedname>NumberDisplayForm::setStop</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="49" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1a41d07e504ad76930d057d9d12b12c892" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setStop</definition>
+        <argsstring>()</argsstring>
+        <name>setStop</name>
+        <qualifiedname>NumberDisplayForm::setStop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="50" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1ada5587827591aad42f4196e2efe375e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setGraphType</definition>
+        <argsstring>(const gr::qtgui::graph_t type)</argsstring>
+        <name>setGraphType</name>
+        <qualifiedname>NumberDisplayForm::setGraphType</qualifiedname>
+        <param>
+          <type>const gr::qtgui::graph_t</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="51" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1a12783b2d3d94548867ded808d7ab93d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setColor</definition>
+        <argsstring>(unsigned int which, const QColor &amp;min, const QColor &amp;max)</argsstring>
+        <name>setColor</name>
+        <qualifiedname>NumberDisplayForm::setColor</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>const QColor &amp;</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>const QColor &amp;</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="52" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1a6358fb83683ca87ac0a6ffb234284129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setColorMin</definition>
+        <argsstring>(unsigned int which, QString min)</argsstring>
+        <name>setColorMin</name>
+        <qualifiedname>NumberDisplayForm::setColorMin</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>min</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="53" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1a602bf5b9b298e7ce42b23b9239d193a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setColorMax</definition>
+        <argsstring>(unsigned int which, QString max)</argsstring>
+        <name>setColorMax</name>
+        <qualifiedname>NumberDisplayForm::setColorMax</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="54" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1aad4bb84fe419a25ab7d15735502389e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setLabel</definition>
+        <argsstring>(unsigned int which, const std::string &amp;label)</argsstring>
+        <name>setLabel</name>
+        <qualifiedname>NumberDisplayForm::setLabel</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="55" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1ad0492a3d5418bb28f6d1f99938cfb8b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setLabel</definition>
+        <argsstring>(unsigned int which, QString label)</argsstring>
+        <name>setLabel</name>
+        <qualifiedname>NumberDisplayForm::setLabel</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="56" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1a89d19f7ac576889bd82aa4b778ddbdfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setAverage</definition>
+        <argsstring>(const float avg)</argsstring>
+        <name>setAverage</name>
+        <qualifiedname>NumberDisplayForm::setAverage</qualifiedname>
+        <param>
+          <type>const float</type>
+          <declname>avg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="57" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1a62bbc60959d11bfc64e2b44b9b8e9b30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setUpdateTime</definition>
+        <argsstring>(const float time)</argsstring>
+        <name>setUpdateTime</name>
+        <qualifiedname>NumberDisplayForm::setUpdateTime</qualifiedname>
+        <param>
+          <type>const float</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="58" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1a453aebd6f9e6adb27b3aede54862ec9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setUpdateTime</definition>
+        <argsstring>(QString time)</argsstring>
+        <name>setUpdateTime</name>
+        <qualifiedname>NumberDisplayForm::setUpdateTime</qualifiedname>
+        <param>
+          <type>QString</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="59" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1a28140bb8e3410059c4af01ccd993c5c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::saveFigure</definition>
+        <argsstring>()</argsstring>
+        <name>saveFigure</name>
+        <qualifiedname>NumberDisplayForm::saveFigure</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="60" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1ad61e277a66d4998ea342bb3d2138525d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setScale</definition>
+        <argsstring>(unsigned int which, int min, int max)</argsstring>
+        <name>setScale</name>
+        <qualifiedname>NumberDisplayForm::setScale</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="61" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1a8fe3cd86f4d2416c42f92499d82757a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setScaleMin</definition>
+        <argsstring>(unsigned int which, int min)</argsstring>
+        <name>setScaleMin</name>
+        <qualifiedname>NumberDisplayForm::setScaleMin</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>min</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="62" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1a8da75020fe973edbae089f2b775986ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setScaleMax</definition>
+        <argsstring>(unsigned int which, int max)</argsstring>
+        <name>setScaleMax</name>
+        <qualifiedname>NumberDisplayForm::setScaleMax</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="63" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1a71df9576e2476ef7c6cce7322c252602" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::autoScale</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>autoScale</name>
+        <qualifiedname>NumberDisplayForm::autoScale</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="64" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1adc8877d0243ba38ee4f081c387be6a46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setTitle</definition>
+        <argsstring>(const std::string &amp;title)</argsstring>
+        <name>setTitle</name>
+        <qualifiedname>NumberDisplayForm::setTitle</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="65" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1ad4f857a7a0683a18151e49cadea3fad1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setUnit</definition>
+        <argsstring>(unsigned int which, const std::string &amp;unit)</argsstring>
+        <name>setUnit</name>
+        <qualifiedname>NumberDisplayForm::setUnit</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="66" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberDisplayForm_1aca01347f54f040cba8e04f59c15021d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::setFactor</definition>
+        <argsstring>(unsigned int which, float factor)</argsstring>
+        <name>setFactor</name>
+        <qualifiedname>NumberDisplayForm::setFactor</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="67" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classNumberDisplayForm_1a77eaa9026d1e0a6551bb2ad0692da390" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberDisplayForm::newData</definition>
+        <argsstring>(const QEvent *)</argsstring>
+        <name>newData</name>
+        <qualifiedname>NumberDisplayForm::newData</qualifiedname>
+        <param>
+          <type>const QEvent *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="70" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classDisplayForm" kindref="compound">DisplayForm</ref> child for managing number sink plots. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>NumberDisplayForm</label>
+        <link refid="classNumberDisplayForm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>NumberDisplayForm</label>
+        <link refid="classNumberDisplayForm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QWidget</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" line="24" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/numberdisplayform.h" bodystart="25" bodyend="102"/>
+    <listofallmembers>
+      <member refid="classNumberDisplayForm_1a71df9576e2476ef7c6cce7322c252602" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>autoScale</name></member>
+      <member refid="classNumberDisplayForm_1afd66993e601b1d0fed752d844faa3ed6" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>average</name></member>
+      <member refid="classNumberDisplayForm_1ad0f20d7308b8ec2a31256e5669aa97d3" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>colorMax</name></member>
+      <member refid="classNumberDisplayForm_1a235915ac887d265910c2964fc9f4a9de" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>colorMin</name></member>
+      <member refid="classNumberDisplayForm_1a66018be719de82aa678c06ea01f9a55e" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>customEvent</name></member>
+      <member refid="classNumberDisplayForm_1a78b349296722885cac66bc27d5113fbd" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_autoscale_act</name></member>
+      <member refid="classNumberDisplayForm_1a67e5e436edc952cea9b90631eb96285f" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_autoscale_state</name></member>
+      <member refid="classNumberDisplayForm_1a6ce77b73a8f6139d1aa80d656c6431b3" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_avg</name></member>
+      <member refid="classNumberDisplayForm_1a020ea89609b99424873936facfced4de" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_avg_menu</name></member>
+      <member refid="classNumberDisplayForm_1a7875680361b9e9bc07848a59e2dc670a" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_color_menu</name></member>
+      <member refid="classNumberDisplayForm_1a94816851837de0c06c1104ee35e974a8" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_factor</name></member>
+      <member refid="classNumberDisplayForm_1a9be9ed480b985f5ad3e93fcde9dab65f" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_factor_act</name></member>
+      <member refid="classNumberDisplayForm_1a0c225fc0398f6b13d0d4bcb199e640d9" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_graph_type</name></member>
+      <member refid="classNumberDisplayForm_1a3b121c0666e2c63b589578d8865eadd2" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_indicator</name></member>
+      <member refid="classNumberDisplayForm_1a6624e6531eead8fdbb5948c35d85b4d2" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_label</name></member>
+      <member refid="classNumberDisplayForm_1adf06a89c621d47d04879911e21c9bcf3" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_label_act</name></member>
+      <member refid="classNumberDisplayForm_1a72453dd5008c792ac30761230c1381d0" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_label_menu</name></member>
+      <member refid="classNumberDisplayForm_1a082665063bf83367c7987d50e7998596" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_layout</name></member>
+      <member refid="classNumberDisplayForm_1adb2f096383af3f6ce01f7328fcabebcf" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_layout_menu</name></member>
+      <member refid="classNumberDisplayForm_1a16b042b3e1f5fd420ba064455c3b1bdc" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_max</name></member>
+      <member refid="classNumberDisplayForm_1ae7a0c3794b68a236a0c1f152a3c18fee" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_maxcolor_menu</name></member>
+      <member refid="classNumberDisplayForm_1af67ee50719068cbd90b86002bf4d34fb" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_menu</name></member>
+      <member refid="classNumberDisplayForm_1a1d2dc3e38ee986c3d7d168f465bf01ba" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_menu_on</name></member>
+      <member refid="classNumberDisplayForm_1a90c1428b273afc0107b07fd02ec9bbd4" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_min</name></member>
+      <member refid="classNumberDisplayForm_1ad978466d594420c9a0e398b6a0e35c45" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_nplots</name></member>
+      <member refid="classNumberDisplayForm_1a5041c6e453578a439c841c19a64e9312" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_save_act</name></member>
+      <member refid="classNumberDisplayForm_1a959ca02528358f73be7d28a323300513" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_stop_act</name></member>
+      <member refid="classNumberDisplayForm_1ab2bf4439d22d7369fe51972b810314de" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_stop_state</name></member>
+      <member refid="classNumberDisplayForm_1aee2f768f3c9eb51d80aae58d5ae495ef" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_text_box</name></member>
+      <member refid="classNumberDisplayForm_1a4d3a5d63394983bf74d700448f134fd2" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_title</name></member>
+      <member refid="classNumberDisplayForm_1abb16cb59802faee6be0f2915e018ba0f" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_unit</name></member>
+      <member refid="classNumberDisplayForm_1ad2d12b2af177e46f49b7d7e4d2e5680f" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_update_time</name></member>
+      <member refid="classNumberDisplayForm_1a6a339c586493842b4a184c4bfcfe8c03" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>d_update_time_menu</name></member>
+      <member refid="classNumberDisplayForm_1af36fd8d47318ab898570626aa3826947" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>factor</name></member>
+      <member refid="classNumberDisplayForm_1a8d0746abc9861b8d15cdfe34343c8542" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>graphType</name></member>
+      <member refid="classNumberDisplayForm_1af177fd3a7d8a98698f30acb6fea7f478" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>label</name></member>
+      <member refid="classNumberDisplayForm_1a2d633bcdb3e5f31d7b7843e44b87a05f" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>mousePressEvent</name></member>
+      <member refid="classNumberDisplayForm_1a77eaa9026d1e0a6551bb2ad0692da390" prot="private" virt="non-virtual"><scope>NumberDisplayForm</scope><name>newData</name></member>
+      <member refid="classNumberDisplayForm_1a206ddb425934b6d9be94536b93d3a3b2" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>NumberDisplayForm</name></member>
+      <member refid="classNumberDisplayForm_1a28140bb8e3410059c4af01ccd993c5c0" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>saveFigure</name></member>
+      <member refid="classNumberDisplayForm_1aff5f442c53ab96379a831eb240dcb6ca" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>scaleMax</name></member>
+      <member refid="classNumberDisplayForm_1a447bf86cf0b1d72f3baf9172c6715da1" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>scaleMin</name></member>
+      <member refid="classNumberDisplayForm_1a89d19f7ac576889bd82aa4b778ddbdfb" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setAverage</name></member>
+      <member refid="classNumberDisplayForm_1a12783b2d3d94548867ded808d7ab93d5" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setColor</name></member>
+      <member refid="classNumberDisplayForm_1a602bf5b9b298e7ce42b23b9239d193a0" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setColorMax</name></member>
+      <member refid="classNumberDisplayForm_1a6358fb83683ca87ac0a6ffb234284129" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setColorMin</name></member>
+      <member refid="classNumberDisplayForm_1aca01347f54f040cba8e04f59c15021d3" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setFactor</name></member>
+      <member refid="classNumberDisplayForm_1ada5587827591aad42f4196e2efe375e7" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setGraphType</name></member>
+      <member refid="classNumberDisplayForm_1aad4bb84fe419a25ab7d15735502389e3" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setLabel</name></member>
+      <member refid="classNumberDisplayForm_1ad0492a3d5418bb28f6d1f99938cfb8b8" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setLabel</name></member>
+      <member refid="classNumberDisplayForm_1ad61e277a66d4998ea342bb3d2138525d" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setScale</name></member>
+      <member refid="classNumberDisplayForm_1a8da75020fe973edbae089f2b775986ee" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setScaleMax</name></member>
+      <member refid="classNumberDisplayForm_1a8fe3cd86f4d2416c42f92499d82757a7" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setScaleMin</name></member>
+      <member refid="classNumberDisplayForm_1a4b42cffc616a1d89eb0fdb581b9b9b83" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setStop</name></member>
+      <member refid="classNumberDisplayForm_1a41d07e504ad76930d057d9d12b12c892" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setStop</name></member>
+      <member refid="classNumberDisplayForm_1adc8877d0243ba38ee4f081c387be6a46" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setTitle</name></member>
+      <member refid="classNumberDisplayForm_1ad4f857a7a0683a18151e49cadea3fad1" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setUnit</name></member>
+      <member refid="classNumberDisplayForm_1a62bbc60959d11bfc64e2b44b9b8e9b30" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setUpdateTime</name></member>
+      <member refid="classNumberDisplayForm_1a453aebd6f9e6adb27b3aede54862ec9e" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>setUpdateTime</name></member>
+      <member refid="classNumberDisplayForm_1a408e702355331e974ac6e0200144f68f" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>title</name></member>
+      <member refid="classNumberDisplayForm_1ac47415bbf2c19bf1d04a848f9f0e9779" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>unit</name></member>
+      <member refid="classNumberDisplayForm_1aae1a68a1adb491e61b4123a8244c2b98" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>updateTime</name></member>
+      <member refid="classNumberDisplayForm_1a80abe4acb2f38cf737e3a4e15212e348" prot="public" virt="non-virtual"><scope>NumberDisplayForm</scope><name>~NumberDisplayForm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

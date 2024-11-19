@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="gr-customModule_2include_2gnuradio_2customModule_2api_8h" kind="file" language="C++">
+    <compoundname>gr-customModule/include/gnuradio/customModule/api.h</compoundname>
+    <includes refid="attributes_8h" local="no">gnuradio/attributes.h</includes>
+    <includedby refid="getTaps_8h" local="no">getTaps.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="gr-customModule_2include_2gnuradio_2customModule_2api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="gr-customModule_2include_2gnuradio_2customModule_2api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>getTaps.h</label>
+        <link refid="getTaps_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>getTaps_impl.h</label>
+        <link refid="getTaps__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="gr-customModule_2include_2gnuradio_2customModule_2api_8h_1a55556492a68ba1f0d68114162c51a04b" prot="public" static="no">
+        <name>CUSTOMMODULE_API</name>
+        <initializer><ref refid="attributes_8h_1a17b9cb3c185c92af4799ec9b0a38f3c1" kindref="member">__GR_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-customModule/include/gnuradio/customModule/api.h" line="19" column="10" bodyfile="/home/desktop2/gnuradio/gr-customModule/include/gnuradio/customModule/api.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-customModule/include/gnuradio/customModule/api.h"/>
+  </compounddef>
+</doxygen>

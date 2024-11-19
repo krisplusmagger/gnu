@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="char__to__float__pydoc_8h" kind="file" language="C++">
+    <compoundname>char_to_float_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>char_to_float_pydoc.h</label>
+        <link refid="char__to__float__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="char__to__float__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/char_to_float_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/char_to_float_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="char__to__float__pydoc_8h_1a82c623ec276f1588a927edf3bd7b00c3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_char_to_float</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_char_to_float</name>
+        <initializer>= R&quot;doc(Convert stream of chars to a stream of float.
+
+Converts  length vectors of input char samples to floats and applies a scaling factor of
+
+Constructor Specific Documentation:
+
+Build a chars to float stream converter block.
+
+Args:
+    vlen : vector length of data streams.
+    scale : a scalar divider to change the output signal scale.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/char_to_float_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/char_to_float_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="char__to__float__pydoc_8h_1a7d0a8a781f3d16d285bf19a79122f299" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_char_to_float_char_to_float_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_char_to_float_char_to_float_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/char_to_float_pydoc.h" line="31" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/char_to_float_pydoc.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="char__to__float__pydoc_8h_1a87d830af830f3ca0119097dd32b1a53c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_char_to_float_char_to_float_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_char_to_float_char_to_float_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/char_to_float_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/char_to_float_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="char__to__float__pydoc_8h_1ad15abb2a649dcc6124939dc35450a8c1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_char_to_float_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_char_to_float_make</name>
+        <initializer>= R&quot;doc(Convert stream of chars to a stream of float.
+
+Converts  length vectors of input char samples to floats and applies a scaling factor of
+
+Constructor Specific Documentation:
+
+Build a chars to float stream converter block.
+
+Args:
+    vlen : vector length of data streams.
+    scale : a scalar divider to change the output signal scale.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/char_to_float_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/char_to_float_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="char__to__float__pydoc_8h_1a98fba3505e0328f677424d2dabfcb825" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_char_to_float_scale</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_char_to_float_scale</name>
+        <initializer>= R&quot;doc(Get the scalar divider value.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/char_to_float_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/char_to_float_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="char__to__float__pydoc_8h_1a3026c31312a80fda8b2a32c463e7b682" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_char_to_float_set_scale</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_char_to_float_set_scale</name>
+        <initializer>= R&quot;doc(Set the scalar divider value.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/char_to_float_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/char_to_float_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/char_to_float_pydoc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1msg__edge" kind="class" language="C++" prot="public">
+    <compoundname>gr::msg_edge</compoundname>
+    <includes refid="flowgraph_8h" local="no">gnuradio/flowgraph.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1msg__edge_1a5d3ba2f0ce91ac18cfa1b1fb630c0041" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1msg__endpoint" kindref="compound">msg_endpoint</ref></type>
+        <definition>msg_endpoint gr::msg_edge::d_src</definition>
+        <argsstring></argsstring>
+        <name>d_src</name>
+        <qualifiedname>gr::msg_edge::d_src</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="133" column="18" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1msg__edge_1acbe74f45ed601a62cc34cb707f34f0a2" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1msg__endpoint" kindref="compound">msg_endpoint</ref></type>
+        <definition>msg_endpoint gr::msg_edge::d_dst</definition>
+        <argsstring></argsstring>
+        <name>d_dst</name>
+        <qualifiedname>gr::msg_edge::d_dst</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="134" column="18" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1msg__edge_1aee12cd8855d1828910134fb6a786bfb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::msg_edge::msg_edge</definition>
+        <argsstring>()</argsstring>
+        <name>msg_edge</name>
+        <qualifiedname>gr::msg_edge::msg_edge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="121" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1msg__edge_1ade83fc7e9483e84c99652114ba721106" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::msg_edge::msg_edge</definition>
+        <argsstring>(const msg_endpoint &amp;src, const msg_endpoint &amp;dst)</argsstring>
+        <name>msg_edge</name>
+        <qualifiedname>gr::msg_edge::msg_edge</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1msg__endpoint" kindref="compound">msg_endpoint</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgr_1_1msg__endpoint" kindref="compound">msg_endpoint</ref> &amp;</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="122" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1msg__edge_1a1bb35e2a86dc118a177c1806427266cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::msg_edge::~msg_edge</definition>
+        <argsstring>()</argsstring>
+        <name>~msg_edge</name>
+        <qualifiedname>gr::msg_edge::~msg_edge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="123" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1msg__edge_1a1c7914abfc0d2887aef120f3ab364b5e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classgr_1_1msg__endpoint" kindref="compound">msg_endpoint</ref> &amp;</type>
+        <definition>const msg_endpoint &amp; gr::msg_edge::src</definition>
+        <argsstring>() const</argsstring>
+        <name>src</name>
+        <qualifiedname>gr::msg_edge::src</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="125" column="24" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1msg__edge_1a9eec5cd8cf122ead6269df33361ec44b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classgr_1_1msg__endpoint" kindref="compound">msg_endpoint</ref> &amp;</type>
+        <definition>const msg_endpoint &amp; gr::msg_edge::dst</definition>
+        <argsstring>() const</argsstring>
+        <name>dst</name>
+        <qualifiedname>gr::msg_edge::dst</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="126" column="24" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1msg__edge_1a588082161773b2fba7013509d6bdd9ed" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string gr::msg_edge::identifier</definition>
+        <argsstring>() const</argsstring>
+        <name>identifier</name>
+        <qualifiedname>gr::msg_edge::identifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="127" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="127" bodyend="130"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class representing a msg connection between to graph msg endpoints. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" line="118" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/flowgraph.h" bodystart="119" bodyend="135"/>
+    <listofallmembers>
+      <member refid="classgr_1_1msg__edge_1acbe74f45ed601a62cc34cb707f34f0a2" prot="private" virt="non-virtual"><scope>gr::msg_edge</scope><name>d_dst</name></member>
+      <member refid="classgr_1_1msg__edge_1a5d3ba2f0ce91ac18cfa1b1fb630c0041" prot="private" virt="non-virtual"><scope>gr::msg_edge</scope><name>d_src</name></member>
+      <member refid="classgr_1_1msg__edge_1a9eec5cd8cf122ead6269df33361ec44b" prot="public" virt="non-virtual"><scope>gr::msg_edge</scope><name>dst</name></member>
+      <member refid="classgr_1_1msg__edge_1a588082161773b2fba7013509d6bdd9ed" prot="public" virt="non-virtual"><scope>gr::msg_edge</scope><name>identifier</name></member>
+      <member refid="classgr_1_1msg__edge_1aee12cd8855d1828910134fb6a786bfb1" prot="public" virt="non-virtual"><scope>gr::msg_edge</scope><name>msg_edge</name></member>
+      <member refid="classgr_1_1msg__edge_1ade83fc7e9483e84c99652114ba721106" prot="public" virt="non-virtual"><scope>gr::msg_edge</scope><name>msg_edge</name></member>
+      <member refid="classgr_1_1msg__edge_1a1c7914abfc0d2887aef120f3ab364b5e" prot="public" virt="non-virtual"><scope>gr::msg_edge</scope><name>src</name></member>
+      <member refid="classgr_1_1msg__edge_1a1bb35e2a86dc118a177c1806427266cc" prot="public" virt="non-virtual"><scope>gr::msg_edge</scope><name>~msg_edge</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

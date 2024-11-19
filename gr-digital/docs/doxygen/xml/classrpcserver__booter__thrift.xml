@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classrpcserver__booter__thrift" kind="class" language="C++" prot="public">
+    <compoundname>rpcserver_booter_thrift</compoundname>
+    <basecompoundref refid="classrpcserver__booter__base" prot="public" virt="virtual">rpcserver_booter_base</basecompoundref>
+    <basecompoundref refid="classthrift__server__template" prot="public" virt="virtual">thrift_server_template&lt; rpcserver_base, rpcserver_thrift, rpcserver_booter_thrift &gt;</basecompoundref>
+    <includes refid="rpcserver__booter__thrift_8h" local="no">gnuradio/rpcserver_booter_thrift.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classrpcserver__booter__thrift_1a9d7ba7e7e657749c8722f96b70d52fec" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string rpcserver_booter_thrift::d_type</definition>
+        <argsstring></argsstring>
+        <name>d_type</name>
+        <qualifiedname>rpcserver_booter_thrift::d_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_thrift.h" line="36" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_thrift.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrpcserver__booter__thrift_1aeeb73691126f467220019f56e52dcd8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rpcserver_booter_thrift::rpcserver_booter_thrift</definition>
+        <argsstring>()</argsstring>
+        <name>rpcserver_booter_thrift</name>
+        <qualifiedname>rpcserver_booter_thrift::rpcserver_booter_thrift</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_thrift.h" line="28" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcserver__booter__thrift_1ad9de48990c23c8071c11dc1817415097" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rpcserver_booter_thrift::~rpcserver_booter_thrift</definition>
+        <argsstring>()</argsstring>
+        <name>~rpcserver_booter_thrift</name>
+        <qualifiedname>rpcserver_booter_thrift::~rpcserver_booter_thrift</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_thrift.h" line="29" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcserver__booter__thrift_1a209555c50d992cb9901ad05adba88e42" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classrpcserver__base" kindref="compound">rpcserver_base</ref> *</type>
+        <definition>rpcserver_base * rpcserver_booter_thrift::i</definition>
+        <argsstring>()</argsstring>
+        <name>i</name>
+        <qualifiedname>rpcserver_booter_thrift::i</qualifiedname>
+        <reimplements refid="classrpcserver__booter__base_1aa6e5532f1193df5bff6bc34645982c67">i</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_thrift.h" line="31" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcserver__booter__thrift_1a7096536e142b703abd548631fd5f09bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string &amp; rpcserver_booter_thrift::type</definition>
+        <argsstring>()</argsstring>
+        <name>type</name>
+        <qualifiedname>rpcserver_booter_thrift::type</qualifiedname>
+        <reimplements refid="classrpcserver__booter__base_1a1ec6498d684b39ee79233b43b96d9952">type</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_thrift.h" line="32" column="23" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_thrift.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcserver__booter__thrift_1adb7411dc71b2296486d053bae12395c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>const std::vector&lt; std::string &gt;</type>
+        <definition>const std::vector&lt; std::string &gt; rpcserver_booter_thrift::endpoints</definition>
+        <argsstring>()</argsstring>
+        <name>endpoints</name>
+        <qualifiedname>rpcserver_booter_thrift::endpoints</qualifiedname>
+        <reimplements refid="classrpcserver__booter__base_1ad91b8016dc178034c777f40bd0749130">endpoints</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_thrift.h" line="33" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>rpcserver_booter_base</label>
+        <link refid="classrpcserver__booter__base"/>
+      </node>
+      <node id="1">
+        <label>rpcserver_booter_thrift</label>
+        <link refid="classrpcserver__booter__thrift"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>thrift_application_base&lt; TserverBase, TserverClass &gt;</label>
+        <link refid="classthrift__application__base"/>
+      </node>
+      <node id="3">
+        <label>thrift_server_template&lt; rpcserver_base, rpcserver_thrift, rpcserver_booter_thrift &gt;</label>
+        <link refid="classthrift__server__template"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>rpcserver_booter_base</label>
+        <link refid="classrpcserver__booter__base"/>
+      </node>
+      <node id="1">
+        <label>rpcserver_booter_thrift</label>
+        <link refid="classrpcserver__booter__thrift"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::shared_ptr&lt; logger &gt;</label>
+      </node>
+      <node id="4">
+        <label>thrift_application_base&lt; TserverBase, TserverClass &gt;</label>
+        <link refid="classthrift__application__base"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>d_thriftserver</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>d_debug_logger</edgelabel>
+          <edgelabel>d_logger</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>thrift_server_template&lt; rpcserver_base, rpcserver_thrift, rpcserver_booter_thrift &gt;</label>
+        <link refid="classthrift__server__template"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::unique_ptr&lt; apache::thrift::server::TServer &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_thrift.h" line="21" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_thrift.h" bodystart="26" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classthrift__application__base_1a7db27b47101ea80a62322cf059fe2ca9" prot="protected" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>d_application</name></member>
+      <member refid="classthrift__application__base_1af6c9648b13dd7f585bec64ba6a559fe4" prot="protected" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>d_debug_logger</name></member>
+      <member refid="classthrift__application__base_1adca0f1db8d1b1520bc36a1abb4dfc12e" prot="protected" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>d_default_max_init_attempts</name></member>
+      <member refid="classthrift__application__base_1a773a2d8d901c7e2fb119e7605b7fcaec" prot="protected" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>d_default_num_thrift_threads</name></member>
+      <member refid="classthrift__application__base_1a293a04e73b000f12bd21dbe2ad785ce6" prot="protected" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>d_default_thrift_buffer_size</name></member>
+      <member refid="classthrift__application__base_1a99999e960247f0a4c1ade086725a7941" prot="protected" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>d_default_thrift_port</name></member>
+      <member refid="classthrift__application__base_1a3bfa963bb6257549c426e15102aebe63" prot="protected" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>d_logger</name></member>
+      <member refid="classthrift__application__base_1a663d51c804f07924c7909daa742d76c6" prot="protected" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>d_thriftserver</name></member>
+      <member refid="classrpcserver__booter__thrift_1a9d7ba7e7e657749c8722f96b70d52fec" prot="private" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>d_type</name></member>
+      <member refid="classrpcserver__booter__thrift_1adb7411dc71b2296486d053bae12395c6" prot="public" virt="virtual"><scope>rpcserver_booter_thrift</scope><name>endpoints</name></member>
+      <member refid="classrpcserver__booter__thrift_1a209555c50d992cb9901ad05adba88e42" prot="public" virt="virtual"><scope>rpcserver_booter_thrift</scope><name>i</name></member>
+      <member refid="classthrift__server__template_1a1a5753c0d401837dd090fad5631383ce" prot="protected" virt="virtual"><scope>rpcserver_booter_thrift</scope><name>i_impl</name></member>
+      <member refid="classrpcserver__booter__base_1adffeca7b8541f70d9a62a6c36b59b83e" prot="public" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>rpcserver_booter_base</name></member>
+      <member refid="classrpcserver__booter__thrift_1aeeb73691126f467220019f56e52dcd8b" prot="public" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>rpcserver_booter_thrift</name></member>
+      <member refid="classthrift__application__base_1a759295c4c8f3642275bc6f20d3c4b838" prot="protected" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>set_endpoint</name></member>
+      <member refid="classthrift__application__base_1a4aebecfb692db9aa1c34c06061924085" prot="public" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>thrift_application_base</name></member>
+      <member refid="classthrift__server__template_1ad1dd82eb57e3dd2e61eeb81029ab99af" prot="public" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>thrift_server_template</name></member>
+      <member refid="classrpcserver__booter__thrift_1a7096536e142b703abd548631fd5f09bf" prot="public" virt="virtual"><scope>rpcserver_booter_thrift</scope><name>type</name></member>
+      <member refid="classrpcserver__booter__base_1afd437c9750e290e6239d9f018ef8ead5" prot="public" virt="virtual"><scope>rpcserver_booter_thrift</scope><name>~rpcserver_booter_base</name></member>
+      <member refid="classrpcserver__booter__thrift_1ad9de48990c23c8071c11dc1817415097" prot="public" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>~rpcserver_booter_thrift</name></member>
+      <member refid="classthrift__application__base_1ae19fcfda1a22cbba07a02107adeef819" prot="public" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>~thrift_application_base</name></member>
+      <member refid="classthrift__server__template_1a9bdd05f80a00796c9ffa651fdd6233c8" prot="public" virt="non-virtual"><scope>rpcserver_booter_thrift</scope><name>~thrift_server_template</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

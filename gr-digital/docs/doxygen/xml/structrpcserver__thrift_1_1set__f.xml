@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structrpcserver__thrift_1_1set__f" kind="struct" language="C++" prot="private">
+    <compoundname>rpcserver_thrift::set_f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::function&lt; void(T)&gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename TMap</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structrpcserver__thrift_1_1set__f_1aeae66e342b901bfef729397c7eeef290" prot="public" static="no" mutable="no">
+        <type>TMap &amp;</type>
+        <definition>TMap&amp; rpcserver_thrift::set_f&lt; T, TMap &gt;::d_setcallbackmap</definition>
+        <argsstring></argsstring>
+        <name>d_setcallbackmap</name>
+        <qualifiedname>rpcserver_thrift::set_f::d_setcallbackmap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" line="141" column="14" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrpcserver__thrift_1_1set__f_1add704ea3999b1613a191092969e6d843" prot="public" static="no" mutable="no">
+        <type>const <ref refid="rpccallbackregister__base_8h_1a49bbe5b25d6264b2ebfc1ffd260cb096" kindref="member">priv_lvl_t</ref> &amp;</type>
+        <definition>const priv_lvl_t&amp; rpcserver_thrift::set_f&lt; T, TMap &gt;::cur_priv</definition>
+        <argsstring></argsstring>
+        <name>cur_priv</name>
+        <qualifiedname>rpcserver_thrift::set_f::cur_priv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" line="142" column="26" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structrpcserver__thrift_1_1set__f_1aee90315de13be7ac064a32709ce69a2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>rpcserver_thrift::set_f&lt; T, TMap &gt;::set_f</definition>
+        <argsstring>(TMap &amp;_setcallbackmap, const priv_lvl_t &amp;_cur_priv)</argsstring>
+        <name>set_f</name>
+        <qualifiedname>rpcserver_thrift::set_f::set_f</qualifiedname>
+        <param>
+          <type>TMap &amp;</type>
+          <declname>_setcallbackmap</declname>
+        </param>
+        <param>
+          <type>const <ref refid="rpccallbackregister__base_8h_1a49bbe5b25d6264b2ebfc1ffd260cb096" kindref="member">priv_lvl_t</ref> &amp;</type>
+          <declname>_cur_priv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" line="116" column="9" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" bodystart="116" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="structrpcserver__thrift_1_1set__f_1a200f3f25eec6aceef0016681f175597e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void rpcserver_thrift::set_f&lt; T, TMap &gt;::operator()</definition>
+        <argsstring>(const T &amp;p)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>rpcserver_thrift::set_f::operator()</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" line="122" column="14" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" bodystart="122" bodyend="139"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>rpcserver_thrift::set_f&lt; T, TMap &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::function&lt; void(T)&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>rpcserver_thrift::set_f&lt; T, TMap &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::function&lt; void(T)&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" line="115" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" bodystart="115" bodyend="143"/>
+    <listofallmembers>
+      <member refid="structrpcserver__thrift_1_1set__f_1add704ea3999b1613a191092969e6d843" prot="public" virt="non-virtual"><scope>rpcserver_thrift::set_f</scope><name>cur_priv</name></member>
+      <member refid="structrpcserver__thrift_1_1set__f_1aeae66e342b901bfef729397c7eeef290" prot="public" virt="non-virtual"><scope>rpcserver_thrift::set_f</scope><name>d_setcallbackmap</name></member>
+      <member refid="structrpcserver__thrift_1_1set__f_1a200f3f25eec6aceef0016681f175597e" prot="public" virt="non-virtual"><scope>rpcserver_thrift::set_f</scope><name>operator()</name></member>
+      <member refid="structrpcserver__thrift_1_1set__f_1aee90315de13be7ac064a32709ce69a2f" prot="public" virt="non-virtual"><scope>rpcserver_thrift::set_f</scope><name>set_f</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

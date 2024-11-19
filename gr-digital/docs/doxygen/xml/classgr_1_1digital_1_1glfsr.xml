@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1digital_1_1glfsr" kind="class" language="C++" prot="public">
+    <compoundname>gr::digital::glfsr</compoundname>
+    <includes refid="glfsr_8h" local="no">gnuradio/digital/glfsr.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1digital_1_1glfsr_1a69f02ddbd00eb4e16d67393b4205f720" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::digital::glfsr::d_shift_register</definition>
+        <argsstring></argsstring>
+        <name>d_shift_register</name>
+        <qualifiedname>gr::digital::glfsr::d_shift_register</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/glfsr.h" line="31" column="14" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/glfsr.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1glfsr_1ae65f8411b66d58933ab4965a24fe6d9b" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::digital::glfsr::d_mask</definition>
+        <argsstring></argsstring>
+        <name>d_mask</name>
+        <qualifiedname>gr::digital::glfsr::d_mask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/glfsr.h" line="32" column="14" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/glfsr.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1digital_1_1glfsr_1a3555fa1243afd39a3a60a3e979e1dedc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::digital::glfsr::glfsr</definition>
+        <argsstring>(uint64_t mask, uint64_t seed)</argsstring>
+        <name>glfsr</name>
+        <qualifiedname>gr::digital::glfsr::glfsr</qualifiedname>
+        <param>
+          <type>uint64_t</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/glfsr.h" line="35" column="5" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/glfsr.h" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1glfsr_1ae96a17ccc53a02adba2ca9db8566df2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::digital::glfsr::~glfsr</definition>
+        <argsstring>()</argsstring>
+        <name>~glfsr</name>
+        <qualifiedname>gr::digital::glfsr::~glfsr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/glfsr.h" line="40" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1glfsr_1a3b0052fd39277be8a7fa5a53885cff27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::digital::glfsr::next_bit</definition>
+        <argsstring>()</argsstring>
+        <name>next_bit</name>
+        <qualifiedname>gr::digital::glfsr::next_bit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/glfsr.h" line="44" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1glfsr_1ae37c15bec8bfa9cdfd07f602da6bc1b2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::digital::glfsr::mask</definition>
+        <argsstring>() const</argsstring>
+        <name>mask</name>
+        <qualifiedname>gr::digital::glfsr::mask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/glfsr.h" line="46" column="14" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/glfsr.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1digital_1_1glfsr_1a9d9bb2f0a3438ad59c64bd445dc9290c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>static uint64_t gr::digital::glfsr::glfsr_mask</definition>
+        <argsstring>(unsigned int degree)</argsstring>
+        <name>glfsr_mask</name>
+        <qualifiedname>gr::digital::glfsr::glfsr_mask</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>degree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/glfsr.h" line="42" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Galois Linear Feedback Shift Register using specified polynomial mask. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Generates a maximal length pseudo-random sequence of length 2^degree-1 if given a primitive polynomial. </para>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/glfsr.h" line="28" column="1" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/glfsr.h" bodystart="29" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classgr_1_1digital_1_1glfsr_1ae65f8411b66d58933ab4965a24fe6d9b" prot="private" virt="non-virtual"><scope>gr::digital::glfsr</scope><name>d_mask</name></member>
+      <member refid="classgr_1_1digital_1_1glfsr_1a69f02ddbd00eb4e16d67393b4205f720" prot="private" virt="non-virtual"><scope>gr::digital::glfsr</scope><name>d_shift_register</name></member>
+      <member refid="classgr_1_1digital_1_1glfsr_1a3555fa1243afd39a3a60a3e979e1dedc" prot="public" virt="non-virtual"><scope>gr::digital::glfsr</scope><name>glfsr</name></member>
+      <member refid="classgr_1_1digital_1_1glfsr_1a9d9bb2f0a3438ad59c64bd445dc9290c" prot="public" virt="non-virtual"><scope>gr::digital::glfsr</scope><name>glfsr_mask</name></member>
+      <member refid="classgr_1_1digital_1_1glfsr_1ae37c15bec8bfa9cdfd07f602da6bc1b2" prot="public" virt="non-virtual"><scope>gr::digital::glfsr</scope><name>mask</name></member>
+      <member refid="classgr_1_1digital_1_1glfsr_1a3b0052fd39277be8a7fa5a53885cff27" prot="public" virt="non-virtual"><scope>gr::digital::glfsr</scope><name>next_bit</name></member>
+      <member refid="classgr_1_1digital_1_1glfsr_1ae96a17ccc53a02adba2ca9db8566df2f" prot="public" virt="non-virtual"><scope>gr::digital::glfsr</scope><name>~glfsr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

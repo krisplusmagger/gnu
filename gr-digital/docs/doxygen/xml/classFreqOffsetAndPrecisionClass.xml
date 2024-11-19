@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFreqOffsetAndPrecisionClass" kind="class" language="C++" prot="public">
+    <compoundname>FreqOffsetAndPrecisionClass</compoundname>
+    <derivedcompoundref refid="classFreqDisplayScaleDraw" prot="private" virt="non-virtual">FreqDisplayScaleDraw</derivedcompoundref>
+    <includes refid="qtgui__types_8h" local="no">gnuradio/qtgui/qtgui_types.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classFreqOffsetAndPrecisionClass_1a02dacf758600c309fb894bb33268d86a" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int FreqOffsetAndPrecisionClass::_frequencyPrecision</definition>
+        <argsstring></argsstring>
+        <name>_frequencyPrecision</name>
+        <qualifiedname>FreqOffsetAndPrecisionClass::_frequencyPrecision</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="61" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFreqOffsetAndPrecisionClass_1a0d2f3211e05fc0baa01e6b95a6622a51" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double FreqOffsetAndPrecisionClass::_centerFrequency</definition>
+        <argsstring></argsstring>
+        <name>_centerFrequency</name>
+        <qualifiedname>FreqOffsetAndPrecisionClass::_centerFrequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="62" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFreqOffsetAndPrecisionClass_1a91a6fa923caf72efcb61641a1c620cc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FreqOffsetAndPrecisionClass::FreqOffsetAndPrecisionClass</definition>
+        <argsstring>(const int freqPrecision)</argsstring>
+        <name>FreqOffsetAndPrecisionClass</name>
+        <qualifiedname>FreqOffsetAndPrecisionClass::FreqOffsetAndPrecisionClass</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>freqPrecision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="40" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="40" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classFreqOffsetAndPrecisionClass_1a4b9db231034a59c0f3455071fc91b022" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual FreqOffsetAndPrecisionClass::~FreqOffsetAndPrecisionClass</definition>
+        <argsstring>()</argsstring>
+        <name>~FreqOffsetAndPrecisionClass</name>
+        <qualifiedname>FreqOffsetAndPrecisionClass::~FreqOffsetAndPrecisionClass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="46" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classFreqOffsetAndPrecisionClass_1a5868dd38a3166e175672673b469280b4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>unsigned int</type>
+        <definition>virtual unsigned int FreqOffsetAndPrecisionClass::getFrequencyPrecision</definition>
+        <argsstring>() const</argsstring>
+        <name>getFrequencyPrecision</name>
+        <qualifiedname>FreqOffsetAndPrecisionClass::getFrequencyPrecision</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="48" column="26" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="48" bodyend="48"/>
+        <referencedby refid="classFreqDisplayScaleDraw_1ae3ec3764cc1ac3040189f585a9fa060d" compoundref="qtgui__types_8h" startline="105" endline="108">FreqDisplayScaleDraw::label</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classFreqOffsetAndPrecisionClass_1a93cd72d5ba5a246e0dd4987ff29ab33f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FreqOffsetAndPrecisionClass::setFrequencyPrecision</definition>
+        <argsstring>(const unsigned int newPrecision)</argsstring>
+        <name>setFrequencyPrecision</name>
+        <qualifiedname>FreqOffsetAndPrecisionClass::setFrequencyPrecision</qualifiedname>
+        <param>
+          <type>const unsigned int</type>
+          <declname>newPrecision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="50" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classFreqOffsetAndPrecisionClass_1aaf56c9f26fafcd239a8a66b12c7b721f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double FreqOffsetAndPrecisionClass::getCenterFrequency</definition>
+        <argsstring>() const</argsstring>
+        <name>getCenterFrequency</name>
+        <qualifiedname>FreqOffsetAndPrecisionClass::getCenterFrequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="55" column="20" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classFreqOffsetAndPrecisionClass_1a425444a1e6a7f3ec00a0d0b6d9b9b9a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FreqOffsetAndPrecisionClass::setCenterFrequency</definition>
+        <argsstring>(const double newFreq)</argsstring>
+        <name>setCenterFrequency</name>
+        <qualifiedname>FreqOffsetAndPrecisionClass::setCenterFrequency</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>newFreq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="57" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FreqDisplayScaleDraw</label>
+        <link refid="classFreqDisplayScaleDraw"/>
+        <childnode refid="1" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>FreqOffsetAndPrecisionClass</label>
+        <link refid="classFreqOffsetAndPrecisionClass"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="37" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="38" bodyend="63"/>
+    <listofallmembers>
+      <member refid="classFreqOffsetAndPrecisionClass_1a0d2f3211e05fc0baa01e6b95a6622a51" prot="private" virt="non-virtual"><scope>FreqOffsetAndPrecisionClass</scope><name>_centerFrequency</name></member>
+      <member refid="classFreqOffsetAndPrecisionClass_1a02dacf758600c309fb894bb33268d86a" prot="private" virt="non-virtual"><scope>FreqOffsetAndPrecisionClass</scope><name>_frequencyPrecision</name></member>
+      <member refid="classFreqOffsetAndPrecisionClass_1a91a6fa923caf72efcb61641a1c620cc4" prot="public" virt="non-virtual"><scope>FreqOffsetAndPrecisionClass</scope><name>FreqOffsetAndPrecisionClass</name></member>
+      <member refid="classFreqOffsetAndPrecisionClass_1aaf56c9f26fafcd239a8a66b12c7b721f" prot="public" virt="virtual"><scope>FreqOffsetAndPrecisionClass</scope><name>getCenterFrequency</name></member>
+      <member refid="classFreqOffsetAndPrecisionClass_1a5868dd38a3166e175672673b469280b4" prot="public" virt="virtual"><scope>FreqOffsetAndPrecisionClass</scope><name>getFrequencyPrecision</name></member>
+      <member refid="classFreqOffsetAndPrecisionClass_1a425444a1e6a7f3ec00a0d0b6d9b9b9a6" prot="public" virt="virtual"><scope>FreqOffsetAndPrecisionClass</scope><name>setCenterFrequency</name></member>
+      <member refid="classFreqOffsetAndPrecisionClass_1a93cd72d5ba5a246e0dd4987ff29ab33f" prot="public" virt="virtual"><scope>FreqOffsetAndPrecisionClass</scope><name>setFrequencyPrecision</name></member>
+      <member refid="classFreqOffsetAndPrecisionClass_1a4b9db231034a59c0f3455071fc91b022" prot="public" virt="virtual"><scope>FreqOffsetAndPrecisionClass</scope><name>~FreqOffsetAndPrecisionClass</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

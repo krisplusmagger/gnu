@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="iir__filter__ccf__pydoc_8h" kind="file" language="C++">
+    <compoundname>iir_filter_ccf_pydoc.h</compoundname>
+    <includes refid="build_2gr-filter_2python_2filter_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>iir_filter_ccf_pydoc.h</label>
+        <link refid="iir__filter__ccf__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-filter_2python_2filter_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="iir__filter__ccf__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, filter, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/iir_filter_ccf_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/iir_filter_ccf_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="iir__filter__ccf__pydoc_8h_1ae03e4bdc6c96b64c85d2360785fe20eb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_iir_filter_ccf</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_iir_filter_ccf</name>
+        <initializer>= R&quot;doc(IIR filter with complex input, complex output, and float taps.
+
+This filter uses the Direct Form I implementation, where  contains the feed-forward <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref>, and  the feedback ones.
+
+
+ The old style of the IIR filter uses feedback <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> that are negative of what most definitions use (scipy and Matlab among them). This parameter keeps using the old GNU Radio style and is set to TRUE by default. When <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> generated from scipy, Matlab, or gr_filter_design, use the new style by setting this to FALSE.
+
+
+The input and output satisfy a difference equation of the form  
+
+
+ 
+y[n] - \\sum_{k=1}^{M} a_k y[n-k] = \\sum_{k=0}^{N} b_k x[n-k]
+
+
+
+with the corresponding rational system function  
+
+
+ 
+H(z) = \\ frac{\\sum_{k=0}^{M} b_k z^{-k}}{1 - \\sum_{k=1}^{N} a_k z^{-k}}
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    fftaps : 
+    fbtaps : 
+    oldstyle : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/iir_filter_ccf_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/iir_filter_ccf_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="iir__filter__ccf__pydoc_8h_1a05e1dca48a1eae99620a15c25508dbf5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_iir_filter_ccf_iir_filter_ccf_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_iir_filter_ccf_iir_filter_ccf_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/iir_filter_ccf_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/iir_filter_ccf_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="iir__filter__ccf__pydoc_8h_1a7ea167a0fabdeef2cacbc7f5049d5edb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_iir_filter_ccf_iir_filter_ccf_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_iir_filter_ccf_iir_filter_ccf_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/iir_filter_ccf_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/iir_filter_ccf_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="iir__filter__ccf__pydoc_8h_1a797a68d77ca9be41dbeb3ff9690f89ef" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_iir_filter_ccf_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_iir_filter_ccf_make</name>
+        <initializer>= R&quot;doc(IIR filter with complex input, complex output, and float taps.
+
+This filter uses the Direct Form I implementation, where  contains the feed-forward <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref>, and  the feedback ones.
+
+
+ The old style of the IIR filter uses feedback <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> that are negative of what most definitions use (scipy and Matlab among them). This parameter keeps using the old GNU Radio style and is set to TRUE by default. When <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> generated from scipy, Matlab, or gr_filter_design, use the new style by setting this to FALSE.
+
+
+The input and output satisfy a difference equation of the form  
+
+
+ 
+y[n] - \\sum_{k=1}^{M} a_k y[n-k] = \\sum_{k=0}^{N} b_k x[n-k]
+
+
+
+with the corresponding rational system function  
+
+
+ 
+H(z) = \\ frac{\\sum_{k=0}^{M} b_k z^{-k}}{1 - \\sum_{k=1}^{N} a_k z^{-k}}
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    fftaps : 
+    fbtaps : 
+    oldstyle : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/iir_filter_ccf_pydoc.h" line="56" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/iir_filter_ccf_pydoc.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="iir__filter__ccf__pydoc_8h_1a6220eeb75a6056a6e1b490acd38697c7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_iir_filter_ccf_set_taps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_iir_filter_ccf_set_taps</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/iir_filter_ccf_pydoc.h" line="88" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/iir_filter_ccf_pydoc.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/iir_filter_ccf_pydoc.h"/>
+  </compounddef>
+</doxygen>

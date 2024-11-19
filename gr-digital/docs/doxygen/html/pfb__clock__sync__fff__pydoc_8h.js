@@ -1,0 +1,26 @@
+var pfb__clock__sync__fff__pydoc_8h =
+[
+    [ "D", "pfb__clock__sync__fff__pydoc_8h.html#a74021f021dcdfbb22891787b79c5529d", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff", "pfb__clock__sync__fff__pydoc_8h.html#acfc0d6155419872618afd92047f1dfa3", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_alpha", "pfb__clock__sync__fff__pydoc_8h.html#aa162b5e080d4de2d354227f08e2e6abb", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_beta", "pfb__clock__sync__fff__pydoc_8h.html#a6d7533648d64e96b18343305e2376340", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_channel_taps", "pfb__clock__sync__fff__pydoc_8h.html#a6e41a64d3a6f993227f1d9b349dc53b0", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_clock_rate", "pfb__clock__sync__fff__pydoc_8h.html#a405de58a2d62c036694b92ea45a20a47", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_damping_factor", "pfb__clock__sync__fff__pydoc_8h.html#af0c792985549da4aba4147dccf01c4b8", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_diff_channel_taps", "pfb__clock__sync__fff__pydoc_8h.html#a2a9b06e2fbf6b2fd44b2d20d88139387", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_diff_taps", "pfb__clock__sync__fff__pydoc_8h.html#abc5f4f723c54d4c07944f27c026c0f0c", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_diff_taps_as_string", "pfb__clock__sync__fff__pydoc_8h.html#a897af90163741dfe54a78e79fb98ced4", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_loop_bandwidth", "pfb__clock__sync__fff__pydoc_8h.html#ac1c1681b77f861bd05ac81070f9392d7", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_make", "pfb__clock__sync__fff__pydoc_8h.html#a1bc32d80ce86d2c3e575544c316db519", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_pfb_clock_sync_fff_0", "pfb__clock__sync__fff__pydoc_8h.html#adaeb1cb20236442eeee88c1c10a0191c", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_pfb_clock_sync_fff_1", "pfb__clock__sync__fff__pydoc_8h.html#a40297ead8c6bb5dff0aed7c90bdccd5c", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_set_alpha", "pfb__clock__sync__fff__pydoc_8h.html#a625ce7ceabf6de9db78a0d1fa17866e6", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_set_beta", "pfb__clock__sync__fff__pydoc_8h.html#ace4b28fb1e068807040a6abc287c9d3a", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_set_damping_factor", "pfb__clock__sync__fff__pydoc_8h.html#a1b705a58bccb1a5f8747c15a080d1cdf", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_set_loop_bandwidth", "pfb__clock__sync__fff__pydoc_8h.html#a2cc9fde0dd06ffa933cbc827ae3046a5", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_set_max_rate_deviation", "pfb__clock__sync__fff__pydoc_8h.html#a8a0f483f29abcebd2e9b04dc590a6cd3", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_taps", "pfb__clock__sync__fff__pydoc_8h.html#abf118facea67d0910accf84e40246a6e", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_taps_as_string", "pfb__clock__sync__fff__pydoc_8h.html#ad134bfa9476b10e7edf540b5a27ce828", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_update_gains", "pfb__clock__sync__fff__pydoc_8h.html#a4947830272f45e6416dd0fd23db6ff8f", null ],
+    [ "__doc_gr_digital_pfb_clock_sync_fff_update_taps", "pfb__clock__sync__fff__pydoc_8h.html#ad024a5a22d920dac7af945b629c048d1", null ]
+];

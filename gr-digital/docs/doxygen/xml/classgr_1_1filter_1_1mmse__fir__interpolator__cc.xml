@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1filter_1_1mmse__fir__interpolator__cc" kind="class" language="C++" prot="public">
+    <compoundname>gr::filter::mmse_fir_interpolator_cc</compoundname>
+    <includes refid="mmse__fir__interpolator__cc_8h" local="no">gnuradio/filter/mmse_fir_interpolator_cc.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1mmse__fir__interpolator__cc_1a77ee6d4273879106f4b873672af2ed6b" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="namespacegr_1_1filter_1_1kernel_1a1262ff76f6ac8db1310e3eff81cb51c1" kindref="member">kernel::fir_filter_ccf</ref> &gt;</type>
+        <definition>std::vector&lt;kernel::fir_filter_ccf&gt; gr::filter::mmse_fir_interpolator_cc::filters</definition>
+        <argsstring></argsstring>
+        <name>filters</name>
+        <qualifiedname>gr::filter::mmse_fir_interpolator_cc::filters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/mmse_fir_interpolator_cc.h" line="61" column="17" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/mmse_fir_interpolator_cc.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1mmse__fir__interpolator__cc_1acf254a23712ed9500ebec3cb5e435153" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::mmse_fir_interpolator_cc::mmse_fir_interpolator_cc</definition>
+        <argsstring>()</argsstring>
+        <name>mmse_fir_interpolator_cc</name>
+        <qualifiedname>gr::filter::mmse_fir_interpolator_cc::mmse_fir_interpolator_cc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/mmse_fir_interpolator_cc.h" line="41" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1mmse__fir__interpolator__cc_1a40a3bce646c51a27ffb35a851b271559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::mmse_fir_interpolator_cc::mmse_fir_interpolator_cc</definition>
+        <argsstring>(mmse_fir_interpolator_cc &amp;&amp;)=default</argsstring>
+        <name>mmse_fir_interpolator_cc</name>
+        <qualifiedname>gr::filter::mmse_fir_interpolator_cc::mmse_fir_interpolator_cc</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1filter_1_1mmse__fir__interpolator__cc" kindref="compound">mmse_fir_interpolator_cc</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/mmse_fir_interpolator_cc.h" line="42" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1mmse__fir__interpolator__cc_1a86b65d865598acc16a9131cb209f6596" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned gr::filter::mmse_fir_interpolator_cc::ntaps</definition>
+        <argsstring>() const</argsstring>
+        <name>ntaps</name>
+        <qualifiedname>gr::filter::mmse_fir_interpolator_cc::ntaps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/mmse_fir_interpolator_cc.h" line="44" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1mmse__fir__interpolator__cc_1aac5a98a5538b47b3fbd177e61c097c5b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned gr::filter::mmse_fir_interpolator_cc::nsteps</definition>
+        <argsstring>() const</argsstring>
+        <name>nsteps</name>
+        <qualifiedname>gr::filter::mmse_fir_interpolator_cc::nsteps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/mmse_fir_interpolator_cc.h" line="45" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1mmse__fir__interpolator__cc_1aee289b3d810bc48818dcf2ad39c4d6a9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::filter::mmse_fir_interpolator_cc::interpolate</definition>
+        <argsstring>(const gr_complex input[], float mu) const</argsstring>
+        <name>interpolate</name>
+        <qualifiedname>gr::filter::mmse_fir_interpolator_cc::interpolate</qualifiedname>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>input</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>mu</declname>
+        </param>
+        <briefdescription>
+<para>compute a single interpolated output value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>input</computeroutput> must have <ref refid="classgr_1_1filter_1_1mmse__fir__interpolator__cc_1a86b65d865598acc16a9131cb209f6596" kindref="member">ntaps()</ref> valid entries and be 8-byte aligned. input[0] .. input[<ref refid="classgr_1_1filter_1_1mmse__fir__interpolator__cc_1a86b65d865598acc16a9131cb209f6596" kindref="member">ntaps()</ref> - 1] are referenced to compute the output value. <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::invalid_argument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if input is not 8-byte aligned.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<computeroutput>mu</computeroutput> must be in the range [0, 1] and specifies the fractional delay.</para>
+<para><simplesect kind="return"><para>the interpolated input value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/mmse_fir_interpolator_cc.h" line="58" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Compute intermediate samples between signal samples x(k*Ts) </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This implements a Minimum Mean Squared Error interpolator with 8 taps. It is suitable for signals where the bandwidth of interest B = 1/(4*Ts) Where Ts is the time between samples.</para>
+<para>Although mu, the fractional delay, is specified as a float, it is actually quantized. 0.0 &lt;= mu &lt;= 1.0. That is, mu is quantized in the interpolate method to 32nd&apos;s of a sample.</para>
+<para>For more information, in the GNU Radio source code, see: <itemizedlist>
+<listitem><para>gr-filter/lib/gen_interpolator_taps/README </para>
+</listitem>
+<listitem><para>gr-filter/lib/gen_interpolator_taps/praxis.txt </para>
+</listitem>
+</itemizedlist>
+</para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;</label>
+        <link refid="classgr_1_1filter_1_1kernel_1_1fir__filter"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_taps</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>d_aligned_taps</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::filter::mmse_fir_interpolator_cc</label>
+        <link refid="classgr_1_1filter_1_1mmse__fir__interpolator__cc"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>filters</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::vector&lt; TAP_T &gt;</label>
+      </node>
+      <node id="2">
+        <label>std::vector&lt; gr::filter::kernel::fir_filter &gt;</label>
+        <childnode refid="3" relation="usage">
+          <edgelabel>elements</edgelabel>
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::vector&lt; volk::vector&lt; TAP_T &gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/mmse_fir_interpolator_cc.h" line="38" column="1" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/mmse_fir_interpolator_cc.h" bodystart="39" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1mmse__fir__interpolator__cc_1a77ee6d4273879106f4b873672af2ed6b" prot="protected" virt="non-virtual"><scope>gr::filter::mmse_fir_interpolator_cc</scope><name>filters</name></member>
+      <member refid="classgr_1_1filter_1_1mmse__fir__interpolator__cc_1aee289b3d810bc48818dcf2ad39c4d6a9" prot="public" virt="non-virtual"><scope>gr::filter::mmse_fir_interpolator_cc</scope><name>interpolate</name></member>
+      <member refid="classgr_1_1filter_1_1mmse__fir__interpolator__cc_1acf254a23712ed9500ebec3cb5e435153" prot="public" virt="non-virtual"><scope>gr::filter::mmse_fir_interpolator_cc</scope><name>mmse_fir_interpolator_cc</name></member>
+      <member refid="classgr_1_1filter_1_1mmse__fir__interpolator__cc_1a40a3bce646c51a27ffb35a851b271559" prot="public" virt="non-virtual"><scope>gr::filter::mmse_fir_interpolator_cc</scope><name>mmse_fir_interpolator_cc</name></member>
+      <member refid="classgr_1_1filter_1_1mmse__fir__interpolator__cc_1aac5a98a5538b47b3fbd177e61c097c5b" prot="public" virt="non-virtual"><scope>gr::filter::mmse_fir_interpolator_cc</scope><name>nsteps</name></member>
+      <member refid="classgr_1_1filter_1_1mmse__fir__interpolator__cc_1a86b65d865598acc16a9131cb209f6596" prot="public" virt="non-virtual"><scope>gr::filter::mmse_fir_interpolator_cc</scope><name>ntaps</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

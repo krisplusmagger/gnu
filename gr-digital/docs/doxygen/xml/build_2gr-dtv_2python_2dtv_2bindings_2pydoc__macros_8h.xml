@@ -1,0 +1,612 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h" kind="file" language="C++">
+    <compoundname>build/gr-dtv/python/dtv/bindings/pydoc_macros.h</compoundname>
+    <includedby refid="atsc__consts__pydoc_8h" local="yes">atsc_consts_pydoc.h</includedby>
+    <includedby refid="atsc__deinterleaver__pydoc_8h" local="yes">atsc_deinterleaver_pydoc.h</includedby>
+    <includedby refid="atsc__depad__pydoc_8h" local="yes">atsc_depad_pydoc.h</includedby>
+    <includedby refid="atsc__derandomizer__pydoc_8h" local="yes">atsc_derandomizer_pydoc.h</includedby>
+    <includedby refid="atsc__equalizer__pydoc_8h" local="yes">atsc_equalizer_pydoc.h</includedby>
+    <includedby refid="atsc__field__sync__mux__pydoc_8h" local="yes">atsc_field_sync_mux_pydoc.h</includedby>
+    <includedby refid="atsc__fpll__pydoc_8h" local="yes">atsc_fpll_pydoc.h</includedby>
+    <includedby refid="atsc__fs__checker__pydoc_8h" local="yes">atsc_fs_checker_pydoc.h</includedby>
+    <includedby refid="atsc__interleaver__pydoc_8h" local="yes">atsc_interleaver_pydoc.h</includedby>
+    <includedby refid="atsc__pad__pydoc_8h" local="yes">atsc_pad_pydoc.h</includedby>
+    <includedby refid="atsc__randomizer__pydoc_8h" local="yes">atsc_randomizer_pydoc.h</includedby>
+    <includedby refid="atsc__rs__decoder__pydoc_8h" local="yes">atsc_rs_decoder_pydoc.h</includedby>
+    <includedby refid="atsc__rs__encoder__pydoc_8h" local="yes">atsc_rs_encoder_pydoc.h</includedby>
+    <includedby refid="atsc__sync__pydoc_8h" local="yes">atsc_sync_pydoc.h</includedby>
+    <includedby refid="atsc__trellis__encoder__pydoc_8h" local="yes">atsc_trellis_encoder_pydoc.h</includedby>
+    <includedby refid="atsc__viterbi__decoder__pydoc_8h" local="yes">atsc_viterbi_decoder_pydoc.h</includedby>
+    <includedby refid="catv__config__pydoc_8h" local="yes">catv_config_pydoc.h</includedby>
+    <includedby refid="catv__frame__sync__enc__bb__pydoc_8h" local="yes">catv_frame_sync_enc_bb_pydoc.h</includedby>
+    <includedby refid="catv__randomizer__bb__pydoc_8h" local="yes">catv_randomizer_bb_pydoc.h</includedby>
+    <includedby refid="catv__reed__solomon__enc__bb__pydoc_8h" local="yes">catv_reed_solomon_enc_bb_pydoc.h</includedby>
+    <includedby refid="catv__transport__framing__enc__bb__pydoc_8h" local="yes">catv_transport_framing_enc_bb_pydoc.h</includedby>
+    <includedby refid="catv__trellis__enc__bb__pydoc_8h" local="yes">catv_trellis_enc_bb_pydoc.h</includedby>
+    <includedby refid="dvb__bbheader__bb__pydoc_8h" local="yes">dvb_bbheader_bb_pydoc.h</includedby>
+    <includedby refid="dvb__bbscrambler__bb__pydoc_8h" local="yes">dvb_bbscrambler_bb_pydoc.h</includedby>
+    <includedby refid="dvb__bch__bb__pydoc_8h" local="yes">dvb_bch_bb_pydoc.h</includedby>
+    <includedby refid="dvb__config__pydoc_8h" local="yes">dvb_config_pydoc.h</includedby>
+    <includedby refid="dvb__ldpc__bb__pydoc_8h" local="yes">dvb_ldpc_bb_pydoc.h</includedby>
+    <includedby refid="dvbs2__config__pydoc_8h" local="yes">dvbs2_config_pydoc.h</includedby>
+    <includedby refid="dvbs2__interleaver__bb__pydoc_8h" local="yes">dvbs2_interleaver_bb_pydoc.h</includedby>
+    <includedby refid="dvbs2__modulator__bc__pydoc_8h" local="yes">dvbs2_modulator_bc_pydoc.h</includedby>
+    <includedby refid="dvbs2__physical__cc__pydoc_8h" local="yes">dvbs2_physical_cc_pydoc.h</includedby>
+    <includedby refid="dvbt2__cellinterleaver__cc__pydoc_8h" local="yes">dvbt2_cellinterleaver_cc_pydoc.h</includedby>
+    <includedby refid="dvbt2__config__pydoc_8h" local="yes">dvbt2_config_pydoc.h</includedby>
+    <includedby refid="dvbt2__framemapper__cc__pydoc_8h" local="yes">dvbt2_framemapper_cc_pydoc.h</includedby>
+    <includedby refid="dvbt2__freqinterleaver__cc__pydoc_8h" local="yes">dvbt2_freqinterleaver_cc_pydoc.h</includedby>
+    <includedby refid="dvbt2__interleaver__bb__pydoc_8h" local="yes">dvbt2_interleaver_bb_pydoc.h</includedby>
+    <includedby refid="dvbt2__miso__cc__pydoc_8h" local="yes">dvbt2_miso_cc_pydoc.h</includedby>
+    <includedby refid="dvbt2__modulator__bc__pydoc_8h" local="yes">dvbt2_modulator_bc_pydoc.h</includedby>
+    <includedby refid="dvbt2__p1insertion__cc__pydoc_8h" local="yes">dvbt2_p1insertion_cc_pydoc.h</includedby>
+    <includedby refid="dvbt2__paprtr__cc__pydoc_8h" local="yes">dvbt2_paprtr_cc_pydoc.h</includedby>
+    <includedby refid="dvbt2__pilotgenerator__cc__pydoc_8h" local="yes">dvbt2_pilotgenerator_cc_pydoc.h</includedby>
+    <includedby refid="dvbt__bit__inner__deinterleaver__pydoc_8h" local="yes">dvbt_bit_inner_deinterleaver_pydoc.h</includedby>
+    <includedby refid="dvbt__bit__inner__interleaver__pydoc_8h" local="yes">dvbt_bit_inner_interleaver_pydoc.h</includedby>
+    <includedby refid="dvbt__config__pydoc_8h" local="yes">dvbt_config_pydoc.h</includedby>
+    <includedby refid="dvbt__convolutional__deinterleaver__pydoc_8h" local="yes">dvbt_convolutional_deinterleaver_pydoc.h</includedby>
+    <includedby refid="dvbt__convolutional__interleaver__pydoc_8h" local="yes">dvbt_convolutional_interleaver_pydoc.h</includedby>
+    <includedby refid="dvbt__demap__pydoc_8h" local="yes">dvbt_demap_pydoc.h</includedby>
+    <includedby refid="dvbt__demod__reference__signals__pydoc_8h" local="yes">dvbt_demod_reference_signals_pydoc.h</includedby>
+    <includedby refid="dvbt__energy__descramble__pydoc_8h" local="yes">dvbt_energy_descramble_pydoc.h</includedby>
+    <includedby refid="dvbt__energy__dispersal__pydoc_8h" local="yes">dvbt_energy_dispersal_pydoc.h</includedby>
+    <includedby refid="dvbt__inner__coder__pydoc_8h" local="yes">dvbt_inner_coder_pydoc.h</includedby>
+    <includedby refid="dvbt__map__pydoc_8h" local="yes">dvbt_map_pydoc.h</includedby>
+    <includedby refid="dvbt__ofdm__sym__acquisition__pydoc_8h" local="yes">dvbt_ofdm_sym_acquisition_pydoc.h</includedby>
+    <includedby refid="dvbt__reed__solomon__dec__pydoc_8h" local="yes">dvbt_reed_solomon_dec_pydoc.h</includedby>
+    <includedby refid="dvbt__reed__solomon__enc__pydoc_8h" local="yes">dvbt_reed_solomon_enc_pydoc.h</includedby>
+    <includedby refid="dvbt__reference__signals__pydoc_8h" local="yes">dvbt_reference_signals_pydoc.h</includedby>
+    <includedby refid="dvbt__symbol__inner__interleaver__pydoc_8h" local="yes">dvbt_symbol_inner_interleaver_pydoc.h</includedby>
+    <includedby refid="dvbt__viterbi__decoder__pydoc_8h" local="yes">dvbt_viterbi_decoder_pydoc.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>atsc_consts_pydoc.h</label>
+        <link refid="atsc__consts__pydoc_8h"/>
+      </node>
+      <node id="3">
+        <label>atsc_deinterleaver_pydoc.h</label>
+        <link refid="atsc__deinterleaver__pydoc_8h"/>
+      </node>
+      <node id="4">
+        <label>atsc_depad_pydoc.h</label>
+        <link refid="atsc__depad__pydoc_8h"/>
+      </node>
+      <node id="5">
+        <label>atsc_derandomizer_pydoc.h</label>
+        <link refid="atsc__derandomizer__pydoc_8h"/>
+      </node>
+      <node id="6">
+        <label>atsc_equalizer_pydoc.h</label>
+        <link refid="atsc__equalizer__pydoc_8h"/>
+      </node>
+      <node id="7">
+        <label>atsc_field_sync_mux_pydoc.h</label>
+        <link refid="atsc__field__sync__mux__pydoc_8h"/>
+      </node>
+      <node id="8">
+        <label>atsc_fpll_pydoc.h</label>
+        <link refid="atsc__fpll__pydoc_8h"/>
+      </node>
+      <node id="9">
+        <label>atsc_fs_checker_pydoc.h</label>
+        <link refid="atsc__fs__checker__pydoc_8h"/>
+      </node>
+      <node id="10">
+        <label>atsc_interleaver_pydoc.h</label>
+        <link refid="atsc__interleaver__pydoc_8h"/>
+      </node>
+      <node id="11">
+        <label>atsc_pad_pydoc.h</label>
+        <link refid="atsc__pad__pydoc_8h"/>
+      </node>
+      <node id="12">
+        <label>atsc_randomizer_pydoc.h</label>
+        <link refid="atsc__randomizer__pydoc_8h"/>
+      </node>
+      <node id="13">
+        <label>atsc_rs_decoder_pydoc.h</label>
+        <link refid="atsc__rs__decoder__pydoc_8h"/>
+      </node>
+      <node id="14">
+        <label>atsc_rs_encoder_pydoc.h</label>
+        <link refid="atsc__rs__encoder__pydoc_8h"/>
+      </node>
+      <node id="15">
+        <label>atsc_sync_pydoc.h</label>
+        <link refid="atsc__sync__pydoc_8h"/>
+      </node>
+      <node id="16">
+        <label>atsc_trellis_encoder_pydoc.h</label>
+        <link refid="atsc__trellis__encoder__pydoc_8h"/>
+      </node>
+      <node id="17">
+        <label>atsc_viterbi_decoder_pydoc.h</label>
+        <link refid="atsc__viterbi__decoder__pydoc_8h"/>
+      </node>
+      <node id="18">
+        <label>catv_config_pydoc.h</label>
+        <link refid="catv__config__pydoc_8h"/>
+      </node>
+      <node id="19">
+        <label>catv_frame_sync_enc_bb_pydoc.h</label>
+        <link refid="catv__frame__sync__enc__bb__pydoc_8h"/>
+      </node>
+      <node id="20">
+        <label>catv_randomizer_bb_pydoc.h</label>
+        <link refid="catv__randomizer__bb__pydoc_8h"/>
+      </node>
+      <node id="21">
+        <label>catv_reed_solomon_enc_bb_pydoc.h</label>
+        <link refid="catv__reed__solomon__enc__bb__pydoc_8h"/>
+      </node>
+      <node id="22">
+        <label>catv_transport_framing_enc_bb_pydoc.h</label>
+        <link refid="catv__transport__framing__enc__bb__pydoc_8h"/>
+      </node>
+      <node id="23">
+        <label>catv_trellis_enc_bb_pydoc.h</label>
+        <link refid="catv__trellis__enc__bb__pydoc_8h"/>
+      </node>
+      <node id="24">
+        <label>dvb_bbheader_bb_pydoc.h</label>
+        <link refid="dvb__bbheader__bb__pydoc_8h"/>
+      </node>
+      <node id="25">
+        <label>dvb_bbscrambler_bb_pydoc.h</label>
+        <link refid="dvb__bbscrambler__bb__pydoc_8h"/>
+      </node>
+      <node id="26">
+        <label>dvb_bch_bb_pydoc.h</label>
+        <link refid="dvb__bch__bb__pydoc_8h"/>
+      </node>
+      <node id="27">
+        <label>dvb_config_pydoc.h</label>
+        <link refid="dvb__config__pydoc_8h"/>
+      </node>
+      <node id="28">
+        <label>dvb_ldpc_bb_pydoc.h</label>
+        <link refid="dvb__ldpc__bb__pydoc_8h"/>
+      </node>
+      <node id="29">
+        <label>dvbs2_config_pydoc.h</label>
+        <link refid="dvbs2__config__pydoc_8h"/>
+      </node>
+      <node id="30">
+        <label>dvbs2_interleaver_bb_pydoc.h</label>
+        <link refid="dvbs2__interleaver__bb__pydoc_8h"/>
+      </node>
+      <node id="31">
+        <label>dvbs2_modulator_bc_pydoc.h</label>
+        <link refid="dvbs2__modulator__bc__pydoc_8h"/>
+      </node>
+      <node id="32">
+        <label>dvbs2_physical_cc_pydoc.h</label>
+        <link refid="dvbs2__physical__cc__pydoc_8h"/>
+      </node>
+      <node id="33">
+        <label>dvbt2_cellinterleaver_cc_pydoc.h</label>
+        <link refid="dvbt2__cellinterleaver__cc__pydoc_8h"/>
+      </node>
+      <node id="34">
+        <label>dvbt2_config_pydoc.h</label>
+        <link refid="dvbt2__config__pydoc_8h"/>
+      </node>
+      <node id="35">
+        <label>dvbt2_framemapper_cc_pydoc.h</label>
+        <link refid="dvbt2__framemapper__cc__pydoc_8h"/>
+      </node>
+      <node id="36">
+        <label>dvbt2_freqinterleaver_cc_pydoc.h</label>
+        <link refid="dvbt2__freqinterleaver__cc__pydoc_8h"/>
+      </node>
+      <node id="37">
+        <label>dvbt2_interleaver_bb_pydoc.h</label>
+        <link refid="dvbt2__interleaver__bb__pydoc_8h"/>
+      </node>
+      <node id="38">
+        <label>dvbt2_miso_cc_pydoc.h</label>
+        <link refid="dvbt2__miso__cc__pydoc_8h"/>
+      </node>
+      <node id="39">
+        <label>dvbt2_modulator_bc_pydoc.h</label>
+        <link refid="dvbt2__modulator__bc__pydoc_8h"/>
+      </node>
+      <node id="40">
+        <label>dvbt2_p1insertion_cc_pydoc.h</label>
+        <link refid="dvbt2__p1insertion__cc__pydoc_8h"/>
+      </node>
+      <node id="41">
+        <label>dvbt2_paprtr_cc_pydoc.h</label>
+        <link refid="dvbt2__paprtr__cc__pydoc_8h"/>
+      </node>
+      <node id="42">
+        <label>dvbt2_pilotgenerator_cc_pydoc.h</label>
+        <link refid="dvbt2__pilotgenerator__cc__pydoc_8h"/>
+      </node>
+      <node id="43">
+        <label>dvbt_bit_inner_deinterleaver_pydoc.h</label>
+        <link refid="dvbt__bit__inner__deinterleaver__pydoc_8h"/>
+      </node>
+      <node id="44">
+        <label>dvbt_bit_inner_interleaver_pydoc.h</label>
+        <link refid="dvbt__bit__inner__interleaver__pydoc_8h"/>
+      </node>
+      <node id="45">
+        <label>dvbt_config_pydoc.h</label>
+        <link refid="dvbt__config__pydoc_8h"/>
+      </node>
+      <node id="46">
+        <label>dvbt_convolutional_deinterleaver_pydoc.h</label>
+        <link refid="dvbt__convolutional__deinterleaver__pydoc_8h"/>
+      </node>
+      <node id="47">
+        <label>dvbt_convolutional_interleaver_pydoc.h</label>
+        <link refid="dvbt__convolutional__interleaver__pydoc_8h"/>
+      </node>
+      <node id="48">
+        <label>dvbt_demap_pydoc.h</label>
+        <link refid="dvbt__demap__pydoc_8h"/>
+      </node>
+      <node id="49">
+        <label>dvbt_demod_reference_signals_pydoc.h</label>
+        <link refid="dvbt__demod__reference__signals__pydoc_8h"/>
+      </node>
+      <node id="50">
+        <label>dvbt_energy_descramble_pydoc.h</label>
+        <link refid="dvbt__energy__descramble__pydoc_8h"/>
+      </node>
+      <node id="51">
+        <label>dvbt_energy_dispersal_pydoc.h</label>
+        <link refid="dvbt__energy__dispersal__pydoc_8h"/>
+      </node>
+      <node id="52">
+        <label>dvbt_inner_coder_pydoc.h</label>
+        <link refid="dvbt__inner__coder__pydoc_8h"/>
+      </node>
+      <node id="53">
+        <label>dvbt_map_pydoc.h</label>
+        <link refid="dvbt__map__pydoc_8h"/>
+      </node>
+      <node id="54">
+        <label>dvbt_ofdm_sym_acquisition_pydoc.h</label>
+        <link refid="dvbt__ofdm__sym__acquisition__pydoc_8h"/>
+      </node>
+      <node id="55">
+        <label>dvbt_reed_solomon_dec_pydoc.h</label>
+        <link refid="dvbt__reed__solomon__dec__pydoc_8h"/>
+      </node>
+      <node id="56">
+        <label>dvbt_reed_solomon_enc_pydoc.h</label>
+        <link refid="dvbt__reed__solomon__enc__pydoc_8h"/>
+      </node>
+      <node id="57">
+        <label>dvbt_reference_signals_pydoc.h</label>
+        <link refid="dvbt__reference__signals__pydoc_8h"/>
+      </node>
+      <node id="58">
+        <label>dvbt_symbol_inner_interleaver_pydoc.h</label>
+        <link refid="dvbt__symbol__inner__interleaver__pydoc_8h"/>
+      </node>
+      <node id="59">
+        <label>dvbt_viterbi_decoder_pydoc.h</label>
+        <link refid="dvbt__viterbi__decoder__pydoc_8h"/>
+      </node>
+      <node id="1">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" prot="public" static="no">
+        <name>__EXPAND</name>
+        <param><defname>x</defname></param>
+        <initializer>x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" line="4" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" prot="public" static="no">
+        <name>__COUNT</name>
+        <param><defname>_1</defname></param>
+        <param><defname>_2</defname></param>
+        <param><defname>_3</defname></param>
+        <param><defname>_4</defname></param>
+        <param><defname>_5</defname></param>
+        <param><defname>_6</defname></param>
+        <param><defname>_7</defname></param>
+        <param><defname>COUNT</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>COUNT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" line="5" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" prot="public" static="no">
+        <name>__VA_SIZE</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kindref="member">__EXPAND</ref>(<ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" kindref="member">__COUNT</ref>(__VA_ARGS__, 7, 6, 5, 4, 3, 2, 1))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" line="6" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" prot="public" static="no">
+        <name>__CAT1</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>a##b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" line="7" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" prot="public" static="no">
+        <name>__CAT2</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" kindref="member">__CAT1</ref>(a, b)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" line="8" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h_1a43c147206df4346db5e9d6445aab28ae" prot="public" static="no">
+        <name>__DOC1</name>
+        <param><defname>n1</defname></param>
+        <initializer>__doc_##n1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" line="9" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h_1a53738db606593bc1554371d718695fed" prot="public" static="no">
+        <name>__DOC2</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <initializer>__doc_##n1##_##n2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" line="10" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h_1a21baf08c04d32485764f227c32b5bf5d" prot="public" static="no">
+        <name>__DOC3</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" line="11" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h_1a9463ba0ad86bcb4c59b5aecf8a37174c" prot="public" static="no">
+        <name>__DOC4</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" line="12" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h_1a942579d548421ddb2906af7094e5789c" prot="public" static="no">
+        <name>__DOC5</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <param><defname>n5</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4##_##n5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" line="13" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h_1a31ea356761360e78d16525aa69d2dae6" prot="public" static="no">
+        <name>__DOC6</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <param><defname>n5</defname></param>
+        <param><defname>n6</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4##_##n5##_##n6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" line="14" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h_1a6f1e731f1c6d2893ff1bf98582a7de6e" prot="public" static="no">
+        <name>__DOC7</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <param><defname>n5</defname></param>
+        <param><defname>n6</defname></param>
+        <param><defname>n7</defname></param>
+        <initializer>    __doc_##n1##_##n2##_##n3##_##n4##_##n5##_##n6##_##n7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" line="15" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" bodystart="15" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" prot="public" static="no">
+        <name>DOC</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kindref="member">__EXPAND</ref>(<ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kindref="member">__EXPAND</ref>(<ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" kindref="member">__CAT2</ref>(__DOC, <ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" kindref="member">__VA_SIZE</ref>(__VA_ARGS__)))(__VA_ARGS__))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" line="17" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/pydoc_macros.h"/>
+  </compounddef>
+</doxygen>

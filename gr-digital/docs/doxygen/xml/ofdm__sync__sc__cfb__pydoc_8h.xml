@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="ofdm__sync__sc__cfb__pydoc_8h" kind="file" language="C++">
+    <compoundname>ofdm_sync_sc_cfb_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>ofdm_sync_sc_cfb_pydoc.h</label>
+        <link refid="ofdm__sync__sc__cfb__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="ofdm__sync__sc__cfb__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_sync_sc_cfb_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_sync_sc_cfb_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="ofdm__sync__sc__cfb__pydoc_8h_1aa386b92fc04f1a544840d36406b09d7f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_sync_sc_cfb</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_sync_sc_cfb</name>
+        <initializer>= R&quot;doc(Schmidl &amp; Cox synchronisation for OFDM.
+
+Input: complex samples. Output 0: Fine frequency offset, scaled by the OFDM symbol duration. This is  in [1]. The normalized frequency offset is then 2.0*output0/fft_len. Output 1: Beginning of the first OFDM symbol after the first (doubled) OFDM symbol. The beginning is marked with a 1 (it&apos;s 0 everywhere else).
+
+
+The evaluation of the coarse frequency offset is  done in this block. Also, the initial equalizer <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> are not calculated here.
+
+
+Note that we use a different normalization factor in the timing metric than the authors do in their original work[1]. If the timing metric (8) is   we calculate the normalization as   i.e., we estimate the energy from  half-symbols. This avoids spurious detects at the end of a burst, when the energy level suddenly drops.
+
+
+[1] Schmidl, T.M. and Cox, D.C., \&quot;Robust frequency and timing synchronization for
+OFDM\&quot;, Communications, IEEE Transactions on, 1997.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    fft_len : FFT length
+    cp_len : Length of the guard interval (cyclic prefix) in samples
+    use_even_carriers : If true, the carriers in the sync preamble are occupied such that the even carriers are used (0, 2, 4, ...). If you use all carriers, that would include the DC carrier, so be careful.
+    threshold : detection threshold. Default is 0.9.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_sync_sc_cfb_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_sync_sc_cfb_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__sync__sc__cfb__pydoc_8h_1a7c8cf1217726857b28e576b9ab1aacc6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_sync_sc_cfb_ofdm_sync_sc_cfb_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_sync_sc_cfb_ofdm_sync_sc_cfb_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_sync_sc_cfb_pydoc.h" line="43" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_sync_sc_cfb_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__sync__sc__cfb__pydoc_8h_1a64ffa1b80d6c62a6af4b513b09c7fed8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_sync_sc_cfb_ofdm_sync_sc_cfb_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_sync_sc_cfb_ofdm_sync_sc_cfb_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_sync_sc_cfb_pydoc.h" line="46" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_sync_sc_cfb_pydoc.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__sync__sc__cfb__pydoc_8h_1a0fc9d1a20231658d1a3a9e4c1d5f92d1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_sync_sc_cfb_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_sync_sc_cfb_make</name>
+        <initializer>= R&quot;doc(Schmidl &amp; Cox synchronisation for OFDM.
+
+Input: complex samples. Output 0: Fine frequency offset, scaled by the OFDM symbol duration. This is  in [1]. The normalized frequency offset is then 2.0*output0/fft_len. Output 1: Beginning of the first OFDM symbol after the first (doubled) OFDM symbol. The beginning is marked with a 1 (it&apos;s 0 everywhere else).
+
+
+The evaluation of the coarse frequency offset is  done in this block. Also, the initial equalizer <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> are not calculated here.
+
+
+Note that we use a different normalization factor in the timing metric than the authors do in their original work[1]. If the timing metric (8) is   we calculate the normalization as   i.e., we estimate the energy from  half-symbols. This avoids spurious detects at the end of a burst, when the energy level suddenly drops.
+
+
+[1] Schmidl, T.M. and Cox, D.C., \&quot;Robust frequency and timing synchronization for
+OFDM\&quot;, Communications, IEEE Transactions on, 1997.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    fft_len : FFT length
+    cp_len : Length of the guard interval (cyclic prefix) in samples
+    use_even_carriers : If true, the carriers in the sync preamble are occupied such that the even carriers are used (0, 2, 4, ...). If you use all carriers, that would include the DC carrier, so be careful.
+    threshold : detection threshold. Default is 0.9.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_sync_sc_cfb_pydoc.h" line="49" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_sync_sc_cfb_pydoc.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__sync__sc__cfb__pydoc_8h_1a6113f25756f3cfa22a902d5dc55c077c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_sync_sc_cfb_set_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_sync_sc_cfb_set_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_sync_sc_cfb_pydoc.h" line="74" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_sync_sc_cfb_pydoc.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__sync__sc__cfb__pydoc_8h_1ac022d8cc08feb9511207b18d2e88381e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_sync_sc_cfb_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_sync_sc_cfb_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_sync_sc_cfb_pydoc.h" line="77" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_sync_sc_cfb_pydoc.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_sync_sc_cfb_pydoc.h"/>
+  </compounddef>
+</doxygen>

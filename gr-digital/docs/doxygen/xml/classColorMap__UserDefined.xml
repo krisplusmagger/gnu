@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classColorMap__UserDefined" kind="class" language="C++" prot="public">
+    <compoundname>ColorMap_UserDefined</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QwtLinearColorMap</basecompoundref>
+    <includes refid="qtgui__types_8h" local="no">gnuradio/qtgui/qtgui_types.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classColorMap__UserDefined_1a464a88786a768339b809abac247671a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ColorMap_UserDefined::ColorMap_UserDefined</definition>
+        <argsstring>(QColor low, QColor high)</argsstring>
+        <name>ColorMap_UserDefined</name>
+        <qualifiedname>ColorMap_UserDefined::ColorMap_UserDefined</qualifiedname>
+        <param>
+          <type>QColor</type>
+          <declname>low</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>high</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="200" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="200" bodyend="200"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ColorMap_UserDefined</label>
+        <link refid="classColorMap__UserDefined"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QwtLinearColorMap</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ColorMap_UserDefined</label>
+        <link refid="classColorMap__UserDefined"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QwtLinearColorMap</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="197" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="198" bodyend="201"/>
+    <listofallmembers>
+      <member refid="classColorMap__UserDefined_1a464a88786a768339b809abac247671a0" prot="public" virt="non-virtual"><scope>ColorMap_UserDefined</scope><name>ColorMap_UserDefined</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

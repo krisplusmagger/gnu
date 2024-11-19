@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1fec_1_1code_1_1fec__mtrx" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::fec::code::fec_mtrx</compoundname>
+    <derivedcompoundref refid="classgr_1_1fec_1_1code_1_1ldpc__G__matrix" prot="public" virt="virtual">gr::fec::code::ldpc_G_matrix</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1fec_1_1code_1_1ldpc__H__matrix" prot="public" virt="virtual">gr::fec::code::ldpc_H_matrix</derivedcompoundref>
+    <includes refid="fec__mtrx_8h" local="no">gnuradio/fec/fec_mtrx.h</includes>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1fec_1_1code_1_1fec__mtrx_1abc3f19d9bb1476ddcc0e3dc5ffc3fcf0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::fec::code::fec_mtrx::fec_mtrx</definition>
+        <argsstring>(void)</argsstring>
+        <name>fec_mtrx</name>
+        <qualifiedname>gr::fec::code::fec_mtrx::fec_mtrx</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/fec_mtrx.h" line="126" column="5" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/fec_mtrx.h" bodystart="126" bodyend="126"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1fec_1_1code_1_1fec__mtrx_1a01a322ccbadf31be57fee76ff4c5e0e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual gr::fec::code::fec_mtrx::~fec_mtrx</definition>
+        <argsstring>()</argsstring>
+        <name>~fec_mtrx</name>
+        <qualifiedname>gr::fec::code::fec_mtrx::~fec_mtrx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/fec_mtrx.h" line="129" column="13" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/fec_mtrx.h" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fec_1_1code_1_1fec__mtrx_1a99fc98a3111db62a49de8b25016e9e12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::fec::code::fec_mtrx::encode</definition>
+        <argsstring>(unsigned char *outbuffer, const unsigned char *inbuffer) const =0</argsstring>
+        <name>encode</name>
+        <qualifiedname>gr::fec::code::fec_mtrx::encode</qualifiedname>
+        <reimplementedby refid="classgr_1_1fec_1_1code_1_1ldpc__G__matrix_1a1294f27355ff89a809af34c684d97965">encode</reimplementedby>
+        <reimplementedby refid="classgr_1_1fec_1_1code_1_1ldpc__H__matrix_1a92464566cde518e6dc1f079951460b08">encode</reimplementedby>
+        <param>
+          <type>unsigned char *</type>
+          <declname>outbuffer</declname>
+        </param>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>inbuffer</declname>
+        </param>
+        <briefdescription>
+<para>Encode <computeroutput>inbuffer</computeroutput> with LDPC H matrix into <computeroutput>outbuffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/fec_mtrx.h" line="132" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fec_1_1code_1_1fec__mtrx_1a240a4f0dc662411209b06807ce598307" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::fec::code::fec_mtrx::decode</definition>
+        <argsstring>(unsigned char *outbuffer, const float *inbuffer, unsigned int frame_size, unsigned int max_iterations) const =0</argsstring>
+        <name>decode</name>
+        <qualifiedname>gr::fec::code::fec_mtrx::decode</qualifiedname>
+        <reimplementedby refid="classgr_1_1fec_1_1code_1_1ldpc__G__matrix_1ae2a667cd42f3b4ad394954e4dfe3aaad">decode</reimplementedby>
+        <reimplementedby refid="classgr_1_1fec_1_1code_1_1ldpc__H__matrix_1ac4a82b70026a223391c17f1d6bc2bfbb">decode</reimplementedby>
+        <param>
+          <type>unsigned char *</type>
+          <declname>outbuffer</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>inbuffer</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>frame_size</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>max_iterations</declname>
+        </param>
+        <briefdescription>
+<para>Decode <computeroutput>inbuffer</computeroutput> with LDPC H matrix into <computeroutput>outbuffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/fec_mtrx.h" line="136" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fec_1_1code_1_1fec__mtrx_1a63c2ca3a14b109dae1b35a9efcb2ae9c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>unsigned int</type>
+        <definition>virtual unsigned int gr::fec::code::fec_mtrx::n</definition>
+        <argsstring>() const =0</argsstring>
+        <name>n</name>
+        <qualifiedname>gr::fec::code::fec_mtrx::n</qualifiedname>
+        <reimplementedby refid="classgr_1_1fec_1_1code_1_1ldpc__G__matrix_1a88d9a8cbbc900671201d086a262f061b">n</reimplementedby>
+        <reimplementedby refid="classgr_1_1fec_1_1code_1_1ldpc__H__matrix_1af33ced5456b44075facf9b3f81fa3a5b">n</reimplementedby>
+        <briefdescription>
+<para>Get the codeword length n. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/fec_mtrx.h" line="142" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fec_1_1code_1_1fec__mtrx_1a4bb4a7dd985b43e43ef35a14628079cc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>unsigned int</type>
+        <definition>virtual unsigned int gr::fec::code::fec_mtrx::k</definition>
+        <argsstring>() const =0</argsstring>
+        <name>k</name>
+        <qualifiedname>gr::fec::code::fec_mtrx::k</qualifiedname>
+        <reimplementedby refid="classgr_1_1fec_1_1code_1_1ldpc__G__matrix_1a6840647847a46e7357d9c8e0dc7781d0">k</reimplementedby>
+        <reimplementedby refid="classgr_1_1fec_1_1code_1_1ldpc__H__matrix_1ac0036ae91ce1abbc36238973ea73c0b2">k</reimplementedby>
+        <briefdescription>
+<para>Get the information word length k. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/fec_mtrx.h" line="145" column="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Base class for FEC matrix objects. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Base class of <ref refid="classgr_1_1fec_1_1code_1_1ldpc__H__matrix" kindref="compound">ldpc_H_matrix</ref> and <ref refid="classgr_1_1fec_1_1code_1_1ldpc__G__matrix" kindref="compound">ldpc_G_matrix</ref> classes. The child objects can be either generator matrices or parity check matrices. This base class can be provided to the decoder <ref refid="classgr_1_1fec_1_1code_1_1ldpc__bit__flip__decoder" kindref="compound">ldpc_bit_flip_decoder</ref>, whereas the encoder classes <ref refid="classgr_1_1fec_1_1code_1_1ldpc__gen__mtrx__encoder" kindref="compound">ldpc_gen_mtrx_encoder</ref> and <ref refid="classgr_1_1fec_1_1ldpc__encoder" kindref="compound">ldpc_encoder</ref> will not accept this base class; they require one of the child classes. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::fec::code::fec_mtrx</label>
+        <link refid="classgr_1_1fec_1_1code_1_1fec__mtrx"/>
+      </node>
+      <node id="2">
+        <label>gr::fec::code::ldpc_G_matrix</label>
+        <link refid="classgr_1_1fec_1_1code_1_1ldpc__G__matrix"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::fec::code::ldpc_H_matrix</label>
+        <link refid="classgr_1_1fec_1_1code_1_1ldpc__H__matrix"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/fec_mtrx.h" line="123" column="1" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/fec_mtrx.h" bodystart="124" bodyend="146"/>
+    <listofallmembers>
+      <member refid="classgr_1_1fec_1_1code_1_1fec__mtrx_1a240a4f0dc662411209b06807ce598307" prot="public" virt="pure-virtual"><scope>gr::fec::code::fec_mtrx</scope><name>decode</name></member>
+      <member refid="classgr_1_1fec_1_1code_1_1fec__mtrx_1a99fc98a3111db62a49de8b25016e9e12" prot="public" virt="pure-virtual"><scope>gr::fec::code::fec_mtrx</scope><name>encode</name></member>
+      <member refid="classgr_1_1fec_1_1code_1_1fec__mtrx_1abc3f19d9bb1476ddcc0e3dc5ffc3fcf0" prot="protected" virt="non-virtual"><scope>gr::fec::code::fec_mtrx</scope><name>fec_mtrx</name></member>
+      <member refid="classgr_1_1fec_1_1code_1_1fec__mtrx_1a4bb4a7dd985b43e43ef35a14628079cc" prot="public" virt="pure-virtual"><scope>gr::fec::code::fec_mtrx</scope><name>k</name></member>
+      <member refid="classgr_1_1fec_1_1code_1_1fec__mtrx_1a63c2ca3a14b109dae1b35a9efcb2ae9c" prot="public" virt="pure-virtual"><scope>gr::fec::code::fec_mtrx</scope><name>n</name></member>
+      <member refid="classgr_1_1fec_1_1code_1_1fec__mtrx_1a01a322ccbadf31be57fee76ff4c5e0e3" prot="public" virt="virtual"><scope>gr::fec::code::fec_mtrx</scope><name>~fec_mtrx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,465 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1uhd" kind="namespace" language="C++">
+    <compoundname>gr::uhd</compoundname>
+    <innerclass refid="classgr_1_1uhd_1_1amsg__source" prot="public">gr::uhd::amsg_source</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__block" prot="public">gr::uhd::rfnoc_block</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__block__generic" prot="public">gr::uhd::rfnoc_block_generic</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__ddc" prot="public">gr::uhd::rfnoc_ddc</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__duc" prot="public">gr::uhd::rfnoc_duc</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__fir__filter" prot="public">gr::uhd::rfnoc_fir_filter</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__graph" prot="public">gr::uhd::rfnoc_graph</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__replay" prot="public">gr::uhd::rfnoc_replay</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__rx__radio" prot="public">gr::uhd::rfnoc_rx_radio</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__rx__streamer" prot="public">gr::uhd::rfnoc_rx_streamer</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__siggen" prot="public">gr::uhd::rfnoc_siggen</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__tx__radio" prot="public">gr::uhd::rfnoc_tx_radio</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__tx__streamer" prot="public">gr::uhd::rfnoc_tx_streamer</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1rfnoc__window" prot="public">gr::uhd::rfnoc_window</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1stream__args__t" prot="public">gr::uhd::stream_args_t</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1usrp__block" prot="public">gr::uhd::usrp_block</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1usrp__sink" prot="public">gr::uhd::usrp_sink</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1usrp__source" prot="public">gr::uhd::usrp_source</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a71fdb326f3b714f4830cd7788976012c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_chan_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_chan_key</name>
+        <qualifiedname>gr::uhd::cmd_chan_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="21" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="21" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1abf38ce9543e6afaa15782d6768b82369" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_gain_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_gain_key</name>
+        <qualifiedname>gr::uhd::cmd_gain_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="22" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="22" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a82dfbb42eb8cfcb1bb5c1a50522dc6b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_power_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_power_key</name>
+        <qualifiedname>gr::uhd::cmd_power_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="23" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="23" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a297552d01945327826363f39ead1baec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_freq_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_freq_key</name>
+        <qualifiedname>gr::uhd::cmd_freq_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="24" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="24" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a7da0c0bad1a9306162edc48ca93771e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_lo_offset_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_lo_offset_key</name>
+        <qualifiedname>gr::uhd::cmd_lo_offset_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="25" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="25" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1ab433997eb4ec280973d0022b8a52b370" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_tune_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_tune_key</name>
+        <qualifiedname>gr::uhd::cmd_tune_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="26" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="26" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1ad96e7547fc7668faa9a6c9ff9c8695c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_mtune_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_mtune_key</name>
+        <qualifiedname>gr::uhd::cmd_mtune_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="27" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="27" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a03c1cc5ee38e3e9202950ee44f2102b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_lo_freq_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_lo_freq_key</name>
+        <qualifiedname>gr::uhd::cmd_lo_freq_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="28" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="28" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a2a172ff0a644ae8d48be0d2d9a7b3c44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_dsp_freq_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_dsp_freq_key</name>
+        <qualifiedname>gr::uhd::cmd_dsp_freq_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="29" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="29" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a5adaf852aed6716a2e7af86f4d8d8e7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_rate_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_rate_key</name>
+        <qualifiedname>gr::uhd::cmd_rate_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="30" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="30" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a9e4f0be0f1763b8eceeb2e25fe5f9d10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_bandwidth_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_bandwidth_key</name>
+        <qualifiedname>gr::uhd::cmd_bandwidth_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="31" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="31" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a270f3c033ada266107b50d2c23268311" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_time_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_time_key</name>
+        <qualifiedname>gr::uhd::cmd_time_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="32" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="32" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a3f80d2d5bc2410a197b3b78c1d67df7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_mboard_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_mboard_key</name>
+        <qualifiedname>gr::uhd::cmd_mboard_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="33" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="33" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1aa23391a67976aa6224fa939da0ad1234" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_antenna_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_antenna_key</name>
+        <qualifiedname>gr::uhd::cmd_antenna_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="34" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="34" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a60376e35497cfbedfc7dc92d2f6d2a8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_direction_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_direction_key</name>
+        <qualifiedname>gr::uhd::cmd_direction_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="35" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="35" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a93af39883593398f6c80044ca700a684" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_tag_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_tag_key</name>
+        <qualifiedname>gr::uhd::cmd_tag_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="36" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="36" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a63946da60b5faf1e397331630e1c6140" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_gpio_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_gpio_key</name>
+        <qualifiedname>gr::uhd::cmd_gpio_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="37" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="37" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a084e99dc630592b8a3fb1eacb2c60267" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_pc_clock_resync_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_pc_clock_resync_key</name>
+        <qualifiedname>gr::uhd::cmd_pc_clock_resync_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="38" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="38" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a9abe683732e3be4ad93a30a9158d1a81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::cmd_stream_cmd_key</definition>
+        <argsstring>()</argsstring>
+        <name>cmd_stream_cmd_key</name>
+        <qualifiedname>gr::uhd::cmd_stream_cmd_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="39" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="39" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a187092e6e77a119bf8fbc4b2ebf140c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::direction_rx</definition>
+        <argsstring>()</argsstring>
+        <name>direction_rx</name>
+        <qualifiedname>gr::uhd::direction_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="41" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="41" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1adfc0bd1e5e987894bd54ba4753e9db01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::direction_tx</definition>
+        <argsstring>()</argsstring>
+        <name>direction_tx</name>
+        <qualifiedname>gr::uhd::direction_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" line="42" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/cmd_keys.h" declline="42" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1ae5ccefa1b4077fde995d9f6bb27dda00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::replay_cmd_key</definition>
+        <argsstring>()</argsstring>
+        <name>replay_cmd_key</name>
+        <qualifiedname>gr::uhd::replay_cmd_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" line="17" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" declline="17" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1ac6290d008b04b217fc5d457215d351e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::replay_cmd_port_key</definition>
+        <argsstring>()</argsstring>
+        <name>replay_cmd_port_key</name>
+        <qualifiedname>gr::uhd::replay_cmd_port_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" line="18" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" declline="18" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1ac84146a74e66c4b925b833330b55d42a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::replay_cmd_offset_key</definition>
+        <argsstring>()</argsstring>
+        <name>replay_cmd_offset_key</name>
+        <qualifiedname>gr::uhd::replay_cmd_offset_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" line="19" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" declline="19" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1af16ea11302b73f0b5103d5c326a94ea4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::replay_cmd_size_key</definition>
+        <argsstring>()</argsstring>
+        <name>replay_cmd_size_key</name>
+        <qualifiedname>gr::uhd::replay_cmd_size_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" line="20" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" declline="20" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a8f6f0343bbc0e1224b38ad688c7c7ca8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::replay_cmd_time_key</definition>
+        <argsstring>()</argsstring>
+        <name>replay_cmd_time_key</name>
+        <qualifiedname>gr::uhd::replay_cmd_time_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" line="21" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" declline="21" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1adaab0ed4a5ee8d6bcd77cd77621c8c9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::replay_cmd_repeat_key</definition>
+        <argsstring>()</argsstring>
+        <name>replay_cmd_repeat_key</name>
+        <qualifiedname>gr::uhd::replay_cmd_repeat_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" line="22" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" declline="22" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a37bd1b73461fa064cd23d7b54848096b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::replay_debug_port_key</definition>
+        <argsstring>()</argsstring>
+        <name>replay_debug_port_key</name>
+        <qualifiedname>gr::uhd::replay_debug_port_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" line="23" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" declline="23" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a47bbc8f1aac5422b38d8103d6cca0c4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::replay_mem_fullness_key</definition>
+        <argsstring>()</argsstring>
+        <name>replay_mem_fullness_key</name>
+        <qualifiedname>gr::uhd::replay_mem_fullness_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" line="24" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" declline="24" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a418af53805528afe7b245e3f5c3650e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::replay_mem_size_key</definition>
+        <argsstring>()</argsstring>
+        <name>replay_mem_size_key</name>
+        <qualifiedname>gr::uhd::replay_mem_size_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" line="25" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" declline="25" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1uhd_1a099183d2d500c8ad10c4176c2d0b3d9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" kindref="member">GR_UHD_API</ref> const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>GR_UHD_API const pmt::pmt_t gr::uhd::replay_word_size_key</definition>
+        <argsstring>()</argsstring>
+        <name>replay_word_size_key</name>
+        <qualifiedname>gr::uhd::replay_word_size_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" line="26" column="29" declfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/rfnoc_replay.h" declline="26" declcolumn="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/amsg_source.h" line="19" column="1"/>
+  </compounddef>
+</doxygen>

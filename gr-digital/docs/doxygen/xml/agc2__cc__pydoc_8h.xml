@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="agc2__cc__pydoc_8h" kind="file" language="C++">
+    <compoundname>agc2_cc_pydoc.h</compoundname>
+    <includes refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>agc2_cc_pydoc.h</label>
+        <link refid="agc2__cc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="agc2__cc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, analog, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" line="10" column="11" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="agc2__cc__pydoc_8h_1a41f89ded05ceb81831bf3c761e4125b3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_agc2_cc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_agc2_cc</name>
+        <initializer>= R&quot;doc(high performance Automatic Gain Control class with attack and decay rates.
+
+For Power the absolute value of the complex number is used.
+
+Constructor Specific Documentation:
+
+Build a complex value AGC loop block with attack and decay rates.
+
+Args:
+    attack_rate : the update rate of the loop when in attack mode.
+    decay_rate : the update rate of the loop when in decay mode.
+    reference : reference value to adjust signal power to.
+    gain : initial gain value.
+    max_gain : maximum gain value (0 for unlimited).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="agc2__cc__pydoc_8h_1a5ed3d7f4c5a2eef71f126dc221050def" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_agc2_cc_agc2_cc_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_agc2_cc_agc2_cc_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="agc2__cc__pydoc_8h_1a05a479fac044c3f03f501d2dc4df80ba" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_agc2_cc_agc2_cc_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_agc2_cc_agc2_cc_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="agc2__cc__pydoc_8h_1a2aa707eba8acf3ba37123dd0913292d6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_agc2_cc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_agc2_cc_make</name>
+        <initializer>= R&quot;doc(high performance Automatic Gain Control class with attack and decay rates.
+
+For Power the absolute value of the complex number is used.
+
+Constructor Specific Documentation:
+
+Build a complex value AGC loop block with attack and decay rates.
+
+Args:
+    attack_rate : the update rate of the loop when in attack mode.
+    decay_rate : the update rate of the loop when in decay mode.
+    reference : reference value to adjust signal power to.
+    gain : initial gain value.
+    max_gain : maximum gain value (0 for unlimited).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" line="40" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="agc2__cc__pydoc_8h_1af9c2e62e55ddd8f3dc603c1edf5ed2b3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_agc2_cc_attack_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_agc2_cc_attack_rate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" line="56" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="agc2__cc__pydoc_8h_1a624a5b2d54e0781acc83e0e29329db86" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_agc2_cc_decay_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_agc2_cc_decay_rate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" line="59" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="agc2__cc__pydoc_8h_1ae1b16a0020dec4806f73e0dae04890cf" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_agc2_cc_reference</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_agc2_cc_reference</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" line="62" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="agc2__cc__pydoc_8h_1ac50b712b72a1cae506c43f8075b8abd2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_agc2_cc_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_agc2_cc_gain</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" line="65" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="agc2__cc__pydoc_8h_1ad45a4c912b48811c7211c959eb2edb18" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_agc2_cc_max_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_agc2_cc_max_gain</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" line="68" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="agc2__cc__pydoc_8h_1ada2fc59f9b46d4a107933e99e7226f30" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_agc2_cc_set_attack_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_agc2_cc_set_attack_rate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" line="71" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="agc2__cc__pydoc_8h_1a4bcd52a36268b7eb1dbf723666ce0b88" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_agc2_cc_set_decay_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_agc2_cc_set_decay_rate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" line="74" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="agc2__cc__pydoc_8h_1abc54ceccbb3404cf11f1a993bfed0b17" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_agc2_cc_set_reference</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_agc2_cc_set_reference</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" line="77" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="agc2__cc__pydoc_8h_1a5933bf4ebe33baad1455d157962ec3cd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_agc2_cc_set_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_agc2_cc_set_gain</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" line="80" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="agc2__cc__pydoc_8h_1a33393cc2ffd288478624998a2b07f41d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_agc2_cc_set_max_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_agc2_cc_set_max_gain</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" line="83" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/agc2_cc_pydoc.h"/>
+  </compounddef>
+</doxygen>

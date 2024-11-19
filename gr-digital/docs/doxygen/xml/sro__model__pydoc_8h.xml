@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="sro__model__pydoc_8h" kind="file" language="C++">
+    <compoundname>sro_model_pydoc.h</compoundname>
+    <includes refid="build_2gr-channels_2python_2channels_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-channels_2python_2channels_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>sro_model_pydoc.h</label>
+        <link refid="sro__model__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="sro__model__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, channels, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="sro__model__pydoc_8h_1aefad0f11f392e6cbe8548a0e538dcb8d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_sro_model</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_sro_model</name>
+        <initializer>= R&quot;doc(Sample Rate Offset Model.
+
+This block implements a model that varies sample rate offset with respect to time by performing a random walk on the interpolation rate.
+
+Constructor Specific Documentation:
+
+Build the sample rate offset model.
+
+Args:
+    sample_rate_hz : Sample rate of the input signal in Hz
+    std_dev_hz : Desired standard deviation of the random walk process every sample in Hz
+    max_dev_hz : Maximum sample rate deviation from zero in Hz.
+    noise_seed : A random number generator seed for the noise source.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="sro__model__pydoc_8h_1ad4ff4183539a0fe44252422e7a31978b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_sro_model_sro_model_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_sro_model_sro_model_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="sro__model__pydoc_8h_1a3d92405da9c59f2267517c83b07ff682" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_sro_model_sro_model_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_sro_model_sro_model_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="sro__model__pydoc_8h_1ad9aa5085020ab25acac53e2a22d6dc9f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_sro_model_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_sro_model_make</name>
+        <initializer>= R&quot;doc(Sample Rate Offset Model.
+
+This block implements a model that varies sample rate offset with respect to time by performing a random walk on the interpolation rate.
+
+Constructor Specific Documentation:
+
+Build the sample rate offset model.
+
+Args:
+    sample_rate_hz : Sample rate of the input signal in Hz
+    std_dev_hz : Desired standard deviation of the random walk process every sample in Hz
+    max_dev_hz : Maximum sample rate deviation from zero in Hz.
+    noise_seed : A random number generator seed for the noise source.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="sro__model__pydoc_8h_1a159be69a980c7393012cf69d67e11904" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_sro_model_set_std_dev</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_sro_model_set_std_dev</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" line="54" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="sro__model__pydoc_8h_1a799b35b10a0f789bd5380d2de1aeb285" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_sro_model_set_max_dev</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_sro_model_set_max_dev</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" line="57" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="sro__model__pydoc_8h_1aa3e5028249ea67df0cb4ac21c5a2a3eb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_sro_model_set_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_sro_model_set_samp_rate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" line="60" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="sro__model__pydoc_8h_1a0e5bb140014994bdd6b14b9905cc4adb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_sro_model_std_dev</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_sro_model_std_dev</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" line="63" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="sro__model__pydoc_8h_1a323aa8bd0738cbdcb23211087ac1aa3a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_sro_model_max_dev</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_sro_model_max_dev</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" line="66" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="sro__model__pydoc_8h_1a92940c2a805a3ce4a398d9663743fb92" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_sro_model_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_sro_model_samp_rate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" line="69" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/sro_model_pydoc.h"/>
+  </compounddef>
+</doxygen>

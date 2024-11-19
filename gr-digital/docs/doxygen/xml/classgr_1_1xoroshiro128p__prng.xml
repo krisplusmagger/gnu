@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1xoroshiro128p__prng" kind="class" language="C++" prot="public">
+    <compoundname>gr::xoroshiro128p_prng</compoundname>
+    <includes refid="random_8h" local="no">gnuradio/random.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1xoroshiro128p__prng_1a4dca3c31967a3dfaf80d4ccb62edefaf" prot="public" static="no">
+        <type>uint64_t</type>
+        <definition>using gr::xoroshiro128p_prng::result_type =  uint64_t</definition>
+        <argsstring></argsstring>
+        <name>result_type</name>
+        <qualifiedname>gr::xoroshiro128p_prng::result_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="31" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1xoroshiro128p__prng_1a65db9abdeb4ada63ddc6b909d794b59a" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1xoroshiro128p__prng_1a4dca3c31967a3dfaf80d4ccb62edefaf" kindref="member">result_type</ref></type>
+        <definition>result_type gr::xoroshiro128p_prng::state[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>state</name>
+        <qualifiedname>gr::xoroshiro128p_prng::state</qualifiedname>
+        <briefdescription>
+<para>value type is uint64 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="34" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1xoroshiro128p__prng_1a1d2913efb2ccfa92ef16d596fea657f4" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr <ref refid="classgr_1_1xoroshiro128p__prng_1a4dca3c31967a3dfaf80d4ccb62edefaf" kindref="member">result_type</ref></type>
+        <definition>static constexpr result_type gr::xoroshiro128p_prng::min</definition>
+        <argsstring>()</argsstring>
+        <name>min</name>
+        <qualifiedname>gr::xoroshiro128p_prng::min</qualifiedname>
+        <briefdescription>
+<para>minimum value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="40" column="34" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xoroshiro128p__prng_1a3a26d65c1de840ce6f12e43930b9f9d5" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr <ref refid="classgr_1_1xoroshiro128p__prng_1a4dca3c31967a3dfaf80d4ccb62edefaf" kindref="member">result_type</ref></type>
+        <definition>static constexpr result_type gr::xoroshiro128p_prng::max</definition>
+        <argsstring>()</argsstring>
+        <name>max</name>
+        <qualifiedname>gr::xoroshiro128p_prng::max</qualifiedname>
+        <briefdescription>
+<para>maximum value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="44" column="34" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1xoroshiro128p__prng_1a0ee5d8662562ce31d5c3c089d853a276" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::xoroshiro128p_prng::xoroshiro128p_prng</definition>
+        <argsstring>(uint64_t init)</argsstring>
+        <name>xoroshiro128p_prng</name>
+        <qualifiedname>gr::xoroshiro128p_prng::xoroshiro128p_prng</qualifiedname>
+        <param>
+          <type>uint64_t</type>
+          <declname>init</declname>
+        </param>
+        <briefdescription>
+<para>constructor. Expects a seed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="49" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xoroshiro128p__prng_1a5cdf1a6e6ed5973e64ec5cd00bf76e14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgr_1_1xoroshiro128p__prng_1a4dca3c31967a3dfaf80d4ccb62edefaf" kindref="member">result_type</ref></type>
+        <definition>result_type gr::xoroshiro128p_prng::operator()</definition>
+        <argsstring>()</argsstring>
+        <name>operator()</name>
+        <qualifiedname>gr::xoroshiro128p_prng::operator()</qualifiedname>
+        <briefdescription>
+<para>yield a random value and advance state </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="55" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" bodystart="55" bodyend="55"/>
+        <references refid="xoroshiro128p_8h_1afd45471c525f2fc6a1d279f018d2bf25" compoundref="xoroshiro128p_8h" startline="39" endline="50">xoroshiro128p_next</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xoroshiro128p__prng_1a0165e8728717dbc87b63003d6a297aab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::xoroshiro128p_prng::seed</definition>
+        <argsstring>(uint64_t seed)</argsstring>
+        <name>seed</name>
+        <qualifiedname>gr::xoroshiro128p_prng::seed</qualifiedname>
+        <param>
+          <type>uint64_t</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+<para>set new seed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="60" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" bodystart="60" bodyend="60"/>
+        <references refid="xoroshiro128p_8h_1a060de795826a0b35f8d9dceea724d8c1" compoundref="xoroshiro128p_8h" startline="91" endline="96">xoroshiro128p_seed</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>wrapper for XOROSHIRO128+ PRNG for use in std::distributions Fulfills C++ named requirements for UniformRandomBitGenerator </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="28" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" bodystart="29" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classgr_1_1xoroshiro128p__prng_1a3a26d65c1de840ce6f12e43930b9f9d5" prot="public" virt="non-virtual"><scope>gr::xoroshiro128p_prng</scope><name>max</name></member>
+      <member refid="classgr_1_1xoroshiro128p__prng_1a1d2913efb2ccfa92ef16d596fea657f4" prot="public" virt="non-virtual"><scope>gr::xoroshiro128p_prng</scope><name>min</name></member>
+      <member refid="classgr_1_1xoroshiro128p__prng_1a5cdf1a6e6ed5973e64ec5cd00bf76e14" prot="public" virt="non-virtual"><scope>gr::xoroshiro128p_prng</scope><name>operator()</name></member>
+      <member refid="classgr_1_1xoroshiro128p__prng_1a4dca3c31967a3dfaf80d4ccb62edefaf" prot="public" virt="non-virtual"><scope>gr::xoroshiro128p_prng</scope><name>result_type</name></member>
+      <member refid="classgr_1_1xoroshiro128p__prng_1a0165e8728717dbc87b63003d6a297aab" prot="public" virt="non-virtual"><scope>gr::xoroshiro128p_prng</scope><name>seed</name></member>
+      <member refid="classgr_1_1xoroshiro128p__prng_1a65db9abdeb4ada63ddc6b909d794b59a" prot="private" virt="non-virtual"><scope>gr::xoroshiro128p_prng</scope><name>state</name></member>
+      <member refid="classgr_1_1xoroshiro128p__prng_1a0ee5d8662562ce31d5c3c089d853a276" prot="public" virt="non-virtual"><scope>gr::xoroshiro128p_prng</scope><name>xoroshiro128p_prng</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

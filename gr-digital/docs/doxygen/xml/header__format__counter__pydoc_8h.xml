@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="header__format__counter__pydoc_8h" kind="file" language="C++">
+    <compoundname>header_format_counter_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>header_format_counter_pydoc.h</label>
+        <link refid="header__format__counter__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="header__format__counter__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_counter_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_counter_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="header__format__counter__pydoc_8h_1a65f588e006b36eeb0a75c64d5498fd93" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_header_format_counter</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_header_format_counter</name>
+        <initializer>= R&quot;doc(Header formatter that adds the payload bits/symbol format and a packet number counter.
+
+Child class of header_format_default. This version adds two fields to the header:
+
+
+
+Like the default packet formatter, the length is encoded as a 16-bit value repeated twice. The full packet looks like: 
+
+
+Where the access code is &lt;= 64 bits and hdr is: 
+
+
+The access code and header are formatted for network byte order.
+
+Constructor Specific Documentation:
+
+Factory to create an async packet header formatter; returns an sptr to the object.
+
+Args:
+    access_code : An access code that is used to find and synchronize the start of a packet. Used in the parser and in other blocks like a corr_est block that helps trigger the receiver. Can be up to 64-bits long.
+    threshold : How many bits can be wrong in the access code and still count as correct.
+    bps : The number of bits/second used in the payload&apos;s modulator.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_counter_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_counter_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="header__format__counter__pydoc_8h_1addcc7a785fe84e193972676ffb68070d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_header_format_counter_header_format_counter_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_header_format_counter_header_format_counter_0</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_counter_pydoc.h" line="42" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_counter_pydoc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="header__format__counter__pydoc_8h_1a5b13448137252263e4dbc8c066f1b00f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_header_format_counter_header_format_counter_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_header_format_counter_header_format_counter_1</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_counter_pydoc.h" line="46" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_counter_pydoc.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="header__format__counter__pydoc_8h_1a9569232ef46d0d77bb5d587510464ff8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_header_format_counter_format</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_header_format_counter_format</name>
+        <initializer>= R&quot;doc(Creates a header from the access code and packet length to build an output packet in the form:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_counter_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_counter_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="header__format__counter__pydoc_8h_1a4eba1ea503ddc29c7ed58721ea1eb1d9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_header_format_counter_header_nbits</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_header_format_counter_header_nbits</name>
+        <initializer>= R&quot;doc(Returns the length of the formatted header in bits.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_counter_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_counter_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="header__format__counter__pydoc_8h_1aefd125c0d781522e2056ee26270bcb9c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_header_format_counter_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_header_format_counter_make</name>
+        <initializer>= R&quot;doc(Header formatter that adds the payload bits/symbol format and a packet number counter.
+
+Child class of header_format_default. This version adds two fields to the header:
+
+
+
+Like the default packet formatter, the length is encoded as a 16-bit value repeated twice. The full packet looks like: 
+
+
+Where the access code is &lt;= 64 bits and hdr is: 
+
+
+The access code and header are formatted for network byte order.
+
+Constructor Specific Documentation:
+
+Factory to create an async packet header formatter; returns an sptr to the object.
+
+Args:
+    access_code : An access code that is used to find and synchronize the start of a packet. Used in the parser and in other blocks like a corr_est block that helps trigger the receiver. Can be up to 64-bits long.
+    threshold : How many bits can be wrong in the access code and still count as correct.
+    bps : The number of bits/second used in the payload&apos;s modulator.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_counter_pydoc.h" line="56" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_counter_pydoc.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_counter_pydoc.h"/>
+  </compounddef>
+</doxygen>

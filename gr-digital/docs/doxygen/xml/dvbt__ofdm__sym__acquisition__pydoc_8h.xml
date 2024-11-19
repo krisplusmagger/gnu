@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dvbt__ofdm__sym__acquisition__pydoc_8h" kind="file" language="C++">
+    <compoundname>dvbt_ofdm_sym_acquisition_pydoc.h</compoundname>
+    <includes refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>dvbt_ofdm_sym_acquisition_pydoc.h</label>
+        <link refid="dvbt__ofdm__sym__acquisition__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dvbt__ofdm__sym__acquisition__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, dtv, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_ofdm_sym_acquisition_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_ofdm_sym_acquisition_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="dvbt__ofdm__sym__acquisition__pydoc_8h_1a7cbff22bd8dc2a3b687f2ed74ebeca40" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbt_ofdm_sym_acquisition</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbt_ofdm_sym_acquisition</name>
+        <initializer>= R&quot;doc(OFDM symbol acquisition.
+
+Data input format: 
+complex(real(float), imag(float)). 
+Data output format: 
+complex(real(float), imag(float)).
+
+Constructor Specific Documentation:
+
+Create OFDM symbol acquisition.
+
+Args:
+    blocks : Always equal to 1.
+    fft_length : FFT size, 2048 or 8192.
+    occupied_tones : Active OFDM carriers, 1705 or 6817.
+    cp_length : Length of Cyclic Prefix (FFT size / 32, 16, 8 or 4).
+    snr : Initial Signal to Noise Ratio.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_ofdm_sym_acquisition_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_ofdm_sym_acquisition_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvbt__ofdm__sym__acquisition__pydoc_8h_1ab302c6c2992f61ffb5d0a1cc63048da8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbt_ofdm_sym_acquisition_dvbt_ofdm_sym_acquisition</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbt_ofdm_sym_acquisition_dvbt_ofdm_sym_acquisition</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_ofdm_sym_acquisition_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_ofdm_sym_acquisition_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvbt__ofdm__sym__acquisition__pydoc_8h_1a2f17bc1c0235b4890685a7ddfe86896d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbt_ofdm_sym_acquisition_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbt_ofdm_sym_acquisition_make</name>
+        <initializer>= R&quot;doc(OFDM symbol acquisition.
+
+Data input format: 
+complex(real(float), imag(float)). 
+Data output format: 
+complex(real(float), imag(float)).
+
+Constructor Specific Documentation:
+
+Create OFDM symbol acquisition.
+
+Args:
+    blocks : Always equal to 1.
+    fft_length : FFT size, 2048 or 8192.
+    occupied_tones : Active OFDM carriers, 1705 or 6817.
+    cp_length : Length of Cyclic Prefix (FFT size / 32, 16, 8 or 4).
+    snr : Initial Signal to Noise Ratio.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_ofdm_sym_acquisition_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_ofdm_sym_acquisition_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_ofdm_sym_acquisition_pydoc.h"/>
+  </compounddef>
+</doxygen>

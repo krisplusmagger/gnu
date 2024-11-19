@@ -1,0 +1,651 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="eye__sink__f__pydoc_8h" kind="file" language="C++">
+    <compoundname>eye_sink_f_pydoc.h</compoundname>
+    <includes refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>eye_sink_f_pydoc.h</label>
+        <link refid="eye__sink__f__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="eye__sink__f__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, qtgui, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a20e788cf6d237780ba444343a721d060" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f</name>
+        <initializer>= R&quot;doc(A graphical sink to display signals eye patterns.
+
+This is a QT-based graphical sink which takes set of a float streams and plots them as eye patterns. For each signal, both the signal&apos;s I and Q eye patterns are plotted. Eye patterns are 2 symbol&apos;s time long. Symbol rate must be an integer multiple of the sample rate to obtain the eye pattern.
+
+
+Trigger occurs at the beginning of each stream used to plot the eye pattern; whilst a real eye diagram would be triggered with a (recovered) symbol clock. For these reasons, triggering of noisy and/or unsynchronized signals may lead to incorrect eye pattern.
+
+
+The sink supports plotting streaming float data or messages. The message port is named \&quot;in\&quot;. The two modes cannot be used simultaneously, and  should be set to 0 when using the message mode. GRC handles this issue by providing the \&quot;Float Message\&quot; type that removes the streaming port(s).
+
+
+This sink can plot messages that contain either uniform vectors of float 32 values (<ref refid="namespacepmt_1afbdce2e3a9a172fdbdcf9da08cce862a" kindref="member">pmt::is_f32vector</ref>) or PDUs where the data is a uniform vector of float 32 values.
+
+Constructor Specific Documentation:
+
+Build floating point eye sink.
+
+Args:
+    size : number of points to plot at once
+    samp_rate : sample rate (used to set x-axis labels)
+    nconnections : number of signals connected to sink
+    parent : a QWidget parent object, if any)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1ad8efdfc2dd124a88ed9875761d0e5bca" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_eye_sink_f_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_eye_sink_f_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="42" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a5cceb72f16f5deddaca4c17559b3c627" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_eye_sink_f_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_eye_sink_f_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="45" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a550205ae0bd39d9ee0810e1019e8fe89" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_make</name>
+        <initializer>= R&quot;doc(A graphical sink to display signals eye patterns.
+
+This is a QT-based graphical sink which takes set of a float streams and plots them as eye patterns. For each signal, both the signal&apos;s I and Q eye patterns are plotted. Eye patterns are 2 symbol&apos;s time long. Symbol rate must be an integer multiple of the sample rate to obtain the eye pattern.
+
+
+Trigger occurs at the beginning of each stream used to plot the eye pattern; whilst a real eye diagram would be triggered with a (recovered) symbol clock. For these reasons, triggering of noisy and/or unsynchronized signals may lead to incorrect eye pattern.
+
+
+The sink supports plotting streaming float data or messages. The message port is named \&quot;in\&quot;. The two modes cannot be used simultaneously, and  should be set to 0 when using the message mode. GRC handles this issue by providing the \&quot;Float Message\&quot; type that removes the streaming port(s).
+
+
+This sink can plot messages that contain either uniform vectors of float 32 values (<ref refid="namespacepmt_1afbdce2e3a9a172fdbdcf9da08cce862a" kindref="member">pmt::is_f32vector</ref>) or PDUs where the data is a uniform vector of float 32 values.
+
+Constructor Specific Documentation:
+
+Build floating point eye sink.
+
+Args:
+    size : number of points to plot at once
+    samp_rate : sample rate (used to set x-axis labels)
+    nconnections : number of signals connected to sink
+    parent : a QWidget parent object, if any)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1ac565520d337fb841421e4206799a92a6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_exec_</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_exec_</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="72" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a76794a43b77522fbc9db30ad7bfdb919" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_qwidget</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_qwidget</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="75" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a80538a82bb03fe626edf8def6992ab08" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_set_y_axis</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_set_y_axis</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="78" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1ae9149954cea8c10ce18a348f13826943" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_set_y_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_set_y_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="81" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1ad2c2b9f7ef7b0321ea7f7f6624e15170" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_set_update_time</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_set_update_time</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="84" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1acf4f0b3e0d467d4edff7d10e998cfae2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_set_line_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_set_line_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="87" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a0e61e83af4338e7063ed31a06e95204e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_set_line_color</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_set_line_color</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="90" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1aba0bc16e2b4752dc82693d75b10bdc85" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_set_line_width</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_set_line_width</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="93" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a9c7073e41ea2ce4c59f5ca09c7346a4a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_set_line_style</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_set_line_style</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="96" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a2f73558cfd3bda5e61223ba51f135c3e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_set_line_marker</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_set_line_marker</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="99" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a5f2bebcdcbf688424ff2214e183336d0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_set_nsamps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_set_nsamps</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="102" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a9196628537ada4d5673b0a656f776c1c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_set_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_set_samp_rate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="105" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a19a99f08823dfcff15c9263a20d95815" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_set_samp_per_symbol</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_set_samp_per_symbol</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="108" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a47d01963b5f9f96de5f0a4af6ed187bb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_set_line_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_set_line_alpha</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="111" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a3e549feac0b872fbb98d76ef86293040" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_set_trigger_mode</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_set_trigger_mode</name>
+        <initializer>= R&quot;doc(Set up a trigger for the sink to know when to start plotting. Useful to isolate events and avoid noise.
+
+
+The trigger modes are Free, Auto, Normal, and Tag (see <ref refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91" kindref="member">gr::qtgui::trigger_mode</ref>). The first three are like a normal oscope trigger function. Free means free running with no trigger, auto will trigger if the trigger event is seen, but will still plot otherwise, and normal will hold until the trigger event is observed. The Tag trigger mode allows us to trigger off a specific stream tag. The tag trigger is based only on the name of the tag, so when a tag of the given name is seen, the trigger is activated.
+
+
+In auto and normal mode, we look for the slope of the of the signal. Given a <ref refid="namespacegr_1_1qtgui_1ad9b40f0b7d2d567bd8002fb3b9b0fd10" kindref="member">gr::qtgui::trigger_slope</ref> as either Positive or Negative, if the value between two samples moves in the given direction (x[1] &gt; x[0] for Positive or x[1] &lt; x[0] for Negative), then the trigger is activated.
+
+
+The  value is specified in time based off the sample rate. If the sample rate of the block is set to 1, the delay is then also the sample number offset. This is the offset from the left-hand y-axis of the plot. It delays the signal to show the trigger event at the given delay along with some portion of the signal before the event. The delay must be within 0 - t_max where t_max is the maximum amount of time displayed on the eye pattern equal to 2 symbol time.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="114" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a1d763d78f09dab27adf750457e28fa02" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_title</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_title</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="126" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1ae9c8a624184850c829ba1d9a623b1318" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_line_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_line_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="129" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1adc224d76e91d59a31e32eeaca7a4d49d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_line_color</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_line_color</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="132" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1aad7a3b6f91f458ed459c739b8d64cf6c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_line_width</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_line_width</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="135" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a1245b5dce81517a382c2db3f9d6c8f0c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_line_style</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_line_style</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="138" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a424088e5038fb36ae58855939b407d92" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_line_marker</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_line_marker</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="141" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1acb9b1dc322b00eaff488a768fabcb051" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_line_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_line_alpha</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="144" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a600008d89a296cab409df91c6ec5ff18" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_set_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_set_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="147" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a3c0828439bddd426e65a4e6a2a63b9f5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_enable_menu</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_enable_menu</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="150" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a858c20f6e302a4eb093eed6dc1681427" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_enable_grid</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_enable_grid</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="153" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a87872555d73f1b723bb5e00c0d343011" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_enable_autoscale</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_enable_autoscale</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="156" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a41f8a81ec2df985202e6d9dfa28bd6ff" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_enable_stem_plot</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_enable_stem_plot</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="159" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a8485b5d8ebb13d760584b46778a31bca" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_enable_semilogx</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_enable_semilogx</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="162" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a73a09a9c9e2a0103f32059fc60ab1416" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_enable_semilogy</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_enable_semilogy</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="165" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a3b4710bccbbacd444cd298d2c9a331ee" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_enable_control_panel</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_enable_control_panel</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="168" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a93be6adbdcaf20dec592a7794e432138" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_enable_tags_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_enable_tags_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="171" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a9636b22102f80ab1517fb58bb1c549d1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_enable_tags_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_enable_tags_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="174" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1a8a2aecf5d16ba0bdddd89ff70ebfb785" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_enable_axis_labels</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_enable_axis_labels</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="177" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1aa255ea95c94967a9d25197d297e14e75" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_disable_legend</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_disable_legend</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="180" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1ab011cc6a5c35a20bd475a579045db8a5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_nsamps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_nsamps</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="183" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="eye__sink__f__pydoc_8h_1ac8076dd73471633801a3fef35297cbc4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_eye_sink_f_reset</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_eye_sink_f_reset</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" line="186" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/eye_sink_f_pydoc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structv" kind="struct" language="C++" prot="public">
+    <compoundname>v</compoundname>
+    <includes refid="cc__common_8h" local="no">gnuradio/fec/cc_common.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structv_1a909cc3a676edb507dd5c1f89de22ecbb" prot="public" static="no" mutable="no">
+        <type>volk::vector&lt; unsigned char &gt;</type>
+        <definition>volk::vector&lt;unsigned char&gt; v::metrics</definition>
+        <argsstring></argsstring>
+        <name>metrics</name>
+        <qualifiedname>v::metrics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/cc_common.h" line="36" column="18" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/cc_common.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structv_1aabffd050b5ccd31a20a9dfa8af456272" prot="public" static="no" mutable="no">
+        <type><ref refid="unionmetric__t" kindref="compound">metric_t</ref></type>
+        <definition>metric_t v::old_metrics</definition>
+        <argsstring></argsstring>
+        <name>old_metrics</name>
+        <qualifiedname>v::old_metrics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/cc_common.h" line="37" column="14" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/cc_common.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structv_1a689c914a0af008f817be3d2f1fe8cf95" prot="public" static="no" mutable="no">
+        <type><ref refid="unionmetric__t" kindref="compound">metric_t</ref></type>
+        <definition>metric_t v::new_metrics</definition>
+        <argsstring></argsstring>
+        <name>new_metrics</name>
+        <qualifiedname>v::new_metrics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/cc_common.h" line="37" column="26" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/cc_common.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structv_1a2f61f8b5c10677521f957864a4f0b73b" prot="public" static="no" mutable="no">
+        <type><ref refid="unionmetric__t" kindref="compound">metric_t</ref></type>
+        <definition>metric_t v::metrics1</definition>
+        <argsstring></argsstring>
+        <name>metrics1</name>
+        <qualifiedname>v::metrics1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/cc_common.h" line="37" column="38" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/cc_common.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structv_1a4b3e0e87e3877756abfe79b258018709" prot="public" static="no" mutable="no">
+        <type><ref refid="unionmetric__t" kindref="compound">metric_t</ref></type>
+        <definition>metric_t v::metrics2</definition>
+        <argsstring></argsstring>
+        <name>metrics2</name>
+        <qualifiedname>v::metrics2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/cc_common.h" line="38" column="9" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/cc_common.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structv_1a930fcfacdc1d33bab93313867d67e1af" prot="public" static="no" mutable="no">
+        <type>volk::vector&lt; unsigned char &gt;</type>
+        <definition>volk::vector&lt;unsigned char&gt; v::decisions</definition>
+        <argsstring></argsstring>
+        <name>decisions</name>
+        <qualifiedname>v::decisions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/cc_common.h" line="39" column="18" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/cc_common.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>metric_t</label>
+        <link refid="unionmetric__t"/>
+      </node>
+      <node id="1">
+        <label>v</label>
+        <link refid="structv"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>metrics1</edgelabel>
+          <edgelabel>metrics2</edgelabel>
+          <edgelabel>new_metrics</edgelabel>
+          <edgelabel>old_metrics</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/cc_common.h" line="35" column="1" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/cc_common.h" bodystart="35" bodyend="40"/>
+    <listofallmembers>
+      <member refid="structv_1a930fcfacdc1d33bab93313867d67e1af" prot="public" virt="non-virtual"><scope>v</scope><name>decisions</name></member>
+      <member refid="structv_1a909cc3a676edb507dd5c1f89de22ecbb" prot="public" virt="non-virtual"><scope>v</scope><name>metrics</name></member>
+      <member refid="structv_1a2f61f8b5c10677521f957864a4f0b73b" prot="public" virt="non-virtual"><scope>v</scope><name>metrics1</name></member>
+      <member refid="structv_1a4b3e0e87e3877756abfe79b258018709" prot="public" virt="non-virtual"><scope>v</scope><name>metrics2</name></member>
+      <member refid="structv_1a689c914a0af008f817be3d2f1fe8cf95" prot="public" virt="non-virtual"><scope>v</scope><name>new_metrics</name></member>
+      <member refid="structv_1aabffd050b5ccd31a20a9dfa8af456272" prot="public" virt="non-virtual"><scope>v</scope><name>old_metrics</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="form__menus_8h" kind="file" language="C++">
+    <compoundname>form_menus.h</compoundname>
+    <includes local="no">QtGui/QDoubleValidator</includes>
+    <includes local="no">QtGui/QIntValidator</includes>
+    <includes local="no">QtGui/QtGui</includes>
+    <includes local="no">QComboBox</includes>
+    <includes local="no">stdexcept</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">QtWidgets/QtWidgets</includes>
+    <includes refid="firdes_8h" local="no">gnuradio/filter/firdes.h</includes>
+    <includes refid="qtgui__types_8h" local="no">gnuradio/qtgui/qtgui_types.h</includes>
+    <includes refid="trigger__mode_8h" local="no">gnuradio/qtgui/trigger_mode.h</includes>
+    <includes local="no">qwt_symbol.h</includes>
+    <includedby refid="displayform_8h" local="no">displayform.h</includedby>
+    <includedby refid="eyedisplaysform_8h" local="no">eyedisplaysform.h</includedby>
+    <includedby refid="numberdisplayform_8h" local="no">numberdisplayform.h</includedby>
+    <incdepgraph>
+      <node id="19">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="13">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>gnuradio/high_res_timer.h</label>
+        <link refid="high__res__timer_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gnuradio/fft/api.h</label>
+        <link refid="gr-fft_2include_2gnuradio_2fft_2api_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>gnuradio/fft/window.h</label>
+        <link refid="window_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>gnuradio/filter/api.h</label>
+        <link refid="gr-filter_2include_2gnuradio_2filter_2api_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>gnuradio/filter/firdes.h</label>
+        <link refid="firdes_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>form_menus.h</label>
+        <link refid="form__menus_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>gnuradio/qtgui/qtgui_types.h</label>
+        <link refid="qtgui__types_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>gnuradio/qtgui/trigger_mode.h</label>
+        <link refid="trigger__mode_8h"/>
+      </node>
+      <node id="5">
+        <label>QComboBox</label>
+      </node>
+      <node id="2">
+        <label>QtGui/QDoubleValidator</label>
+      </node>
+      <node id="3">
+        <label>QtGui/QIntValidator</label>
+      </node>
+      <node id="4">
+        <label>QtGui/QtGui</label>
+      </node>
+      <node id="8">
+        <label>QtWidgets/QtWidgets</label>
+      </node>
+      <node id="20">
+        <label>chrono</label>
+      </node>
+      <node id="15">
+        <label>cmath</label>
+      </node>
+      <node id="14">
+        <label>complex</label>
+      </node>
+      <node id="22">
+        <label>qwt_color_map.h</label>
+      </node>
+      <node id="23">
+        <label>qwt_scale_draw.h</label>
+      </node>
+      <node id="26">
+        <label>qwt_symbol.h</label>
+      </node>
+      <node id="24">
+        <label>qwt_text.h</label>
+      </node>
+      <node id="21">
+        <label>ratio</label>
+      </node>
+      <node id="6">
+        <label>stdexcept</label>
+      </node>
+      <node id="7">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>constellationdisplayform.h</label>
+        <link refid="constellationdisplayform_8h"/>
+      </node>
+      <node id="2">
+        <label>displayform.h</label>
+        <link refid="displayform_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>eyecontrolpanel.h</label>
+        <link refid="eyecontrolpanel_8h"/>
+      </node>
+      <node id="14">
+        <label>eyedisplayform.h</label>
+        <link refid="eyedisplayform_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>eyedisplaysform.h</label>
+        <link refid="eyedisplaysform_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>form_menus.h</label>
+        <link refid="form__menus_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>freqcontrolpanel.h</label>
+        <link refid="freqcontrolpanel_8h"/>
+      </node>
+      <node id="5">
+        <label>freqdisplayform.h</label>
+        <link refid="freqdisplayform_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>histogramdisplayform.h</label>
+        <link refid="histogramdisplayform_8h"/>
+      </node>
+      <node id="15">
+        <label>numberdisplayform.h</label>
+        <link refid="numberdisplayform_8h"/>
+      </node>
+      <node id="7">
+        <label>timecontrolpanel.h</label>
+        <link refid="timecontrolpanel_8h"/>
+      </node>
+      <node id="8">
+        <label>timedisplayform.h</label>
+        <link refid="timedisplayform_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>timerasterdisplayform.h</label>
+        <link refid="timerasterdisplayform_8h"/>
+      </node>
+      <node id="10">
+        <label>vectordisplayform.h</label>
+        <link refid="vectordisplayform_8h"/>
+      </node>
+      <node id="11">
+        <label>waterfalldisplayform.h</label>
+        <link refid="waterfalldisplayform_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classLineColorMenu" prot="public">LineColorMenu</innerclass>
+    <innerclass refid="classLineWidthMenu" prot="public">LineWidthMenu</innerclass>
+    <innerclass refid="classLineStyleMenu" prot="public">LineStyleMenu</innerclass>
+    <innerclass refid="classLineMarkerMenu" prot="public">LineMarkerMenu</innerclass>
+    <innerclass refid="classMarkerAlphaMenu" prot="public">MarkerAlphaMenu</innerclass>
+    <innerclass refid="classLineTitleAction" prot="public">LineTitleAction</innerclass>
+    <innerclass refid="classAverageMenu" prot="public">AverageMenu</innerclass>
+    <innerclass refid="classFFTAverageMenu" prot="public">FFTAverageMenu</innerclass>
+    <innerclass refid="classFFTWindowMenu" prot="public">FFTWindowMenu</innerclass>
+    <innerclass refid="classNPointsMenu" prot="public">NPointsMenu</innerclass>
+    <innerclass refid="classColorMapMenu" prot="public">ColorMapMenu</innerclass>
+    <innerclass refid="classTriggerModeMenu" prot="public">TriggerModeMenu</innerclass>
+    <innerclass refid="classTriggerSlopeMenu" prot="public">TriggerSlopeMenu</innerclass>
+    <innerclass refid="classTriggerChannelMenu" prot="public">TriggerChannelMenu</innerclass>
+    <innerclass refid="classNumberLayoutMenu" prot="public">NumberLayoutMenu</innerclass>
+    <innerclass refid="classNumberColorMapMenu" prot="public">NumberColorMapMenu</innerclass>
+    <innerclass refid="classPopupMenu" prot="public">PopupMenu</innerclass>
+    <innerclass refid="classItemFloatAct" prot="public">ItemFloatAct</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h"/>
+  </compounddef>
+</doxygen>

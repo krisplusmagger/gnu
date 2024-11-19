@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="keep__m__in__n__pydoc_8h" kind="file" language="C++">
+    <compoundname>keep_m_in_n_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>keep_m_in_n_pydoc.h</label>
+        <link refid="keep__m__in__n__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="keep__m__in__n__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="keep__m__in__n__pydoc_8h_1af1e70893821aab04994ad7b7ad234696" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_keep_m_in_n</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_keep_m_in_n</name>
+        <initializer>= R&quot;doc(decimate a stream, keeping the first  items out of every  starting after  items.
+
+Constructor Specific Documentation:
+
+Make a keep m in n block.
+
+Args:
+    itemsize : stream itemsize
+    m : number of items to take in block of  items
+    n : block size in items
+    offset : initial item offset into the stream)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="keep__m__in__n__pydoc_8h_1ab3690bfe434e2c761d81be099393e883" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_keep_m_in_n_keep_m_in_n_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_keep_m_in_n_keep_m_in_n_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" line="31" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="keep__m__in__n__pydoc_8h_1a9d039abe866f35ca63ea672c0edf5123" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_keep_m_in_n_keep_m_in_n_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_keep_m_in_n_keep_m_in_n_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="keep__m__in__n__pydoc_8h_1a1d1c9ac5c18d57a7084fca966f9bc50a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_keep_m_in_n_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_keep_m_in_n_make</name>
+        <initializer>= R&quot;doc(decimate a stream, keeping the first  items out of every  starting after  items.
+
+Constructor Specific Documentation:
+
+Make a keep m in n block.
+
+Args:
+    itemsize : stream itemsize
+    m : number of items to take in block of  items
+    n : block size in items
+    offset : initial item offset into the stream)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="keep__m__in__n__pydoc_8h_1a925ce8ef32a2adce3240e3525cef95ae" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_keep_m_in_n_set_m</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_keep_m_in_n_set_m</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="keep__m__in__n__pydoc_8h_1a8db95741ba2563789a48002fb5088b81" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_keep_m_in_n_set_n</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_keep_m_in_n_set_n</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="keep__m__in__n__pydoc_8h_1ab22b3330b3b86688b8675203a9190896" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_keep_m_in_n_set_offset</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_keep_m_in_n_set_offset</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" line="56" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/keep_m_in_n_pydoc.h"/>
+  </compounddef>
+</doxygen>

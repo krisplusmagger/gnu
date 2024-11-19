@@ -1,0 +1,681 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1digital_1_1header__format__default" kind="class" language="C++" prot="public">
+    <compoundname>gr::digital::header_format_default</compoundname>
+    <basecompoundref refid="classgr_1_1digital_1_1header__format__base" prot="public" virt="non-virtual">gr::digital::header_format_base</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1digital_1_1header__format__counter" prot="public" virt="non-virtual">gr::digital::header_format_counter</derivedcompoundref>
+    <includes refid="header__format__default_8h" local="no">gnuradio/digital/header_format_default.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1digital_1_1header__format__default_1abfa09cca28dc43737f07e219ec323a9b" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1digital_1_1header__format__default" kindref="compound">header_format_default</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;header_format_default&gt; gr::digital::header_format_default::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::digital::header_format_default::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="71" column="29" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgr_1_1digital_1_1header__format__default_1ae6a83f256705b2dcd0f7da972cfc8f53" prot="protected" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::digital::header_format_default::d_access_code</definition>
+        <argsstring></argsstring>
+        <name>d_access_code</name>
+        <qualifiedname>gr::digital::header_format_default::d_access_code</qualifiedname>
+        <briefdescription>
+<para>register to hold the access code </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="175" column="14" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1header__format__default_1a106909b7bc602d0e33102193d8a7de63" prot="protected" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::digital::header_format_default::d_access_code_len</definition>
+        <argsstring></argsstring>
+        <name>d_access_code_len</name>
+        <qualifiedname>gr::digital::header_format_default::d_access_code_len</qualifiedname>
+        <briefdescription>
+<para>length in bits of the access code </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="176" column="12" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1header__format__default_1a2e1a41342ea34aece31bfb536d72b8fb" prot="protected" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::digital::header_format_default::d_bps</definition>
+        <argsstring></argsstring>
+        <name>d_bps</name>
+        <qualifiedname>gr::digital::header_format_default::d_bps</qualifiedname>
+        <briefdescription>
+<para>bits/sec of payload modulation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="178" column="14" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1header__format__default_1ab1d05edf242fd4f9afc33b7dfde8f8b2" prot="protected" static="no" mutable="no">
+        <type>unsigned long long</type>
+        <definition>unsigned long long gr::digital::header_format_default::d_data_reg</definition>
+        <argsstring></argsstring>
+        <name>d_data_reg</name>
+        <qualifiedname>gr::digital::header_format_default::d_data_reg</qualifiedname>
+        <briefdescription>
+<para>used to look for access_code </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="180" column="24" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1header__format__default_1a80c95f810309c1c2c002c13c7bf09014" prot="protected" static="no" mutable="no">
+        <type>unsigned long long</type>
+        <definition>unsigned long long gr::digital::header_format_default::d_mask</definition>
+        <argsstring></argsstring>
+        <name>d_mask</name>
+        <qualifiedname>gr::digital::header_format_default::d_mask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>masks access_code bits (top N bits are set where N is the number of bits in the access code) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="181" column="24" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1header__format__default_1ac433e0b39ded27be1761acbf6bd3b27c" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::digital::header_format_default::d_threshold</definition>
+        <argsstring></argsstring>
+        <name>d_threshold</name>
+        <qualifiedname>gr::digital::header_format_default::d_threshold</qualifiedname>
+        <briefdescription>
+<para>how many bits may be wrong in sync vector </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="183" column="18" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1header__format__default_1abc8c47c589bf728f8521fe72077b371a" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::digital::header_format_default::d_pkt_len</definition>
+        <argsstring></argsstring>
+        <name>d_pkt_len</name>
+        <qualifiedname>gr::digital::header_format_default::d_pkt_len</qualifiedname>
+        <briefdescription>
+<para>Length of the packet to put into the output buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="185" column="9" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1header__format__default_1af024044a5b4a6a43d0975eae00327124" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::digital::header_format_default::d_pkt_count</definition>
+        <argsstring></argsstring>
+        <name>d_pkt_count</name>
+        <qualifiedname>gr::digital::header_format_default::d_pkt_count</qualifiedname>
+        <briefdescription>
+<para>Number of bytes bits already received. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="186" column="9" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1header__format__default_1a3b28410d6baab5fd8e626bbe35cde44c" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::digital::header_format_default::d_nbits</definition>
+        <argsstring></argsstring>
+        <name>d_nbits</name>
+        <qualifiedname>gr::digital::header_format_default::d_nbits</qualifiedname>
+        <briefdescription>
+<para>num bits processed since reset </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="188" column="9" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1digital_1_1header__format__default_1af3973a7899b82cd59dde82c0fae9351e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::digital::header_format_default::header_format_default</definition>
+        <argsstring>(const std::string &amp;access_code, int threshold, int bps)</argsstring>
+        <name>header_format_default</name>
+        <qualifiedname>gr::digital::header_format_default::header_format_default</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>access_code</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>threshold</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="72" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1header__format__default_1a288bf5a43feeda80f5ca34dc8575bbf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::digital::header_format_default::~header_format_default</definition>
+        <argsstring>() override</argsstring>
+        <name>~header_format_default</name>
+        <qualifiedname>gr::digital::header_format_default::~header_format_default</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="73" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1header__format__default_1abb0c70a73b247068af2d4e2f8669a6d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool gr::digital::header_format_default::format</definition>
+        <argsstring>(int nbytes_in, const unsigned char *input, pmt::pmt_t &amp;output, pmt::pmt_t &amp;info) override</argsstring>
+        <name>format</name>
+        <qualifiedname>gr::digital::header_format_default::format</qualifiedname>
+        <reimplements refid="classgr_1_1digital_1_1header__format__base_1a474a23d04b7f43dee207cc4a56a433dc">format</reimplements>
+        <param>
+          <type>int</type>
+          <declname>nbytes_in</declname>
+        </param>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a header from the access code and packet length and creates an output header as a PMT vector in the form:</para>
+<para><verbatim>  | access code | pkt len | pkt len |
+</verbatim></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nbytes_in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The length (in bytes) of the <computeroutput>input</computeroutput> payload </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of unsigned chars of the packet payload </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pmt::u8vector with the new header prepended onto the input data. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pmt::dict containing meta data and info about the PDU (generally from the metadata portion of the input PDU). Data can be extracted from this for the header formatting or inserted. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="92" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1header__format__default_1a1afa03fb00c304107f6b34b0f7c79737" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool gr::digital::header_format_default::parse</definition>
+        <argsstring>(int nbits_in, const unsigned char *input, std::vector&lt; pmt::pmt_t &gt; &amp;info, int &amp;nbits_processed) override</argsstring>
+        <name>parse</name>
+        <qualifiedname>gr::digital::header_format_default::parse</qualifiedname>
+        <reimplements refid="classgr_1_1digital_1_1header__format__base_1af1eecb5bc63e1186a08f001db78a39ba">parse</reimplements>
+        <param>
+          <type>int</type>
+          <declname>nbits_in</declname>
+        </param>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref> &gt; &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>nbits_processed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parses a header of the form:</para>
+<para><verbatim>  | access code | pkt len | pkt len | payload |
+</verbatim></para>
+<para>This is implemented as a state machine that starts off searching for the access code. Once found, the access code is used to find the start of the packet and the following header. This default header encodes the length of the payload a 16 bit integer twice. The state machine finds the header and checks that both payload length values are the same. It then goes into its final state that reads in the payload (based on the payload length) and produces a payload as a PMT u8 vector of packed bytes.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nbits_in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of bits in the input array. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input as hard decision bits. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A vector of pmt::dicts to hold any meta data or info about the PDU. When parsing the header, the formatter can add info from the header into this dict. Each packet has a single PMT dictionary of info, so the vector length is the number of packets received extracted during one call to this parser function. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbits_processed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of input bits actually processed; If all goes well, this is nbits_in. A premature return after a bad header could be less than this. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="127" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1header__format__default_1abac5fd3445e4e40c2339bc89bc151bee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>size_t gr::digital::header_format_default::header_nbits</definition>
+        <argsstring>() const override</argsstring>
+        <name>header_nbits</name>
+        <qualifiedname>gr::digital::header_format_default::header_nbits</qualifiedname>
+        <reimplements refid="classgr_1_1digital_1_1header__format__base_1a2a29bbba93657362cb030dae2ca44fb9">header_nbits</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the length of the formatted header in bits. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="135" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1header__format__default_1af5c71fef195772a38c94299d4e280ee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::digital::header_format_default::set_access_code</definition>
+        <argsstring>(const std::string &amp;access_code)</argsstring>
+        <name>set_access_code</name>
+        <qualifiedname>gr::digital::header_format_default::set_access_code</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>access_code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Updates the access code. Must be a string of 1&apos;s and 0&apos;s and &lt;= 64 bits. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="141" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1header__format__default_1a91b425a39c1a7bc24349b2a873b8f663" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned long long</type>
+        <definition>unsigned long long gr::digital::header_format_default::access_code</definition>
+        <argsstring>() const</argsstring>
+        <name>access_code</name>
+        <qualifiedname>gr::digital::header_format_default::access_code</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the formatted access code as a 64-bit register. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="146" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1header__format__default_1a8a21951e500dcb3c0fd1875f9d7dcad4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::digital::header_format_default::set_threshold</definition>
+        <argsstring>(unsigned int thresh=0)</argsstring>
+        <name>set_threshold</name>
+        <qualifiedname>gr::digital::header_format_default::set_threshold</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>thresh</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the threshold for number of access code bits can be in error before detection. Defaults to 0. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="152" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1header__format__default_1a432cb7a1dc708a339b9fb36e372a9795" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::digital::header_format_default::threshold</definition>
+        <argsstring>() const</argsstring>
+        <name>threshold</name>
+        <qualifiedname>gr::digital::header_format_default::threshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns threshold value for access code detection. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="157" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1digital_1_1header__format__default_1a521928cf87a8400725c15a0c8e3b6924" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1digital_1_1header__format__default_1abfa09cca28dc43737f07e219ec323a9b" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::digital::header_format_default::make</definition>
+        <argsstring>(const std::string &amp;access_code, int threshold, int bps=1)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::digital::header_format_default::make</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>access_code</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>threshold</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bps</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Factory to create an async packet header formatter; returns an sptr to the object.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>access_code</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An access code that is used to find and synchronize the start of a packet. Used in the parser and in other blocks like a corr_est block that helps trigger the receiver. Can be up to 64-bits long. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>threshold</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>How many bits can be wrong in the access code and still count as correct. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of bits/second used in the payload&apos;s modulator. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="172" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1digital_1_1header__format__default_1a528d86f908e5d5b15f533ee497a4d21d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::digital::header_format_default::enter_have_sync</definition>
+        <argsstring>() override</argsstring>
+        <name>enter_have_sync</name>
+        <qualifiedname>gr::digital::header_format_default::enter_have_sync</qualifiedname>
+        <reimplements refid="classgr_1_1digital_1_1header__format__base_1a404596256ca742f4b3e6c11b001e0490">enter_have_sync</reimplements>
+        <briefdescription>
+<para>Access code found, start getting the header. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="191" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1header__format__default_1a4960602b160b24d8e0687c43e392b718" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::digital::header_format_default::enter_have_header</definition>
+        <argsstring>(int payload_len) override</argsstring>
+        <name>enter_have_header</name>
+        <qualifiedname>gr::digital::header_format_default::enter_have_header</qualifiedname>
+        <reimplements refid="classgr_1_1digital_1_1header__format__base_1a9680b0ad5fa7d472dcef59a60ec91b4c">enter_have_header</reimplements>
+        <param>
+          <type>int</type>
+          <declname>payload_len</declname>
+        </param>
+        <briefdescription>
+<para>Header found, setup for pulling in the hard decision bits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="194" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1header__format__default_1ae91bcc5f3306f7f480884b189a99dc1e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool gr::digital::header_format_default::header_ok</definition>
+        <argsstring>() override</argsstring>
+        <name>header_ok</name>
+        <qualifiedname>gr::digital::header_format_default::header_ok</qualifiedname>
+        <reimplements refid="classgr_1_1digital_1_1header__format__base_1a1bf6fe4f690b6484ff95b0f3b6facd57">header_ok</reimplements>
+        <briefdescription>
+<para>Verify that the header is valid. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="197" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1header__format__default_1a69ee888e0e66a530a78f1cf06eead787" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int gr::digital::header_format_default::header_payload</definition>
+        <argsstring>() override</argsstring>
+        <name>header_payload</name>
+        <qualifiedname>gr::digital::header_format_default::header_payload</qualifiedname>
+        <reimplements refid="classgr_1_1digital_1_1header__format__base_1a56f72e4249334964b941a96663221d10">header_payload</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get info from the header; return payload length and package rest of data in d_info dictionary. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="202" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Default header formatter for PDU formatting. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Used to handle the default packet header.</para>
+<para>See the parent class <ref refid="classgr_1_1digital_1_1header__format__base" kindref="compound">header_format_base</ref> for details of how these classes operate.</para>
+<para>The default header created in this base class consists of an access code and the packet length. The length is encoded as a 16-bit value repeated twice:</para>
+<para><verbatim>  | access code | hdr | payload |
+</verbatim></para>
+<para>Where the access code is &lt;= 64 bits and hdr is:</para>
+<para><verbatim>  |  0 -- 15 | 16 -- 31 |
+  | pkt len  | pkt len  |
+</verbatim></para>
+<para>The access code and header are formatted for network byte order.</para>
+<para>This header generator does not calculate or append a CRC to the packet. Use the CRC32 Async block for that before adding the header. The header&apos;s length will then measure the payload plus the CRC length (4 bytes for a CRC32).</para>
+<para>The default header parser produces a PMT dictionary that contains the following keys. All formatter blocks MUST produce these two values in any dictionary.</para>
+<para><itemizedlist>
+<listitem><para>&quot;payload symbols&quot;: the number of symbols in the payload. The payload decoder will have to know how this relates to the number of bits received. This block knows nothing about the payload modulation or the number of bits/symbol. Use the <ref refid="classgr_1_1digital_1_1header__format__counter" kindref="compound">gr::digital::header_format_counter</ref> for that purpose.</para>
+</listitem>
+</itemizedlist>
+<simplesect kind="see"><para><ref refid="classgr_1_1digital_1_1header__format__counter" kindref="compound">header_format_counter</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classgr_1_1digital_1_1header__format__crc" kindref="compound">header_format_crc</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classgr_1_1digital_1_1header__format__ofdm" kindref="compound">header_format_ofdm</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::digital::header_format_base</label>
+        <link refid="classgr_1_1digital_1_1header__format__base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gr::digital::header_format_counter</label>
+        <link refid="classgr_1_1digital_1_1header__format__counter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::digital::header_format_default</label>
+        <link refid="classgr_1_1digital_1_1header__format__default"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::enable_shared_from_this&lt; gr::digital::header_format_base &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>gr::digital::header_buffer</label>
+        <link refid="classgr_1_1digital_1_1header__buffer"/>
+      </node>
+      <node id="2">
+        <label>gr::digital::header_format_base</label>
+        <link refid="classgr_1_1digital_1_1header__format__base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_hdr_reg</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>d_info</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>d_debug_logger</edgelabel>
+          <edgelabel>d_logger</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::digital::header_format_default</label>
+        <link refid="classgr_1_1digital_1_1header__format__default"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::shared_ptr&lt; logger &gt;</label>
+      </node>
+      <node id="5">
+        <label>std::shared_ptr&lt; pmt_base &gt;</label>
+      </node>
+      <node id="3">
+        <label>std::enable_shared_from_this&lt; gr::digital::header_format_base &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" line="68" column="1" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h" bodystart="69" bodyend="203"/>
+    <listofallmembers>
+      <member refid="classgr_1_1digital_1_1header__format__default_1a91b425a39c1a7bc24349b2a873b8f663" prot="public" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>access_code</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__base_1a5a7b2939707146f2b28d7e91e04103c2" prot="public" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>base</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1ae6a83f256705b2dcd0f7da972cfc8f53" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>d_access_code</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1a106909b7bc602d0e33102193d8a7de63" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>d_access_code_len</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1a2e1a41342ea34aece31bfb536d72b8fb" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>d_bps</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1ab1d05edf242fd4f9afc33b7dfde8f8b2" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>d_data_reg</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__base_1a0b9d68d2bbe2150a467a1b033c94f0f3" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>d_debug_logger</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__base_1a215bc24b277bb10c79308fdf1503e40e" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>d_hdr_reg</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__base_1a07a45e28050b53bb8f49e7e6e3c82399" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>d_info</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__base_1a1dbf3bde87823470f48819db89e132d5" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>d_logger</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1a80c95f810309c1c2c002c13c7bf09014" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>d_mask</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1a3b28410d6baab5fd8e626bbe35cde44c" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>d_nbits</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1af024044a5b4a6a43d0975eae00327124" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>d_pkt_count</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1abc8c47c589bf728f8521fe72077b371a" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>d_pkt_len</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__base_1a68188f0d090ed7714601cecfa9db8a50" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>d_state</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1ac433e0b39ded27be1761acbf6bd3b27c" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>d_threshold</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1a4960602b160b24d8e0687c43e392b718" prot="protected" virt="virtual"><scope>gr::digital::header_format_default</scope><name>enter_have_header</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1a528d86f908e5d5b15f533ee497a4d21d" prot="protected" virt="virtual"><scope>gr::digital::header_format_default</scope><name>enter_have_sync</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__base_1aa3e7d6bb51dab765439a53123da36061" prot="protected" virt="virtual"><scope>gr::digital::header_format_default</scope><name>enter_search</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1abb0c70a73b247068af2d4e2f8669a6d2" prot="public" virt="virtual"><scope>gr::digital::header_format_default</scope><name>format</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__base_1aba944a279dc29a7ec716f9a7cc36348b" prot="public" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>formatter</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__base_1ac0504f677b7506f9acc2b204f8fbea75" prot="public" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>header_format_base</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1af3973a7899b82cd59dde82c0fae9351e" prot="public" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>header_format_default</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1abac5fd3445e4e40c2339bc89bc151bee" prot="public" virt="virtual"><scope>gr::digital::header_format_default</scope><name>header_nbits</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__base_1adbde345d805bdd51191d4d19a066c421" prot="public" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>header_nbytes</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1ae91bcc5f3306f7f480884b189a99dc1e" prot="protected" virt="virtual"><scope>gr::digital::header_format_default</scope><name>header_ok</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1a69ee888e0e66a530a78f1cf06eead787" prot="protected" virt="virtual"><scope>gr::digital::header_format_default</scope><name>header_payload</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1a521928cf87a8400725c15a0c8e3b6924" prot="public" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>make</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1a1afa03fb00c304107f6b34b0f7c79737" prot="public" virt="virtual"><scope>gr::digital::header_format_default</scope><name>parse</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1af5c71fef195772a38c94299d4e280ee0" prot="public" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>set_access_code</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1a8a21951e500dcb3c0fd1875f9d7dcad4" prot="public" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>set_threshold</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1abfa09cca28dc43737f07e219ec323a9b" prot="public" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>sptr</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__base_1a75e1a71f4ae157073a8430dcf247a84caea34dac0667ecb2b45a3984073e237d1" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>STATE_HAVE_SYNC</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__base_1a75e1a71f4ae157073a8430dcf247a84ca16dfc49f94e86da45f2ee72a6fd5545d" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>STATE_SYNC_SEARCH</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__base_1a75e1a71f4ae157073a8430dcf247a84c" prot="protected" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>state_t</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1a432cb7a1dc708a339b9fb36e372a9795" prot="public" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>threshold</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__base_1ab47c2e30885850d805a9854345b630f5" prot="public" virt="virtual"><scope>gr::digital::header_format_default</scope><name>~header_format_base</name></member>
+      <member refid="classgr_1_1digital_1_1header__format__default_1a288bf5a43feeda80f5ca34dc8575bbf2" prot="public" virt="non-virtual"><scope>gr::digital::header_format_default</scope><name>~header_format_default</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

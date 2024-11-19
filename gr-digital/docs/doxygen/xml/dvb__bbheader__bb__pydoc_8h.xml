@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dvb__bbheader__bb__pydoc_8h" kind="file" language="C++">
+    <compoundname>dvb_bbheader_bb_pydoc.h</compoundname>
+    <includes refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>dvb_bbheader_bb_pydoc.h</label>
+        <link refid="dvb__bbheader__bb__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dvb__bbheader__bb__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, dtv, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_bbheader_bb_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_bbheader_bb_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="dvb__bbheader__bb__pydoc_8h_1a664173a2ba708c60dfc18d8755925fbc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvb_bbheader_bb</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvb_bbheader_bb</name>
+        <initializer>= R&quot;doc(Formats MPEG-2 Transport Stream packets into FEC baseband frames and adds a 10-byte header.
+
+Input: 188-byte MPEG-2 Transport Stream packets. 
+Output: Variable length FEC baseband frames (BBFRAME). The output frame length is based on the FEC rate.
+
+Constructor Specific Documentation:
+
+Create a baseband header formatter.
+
+Args:
+    standard : DVB standard (DVB-S2 or DVB-T2).
+    framesize : FEC frame size (normal, medium or short).
+    rate : FEC code rate.
+    rolloff : DVB-S2 root-raised-cosine filter roll-off.
+    mode : DVB-T2 input processing mode.
+    inband : DVB-T2 Type B in-band signalling.
+    fecblocks : DVB-T2 number of FEC block for in-band signalling.
+    tsrate : DVB-T2 Transport Stream rate for in-band signalling.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_bbheader_bb_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_bbheader_bb_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvb__bbheader__bb__pydoc_8h_1acf927c3f2cf3105d4aa0211d74822bff" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvb_bbheader_bb_dvb_bbheader_bb</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvb_bbheader_bb_dvb_bbheader_bb</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_bbheader_bb_pydoc.h" line="38" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_bbheader_bb_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvb__bbheader__bb__pydoc_8h_1a49817bb4de52027c39c1f319eaa5be14" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvb_bbheader_bb_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvb_bbheader_bb_make</name>
+        <initializer>= R&quot;doc(Formats MPEG-2 Transport Stream packets into FEC baseband frames and adds a 10-byte header.
+
+Input: 188-byte MPEG-2 Transport Stream packets. 
+Output: Variable length FEC baseband frames (BBFRAME). The output frame length is based on the FEC rate.
+
+Constructor Specific Documentation:
+
+Create a baseband header formatter.
+
+Args:
+    standard : DVB standard (DVB-S2 or DVB-T2).
+    framesize : FEC frame size (normal, medium or short).
+    rate : FEC code rate.
+    rolloff : DVB-S2 root-raised-cosine filter roll-off.
+    mode : DVB-T2 input processing mode.
+    inband : DVB-T2 Type B in-band signalling.
+    fecblocks : DVB-T2 number of FEC block for in-band signalling.
+    tsrate : DVB-T2 Transport Stream rate for in-band signalling.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_bbheader_bb_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_bbheader_bb_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvb_bbheader_bb_pydoc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dictionary__logger__backend_8h" kind="file" language="C++">
+    <compoundname>dictionary_logger_backend.h</compoundname>
+    <includes local="no">spdlog/common.h</includes>
+    <includes local="no">spdlog/details/null_mutex.h</includes>
+    <includes local="no">spdlog/sinks/base_sink.h</includes>
+    <includes local="no">unordered_map</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">mutex</includes>
+    <includes local="no">regex</includes>
+    <includes local="no">set</includes>
+    <includes local="no">utility</includes>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2api_8h" local="no">gnuradio/api.h</includes>
+    <incdepgraph>
+      <node id="11">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1">
+        <label>dictionary_logger_backend.h</label>
+        <link refid="dictionary__logger__backend_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>memory</label>
+      </node>
+      <node id="7">
+        <label>mutex</label>
+      </node>
+      <node id="8">
+        <label>regex</label>
+      </node>
+      <node id="9">
+        <label>set</label>
+      </node>
+      <node id="2">
+        <label>spdlog/common.h</label>
+      </node>
+      <node id="3">
+        <label>spdlog/details/null_mutex.h</label>
+      </node>
+      <node id="4">
+        <label>spdlog/sinks/base_sink.h</label>
+      </node>
+      <node id="5">
+        <label>unordered_map</label>
+      </node>
+      <node id="10">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1dictionary__logger__backend" prot="public">gr::dictionary_logger_backend</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h"/>
+  </compounddef>
+</doxygen>

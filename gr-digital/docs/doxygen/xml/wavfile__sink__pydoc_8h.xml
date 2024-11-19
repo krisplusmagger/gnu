@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="wavfile__sink__pydoc_8h" kind="file" language="C++">
+    <compoundname>wavfile_sink_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>wavfile_sink_pydoc.h</label>
+        <link refid="wavfile__sink__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="wavfile__sink__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="wavfile__sink__pydoc_8h_1a97020013276d831a9ff43360695a9595" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_wavfile_sink</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_wavfile_sink</name>
+        <initializer>= R&quot;doc(Write stream to a Microsoft PCM (.wav) file.
+
+Values must be floats within [-1;1]. Check gr_make_wavfile_sink() for extra info.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    filename : 
+    n_channels : 
+    sample_rate : 
+    format : 
+    subformat : 
+    append : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="wavfile__sink__pydoc_8h_1aadb470b5785a6bd2500b7ad7da223c44" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_wavfile_sink_wavfile_sink_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_wavfile_sink_wavfile_sink_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" line="35" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="wavfile__sink__pydoc_8h_1a364ecf25297418d5e796e3148c57bbf3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_wavfile_sink_wavfile_sink_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_wavfile_sink_wavfile_sink_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" line="38" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="wavfile__sink__pydoc_8h_1aaea08d3ce67d8410a02bc2827ee35825" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_wavfile_sink_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_wavfile_sink_make</name>
+        <initializer>= R&quot;doc(Write stream to a Microsoft PCM (.wav) file.
+
+Values must be floats within [-1;1]. Check gr_make_wavfile_sink() for extra info.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    filename : 
+    n_channels : 
+    sample_rate : 
+    format : 
+    subformat : 
+    append : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="wavfile__sink__pydoc_8h_1ad9e55b9643e2cae4064b16b047961fd5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_wavfile_sink_open</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_wavfile_sink_open</name>
+        <initializer>= R&quot;doc(Opens a new file and writes a WAV header. Thread-safe.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" line="58" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="wavfile__sink__pydoc_8h_1ada5de3d51bdeae2a5c44ce68a0053f59" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_wavfile_sink_close</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_wavfile_sink_close</name>
+        <initializer>= R&quot;doc(Closes the currently active file and completes the WAV header. Thread-safe.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" line="61" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="wavfile__sink__pydoc_8h_1a67ce1d3d6aa84271c40e039f092bb770" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_wavfile_sink_set_sample_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_wavfile_sink_set_sample_rate</name>
+        <initializer>= R&quot;doc(Set the sample rate. This will not affect the WAV file currently opened. Any following open() calls will use this new sample rate.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" line="64" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="wavfile__sink__pydoc_8h_1a5be3740171b06620426aedad0f899df8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_wavfile_sink_set_bits_per_sample</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_wavfile_sink_set_bits_per_sample</name>
+        <initializer>= R&quot;doc(Set bits per sample. This will not affect the WAV file currently opened (see set_sample_rate()). If the value is neither 8 nor 16, the call is ignored and the current value is kept.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" line="67" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="wavfile__sink__pydoc_8h_1a5de4c1a9b59a6077e9d1b752422d9122" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_wavfile_sink_set_append</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_wavfile_sink_set_append</name>
+        <initializer>= R&quot;doc(Enable appending to an existing file instead of creating it. This will not affect the WAV file currently opened (see set_sample_rate()).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" line="70" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/wavfile_sink_pydoc.h"/>
+  </compounddef>
+</doxygen>

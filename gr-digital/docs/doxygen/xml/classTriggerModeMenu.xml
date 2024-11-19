@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classTriggerModeMenu" kind="class" language="C++" prot="public">
+    <compoundname>TriggerModeMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMenu</basecompoundref>
+    <includes refid="form__menus_8h" local="no">gnuradio/qtgui/form_menus.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classTriggerModeMenu_1a93db0bc2261b95dce35349bf01a85ca1" prot="private" static="no" mutable="no">
+        <type>QList&lt; QAction * &gt;</type>
+        <definition>QList&lt;QAction*&gt; TriggerModeMenu::d_act</definition>
+        <argsstring></argsstring>
+        <name>d_act</name>
+        <qualifiedname>TriggerModeMenu::d_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="911" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="911" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTriggerModeMenu_1addad00a96061c340fc893d489f7746a4" prot="private" static="no" mutable="no">
+        <type>QActionGroup *</type>
+        <definition>QActionGroup* TriggerModeMenu::d_grp</definition>
+        <argsstring></argsstring>
+        <name>d_grp</name>
+        <qualifiedname>TriggerModeMenu::d_grp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="912" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="912" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTriggerModeMenu_1abb4e989bc6af89372942bc02583d2e31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TriggerModeMenu::TriggerModeMenu</definition>
+        <argsstring>(QWidget *parent)</argsstring>
+        <name>TriggerModeMenu</name>
+        <qualifiedname>TriggerModeMenu::TriggerModeMenu</qualifiedname>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="847" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="847" bodyend="867"/>
+        <references refid="classTriggerModeMenu_1aabe12afa73adc9a02895c08d3ea0a88c" compoundref="form__menus_8h" startline="906" endline="906">getAuto</references>
+        <references refid="classTriggerModeMenu_1a68f971526512d87793a07bfecd0899b5" compoundref="form__menus_8h" startline="905" endline="905">getFree</references>
+        <references refid="classTriggerModeMenu_1a9adb893c8be2c2804cd4870293123e16" compoundref="form__menus_8h" startline="907" endline="907">getNorm</references>
+        <references refid="classTriggerModeMenu_1af013d66a62cabadc72e99a5fee93b61f" compoundref="form__menus_8h" startline="908" endline="908">getTag</references>
+      </memberdef>
+      <memberdef kind="function" id="classTriggerModeMenu_1a161707a68b646a0daa49a24b84c9e577" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TriggerModeMenu::~TriggerModeMenu</definition>
+        <argsstring>() override</argsstring>
+        <name>~TriggerModeMenu</name>
+        <qualifiedname>TriggerModeMenu::~TriggerModeMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="869" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="869" bodyend="869"/>
+      </memberdef>
+      <memberdef kind="function" id="classTriggerModeMenu_1a5b2b6962c00868e52b51ea991732b9ba" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TriggerModeMenu::getNumActions</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumActions</name>
+        <qualifiedname>TriggerModeMenu::getNumActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="871" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="871" bodyend="871"/>
+      </memberdef>
+      <memberdef kind="function" id="classTriggerModeMenu_1af40c931304f117a24b0c74ad005c36dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * TriggerModeMenu::getAction</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>getAction</name>
+        <qualifiedname>TriggerModeMenu::getAction</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="873" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="873" bodyend="879"/>
+      </memberdef>
+      <memberdef kind="function" id="classTriggerModeMenu_1aa9605968ff7c6ccc5db0c76a7f148019" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * TriggerModeMenu::getAction</definition>
+        <argsstring>(gr::qtgui::trigger_mode mode)</argsstring>
+        <name>getAction</name>
+        <qualifiedname>TriggerModeMenu::getAction</qualifiedname>
+        <param>
+          <type><ref refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91" kindref="member">gr::qtgui::trigger_mode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="881" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="881" bodyend="899"/>
+        <references refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91a5b39b66661bd0408b950df30c45d2cd7" compoundref="trigger__mode_8h" startline="19">gr::qtgui::TRIG_MODE_AUTO</references>
+        <references refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91a29c62a7c8f97247269c84c4088c87a1c" compoundref="trigger__mode_8h" startline="18">gr::qtgui::TRIG_MODE_FREE</references>
+        <references refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91a45c75c9d356c5aa39bdc4dc108927259" compoundref="trigger__mode_8h" startline="20">gr::qtgui::TRIG_MODE_NORM</references>
+        <references refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91a90f57226a0cbd95f63a92c94485fda74" compoundref="trigger__mode_8h" startline="21">gr::qtgui::TRIG_MODE_TAG</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classTriggerModeMenu_1ac9251bb7baf8179fa9e93056646a7f90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerModeMenu::whichTrigger</definition>
+        <argsstring>(gr::qtgui::trigger_mode mode)</argsstring>
+        <name>whichTrigger</name>
+        <qualifiedname>TriggerModeMenu::whichTrigger</qualifiedname>
+        <param>
+          <type><ref refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91" kindref="member">gr::qtgui::trigger_mode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="902" column="10"/>
+        <referencedby refid="classTriggerModeMenu_1aabe12afa73adc9a02895c08d3ea0a88c" compoundref="form__menus_8h" startline="906" endline="906">getAuto</referencedby>
+        <referencedby refid="classTriggerModeMenu_1a68f971526512d87793a07bfecd0899b5" compoundref="form__menus_8h" startline="905" endline="905">getFree</referencedby>
+        <referencedby refid="classTriggerModeMenu_1a9adb893c8be2c2804cd4870293123e16" compoundref="form__menus_8h" startline="907" endline="907">getNorm</referencedby>
+        <referencedby refid="classTriggerModeMenu_1af013d66a62cabadc72e99a5fee93b61f" compoundref="form__menus_8h" startline="908" endline="908">getTag</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classTriggerModeMenu_1a68f971526512d87793a07bfecd0899b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerModeMenu::getFree</definition>
+        <argsstring>()</argsstring>
+        <name>getFree</name>
+        <qualifiedname>TriggerModeMenu::getFree</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="905" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="905" bodyend="905"/>
+        <references refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91a29c62a7c8f97247269c84c4088c87a1c" compoundref="trigger__mode_8h" startline="18">gr::qtgui::TRIG_MODE_FREE</references>
+        <references refid="classTriggerModeMenu_1ac9251bb7baf8179fa9e93056646a7f90">whichTrigger</references>
+        <referencedby refid="classTriggerModeMenu_1abb4e989bc6af89372942bc02583d2e31" compoundref="form__menus_8h" startline="847" endline="867">TriggerModeMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classTriggerModeMenu_1aabe12afa73adc9a02895c08d3ea0a88c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerModeMenu::getAuto</definition>
+        <argsstring>()</argsstring>
+        <name>getAuto</name>
+        <qualifiedname>TriggerModeMenu::getAuto</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="906" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="906" bodyend="906"/>
+        <references refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91a5b39b66661bd0408b950df30c45d2cd7" compoundref="trigger__mode_8h" startline="19">gr::qtgui::TRIG_MODE_AUTO</references>
+        <references refid="classTriggerModeMenu_1ac9251bb7baf8179fa9e93056646a7f90">whichTrigger</references>
+        <referencedby refid="classTriggerModeMenu_1abb4e989bc6af89372942bc02583d2e31" compoundref="form__menus_8h" startline="847" endline="867">TriggerModeMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classTriggerModeMenu_1a9adb893c8be2c2804cd4870293123e16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerModeMenu::getNorm</definition>
+        <argsstring>()</argsstring>
+        <name>getNorm</name>
+        <qualifiedname>TriggerModeMenu::getNorm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="907" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="907" bodyend="907"/>
+        <references refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91a45c75c9d356c5aa39bdc4dc108927259" compoundref="trigger__mode_8h" startline="20">gr::qtgui::TRIG_MODE_NORM</references>
+        <references refid="classTriggerModeMenu_1ac9251bb7baf8179fa9e93056646a7f90">whichTrigger</references>
+        <referencedby refid="classTriggerModeMenu_1abb4e989bc6af89372942bc02583d2e31" compoundref="form__menus_8h" startline="847" endline="867">TriggerModeMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classTriggerModeMenu_1af013d66a62cabadc72e99a5fee93b61f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerModeMenu::getTag</definition>
+        <argsstring>()</argsstring>
+        <name>getTag</name>
+        <qualifiedname>TriggerModeMenu::getTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="908" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="908" bodyend="908"/>
+        <references refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91a90f57226a0cbd95f63a92c94485fda74" compoundref="trigger__mode_8h" startline="21">gr::qtgui::TRIG_MODE_TAG</references>
+        <references refid="classTriggerModeMenu_1ac9251bb7baf8179fa9e93056646a7f90">whichTrigger</references>
+        <referencedby refid="classTriggerModeMenu_1abb4e989bc6af89372942bc02583d2e31" compoundref="form__menus_8h" startline="847" endline="867">TriggerModeMenu</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+      <node id="1">
+        <label>TriggerModeMenu</label>
+        <link refid="classTriggerModeMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+      <node id="1">
+        <label>TriggerModeMenu</label>
+        <link refid="classTriggerModeMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="842" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="843" bodyend="913"/>
+    <listofallmembers>
+      <member refid="classTriggerModeMenu_1a93db0bc2261b95dce35349bf01a85ca1" prot="private" virt="non-virtual"><scope>TriggerModeMenu</scope><name>d_act</name></member>
+      <member refid="classTriggerModeMenu_1addad00a96061c340fc893d489f7746a4" prot="private" virt="non-virtual"><scope>TriggerModeMenu</scope><name>d_grp</name></member>
+      <member refid="classTriggerModeMenu_1af40c931304f117a24b0c74ad005c36dd" prot="public" virt="non-virtual"><scope>TriggerModeMenu</scope><name>getAction</name></member>
+      <member refid="classTriggerModeMenu_1aa9605968ff7c6ccc5db0c76a7f148019" prot="public" virt="non-virtual"><scope>TriggerModeMenu</scope><name>getAction</name></member>
+      <member refid="classTriggerModeMenu_1aabe12afa73adc9a02895c08d3ea0a88c" prot="public" virt="non-virtual"><scope>TriggerModeMenu</scope><name>getAuto</name></member>
+      <member refid="classTriggerModeMenu_1a68f971526512d87793a07bfecd0899b5" prot="public" virt="non-virtual"><scope>TriggerModeMenu</scope><name>getFree</name></member>
+      <member refid="classTriggerModeMenu_1a9adb893c8be2c2804cd4870293123e16" prot="public" virt="non-virtual"><scope>TriggerModeMenu</scope><name>getNorm</name></member>
+      <member refid="classTriggerModeMenu_1a5b2b6962c00868e52b51ea991732b9ba" prot="public" virt="non-virtual"><scope>TriggerModeMenu</scope><name>getNumActions</name></member>
+      <member refid="classTriggerModeMenu_1af013d66a62cabadc72e99a5fee93b61f" prot="public" virt="non-virtual"><scope>TriggerModeMenu</scope><name>getTag</name></member>
+      <member refid="classTriggerModeMenu_1abb4e989bc6af89372942bc02583d2e31" prot="public" virt="non-virtual"><scope>TriggerModeMenu</scope><name>TriggerModeMenu</name></member>
+      <member refid="classTriggerModeMenu_1ac9251bb7baf8179fa9e93056646a7f90" prot="public" virt="non-virtual"><scope>TriggerModeMenu</scope><name>whichTrigger</name></member>
+      <member refid="classTriggerModeMenu_1a161707a68b646a0daa49a24b84c9e577" prot="public" virt="non-virtual"><scope>TriggerModeMenu</scope><name>~TriggerModeMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

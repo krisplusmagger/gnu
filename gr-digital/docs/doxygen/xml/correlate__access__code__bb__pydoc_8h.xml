@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="correlate__access__code__bb__pydoc_8h" kind="file" language="C++">
+    <compoundname>correlate_access_code_bb_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>correlate_access_code_bb_pydoc.h</label>
+        <link refid="correlate__access__code__bb__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="correlate__access__code__bb__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_bb_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_bb_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="correlate__access__code__bb__pydoc_8h_1a51fd9d648d4f5a2c8f0a6f0c68b56162" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_correlate_access_code_bb</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_correlate_access_code_bb</name>
+        <initializer>= R&quot;doc(Examine input for specified access code, one bit at a time.
+
+input: stream of bits, 1 bit per input byte (data in LSB) output: stream of bits, 2 bits per output byte (data in LSB, flag in next higher bit)
+
+
+Each output byte contains two valid bits, the data bit, and the flag bit. The LSB (bit 0) is the data bit, and is the original input data, delayed 64 bits. Bit 1 is the flag bit and is 1 if the corresponding data bit is the first data bit following the access code. Otherwise the flag bit is 0.
+
+Constructor Specific Documentation:
+
+Make a correlate_access_code block.
+
+Args:
+    access_code : is represented with 1 byte per bit, e.g., \&quot;010101010111000100\&quot;
+    threshold : maximum number of bits that may be wrong)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_bb_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_bb_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correlate__access__code__bb__pydoc_8h_1ae56a5a8ae0bda07ddad0983c51ec568e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_correlate_access_code_bb_correlate_access_code_bb_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_correlate_access_code_bb_correlate_access_code_bb_0</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_bb_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_bb_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correlate__access__code__bb__pydoc_8h_1a383d7ae1592f80434b76b9cb4c3e2655" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_correlate_access_code_bb_correlate_access_code_bb_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_correlate_access_code_bb_correlate_access_code_bb_1</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_bb_pydoc.h" line="38" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_bb_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correlate__access__code__bb__pydoc_8h_1a1d21ce5f05f1b0c50e371ea65a53f40a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_correlate_access_code_bb_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_correlate_access_code_bb_make</name>
+        <initializer>= R&quot;doc(Examine input for specified access code, one bit at a time.
+
+input: stream of bits, 1 bit per input byte (data in LSB) output: stream of bits, 2 bits per output byte (data in LSB, flag in next higher bit)
+
+
+Each output byte contains two valid bits, the data bit, and the flag bit. The LSB (bit 0) is the data bit, and is the original input data, delayed 64 bits. Bit 1 is the flag bit and is 1 if the corresponding data bit is the first data bit following the access code. Otherwise the flag bit is 0.
+
+Constructor Specific Documentation:
+
+Make a correlate_access_code block.
+
+Args:
+    access_code : is represented with 1 byte per bit, e.g., \&quot;010101010111000100\&quot;
+    threshold : maximum number of bits that may be wrong)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_bb_pydoc.h" line="42" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_bb_pydoc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correlate__access__code__bb__pydoc_8h_1ac91433519013f161d7a17476674190ab" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_correlate_access_code_bb_set_access_code</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_correlate_access_code_bb_set_access_code</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_bb_pydoc.h" line="58" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_bb_pydoc.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/correlate_access_code_bb_pydoc.h"/>
+  </compounddef>
+</doxygen>

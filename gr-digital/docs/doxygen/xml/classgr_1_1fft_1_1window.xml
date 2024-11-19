@@ -1,0 +1,1214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1fft_1_1window" kind="class" language="C++" prot="public">
+    <compoundname>gr::fft::window</compoundname>
+    <includes refid="window_8h" local="no">gnuradio/fft/window.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2" prot="public" static="no" strong="no">
+        <type></type>
+        <name>win_type</name>
+        <qualifiedname>gr::fft::window::win_type</qualifiedname>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a79803e6722e6c4a961cad6dbe7897baf" prot="public">
+          <name>WIN_NONE</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+<para>don&apos;t use a window </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2ac6d1f4881e7b588307b411847578c1b8" prot="public">
+          <name>WIN_HAMMING</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Hamming window; max attenuation 53 dB. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a0099ec5d7a2ab5d7a7f3fd7f7835c72a" prot="public">
+          <name>WIN_HANN</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Hann window; max attenuation 44 dB. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a5ec04fbbe808e51cd588bdf8767c5e70" prot="public">
+          <name>WIN_HANNING</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>alias to WIN_HANN </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a91f445930cfe99e5622d0f4d59c83529" prot="public">
+          <name>WIN_BLACKMAN</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>Blackman window; max attenuation 74 dB. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a1bb9d0151e57b25aecf694c24663a17a" prot="public">
+          <name>WIN_RECTANGULAR</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>Basic rectangular window; max attenuation 21 dB. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a4658ee31217e2aa75ea5cd563ee1d433" prot="public">
+          <name>WIN_KAISER</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>Kaiser window; max attenuation see <ref refid="classgr_1_1fft_1_1window_1aa962f972b40886c12717333642bf8084" kindref="member">window::max_attenuation</ref>. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a232b339a4e4796ceb3a38725f9d2015f" prot="public">
+          <name>WIN_BLACKMAN_hARRIS</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+<para>Blackman-harris window; max attenuation 92 dB. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a267e1f94f41ab5d976173d3a1629e1fa" prot="public">
+          <name>WIN_BLACKMAN_HARRIS</name>
+          <initializer>=
+            5</initializer>
+          <briefdescription>
+<para>alias to WIN_BLACKMAN_hARRIS for capitalization consistency </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a1e8eee890e155a1874d4c001f81a6027" prot="public">
+          <name>WIN_BARTLETT</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+<para>Barlett (triangular) window; max attenuation 26 dB. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2aa178141058a99d1f99e260bbb1b7733d" prot="public">
+          <name>WIN_FLATTOP</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+<para>flat top window; useful in FFTs; max attenuation 93 dB </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a3d248a453583d61e064a183011e86cb9" prot="public">
+          <name>WIN_NUTTALL</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+<para>Nuttall window; max attenuation 114 dB. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2aa8394720ffa3f9a0a51e729a99d81fce" prot="public">
+          <name>WIN_BLACKMAN_NUTTALL</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+<para>Nuttall window; max attenuation 114 dB. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2ad3a0899a1763ddbe4a0487945936841c" prot="public">
+          <name>WIN_NUTTALL_CFD</name>
+          <initializer>=
+            9</initializer>
+          <briefdescription>
+<para>Nuttall continuous-first-derivative window; max attenuation 112 dB. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2aa26a34420d85e3b2d376b7cfc8a9976c" prot="public">
+          <name>WIN_WELCH</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+<para>Welch window; max attenuation 31 dB. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a9a08042a632f25d44826e9a20974c105" prot="public">
+          <name>WIN_PARZEN</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+<para>Parzen window; max attenuation 56 dB. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2af0ac7e109bb311960cf6ccefd59cc92a" prot="public">
+          <name>WIN_EXPONENTIAL</name>
+          <initializer>=
+            12</initializer>
+          <briefdescription>
+<para>Exponential window; max attenuation see <ref refid="classgr_1_1fft_1_1window_1aa962f972b40886c12717333642bf8084" kindref="member">window::max_attenuation</ref>. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2afe3dbeb28a7c22be49b6eea6971f3af8" prot="public">
+          <name>WIN_RIEMANN</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+<para>Riemann window; max attenuation 39 dB. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a36e76d0299afc38fd3d53733d9363bda" prot="public">
+          <name>WIN_GAUSSIAN</name>
+          <initializer>=
+            14</initializer>
+          <briefdescription>
+<para>Gaussian window; max attenuation see <ref refid="classgr_1_1fft_1_1window_1aa962f972b40886c12717333642bf8084" kindref="member">window::max_attenuation</ref>. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a8a703a96adff68c68205fa8133b467f2" prot="public">
+          <name>WIN_TUKEY</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+<para>Tukey window; max attenuation see <ref refid="classgr_1_1fft_1_1window_1aa962f972b40886c12717333642bf8084" kindref="member">window::max_attenuation</ref>. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="28" column="5" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" bodystart="28" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgr_1_1fft_1_1window_1a2c7a8e3dcc13aabda036eab97ff61313" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double gr::fft::window::INVALID_WIN_PARAM</definition>
+        <argsstring></argsstring>
+        <name>INVALID_WIN_PARAM</name>
+        <qualifiedname>gr::fft::window::INVALID_WIN_PARAM</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="26" column="29" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1aa962f972b40886c12717333642bf8084" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>static double gr::fft::window::max_attenuation</definition>
+        <argsstring>(win_type type, double param=INVALID_WIN_PARAM)</argsstring>
+        <name>max_attenuation</name>
+        <qualifiedname>gr::fft::window::max_attenuation</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2" kindref="member">win_type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>param</declname>
+          <defval><ref refid="classgr_1_1fft_1_1window_1a2c7a8e3dcc13aabda036eab97ff61313" kindref="member">INVALID_WIN_PARAM</ref></defval>
+        </param>
+        <briefdescription>
+<para>Given a <ref refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2" kindref="member">window::win_type</ref>, this tells you the maximum attenuation (really the maximum approximation error) you can expect. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>For most windows, this is a set value. For the Kaiser, Exponential, Gaussian, and Tukey windows, the attenuation is based on the value of a provided parameter.</para>
+<para>For the Kaiser window the actual relationship is a piece-wise exponential relationship to calculate beta from the desired attenuation and can be found on page 542 of Oppenheim and Schafer (Discrete-Time Signal Processing, 3rd edition). To simplify this function to solve for A given beta, we use a linear form that is exact for attenuation &gt;= 50 dB. For an attenuation of 50 dB, beta = 4.55; for an attenuation of 70 dB, beta = 6.76.</para>
+<para>Exponential attenuation is complicated to measure due to the irregular error ripple structure, but it ranges between 23 and 26 dB depending on the decay factor; 26 dB is a good bound.</para>
+<para>The Gaussian window should not be used for window based filter construction; instead there is a dedicated gaussian filter construction function. There is no meaningful way to measure approximation error &apos;delta&apos; as shown in Fig 7.23 of Oppenheim and Schafer (Discrete-Time Signal Processing, 3rd edition).</para>
+<para>Tukey windows provide attenuation that varies non-linearily between Rectangular (21 dB) and Hann (44 dB) windows.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2" kindref="member">window::win_type</ref> enumeration of the window type. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parameter value used for Kaiser (beta), Exponential (d), Gaussian (sigma) and Tukey (alpha) window creation. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="86" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1ab9183aaa87d1242b754a677ca625e2ef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::coswindow</definition>
+        <argsstring>(int ntaps, float c0, float c1, float c2)</argsstring>
+        <name>coswindow</name>
+        <qualifiedname>gr::fft::window::coswindow</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c2</declname>
+        </param>
+        <briefdescription>
+<para>Helper function to build cosine-based windows. 3-coefficient version. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="91" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a888c2f0933fd54c5ad532015ba277a4c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::coswindow</definition>
+        <argsstring>(int ntaps, float c0, float c1, float c2, float c3)</argsstring>
+        <name>coswindow</name>
+        <qualifiedname>gr::fft::window::coswindow</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c3</declname>
+        </param>
+        <briefdescription>
+<para>Helper function to build cosine-based windows. 4-coefficient version. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="97" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a14981fb9c63ec4c725000e6cd8adb251" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::coswindow</definition>
+        <argsstring>(int ntaps, float c0, float c1, float c2, float c3, float c4)</argsstring>
+        <name>coswindow</name>
+        <qualifiedname>gr::fft::window::coswindow</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c4</declname>
+        </param>
+        <briefdescription>
+<para>Helper function to build cosine-based windows. 5-coefficient version. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="103" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a2f482edd8a1ddb676ce04fecbccf1197" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::rectangular</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>rectangular</name>
+        <qualifiedname>gr::fft::window::rectangular</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Build a rectangular window. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Taps are flat across the window.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="112" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a5dad27f9de0922a51c073aedb0be4b2d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::hamming</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>hamming</name>
+        <qualifiedname>gr::fft::window::hamming</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Build a Hamming window. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>See: <preformatted>
+  A. V. Oppenheim and R. W. Schafer, &quot;Discrete-Time
+  Signal Processing,&quot; Upper Saddle River, N.J.: Prentice
+  Hall, 2010, pp. 535-538.
+</preformatted></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="126" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a4af10db4df1506a7308295f8a3ef9f5d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::hann</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>hann</name>
+        <qualifiedname>gr::fft::window::hann</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Build a Hann window (sometimes known as Hanning). </para>
+        </briefdescription>
+        <detaileddescription>
+<para>See: <preformatted>
+  A. V. Oppenheim and R. W. Schafer, &quot;Discrete-Time
+  Signal Processing,&quot; Upper Saddle River, N.J.: Prentice
+  Hall, 2010, pp. 535-538.
+</preformatted></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="140" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a9085887b3d29b91d2f3f5e826e69190d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::hanning</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>hanning</name>
+        <qualifiedname>gr::fft::window::hanning</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Alias to build a Hann window. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="147" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a28223c043b430490c43985f6309933c8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::blackman</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>blackman</name>
+        <qualifiedname>gr::fft::window::blackman</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Build an exact Blackman window. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>See: <preformatted>
+  A. V. Oppenheim and R. W. Schafer, &quot;Discrete-Time
+  Signal Processing,&quot; Upper Saddle River, N.J.: Prentice
+  Hall, 2010, pp. 535-538.
+</preformatted></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="161" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a2c63395a70b1c7f886391a7e13e1ffff" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::blackman2</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>blackman2</name>
+        <qualifiedname>gr::fft::window::blackman2</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Build Blackman window, variation 1. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="166" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a180346a3de068d9c0b4ba2a5a144206b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::blackman3</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>blackman3</name>
+        <qualifiedname>gr::fft::window::blackman3</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Build Blackman window, variation 2. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="171" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1aa4b68c1f58685e96e8745d4b6d708806" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::blackman4</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>blackman4</name>
+        <qualifiedname>gr::fft::window::blackman4</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Build Blackman window, variation 3. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="176" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a0f02444c7f5778db8af3fbdd31be6918" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::blackman_harris</definition>
+        <argsstring>(int ntaps, int atten=92)</argsstring>
+        <name>blackman_harris</name>
+        <qualifiedname>gr::fft::window::blackman_harris</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>atten</declname>
+          <defval>92</defval>
+        </param>
+        <briefdescription>
+<para>Build a Blackman-harris window with a given attenuation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><preformatted>
+    f. j. harris, &quot;On the use of windows for harmonic analysis
+    with the discrete Fourier transforms,&quot; Proc. IEEE, Vol. 66,
+    ppg. 51-83, Jan. 1978.
+</preformatted></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>atten</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Attenuation factor. Must be [61, 67, 74, 92]. See the above paper for details. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="192" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a417f0e66b281be722485b99c82b93d61" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::blackmanharris</definition>
+        <argsstring>(int ntaps, int atten=92)</argsstring>
+        <name>blackmanharris</name>
+        <qualifiedname>gr::fft::window::blackmanharris</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>atten</declname>
+          <defval>92</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alias to <ref refid="classgr_1_1fft_1_1window_1a0f02444c7f5778db8af3fbdd31be6918" kindref="member">gr::fft::window::blackman_harris</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="197" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a84b053f1aebf5338b58ae2f4a09b72c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::nuttall</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>nuttall</name>
+        <qualifiedname>gr::fft::window::nuttall</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Build a minimum 4-term Nuttall (or Blackman-Nuttall) window, referred to by Heinzel G. et al. as a Nuttall4c window. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>See: A.H. Nuttall: &apos;Some windows with very good sidelobe behaviour&apos;, IEEE Trans. on Acoustics, Speech and Signal Processing, Vol ASSP-29, figure 15</para>
+<para>See: &apos;Spectrum and spectral density estimation by the Discrete Fourier transform (DFT), including a comprehensive list of window functions and some new flat-top windows&apos;, February 15, 2002 <ulink url="https://holometer.fnal.gov/GH_FFT.pdf">https://holometer.fnal.gov/GH_FFT.pdf</ulink></para>
+<para>Also: <ulink url="http://en.wikipedia.org/wiki/Window_function#Blackman.E2.80.93Nuttall_window">http://en.wikipedia.org/wiki/Window_function#Blackman.E2.80.93Nuttall_window</ulink></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="214" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a46fc19c92aeaab309abe37b7c95236d1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::blackman_nuttall</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>blackman_nuttall</name>
+        <qualifiedname>gr::fft::window::blackman_nuttall</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Alias to the Nuttall window. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="221" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a85441ce95246b6ae1b3aef2a115b5536" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::nuttall_cfd</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>nuttall_cfd</name>
+        <qualifiedname>gr::fft::window::nuttall_cfd</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Build a Nuttall 4-term continuous first derivative window, referred to by Heinzel G. et al. as a Nuttall4b window. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>See: A.H. Nuttall: &apos;Some windows with very good sidelobe behaviour&apos;, IEEE Trans. on Acoustics, Speech and Signal Processing, Vol ASSP-29, figure 12</para>
+<para>See: &apos;Spectrum and spectral density estimation by the Discrete Fourier transform (DFT), including a comprehensive list of window functions and some new flat-top windows&apos;, February 15, 2002 <ulink url="https://holometer.fnal.gov/GH_FFT.pdf">https://holometer.fnal.gov/GH_FFT.pdf</ulink></para>
+<para>Also: <ulink url="http://en.wikipedia.org/wiki/Window_function#Nuttall_window.2C_continuous_first_derivative">http://en.wikipedia.org/wiki/Window_function#Nuttall_window.2C_continuous_first_derivative</ulink></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="239" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a2f9c2a4319b63e40b9b95eb05631bfd2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::flattop</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>flattop</name>
+        <qualifiedname>gr::fft::window::flattop</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Build a flat top window per the SRS specification. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>See: <preformatted>
+    Stanford Research Systems, &quot;Model SR785 Dynamic Signal
+    Analyzer: Operating Manual and Programming Reference,&quot;
+    2017, pp 2-13
+</preformatted></para>
+<para>Note: there are many flat top windows, and this implementation is different from SciPY and Matlab which use the coefficients from D’Antona et al. &quot;Digital Signal
+Processing for Measurement Systems&quot; with the following cosine coefficients: <preformatted>
+    [0.21557895, 0.41663158, 0.277263158, 0.083578947, 0.006947368]
+</preformatted></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="259" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1aac02bfdf803870fa5f011dab2a621137" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::kaiser</definition>
+        <argsstring>(int ntaps, double beta)</argsstring>
+        <name>kaiser</name>
+        <qualifiedname>gr::fft::window::kaiser</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>beta</declname>
+        </param>
+        <briefdescription>
+<para>Build a Kaiser window with a given beta. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>See: <preformatted>
+    A. V. Oppenheim and R. W. Schafer, &quot;Discrete-Time
+    Signal Processing,&quot; Upper Saddle River, N.J.: Prentice
+    Hall, 2010, pp. 541-545.
+</preformatted></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>beta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Shaping parameter of the window. See the discussion in Oppenheim and Schafer. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="275" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1aee1f44de65ded6edb7073a90846317eb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::bartlett</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>bartlett</name>
+        <qualifiedname>gr::fft::window::bartlett</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Build a Barlett (triangular) window. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>See: <preformatted>
+  A. V. Oppenheim and R. W. Schafer, &quot;Discrete-Time
+  Signal Processing,&quot; Upper Saddle River, N.J.: Prentice
+  Hall, 2010, pp. 535-538.
+</preformatted></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="289" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a2dc178d5924b6218cc8b985fd61e704a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::welch</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>welch</name>
+        <qualifiedname>gr::fft::window::welch</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="291" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1ac5ea053ce55adccc5954094068bac0ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::parzen</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>parzen</name>
+        <qualifiedname>gr::fft::window::parzen</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Build a Parzen (or de la Valle-Poussin) window. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>See: <preformatted>
+  A. D. Poularikas, &quot;Handbook of Formulas and Tables for
+  Signal Processing,&quot; Springer, Oct 28, 1998
+</preformatted></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="304" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1add5a1aad53cddb5c691cbadd49b87e43" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::exponential</definition>
+        <argsstring>(int ntaps, double d)</argsstring>
+        <name>exponential</name>
+        <qualifiedname>gr::fft::window::exponential</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>Build an exponential window with a given decay. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>See: <ulink url="http://en.wikipedia.org/wiki/Window_function#Exponential_or_Poisson_window">http://en.wikipedia.org/wiki/Window_function#Exponential_or_Poisson_window</ulink></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Decay of <computeroutput>d</computeroutput> dB over half the window length. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="314" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a97aede6a91aaa3649317d89a8114efb2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::riemann</definition>
+        <argsstring>(int ntaps)</argsstring>
+        <name>riemann</name>
+        <qualifiedname>gr::fft::window::riemann</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Build a Riemann window. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>See: <preformatted>
+  A. D. Poularikas, &quot;Handbook of Formulas and Tables for
+  Signal Processing,&quot; Springer, Oct 28, 1998
+</preformatted></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="327" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1ac071215718d623061d1aaf32240ffc3e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::tukey</definition>
+        <argsstring>(int ntaps, float alpha)</argsstring>
+        <name>tukey</name>
+        <qualifiedname>gr::fft::window::tukey</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Build a Tukey window. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><preformatted>
+Bloomfield, P. Fourier Analysis of Time Series: An Introduction. New York:
+Wiley-Interscience, 2000, pp 69 (eqn 6.9)
+</preformatted></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alpha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Shaping parameter for the Tukey window, an alpha of zero is equivalent to a rectangular window, an alpha of 1 is equivalent to Hann. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="341" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a0dce8a6dd6b8d5d2e9889dfb931b48ba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::gaussian</definition>
+        <argsstring>(int ntaps, float sigma)</argsstring>
+        <name>gaussian</name>
+        <qualifiedname>gr::fft::window::gaussian</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sigma</declname>
+        </param>
+        <briefdescription>
+<para>Build a Gaussian window using the equation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><preformatted>
+exp(-(1/2) * (n/sigma)^2)
+</preformatted></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sigma</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Standard deviation of gaussian distribution. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="352" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1window_1a35d5c65579beec27605081ef0eabcc6b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt; float &gt; gr::fft::window::build</definition>
+        <argsstring>(win_type type, int ntaps, double param=INVALID_WIN_PARAM, const bool normalize=false)</argsstring>
+        <name>build</name>
+        <qualifiedname>gr::fft::window::build</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2" kindref="member">win_type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ntaps</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>param</declname>
+          <defval><ref refid="classgr_1_1fft_1_1window_1a2c7a8e3dcc13aabda036eab97ff61313" kindref="member">INVALID_WIN_PARAM</ref></defval>
+        </param>
+        <param>
+          <type>const bool</type>
+          <declname>normalize</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Build a window using gr::fft::win_type to index the type of window desired. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a gr::fft::win_type index for the type of window. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ntaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of coefficients in the window. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parameter value used for Kaiser (beta), Exponential (d), Gaussian (sigma) and Tukey (alpha) window creation.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>normalize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If true, return a window with unit power </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="364" column="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" line="22" column="1" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/window.h" bodystart="23" bodyend="368"/>
+    <listofallmembers>
+      <member refid="classgr_1_1fft_1_1window_1aee1f44de65ded6edb7073a90846317eb" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>bartlett</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a28223c043b430490c43985f6309933c8" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>blackman</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a2c63395a70b1c7f886391a7e13e1ffff" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>blackman2</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a180346a3de068d9c0b4ba2a5a144206b" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>blackman3</name></member>
+      <member refid="classgr_1_1fft_1_1window_1aa4b68c1f58685e96e8745d4b6d708806" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>blackman4</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a0f02444c7f5778db8af3fbdd31be6918" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>blackman_harris</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a46fc19c92aeaab309abe37b7c95236d1" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>blackman_nuttall</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a417f0e66b281be722485b99c82b93d61" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>blackmanharris</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a35d5c65579beec27605081ef0eabcc6b" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>build</name></member>
+      <member refid="classgr_1_1fft_1_1window_1ab9183aaa87d1242b754a677ca625e2ef" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>coswindow</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a888c2f0933fd54c5ad532015ba277a4c" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>coswindow</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a14981fb9c63ec4c725000e6cd8adb251" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>coswindow</name></member>
+      <member refid="classgr_1_1fft_1_1window_1add5a1aad53cddb5c691cbadd49b87e43" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>exponential</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a2f9c2a4319b63e40b9b95eb05631bfd2" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>flattop</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a0dce8a6dd6b8d5d2e9889dfb931b48ba" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>gaussian</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a5dad27f9de0922a51c073aedb0be4b2d" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>hamming</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a4af10db4df1506a7308295f8a3ef9f5d" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>hann</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a9085887b3d29b91d2f3f5e826e69190d" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>hanning</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a2c7a8e3dcc13aabda036eab97ff61313" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>INVALID_WIN_PARAM</name></member>
+      <member refid="classgr_1_1fft_1_1window_1aac02bfdf803870fa5f011dab2a621137" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>kaiser</name></member>
+      <member refid="classgr_1_1fft_1_1window_1aa962f972b40886c12717333642bf8084" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>max_attenuation</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a84b053f1aebf5338b58ae2f4a09b72c3" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>nuttall</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a85441ce95246b6ae1b3aef2a115b5536" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>nuttall_cfd</name></member>
+      <member refid="classgr_1_1fft_1_1window_1ac5ea053ce55adccc5954094068bac0ec" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>parzen</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a2f482edd8a1ddb676ce04fecbccf1197" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>rectangular</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a97aede6a91aaa3649317d89a8114efb2" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>riemann</name></member>
+      <member refid="classgr_1_1fft_1_1window_1ac071215718d623061d1aaf32240ffc3e" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>tukey</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a2dc178d5924b6218cc8b985fd61e704a" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>welch</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a1e8eee890e155a1874d4c001f81a6027" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_BARTLETT</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a91f445930cfe99e5622d0f4d59c83529" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_BLACKMAN</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a232b339a4e4796ceb3a38725f9d2015f" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_BLACKMAN_hARRIS</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a267e1f94f41ab5d976173d3a1629e1fa" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_BLACKMAN_HARRIS</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2aa8394720ffa3f9a0a51e729a99d81fce" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_BLACKMAN_NUTTALL</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2af0ac7e109bb311960cf6ccefd59cc92a" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_EXPONENTIAL</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2aa178141058a99d1f99e260bbb1b7733d" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_FLATTOP</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a36e76d0299afc38fd3d53733d9363bda" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_GAUSSIAN</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2ac6d1f4881e7b588307b411847578c1b8" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_HAMMING</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a0099ec5d7a2ab5d7a7f3fd7f7835c72a" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_HANN</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a5ec04fbbe808e51cd588bdf8767c5e70" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_HANNING</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a4658ee31217e2aa75ea5cd563ee1d433" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_KAISER</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a79803e6722e6c4a961cad6dbe7897baf" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_NONE</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a3d248a453583d61e064a183011e86cb9" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_NUTTALL</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2ad3a0899a1763ddbe4a0487945936841c" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_NUTTALL_CFD</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a9a08042a632f25d44826e9a20974c105" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_PARZEN</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a1bb9d0151e57b25aecf694c24663a17a" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_RECTANGULAR</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2afe3dbeb28a7c22be49b6eea6971f3af8" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_RIEMANN</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a8a703a96adff68c68205fa8133b467f2" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_TUKEY</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>win_type</name></member>
+      <member refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2aa26a34420d85e3b2d376b7cfc8a9976c" prot="public" virt="non-virtual"><scope>gr::fft::window</scope><name>WIN_WELCH</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

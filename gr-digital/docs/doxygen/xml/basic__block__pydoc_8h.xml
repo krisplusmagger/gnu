@@ -1,0 +1,698 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="basic__block__pydoc_8h" kind="file" language="C++">
+    <compoundname>basic_block_pydoc.h</compoundname>
+    <includes refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>basic_block_pydoc.h</label>
+        <link refid="basic__block__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="10" column="11" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a39c2627c153510bd75a5c8642209ce54" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1aeec73ab8d7988e8b7ffbd3609e93f124" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_message_subscribers</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_message_subscribers</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="21" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a5bbfcd06ab4a154fbcf410b34a910107" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_unique_id</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_unique_id</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="24" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a13418d96d5f2a7b1fae8c8b3dd45c96d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_symbolic_id</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_symbolic_id</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="27" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a4efd4db4fa9ddf6ecdf455d6a870cb1e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_name</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_name</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="30" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a63a3be3638f2300770b88fdc239c8245" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_symbol_name</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_symbol_name</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1ab1cb58b2adb2d91b5080e41653704eb8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_identifier</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_identifier</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1ac1e40e0ba0b61b1b1895e2865fa840a1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_input_signature</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_input_signature</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1af68703c8fae24466381b989df1243a8c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_output_signature</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_output_signature</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="42" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a479f317f74d110cb8b34a07e0f79c7a2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_to_basic_block</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_to_basic_block</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="45" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a1b2c5d16c1134053a1539d2ce1e50d3b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_alias_set</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_alias_set</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a178c8ff04625fb6c0fc77938348abd7f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_alias</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_alias</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a76ed13f492b75074238181a01293cb32" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_alias_pmt</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_alias_pmt</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="54" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1ac91447ade2890aaa2dd76e4c8725efae" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_set_block_alias</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_set_block_alias</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="57" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1ac7ada2fdd0f02d1f3d806f9f3488966b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_message_port_register_in</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_message_port_register_in</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="60" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a950ddb97f303dd87400f26e4152a57cd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_message_port_register_out</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_message_port_register_out</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="63" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a9fe483952041b65c880195d436aae3b0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_message_port_pub</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_message_port_pub</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="66" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a103cd6b42165b1de72364da8d39ba54e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_message_port_sub</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_message_port_sub</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="69" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1ab79879fbb5902b1dadd49fb91e18a390" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_message_port_unsub</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_message_port_unsub</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="72" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1aef30ad456b905a22047799fc4a2c00b6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_message_port_is_hier</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_message_port_is_hier</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="75" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a037d706f5596457fd426833fefad6732" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_message_port_is_hier_in</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_message_port_is_hier_in</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="78" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a489147b0adbd2c17bbf2228e0b854f14" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_message_port_is_hier_out</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_message_port_is_hier_out</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="81" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a98d82ce278e7992ed8107071891bb19f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_message_ports_in</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_message_ports_in</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="84" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1aa5dc6aef0861df8944460506c70d6296" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_message_ports_out</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_message_ports_out</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="87" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1ac4839e8df890682517981db3c30d06a5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block__post</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block__post</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="90" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1adeb801e66141efaa448e8a05880c5441" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_empty_p_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_empty_p_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="93" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1ac4ba4db456cd949d2c6ee56cb77357f1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_empty_p_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_empty_p_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="96" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a5fa1a385c164509a058424e3b585a19a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_empty_handled_p_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_empty_handled_p_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="99" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a89d771dab3baad79842461d0af026106" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_empty_handled_p_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_empty_handled_p_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="102" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a0eac3dd5eae1da685d87af23dac1d251" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_nmsgs</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_nmsgs</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="105" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a25728e8745018b29677b43fed2e9b361" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_insert_tail</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_insert_tail</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="108" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1aa12a8eb733f2afab64e9016ecca6dd16" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_delete_head_nowait</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_delete_head_nowait</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="111" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1aa8bf70909d9e6b5e77e4e1d1d90afc76" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_get_iterator</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_get_iterator</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="114" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1ae51792df501075438396375ccf70b668" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_erase_msg</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_erase_msg</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="117" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a827d13bed9f1f40d8061b40d97873232" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_has_msg_port</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_has_msg_port</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="120" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a96ee058e39a2344ec2812d74dc35234d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_get_msg_map</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_get_msg_map</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="123" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1adce459bee4fe5712facd7c4e8f305c4c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_add_rpc_variable</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_add_rpc_variable</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="126" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a1ec8bb0c330cb7416f2cfbf1793fc6ad" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_setup_rpc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_setup_rpc</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="129" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1aabc32e3929b16fb101d5bc468bda68ae" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_is_rpc_set</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_is_rpc_set</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="132" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a7fd67d22b50b52e9ad11cdc9247957ed" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_rpc_set</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_rpc_set</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="135" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a0e84f26ef5f228afab76bcc42840a057" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_check_topology</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_check_topology</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="138" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a098416f048c8f44c88e44412d0199604" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_set_processor_affinity</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_set_processor_affinity</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="141" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a839145dd58a808ea84ca011fd601d5fe" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_unset_processor_affinity</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_unset_processor_affinity</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="144" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1ae3b84a43794b95d605bfa22342ce64d8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_processor_affinity</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_processor_affinity</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="147" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a6099ee2b55842418260a89849d507e80" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_set_log_level</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_set_log_level</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="150" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a1c378d4d9b48da930337f8c3c268213c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_log_level</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_log_level</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="153" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="basic__block__pydoc_8h_1a5b05fd0c27154488c3dcee9eb422f1c9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_basic_block_ncurrently_allocated</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_basic_block_ncurrently_allocated</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" line="156" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/gnuradio/gr/bindings/basic_block_pydoc.h"/>
+  </compounddef>
+</doxygen>

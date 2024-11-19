@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classLineColorMenu" kind="class" language="C++" prot="public">
+    <compoundname>LineColorMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMenu</basecompoundref>
+    <includes refid="form__menus_8h" local="no">gnuradio/qtgui/form_menus.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classLineColorMenu_1a2b24d95a96a5764a966025935753aef7" prot="private" static="no" mutable="no">
+        <type>QActionGroup *</type>
+        <definition>QActionGroup* LineColorMenu::d_grp</definition>
+        <argsstring></argsstring>
+        <name>d_grp</name>
+        <qualifiedname>LineColorMenu::d_grp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="103" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLineColorMenu_1a7cb46ede19b14647fac96ece0c33970e" prot="private" static="no" mutable="no">
+        <type>QList&lt; QAction * &gt;</type>
+        <definition>QList&lt;QAction*&gt; LineColorMenu::d_act</definition>
+        <argsstring></argsstring>
+        <name>d_act</name>
+        <qualifiedname>LineColorMenu::d_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="104" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLineColorMenu_1a3e7679da717447d103b6b1ba1f06082f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LineColorMenu::d_which</definition>
+        <argsstring></argsstring>
+        <name>d_which</name>
+        <qualifiedname>LineColorMenu::d_which</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="105" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLineColorMenu_1a9fc4f28a42180b268901c96d657f7ba7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LineColorMenu::LineColorMenu</definition>
+        <argsstring>(unsigned int which, QWidget *parent)</argsstring>
+        <name>LineColorMenu</name>
+        <qualifiedname>LineColorMenu::LineColorMenu</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="33" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="33" bodyend="71"/>
+        <references refid="classLineColorMenu_1a9039266d8d2840ccb7c328d17a8c98f1" compoundref="form__menus_8h" startline="92" endline="92">getBlack</references>
+        <references refid="classLineColorMenu_1a334d7835b1b34f992c877ec56996bd46" compoundref="form__menus_8h" startline="89" endline="89">getBlue</references>
+        <references refid="classLineColorMenu_1aef9b4aab1abd64fdffedb2bbed8ebbfb" compoundref="form__menus_8h" startline="93" endline="93">getCyan</references>
+        <references refid="classLineColorMenu_1ad39726a53ad1634d75cf5d49bde49e29" compoundref="form__menus_8h" startline="99" endline="99">getDarkBlue</references>
+        <references refid="classLineColorMenu_1a2bb99c67f39b2a79a9194f1dca1b0946" compoundref="form__menus_8h" startline="100" endline="100">getDarkGray</references>
+        <references refid="classLineColorMenu_1a96ee5f3bd456d6a190d4e1d9fe5b7413" compoundref="form__menus_8h" startline="98" endline="98">getDarkGreen</references>
+        <references refid="classLineColorMenu_1a9887f8c55d9299a36aaf2dab2c517534" compoundref="form__menus_8h" startline="97" endline="97">getDarkRed</references>
+        <references refid="classLineColorMenu_1a370c1191fdab078b78690c01728c751a" compoundref="form__menus_8h" startline="96" endline="96">getGray</references>
+        <references refid="classLineColorMenu_1a491b7e779f66d615f82b6ee35c378a17" compoundref="form__menus_8h" startline="91" endline="91">getGreen</references>
+        <references refid="classLineColorMenu_1a87373a22b30a7df4b3dafd4e47de27e9" compoundref="form__menus_8h" startline="94" endline="94">getMagenta</references>
+        <references refid="classLineColorMenu_1a8ca5f00bbbc8a985f012f2a5a7f3addb" compoundref="form__menus_8h" startline="90" endline="90">getRed</references>
+        <references refid="classLineColorMenu_1aee781d2ec18b634a83c88871f02971ee" compoundref="form__menus_8h" startline="95" endline="95">getYellow</references>
+      </memberdef>
+      <memberdef kind="function" id="classLineColorMenu_1add2dca61a6715bb459fdd33130fafffc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LineColorMenu::~LineColorMenu</definition>
+        <argsstring>() override</argsstring>
+        <name>~LineColorMenu</name>
+        <qualifiedname>LineColorMenu::~LineColorMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="73" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classLineColorMenu_1a2acd9a9174a685a59e4958d82429f0d3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int LineColorMenu::getNumActions</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumActions</name>
+        <qualifiedname>LineColorMenu::getNumActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="75" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classLineColorMenu_1aa9c7f1bd7e49836d02583b9fa0119adf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * LineColorMenu::getAction</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>getAction</name>
+        <qualifiedname>LineColorMenu::getAction</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="77" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="77" bodyend="83"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classLineColorMenu_1aaa26de68c272dabedebf800830d06eb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineColorMenu::whichTrigger</definition>
+        <argsstring>(unsigned int which, const QString &amp;name)</argsstring>
+        <name>whichTrigger</name>
+        <qualifiedname>LineColorMenu::whichTrigger</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="86" column="10"/>
+        <referencedby refid="classLineColorMenu_1a9039266d8d2840ccb7c328d17a8c98f1" compoundref="form__menus_8h" startline="92" endline="92">getBlack</referencedby>
+        <referencedby refid="classLineColorMenu_1a334d7835b1b34f992c877ec56996bd46" compoundref="form__menus_8h" startline="89" endline="89">getBlue</referencedby>
+        <referencedby refid="classLineColorMenu_1aef9b4aab1abd64fdffedb2bbed8ebbfb" compoundref="form__menus_8h" startline="93" endline="93">getCyan</referencedby>
+        <referencedby refid="classLineColorMenu_1ad39726a53ad1634d75cf5d49bde49e29" compoundref="form__menus_8h" startline="99" endline="99">getDarkBlue</referencedby>
+        <referencedby refid="classLineColorMenu_1a2bb99c67f39b2a79a9194f1dca1b0946" compoundref="form__menus_8h" startline="100" endline="100">getDarkGray</referencedby>
+        <referencedby refid="classLineColorMenu_1a96ee5f3bd456d6a190d4e1d9fe5b7413" compoundref="form__menus_8h" startline="98" endline="98">getDarkGreen</referencedby>
+        <referencedby refid="classLineColorMenu_1a9887f8c55d9299a36aaf2dab2c517534" compoundref="form__menus_8h" startline="97" endline="97">getDarkRed</referencedby>
+        <referencedby refid="classLineColorMenu_1a370c1191fdab078b78690c01728c751a" compoundref="form__menus_8h" startline="96" endline="96">getGray</referencedby>
+        <referencedby refid="classLineColorMenu_1a491b7e779f66d615f82b6ee35c378a17" compoundref="form__menus_8h" startline="91" endline="91">getGreen</referencedby>
+        <referencedby refid="classLineColorMenu_1a87373a22b30a7df4b3dafd4e47de27e9" compoundref="form__menus_8h" startline="94" endline="94">getMagenta</referencedby>
+        <referencedby refid="classLineColorMenu_1a8ca5f00bbbc8a985f012f2a5a7f3addb" compoundref="form__menus_8h" startline="90" endline="90">getRed</referencedby>
+        <referencedby refid="classLineColorMenu_1aee781d2ec18b634a83c88871f02971ee" compoundref="form__menus_8h" startline="95" endline="95">getYellow</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classLineColorMenu_1a334d7835b1b34f992c877ec56996bd46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineColorMenu::getBlue</definition>
+        <argsstring>()</argsstring>
+        <name>getBlue</name>
+        <qualifiedname>LineColorMenu::getBlue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="89" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="89" bodyend="89"/>
+        <references refid="classLineColorMenu_1aaa26de68c272dabedebf800830d06eb4">whichTrigger</references>
+        <referencedby refid="classLineColorMenu_1a9fc4f28a42180b268901c96d657f7ba7" compoundref="form__menus_8h" startline="33" endline="71">LineColorMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineColorMenu_1a8ca5f00bbbc8a985f012f2a5a7f3addb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineColorMenu::getRed</definition>
+        <argsstring>()</argsstring>
+        <name>getRed</name>
+        <qualifiedname>LineColorMenu::getRed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="90" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="90" bodyend="90"/>
+        <references refid="classLineColorMenu_1aaa26de68c272dabedebf800830d06eb4">whichTrigger</references>
+        <referencedby refid="classLineColorMenu_1a9fc4f28a42180b268901c96d657f7ba7" compoundref="form__menus_8h" startline="33" endline="71">LineColorMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineColorMenu_1a491b7e779f66d615f82b6ee35c378a17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineColorMenu::getGreen</definition>
+        <argsstring>()</argsstring>
+        <name>getGreen</name>
+        <qualifiedname>LineColorMenu::getGreen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="91" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="91" bodyend="91"/>
+        <references refid="classLineColorMenu_1aaa26de68c272dabedebf800830d06eb4">whichTrigger</references>
+        <referencedby refid="classLineColorMenu_1a9fc4f28a42180b268901c96d657f7ba7" compoundref="form__menus_8h" startline="33" endline="71">LineColorMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineColorMenu_1a9039266d8d2840ccb7c328d17a8c98f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineColorMenu::getBlack</definition>
+        <argsstring>()</argsstring>
+        <name>getBlack</name>
+        <qualifiedname>LineColorMenu::getBlack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="92" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="92" bodyend="92"/>
+        <references refid="classLineColorMenu_1aaa26de68c272dabedebf800830d06eb4">whichTrigger</references>
+        <referencedby refid="classLineColorMenu_1a9fc4f28a42180b268901c96d657f7ba7" compoundref="form__menus_8h" startline="33" endline="71">LineColorMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineColorMenu_1aef9b4aab1abd64fdffedb2bbed8ebbfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineColorMenu::getCyan</definition>
+        <argsstring>()</argsstring>
+        <name>getCyan</name>
+        <qualifiedname>LineColorMenu::getCyan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="93" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="93" bodyend="93"/>
+        <references refid="classLineColorMenu_1aaa26de68c272dabedebf800830d06eb4">whichTrigger</references>
+        <referencedby refid="classLineColorMenu_1a9fc4f28a42180b268901c96d657f7ba7" compoundref="form__menus_8h" startline="33" endline="71">LineColorMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineColorMenu_1a87373a22b30a7df4b3dafd4e47de27e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineColorMenu::getMagenta</definition>
+        <argsstring>()</argsstring>
+        <name>getMagenta</name>
+        <qualifiedname>LineColorMenu::getMagenta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="94" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="94" bodyend="94"/>
+        <references refid="classLineColorMenu_1aaa26de68c272dabedebf800830d06eb4">whichTrigger</references>
+        <referencedby refid="classLineColorMenu_1a9fc4f28a42180b268901c96d657f7ba7" compoundref="form__menus_8h" startline="33" endline="71">LineColorMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineColorMenu_1aee781d2ec18b634a83c88871f02971ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineColorMenu::getYellow</definition>
+        <argsstring>()</argsstring>
+        <name>getYellow</name>
+        <qualifiedname>LineColorMenu::getYellow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="95" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="95" bodyend="95"/>
+        <references refid="classLineColorMenu_1aaa26de68c272dabedebf800830d06eb4">whichTrigger</references>
+        <referencedby refid="classLineColorMenu_1a9fc4f28a42180b268901c96d657f7ba7" compoundref="form__menus_8h" startline="33" endline="71">LineColorMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineColorMenu_1a370c1191fdab078b78690c01728c751a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineColorMenu::getGray</definition>
+        <argsstring>()</argsstring>
+        <name>getGray</name>
+        <qualifiedname>LineColorMenu::getGray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="96" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="96" bodyend="96"/>
+        <references refid="classLineColorMenu_1aaa26de68c272dabedebf800830d06eb4">whichTrigger</references>
+        <referencedby refid="classLineColorMenu_1a9fc4f28a42180b268901c96d657f7ba7" compoundref="form__menus_8h" startline="33" endline="71">LineColorMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineColorMenu_1a9887f8c55d9299a36aaf2dab2c517534" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineColorMenu::getDarkRed</definition>
+        <argsstring>()</argsstring>
+        <name>getDarkRed</name>
+        <qualifiedname>LineColorMenu::getDarkRed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="97" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="97" bodyend="97"/>
+        <references refid="classLineColorMenu_1aaa26de68c272dabedebf800830d06eb4">whichTrigger</references>
+        <referencedby refid="classLineColorMenu_1a9fc4f28a42180b268901c96d657f7ba7" compoundref="form__menus_8h" startline="33" endline="71">LineColorMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineColorMenu_1a96ee5f3bd456d6a190d4e1d9fe5b7413" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineColorMenu::getDarkGreen</definition>
+        <argsstring>()</argsstring>
+        <name>getDarkGreen</name>
+        <qualifiedname>LineColorMenu::getDarkGreen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="98" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="98" bodyend="98"/>
+        <references refid="classLineColorMenu_1aaa26de68c272dabedebf800830d06eb4">whichTrigger</references>
+        <referencedby refid="classLineColorMenu_1a9fc4f28a42180b268901c96d657f7ba7" compoundref="form__menus_8h" startline="33" endline="71">LineColorMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineColorMenu_1ad39726a53ad1634d75cf5d49bde49e29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineColorMenu::getDarkBlue</definition>
+        <argsstring>()</argsstring>
+        <name>getDarkBlue</name>
+        <qualifiedname>LineColorMenu::getDarkBlue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="99" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="99" bodyend="99"/>
+        <references refid="classLineColorMenu_1aaa26de68c272dabedebf800830d06eb4">whichTrigger</references>
+        <referencedby refid="classLineColorMenu_1a9fc4f28a42180b268901c96d657f7ba7" compoundref="form__menus_8h" startline="33" endline="71">LineColorMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineColorMenu_1a2bb99c67f39b2a79a9194f1dca1b0946" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineColorMenu::getDarkGray</definition>
+        <argsstring>()</argsstring>
+        <name>getDarkGray</name>
+        <qualifiedname>LineColorMenu::getDarkGray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="100" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="100" bodyend="100"/>
+        <references refid="classLineColorMenu_1aaa26de68c272dabedebf800830d06eb4">whichTrigger</references>
+        <referencedby refid="classLineColorMenu_1a9fc4f28a42180b268901c96d657f7ba7" compoundref="form__menus_8h" startline="33" endline="71">LineColorMenu</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LineColorMenu</label>
+        <link refid="classLineColorMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LineColorMenu</label>
+        <link refid="classLineColorMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="28" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="29" bodyend="106"/>
+    <listofallmembers>
+      <member refid="classLineColorMenu_1a7cb46ede19b14647fac96ece0c33970e" prot="private" virt="non-virtual"><scope>LineColorMenu</scope><name>d_act</name></member>
+      <member refid="classLineColorMenu_1a2b24d95a96a5764a966025935753aef7" prot="private" virt="non-virtual"><scope>LineColorMenu</scope><name>d_grp</name></member>
+      <member refid="classLineColorMenu_1a3e7679da717447d103b6b1ba1f06082f" prot="private" virt="non-virtual"><scope>LineColorMenu</scope><name>d_which</name></member>
+      <member refid="classLineColorMenu_1aa9c7f1bd7e49836d02583b9fa0119adf" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>getAction</name></member>
+      <member refid="classLineColorMenu_1a9039266d8d2840ccb7c328d17a8c98f1" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>getBlack</name></member>
+      <member refid="classLineColorMenu_1a334d7835b1b34f992c877ec56996bd46" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>getBlue</name></member>
+      <member refid="classLineColorMenu_1aef9b4aab1abd64fdffedb2bbed8ebbfb" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>getCyan</name></member>
+      <member refid="classLineColorMenu_1ad39726a53ad1634d75cf5d49bde49e29" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>getDarkBlue</name></member>
+      <member refid="classLineColorMenu_1a2bb99c67f39b2a79a9194f1dca1b0946" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>getDarkGray</name></member>
+      <member refid="classLineColorMenu_1a96ee5f3bd456d6a190d4e1d9fe5b7413" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>getDarkGreen</name></member>
+      <member refid="classLineColorMenu_1a9887f8c55d9299a36aaf2dab2c517534" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>getDarkRed</name></member>
+      <member refid="classLineColorMenu_1a370c1191fdab078b78690c01728c751a" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>getGray</name></member>
+      <member refid="classLineColorMenu_1a491b7e779f66d615f82b6ee35c378a17" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>getGreen</name></member>
+      <member refid="classLineColorMenu_1a87373a22b30a7df4b3dafd4e47de27e9" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>getMagenta</name></member>
+      <member refid="classLineColorMenu_1a2acd9a9174a685a59e4958d82429f0d3" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>getNumActions</name></member>
+      <member refid="classLineColorMenu_1a8ca5f00bbbc8a985f012f2a5a7f3addb" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>getRed</name></member>
+      <member refid="classLineColorMenu_1aee781d2ec18b634a83c88871f02971ee" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>getYellow</name></member>
+      <member refid="classLineColorMenu_1a9fc4f28a42180b268901c96d657f7ba7" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>LineColorMenu</name></member>
+      <member refid="classLineColorMenu_1aaa26de68c272dabedebf800830d06eb4" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>whichTrigger</name></member>
+      <member refid="classLineColorMenu_1add2dca61a6715bb459fdd33130fafffc" prot="public" virt="non-virtual"><scope>LineColorMenu</scope><name>~LineColorMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="plateau__detector__fb__pydoc_8h" kind="file" language="C++">
+    <compoundname>plateau_detector_fb_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>plateau_detector_fb_pydoc.h</label>
+        <link refid="plateau__detector__fb__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="plateau__detector__fb__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/plateau_detector_fb_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/plateau_detector_fb_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="plateau__detector__fb__pydoc_8h_1a3ee5955c04cbb411570e9462505797a5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_plateau_detector_fb</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_plateau_detector_fb</name>
+        <initializer>= R&quot;doc(Detects a plateau and marks the middle.
+
+Detect a plateau of a-priori known height. Input is a stream of floats, the output is a stream of bytes. Whenever a plateau is detected, the middle of that plateau is marked with a &apos;1&apos; on the output stream (all other samples are left at zero).
+
+
+You can use this in a Schmidl &amp; Cox synchronisation algorithm to interpret the output of the normalized correlator. Just pass the length of the cyclic prefix (in samples) as the max_len parameter).
+
+
+Unlike the peak detectors, you must the now the absolute height of the plateau. Whenever the amplitude exceeds the given threshold, it starts assuming the presence of a plateau.
+
+
+An implicit hysteresis is provided by the fact that after detecting one plateau, it waits at least max_len samples before the next plateau can be detected.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    max_len : Maximum length of the plateau
+    threshold : Anything above this value is considered a plateau)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/plateau_detector_fb_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/plateau_detector_fb_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="plateau__detector__fb__pydoc_8h_1a1040837d2a1450e74ffc7c2a3e958bfc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_plateau_detector_fb_plateau_detector_fb_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_plateau_detector_fb_plateau_detector_fb_0</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/plateau_detector_fb_pydoc.h" line="40" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/plateau_detector_fb_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="plateau__detector__fb__pydoc_8h_1a17a5806cd070b6677e95f61c1d738fe1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_plateau_detector_fb_plateau_detector_fb_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_plateau_detector_fb_plateau_detector_fb_1</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/plateau_detector_fb_pydoc.h" line="44" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/plateau_detector_fb_pydoc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="plateau__detector__fb__pydoc_8h_1ace697c2b59898ec3dea491f6982c45bc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_plateau_detector_fb_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_plateau_detector_fb_make</name>
+        <initializer>= R&quot;doc(Detects a plateau and marks the middle.
+
+Detect a plateau of a-priori known height. Input is a stream of floats, the output is a stream of bytes. Whenever a plateau is detected, the middle of that plateau is marked with a &apos;1&apos; on the output stream (all other samples are left at zero).
+
+
+You can use this in a Schmidl &amp; Cox synchronisation algorithm to interpret the output of the normalized correlator. Just pass the length of the cyclic prefix (in samples) as the max_len parameter).
+
+
+Unlike the peak detectors, you must the now the absolute height of the plateau. Whenever the amplitude exceeds the given threshold, it starts assuming the presence of a plateau.
+
+
+An implicit hysteresis is provided by the fact that after detecting one plateau, it waits at least max_len samples before the next plateau can be detected.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    max_len : Maximum length of the plateau
+    threshold : Anything above this value is considered a plateau)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/plateau_detector_fb_pydoc.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/plateau_detector_fb_pydoc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="plateau__detector__fb__pydoc_8h_1abcf46d26f36c64c23dbe1ad33a9a1f57" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_plateau_detector_fb_set_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_plateau_detector_fb_set_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/plateau_detector_fb_pydoc.h" line="70" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/plateau_detector_fb_pydoc.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="plateau__detector__fb__pydoc_8h_1a0fcb0fe0af6d428bb283fd1e7f725836" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_plateau_detector_fb_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_plateau_detector_fb_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/plateau_detector_fb_pydoc.h" line="73" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/plateau_detector_fb_pydoc.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/plateau_detector_fb_pydoc.h"/>
+  </compounddef>
+</doxygen>

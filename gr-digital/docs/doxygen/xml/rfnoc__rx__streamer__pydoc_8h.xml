@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="rfnoc__rx__streamer__pydoc_8h" kind="file" language="C++">
+    <compoundname>rfnoc_rx_streamer_pydoc.h</compoundname>
+    <includes refid="build_2gr-uhd_2python_2uhd_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-uhd_2python_2uhd_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>rfnoc_rx_streamer_pydoc.h</label>
+        <link refid="rfnoc__rx__streamer__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="rfnoc__rx__streamer__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, uhd, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_streamer_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_streamer_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="rfnoc__rx__streamer__pydoc_8h_1a2a65b24c1779d259888a095edd7c871e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_streamer</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_streamer</name>
+        <initializer>= R&quot;doc(RFNoC Rx Streamer: Block to handle data flow from an RFNoC flow graph into a GNU Radio flow graph.
+
+
+Use this block for ingress into a GNU Radio flow graph. \&quot;Rx\&quot; is from the viewpoint of the GNU Radio flow graph. For example, if the GNU Radio flow graph is receiving samples from a radio, use this block to transport the samples into GNU Radio.
+
+
+Note: The input ports of this block can only connect to other RFNoC blocks.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    graph : Reference to the graph this block is connected to
+    num_chans : Number of input- and output ports
+    stream_args : These will be passed on to rfnoc_graph::create_rx_streamer, see that for details. The cpu_format and otw_format parts of these args will be used to determine the in- and output signatures of this block.
+    vlen : Vector length
+    issue_stream_cmd_on_start : If true, the streamer sends a stream command upstream.
+    start_time_set : If true, set start time spec to the stream command
+    start_time : The time spec for the stream command if start_time_set is true)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_streamer_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_streamer_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__streamer__pydoc_8h_1a238050990da97732d855d51a7db3e517" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_streamer_rfnoc_rx_streamer_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_streamer_rfnoc_rx_streamer_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_streamer_pydoc.h" line="40" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_streamer_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__streamer__pydoc_8h_1ab4d2d6cc5bd4d02c030fc0ef066c25d8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_streamer_rfnoc_rx_streamer_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_streamer_rfnoc_rx_streamer_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_streamer_pydoc.h" line="43" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_streamer_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__streamer__pydoc_8h_1ae864165e04e9503671ea0f5822e7fe79" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_streamer_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_streamer_make</name>
+        <initializer>= R&quot;doc(RFNoC Rx Streamer: Block to handle data flow from an RFNoC flow graph into a GNU Radio flow graph.
+
+
+Use this block for ingress into a GNU Radio flow graph. \&quot;Rx\&quot; is from the viewpoint of the GNU Radio flow graph. For example, if the GNU Radio flow graph is receiving samples from a radio, use this block to transport the samples into GNU Radio.
+
+
+Note: The input ports of this block can only connect to other RFNoC blocks.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    graph : Reference to the graph this block is connected to
+    num_chans : Number of input- and output ports
+    stream_args : These will be passed on to rfnoc_graph::create_rx_streamer, see that for details. The cpu_format and otw_format parts of these args will be used to determine the in- and output signatures of this block.
+    vlen : Vector length
+    issue_stream_cmd_on_start : If true, the streamer sends a stream command upstream.
+    start_time_set : If true, set start time spec to the stream command
+    start_time : The time spec for the stream command if start_time_set is true)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_streamer_pydoc.h" line="46" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_streamer_pydoc.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__streamer__pydoc_8h_1ab9470cbe6ab6728db135b62492a7767f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_streamer_get_unique_id</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_streamer_get_unique_id</name>
+        <initializer>= R&quot;doc(Return the unique ID associated with the underlying RFNoC streamer.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_streamer_pydoc.h" line="68" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_streamer_pydoc.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_streamer_pydoc.h"/>
+  </compounddef>
+</doxygen>

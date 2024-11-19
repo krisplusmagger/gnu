@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="siso__combined__f__pydoc_8h" kind="file" language="C++">
+    <compoundname>siso_combined_f_pydoc.h</compoundname>
+    <includes refid="build_2gr-trellis_2python_2trellis_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-trellis_2python_2trellis_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>siso_combined_f_pydoc.h</label>
+        <link refid="siso__combined__f__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="siso__combined__f__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, trellis, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a5d6d5cc3e60078b8f4222e287bd030b0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f</name>
+        <initializer>= R&quot;doc(
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    FSM : 
+    K : 
+    S0 : 
+    SK : 
+    POSTI : 
+    POSTO : 
+    d_SISO_TYPE : 
+    <ref refid="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref> : 
+    TABLE : 
+    TYPE : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a5cc5585f0afe76e764176b00bde52c99" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_siso_combined_f_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_siso_combined_f_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a4ca20e9336f04f4b875421807bd8b398" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_siso_combined_f_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_siso_combined_f_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="40" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1af6b8b14173165eee7e817cd5a6e59635" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_make</name>
+        <initializer>= R&quot;doc(
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    FSM : 
+    K : 
+    S0 : 
+    SK : 
+    POSTI : 
+    POSTO : 
+    d_SISO_TYPE : 
+    <ref refid="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref> : 
+    TABLE : 
+    TYPE : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="43" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a7da4d3a18cc8885cf817bc7b210ab193" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_FSM</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_FSM</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="62" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a0bec0c6cf1d499f023e8c0bb9ad2d3e9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_K</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_K</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="65" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a64b6cca3bd5214e66c71f04d4c1e9f79" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_S0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_S0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="68" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a8edd4a7ff40b75725abe1e03d3715beb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_SK</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_SK</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="71" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1ac8c8c4c2c405696a5dd72c6f769f8d4f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_POSTI</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_POSTI</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="74" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a207039dcf45afa177000aba67f302359" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_POSTO</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_POSTO</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="77" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1af16657264a77398b3876dcaa4ed3813f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_SISO_TYPE</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_SISO_TYPE</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="80" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a6500fe9f4f34875ac410108c074a9f16" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_D</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_D</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="83" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1ac99e4331f9cf62144c17e38e8ea9c964" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_TABLE</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_TABLE</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="86" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a3314303997ef1bfd85c2272c886db9d5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_TYPE</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_TYPE</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="89" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a21aae87f2a464ae8d01469963a1bf726" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_set_FSM</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_set_FSM</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="92" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a7bc2611f70935c98eacbf7fe56ecf611" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_set_K</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_set_K</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="95" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a9cae05dec09e0d7ab50dc1756c3a7368" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_set_S0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_set_S0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="98" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1af7a6f1e43cfe8c8cb7cbb083159e0c95" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_set_SK</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_set_SK</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="101" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a076c189891323a4851fac72f75e46321" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_set_POSTI</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_set_POSTI</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="104" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a6e5307231fcc03d02c1ca922675aebca" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_set_POSTO</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_set_POSTO</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="107" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1affa0fb9a63f56ca3b8b9a17f5e8f3bd4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_set_SISO_TYPE</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_set_SISO_TYPE</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="110" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a109602dd8fb3ffc295978028444b0fcd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_set_D</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_set_D</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="113" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a2f7ee8d12202fe52ad635322dc987bf3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_set_TABLE</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_set_TABLE</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="116" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="siso__combined__f__pydoc_8h_1a4e5eeaa2b6b44b141058a3cda647dab9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_siso_combined_f_set_TYPE</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_siso_combined_f_set_TYPE</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" line="119" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/siso_combined_f_pydoc.h"/>
+  </compounddef>
+</doxygen>

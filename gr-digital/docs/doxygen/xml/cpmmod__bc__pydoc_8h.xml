@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="cpmmod__bc__pydoc_8h" kind="file" language="C++">
+    <compoundname>cpmmod_bc_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>cpmmod_bc_pydoc.h</label>
+        <link refid="cpmmod__bc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="cpmmod__bc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="cpmmod__bc__pydoc_8h_1ade2da26c59b2a7291c5cd04659e51868" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_cpmmod_bc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_cpmmod_bc</name>
+        <initializer>= R&quot;doc(Generic CPM modulator.
+
+Examples:
+
+
+
+The input of this block are symbols from an M-ary alphabet +/-1, +/-3, ..., +/-(M-1). Usually, M = 2 and therefore, the valid inputs are +/-1. The modulator will silently accept any other inputs, though. The output is the phase-modulated signal.
+
+Constructor Specific Documentation:
+
+Make CPM modulator block.
+
+Args:
+    type : The modulation type. Can be one of LREC, LRC, LSRC, TFM or GAUSSIAN. See gr_cpm::phase_response() for a detailed description.
+    h : The modulation index.  is the maximum phase change that can occur between two symbols, i.e., if you only send ones, the phase will increase by  every  samples. Set this to 0.5 for Minimum Shift Keying variants.
+    samples_per_sym : Samples per symbol.
+    L : The length of the phase duration in symbols. For L=1, this yields full- response CPM symbols, for L &gt; 1, partial-response.
+    beta : For LSRC, this is the rolloff factor. For Gaussian pulses, this is the 3 dB time-bandwidth product.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpmmod__bc__pydoc_8h_1af0f4e1c08b2f8e3f3bc619a8047af27e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_cpmmod_bc_cpmmod_bc_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_cpmmod_bc_cpmmod_bc_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" line="38" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpmmod__bc__pydoc_8h_1a7edfe3526c8e4141e4e9ee9122843acf" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_cpmmod_bc_cpmmod_bc_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_cpmmod_bc_cpmmod_bc_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpmmod__bc__pydoc_8h_1a0212af40a65b4fc68904993ae587fa22" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_cpmmod_bc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_cpmmod_bc_make</name>
+        <initializer>= R&quot;doc(Generic CPM modulator.
+
+Examples:
+
+
+
+The input of this block are symbols from an M-ary alphabet +/-1, +/-3, ..., +/-(M-1). Usually, M = 2 and therefore, the valid inputs are +/-1. The modulator will silently accept any other inputs, though. The output is the phase-modulated signal.
+
+Constructor Specific Documentation:
+
+Make CPM modulator block.
+
+Args:
+    type : The modulation type. Can be one of LREC, LRC, LSRC, TFM or GAUSSIAN. See gr_cpm::phase_response() for a detailed description.
+    h : The modulation index.  is the maximum phase change that can occur between two symbols, i.e., if you only send ones, the phase will increase by  every  samples. Set this to 0.5 for Minimum Shift Keying variants.
+    samples_per_sym : Samples per symbol.
+    L : The length of the phase duration in symbols. For L=1, this yields full- response CPM symbols, for L &gt; 1, partial-response.
+    beta : For LSRC, this is the rolloff factor. For Gaussian pulses, this is the 3 dB time-bandwidth product.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" line="44" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpmmod__bc__pydoc_8h_1a242345adc2386b7d714b6f3376f0a32d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_cpmmod_bc_make_gmskmod_bc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_cpmmod_bc_make_gmskmod_bc</name>
+        <initializer>= R&quot;doc(Make GMSK modulator block.
+
+
+The type is GAUSSIAN and the modulation index for GMSK is 0.5. This are populated automatically by this factory function.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" line="64" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpmmod__bc__pydoc_8h_1a4f4b126a353ae1db5a36418b5b7e8ca7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_cpmmod_bc_taps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_cpmmod_bc_taps</name>
+        <initializer>= R&quot;doc(Return the phase response FIR taps.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" line="70" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpmmod__bc__pydoc_8h_1a85bcc29d27ac17ab99195301bccd2b82" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_cpmmod_bc_type</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_cpmmod_bc_type</name>
+        <initializer>= R&quot;doc(Return the type of CPM modulator.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" line="73" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpmmod__bc__pydoc_8h_1ad0058586292c20c6a5b1d9158638cace" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_cpmmod_bc_index</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_cpmmod_bc_index</name>
+        <initializer>= R&quot;doc(Return the modulation index of the modulator.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" line="76" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpmmod__bc__pydoc_8h_1aae6bc3ea26bd71998f5cc8a0b3540315" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_cpmmod_bc_samples_per_sym</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_cpmmod_bc_samples_per_sym</name>
+        <initializer>= R&quot;doc(Return the number of samples per symbol.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" line="79" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpmmod__bc__pydoc_8h_1adea92ae458922844a2c9f3d4136eb398" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_cpmmod_bc_beta</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_cpmmod_bc_beta</name>
+        <initializer>= R&quot;doc(Return the value of beta for the modulator.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" line="82" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/cpmmod_bc_pydoc.h"/>
+  </compounddef>
+</doxygen>

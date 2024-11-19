@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classthrift__server__template" kind="class" language="C++" prot="public">
+    <compoundname>thrift_server_template</compoundname>
+    <basecompoundref refid="classthrift__application__base" prot="public" virt="non-virtual">thrift_application_base&lt; TserverBase, TImplClass &gt;</basecompoundref>
+    <includes refid="thrift__server__template_8h" local="no">gnuradio/thrift_server_template.h</includes>
+    <innerclass refid="classthrift__server__template_1_1TBufferedTransportFactory" prot="private">thrift_server_template::TBufferedTransportFactory</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename TserverBase</type>
+      </param>
+      <param>
+        <type>typename TserverClass</type>
+      </param>
+      <param>
+        <type>typename TImplClass</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classthrift__server__template_1a415da111d40bc494ae1dfcbbcd9b66a9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class thrift_application_base&lt; TserverBase, TImplClass &gt;</definition>
+        <argsstring></argsstring>
+        <name>thrift_application_base&lt; TserverBase, TImplClass &gt;</name>
+        <qualifiedname>thrift_server_template::thrift_application_base&lt; TserverBase, TImplClass &gt;</qualifiedname>
+        <param>
+          <type><ref refid="classthrift__application__base" kindref="compound">thrift_application_base</ref>&lt; TserverBase, TImplClass &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" line="42" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classthrift__server__template_1a9b26a186fde4f11466f5192ffe258ec7" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; TserverClass &gt;</type>
+        <definition>std::shared_ptr&lt;TserverClass&gt; thrift_server_template&lt; TserverBase, TserverClass, TImplClass &gt;::d_handler</definition>
+        <argsstring></argsstring>
+        <name>d_handler</name>
+        <qualifiedname>thrift_server_template::d_handler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" line="46" column="21" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classthrift__server__template_1a74e1fa3b96dee7e6a3039dc2e3ea5be5" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; thrift::TProcessor &gt;</type>
+        <definition>std::shared_ptr&lt;thrift::TProcessor&gt; thrift_server_template&lt; TserverBase, TserverClass, TImplClass &gt;::d_processor</definition>
+        <argsstring></argsstring>
+        <name>d_processor</name>
+        <qualifiedname>thrift_server_template::d_processor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" line="47" column="21" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classthrift__server__template_1a07d0171388feae7bca2907b61fd8f2e2" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; thrift::transport::TServerTransport &gt;</type>
+        <definition>std::shared_ptr&lt;thrift::transport::TServerTransport&gt; thrift_server_template&lt; TserverBase, TserverClass, TImplClass &gt;::d_serverTransport</definition>
+        <argsstring></argsstring>
+        <name>d_serverTransport</name>
+        <qualifiedname>thrift_server_template::d_serverTransport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" line="48" column="21" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classthrift__server__template_1a5f7fdcf13bbd1698551d5a0dbd14b451" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; thrift::transport::TTransportFactory &gt;</type>
+        <definition>std::shared_ptr&lt;thrift::transport::TTransportFactory&gt; thrift_server_template&lt; TserverBase, TserverClass, TImplClass &gt;::d_transportFactory</definition>
+        <argsstring></argsstring>
+        <name>d_transportFactory</name>
+        <qualifiedname>thrift_server_template::d_transportFactory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" line="49" column="21" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classthrift__server__template_1a9f184333741343d727eb35d9362fc881" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; thrift::protocol::TProtocolFactory &gt;</type>
+        <definition>std::shared_ptr&lt;thrift::protocol::TProtocolFactory&gt; thrift_server_template&lt; TserverBase, TserverClass, TImplClass &gt;::d_protocolFactory</definition>
+        <argsstring></argsstring>
+        <name>d_protocolFactory</name>
+        <qualifiedname>thrift_server_template::d_protocolFactory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" line="50" column="21" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classthrift__server__template_1ad1dd82eb57e3dd2e61eeb81029ab99af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>thrift_server_template&lt; TserverBase, TserverClass, TImplClass &gt;::thrift_server_template</definition>
+        <argsstring>(TImplClass *_this)</argsstring>
+        <name>thrift_server_template</name>
+        <qualifiedname>thrift_server_template::thrift_server_template</qualifiedname>
+        <param>
+          <type>TImplClass *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" line="38" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" bodystart="80" bodyend="150"/>
+        <references refid="classgr_1_1prefs_1ad900c0b8738236e90d42028dc447c844">gr::prefs::add_config_file</references>
+        <references refid="namespacegr_1a7b0e38144a5245a9bda616a17563602c">gr::configure_default_loggers</references>
+        <references refid="classgr_1_1prefs_1a2b39adabac3da32819ffa90615674c40">gr::prefs::get_long</references>
+        <references refid="classgr_1_1prefs_1a00293b557737c5b77657549cf09e1564">gr::prefs::get_string</references>
+        <references refid="classgr_1_1prefs_1af1cd15cc242cdc612b48bf471234a4f6">gr::prefs::singleton</references>
+      </memberdef>
+      <memberdef kind="function" id="classthrift__server__template_1a9bdd05f80a00796c9ffa651fdd6233c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>thrift_server_template&lt; TserverBase, TserverClass, TImplClass &gt;::~thrift_server_template</definition>
+        <argsstring>()</argsstring>
+        <name>~thrift_server_template</name>
+        <qualifiedname>thrift_server_template::~thrift_server_template</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" line="39" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" bodystart="153" bodyend="155"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classthrift__server__template_1a1a5753c0d401837dd090fad5631383ce" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>TserverBase *</type>
+        <definition>TserverBase * thrift_server_template&lt; TserverBase, TserverClass, TImplClass &gt;::i_impl</definition>
+        <argsstring>()</argsstring>
+        <name>i_impl</name>
+        <qualifiedname>thrift_server_template::i_impl</qualifiedname>
+        <reimplements refid="classthrift__application__base_1ac598c08d3c8e5ca0c9cf08c398778bf1">i_impl</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" line="42" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" bodystart="158" bodyend="163"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>thrift_application_base&lt; TserverBase, TImplClass &gt;</label>
+        <link refid="classthrift__application__base"/>
+      </node>
+      <node id="1">
+        <label>thrift_server_template&lt; TserverBase, TserverClass, TImplClass &gt;</label>
+        <link refid="classthrift__server__template"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>std::shared_ptr&lt; logger &gt;</label>
+      </node>
+      <node id="2">
+        <label>thrift_application_base&lt; TserverBase, TImplClass &gt;</label>
+        <link refid="classthrift__application__base"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>d_thriftserver</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_debug_logger</edgelabel>
+          <edgelabel>d_logger</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>thrift_server_template&lt; TserverBase, TserverClass, TImplClass &gt;</label>
+        <link refid="classthrift__server__template"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::unique_ptr&lt; apache::thrift::server::TServer &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" line="35" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_server_template.h" bodystart="36" bodyend="77"/>
+    <listofallmembers>
+      <member refid="classthrift__application__base_1a7db27b47101ea80a62322cf059fe2ca9" prot="protected" virt="non-virtual"><scope>thrift_server_template</scope><name>d_application</name></member>
+      <member refid="classthrift__application__base_1af6c9648b13dd7f585bec64ba6a559fe4" prot="protected" virt="non-virtual"><scope>thrift_server_template</scope><name>d_debug_logger</name></member>
+      <member refid="classthrift__application__base_1adca0f1db8d1b1520bc36a1abb4dfc12e" prot="protected" virt="non-virtual"><scope>thrift_server_template</scope><name>d_default_max_init_attempts</name></member>
+      <member refid="classthrift__application__base_1a773a2d8d901c7e2fb119e7605b7fcaec" prot="protected" virt="non-virtual"><scope>thrift_server_template</scope><name>d_default_num_thrift_threads</name></member>
+      <member refid="classthrift__application__base_1a293a04e73b000f12bd21dbe2ad785ce6" prot="protected" virt="non-virtual"><scope>thrift_server_template</scope><name>d_default_thrift_buffer_size</name></member>
+      <member refid="classthrift__application__base_1a99999e960247f0a4c1ade086725a7941" prot="protected" virt="non-virtual"><scope>thrift_server_template</scope><name>d_default_thrift_port</name></member>
+      <member refid="classthrift__server__template_1a9b26a186fde4f11466f5192ffe258ec7" prot="private" virt="non-virtual"><scope>thrift_server_template</scope><name>d_handler</name></member>
+      <member refid="classthrift__application__base_1a3bfa963bb6257549c426e15102aebe63" prot="protected" virt="non-virtual"><scope>thrift_server_template</scope><name>d_logger</name></member>
+      <member refid="classthrift__server__template_1a74e1fa3b96dee7e6a3039dc2e3ea5be5" prot="private" virt="non-virtual"><scope>thrift_server_template</scope><name>d_processor</name></member>
+      <member refid="classthrift__server__template_1a9f184333741343d727eb35d9362fc881" prot="private" virt="non-virtual"><scope>thrift_server_template</scope><name>d_protocolFactory</name></member>
+      <member refid="classthrift__server__template_1a07d0171388feae7bca2907b61fd8f2e2" prot="private" virt="non-virtual"><scope>thrift_server_template</scope><name>d_serverTransport</name></member>
+      <member refid="classthrift__application__base_1a663d51c804f07924c7909daa742d76c6" prot="protected" virt="non-virtual"><scope>thrift_server_template</scope><name>d_thriftserver</name></member>
+      <member refid="classthrift__server__template_1a5f7fdcf13bbd1698551d5a0dbd14b451" prot="private" virt="non-virtual"><scope>thrift_server_template</scope><name>d_transportFactory</name></member>
+      <member refid="classthrift__application__base_1a78e720629b8057634bc21aeb49b59a05" prot="public" virt="non-virtual"><scope>thrift_server_template</scope><name>endpoints</name></member>
+      <member refid="classthrift__application__base_1aeb08717e9b96969a4947b448cffabe18" prot="public" virt="non-virtual"><scope>thrift_server_template</scope><name>i</name></member>
+      <member refid="classthrift__server__template_1a1a5753c0d401837dd090fad5631383ce" prot="protected" virt="virtual"><scope>thrift_server_template</scope><name>i_impl</name></member>
+      <member refid="classthrift__application__base_1a759295c4c8f3642275bc6f20d3c4b838" prot="protected" virt="non-virtual"><scope>thrift_server_template</scope><name>set_endpoint</name></member>
+      <member refid="classthrift__application__base_1a4aebecfb692db9aa1c34c06061924085" prot="public" virt="non-virtual"><scope>thrift_server_template</scope><name>thrift_application_base</name></member>
+      <member refid="classthrift__server__template_1a415da111d40bc494ae1dfcbbcd9b66a9" prot="protected" virt="non-virtual"><scope>thrift_server_template</scope><name>thrift_application_base&lt; TserverBase, TImplClass &gt;</name></member>
+      <member refid="classthrift__server__template_1ad1dd82eb57e3dd2e61eeb81029ab99af" prot="public" virt="non-virtual"><scope>thrift_server_template</scope><name>thrift_server_template</name></member>
+      <member refid="classthrift__application__base_1ae19fcfda1a22cbba07a02107adeef819" prot="public" virt="non-virtual"><scope>thrift_server_template</scope><name>~thrift_application_base</name></member>
+      <member refid="classthrift__server__template_1a9bdd05f80a00796c9ffa651fdd6233c8" prot="public" virt="non-virtual"><scope>thrift_server_template</scope><name>~thrift_server_template</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

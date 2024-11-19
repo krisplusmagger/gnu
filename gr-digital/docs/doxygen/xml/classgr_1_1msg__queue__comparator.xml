@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1msg__queue__comparator" kind="class" language="C++" prot="public">
+    <compoundname>gr::msg_queue_comparator</compoundname>
+    <includes refid="basic__block_8h" local="no">gnuradio/basic_block.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1msg__queue__comparator_1aca584db086f664de3e33ae92cc304405" prot="private" static="no" mutable="no">
+        <type>const <ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>const pmt::pmt_t gr::msg_queue_comparator::d_system_port</definition>
+        <argsstring></argsstring>
+        <name>d_system_port</name>
+        <qualifiedname>gr::msg_queue_comparator::d_system_port</qualifiedname>
+        <initializer>= <ref refid="namespacepmt_1adcc4bde4742800dfea924f4e17477f2e" kindref="member">pmt::intern</ref>(&quot;system&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/basic_block.h" line="34" column="22" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/basic_block.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1msg__queue__comparator_1a7c4a90742711f1d9a23fb977ddf9eb38" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::msg_queue_comparator::operator()</definition>
+        <argsstring>(pmt::pmt_t const &amp;queue_key1, pmt::pmt_t const &amp;queue_key2) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>gr::msg_queue_comparator::operator()</qualifiedname>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref> const &amp;</type>
+          <declname>queue_key1</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref> const &amp;</type>
+          <declname>queue_key2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/basic_block.h" line="37" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/basic_block.h" bodystart="37" bodyend="47"/>
+        <references refid="namespacepmt_1a25467c81e1c5f4619a9cabad7a88eed5">pmt::eqv</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/basic_block.h" line="31" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/basic_block.h" bodystart="32" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classgr_1_1msg__queue__comparator_1aca584db086f664de3e33ae92cc304405" prot="private" virt="non-virtual"><scope>gr::msg_queue_comparator</scope><name>d_system_port</name></member>
+      <member refid="classgr_1_1msg__queue__comparator_1a7c4a90742711f1d9a23fb977ddf9eb38" prot="public" virt="non-virtual"><scope>gr::msg_queue_comparator</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

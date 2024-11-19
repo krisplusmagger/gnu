@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="attr__source__pydoc_8h" kind="file" language="C++">
+    <compoundname>attr_source_pydoc.h</compoundname>
+    <includes refid="build_2gr-iio_2python_2iio_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>attr_source_pydoc.h</label>
+        <link refid="attr__source__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-iio_2python_2iio_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="attr__source__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, iio, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-iio/python/iio/bindings/attr_source_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-iio/python/iio/bindings/attr_source_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="attr__source__pydoc_8h_1a29e1f43043a5f44ea1ea9199d6305822" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_iio_attr_source</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_iio_attr_source</name>
+        <initializer>= R&quot;doc(Generic reader for attributes of IIO devices.
+
+This block allow for reading of any IIO attribute that is readable. This includes channel, device, device buffer, device debug, and direct register attributes.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of iio::attr_source.
+
+Args:
+    uri : String of the context uri
+    device : String of device name
+    channel : String of device name
+    attribute : String of attribute name
+    update_interval_ms : Integer number of milliseconds between attribute reads
+    samples_per_update : Integer number of samples to collect before block returns
+    data_type : Enum which selects what data type to output for received data: 0: double 1: float 2: long long 3: int 4: uint8
+    attr_type : Enum determining attribute type: 0: Channel attribute 1: Device attribute 2: Device debug attribute
+    output : Boolean when True if channel attribute is an output
+    address : uint32 register address of register to be read)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-iio/python/iio/bindings/attr_source_pydoc.h" line="17" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-iio/python/iio/bindings/attr_source_pydoc.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="attr__source__pydoc_8h_1a1f7a2b7d386a131c97975960d91b5887" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_iio_attr_source_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_iio_attr_source_make</name>
+        <initializer>= R&quot;doc(Generic reader for attributes of IIO devices.
+
+This block allow for reading of any IIO attribute that is readable. This includes channel, device, device buffer, device debug, and direct register attributes.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of iio::attr_source.
+
+Args:
+    uri : String of the context uri
+    device : String of device name
+    channel : String of device name
+    attribute : String of attribute name
+    update_interval_ms : Integer number of milliseconds between attribute reads
+    samples_per_update : Integer number of samples to collect before block returns
+    data_type : Enum which selects what data type to output for received data: 0: double 1: float 2: long long 3: int 4: uint8
+    attr_type : Enum determining attribute type: 0: Channel attribute 1: Device attribute 2: Device debug attribute
+    output : Boolean when True if channel attribute is an output
+    address : uint32 register address of register to be read)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-iio/python/iio/bindings/attr_source_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-iio/python/iio/bindings/attr_source_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-iio/python/iio/bindings/attr_source_pydoc.h"/>
+  </compounddef>
+</doxygen>

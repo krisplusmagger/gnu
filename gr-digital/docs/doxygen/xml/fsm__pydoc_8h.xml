@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="fsm__pydoc_8h" kind="file" language="C++">
+    <compoundname>fsm_pydoc.h</compoundname>
+    <includes refid="build_2gr-trellis_2python_2trellis_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>fsm_pydoc.h</label>
+        <link refid="fsm__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-trellis_2python_2trellis_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="fsm__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, trellis, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="fsm__pydoc_8h_1a2adee0776f8ae071f6767c5da62ac6f8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm</name>
+        <initializer>= R&quot;doc(Finite State Machine Specification class.
+
+An instance of this class represents a finite state machine specification (FSMS) rather than the FSM itself. It particular the state of the FSM is not stored within an instance of this class.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1a4362f752487e44a7061b31f655c73f5d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_fsm_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_fsm_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="23" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1a7621bd43789c29b8910ee41b0022bbc1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_fsm_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_fsm_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="26" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1ac6e5aab723589f73ed265de399abe78e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_fsm_2</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_fsm_2</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="29" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1aa6dd41f01f68af3de988f3320cfed5d1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_fsm_3</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_fsm_3</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="32" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1a78ff058080098cc83413c6c01c39786f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_fsm_4</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_fsm_4</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="35" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1abb40c343bb9f7a50d03877e1b3589839" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_fsm_5</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_fsm_5</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="38" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1a860c7b9c71ddda6e3e8b64dbdc99f31c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_fsm_6</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_fsm_6</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1a07ec977c6ea7f006179e2420446638a1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_fsm_7</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_fsm_7</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="44" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1aa022f88e2cde37a246fd1e9cd96f8114" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_fsm_8</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_fsm_8</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="47" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1abab4f2c27335c733004f31109779daf1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_fsm_9</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_fsm_9</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1a9fe6e6d03ff8e62dd8ed890e4f516c7f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_I</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_I</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1afb324f1453815928e8dec8948e86509f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_S</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_S</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="56" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1a9d7ec2169c49e71d2c0e54e336b9916f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_O</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_O</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="59" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1a41a031d42faeb850cb6147af80fde2bc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_NS</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_NS</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="62" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1a45aa4de68a06af63a623b7e474d70f40" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_OS</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_OS</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="65" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1aba5e3d5f27d42f76891ddd6a829959c7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_PS</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_PS</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="68" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1aa8b3c612465d7923f50c8b1b355ee351" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_PI</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_PI</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="71" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1aa8cfc736d374bb0783673b36047bb92c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_TMi</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_TMi</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="74" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1a84311e5d9172c2297896a5b010abbcc7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_TMl</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_TMl</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="77" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1a21252118b99f3ee924ef4462c9f500da" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_write_trellis_svg</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_write_trellis_svg</name>
+        <initializer>= R&quot;doc(Creates an svg image of the trellis representation.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="80" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fsm__pydoc_8h_1ae853029adf6bb9b2560bf7d37eb908a6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_trellis_fsm_write_fsm_txt</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_trellis_fsm_write_fsm_txt</name>
+        <initializer>= R&quot;doc(Write the FSMS to a file.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" line="83" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-trellis/python/trellis/bindings/fsm_pydoc.h"/>
+  </compounddef>
+</doxygen>

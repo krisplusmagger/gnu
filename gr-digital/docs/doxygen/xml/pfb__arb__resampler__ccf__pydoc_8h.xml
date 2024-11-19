@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="pfb__arb__resampler__ccf__pydoc_8h" kind="file" language="C++">
+    <compoundname>pfb_arb_resampler_ccf_pydoc.h</compoundname>
+    <includes refid="build_2gr-filter_2python_2filter_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>pfb_arb_resampler_ccf_pydoc.h</label>
+        <link refid="pfb__arb__resampler__ccf__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-filter_2python_2filter_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="pfb__arb__resampler__ccf__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, filter, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1ab776d5367729d1e1d1ae579da2f755fc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf</name>
+        <initializer>= R&quot;doc(Polyphase filterbank arbitrary resampler with <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> input, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> output and float taps.
+
+This block takes in a signal stream and calls <ref refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccf" kindref="compound">gr::filter::kernel::pfb_arb_resampler_ccf</ref> to perform arbitrary resampling on the stream.
+
+
+Output sampling rate is  * input rate.
+
+Constructor Specific Documentation:
+
+Build the polyphase filterbank arbitrary resampler.
+
+Args:
+    rate : (float) Specifies the resampling rate to use
+    <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> : (vector/list of floats) The prototype filter to populate the filterbank. The <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> should be generated at the filter_size sampling rate.
+    filter_size : (unsigned int) The number of filters in the filter bank. This is directly related to quantization noise introduced during the resampling. Defaults to 32 filters.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1a9ab2e8f28036215a443cb12968b86a6c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf_pfb_arb_resampler_ccf_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf_pfb_arb_resampler_ccf_0</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="35" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1a6e8d04c811fd6fa605140376f8e76d24" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf_pfb_arb_resampler_ccf_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf_pfb_arb_resampler_ccf_1</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1a779c124875ef5a2ec43ca900ebe14e47" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf_make</name>
+        <initializer>= R&quot;doc(Polyphase filterbank arbitrary resampler with <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> input, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> output and float taps.
+
+This block takes in a signal stream and calls <ref refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccf" kindref="compound">gr::filter::kernel::pfb_arb_resampler_ccf</ref> to perform arbitrary resampling on the stream.
+
+
+Output sampling rate is  * input rate.
+
+Constructor Specific Documentation:
+
+Build the polyphase filterbank arbitrary resampler.
+
+Args:
+    rate : (float) Specifies the resampling rate to use
+    <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> : (vector/list of floats) The prototype filter to populate the filterbank. The <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> should be generated at the filter_size sampling rate.
+    filter_size : (unsigned int) The number of filters in the filter bank. This is directly related to quantization noise introduced during the resampling. Defaults to 32 filters.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="43" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1a4c5697c3671bdf1ad7a8e7e2667e78e7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf_set_taps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf_set_taps</name>
+        <initializer>= R&quot;doc(Resets the filterbank&apos;s filter <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> with the new prototype filter)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="60" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1af484e3e38ad068fccee37a3ebbdfa420" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf_taps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf_taps</name>
+        <initializer>= R&quot;doc(Return a vector&lt;vector&lt;&gt;&gt; of the filterbank <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref>)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="63" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1a08669f32eba78ec0342abeea675cd9dc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf_print_taps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf_print_taps</name>
+        <initializer>= R&quot;doc(Print all of the filterbank <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> to screen.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="66" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1a33026578ad4057df3a3407d2b266c3b6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf_set_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf_set_rate</name>
+        <initializer>= R&quot;doc(Sets the resampling rate of the block.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="69" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1aa09205091a9d46af002f5e217055156c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf_set_phase</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf_set_phase</name>
+        <initializer>= R&quot;doc(Sets the current phase offset in radians (0 to 2pi).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="72" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1a702881e18c9ca0230b57ec14d646aba2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf_phase</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf_phase</name>
+        <initializer>= R&quot;doc(Gets the current phase of the resampler in radians (2 to 2pi).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="75" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1a808cd6bc54d1b92c20f9c8ed49f86671" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf_taps_per_filter</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf_taps_per_filter</name>
+        <initializer>= R&quot;doc(Gets the number of <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> per filter.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="78" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1a4ce54c4473e0b0ee992b326eac6f83bf" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf_interpolation_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf_interpolation_rate</name>
+        <initializer>= R&quot;doc(Gets the interpolation rate of the filter.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="81" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1a2542e887252aa6f81f41c1cd5e72db75" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf_decimation_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf_decimation_rate</name>
+        <initializer>= R&quot;doc(Gets the decimation rate of the filter.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="84" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1a2a9b56e896fdb5f23ba517aace759d23" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf_fractional_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf_fractional_rate</name>
+        <initializer>= R&quot;doc(Gets the fractional rate of the filter.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="87" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1a4603ff8f85f56bc7903a885ca08a85eb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf_group_delay</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf_group_delay</name>
+        <initializer>= R&quot;doc(Get the group delay of the filter.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="90" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pfb__arb__resampler__ccf__pydoc_8h_1a7da7605acf4b13d756a31b09b7b0ca96" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_pfb_arb_resampler_ccf_phase_offset</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_pfb_arb_resampler_ccf_phase_offset</name>
+        <initializer>= R&quot;doc(Calculates the phase offset expected by a sine wave of frequency  and sampling rate  (assuming input sine wave has 0 degree phase).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" line="93" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/pfb_arb_resampler_ccf_pydoc.h"/>
+  </compounddef>
+</doxygen>

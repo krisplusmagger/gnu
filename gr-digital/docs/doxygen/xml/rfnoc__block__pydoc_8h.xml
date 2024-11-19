@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="rfnoc__block__pydoc_8h" kind="file" language="C++">
+    <compoundname>rfnoc_block_pydoc.h</compoundname>
+    <includes refid="build_2gr-uhd_2python_2uhd_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-uhd_2python_2uhd_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>rfnoc_block_pydoc.h</label>
+        <link refid="rfnoc__block__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="rfnoc__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, uhd, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_block_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_block_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="rfnoc__block__pydoc_8h_1addb51096a5b460fb8201df378862df25" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_block</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_block</name>
+        <initializer>= R&quot;doc(Base class for RFNoC blocks controlled by GNU Radio
+
+
+Any GNU Radio block that is meant to control an RFNoC block should be derived from this class.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_block_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_block_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__block__pydoc_8h_1ab684bfbd70c1b489148dc2eb638bdb24" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_block_make_block_ref</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_block_make_block_ref</name>
+        <initializer>= R&quot;doc(Factory function to create a UHD block controller reference.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_block_pydoc.h" line="24" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_block_pydoc.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__block__pydoc_8h_1a1fd5307f3e923260dd771d7a1f9aa23d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_block_get_unique_id</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_block_get_unique_id</name>
+        <initializer>= R&quot;doc(Return the unique ID of the underlying block)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_block_pydoc.h" line="27" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_block_pydoc.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__block__pydoc_8h_1ad42a42d01a22c10a7b262cec825ff36b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_block_set_properties</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_block_set_properties</name>
+        <initializer>= R&quot;doc(Set multiple properties coming from a dictionary
+
+
+See the  for details.
+
+
+This function allows the client to override the  parameter for each property key/value pair passed in via the  parameter. If the key consists of the property name, followed by a colon (&apos;:&apos;) and then a number, the number following the colon is used to determine which instance of the property this set pertains to, and the  parameter is ignored for that property. (Note that if the key does not have the colon and instance number override syntax, then  is still used to determine which instance of the property to set. For example, in the following call:  instance 1 of node&apos;s &apos;dog&apos; property is set to 10, the 1 coming from the instance parameter, instance 2 of the node&apos;s &apos;cat&apos; property is set to 5 due to the override syntax provided in the string, and instance 0 of the node&apos;s &apos;bird&apos; property is set to 0.5 due to its override.
+
+
+If the instance override is malformed, that is, there is no number following the colon, or the number cannot be parsed as an integer, a value_error is thrown.
+
+
+If a key in  is not a valid property of this block, a warning is logged, but no error is raised.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_block_pydoc.h" line="30" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_block_pydoc.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__block__pydoc_8h_1a0c09f965e069ce68609cfb07bcde74e8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_block_set_property</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_block_set_property</name>
+        <initializer>= R&quot;doc(Set a specific user property that belongs to this block.
+
+
+Setting a user property will trigger a property resolution. This means that changing this block can have effects on other RFNoC blocks or nodes (like streamers).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_block_pydoc.h" line="45" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_block_pydoc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__block__pydoc_8h_1a02d6e8d1a127fd26accd6d381600d556" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_block_get_property</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_block_get_property</name>
+        <initializer>= R&quot;doc(Get the value of a specific block argument.  type of an argument must be known at compile time.
+
+
+Note: Despite this being a \&quot;getter\&quot;, this function is not declared const. This is because internally, it can resolve properties, which may cause changes within the object.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_block_pydoc.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_block_pydoc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_block_pydoc.h"/>
+  </compounddef>
+</doxygen>

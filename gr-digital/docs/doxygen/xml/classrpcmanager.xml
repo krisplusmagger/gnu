@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classrpcmanager" kind="class" language="C++" prot="public">
+    <compoundname>rpcmanager</compoundname>
+    <basecompoundref refid="classrpcmanager__base" prot="public" virt="virtual">rpcmanager_base</basecompoundref>
+    <includes refid="rpcmanager_8h" local="no">gnuradio/rpcmanager.h</includes>
+    <innerclass refid="classrpcmanager_1_1rpcserver__booter__register__helper" prot="public">rpcmanager::rpcserver_booter_register_helper</innerclass>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classrpcmanager_1a4478254b91809baff5dd9919fea1a193" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool rpcmanager::make_aggregator</definition>
+        <argsstring></argsstring>
+        <name>make_aggregator</name>
+        <qualifiedname>rpcmanager::make_aggregator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" line="39" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrpcmanager_1ad157e9e78b4bb0118bf87e0e5c7891b9" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool rpcmanager::booter_registered</definition>
+        <argsstring></argsstring>
+        <name>booter_registered</name>
+        <qualifiedname>rpcmanager::booter_registered</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" line="40" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrpcmanager_1aee915b69a535c5f0c962ac35c2ea6d1f" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool rpcmanager::aggregator_registered</definition>
+        <argsstring></argsstring>
+        <name>aggregator_registered</name>
+        <qualifiedname>rpcmanager::aggregator_registered</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" line="41" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrpcmanager_1a401c9623fc45d203a9a1c8a0a3f279ae" prot="private" static="yes" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classrpcserver__booter__base" kindref="compound">rpcserver_booter_base</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;rpcserver_booter_base&gt; rpcmanager::boot</definition>
+        <argsstring></argsstring>
+        <name>boot</name>
+        <qualifiedname>rpcmanager::boot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" line="43" column="28" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrpcmanager_1a848b4053a9fe1d85b61a8850f4f4fc5c" prot="private" static="yes" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classrpcserver__booter__aggregator" kindref="compound">rpcserver_booter_aggregator</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;rpcserver_booter_aggregator&gt; rpcmanager::aggregator</definition>
+        <argsstring></argsstring>
+        <name>aggregator</name>
+        <qualifiedname>rpcmanager::aggregator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" line="44" column="28" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrpcmanager_1a56346fea13304ac987467fc62030c2a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rpcmanager::rpcmanager</definition>
+        <argsstring>()</argsstring>
+        <name>rpcmanager</name>
+        <qualifiedname>rpcmanager::rpcmanager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" line="22" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcmanager_1a004b80363c2d4233b8a3564ab2399de6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rpcmanager::~rpcmanager</definition>
+        <argsstring>()</argsstring>
+        <name>~rpcmanager</name>
+        <qualifiedname>rpcmanager::~rpcmanager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" line="23" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classrpcmanager_1a1ba8b0847e9023e46e32e20d189e8d03" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classrpcserver__booter__base" kindref="compound">rpcserver_booter_base</ref> *</type>
+        <definition>static rpcserver_booter_base * rpcmanager::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>rpcmanager::get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" line="25" column="34"/>
+        <referencedby refid="classrpcbasic__register__get_1a267dd1e98043093e18d5e0748fc23c03" compoundref="rpcregisterhelpers_8h" startline="1178" endline="1215">rpcbasic_register_get&lt; T, Tfrom &gt;::rpcbasic_register_get</referencedby>
+        <referencedby refid="classrpcbasic__register__get_1a923e56d2f4de6a7375413c59a964de29" compoundref="rpcregisterhelpers_8h" startline="1135" endline="1171">rpcbasic_register_get&lt; T, Tfrom &gt;::rpcbasic_register_get</referencedby>
+        <referencedby refid="classrpcbasic__register__get_1a887fc7ee3ebfeeca9b3c6893e338ac93" compoundref="rpcregisterhelpers_8h" startline="1284" endline="1321">rpcbasic_register_get&lt; T, Tfrom &gt;::rpcbasic_register_get</referencedby>
+        <referencedby refid="classrpcbasic__register__get_1af3d110b18b0c08ac6bb18b683a06e565" compoundref="rpcregisterhelpers_8h" startline="1241" endline="1277">rpcbasic_register_get&lt; T, Tfrom &gt;::rpcbasic_register_get</referencedby>
+        <referencedby refid="classrpcbasic__register__handler_1a988eb7c3331580616d6077a0a02ef8e2" compoundref="rpcregisterhelpers_8h" startline="1614" endline="1643">rpcbasic_register_handler&lt; T &gt;::rpcbasic_register_handler</referencedby>
+        <referencedby refid="structrpcbasic__register__set_1a51de2a95c2e182a2130598a081087116" compoundref="rpcregisterhelpers_8h" startline="804" endline="840">rpcbasic_register_set&lt; T, Tto &gt;::rpcbasic_register_set</referencedby>
+        <referencedby refid="structrpcbasic__register__set_1a03872c707222797e7f2e82b2899835af" compoundref="rpcregisterhelpers_8h" startline="865" endline="901">rpcbasic_register_set&lt; T, Tto &gt;::rpcbasic_register_set</referencedby>
+        <referencedby refid="structrpcbasic__register__trigger_1af0b1d8ee78a476cfe521a90a7042a2f4" compoundref="rpcregisterhelpers_8h" startline="984" endline="1005">rpcbasic_register_trigger&lt; T &gt;::rpcbasic_register_trigger</referencedby>
+        <referencedby refid="structrpcbasic__register__trigger_1a9e0289b6dced5cefc560708771920626" compoundref="rpcregisterhelpers_8h" startline="1025" endline="1046">rpcbasic_register_trigger&lt; T &gt;::rpcbasic_register_trigger</referencedby>
+        <referencedby refid="classrpcbasic__register__get_1a8c68752c58725b4dfb128f613d13c7fb" compoundref="rpcregisterhelpers_8h" startline="1323" endline="1328">rpcbasic_register_get&lt; T, Tfrom &gt;::~rpcbasic_register_get</referencedby>
+        <referencedby refid="classrpcbasic__register__handler_1a3e9d3af1ff30096774c4c9a6e141e3c0" compoundref="rpcregisterhelpers_8h" startline="1645" endline="1650">rpcbasic_register_handler&lt; T &gt;::~rpcbasic_register_handler</referencedby>
+        <referencedby refid="structrpcbasic__register__set_1a348e5d40cc8138b1283c38559af7ca4c" compoundref="rpcregisterhelpers_8h" startline="903" endline="908">rpcbasic_register_set&lt; T, Tto &gt;::~rpcbasic_register_set</referencedby>
+        <referencedby refid="structrpcbasic__register__trigger_1ace474a763e4408737104e9645ea142e7" compoundref="rpcregisterhelpers_8h" startline="1048" endline="1053">rpcbasic_register_trigger&lt; T &gt;::~rpcbasic_register_trigger</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classrpcmanager_1ab6586bd550be960faaa0418a3ca3012f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void rpcmanager::register_booter</definition>
+        <argsstring>(rpcserver_booter_base *booter)</argsstring>
+        <name>register_booter</name>
+        <qualifiedname>rpcmanager::register_booter</qualifiedname>
+        <param>
+          <type><ref refid="classrpcserver__booter__base" kindref="compound">rpcserver_booter_base</ref> *</type>
+          <declname>booter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" line="27" column="17"/>
+        <referencedby refid="classrpcmanager_1_1rpcserver__booter__register__helper_1a310d6edd501c223d4d72330778b7fa0d" compoundref="rpcmanager_8h" startline="33" endline="33">rpcmanager::rpcserver_booter_register_helper&lt; T &gt;::rpcserver_booter_register_helper</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>rpcmanager</label>
+        <link refid="classrpcmanager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>rpcmanager_base</label>
+        <link refid="classrpcmanager__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>rpcmanager</label>
+        <link refid="classrpcmanager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>rpcmanager_base</label>
+        <link refid="classrpcmanager__base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" line="19" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager.h" bodystart="20" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classrpcmanager_1a848b4053a9fe1d85b61a8850f4f4fc5c" prot="private" virt="non-virtual"><scope>rpcmanager</scope><name>aggregator</name></member>
+      <member refid="classrpcmanager_1aee915b69a535c5f0c962ac35c2ea6d1f" prot="private" virt="non-virtual"><scope>rpcmanager</scope><name>aggregator_registered</name></member>
+      <member refid="classrpcmanager_1a401c9623fc45d203a9a1c8a0a3f279ae" prot="private" virt="non-virtual"><scope>rpcmanager</scope><name>boot</name></member>
+      <member refid="classrpcmanager_1ad157e9e78b4bb0118bf87e0e5c7891b9" prot="private" virt="non-virtual"><scope>rpcmanager</scope><name>booter_registered</name></member>
+      <member refid="classrpcmanager_1a1ba8b0847e9023e46e32e20d189e8d03" prot="public" virt="non-virtual"><scope>rpcmanager</scope><name>get</name></member>
+      <member refid="classrpcmanager_1a4478254b91809baff5dd9919fea1a193" prot="private" virt="non-virtual"><scope>rpcmanager</scope><name>make_aggregator</name></member>
+      <member refid="classrpcmanager_1ab6586bd550be960faaa0418a3ca3012f" prot="public" virt="non-virtual"><scope>rpcmanager</scope><name>register_booter</name></member>
+      <member refid="classrpcmanager_1a56346fea13304ac987467fc62030c2a1" prot="public" virt="non-virtual"><scope>rpcmanager</scope><name>rpcmanager</name></member>
+      <member refid="classrpcmanager__base_1a17d09d6c544542ecfaa0720b1e645ad7" prot="public" virt="non-virtual"><scope>rpcmanager</scope><name>rpcmanager_base</name></member>
+      <member refid="classrpcmanager_1a004b80363c2d4233b8a3564ab2399de6" prot="public" virt="non-virtual"><scope>rpcmanager</scope><name>~rpcmanager</name></member>
+      <member refid="classrpcmanager__base_1a650704b8ca83576d83ea2753cd963bb2" prot="public" virt="non-virtual"><scope>rpcmanager</scope><name>~rpcmanager_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1digital_1_1constellation" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::digital::constellation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::enable_shared_from_this&lt; constellation &gt;</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1digital_1_1constellation__16qam" prot="public" virt="non-virtual">gr::digital::constellation_16qam</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1digital_1_1constellation__8psk" prot="public" virt="non-virtual">gr::digital::constellation_8psk</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1digital_1_1constellation__8psk__natural" prot="public" virt="non-virtual">gr::digital::constellation_8psk_natural</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1digital_1_1constellation__bpsk" prot="public" virt="non-virtual">gr::digital::constellation_bpsk</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1digital_1_1constellation__calcdist" prot="public" virt="non-virtual">gr::digital::constellation_calcdist</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1digital_1_1constellation__dqpsk" prot="public" virt="non-virtual">gr::digital::constellation_dqpsk</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1digital_1_1constellation__qpsk" prot="public" virt="non-virtual">gr::digital::constellation_qpsk</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1digital_1_1constellation__sector" prot="public" virt="non-virtual">gr::digital::constellation_sector</derivedcompoundref>
+    <includes refid="constellation_8h" local="no">gnuradio/digital/constellation.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classgr_1_1digital_1_1constellation_1a638c9016f1447dc0b75df9e0611b4a41" prot="public" static="no" strong="no">
+        <type></type>
+        <name>normalization_t</name>
+        <qualifiedname>gr::digital::constellation::normalization_t</qualifiedname>
+        <enumvalue id="classgr_1_1digital_1_1constellation_1a638c9016f1447dc0b75df9e0611b4a41a737be007ee3f013593f6e93a51886d9f" prot="public">
+          <name>NO_NORMALIZATION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1digital_1_1constellation_1a638c9016f1447dc0b75df9e0611b4a41a5a9c2e342404611d69ceac56dff1a66b" prot="public">
+          <name>POWER_NORMALIZATION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1digital_1_1constellation_1a638c9016f1447dc0b75df9e0611b4a41a7df7eeb84e3c26aaea2dfea117f5854c" prot="public">
+          <name>AMPLITUDE_NORMALIZATION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="52" column="5" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="52" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1a1b5e422bdf7ecbad26e9ed2652956ee9" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::digital::constellation::d_constellation</definition>
+        <argsstring></argsstring>
+        <name>d_constellation</name>
+        <qualifiedname>gr::digital::constellation::d_constellation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="212" column="17" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1a23543df8ec7540e84d9a29f4bf7c8b2d" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::digital::constellation::d_pre_diff_code</definition>
+        <argsstring></argsstring>
+        <name>d_pre_diff_code</name>
+        <qualifiedname>gr::digital::constellation::d_pre_diff_code</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="213" column="17" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1a07cd1d356814817f2afb208af5c8b6ef" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::digital::constellation::d_apply_pre_diff_code</definition>
+        <argsstring></argsstring>
+        <name>d_apply_pre_diff_code</name>
+        <qualifiedname>gr::digital::constellation::d_apply_pre_diff_code</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="214" column="10" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1a6c4d5d1ba5175b419a716a8dca1796a6" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::digital::constellation::d_rotational_symmetry</definition>
+        <argsstring></argsstring>
+        <name>d_rotational_symmetry</name>
+        <qualifiedname>gr::digital::constellation::d_rotational_symmetry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="215" column="18" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1a85d49f80821bc8c836588da64c4d9077" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::digital::constellation::d_dimensionality</definition>
+        <argsstring></argsstring>
+        <name>d_dimensionality</name>
+        <qualifiedname>gr::digital::constellation::d_dimensionality</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="216" column="18" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1aa9b5934e548e46e4c7706b3cd22d2f69" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::digital::constellation::d_arity</definition>
+        <argsstring></argsstring>
+        <name>d_arity</name>
+        <qualifiedname>gr::digital::constellation::d_arity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="217" column="18" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1ad6accef94341a3cea5db2152ec4d174f" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::digital::constellation::d_scalefactor</definition>
+        <argsstring></argsstring>
+        <name>d_scalefactor</name>
+        <qualifiedname>gr::digital::constellation::d_scalefactor</qualifiedname>
+        <briefdescription>
+<para>The factor by which the user given constellation points were scaled by to achieve an average amplitude of 1. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="220" column="11" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1a06c97ccb14c652c0d2c73915600f5f55" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::digital::constellation::d_maxamp</definition>
+        <argsstring></argsstring>
+        <name>d_maxamp</name>
+        <qualifiedname>gr::digital::constellation::d_maxamp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="220" column="25" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1a90cfe2d9144a9e2c9e28973cc6ee7cbc" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::digital::constellation::d_re_min</definition>
+        <argsstring></argsstring>
+        <name>d_re_min</name>
+        <qualifiedname>gr::digital::constellation::d_re_min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="221" column="11" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1a9cfeea23dc49a59975aca5b92b829d37" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::digital::constellation::d_re_max</definition>
+        <argsstring></argsstring>
+        <name>d_re_max</name>
+        <qualifiedname>gr::digital::constellation::d_re_max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="221" column="20" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1aea2610a49f5d0557ed10528a67abb490" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::digital::constellation::d_im_min</definition>
+        <argsstring></argsstring>
+        <name>d_im_min</name>
+        <qualifiedname>gr::digital::constellation::d_im_min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="221" column="29" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1a51e8e28141eb4a8e6c18962a2999058f" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::digital::constellation::d_im_max</definition>
+        <argsstring></argsstring>
+        <name>d_im_max</name>
+        <qualifiedname>gr::digital::constellation::d_im_max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="221" column="38" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1a82f802e81e966627c151477ac62ad864" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; float &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;float&gt; &gt; gr::digital::constellation::d_soft_dec_lut</definition>
+        <argsstring></argsstring>
+        <name>d_soft_dec_lut</name>
+        <qualifiedname>gr::digital::constellation::d_soft_dec_lut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="223" column="17" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1a41dcdc9ef2c25ca07522a4a234b5efbf" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::digital::constellation::d_lut_precision</definition>
+        <argsstring></argsstring>
+        <name>d_lut_precision</name>
+        <qualifiedname>gr::digital::constellation::d_lut_precision</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="224" column="9" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1ad5bd69d3188835883fe11d1a97667d67" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::digital::constellation::d_lut_scale</definition>
+        <argsstring></argsstring>
+        <name>d_lut_scale</name>
+        <qualifiedname>gr::digital::constellation::d_lut_scale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="225" column="11" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1ab172e8f9455f6f8e3a9c8ae424b856aa" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::digital::constellation::d_npwr</definition>
+        <argsstring></argsstring>
+        <name>d_npwr</name>
+        <qualifiedname>gr::digital::constellation::d_npwr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="226" column="11" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1ae825ceab6920c41ccb17eea77a38bccc" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::digital::constellation::d_padding</definition>
+        <argsstring></argsstring>
+        <name>d_padding</name>
+        <qualifiedname>gr::digital::constellation::d_padding</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="227" column="11" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1constellation_1a91bd06831a4e70a70271acbd27a4ece0" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::digital::constellation::d_use_external_lut</definition>
+        <argsstring></argsstring>
+        <name>d_use_external_lut</name>
+        <qualifiedname>gr::digital::constellation::d_use_external_lut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="228" column="10" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1aa9187d1bed73a569193db27a4653f621" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::digital::constellation::constellation</definition>
+        <argsstring>(std::vector&lt; gr_complex &gt; constell, std::vector&lt; int &gt; pre_diff_code, unsigned int rotational_symmetry, unsigned int dimensionality, normalization_t normalization=AMPLITUDE_NORMALIZATION, float npwr=1.0)</argsstring>
+        <name>constellation</name>
+        <qualifiedname>gr::digital::constellation::constellation</qualifiedname>
+        <param>
+          <type>std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+          <declname>constell</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>pre_diff_code</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>rotational_symmetry</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>dimensionality</declname>
+        </param>
+        <param>
+          <type><ref refid="classgr_1_1digital_1_1constellation_1a638c9016f1447dc0b75df9e0611b4a41" kindref="member">normalization_t</ref></type>
+          <declname>normalization</declname>
+          <defval><ref refid="classgr_1_1digital_1_1constellation_1a638c9016f1447dc0b75df9e0611b4a41a7df7eeb84e3c26aaea2dfea117f5854c" kindref="member">AMPLITUDE_NORMALIZATION</ref></defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>npwr</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="58" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a20cea65d404f376a4778a6096816307f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::digital::constellation::constellation</definition>
+        <argsstring>()</argsstring>
+        <name>constellation</name>
+        <qualifiedname>gr::digital::constellation::constellation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="64" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1afaee6d698f66f455ddeec92e1c4f563e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual gr::digital::constellation::~constellation</definition>
+        <argsstring>()</argsstring>
+        <name>~constellation</name>
+        <qualifiedname>gr::digital::constellation::~constellation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="65" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1ac9f27ee242eadae2093a105850f15387" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::digital::constellation::normalize</definition>
+        <argsstring>(normalization_t normalization)</argsstring>
+        <name>normalize</name>
+        <qualifiedname>gr::digital::constellation::normalize</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1digital_1_1constellation_1a638c9016f1447dc0b75df9e0611b4a41" kindref="member">normalization_t</ref></type>
+          <declname>normalization</declname>
+        </param>
+        <briefdescription>
+<para>Normalizes the constellation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="68" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a7e12c699256ffb7ff98af6130c257a20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::digital::constellation::map_to_points</definition>
+        <argsstring>(unsigned int value, gr_complex *points)</argsstring>
+        <name>map_to_points</name>
+        <qualifiedname>gr::digital::constellation::map_to_points</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+<para>Returns the constellation points for a symbol value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="71" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1af78993139c2a6698b103676fc3191ea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>std::vector&lt; gr_complex &gt; gr::digital::constellation::map_to_points_v</definition>
+        <argsstring>(unsigned int value)</argsstring>
+        <name>map_to_points_v</name>
+        <qualifiedname>gr::digital::constellation::map_to_points_v</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="72" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1aecc0c3b7b1042efe9100937988f7902b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>unsigned int</type>
+        <definition>virtual unsigned int gr::digital::constellation::decision_maker</definition>
+        <argsstring>(const gr_complex *sample)=0</argsstring>
+        <name>decision_maker</name>
+        <qualifiedname>gr::digital::constellation::decision_maker</qualifiedname>
+        <reimplementedby refid="classgr_1_1digital_1_1constellation__calcdist_1a97859ffb22d1c86310e9a3a865941b16">decision_maker</reimplementedby>
+        <reimplementedby refid="classgr_1_1digital_1_1constellation__sector_1a1f422b538410238cb9377e1772209766">decision_maker</reimplementedby>
+        <reimplementedby refid="classgr_1_1digital_1_1constellation__bpsk_1a66eb4150e7708aa238e99a2adee1f5d7">decision_maker</reimplementedby>
+        <reimplementedby refid="classgr_1_1digital_1_1constellation__qpsk_1a0088113f7fb35717c7e7b95f4a0f7d9b">decision_maker</reimplementedby>
+        <reimplementedby refid="classgr_1_1digital_1_1constellation__dqpsk_1a91d6c839273d3c19617abfbd61cfe8f7">decision_maker</reimplementedby>
+        <reimplementedby refid="classgr_1_1digital_1_1constellation__8psk_1a667ac53ccd19921493e082bccdaf6db3">decision_maker</reimplementedby>
+        <reimplementedby refid="classgr_1_1digital_1_1constellation__8psk__natural_1acc1b46b394f88cac208a6a75e43e5d37">decision_maker</reimplementedby>
+        <reimplementedby refid="classgr_1_1digital_1_1constellation__16qam_1a8e3caad77d8d5ec6090f107a5d2a72b6">decision_maker</reimplementedby>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+          <declname>sample</declname>
+        </param>
+        <briefdescription>
+<para>Returns the constellation point that matches best. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="75" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a5dcdd705a7d878b88b7acef8da9e845e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::digital::constellation::decision_maker_v</definition>
+        <argsstring>(std::vector&lt; gr_complex &gt; sample)</argsstring>
+        <name>decision_maker_v</name>
+        <qualifiedname>gr::digital::constellation::decision_maker_v</qualifiedname>
+        <param>
+          <type>std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+          <declname>sample</declname>
+        </param>
+        <briefdescription>
+<para>Takes a vector rather than a pointer. Better for SWIG wrapping. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="77" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a9de9eb2229e907d55058d081df01683e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::digital::constellation::decision_maker_pe</definition>
+        <argsstring>(const gr_complex *sample, float *phase_error)</argsstring>
+        <name>decision_maker_pe</name>
+        <qualifiedname>gr::digital::constellation::decision_maker_pe</qualifiedname>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+          <declname>sample</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>phase_error</declname>
+        </param>
+        <briefdescription>
+<para>Also calculates the phase error. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="79" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a298ef3c2ae64ce29c42d3a7d8d73c89b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::digital::constellation::calc_metric</definition>
+        <argsstring>(const gr_complex *sample, float *metric, gr::digital::trellis_metric_type_t type)</argsstring>
+        <name>calc_metric</name>
+        <qualifiedname>gr::digital::constellation::calc_metric</qualifiedname>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+          <declname>sample</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacegr_1_1digital_1a53f5dbe3f2097d58ae646db19f4be8cc" kindref="member">gr::digital::trellis_metric_type_t</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Calculates distance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates metrics for all points in the constellation. For use with the viterbi algorithm. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="85" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a5bbfb7166739e5ebc7f9b49de59b4062" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::digital::constellation::calc_euclidean_metric</definition>
+        <argsstring>(const gr_complex *sample, float *metric)</argsstring>
+        <name>calc_euclidean_metric</name>
+        <qualifiedname>gr::digital::constellation::calc_euclidean_metric</qualifiedname>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+          <declname>sample</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>metric</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="88" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a0842d4f01dfbda896015807f330f646b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::digital::constellation::calc_hard_symbol_metric</definition>
+        <argsstring>(const gr_complex *sample, float *metric)</argsstring>
+        <name>calc_hard_symbol_metric</name>
+        <qualifiedname>gr::digital::constellation::calc_hard_symbol_metric</qualifiedname>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+          <declname>sample</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>metric</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="89" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a443ee7568c5eb7153e169d32e652e3a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>std::vector&lt; gr_complex &gt; gr::digital::constellation::points</definition>
+        <argsstring>()</argsstring>
+        <name>points</name>
+        <qualifiedname>gr::digital::constellation::points</qualifiedname>
+        <briefdescription>
+<para>Returns the set of points in this constellation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="92" column="17" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a8f399aa7476cb7dc43d6b35a44b265e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>std::vector&lt; gr_complex &gt; gr::digital::constellation::s_points</definition>
+        <argsstring>()</argsstring>
+        <name>s_points</name>
+        <qualifiedname>gr::digital::constellation::s_points</qualifiedname>
+        <briefdescription>
+<para>Returns the vector of points in this constellation. Raise error if dimensionality is not one. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="95" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a6cc33dcc535843df7f8872b020f88cab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; gr_complex &gt; &gt; gr::digital::constellation::v_points</definition>
+        <argsstring>()</argsstring>
+        <name>v_points</name>
+        <qualifiedname>gr::digital::constellation::v_points</qualifiedname>
+        <briefdescription>
+<para>Returns a vector of vectors of points. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="97" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a87690b8ffabf0ebfb8bedced857d5417" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::digital::constellation::apply_pre_diff_code</definition>
+        <argsstring>()</argsstring>
+        <name>apply_pre_diff_code</name>
+        <qualifiedname>gr::digital::constellation::apply_pre_diff_code</qualifiedname>
+        <briefdescription>
+<para>Whether to apply an encoding before doing differential encoding. (e.g. gray coding) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="100" column="10" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a7cbd7207225ce02f09f37c15b80f1e2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::digital::constellation::set_pre_diff_code</definition>
+        <argsstring>(bool a)</argsstring>
+        <name>set_pre_diff_code</name>
+        <qualifiedname>gr::digital::constellation::set_pre_diff_code</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Whether to apply an encoding before doing differential encoding. (e.g. gray coding) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="103" column="10" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1af09aa2b1e6395bc2db9e5580f2e480bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; gr::digital::constellation::pre_diff_code</definition>
+        <argsstring>()</argsstring>
+        <name>pre_diff_code</name>
+        <qualifiedname>gr::digital::constellation::pre_diff_code</qualifiedname>
+        <briefdescription>
+<para>Returns the encoding to apply before differential encoding. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="105" column="17" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a5d6597a0478e123918b1b8823329a54c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::digital::constellation::rotational_symmetry</definition>
+        <argsstring>()</argsstring>
+        <name>rotational_symmetry</name>
+        <qualifiedname>gr::digital::constellation::rotational_symmetry</qualifiedname>
+        <briefdescription>
+<para>Returns the order of rotational symmetry. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="107" column="18" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1ad2b3847821c7a878f24fbb95d9399990" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::digital::constellation::dimensionality</definition>
+        <argsstring>()</argsstring>
+        <name>dimensionality</name>
+        <qualifiedname>gr::digital::constellation::dimensionality</qualifiedname>
+        <briefdescription>
+<para>Returns the number of complex numbers in a single symbol. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="109" column="18" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1ae5322f145b0af1fb23010aa3da589e9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::digital::constellation::bits_per_symbol</definition>
+        <argsstring>()</argsstring>
+        <name>bits_per_symbol</name>
+        <qualifiedname>gr::digital::constellation::bits_per_symbol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="111" column="18" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a3b622a4a068c98fda6db9f40153af850" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::digital::constellation::arity</definition>
+        <argsstring>()</argsstring>
+        <name>arity</name>
+        <qualifiedname>gr::digital::constellation::arity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="116" column="18" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a04d4b0e979c23414c06b0965605480d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constellation_sptr</type>
+        <definition>constellation_sptr gr::digital::constellation::base</definition>
+        <argsstring>()</argsstring>
+        <name>base</name>
+        <qualifiedname>gr::digital::constellation::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="118" column="24" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a32d01ed008d3d504708352b854eecb13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>pmt::pmt_t gr::digital::constellation::as_pmt</definition>
+        <argsstring>()</argsstring>
+        <name>as_pmt</name>
+        <qualifiedname>gr::digital::constellation::as_pmt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="120" column="16" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="120" bodyend="120"/>
+        <references refid="namespacepmt_1ae5067083914308db8c4819b285b02ac1">pmt::make_any</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a0b02f601aa6eb655ea10dcc3fb2fe59e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::digital::constellation::gen_soft_dec_lut</definition>
+        <argsstring>(int precision, float npwr=-1)</argsstring>
+        <name>gen_soft_dec_lut</name>
+        <qualifiedname>gr::digital::constellation::gen_soft_dec_lut</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>precision</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>npwr</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>Generates the soft decision LUT based on constellation and symbol map. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Generates the soft decision LUT based on constellation and symbol map. It can be given a estimate of the noise power in the channel as <computeroutput>npwr</computeroutput>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>precision</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of bits of precision on each axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>npwr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Estimate of the noise power (if known), defaults to -1 which will use class member.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+This is expensive to compute. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="135" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a74a667ed707806d4b8c48da9192a9b55" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>virtual std::vector&lt; float &gt; gr::digital::constellation::calc_soft_dec</definition>
+        <argsstring>(gr_complex sample, float npwr=-1)</argsstring>
+        <name>calc_soft_dec</name>
+        <qualifiedname>gr::digital::constellation::calc_soft_dec</qualifiedname>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>sample</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>npwr</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>Calculate soft decisions for the given <computeroutput>sample</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate the soft decisions from the given <computeroutput>sample</computeroutput> at the given noise power <computeroutput>npwr</computeroutput>.</para>
+<para>This is a very costly algorithm (especially for higher order modulations) and should be used sparingly. It uses the <ref refid="classgr_1_1digital_1_1constellation_1a0b02f601aa6eb655ea10dcc3fb2fe59e" kindref="member">gen_soft_dec_lut</ref> function to generate the LUT, which should be done once or if a large change in the noise floor is detected.</para>
+<para>Instead of using this function, generate the LUT using the <ref refid="classgr_1_1digital_1_1constellation_1a0b02f601aa6eb655ea10dcc3fb2fe59e" kindref="member">gen_soft_dec_lut</ref> after creating the constellation object and then use the <ref refid="classgr_1_1digital_1_1constellation_1aa948902b44d0d822537e9c2184e71013" kindref="member">soft_decision_maker</ref> function to return the answer from the LUT.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sample</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The complex sample to get the soft decisions. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>npwr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>estimate of the noise power, defaults to -1 which will use class member. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="157" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a7b4f20eff157d285470bb11c2a1dccc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::digital::constellation::set_soft_dec_lut</definition>
+        <argsstring>(const std::vector&lt; std::vector&lt; float &gt; &gt; &amp;soft_dec_lut, int precision)</argsstring>
+        <name>set_soft_dec_lut</name>
+        <qualifiedname>gr::digital::constellation::set_soft_dec_lut</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; float &gt; &gt; &amp;</type>
+          <declname>soft_dec_lut</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>precision</declname>
+        </param>
+        <briefdescription>
+<para>Define a soft decision look-up table. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Define a soft decision look-up table (LUT). Because soft decisions can be calculated in various ways with various levels of accuracy and complexity, this function allows users to create a LUT in their own way.</para>
+<para>Setting the LUT here means that <ref refid="classgr_1_1digital_1_1constellation_1a1bc7a672bd0e59f6fca46f93ae28c05c" kindref="member">has_soft_dec_lut</ref> will return true. Decision vectors returned by <ref refid="classgr_1_1digital_1_1constellation_1aa948902b44d0d822537e9c2184e71013" kindref="member">soft_decision_maker</ref> will be calculated using this LUT.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>soft_dec_lut</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The soft decision LUT as a vector of tuples (vectors in C++) of soft decisions. Each element of the LUT is a vector of k-bit floats (where there are k bits/sample in the constellation). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>precision</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of bits of precision used when generating the LUT. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="177" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1aed3fc00c8961b573c11b2171c012ec83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::digital::constellation::set_npwr</definition>
+        <argsstring>(float npwr)</argsstring>
+        <name>set_npwr</name>
+        <qualifiedname>gr::digital::constellation::set_npwr</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>npwr</declname>
+        </param>
+        <briefdescription>
+<para>Sets the constellation noise power and recalculates LUT given <computeroutput>npwr</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the constellation noise power and recalculates LUT given <computeroutput>npwr</computeroutput>. If a LUT was defined via manual entry of a table, it will be a left alone. Otherwise, the LUT will be recalculated with the new noise power. This member is used by calc_soft_dec primarily.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>npwr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The noise power to use for soft decisions </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="190" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a1bc7a672bd0e59f6fca46f93ae28c05c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::digital::constellation::has_soft_dec_lut</definition>
+        <argsstring>()</argsstring>
+        <name>has_soft_dec_lut</name>
+        <qualifiedname>gr::digital::constellation::has_soft_dec_lut</qualifiedname>
+        <briefdescription>
+<para>Returns True if the soft decision LUT has been defined, False otherwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="193" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1aeac229fb2c2eb8508e4961b43b97bc62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; float &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; float &gt; &gt; gr::digital::constellation::soft_dec_lut</definition>
+        <argsstring>()</argsstring>
+        <name>soft_dec_lut</name>
+        <qualifiedname>gr::digital::constellation::soft_dec_lut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="196" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1aa948902b44d0d822537e9c2184e71013" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt; float &gt; gr::digital::constellation::soft_decision_maker</definition>
+        <argsstring>(gr_complex sample)</argsstring>
+        <name>soft_decision_maker</name>
+        <qualifiedname>gr::digital::constellation::soft_decision_maker</qualifiedname>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>sample</declname>
+        </param>
+        <briefdescription>
+<para>Returns the soft decisions for the given <computeroutput>sample</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the soft decisions for the given <computeroutput>sample</computeroutput>. If a LUT is defined for the object, the decisions will be calculated from there. Otherwise, this function will call calc_soft_dec directly to calculate the soft decisions.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sample</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The complex sample to get the soft decisions. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="208" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a446417e19d701280d20874ad718a16ca" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::digital::constellation::get_distance</definition>
+        <argsstring>(unsigned int index, const gr_complex *sample)</argsstring>
+        <name>get_distance</name>
+        <qualifiedname>gr::digital::constellation::get_distance</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+          <declname>sample</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="230" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1aff2ec26a1d06b878b36335d2bde94197" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::digital::constellation::get_closest_point</definition>
+        <argsstring>(const gr_complex *sample)</argsstring>
+        <name>get_closest_point</name>
+        <qualifiedname>gr::digital::constellation::get_closest_point</qualifiedname>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+          <declname>sample</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="231" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1a91d01f94589c9ea4d3a183f455268604" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::digital::constellation::calc_arity</definition>
+        <argsstring>()</argsstring>
+        <name>calc_arity</name>
+        <qualifiedname>gr::digital::constellation::calc_arity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="232" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1constellation_1abb8a2cdd79cfc83a9a7ab55cdec6b2fb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::digital::constellation::max_min_axes</definition>
+        <argsstring>()</argsstring>
+        <name>max_min_axes</name>
+        <qualifiedname>gr::digital::constellation::max_min_axes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="234" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>An abstracted constellation object. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The constellation objects hold the necessary information to pass around constellation information for modulators and demodulators. These objects contain the mapping between the bits and the constellation points used to represent them as well as methods for slicing the symbol space. Various implementations are possible for efficiency and ease of use.</para>
+<para>Standard constellations (BPSK, QPSK, QAM, etc) can be inherited from this class and overloaded to perform optimized slicing and constellation mappings. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::digital::constellation</label>
+        <link refid="classgr_1_1digital_1_1constellation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::digital::constellation_16qam</label>
+        <link refid="classgr_1_1digital_1_1constellation__16qam"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gr::digital::constellation_8psk</label>
+        <link refid="classgr_1_1digital_1_1constellation__8psk"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gr::digital::constellation_8psk_natural</label>
+        <link refid="classgr_1_1digital_1_1constellation__8psk__natural"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gr::digital::constellation_bpsk</label>
+        <link refid="classgr_1_1digital_1_1constellation__bpsk"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::digital::constellation_calcdist</label>
+        <link refid="classgr_1_1digital_1_1constellation__calcdist"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>gr::digital::constellation_dqpsk</label>
+        <link refid="classgr_1_1digital_1_1constellation__dqpsk"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>gr::digital::constellation_expl_rect</label>
+        <link refid="classgr_1_1digital_1_1constellation__expl__rect"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gr::digital::constellation_psk</label>
+        <link refid="classgr_1_1digital_1_1constellation__psk"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>gr::digital::constellation_qpsk</label>
+        <link refid="classgr_1_1digital_1_1constellation__qpsk"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>gr::digital::constellation_rect</label>
+        <link refid="classgr_1_1digital_1_1constellation__rect"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>gr::digital::constellation_sector</label>
+        <link refid="classgr_1_1digital_1_1constellation__sector"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::enable_shared_from_this&lt; constellation &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::digital::constellation</label>
+        <link refid="classgr_1_1digital_1_1constellation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>d_constellation</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>d_pre_diff_code</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>d_soft_dec_lut</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::complex</label>
+      </node>
+      <node id="2">
+        <label>std::enable_shared_from_this&lt; constellation &gt;</label>
+      </node>
+      <node id="7">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+      <node id="3">
+        <label>std::vector&lt; gr_complex &gt;</label>
+        <childnode refid="4" relation="usage">
+          <edgelabel>elements</edgelabel>
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+      <node id="6">
+        <label>std::vector&lt; std::vector&lt; float &gt; &gt;</label>
+        <childnode refid="7" relation="usage">
+          <edgelabel>elements</edgelabel>
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" line="49" column="1" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/constellation.h" bodystart="50" bodyend="235"/>
+    <listofallmembers>
+      <member refid="classgr_1_1digital_1_1constellation_1a638c9016f1447dc0b75df9e0611b4a41a7df7eeb84e3c26aaea2dfea117f5854c" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>AMPLITUDE_NORMALIZATION</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a87690b8ffabf0ebfb8bedced857d5417" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>apply_pre_diff_code</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a3b622a4a068c98fda6db9f40153af850" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>arity</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a32d01ed008d3d504708352b854eecb13" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>as_pmt</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a04d4b0e979c23414c06b0965605480d2" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>base</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1ae5322f145b0af1fb23010aa3da589e9f" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>bits_per_symbol</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a91d01f94589c9ea4d3a183f455268604" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>calc_arity</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a5bbfb7166739e5ebc7f9b49de59b4062" prot="public" virt="virtual"><scope>gr::digital::constellation</scope><name>calc_euclidean_metric</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a0842d4f01dfbda896015807f330f646b" prot="public" virt="virtual"><scope>gr::digital::constellation</scope><name>calc_hard_symbol_metric</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a298ef3c2ae64ce29c42d3a7d8d73c89b" prot="public" virt="virtual"><scope>gr::digital::constellation</scope><name>calc_metric</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a74a667ed707806d4b8c48da9192a9b55" prot="public" virt="virtual"><scope>gr::digital::constellation</scope><name>calc_soft_dec</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1aa9187d1bed73a569193db27a4653f621" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>constellation</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a20cea65d404f376a4778a6096816307f" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>constellation</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a07cd1d356814817f2afb208af5c8b6ef" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_apply_pre_diff_code</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1aa9b5934e548e46e4c7706b3cd22d2f69" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_arity</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a1b5e422bdf7ecbad26e9ed2652956ee9" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_constellation</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a85d49f80821bc8c836588da64c4d9077" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_dimensionality</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a51e8e28141eb4a8e6c18962a2999058f" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_im_max</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1aea2610a49f5d0557ed10528a67abb490" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_im_min</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a41dcdc9ef2c25ca07522a4a234b5efbf" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_lut_precision</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1ad5bd69d3188835883fe11d1a97667d67" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_lut_scale</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a06c97ccb14c652c0d2c73915600f5f55" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_maxamp</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1ab172e8f9455f6f8e3a9c8ae424b856aa" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_npwr</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1ae825ceab6920c41ccb17eea77a38bccc" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_padding</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a23543df8ec7540e84d9a29f4bf7c8b2d" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_pre_diff_code</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a9cfeea23dc49a59975aca5b92b829d37" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_re_max</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a90cfe2d9144a9e2c9e28973cc6ee7cbc" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_re_min</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a6c4d5d1ba5175b419a716a8dca1796a6" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_rotational_symmetry</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1ad6accef94341a3cea5db2152ec4d174f" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_scalefactor</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a82f802e81e966627c151477ac62ad864" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_soft_dec_lut</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a91bd06831a4e70a70271acbd27a4ece0" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>d_use_external_lut</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1aecc0c3b7b1042efe9100937988f7902b" prot="public" virt="pure-virtual"><scope>gr::digital::constellation</scope><name>decision_maker</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a9de9eb2229e907d55058d081df01683e" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>decision_maker_pe</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a5dcdd705a7d878b88b7acef8da9e845e" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>decision_maker_v</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1ad2b3847821c7a878f24fbb95d9399990" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>dimensionality</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a0b02f601aa6eb655ea10dcc3fb2fe59e" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>gen_soft_dec_lut</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1aff2ec26a1d06b878b36335d2bde94197" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>get_closest_point</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a446417e19d701280d20874ad718a16ca" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>get_distance</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a1bc7a672bd0e59f6fca46f93ae28c05c" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>has_soft_dec_lut</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a7e12c699256ffb7ff98af6130c257a20" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>map_to_points</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1af78993139c2a6698b103676fc3191ea9" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>map_to_points_v</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1abb8a2cdd79cfc83a9a7ab55cdec6b2fb" prot="protected" virt="non-virtual"><scope>gr::digital::constellation</scope><name>max_min_axes</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a638c9016f1447dc0b75df9e0611b4a41a737be007ee3f013593f6e93a51886d9f" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>NO_NORMALIZATION</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a638c9016f1447dc0b75df9e0611b4a41" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>normalization_t</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1ac9f27ee242eadae2093a105850f15387" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>normalize</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a443ee7568c5eb7153e169d32e652e3a0" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>points</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a638c9016f1447dc0b75df9e0611b4a41a5a9c2e342404611d69ceac56dff1a66b" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>POWER_NORMALIZATION</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1af09aa2b1e6395bc2db9e5580f2e480bd" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>pre_diff_code</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a5d6597a0478e123918b1b8823329a54c" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>rotational_symmetry</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a8f399aa7476cb7dc43d6b35a44b265e8" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>s_points</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1aed3fc00c8961b573c11b2171c012ec83" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>set_npwr</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a7cbd7207225ce02f09f37c15b80f1e2a" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>set_pre_diff_code</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a7b4f20eff157d285470bb11c2a1dccc3" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>set_soft_dec_lut</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1aeac229fb2c2eb8508e4961b43b97bc62" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>soft_dec_lut</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1aa948902b44d0d822537e9c2184e71013" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>soft_decision_maker</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1a6cc33dcc535843df7f8872b020f88cab" prot="public" virt="non-virtual"><scope>gr::digital::constellation</scope><name>v_points</name></member>
+      <member refid="classgr_1_1digital_1_1constellation_1afaee6d698f66f455ddeec92e1c4f563e" prot="public" virt="virtual"><scope>gr::digital::constellation</scope><name>~constellation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

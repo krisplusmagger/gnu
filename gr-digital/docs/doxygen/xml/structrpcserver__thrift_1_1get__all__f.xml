@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structrpcserver__thrift_1_1get__all__f" kind="struct" language="C++" prot="private">
+    <compoundname>rpcserver_thrift::get_all_f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::function&lt; void(T)&gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename TMap</type>
+      </param>
+      <param>
+        <type>typename TKnobMap</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structrpcserver__thrift_1_1get__all__f_1a67087520a3a686b563127bf3f897685a" prot="public" static="no" mutable="no">
+        <type>TMap &amp;</type>
+        <definition>TMap&amp; rpcserver_thrift::get_all_f&lt; T, TMap, TKnobMap &gt;::d_getcallbackmap</definition>
+        <argsstring></argsstring>
+        <name>d_getcallbackmap</name>
+        <qualifiedname>rpcserver_thrift::get_all_f::d_getcallbackmap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" line="202" column="14" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrpcserver__thrift_1_1get__all__f_1a3b21af575a8de2f7c16cc4990b6a35e6" prot="public" static="no" mutable="no">
+        <type>const <ref refid="rpccallbackregister__base_8h_1a49bbe5b25d6264b2ebfc1ffd260cb096" kindref="member">priv_lvl_t</ref> &amp;</type>
+        <definition>const priv_lvl_t&amp; rpcserver_thrift::get_all_f&lt; T, TMap, TKnobMap &gt;::cur_priv</definition>
+        <argsstring></argsstring>
+        <name>cur_priv</name>
+        <qualifiedname>rpcserver_thrift::get_all_f::cur_priv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" line="203" column="26" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrpcserver__thrift_1_1get__all__f_1af725571059722d1df41d720e1e070f7c" prot="public" static="no" mutable="no">
+        <type>TKnobMap &amp;</type>
+        <definition>TKnobMap&amp; rpcserver_thrift::get_all_f&lt; T, TMap, TKnobMap &gt;::outknobs</definition>
+        <argsstring></argsstring>
+        <name>outknobs</name>
+        <qualifiedname>rpcserver_thrift::get_all_f::outknobs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" line="204" column="18" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structrpcserver__thrift_1_1get__all__f_1a78d5407fbd6340ea124e8cd53679156a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>rpcserver_thrift::get_all_f&lt; T, TMap, TKnobMap &gt;::get_all_f</definition>
+        <argsstring>(TMap &amp;_getcallbackmap, const priv_lvl_t &amp;_cur_priv, TKnobMap &amp;_outknobs)</argsstring>
+        <name>get_all_f</name>
+        <qualifiedname>rpcserver_thrift::get_all_f::get_all_f</qualifiedname>
+        <param>
+          <type>TMap &amp;</type>
+          <declname>_getcallbackmap</declname>
+        </param>
+        <param>
+          <type>const <ref refid="rpccallbackregister__base_8h_1a49bbe5b25d6264b2ebfc1ffd260cb096" kindref="member">priv_lvl_t</ref> &amp;</type>
+          <declname>_cur_priv</declname>
+        </param>
+        <param>
+          <type>TKnobMap &amp;</type>
+          <declname>_outknobs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" line="183" column="9" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" bodystart="183" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="structrpcserver__thrift_1_1get__all__f_1a27b6a45d44d35c80f272d1dae2b60bbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void rpcserver_thrift::get_all_f&lt; T, TMap, TKnobMap &gt;::operator()</definition>
+        <argsstring>(const T &amp;p)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>rpcserver_thrift::get_all_f::operator()</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" line="189" column="14" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" bodystart="189" bodyend="200"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>rpcserver_thrift::get_all_f&lt; T, TMap, TKnobMap &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::function&lt; void(T)&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>rpcserver_thrift::get_all_f&lt; T, TMap, TKnobMap &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::function&lt; void(T)&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" line="182" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_thrift.h" bodystart="182" bodyend="205"/>
+    <listofallmembers>
+      <member refid="structrpcserver__thrift_1_1get__all__f_1a3b21af575a8de2f7c16cc4990b6a35e6" prot="public" virt="non-virtual"><scope>rpcserver_thrift::get_all_f</scope><name>cur_priv</name></member>
+      <member refid="structrpcserver__thrift_1_1get__all__f_1a67087520a3a686b563127bf3f897685a" prot="public" virt="non-virtual"><scope>rpcserver_thrift::get_all_f</scope><name>d_getcallbackmap</name></member>
+      <member refid="structrpcserver__thrift_1_1get__all__f_1a78d5407fbd6340ea124e8cd53679156a" prot="public" virt="non-virtual"><scope>rpcserver_thrift::get_all_f</scope><name>get_all_f</name></member>
+      <member refid="structrpcserver__thrift_1_1get__all__f_1a27b6a45d44d35c80f272d1dae2b60bbc" prot="public" virt="non-virtual"><scope>rpcserver_thrift::get_all_f</scope><name>operator()</name></member>
+      <member refid="structrpcserver__thrift_1_1get__all__f_1af725571059722d1df41d720e1e070f7c" prot="public" virt="non-virtual"><scope>rpcserver_thrift::get_all_f</scope><name>outknobs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

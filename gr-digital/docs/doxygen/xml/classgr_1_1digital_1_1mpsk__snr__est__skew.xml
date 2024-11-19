@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1digital_1_1mpsk__snr__est__skew" kind="class" language="C++" prot="public">
+    <compoundname>gr::digital::mpsk_snr_est_skew</compoundname>
+    <basecompoundref refid="classgr_1_1digital_1_1mpsk__snr__est" prot="public" virt="non-virtual">gr::digital::mpsk_snr_est</basecompoundref>
+    <includes refid="mpsk__snr__est_8h" local="no">gnuradio/digital/mpsk_snr_est.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1digital_1_1mpsk__snr__est__skew_1a31fb70c5d5c54c6c0885ae8779a0e722" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::digital::mpsk_snr_est_skew::d_y1</definition>
+        <argsstring></argsstring>
+        <name>d_y1</name>
+        <qualifiedname>gr::digital::mpsk_snr_est_skew::d_y1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/mpsk_snr_est.h" line="125" column="12" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/mpsk_snr_est.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1mpsk__snr__est__skew_1a2b71c6ccfbe8878cad739233834d2e61" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::digital::mpsk_snr_est_skew::d_y2</definition>
+        <argsstring></argsstring>
+        <name>d_y2</name>
+        <qualifiedname>gr::digital::mpsk_snr_est_skew::d_y2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/mpsk_snr_est.h" line="125" column="17" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/mpsk_snr_est.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1mpsk__snr__est__skew_1afba81dfe0e2bfad2539bfa4a70ce607c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::digital::mpsk_snr_est_skew::d_y3</definition>
+        <argsstring></argsstring>
+        <name>d_y3</name>
+        <qualifiedname>gr::digital::mpsk_snr_est_skew::d_y3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/mpsk_snr_est.h" line="125" column="22" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/mpsk_snr_est.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1mpsk__snr__est__skew_1ac2b72a5f57169ce8d9cfb2306a2a906b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::digital::mpsk_snr_est_skew::d_counter</definition>
+        <argsstring></argsstring>
+        <name>d_counter</name>
+        <qualifiedname>gr::digital::mpsk_snr_est_skew::d_counter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/mpsk_snr_est.h" line="126" column="12" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/mpsk_snr_est.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1digital_1_1mpsk__snr__est__skew_1ae70079f17c9bedf6c6e9ebc34c89ce36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::digital::mpsk_snr_est_skew::mpsk_snr_est_skew</definition>
+        <argsstring>(double alpha)</argsstring>
+        <name>mpsk_snr_est_skew</name>
+        <qualifiedname>gr::digital::mpsk_snr_est_skew::mpsk_snr_est_skew</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para>
+<para>Parameters: <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alpha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the update rate of internal running average calculations. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/mpsk_snr_est.h" line="135" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1mpsk__snr__est__skew_1a3538c6d89c5465069a48d829fb8227f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::digital::mpsk_snr_est_skew::~mpsk_snr_est_skew</definition>
+        <argsstring>() override</argsstring>
+        <name>~mpsk_snr_est_skew</name>
+        <qualifiedname>gr::digital::mpsk_snr_est_skew::~mpsk_snr_est_skew</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/mpsk_snr_est.h" line="136" column="5" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/mpsk_snr_est.h" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1mpsk__snr__est__skew_1a6db5eb45ac798f4d6b852b87f2392bbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int gr::digital::mpsk_snr_est_skew::update</definition>
+        <argsstring>(int noutput_items, const gr_complex *input) override</argsstring>
+        <name>update</name>
+        <qualifiedname>gr::digital::mpsk_snr_est_skew::update</qualifiedname>
+        <reimplements refid="classgr_1_1digital_1_1mpsk__snr__est_1ad75ed30973d99d6e0f59793371ec9ab7">update</reimplements>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+<para>Update the current registers. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/mpsk_snr_est.h" line="138" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1mpsk__snr__est__skew_1ac6bd5afae4cd2a80895d12c199c58154" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double gr::digital::mpsk_snr_est_skew::snr</definition>
+        <argsstring>() override</argsstring>
+        <name>snr</name>
+        <qualifiedname>gr::digital::mpsk_snr_est_skew::snr</qualifiedname>
+        <reimplements refid="classgr_1_1digital_1_1mpsk__snr__est_1ae7794f68fb9d8421bcd3942e15f59b1c">snr</reimplements>
+        <briefdescription>
+<para>Use the register values to compute a new estimate. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/mpsk_snr_est.h" line="139" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>SNR Estimator using skewness correction. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This is an estimator that came from a discussion between Tom Rondeau and fred harris with no known paper reference. The idea is that at low SNR, the variance estimations will be affected because of fold-over around the decision boundaries, which results in a skewness to the samples. We estimate the skewness and use this as a correcting term.</para>
+<para>This algorithm only appears to work well for BPSK signals. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::digital::mpsk_snr_est</label>
+        <link refid="classgr_1_1digital_1_1mpsk__snr__est"/>
+      </node>
+      <node id="1">
+        <label>gr::digital::mpsk_snr_est_skew</label>
+        <link refid="classgr_1_1digital_1_1mpsk__snr__est__skew"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::digital::mpsk_snr_est</label>
+        <link refid="classgr_1_1digital_1_1mpsk__snr__est"/>
+      </node>
+      <node id="1">
+        <label>gr::digital::mpsk_snr_est_skew</label>
+        <link refid="classgr_1_1digital_1_1mpsk__snr__est__skew"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/mpsk_snr_est.h" line="122" column="1" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/mpsk_snr_est.h" bodystart="123" bodyend="140"/>
+    <listofallmembers>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est_1a98d8ea37c992d5ae8bd2ae9e54198cd8" prot="public" virt="non-virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>alpha</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est_1a540305805f127ec967501c924faa9a02" prot="protected" virt="non-virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>d_alpha</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est_1aa3efc31b0ad1c16ed3cb07c192a04678" prot="protected" virt="non-virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>d_beta</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est__skew_1ac2b72a5f57169ce8d9cfb2306a2a906b" prot="private" virt="non-virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>d_counter</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est_1af4eb6e888c18548217cee861f9e492e1" prot="protected" virt="non-virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>d_noise</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est_1a1ecec8ff9b2f74453caa17bd3c11f93d" prot="protected" virt="non-virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>d_signal</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est__skew_1a31fb70c5d5c54c6c0885ae8779a0e722" prot="private" virt="non-virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>d_y1</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est__skew_1a2b71c6ccfbe8878cad739233834d2e61" prot="private" virt="non-virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>d_y2</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est__skew_1afba81dfe0e2bfad2539bfa4a70ce607c" prot="private" virt="non-virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>d_y3</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est_1af5375ee496c18634c5c84687c8014ab4" prot="public" virt="non-virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>mpsk_snr_est</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est__skew_1ae70079f17c9bedf6c6e9ebc34c89ce36" prot="public" virt="non-virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>mpsk_snr_est_skew</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est_1a6a3fdc7ab9844d084822bd26aee28d3a" prot="public" virt="virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>noise</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est_1a9bde010a328230fdbe6462298a50fe31" prot="public" virt="non-virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>set_alpha</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est_1acdd0b7b430fb4a2ae627325a2f0a80a7" prot="public" virt="virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>signal</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est__skew_1ac6bd5afae4cd2a80895d12c199c58154" prot="public" virt="virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>snr</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est__skew_1a6db5eb45ac798f4d6b852b87f2392bbc" prot="public" virt="virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>update</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est_1a4669d27ece725779dac3d54992d57bcd" prot="public" virt="virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>~mpsk_snr_est</name></member>
+      <member refid="classgr_1_1digital_1_1mpsk__snr__est__skew_1a3538c6d89c5465069a48d829fb8227f2" prot="public" virt="non-virtual"><scope>gr::digital::mpsk_snr_est_skew</scope><name>~mpsk_snr_est_skew</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="matrix__sink__pydoc_8h" kind="file" language="C++">
+    <compoundname>matrix_sink_pydoc.h</compoundname>
+    <includes refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>matrix_sink_pydoc.h</label>
+        <link refid="matrix__sink__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="matrix__sink__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, qtgui, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="matrix__sink__pydoc_8h_1ab3a60061b3203f88035deabcc6bc229c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_matrix_sink</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_matrix_sink</name>
+        <initializer>= R&quot;doc(A graphical sink that displays a matrix.
+
+This block displays a matrix as a 2<ref refid="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref> plot. The matrix is displayed as a contour plot, with the color of each contour determined by the value of the matrix at that point.
+
+
+The matrix is displayed as a 2<ref refid="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref> plot, with the x and y axes corresponding to the row and column indices of the matrix, respectively. The z axis corresponds to the value of the matrix at that point.
+
+Constructor Specific Documentation:
+
+Build a matrix sink block.
+
+Args:
+    name : The name of the block.
+    num_cols : The number of columns in the matrix.
+    vlen : The vector length of the matrix.
+    contour : Whether or not to display the matrix as a contour plot.
+    color_map : The color map to use for the contour plot.
+    interpolation : The interpolation method to use for the contour plot.
+    parent : The parent QWidget.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="17" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="matrix__sink__pydoc_8h_1a553c985d9bfd39e3bf50fe86a0dc7910" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_matrix_sink_matrix_sink_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_matrix_sink_matrix_sink_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="matrix__sink__pydoc_8h_1a1bb39131e5adc24713438d89d7828d50" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_matrix_sink_matrix_sink_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_matrix_sink_matrix_sink_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="matrix__sink__pydoc_8h_1a93125bfc6d142a6952134817ad4eb11e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_matrix_sink_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_matrix_sink_make</name>
+        <initializer>= R&quot;doc(A graphical sink that displays a matrix.
+
+This block displays a matrix as a 2<ref refid="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref> plot. The matrix is displayed as a contour plot, with the color of each contour determined by the value of the matrix at that point.
+
+
+The matrix is displayed as a 2<ref refid="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref> plot, with the x and y axes corresponding to the row and column indices of the matrix, respectively. The z axis corresponds to the value of the matrix at that point.
+
+Constructor Specific Documentation:
+
+Build a matrix sink block.
+
+Args:
+    name : The name of the block.
+    num_cols : The number of columns in the matrix.
+    vlen : The vector length of the matrix.
+    contour : Whether or not to display the matrix as a contour plot.
+    color_map : The color map to use for the contour plot.
+    interpolation : The interpolation method to use for the contour plot.
+    parent : The parent QWidget.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="matrix__sink__pydoc_8h_1a5ef98284c4146f4506eb19a8932bf3fe" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_matrix_sink_exec_</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_matrix_sink_exec_</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="61" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="matrix__sink__pydoc_8h_1aaabea80690a889c77f02746b7e93c880" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_matrix_sink_qwidget</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_matrix_sink_qwidget</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="63" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="matrix__sink__pydoc_8h_1ac55caf0e279d6c0cec07959b4c694d10" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_matrix_sink_set_x_start</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_matrix_sink_set_x_start</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="65" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="matrix__sink__pydoc_8h_1a7bcc162c15538834116d2fddd292f6eb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_matrix_sink_set_x_end</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_matrix_sink_set_x_end</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="67" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="matrix__sink__pydoc_8h_1a32910aa6701c74c3620f7c3edf13ef87" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_matrix_sink_set_y_start</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_matrix_sink_set_y_start</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="69" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="matrix__sink__pydoc_8h_1a9227b12ee01f2a31e7baa3edea0b8b23" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_matrix_sink_set_y_end</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_matrix_sink_set_y_end</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="71" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="matrix__sink__pydoc_8h_1ae4e0b71a2beafa81a7745861155d922a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_matrix_sink_set_z_max</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_matrix_sink_set_z_max</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="73" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="matrix__sink__pydoc_8h_1adc6b3868962bbf167161f2abd7f8a16e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_matrix_sink_set_z_min</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_matrix_sink_set_z_min</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="75" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="matrix__sink__pydoc_8h_1ad9d05db88b2be64c384d5e524fce88b0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_matrix_sink_set_x_axis_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_matrix_sink_set_x_axis_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="77" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="matrix__sink__pydoc_8h_1a66fea0c53b175fe5c16541730c601c7c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_matrix_sink_set_y_axis_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_matrix_sink_set_y_axis_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="79" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="matrix__sink__pydoc_8h_1a84f9bf0b3311feb56875a93f293ca180" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_matrix_sink_set_z_axis_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_matrix_sink_set_z_axis_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" line="81" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/matrix_sink_pydoc.h"/>
+  </compounddef>
+</doxygen>

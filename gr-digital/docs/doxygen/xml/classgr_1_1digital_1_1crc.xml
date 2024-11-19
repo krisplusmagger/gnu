@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1digital_1_1crc" kind="class" language="C++" prot="public">
+    <compoundname>gr::digital::crc</compoundname>
+    <includes refid="crc_8h" local="no">gnuradio/digital/crc.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1digital_1_1crc_1ac88b080cf756f4f99a6af7c56072c435" prot="private" static="no" mutable="no">
+        <type>std::array&lt; uint64_t, 256 &gt;</type>
+        <definition>std::array&lt;uint64_t, 256&gt; gr::digital::crc::d_table</definition>
+        <argsstring></argsstring>
+        <name>d_table</name>
+        <qualifiedname>gr::digital::crc::d_table</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" line="72" column="16" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1crc_1a4d27daf8788575d08814f61715414969" prot="private" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned gr::digital::crc::d_num_bits</definition>
+        <argsstring></argsstring>
+        <name>d_num_bits</name>
+        <qualifiedname>gr::digital::crc::d_num_bits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" line="73" column="14" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1crc_1af1851d9720bd8d715b4bf5c9a6fe8c4f" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::digital::crc::d_mask</definition>
+        <argsstring></argsstring>
+        <name>d_mask</name>
+        <qualifiedname>gr::digital::crc::d_mask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" line="74" column="14" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1crc_1a3a46aab27e7e651acd1213f2bdbc92a2" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::digital::crc::d_initial_value</definition>
+        <argsstring></argsstring>
+        <name>d_initial_value</name>
+        <qualifiedname>gr::digital::crc::d_initial_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" line="75" column="14" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1crc_1a88ba9fb6fa1a480ab000d335c6c9f6a3" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::digital::crc::d_final_xor</definition>
+        <argsstring></argsstring>
+        <name>d_final_xor</name>
+        <qualifiedname>gr::digital::crc::d_final_xor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" line="76" column="14" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1crc_1ae50a9756b19908fc7e50a02c39f79fc4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::digital::crc::d_input_reflected</definition>
+        <argsstring></argsstring>
+        <name>d_input_reflected</name>
+        <qualifiedname>gr::digital::crc::d_input_reflected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" line="77" column="10" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1crc_1a19a7989a5b831c28a46ce81e1f4ed829" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::digital::crc::d_result_reflected</definition>
+        <argsstring></argsstring>
+        <name>d_result_reflected</name>
+        <qualifiedname>gr::digital::crc::d_result_reflected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" line="78" column="10" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1digital_1_1crc_1a914489aee4c65066ae5b2a98ae6af987" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::digital::crc::crc</definition>
+        <argsstring>(unsigned num_bits, uint64_t poly, uint64_t initial_value, uint64_t final_xor, bool input_reflected, bool result_reflected)</argsstring>
+        <name>crc</name>
+        <qualifiedname>gr::digital::crc::crc</qualifiedname>
+        <param>
+          <type>unsigned</type>
+          <declname>num_bits</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>poly</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>initial_value</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>final_xor</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>input_reflected</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>result_reflected</declname>
+        </param>
+        <briefdescription>
+<para>Construct a CRC calculator instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>num_bits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CRC size in bits </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>poly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CRC polynomial, in MSB-first notation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initial_value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Initial register value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>final_xor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Final XOR value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input_reflected</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the input is LSB-first, false if not </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>result_reflected</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the output is LSB-first, false if not </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" line="45" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1crc_1a6f0e8544ca577c95d86323d2184b4711" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::digital::crc::~crc</definition>
+        <argsstring>()</argsstring>
+        <name>~crc</name>
+        <qualifiedname>gr::digital::crc::~crc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" line="51" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1crc_1a6ad3f5ec2ba11e3f317812da252f3070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::digital::crc::compute</definition>
+        <argsstring>(const uint8_t *data, std::size_t len)</argsstring>
+        <name>compute</name>
+        <qualifiedname>gr::digital::crc::compute</qualifiedname>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+<para>Computes a CRC. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the input data for the CRC calculation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the length in bytes of the data </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" line="59" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1crc_1a40b1aa599d90ef074c343677e8b22cb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::digital::crc::compute</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; const &amp;data)</argsstring>
+        <name>compute</name>
+        <qualifiedname>gr::digital::crc::compute</qualifiedname>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Computes a CRC. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the input data for the CRC calculation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" line="66" column="14" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" bodystart="66" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1digital_1_1crc_1ae95aa5a9e4628841f7e3a0d283b15121" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::digital::crc::reflect</definition>
+        <argsstring>(uint64_t word) const</argsstring>
+        <name>reflect</name>
+        <qualifiedname>gr::digital::crc::reflect</qualifiedname>
+        <param>
+          <type>uint64_t</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" line="80" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Calculates a CRC. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This class calculates a CRC with configurable parameters. A table-driven byte-by-byte approach is used in the CRC computation. </para>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" line="32" column="1" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/crc.h" bodystart="33" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classgr_1_1digital_1_1crc_1a6ad3f5ec2ba11e3f317812da252f3070" prot="public" virt="non-virtual"><scope>gr::digital::crc</scope><name>compute</name></member>
+      <member refid="classgr_1_1digital_1_1crc_1a40b1aa599d90ef074c343677e8b22cb0" prot="public" virt="non-virtual"><scope>gr::digital::crc</scope><name>compute</name></member>
+      <member refid="classgr_1_1digital_1_1crc_1a914489aee4c65066ae5b2a98ae6af987" prot="public" virt="non-virtual"><scope>gr::digital::crc</scope><name>crc</name></member>
+      <member refid="classgr_1_1digital_1_1crc_1a88ba9fb6fa1a480ab000d335c6c9f6a3" prot="private" virt="non-virtual"><scope>gr::digital::crc</scope><name>d_final_xor</name></member>
+      <member refid="classgr_1_1digital_1_1crc_1a3a46aab27e7e651acd1213f2bdbc92a2" prot="private" virt="non-virtual"><scope>gr::digital::crc</scope><name>d_initial_value</name></member>
+      <member refid="classgr_1_1digital_1_1crc_1ae50a9756b19908fc7e50a02c39f79fc4" prot="private" virt="non-virtual"><scope>gr::digital::crc</scope><name>d_input_reflected</name></member>
+      <member refid="classgr_1_1digital_1_1crc_1af1851d9720bd8d715b4bf5c9a6fe8c4f" prot="private" virt="non-virtual"><scope>gr::digital::crc</scope><name>d_mask</name></member>
+      <member refid="classgr_1_1digital_1_1crc_1a4d27daf8788575d08814f61715414969" prot="private" virt="non-virtual"><scope>gr::digital::crc</scope><name>d_num_bits</name></member>
+      <member refid="classgr_1_1digital_1_1crc_1a19a7989a5b831c28a46ce81e1f4ed829" prot="private" virt="non-virtual"><scope>gr::digital::crc</scope><name>d_result_reflected</name></member>
+      <member refid="classgr_1_1digital_1_1crc_1ac88b080cf756f4f99a6af7c56072c435" prot="private" virt="non-virtual"><scope>gr::digital::crc</scope><name>d_table</name></member>
+      <member refid="classgr_1_1digital_1_1crc_1ae95aa5a9e4628841f7e3a0d283b15121" prot="private" virt="non-virtual"><scope>gr::digital::crc</scope><name>reflect</name></member>
+      <member refid="classgr_1_1digital_1_1crc_1a6f0e8544ca577c95d86323d2184b4711" prot="public" virt="non-virtual"><scope>gr::digital::crc</scope><name>~crc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

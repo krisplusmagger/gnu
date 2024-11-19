@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="header__format__base__pydoc_8h" kind="file" language="C++">
+    <compoundname>header_format_base_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>header_format_base_pydoc.h</label>
+        <link refid="header__format__base__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="header__format__base__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="header__format__base__pydoc_8h_1a2006363bc3e68270a0a7a29745daf1c4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_header_format_base</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_header_format_base</name>
+        <initializer>= R&quot;doc(Base header formatter class.
+
+Creates a base class that other packet formatters will inherit from. The child classes create and parse protocol-specific headers. To add a new protocol processing class, create a class that inherits from this and overload the necessary functions. The main functions to overload are:
+
+
+
+
+
+
+
+Protected functions of this class that the child class should overload include:
+
+
+
+These three function represent the different states of the parsing state machine. Expected behavior is that the protocol has some known word that we are first looking for the identify the start of the frame. The parsing FSM starts in a state to search for the beginning of the header, normally by looking for a known word (i.e., the access code). Then it changes state to read in the full header. We expect that the protocol provides the length of the header for processing, so the parsing looks pulls in the full length of the header. Then it changes state to the \&quot;have header\&quot; state for checking and processing. The base class provides the basic functionality for this state machine. However, most likely, each child class must manage these states for themselves.
+
+
+This class is specifically designed to work with packets/frames in the asynchronous PDU architecture of GNU Radio. See the packet_format_async block for formatting the headers onto payloads and packet_parse_b block for parsing headers in a receiver.
+
+
+The Packet Format block takes in a PDU and uses a formatter class derived from this class to add a header onto the packet. The Packet Format blocks takes in the PDU, unpacks the message, and passes it to a formatter class&apos; format function, which builds a header based on the payload. The header is passed back and emitted from formatter block as a separate output. The async format block, packet_format_async, has two message output ports. The &apos;header&apos; port passes the header out as a PDU and the &apos;payload&apos; passes the payload out as a PDU. The flowgraph can then separately modulate and combine these two pieces in the follow-on processing.
+
+
+The packet_sync_b block uses the formatter class by calling the &apos;parse&apos; function to parse the received packet headers. This parser block is a sink for the data stream and emits a message from an &apos;info&apos; port that contains an PMT dictionary of the information in the header. The formatter class determines the dictionary keys.
+
+
+This is the base class for dealing with formatting headers for different protocols and purposes. For other header formatting behaviors, create a child class from here and overload the format, parse, and parsing state machine functions as necessary.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="header__format__base__pydoc_8h_1a44c137a2e873f04a8b9b5052dd67a25c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_header_format_base_header_format_base_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_header_format_base_header_format_base_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" line="47" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="header__format__base__pydoc_8h_1a8dd721bde0657e88d390d2aebaacab93" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_header_format_base_header_format_base_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_header_format_base_header_format_base_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="header__format__base__pydoc_8h_1a626eecb2973e18a202f756215574d034" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_header_format_base_base</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_header_format_base_base</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="header__format__base__pydoc_8h_1ae4403cd87b55ff619ce5fab377ae0856" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_header_format_base_formatter</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_header_format_base_formatter</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" line="56" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="header__format__base__pydoc_8h_1a1f17bfb982e8227362c64412c45f911f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_header_format_base_format</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_header_format_base_format</name>
+        <initializer>= R&quot;doc(Function to creates a header. The child classes overload this function to format the header in the protocol-specific way.
+
+
+
+MUST be overloaded.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" line="59" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="header__format__base__pydoc_8h_1a29fa296332e87564f6911881d41198a5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_header_format_base_parse</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_header_format_base_parse</name>
+        <initializer>= R&quot;doc(Parses a header. This function is overloaded in the child class, which knows how to convert the incoming hard bits (0&apos;s and 1&apos;s) back into a packet header.
+
+
+
+MUST be overloaded.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" line="66" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="header__format__base__pydoc_8h_1a31d91dba9b3cb8f299eccdc9554b6284" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_header_format_base_header_nbits</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_header_format_base_header_nbits</name>
+        <initializer>= R&quot;doc(Returns the length of the formatted header in bits. MUST be overloaded.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" line="73" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="header__format__base__pydoc_8h_1ae52c35cd2b5d9e9bb8efb36d35122243" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_header_format_base_header_nbytes</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_header_format_base_header_nbytes</name>
+        <initializer>= R&quot;doc(Returns the length of the formatted header in bytes. Auto-calculated from the overloaded header_nbits().)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" line="76" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/header_format_base_pydoc.h"/>
+  </compounddef>
+</doxygen>

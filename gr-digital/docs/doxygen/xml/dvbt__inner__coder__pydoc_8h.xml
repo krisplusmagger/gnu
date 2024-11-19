@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dvbt__inner__coder__pydoc_8h" kind="file" language="C++">
+    <compoundname>dvbt_inner_coder_pydoc.h</compoundname>
+    <includes refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>dvbt_inner_coder_pydoc.h</label>
+        <link refid="dvbt__inner__coder__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dvbt__inner__coder__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, dtv, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_inner_coder_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_inner_coder_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="dvbt__inner__coder__pydoc_8h_1aa0c85b3300cf8bbf226e3fb4ba5cdec3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbt_inner_coder</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbt_inner_coder</name>
+        <initializer>= R&quot;doc(Inner coder with Puncturing.
+
+ETSI EN 300 744 Clause 4.3.3 
+Mother convolutional code with rate 1/2. 
+k=1, n=2, K=6. 
+Generator polynomial G1=171(OCT), G2=133(OCT). 
+Punctured to obtain rates of 2/3, 3/4, 5/6, 7/8. 
+Data Input format: Packed bytes (each bit is data). 
+MSB - first, LSB last. 
+Data Output format: 
+000000X0X1 - QPSK. 
+0000X0X1X2X3 - 16QAM. 
+00X0X1X2X3X4X5 - 64QAM.
+
+Constructor Specific Documentation:
+
+Create an Inner coder with Puncturing.
+
+Args:
+    ninput : length of input.
+    noutput : length of output.
+    constellation : type of constellation.
+    hierarchy : type of hierarchy used.
+    coderate : coderate used.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_inner_coder_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_inner_coder_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvbt__inner__coder__pydoc_8h_1aaebb2928d6a4a8f2e1330766afc6a38f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbt_inner_coder_dvbt_inner_coder</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbt_inner_coder_dvbt_inner_coder</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_inner_coder_pydoc.h" line="44" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_inner_coder_pydoc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvbt__inner__coder__pydoc_8h_1a052cfc330b2e8a251b7967254d9d4e8a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbt_inner_coder_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbt_inner_coder_make</name>
+        <initializer>= R&quot;doc(Inner coder with Puncturing.
+
+ETSI EN 300 744 Clause 4.3.3 
+Mother convolutional code with rate 1/2. 
+k=1, n=2, K=6. 
+Generator polynomial G1=171(OCT), G2=133(OCT). 
+Punctured to obtain rates of 2/3, 3/4, 5/6, 7/8. 
+Data Input format: Packed bytes (each bit is data). 
+MSB - first, LSB last. 
+Data Output format: 
+000000X0X1 - QPSK. 
+0000X0X1X2X3 - 16QAM. 
+00X0X1X2X3X4X5 - 64QAM.
+
+Constructor Specific Documentation:
+
+Create an Inner coder with Puncturing.
+
+Args:
+    ninput : length of input.
+    noutput : length of output.
+    constellation : type of constellation.
+    hierarchy : type of hierarchy used.
+    coderate : coderate used.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_inner_coder_pydoc.h" line="47" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_inner_coder_pydoc.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_inner_coder_pydoc.h"/>
+  </compounddef>
+</doxygen>

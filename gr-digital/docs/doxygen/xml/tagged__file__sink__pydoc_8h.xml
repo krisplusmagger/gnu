@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="tagged__file__sink__pydoc_8h" kind="file" language="C++">
+    <compoundname>tagged_file_sink_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>tagged_file_sink_pydoc.h</label>
+        <link refid="tagged__file__sink__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="tagged__file__sink__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tagged_file_sink_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tagged_file_sink_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="tagged__file__sink__pydoc_8h_1a82bcfecfb739c8c523cf4f252149fcc5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tagged_file_sink</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tagged_file_sink</name>
+        <initializer>= R&quot;doc(A file sink that uses tags to save files.
+
+The sink uses a tag with the key &apos;burst&apos; to trigger the saving of the burst data to a new file. If the value of this tag is True, it will open a new file and start writing all incoming data to it. If the tag is False, it will close the file (if already opened). The file names are based on the time when the burst tag was seen. If there is an &apos;rx_time&apos; tag (standard with UHD sources), that is used as the time. If no &apos;rx_time&apos; tag is found, the new time is calculated based off the sample rate of the block.
+
+Constructor Specific Documentation:
+
+Build a tagged_file_sink block.
+
+Args:
+    itemsize : The item size of the input data stream.
+    samp_rate : The sample rate used to determine the time difference between bursts)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tagged_file_sink_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tagged_file_sink_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tagged__file__sink__pydoc_8h_1a0899aa0aae28cb37440b2a635a5b39da" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tagged_file_sink_tagged_file_sink</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tagged_file_sink_tagged_file_sink</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tagged_file_sink_pydoc.h" line="31" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tagged_file_sink_pydoc.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tagged__file__sink__pydoc_8h_1a509df7d6ab1b7280965fd3124f63ef9f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tagged_file_sink_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tagged_file_sink_make</name>
+        <initializer>= R&quot;doc(A file sink that uses tags to save files.
+
+The sink uses a tag with the key &apos;burst&apos; to trigger the saving of the burst data to a new file. If the value of this tag is True, it will open a new file and start writing all incoming data to it. If the tag is False, it will close the file (if already opened). The file names are based on the time when the burst tag was seen. If there is an &apos;rx_time&apos; tag (standard with UHD sources), that is used as the time. If no &apos;rx_time&apos; tag is found, the new time is calculated based off the sample rate of the block.
+
+Constructor Specific Documentation:
+
+Build a tagged_file_sink block.
+
+Args:
+    itemsize : The item size of the input data stream.
+    samp_rate : The sample rate used to determine the time difference between bursts)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tagged_file_sink_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tagged_file_sink_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tagged_file_sink_pydoc.h"/>
+  </compounddef>
+</doxygen>

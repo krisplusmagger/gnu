@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="atsc__fpll__pydoc_8h" kind="file" language="C++">
+    <compoundname>atsc_fpll_pydoc.h</compoundname>
+    <includes refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>atsc_fpll_pydoc.h</label>
+        <link refid="atsc__fpll__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="atsc__fpll__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, dtv, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/atsc_fpll_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/atsc_fpll_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="atsc__fpll__pydoc_8h_1a0dbce3ee1e1293d9c04475dba1b949f7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_atsc_fpll</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_atsc_fpll</name>
+        <initializer>= R&quot;doc(ATSC Receiver FPLL.
+
+This block is takes in a complex I/Q baseband stream from the receive filter and outputs the 8-level symbol stream.
+
+
+It does this by first locally generating a pilot tone and complex mixing with the input signal. This results in the pilot tone shifting to DC and places the signal in the upper sideband.
+
+
+As no information is encoded in the phase of the waveform, the Q channel is then discarded, producing a real signal with the lower sideband restored.
+
+
+The 8-level symbol stream still has a DC offset, and still requires symbol timing recovery.
+
+Constructor Specific Documentation:
+
+Make a new instance of gr::dtv::atsc_fpll.
+
+param rate Sample rate of incoming stream
+
+Args:
+    rate : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/atsc_fpll_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/atsc_fpll_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="atsc__fpll__pydoc_8h_1a11a56962aa4f2c5b3a665acf4a8ddac1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_atsc_fpll_atsc_fpll</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_atsc_fpll_atsc_fpll</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/atsc_fpll_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/atsc_fpll_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="atsc__fpll__pydoc_8h_1a27b69081749a613d9b04606c537336ee" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_atsc_fpll_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_atsc_fpll_make</name>
+        <initializer>= R&quot;doc(ATSC Receiver FPLL.
+
+This block is takes in a complex I/Q baseband stream from the receive filter and outputs the 8-level symbol stream.
+
+
+It does this by first locally generating a pilot tone and complex mixing with the input signal. This results in the pilot tone shifting to DC and places the signal in the upper sideband.
+
+
+As no information is encoded in the phase of the waveform, the Q channel is then discarded, producing a real signal with the lower sideband restored.
+
+
+The 8-level symbol stream still has a DC offset, and still requires symbol timing recovery.
+
+Constructor Specific Documentation:
+
+Make a new instance of gr::dtv::atsc_fpll.
+
+param rate Sample rate of incoming stream
+
+Args:
+    rate : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/atsc_fpll_pydoc.h" line="44" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/atsc_fpll_pydoc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/atsc_fpll_pydoc.h"/>
+  </compounddef>
+</doxygen>

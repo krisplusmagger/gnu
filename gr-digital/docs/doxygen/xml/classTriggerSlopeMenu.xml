@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classTriggerSlopeMenu" kind="class" language="C++" prot="public">
+    <compoundname>TriggerSlopeMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMenu</basecompoundref>
+    <includes refid="form__menus_8h" local="no">gnuradio/qtgui/form_menus.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classTriggerSlopeMenu_1aa028c559c5e068cdaa8c3924685f913e" prot="private" static="no" mutable="no">
+        <type>QList&lt; QAction * &gt;</type>
+        <definition>QList&lt;QAction*&gt; TriggerSlopeMenu::d_act</definition>
+        <argsstring></argsstring>
+        <name>d_act</name>
+        <qualifiedname>TriggerSlopeMenu::d_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="977" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="977" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTriggerSlopeMenu_1af26f2c27da74c33416910b3fc04aa67c" prot="private" static="no" mutable="no">
+        <type>QActionGroup *</type>
+        <definition>QActionGroup* TriggerSlopeMenu::d_grp</definition>
+        <argsstring></argsstring>
+        <name>d_grp</name>
+        <qualifiedname>TriggerSlopeMenu::d_grp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="978" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="978" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTriggerSlopeMenu_1a6ca85c4eb7443911d353c0350633cc89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TriggerSlopeMenu::TriggerSlopeMenu</definition>
+        <argsstring>(QWidget *parent)</argsstring>
+        <name>TriggerSlopeMenu</name>
+        <qualifiedname>TriggerSlopeMenu::TriggerSlopeMenu</qualifiedname>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="924" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="924" bodyend="940"/>
+        <references refid="classTriggerSlopeMenu_1a9c046ff389bb644d49c3ee4512959a84" compoundref="form__menus_8h" startline="974" endline="974">getNeg</references>
+        <references refid="classTriggerSlopeMenu_1a580c9b18f8068a2cfe38482ace04f6ad" compoundref="form__menus_8h" startline="973" endline="973">getPos</references>
+      </memberdef>
+      <memberdef kind="function" id="classTriggerSlopeMenu_1a23dffe93955376545e09794c1795ecd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TriggerSlopeMenu::~TriggerSlopeMenu</definition>
+        <argsstring>() override</argsstring>
+        <name>~TriggerSlopeMenu</name>
+        <qualifiedname>TriggerSlopeMenu::~TriggerSlopeMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="942" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="942" bodyend="942"/>
+      </memberdef>
+      <memberdef kind="function" id="classTriggerSlopeMenu_1a4215de09444133dee729d58a676cfa45" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TriggerSlopeMenu::getNumActions</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumActions</name>
+        <qualifiedname>TriggerSlopeMenu::getNumActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="944" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="944" bodyend="944"/>
+      </memberdef>
+      <memberdef kind="function" id="classTriggerSlopeMenu_1a67f11da896fc3dd884bb7045ce8a20ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * TriggerSlopeMenu::getAction</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>getAction</name>
+        <qualifiedname>TriggerSlopeMenu::getAction</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="946" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="946" bodyend="952"/>
+      </memberdef>
+      <memberdef kind="function" id="classTriggerSlopeMenu_1aafa67d8b8d71a5a6024a9fb696b75b0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * TriggerSlopeMenu::getAction</definition>
+        <argsstring>(gr::qtgui::trigger_slope slope)</argsstring>
+        <name>getAction</name>
+        <qualifiedname>TriggerSlopeMenu::getAction</qualifiedname>
+        <param>
+          <type><ref refid="namespacegr_1_1qtgui_1ad9b40f0b7d2d567bd8002fb3b9b0fd10" kindref="member">gr::qtgui::trigger_slope</ref></type>
+          <declname>slope</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="954" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="954" bodyend="967"/>
+        <references refid="namespacegr_1_1qtgui_1ad9b40f0b7d2d567bd8002fb3b9b0fd10a3368c2d927a091e927adbc2bc7696320" compoundref="trigger__mode_8h" startline="26">gr::qtgui::TRIG_SLOPE_NEG</references>
+        <references refid="namespacegr_1_1qtgui_1ad9b40f0b7d2d567bd8002fb3b9b0fd10ad3c56b57401e500841bde946879ecdcd" compoundref="trigger__mode_8h" startline="25">gr::qtgui::TRIG_SLOPE_POS</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classTriggerSlopeMenu_1ae8b395e82dc2d428dd243b62ba632fe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerSlopeMenu::whichTrigger</definition>
+        <argsstring>(gr::qtgui::trigger_slope slope)</argsstring>
+        <name>whichTrigger</name>
+        <qualifiedname>TriggerSlopeMenu::whichTrigger</qualifiedname>
+        <param>
+          <type><ref refid="namespacegr_1_1qtgui_1ad9b40f0b7d2d567bd8002fb3b9b0fd10" kindref="member">gr::qtgui::trigger_slope</ref></type>
+          <declname>slope</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="970" column="10"/>
+        <referencedby refid="classTriggerSlopeMenu_1a9c046ff389bb644d49c3ee4512959a84" compoundref="form__menus_8h" startline="974" endline="974">getNeg</referencedby>
+        <referencedby refid="classTriggerSlopeMenu_1a580c9b18f8068a2cfe38482ace04f6ad" compoundref="form__menus_8h" startline="973" endline="973">getPos</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classTriggerSlopeMenu_1a580c9b18f8068a2cfe38482ace04f6ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerSlopeMenu::getPos</definition>
+        <argsstring>()</argsstring>
+        <name>getPos</name>
+        <qualifiedname>TriggerSlopeMenu::getPos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="973" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="973" bodyend="973"/>
+        <references refid="namespacegr_1_1qtgui_1ad9b40f0b7d2d567bd8002fb3b9b0fd10ad3c56b57401e500841bde946879ecdcd" compoundref="trigger__mode_8h" startline="25">gr::qtgui::TRIG_SLOPE_POS</references>
+        <references refid="classTriggerSlopeMenu_1ae8b395e82dc2d428dd243b62ba632fe9">whichTrigger</references>
+        <referencedby refid="classTriggerSlopeMenu_1a6ca85c4eb7443911d353c0350633cc89" compoundref="form__menus_8h" startline="924" endline="940">TriggerSlopeMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classTriggerSlopeMenu_1a9c046ff389bb644d49c3ee4512959a84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerSlopeMenu::getNeg</definition>
+        <argsstring>()</argsstring>
+        <name>getNeg</name>
+        <qualifiedname>TriggerSlopeMenu::getNeg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="974" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="974" bodyend="974"/>
+        <references refid="namespacegr_1_1qtgui_1ad9b40f0b7d2d567bd8002fb3b9b0fd10a3368c2d927a091e927adbc2bc7696320" compoundref="trigger__mode_8h" startline="26">gr::qtgui::TRIG_SLOPE_NEG</references>
+        <references refid="classTriggerSlopeMenu_1ae8b395e82dc2d428dd243b62ba632fe9">whichTrigger</references>
+        <referencedby refid="classTriggerSlopeMenu_1a6ca85c4eb7443911d353c0350633cc89" compoundref="form__menus_8h" startline="924" endline="940">TriggerSlopeMenu</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+      <node id="1">
+        <label>TriggerSlopeMenu</label>
+        <link refid="classTriggerSlopeMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+      <node id="1">
+        <label>TriggerSlopeMenu</label>
+        <link refid="classTriggerSlopeMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="919" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="920" bodyend="979"/>
+    <listofallmembers>
+      <member refid="classTriggerSlopeMenu_1aa028c559c5e068cdaa8c3924685f913e" prot="private" virt="non-virtual"><scope>TriggerSlopeMenu</scope><name>d_act</name></member>
+      <member refid="classTriggerSlopeMenu_1af26f2c27da74c33416910b3fc04aa67c" prot="private" virt="non-virtual"><scope>TriggerSlopeMenu</scope><name>d_grp</name></member>
+      <member refid="classTriggerSlopeMenu_1a67f11da896fc3dd884bb7045ce8a20ff" prot="public" virt="non-virtual"><scope>TriggerSlopeMenu</scope><name>getAction</name></member>
+      <member refid="classTriggerSlopeMenu_1aafa67d8b8d71a5a6024a9fb696b75b0b" prot="public" virt="non-virtual"><scope>TriggerSlopeMenu</scope><name>getAction</name></member>
+      <member refid="classTriggerSlopeMenu_1a9c046ff389bb644d49c3ee4512959a84" prot="public" virt="non-virtual"><scope>TriggerSlopeMenu</scope><name>getNeg</name></member>
+      <member refid="classTriggerSlopeMenu_1a4215de09444133dee729d58a676cfa45" prot="public" virt="non-virtual"><scope>TriggerSlopeMenu</scope><name>getNumActions</name></member>
+      <member refid="classTriggerSlopeMenu_1a580c9b18f8068a2cfe38482ace04f6ad" prot="public" virt="non-virtual"><scope>TriggerSlopeMenu</scope><name>getPos</name></member>
+      <member refid="classTriggerSlopeMenu_1a6ca85c4eb7443911d353c0350633cc89" prot="public" virt="non-virtual"><scope>TriggerSlopeMenu</scope><name>TriggerSlopeMenu</name></member>
+      <member refid="classTriggerSlopeMenu_1ae8b395e82dc2d428dd243b62ba632fe9" prot="public" virt="non-virtual"><scope>TriggerSlopeMenu</scope><name>whichTrigger</name></member>
+      <member refid="classTriggerSlopeMenu_1a23dffe93955376545e09794c1795ecd3" prot="public" virt="non-virtual"><scope>TriggerSlopeMenu</scope><name>~TriggerSlopeMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

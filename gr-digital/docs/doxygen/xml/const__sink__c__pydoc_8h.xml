@@ -1,0 +1,544 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="const__sink__c__pydoc_8h" kind="file" language="C++">
+    <compoundname>const_sink_c_pydoc.h</compoundname>
+    <includes refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>const_sink_c_pydoc.h</label>
+        <link refid="const__sink__c__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="const__sink__c__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, qtgui, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a0bf32a9c68239c6e6150e7add1e33f71" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c</name>
+        <initializer>= R&quot;doc(A graphical sink to display the IQ constellation of multiple signals.
+
+This is a QT-based graphical sink the takes set of a complex streams and plots them on an IQ constellation plot.
+
+
+The sink supports plotting streaming complex data or messages. The message port is named \&quot;in\&quot;. The two modes cannot be used simultaneously, and  should be set to 0 when using the message mode. GRC handles this issue by providing the \&quot;Complex Message\&quot; type that removes the streaming port(s).
+
+
+This sink can plot messages that contain either uniform vectors of complex 32 values (<ref refid="namespacepmt_1aeb135345903361a969d0e90ddb191272" kindref="member">pmt::is_c32vector</ref>) or PDUs where the data is a uniform vector of complex 32 values.
+
+Constructor Specific Documentation:
+
+Build a constellation plot sink.
+
+Args:
+    size : number of points to plot at once
+    name : title for the plot
+    nconnections : number of signals connected to sink
+    parent : a QWidget parent object, if any)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1af2e36ce06d20fb33fa8bd7c80802cd04" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_const_sink_c_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_const_sink_c_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1ab9a0bca4f4eac989d2a81fd63eac6f8d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_const_sink_c_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_const_sink_c_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="42" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a89bc733e64675a8f448f705399ba1c47" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_make</name>
+        <initializer>= R&quot;doc(A graphical sink to display the IQ constellation of multiple signals.
+
+This is a QT-based graphical sink the takes set of a complex streams and plots them on an IQ constellation plot.
+
+
+The sink supports plotting streaming complex data or messages. The message port is named \&quot;in\&quot;. The two modes cannot be used simultaneously, and  should be set to 0 when using the message mode. GRC handles this issue by providing the \&quot;Complex Message\&quot; type that removes the streaming port(s).
+
+
+This sink can plot messages that contain either uniform vectors of complex 32 values (<ref refid="namespacepmt_1aeb135345903361a969d0e90ddb191272" kindref="member">pmt::is_c32vector</ref>) or PDUs where the data is a uniform vector of complex 32 values.
+
+Constructor Specific Documentation:
+
+Build a constellation plot sink.
+
+Args:
+    size : number of points to plot at once
+    name : title for the plot
+    nconnections : number of signals connected to sink
+    parent : a QWidget parent object, if any)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="45" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a7abc56dbbe21b2f37366ba621c9ee0ac" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_exec_</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_exec_</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="66" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1aa750b0fd988c1def5511748295b08bcf" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_qwidget</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_qwidget</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="69" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1aa17781492606235d78fa006068b322ea" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_set_y_axis</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_set_y_axis</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="72" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1afef2276891fa94711966c62d85ec4ef9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_set_x_axis</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_set_x_axis</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="75" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a2f5ebecd6ae0b82491b94652778414af" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_set_update_time</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_set_update_time</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="78" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a23d60c57ee921f8f9491fa58690ede5b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_set_title</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_set_title</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="81" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1aec7d8023c4d9e5c3647f5ba68dac7d76" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_set_line_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_set_line_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="84" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1adbf9687a38a30b9113c04abe8a3f0552" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_set_line_color</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_set_line_color</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="87" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a191a325a8806b9060fbd61a33e7587ab" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_set_line_width</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_set_line_width</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="90" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1aa61d235a2a4fd95188073e7d0f2cdfa6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_set_line_style</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_set_line_style</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="93" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1adc70137698d2659397a052da26d004a6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_set_line_marker</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_set_line_marker</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="96" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1affc758c724eb2f2bb7f53009648b682e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_set_nsamps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_set_nsamps</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="99" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1ab1182230b61ad1e1fa77f0bd95ff54c8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_set_line_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_set_line_alpha</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="102" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a74a970685c74bf8aecfc2451befb0b16" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_set_trigger_mode</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_set_trigger_mode</name>
+        <initializer>= R&quot;doc(Set up a trigger for the sink to know when to start plotting. Useful to isolate events and avoid noise.
+
+
+The trigger modes are Free, Auto, Normal, and Tag (see <ref refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91" kindref="member">gr::qtgui::trigger_mode</ref>). The first three are like a normal oscope trigger function. Free means free running with no trigger, auto will trigger if the trigger event is seen, but will still plot otherwise, and normal will hold until the trigger event is observed. The Tag trigger mode allows us to trigger off a specific stream tag. The tag trigger is based only on the name of the tag, so when a tag of the given name is seen, the trigger is activated.
+
+
+In auto and normal mode, we look for the slope of the magnitude of the signal. As a constellation sink, this only takes in complex numbers to plot. Given a <ref refid="namespacegr_1_1qtgui_1ad9b40f0b7d2d567bd8002fb3b9b0fd10" kindref="member">gr::qtgui::trigger_slope</ref> as either Positive or Negative, if the magnitude between two samples moves in the given direction (x[1] &gt; x[0] for Positive or x[1] &lt; x[0] for Negative), then the trigger is activated.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="105" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a30ad767386a14502dfb7420063a1b5f3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_title</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_title</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="114" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a9196c03e7145bd12e03a9f4543399215" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_line_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_line_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="117" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a69c12fc283bd34cae61c0b7904cc5384" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_line_color</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_line_color</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="120" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1ab98e7dbb114874bf01b895ba1a623b66" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_line_width</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_line_width</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="123" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a396bb213ba5590554b79b0fdce7d15a8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_line_style</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_line_style</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="126" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a1eef45a7787438f766ba22482af9252a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_line_marker</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_line_marker</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="129" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1adfffa9b9a797c17acd4451d9d394b4b2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_line_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_line_alpha</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="132" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a202fc3dbff9e1b2b687932db226b223d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_set_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_set_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="135" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1ae0576729944b6a0383539d6e7487cf34" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_enable_menu</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_enable_menu</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="138" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a08c1a1bb3be9e004d96dbdec91c85a46" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_enable_autoscale</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_enable_autoscale</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="141" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a7d968c546665f70ca84a71c4179ddcd9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_enable_grid</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_enable_grid</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="144" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a152296613cd52a106de1331807603664" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_enable_axis_labels</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_enable_axis_labels</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="147" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1aeb21b6e5b1eefa821d180ae27b12bf5a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_disable_legend</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_disable_legend</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="150" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1a609aa251cdcb0da5d8594ca93883d95e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_nsamps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_nsamps</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="153" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="const__sink__c__pydoc_8h_1acfbbb456194af45fc69868d53eb9c975" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_const_sink_c_reset</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_const_sink_c_reset</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" line="156" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/const_sink_c_pydoc.h"/>
+  </compounddef>
+</doxygen>

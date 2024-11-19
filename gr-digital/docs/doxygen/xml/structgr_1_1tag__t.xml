@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structgr_1_1tag__t" kind="struct" language="C++" prot="public">
+    <compoundname>gr::tag_t</compoundname>
+    <includes refid="tags_8h" local="no">gnuradio/tags.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr_1_1tag__t_1a802cccdb470b6fb67c595f4d56ca0e7d" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::tag_t::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <qualifiedname>gr::tag_t::offset</qualifiedname>
+        <briefdescription>
+<para>the item <computeroutput>tag</computeroutput> occurred at (as a uint64_t) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" line="21" column="14" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classgr_1_1block_1a8b7cc51b9d289124d6843bb392f564fc" compoundref="gnuradio-runtime_2include_2gnuradio_2block_8h" startline="823" endline="835">gr::block::add_item_tag</referencedby>
+        <referencedby refid="structgr_1_1tag__t_1a185350094cb950d729f1b0c104a23a35" compoundref="tags_8h" startline="64" endline="73">operator=</referencedby>
+        <referencedby refid="structgr_1_1tag__t_1a916a280cdc7be16888f20c90e0f3a662" compoundref="tags_8h" startline="45" endline="49">operator==</referencedby>
+        <referencedby refid="classgr_1_1block_1a461f6cc92174e83b10c3ec5336036768" compoundref="gnuradio-runtime_2include_2gnuradio_2block_8h" startline="857" endline="869">gr::block::remove_item_tag</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1tag__t_1acbaaaa7b8d36f6feb8ed49dbc1228348" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>pmt::pmt_t gr::tag_t::key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <qualifiedname>gr::tag_t::key</qualifiedname>
+        <briefdescription>
+<para>the key of <computeroutput>tag</computeroutput> (as a PMT symbol) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" line="24" column="16" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classgr_1_1block_1a8b7cc51b9d289124d6843bb392f564fc" compoundref="gnuradio-runtime_2include_2gnuradio_2block_8h" startline="823" endline="835">gr::block::add_item_tag</referencedby>
+        <referencedby refid="structgr_1_1tag__t_1a185350094cb950d729f1b0c104a23a35" compoundref="tags_8h" startline="64" endline="73">operator=</referencedby>
+        <referencedby refid="structgr_1_1tag__t_1a916a280cdc7be16888f20c90e0f3a662" compoundref="tags_8h" startline="45" endline="49">operator==</referencedby>
+        <referencedby refid="classgr_1_1block_1a461f6cc92174e83b10c3ec5336036768" compoundref="gnuradio-runtime_2include_2gnuradio_2block_8h" startline="857" endline="869">gr::block::remove_item_tag</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1tag__t_1aa17015fdfdc257f56cd8caa143b3fba8" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>pmt::pmt_t gr::tag_t::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>gr::tag_t::value</qualifiedname>
+        <briefdescription>
+<para>the value of <computeroutput>tag</computeroutput> (as a PMT) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" line="27" column="16" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classgr_1_1block_1a8b7cc51b9d289124d6843bb392f564fc" compoundref="gnuradio-runtime_2include_2gnuradio_2block_8h" startline="823" endline="835">gr::block::add_item_tag</referencedby>
+        <referencedby refid="structgr_1_1tag__t_1a185350094cb950d729f1b0c104a23a35" compoundref="tags_8h" startline="64" endline="73">operator=</referencedby>
+        <referencedby refid="structgr_1_1tag__t_1a916a280cdc7be16888f20c90e0f3a662" compoundref="tags_8h" startline="45" endline="49">operator==</referencedby>
+        <referencedby refid="classgr_1_1block_1a461f6cc92174e83b10c3ec5336036768" compoundref="gnuradio-runtime_2include_2gnuradio_2block_8h" startline="857" endline="869">gr::block::remove_item_tag</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1tag__t_1a89daa353004003182c8bd53869e8c653" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>pmt::pmt_t gr::tag_t::srcid</definition>
+        <argsstring></argsstring>
+        <name>srcid</name>
+        <qualifiedname>gr::tag_t::srcid</qualifiedname>
+        <briefdescription>
+<para>the source ID of <computeroutput>tag</computeroutput> (as a PMT) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" line="30" column="16" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classgr_1_1block_1a8b7cc51b9d289124d6843bb392f564fc" compoundref="gnuradio-runtime_2include_2gnuradio_2block_8h" startline="823" endline="835">gr::block::add_item_tag</referencedby>
+        <referencedby refid="structgr_1_1tag__t_1a185350094cb950d729f1b0c104a23a35" compoundref="tags_8h" startline="64" endline="73">operator=</referencedby>
+        <referencedby refid="structgr_1_1tag__t_1a916a280cdc7be16888f20c90e0f3a662" compoundref="tags_8h" startline="45" endline="49">operator==</referencedby>
+        <referencedby refid="classgr_1_1block_1a461f6cc92174e83b10c3ec5336036768" compoundref="gnuradio-runtime_2include_2gnuradio_2block_8h" startline="857" endline="869">gr::block::remove_item_tag</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1tag__t_1a3dbc956a2d78cb623f79585172d2e945" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; long &gt;</type>
+        <definition>std::vector&lt;long&gt; gr::tag_t::marked_deleted</definition>
+        <argsstring></argsstring>
+        <name>marked_deleted</name>
+        <qualifiedname>gr::tag_t::marked_deleted</qualifiedname>
+        <briefdescription>
+<para>Used by gr_buffer to mark a tagged as deleted by a specific block. You can usually ignore this. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" line="34" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="structgr_1_1tag__t_1a5d54e4281996f42753cf62087f3a3c28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const tag_t &amp;x, const tag_t &amp;y)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>gr::tag_t::operator&lt;</qualifiedname>
+        <param>
+          <type>const <ref refid="structgr_1_1tag__t" kindref="compound">tag_t</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structgr_1_1tag__t" kindref="compound">tag_t</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Comparison function to test which tag, <computeroutput>x</computeroutput> or <computeroutput>y</computeroutput>, came first in time. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" bodystart="37" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgr_1_1tag__t_1a59e239ad6185a6ad60f3a3d9389ac238" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool gr::tag_t::offset_compare</definition>
+        <argsstring>(const tag_t &amp;x, const tag_t &amp;y)</argsstring>
+        <name>offset_compare</name>
+        <qualifiedname>gr::tag_t::offset_compare</qualifiedname>
+        <param>
+          <type>const <ref refid="structgr_1_1tag__t" kindref="compound">tag_t</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structgr_1_1tag__t" kindref="compound">tag_t</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Comparison function to test which tag, <computeroutput>x</computeroutput> or <computeroutput>y</computeroutput>, came first in time. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" line="42" column="24" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgr_1_1tag__t_1a916a280cdc7be16888f20c90e0f3a662" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::tag_t::operator==</definition>
+        <argsstring>(const tag_t &amp;t) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gr::tag_t::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structgr_1_1tag__t" kindref="compound">tag_t</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>equality comparison. Compares all details, except marked_delete </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" line="45" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" bodystart="45" bodyend="49"/>
+        <references refid="structgr_1_1tag__t_1acbaaaa7b8d36f6feb8ed49dbc1228348" compoundref="tags_8h" startline="24">key</references>
+        <references refid="structgr_1_1tag__t_1a802cccdb470b6fb67c595f4d56ca0e7d" compoundref="tags_8h" startline="21">offset</references>
+        <references refid="structgr_1_1tag__t_1a89daa353004003182c8bd53869e8c653" compoundref="tags_8h" startline="30">srcid</references>
+        <references refid="structgr_1_1tag__t_1aa17015fdfdc257f56cd8caa143b3fba8" compoundref="tags_8h" startline="27">value</references>
+      </memberdef>
+      <memberdef kind="function" id="structgr_1_1tag__t_1a79079739106281837c8170f87f33ada1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::tag_t::tag_t</definition>
+        <argsstring>()</argsstring>
+        <name>tag_t</name>
+        <qualifiedname>gr::tag_t::tag_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" line="51" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" bodystart="51" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr_1_1tag__t_1a82b2c55152e398fff921dcad734fab71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::tag_t::tag_t</definition>
+        <argsstring>(const tag_t &amp;rhs)</argsstring>
+        <name>tag_t</name>
+        <qualifiedname>gr::tag_t::tag_t</qualifiedname>
+        <param>
+          <type>const <ref refid="structgr_1_1tag__t" kindref="compound">tag_t</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor; constructs identical tag, but doesn&apos;t copy marked_delete. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" line="60" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr_1_1tag__t_1a185350094cb950d729f1b0c104a23a35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structgr_1_1tag__t" kindref="compound">tag_t</ref> &amp;</type>
+        <definition>tag_t &amp; gr::tag_t::operator=</definition>
+        <argsstring>(const tag_t &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>gr::tag_t::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="structgr_1_1tag__t" kindref="compound">tag_t</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" line="64" column="11" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" bodystart="64" bodyend="73"/>
+        <references refid="structgr_1_1tag__t_1acbaaaa7b8d36f6feb8ed49dbc1228348" compoundref="tags_8h" startline="24">key</references>
+        <references refid="structgr_1_1tag__t_1a802cccdb470b6fb67c595f4d56ca0e7d" compoundref="tags_8h" startline="21">offset</references>
+        <references refid="structgr_1_1tag__t_1a89daa353004003182c8bd53869e8c653" compoundref="tags_8h" startline="30">srcid</references>
+        <references refid="structgr_1_1tag__t_1aa17015fdfdc257f56cd8caa143b3fba8" compoundref="tags_8h" startline="27">value</references>
+      </memberdef>
+      <memberdef kind="function" id="structgr_1_1tag__t_1a7e0e56bb30480cf43104693bfb986ecd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::tag_t::~tag_t</definition>
+        <argsstring>()</argsstring>
+        <name>~tag_t</name>
+        <qualifiedname>gr::tag_t::~tag_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" line="75" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::tag_t</label>
+        <link refid="structgr_1_1tag__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>key</edgelabel>
+          <edgelabel>srcid</edgelabel>
+          <edgelabel>value</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>marked_deleted</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::shared_ptr&lt; pmt_base &gt;</label>
+      </node>
+      <node id="3">
+        <label>std::vector&lt; long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" line="19" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/tags.h" bodystart="19" bodyend="76"/>
+    <listofallmembers>
+      <member refid="structgr_1_1tag__t_1acbaaaa7b8d36f6feb8ed49dbc1228348" prot="public" virt="non-virtual"><scope>gr::tag_t</scope><name>key</name></member>
+      <member refid="structgr_1_1tag__t_1a3dbc956a2d78cb623f79585172d2e945" prot="public" virt="non-virtual"><scope>gr::tag_t</scope><name>marked_deleted</name></member>
+      <member refid="structgr_1_1tag__t_1a802cccdb470b6fb67c595f4d56ca0e7d" prot="public" virt="non-virtual"><scope>gr::tag_t</scope><name>offset</name></member>
+      <member refid="structgr_1_1tag__t_1a59e239ad6185a6ad60f3a3d9389ac238" prot="public" virt="non-virtual"><scope>gr::tag_t</scope><name>offset_compare</name></member>
+      <member refid="structgr_1_1tag__t_1a5d54e4281996f42753cf62087f3a3c28" prot="public" virt="non-virtual"><scope>gr::tag_t</scope><name>operator&lt;</name></member>
+      <member refid="structgr_1_1tag__t_1a185350094cb950d729f1b0c104a23a35" prot="public" virt="non-virtual"><scope>gr::tag_t</scope><name>operator=</name></member>
+      <member refid="structgr_1_1tag__t_1a916a280cdc7be16888f20c90e0f3a662" prot="public" virt="non-virtual"><scope>gr::tag_t</scope><name>operator==</name></member>
+      <member refid="structgr_1_1tag__t_1a89daa353004003182c8bd53869e8c653" prot="public" virt="non-virtual"><scope>gr::tag_t</scope><name>srcid</name></member>
+      <member refid="structgr_1_1tag__t_1a79079739106281837c8170f87f33ada1" prot="public" virt="non-virtual"><scope>gr::tag_t</scope><name>tag_t</name></member>
+      <member refid="structgr_1_1tag__t_1a82b2c55152e398fff921dcad734fab71" prot="public" virt="non-virtual"><scope>gr::tag_t</scope><name>tag_t</name></member>
+      <member refid="structgr_1_1tag__t_1aa17015fdfdc257f56cd8caa143b3fba8" prot="public" virt="non-virtual"><scope>gr::tag_t</scope><name>value</name></member>
+      <member refid="structgr_1_1tag__t_1a7e0e56bb30480cf43104693bfb986ecd" prot="public" virt="non-virtual"><scope>gr::tag_t</scope><name>~tag_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

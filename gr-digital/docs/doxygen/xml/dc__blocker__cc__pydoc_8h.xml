@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dc__blocker__cc__pydoc_8h" kind="file" language="C++">
+    <compoundname>dc_blocker_cc_pydoc.h</compoundname>
+    <includes refid="build_2gr-filter_2python_2filter_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>dc_blocker_cc_pydoc.h</label>
+        <link refid="dc__blocker__cc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-filter_2python_2filter_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dc__blocker__cc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, filter, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/dc_blocker_cc_pydoc.h" line="10" column="11" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/dc_blocker_cc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="dc__blocker__cc__pydoc_8h_1a851974b132e17c3cbf65032a868615e4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_dc_blocker_cc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_dc_blocker_cc</name>
+        <initializer>= R&quot;doc(a computationally efficient controllable DC blocker
+
+This block implements a computationally efficient DC blocker that produces a tighter notch filter around DC for a smaller group delay than an equivalent FIR filter or using a single pole IIR filter (though the IIR filter is computationally cheaper).
+
+
+The block defaults to using a delay line of length 32 and the long form of the filter. Optionally, the delay line length can be changed to alter the width of the DC notch (longer lines will decrease the width).
+
+
+The long form of the filter produces a nearly flat response outside of the notch but at the cost of a group delay of 2<ref refid="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref>-2.
+
+
+The short form of the filter does not have as flat a response in the passband but has a group delay of only <ref refid="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref>-1 and is cheaper to compute.
+
+
+The theory behind this block can be found in the paper:
+
+Constructor Specific Documentation:
+
+Make a DC blocker block.
+
+Args:
+    <ref refid="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref> : (int) the length of the delay line
+    long_form : (bool) whether to use long (true, default) or short form)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/dc_blocker_cc_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/dc_blocker_cc_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc__blocker__cc__pydoc_8h_1af04c29cbccfeaa6bb86c3fafcb30b438" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_dc_blocker_cc_dc_blocker_cc_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_dc_blocker_cc_dc_blocker_cc_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/dc_blocker_cc_pydoc.h" line="43" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/dc_blocker_cc_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc__blocker__cc__pydoc_8h_1aa4c7b97364b1bf3ce7f293dff41fb44b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_dc_blocker_cc_dc_blocker_cc_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_dc_blocker_cc_dc_blocker_cc_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/dc_blocker_cc_pydoc.h" line="46" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/dc_blocker_cc_pydoc.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc__blocker__cc__pydoc_8h_1afbc310d64167feab8bfed1e149896066" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_dc_blocker_cc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_dc_blocker_cc_make</name>
+        <initializer>= R&quot;doc(a computationally efficient controllable DC blocker
+
+This block implements a computationally efficient DC blocker that produces a tighter notch filter around DC for a smaller group delay than an equivalent FIR filter or using a single pole IIR filter (though the IIR filter is computationally cheaper).
+
+
+The block defaults to using a delay line of length 32 and the long form of the filter. Optionally, the delay line length can be changed to alter the width of the DC notch (longer lines will decrease the width).
+
+
+The long form of the filter produces a nearly flat response outside of the notch but at the cost of a group delay of 2<ref refid="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref>-2.
+
+
+The short form of the filter does not have as flat a response in the passband but has a group delay of only <ref refid="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref>-1 and is cheaper to compute.
+
+
+The theory behind this block can be found in the paper:
+
+Constructor Specific Documentation:
+
+Make a DC blocker block.
+
+Args:
+    <ref refid="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref> : (int) the length of the delay line
+    long_form : (bool) whether to use long (true, default) or short form)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/dc_blocker_cc_pydoc.h" line="49" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/dc_blocker_cc_pydoc.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc__blocker__cc__pydoc_8h_1a83659fd314f483d67edf9aaa172d6ca5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_dc_blocker_cc_group_delay</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_dc_blocker_cc_group_delay</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/dc_blocker_cc_pydoc.h" line="74" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/dc_blocker_cc_pydoc.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/dc_blocker_cc_pydoc.h"/>
+  </compounddef>
+</doxygen>

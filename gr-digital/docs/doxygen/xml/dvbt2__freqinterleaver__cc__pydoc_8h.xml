@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dvbt2__freqinterleaver__cc__pydoc_8h" kind="file" language="C++">
+    <compoundname>dvbt2_freqinterleaver_cc_pydoc.h</compoundname>
+    <includes refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>dvbt2_freqinterleaver_cc_pydoc.h</label>
+        <link refid="dvbt2__freqinterleaver__cc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dvbt2__freqinterleaver__cc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, dtv, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_freqinterleaver_cc_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_freqinterleaver_cc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="dvbt2__freqinterleaver__cc__pydoc_8h_1a1ca79462e8646e122719430cea5c8857" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbt2_freqinterleaver_cc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbt2_freqinterleaver_cc</name>
+        <initializer>= R&quot;doc(Frequency interleaves a T2 frame.
+
+Input: T2 frame. 
+Output: Frequency interleaved T2 frame.
+
+Constructor Specific Documentation:
+
+Create a DVB-T2 frequency interleaver.
+
+Args:
+    carriermode : number of carriers (normal or extended).
+    fftsize : OFDM IFFT size.
+    pilotpattern : DVB-T2 pilot pattern (PP1 - PP8).
+    guardinterval : OFDM ISI guard interval.
+    numdatasyms : number of OFDM symbols in a T2 frame.
+    paprmode : PAPR reduction mode.
+    version : DVB-T2 specification version.
+    preamble : P1 symbol preamble format.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_freqinterleaver_cc_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_freqinterleaver_cc_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvbt2__freqinterleaver__cc__pydoc_8h_1abb01a588a682229662136c3671041bd2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbt2_freqinterleaver_cc_dvbt2_freqinterleaver_cc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbt2_freqinterleaver_cc_dvbt2_freqinterleaver_cc</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_freqinterleaver_cc_pydoc.h" line="38" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_freqinterleaver_cc_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvbt2__freqinterleaver__cc__pydoc_8h_1abb280a14504f219bf72aacdff751b9c4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbt2_freqinterleaver_cc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbt2_freqinterleaver_cc_make</name>
+        <initializer>= R&quot;doc(Frequency interleaves a T2 frame.
+
+Input: T2 frame. 
+Output: Frequency interleaved T2 frame.
+
+Constructor Specific Documentation:
+
+Create a DVB-T2 frequency interleaver.
+
+Args:
+    carriermode : number of carriers (normal or extended).
+    fftsize : OFDM IFFT size.
+    pilotpattern : DVB-T2 pilot pattern (PP1 - PP8).
+    guardinterval : OFDM ISI guard interval.
+    numdatasyms : number of OFDM symbols in a T2 frame.
+    paprmode : PAPR reduction mode.
+    version : DVB-T2 specification version.
+    preamble : P1 symbol preamble format.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_freqinterleaver_cc_pydoc.h" line="42" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_freqinterleaver_cc_pydoc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt2_freqinterleaver_cc_pydoc.h"/>
+  </compounddef>
+</doxygen>

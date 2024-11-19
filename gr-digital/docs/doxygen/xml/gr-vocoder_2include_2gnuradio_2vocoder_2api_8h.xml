@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="gr-vocoder_2include_2gnuradio_2vocoder_2api_8h" kind="file" language="C++">
+    <compoundname>gr-vocoder/include/gnuradio/vocoder/api.h</compoundname>
+    <includes refid="attributes_8h" local="no">gnuradio/attributes.h</includes>
+    <includedby refid="alaw__decode__bs_8h" local="no">alaw_decode_bs.h</includedby>
+    <includedby refid="alaw__encode__sb_8h" local="no">alaw_encode_sb.h</includedby>
+    <includedby refid="codec2_8h" local="no">codec2.h</includedby>
+    <includedby refid="codec2__decode__ps_8h" local="no">codec2_decode_ps.h</includedby>
+    <includedby refid="codec2__encode__sp_8h" local="no">codec2_encode_sp.h</includedby>
+    <includedby refid="cvsd__decode__bs_8h" local="no">cvsd_decode_bs.h</includedby>
+    <includedby refid="cvsd__encode__sb_8h" local="no">cvsd_encode_sb.h</includedby>
+    <includedby refid="freedv__api_8h" local="no">freedv_api.h</includedby>
+    <includedby refid="freedv__rx__ss_8h" local="no">freedv_rx_ss.h</includedby>
+    <includedby refid="freedv__tx__ss_8h" local="no">freedv_tx_ss.h</includedby>
+    <includedby refid="g721__decode__bs_8h" local="no">g721_decode_bs.h</includedby>
+    <includedby refid="g721__encode__sb_8h" local="no">g721_encode_sb.h</includedby>
+    <includedby refid="g723__24__decode__bs_8h" local="no">g723_24_decode_bs.h</includedby>
+    <includedby refid="g723__24__encode__sb_8h" local="no">g723_24_encode_sb.h</includedby>
+    <includedby refid="g723__40__decode__bs_8h" local="no">g723_40_decode_bs.h</includedby>
+    <includedby refid="g723__40__encode__sb_8h" local="no">g723_40_encode_sb.h</includedby>
+    <includedby refid="gsm__fr__decode__ps_8h" local="no">gsm_fr_decode_ps.h</includedby>
+    <includedby refid="gsm__fr__encode__sp_8h" local="no">gsm_fr_encode_sp.h</includedby>
+    <includedby refid="ulaw__decode__bs_8h" local="no">ulaw_decode_bs.h</includedby>
+    <includedby refid="ulaw__encode__sb_8h" local="no">ulaw_encode_sb.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="gr-vocoder_2include_2gnuradio_2vocoder_2api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>alaw_decode_bs.h</label>
+        <link refid="alaw__decode__bs_8h"/>
+      </node>
+      <node id="3">
+        <label>alaw_encode_sb.h</label>
+        <link refid="alaw__encode__sb_8h"/>
+      </node>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="gr-vocoder_2include_2gnuradio_2vocoder_2api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>codec2.h</label>
+        <link refid="codec2_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>codec2_decode_ps.h</label>
+        <link refid="codec2__decode__ps_8h"/>
+      </node>
+      <node id="6">
+        <label>codec2_encode_sp.h</label>
+        <link refid="codec2__encode__sp_8h"/>
+      </node>
+      <node id="7">
+        <label>cvsd_decode_bs.h</label>
+        <link refid="cvsd__decode__bs_8h"/>
+      </node>
+      <node id="8">
+        <label>cvsd_encode_sb.h</label>
+        <link refid="cvsd__encode__sb_8h"/>
+      </node>
+      <node id="9">
+        <label>freedv_api.h</label>
+        <link refid="freedv__api_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>freedv_rx_ss.h</label>
+        <link refid="freedv__rx__ss_8h"/>
+      </node>
+      <node id="11">
+        <label>freedv_tx_ss.h</label>
+        <link refid="freedv__tx__ss_8h"/>
+      </node>
+      <node id="12">
+        <label>g721_decode_bs.h</label>
+        <link refid="g721__decode__bs_8h"/>
+      </node>
+      <node id="13">
+        <label>g721_encode_sb.h</label>
+        <link refid="g721__encode__sb_8h"/>
+      </node>
+      <node id="14">
+        <label>g723_24_decode_bs.h</label>
+        <link refid="g723__24__decode__bs_8h"/>
+      </node>
+      <node id="15">
+        <label>g723_24_encode_sb.h</label>
+        <link refid="g723__24__encode__sb_8h"/>
+      </node>
+      <node id="16">
+        <label>g723_40_decode_bs.h</label>
+        <link refid="g723__40__decode__bs_8h"/>
+      </node>
+      <node id="17">
+        <label>g723_40_encode_sb.h</label>
+        <link refid="g723__40__encode__sb_8h"/>
+      </node>
+      <node id="18">
+        <label>gsm_fr_decode_ps.h</label>
+        <link refid="gsm__fr__decode__ps_8h"/>
+      </node>
+      <node id="19">
+        <label>gsm_fr_encode_sp.h</label>
+        <link refid="gsm__fr__encode__sp_8h"/>
+      </node>
+      <node id="20">
+        <label>ulaw_decode_bs.h</label>
+        <link refid="ulaw__decode__bs_8h"/>
+      </node>
+      <node id="21">
+        <label>ulaw_encode_sb.h</label>
+        <link refid="ulaw__encode__sb_8h"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="gr-vocoder_2include_2gnuradio_2vocoder_2api_8h_1a8a56d8b0d26cf75df04dcad9064a0aeb" prot="public" static="no">
+        <name>VOCODER_API</name>
+        <initializer><ref refid="attributes_8h_1a17b9cb3c185c92af4799ec9b0a38f3c1" kindref="member">__GR_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-vocoder/include/gnuradio/vocoder/api.h" line="18" column="10" bodyfile="/home/desktop2/gnuradio/gr-vocoder/include/gnuradio/vocoder/api.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-vocoder/include/gnuradio/vocoder/api.h"/>
+  </compounddef>
+</doxygen>

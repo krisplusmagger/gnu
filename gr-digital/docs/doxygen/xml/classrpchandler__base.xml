@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classrpchandler__base" kind="class" language="C++" prot="public">
+    <compoundname>rpchandler_base</compoundname>
+    <basecompoundref refid="classgr_1_1messages_1_1msg__accepter" prot="public" virt="virtual">gr::messages::msg_accepter</basecompoundref>
+    <derivedcompoundref refid="classrpcbasic__handler" prot="public" virt="virtual">rpcbasic_handler&lt; T &gt;</derivedcompoundref>
+    <includes refid="rpcregisterhelpers_8h" local="no">gnuradio/rpcregisterhelpers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classrpchandler__base_1a11f672c527da72f1cd1036d2446cbd34" prot="protected" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* rpchandler_base&lt; T &gt;::_source</definition>
+        <argsstring></argsstring>
+        <name>_source</name>
+        <qualifiedname>rpchandler_base::_source</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="172" column="7" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="172" bodyend="-1"/>
+        <referencedby refid="classrpchandler__base_1a78de137047622dfbe1e9a9d0a82db959" compoundref="rpcregisterhelpers_8h" startline="166" endline="169">rpchandler_base&lt; T &gt;::post</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classrpchandler__base_1af0a69b6d92cf03549c07bbaaa4d63f54" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* rpchandler_base&lt; T &gt;::_handler</definition>
+        <argsstring></argsstring>
+        <name>_handler</name>
+        <qualifiedname>rpchandler_base::_handler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="173" column="16" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrpchandler__base_1a182bcf39736bf9953992891c57e975df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>rpchandler_base&lt; T &gt;::rpchandler_base</definition>
+        <argsstring>(T *source, const char *handler)</argsstring>
+        <name>rpchandler_base</name>
+        <qualifiedname>rpchandler_base::rpchandler_base</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="160" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="160" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpchandler__base_1a707f4e2249c85b47bb3c298096c9a185" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>rpchandler_base&lt; T &gt;::~rpchandler_base</definition>
+        <argsstring>() override</argsstring>
+        <name>~rpchandler_base</name>
+        <qualifiedname>rpchandler_base::~rpchandler_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="164" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="164" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpchandler__base_1a78de137047622dfbe1e9a9d0a82db959" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void rpchandler_base&lt; T &gt;::post</definition>
+        <argsstring>(pmt::pmt_t which_port, pmt::pmt_t msg) override</argsstring>
+        <name>post</name>
+        <qualifiedname>rpchandler_base::post</qualifiedname>
+        <reimplements refid="classgr_1_1messages_1_1msg__accepter_1a68a933600f38482c4d447ed57d20875a">post</reimplements>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+          <declname>which_port</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+<para>send <computeroutput>msg</computeroutput> to <computeroutput>msg_accepter</computeroutput> on port <computeroutput>which_port</computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Sending a message is an asynchronous operation. The <computeroutput>post</computeroutput> call will not wait for the message either to arrive at the destination or to be received. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="166" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="166" bodyend="169"/>
+        <references refid="classrpchandler__base_1a11f672c527da72f1cd1036d2446cbd34" compoundref="rpcregisterhelpers_8h" startline="172">rpchandler_base&lt; T &gt;::_source</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Base class for registering a ControlPort Handler. Acts as a message acceptor. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::messages::msg_accepter</label>
+        <link refid="classgr_1_1messages_1_1msg__accepter"/>
+      </node>
+      <node id="3">
+        <label>rpcbasic_handler&lt; T &gt;</label>
+        <link refid="classrpcbasic__handler"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>rpchandler_base&lt; T &gt;</label>
+        <link refid="classrpchandler__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::messages::msg_accepter</label>
+        <link refid="classgr_1_1messages_1_1msg__accepter"/>
+      </node>
+      <node id="1">
+        <label>rpchandler_base&lt; T &gt;</label>
+        <link refid="classrpchandler__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="157" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="158" bodyend="174"/>
+    <listofallmembers>
+      <member refid="classrpchandler__base_1af0a69b6d92cf03549c07bbaaa4d63f54" prot="protected" virt="non-virtual"><scope>rpchandler_base</scope><name>_handler</name></member>
+      <member refid="classrpchandler__base_1a11f672c527da72f1cd1036d2446cbd34" prot="protected" virt="non-virtual"><scope>rpchandler_base</scope><name>_source</name></member>
+      <member refid="classgr_1_1messages_1_1msg__accepter_1ad6092d4c7f34d71ceb85d1f0d261184f" prot="public" virt="non-virtual"><scope>rpchandler_base</scope><name>msg_accepter</name></member>
+      <member refid="classrpchandler__base_1a78de137047622dfbe1e9a9d0a82db959" prot="public" virt="virtual"><scope>rpchandler_base</scope><name>post</name></member>
+      <member refid="classrpchandler__base_1a182bcf39736bf9953992891c57e975df" prot="public" virt="non-virtual"><scope>rpchandler_base</scope><name>rpchandler_base</name></member>
+      <member refid="classgr_1_1messages_1_1msg__accepter_1ac2c26834f090b1af422d874be1bb7c54" prot="public" virt="virtual"><scope>rpchandler_base</scope><name>~msg_accepter</name></member>
+      <member refid="classrpchandler__base_1a707f4e2249c85b47bb3c298096c9a185" prot="public" virt="non-virtual"><scope>rpchandler_base</scope><name>~rpchandler_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

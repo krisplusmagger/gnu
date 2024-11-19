@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="packet__header__default__pydoc_8h" kind="file" language="C++">
+    <compoundname>packet_header_default_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>packet_header_default_pydoc.h</label>
+        <link refid="packet__header__default__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="packet__header__default__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="packet__header__default__pydoc_8h_1af002c0bebad88858f020920acce4d59f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_default</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_default</name>
+        <initializer>= R&quot;doc(Default header formatter for digital packet transmission.
+
+For bursty/packetized digital transmission, packets are usually prepended with a packet header, containing the number of bytes etc. This class is not a block, but a tool to create these packet header.
+
+
+This is a default packet header (see header_formatter()) for a description on the header format). To create other header, derive packet header creator classes from this function.
+
+
+<ref refid="classgr_1_1digital_1_1packet__headergenerator__bb" kindref="compound">gr::digital::packet_headergenerator_bb</ref> uses header generators derived from this class to create packet headers from data streams.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    header_len : 
+    len_tag_key : 
+    num_tag_key : 
+    bits_per_byte : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet__header__default__pydoc_8h_1a26736a779ecbf103c8f9c6230e617371" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_default_packet_header_default_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_default_packet_header_default_0</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet__header__default__pydoc_8h_1ad7aeafa5edcd3bfa84afed40245ed331" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_default_packet_header_default_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_default_packet_header_default_1</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" line="43" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet__header__default__pydoc_8h_1a4bed02143ed8d9a56f5a8c7c3506a1bc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_default_base</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_default_base</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" line="47" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet__header__default__pydoc_8h_1acf3336497f3ac9eba3a114a2ea0a3f0b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_default_formatter</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_default_formatter</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet__header__default__pydoc_8h_1a3a91aa781dcdcdee396d588fee649f87" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_default_set_header_num</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_default_set_header_num</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet__header__default__pydoc_8h_1a2079c9ac5a26351cac080a221783a75d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_default_header_len</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_default_header_len</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" line="56" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet__header__default__pydoc_8h_1ac606bb0c223a30ff1496931ac336f215" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_default_len_tag_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_default_len_tag_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" line="59" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet__header__default__pydoc_8h_1ae31f8aa2ac9ded6bed9d9344e51a5992" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_default_header_formatter</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_default_header_formatter</name>
+        <initializer>= R&quot;doc(Encodes the header information in the given tags into bits and places them into .
+
+Uses the following header format: Bits 0-11: The packet length (what was stored in the tag with key ) Bits 12-23: The header number (counts up every time this function is called) Bit 24-31: 8-Bit CRC All other bits: Are set to zero
+
+
+If the header length is smaller than 32, bits are simply left out. For this reason, they always start with the LSB.
+
+
+However, it is recommended to stay above 32 Bits, in order to have a working CRC.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" line="62" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet__header__default__pydoc_8h_1a431551e30d21b3aa95eb79e0cede4588" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_default_header_parser</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_default_header_parser</name>
+        <initializer>= R&quot;doc(Inverse function to header_formatter().
+
+Reads the bit stream in  and writes a corresponding tag into .)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" line="73" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet__header__default__pydoc_8h_1afe80afd0c27b74d48fd383232afced42" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_default_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_default_make</name>
+        <initializer>= R&quot;doc(Default header formatter for digital packet transmission.
+
+For bursty/packetized digital transmission, packets are usually prepended with a packet header, containing the number of bytes etc. This class is not a block, but a tool to create these packet header.
+
+
+This is a default packet header (see header_formatter()) for a description on the header format). To create other header, derive packet header creator classes from this function.
+
+
+<ref refid="classgr_1_1digital_1_1packet__headergenerator__bb" kindref="compound">gr::digital::packet_headergenerator_bb</ref> uses header generators derived from this class to create packet headers from data streams.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    header_len : 
+    len_tag_key : 
+    num_tag_key : 
+    bits_per_byte : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" line="78" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_default_pydoc.h"/>
+  </compounddef>
+</doxygen>

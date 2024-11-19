@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="burst__tagger__pydoc_8h" kind="file" language="C++">
+    <compoundname>burst_tagger_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>burst_tagger_pydoc.h</label>
+        <link refid="burst__tagger__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="burst__tagger__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/burst_tagger_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/burst_tagger_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="burst__tagger__pydoc_8h_1a999ffd1d383d0c2917fbc255982fd3a9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_burst_tagger</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_burst_tagger</name>
+        <initializer>= R&quot;doc(Sets a burst on/off tag based on the value of the trigger input.
+
+This block takes two inputs, a signal stream on the input stream 0 and a trigger stream of shorts on input stream 1. If the trigger stream goes above 0, a tag with the key \&quot;burst\&quot; will be transmitted as a pmt::PMT_T. When the trigger signal falls below 0, the \&quot;burst\&quot; tag will be transmitted as pmt::PMT_F.
+
+
+The signal on stream 0 is retransmitted to output stream 0.
+
+Constructor Specific Documentation:
+
+Build a burst tagger gnuradio/blocks.
+
+Args:
+    itemsize : itemsize of the signal stream on input 0.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/burst_tagger_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/burst_tagger_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="burst__tagger__pydoc_8h_1ab2d1f5953c0a5661e986caadb62fbc24" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_burst_tagger_burst_tagger_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_burst_tagger_burst_tagger_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/burst_tagger_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/burst_tagger_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="burst__tagger__pydoc_8h_1ad571e8ff5cbe012a554087e46953cae7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_burst_tagger_burst_tagger_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_burst_tagger_burst_tagger_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/burst_tagger_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/burst_tagger_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="burst__tagger__pydoc_8h_1a61eac9ffa0c518d0862b5ecf95a48892" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_burst_tagger_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_burst_tagger_make</name>
+        <initializer>= R&quot;doc(Sets a burst on/off tag based on the value of the trigger input.
+
+This block takes two inputs, a signal stream on the input stream 0 and a trigger stream of shorts on input stream 1. If the trigger stream goes above 0, a tag with the key \&quot;burst\&quot; will be transmitted as a pmt::PMT_T. When the trigger signal falls below 0, the \&quot;burst\&quot; tag will be transmitted as pmt::PMT_F.
+
+
+The signal on stream 0 is retransmitted to output stream 0.
+
+Constructor Specific Documentation:
+
+Build a burst tagger gnuradio/blocks.
+
+Args:
+    itemsize : itemsize of the signal stream on input 0.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/burst_tagger_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/burst_tagger_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="burst__tagger__pydoc_8h_1a3aee62ed88a716a0a43427e1ca92abd8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_burst_tagger_set_true_tag</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_burst_tagger_set_true_tag</name>
+        <initializer>= R&quot;doc(For the true burst tag, change the key name to  and a new value of .)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/burst_tagger_pydoc.h" line="54" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/burst_tagger_pydoc.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="burst__tagger__pydoc_8h_1a9ec4850ecba88fd1fc96bb64881ac004" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_burst_tagger_set_false_tag</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_burst_tagger_set_false_tag</name>
+        <initializer>= R&quot;doc(For the false burst tag, change the key name to  and a new value of .)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/burst_tagger_pydoc.h" line="57" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/burst_tagger_pydoc.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/burst_tagger_pydoc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structrpcserver__aggregator_1_1unregisterConfigureCallback__f" kind="struct" language="C++" prot="private">
+    <compoundname>rpcserver_aggregator::unregisterConfigureCallback_f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::function&lt; void(T)&gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+      <param>
+        <type>typename Tcallback</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structrpcserver__aggregator_1_1unregisterConfigureCallback__f_1a2f12fea1f05522a998489cde051480d5" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string rpcserver_aggregator::unregisterConfigureCallback_f&lt; T, Tcallback &gt;::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>rpcserver_aggregator::unregisterConfigureCallback_f::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_aggregator.h" line="63" column="27" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_aggregator.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structrpcserver__aggregator_1_1unregisterConfigureCallback__f_1ac12b94c42dd2737b3570d21abf8faad1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>rpcserver_aggregator::unregisterConfigureCallback_f&lt; T, Tcallback &gt;::unregisterConfigureCallback_f</definition>
+        <argsstring>(const std::string &amp;_id)</argsstring>
+        <name>unregisterConfigureCallback_f</name>
+        <qualifiedname>rpcserver_aggregator::unregisterConfigureCallback_f::unregisterConfigureCallback_f</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_aggregator.h" line="60" column="9" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_aggregator.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="structrpcserver__aggregator_1_1unregisterConfigureCallback__f_1a50153f2a58633aeb9891a1db591a1bbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void rpcserver_aggregator::unregisterConfigureCallback_f&lt; T, Tcallback &gt;::operator()</definition>
+        <argsstring>(T &amp;x)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>rpcserver_aggregator::unregisterConfigureCallback_f::operator()</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_aggregator.h" line="62" column="14" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_aggregator.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>rpcserver_aggregator::unregisterConfigureCallback_f&lt; T, Tcallback &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::function&lt; void(T)&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>rpcserver_aggregator::unregisterConfigureCallback_f&lt; T, Tcallback &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>id</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="2">
+        <label>std::function&lt; void(T)&gt;</label>
+      </node>
+      <node id="3">
+        <label>std::string</label>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_aggregator.h" line="59" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_aggregator.h" bodystart="59" bodyend="64"/>
+    <listofallmembers>
+      <member refid="structrpcserver__aggregator_1_1unregisterConfigureCallback__f_1a2f12fea1f05522a998489cde051480d5" prot="public" virt="non-virtual"><scope>rpcserver_aggregator::unregisterConfigureCallback_f</scope><name>id</name></member>
+      <member refid="structrpcserver__aggregator_1_1unregisterConfigureCallback__f_1a50153f2a58633aeb9891a1db591a1bbf" prot="public" virt="non-virtual"><scope>rpcserver_aggregator::unregisterConfigureCallback_f</scope><name>operator()</name></member>
+      <member refid="structrpcserver__aggregator_1_1unregisterConfigureCallback__f_1ac12b94c42dd2737b3570d21abf8faad1" prot="public" virt="non-virtual"><scope>rpcserver_aggregator::unregisterConfigureCallback_f</scope><name>unregisterConfigureCallback_f</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

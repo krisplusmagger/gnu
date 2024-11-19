@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="gr-fec_2include_2gnuradio_2fec_2api_8h" kind="file" language="C++">
+    <compoundname>gr-fec/include/gnuradio/fec/api.h</compoundname>
+    <includes refid="attributes_8h" local="no">gnuradio/attributes.h</includes>
+    <includedby refid="alist_8h" local="no">alist.h</includedby>
+    <includedby refid="async__decoder_8h" local="no">async_decoder.h</includedby>
+    <includedby refid="async__encoder_8h" local="no">async_encoder.h</includedby>
+    <includedby refid="awgn__bp_8h" local="no">awgn_bp.h</includedby>
+    <includedby refid="ber__bf_8h" local="no">ber_bf.h</includedby>
+    <includedby refid="cc__decoder_8h" local="no">cc_decoder.h</includedby>
+    <includedby refid="cc__encoder_8h" local="no">cc_encoder.h</includedby>
+    <includedby refid="ccsds__encoder_8h" local="no">ccsds_encoder.h</includedby>
+    <includedby refid="cldpc_8h" local="no">cldpc.h</includedby>
+    <includedby refid="conv__bit__corr__bb_8h" local="no">conv_bit_corr_bb.h</includedby>
+    <includedby refid="decode__ccsds__27__fb_8h" local="no">decode_ccsds_27_fb.h</includedby>
+    <includedby refid="decoder_8h" local="no">decoder.h</includedby>
+    <includedby refid="depuncture__bb_8h" local="no">depuncture_bb.h</includedby>
+    <includedby refid="dummy__decoder_8h" local="no">dummy_decoder.h</includedby>
+    <includedby refid="dummy__encoder_8h" local="no">dummy_encoder.h</includedby>
+    <includedby refid="encode__ccsds__27__bb_8h" local="no">encode_ccsds_27_bb.h</includedby>
+    <includedby refid="gr-fec_2include_2gnuradio_2fec_2encoder_8h" local="no">encoder.h</includedby>
+    <includedby refid="fec__mtrx_8h" local="no">fec_mtrx.h</includedby>
+    <includedby refid="generic__decoder_8h" local="no">generic_decoder.h</includedby>
+    <includedby refid="generic__encoder_8h" local="no">generic_encoder.h</includedby>
+    <includedby refid="ldpc__G__matrix_8h" local="no">ldpc_G_matrix.h</includedby>
+    <includedby refid="ldpc__H__matrix_8h" local="no">ldpc_H_matrix.h</includedby>
+    <includedby refid="ldpc__bit__flip__decoder_8h" local="no">ldpc_bit_flip_decoder.h</includedby>
+    <includedby refid="ldpc__gen__mtrx__encoder_8h" local="no">ldpc_gen_mtrx_encoder.h</includedby>
+    <includedby refid="polar__common_8h" local="no">polar_common.h</includedby>
+    <includedby refid="polar__decoder__common_8h" local="no">polar_decoder_common.h</includedby>
+    <includedby refid="polar__decoder__sc_8h" local="no">polar_decoder_sc.h</includedby>
+    <includedby refid="polar__decoder__sc__list_8h" local="no">polar_decoder_sc_list.h</includedby>
+    <includedby refid="polar__decoder__sc__systematic_8h" local="no">polar_decoder_sc_systematic.h</includedby>
+    <includedby refid="polar__encoder_8h" local="no">polar_encoder.h</includedby>
+    <includedby refid="polar__encoder__systematic_8h" local="no">polar_encoder_systematic.h</includedby>
+    <includedby refid="puncture__bb_8h" local="no">puncture_bb.h</includedby>
+    <includedby refid="puncture__ff_8h" local="no">puncture_ff.h</includedby>
+    <includedby refid="repetition__decoder_8h" local="no">repetition_decoder.h</includedby>
+    <includedby refid="repetition__encoder_8h" local="no">repetition_encoder.h</includedby>
+    <includedby refid="rs_8h" local="no">rs.h</includedby>
+    <includedby refid="tagged__decoder_8h" local="no">tagged_decoder.h</includedby>
+    <includedby refid="tagged__encoder_8h" local="no">tagged_encoder.h</includedby>
+    <includedby refid="gr-fec_2include_2gnuradio_2fec_2viterbi_8h" local="no">viterbi.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="gr-fec_2include_2gnuradio_2fec_2api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>alist.h</label>
+        <link refid="alist_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="gr-fec_2include_2gnuradio_2fec_2api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>async_decoder.h</label>
+        <link refid="async__decoder_8h"/>
+      </node>
+      <node id="8">
+        <label>async_encoder.h</label>
+        <link refid="async__encoder_8h"/>
+      </node>
+      <node id="3">
+        <label>awgn_bp.h</label>
+        <link refid="awgn__bp_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>ber_bf.h</label>
+        <link refid="ber__bf_8h"/>
+      </node>
+      <node id="10">
+        <label>cc_decoder.h</label>
+        <link refid="cc__decoder_8h"/>
+      </node>
+      <node id="11">
+        <label>cc_encoder.h</label>
+        <link refid="cc__encoder_8h"/>
+      </node>
+      <node id="12">
+        <label>ccsds_encoder.h</label>
+        <link refid="ccsds__encoder_8h"/>
+      </node>
+      <node id="5">
+        <label>cldpc.h</label>
+        <link refid="cldpc_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>conv_bit_corr_bb.h</label>
+        <link refid="conv__bit__corr__bb_8h"/>
+      </node>
+      <node id="14">
+        <label>decode_ccsds_27_fb.h</label>
+        <link refid="decode__ccsds__27__fb_8h"/>
+      </node>
+      <node id="15">
+        <label>decoder.h</label>
+        <link refid="decoder_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>depuncture_bb.h</label>
+        <link refid="depuncture__bb_8h"/>
+      </node>
+      <node id="18">
+        <label>dummy_decoder.h</label>
+        <link refid="dummy__decoder_8h"/>
+      </node>
+      <node id="19">
+        <label>dummy_encoder.h</label>
+        <link refid="dummy__encoder_8h"/>
+      </node>
+      <node id="20">
+        <label>encode_ccsds_27_bb.h</label>
+        <link refid="encode__ccsds__27__bb_8h"/>
+      </node>
+      <node id="21">
+        <label>encoder.h</label>
+        <link refid="gr-fec_2include_2gnuradio_2fec_2encoder_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>fec_mtrx.h</label>
+        <link refid="fec__mtrx_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>generic_decoder.h</label>
+        <link refid="generic__decoder_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>generic_encoder.h</label>
+        <link refid="generic__encoder_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gf2mat.h</label>
+        <link refid="gf2mat_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>ldpc_G_matrix.h</label>
+        <link refid="ldpc__G__matrix_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>ldpc_H_matrix.h</label>
+        <link refid="ldpc__H__matrix_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>ldpc_bit_flip_decoder.h</label>
+        <link refid="ldpc__bit__flip__decoder_8h"/>
+      </node>
+      <node id="4">
+        <label>ldpc_decoder.h</label>
+        <link refid="ldpc__decoder_8h"/>
+      </node>
+      <node id="22">
+        <label>ldpc_encoder.h</label>
+        <link refid="ldpc__encoder_8h"/>
+      </node>
+      <node id="28">
+        <label>ldpc_gen_mtrx_encoder.h</label>
+        <link refid="ldpc__gen__mtrx__encoder_8h"/>
+      </node>
+      <node id="23">
+        <label>ldpc_par_mtrx_encoder.h</label>
+        <link refid="ldpc__par__mtrx__encoder_8h"/>
+      </node>
+      <node id="42">
+        <label>polar_common.h</label>
+        <link refid="polar__common_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>polar_decoder_common.h</label>
+        <link refid="polar__decoder__common_8h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>polar_decoder_sc.h</label>
+        <link refid="polar__decoder__sc_8h"/>
+      </node>
+      <node id="34">
+        <label>polar_decoder_sc_list.h</label>
+        <link refid="polar__decoder__sc__list_8h"/>
+      </node>
+      <node id="35">
+        <label>polar_decoder_sc_systematic.h</label>
+        <link refid="polar__decoder__sc__systematic_8h"/>
+      </node>
+      <node id="39">
+        <label>polar_encoder.h</label>
+        <link refid="polar__encoder_8h"/>
+      </node>
+      <node id="40">
+        <label>polar_encoder_systematic.h</label>
+        <link refid="polar__encoder__systematic_8h"/>
+      </node>
+      <node id="43">
+        <label>puncture_bb.h</label>
+        <link refid="puncture__bb_8h"/>
+      </node>
+      <node id="44">
+        <label>puncture_ff.h</label>
+        <link refid="puncture__ff_8h"/>
+      </node>
+      <node id="36">
+        <label>repetition_decoder.h</label>
+        <link refid="repetition__decoder_8h"/>
+      </node>
+      <node id="24">
+        <label>repetition_encoder.h</label>
+        <link refid="repetition__encoder_8h"/>
+      </node>
+      <node id="45">
+        <label>rs.h</label>
+        <link refid="rs_8h"/>
+      </node>
+      <node id="37">
+        <label>tagged_decoder.h</label>
+        <link refid="tagged__decoder_8h"/>
+      </node>
+      <node id="41">
+        <label>tagged_encoder.h</label>
+        <link refid="tagged__encoder_8h"/>
+      </node>
+      <node id="16">
+        <label>tpc_decoder.h</label>
+        <link refid="tpc__decoder_8h"/>
+      </node>
+      <node id="25">
+        <label>tpc_encoder.h</label>
+        <link refid="tpc__encoder_8h"/>
+      </node>
+      <node id="46">
+        <label>viterbi.h</label>
+        <link refid="gr-fec_2include_2gnuradio_2fec_2viterbi_8h"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="gr-fec_2include_2gnuradio_2fec_2api_8h_1a5cf75e044f752f0fdd15434e02a94db8" prot="public" static="no">
+        <name>FEC_API</name>
+        <initializer><ref refid="attributes_8h_1a17b9cb3c185c92af4799ec9b0a38f3c1" kindref="member">__GR_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/api.h" line="18" column="10" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/api.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/api.h"/>
+  </compounddef>
+</doxygen>

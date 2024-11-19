@@ -1,0 +1,617 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1soapy_1_1sink" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::soapy::sink</compoundname>
+    <basecompoundref refid="classgr_1_1soapy_1_1block" prot="public" virt="virtual">gr::soapy::block</basecompoundref>
+    <includes refid="gr-soapy_2include_2gnuradio_2soapy_2sink_8h" local="no">gnuradio/soapy/sink.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1soapy_1_1sink_1a2a4991c87c01598e936cc67097676148" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1soapy_1_1sink" kindref="compound">sink</ref> &gt;</type>
+        <definition>using gr::soapy::sink::sptr =  std::shared_ptr&lt;sink&gt;</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::soapy::sink::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/sink.h" line="43" column="5" bodyfile="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/sink.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1soapy_1_1sink_1a65c5e6f93c15f50352645ab046828ff8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1soapy_1_1sink_1a2a4991c87c01598e936cc67097676148" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::soapy::sink::make</definition>
+        <argsstring>(const std::string &amp;device, const std::string &amp;type, size_t nchan, const std::string &amp;dev_args=&quot;&quot;, const std::string &amp;stream_args=&quot;&quot;, const std::vector&lt; std::string &gt; &amp;tune_args={ &quot;&quot; }, const std::vector&lt; std::string &gt; &amp;other_settings={ &quot;&quot; })</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::soapy::sink::make</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>device</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>nchan</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>dev_args</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>stream_args</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>tune_args</declname>
+          <defval>{ &quot;&quot; }</defval>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>other_settings</declname>
+          <defval>{ &quot;&quot; }</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1soapy_1_1sink" kindref="compound">soapy::sink</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1soapy_1_1sink" kindref="compound">soapy::sink</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1soapy_1_1sink_1a65c5e6f93c15f50352645ab046828ff8" kindref="member">soapy::sink::make</ref> is the public interface for creating new instances. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the device driver and type </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output stream format </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nchan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of channels </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dev_args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>device specific arguments </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stream_args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>stream arguments. Same for all enabled channels </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tune_args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list with tuning specific arguments, one entry for every enabled channel, or a single entry to apply to all </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>other_settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list with general settings, one entry for every enabled channel, or a single entry to apply to all. Supports also specific gain settings.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Driver name can be any of &quot;uhd&quot;, &quot;lime&quot;, &quot;airspy&quot;, &quot;rtlsdr&quot; or others </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/sink.h" line="66" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1soapy_1_1sink_1a79c570e932ea56a2bccabd463648a4b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::soapy::sink::set_length_tag_name</definition>
+        <argsstring>(const std::string &amp;length_tag_name)=0</argsstring>
+        <name>set_length_tag_name</name>
+        <qualifiedname>gr::soapy::sink::set_length_tag_name</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>length_tag_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/sink.h" line="74" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>gr::basic_block</label>
+        <link refid="classgr_1_1basic__block"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+        <link refid="classgr_1_1block"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gr::messages::msg_accepter</label>
+        <link refid="classgr_1_1messages_1_1msg__accepter"/>
+      </node>
+      <node id="5">
+        <label>gr::msg_accepter</label>
+        <link refid="classgr_1_1msg__accepter"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::soapy::block</label>
+        <link refid="classgr_1_1soapy_1_1block"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::soapy::sink</label>
+        <link refid="classgr_1_1soapy_1_1sink"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>std::enable_shared_from_this&lt; basic_block &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="15">
+        <label>T</label>
+      </node>
+      <node id="4">
+        <label>gr::basic_block</label>
+        <link refid="classgr_1_1basic__block"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>d_name</edgelabel>
+          <edgelabel>d_symbol_alias</edgelabel>
+          <edgelabel>d_symbol_name</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>d_input_signature</edgelabel>
+          <edgelabel>d_output_signature</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>d_debug_logger</edgelabel>
+          <edgelabel>d_logger</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>msg_queue</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>d_rpc_vars</edgelabel>
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>d_message_subscribers</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+        <link refid="classgr_1_1block"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>d_max_output_buffer</edgelabel>
+          <edgelabel>d_min_output_buffer</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>d_pmt_done</edgelabel>
+          <edgelabel>d_system_port</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gr::io_signature</label>
+        <link refid="classgr_1_1io__signature"/>
+      </node>
+      <node id="6">
+        <label>gr::messages::msg_accepter</label>
+        <link refid="classgr_1_1messages_1_1msg__accepter"/>
+      </node>
+      <node id="5">
+        <label>gr::msg_accepter</label>
+        <link refid="classgr_1_1msg__accepter"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::soapy::block</label>
+        <link refid="classgr_1_1soapy_1_1block"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::soapy::sink</label>
+        <link refid="classgr_1_1soapy_1_1sink"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>std::map&lt; pmt::pmt_t, msg_queue_t, msg_queue_comparator &gt;</label>
+        <childnode refid="14" relation="usage">
+          <edgelabel>keys</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>std::shared_ptr&lt; io_signature &gt;</label>
+        <childnode refid="11" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>std::shared_ptr&lt; logger &gt;</label>
+      </node>
+      <node id="18">
+        <label>std::shared_ptr&lt; pmt_base &gt;</label>
+      </node>
+      <node id="9">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="16">
+        <label>std::deque&lt; T &gt;</label>
+        <childnode refid="15" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>std::enable_shared_from_this&lt; basic_block &gt;</label>
+      </node>
+      <node id="14">
+        <label>std::shared_ptr&lt; T &gt;</label>
+        <childnode refid="15" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>std::string</label>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>std::vector&lt; long &gt;</label>
+      </node>
+      <node id="17">
+        <label>std::vector&lt; rpcbasic_sptr &gt;</label>
+        <childnode refid="14" relation="usage">
+          <edgelabel>elements</edgelabel>
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/sink.h" line="40" column="1" bodyfile="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/sink.h" bodystart="41" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classgr_1_1basic__block_1ab82376fe13f515cb904c0d2e9fec87b6" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>_post</name></member>
+      <member refid="classgr_1_1block_1a099f578878243499d63846bbee61979a" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>active_thread_priority</name></member>
+      <member refid="classgr_1_1block_1a8b7cc51b9d289124d6843bb392f564fc" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>add_item_tag</name></member>
+      <member refid="classgr_1_1block_1a8f0ee37749a77d3f40a5bb04233f6028" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>add_item_tag</name></member>
+      <member refid="classgr_1_1basic__block_1ab6bc65ad989bb7aa762e9f6064e05534" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>alias</name></member>
+      <member refid="classgr_1_1basic__block_1a7c23228d2623680d85ce836dea19da21" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>alias_pmt</name></member>
+      <member refid="classgr_1_1basic__block_1abd5fd45a3aab213bdf7e826ef0baf654" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>alias_set</name></member>
+      <member refid="classgr_1_1block_1a97e9110914ad00e6d8b9b9e4837508c4" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>alignment</name></member>
+      <member refid="classgr_1_1block_1a725dd951d233c6f3f2a5eccce0117033" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>allocate_buffer</name></member>
+      <member refid="classgr_1_1block_1a43d5b375cade3fc372f620ca7cfb939b" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>allocate_detail</name></member>
+      <member refid="classgr_1_1basic__block_1a6cc897729213ab4d2e3ade44c6942100" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>basic_block</name></member>
+      <member refid="classgr_1_1basic__block_1a451b45483aec67682289f4cf94e53f74" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>basic_block</name></member>
+      <member refid="classgr_1_1basic__block_1ac84f6979cb9e7650de9d9205901401aaab729ab9b0c860fece10ea1eddab6ce52" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>BLACK</name></member>
+      <member refid="classgr_1_1block_1a37b0ee4b7eb7b8d334be0125e8464a71" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>blkd_input_timer_value</name></member>
+      <member refid="classgr_1_1block_1a624c3e070c3df38e5d11e4acd0f59b46" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>block</name></member>
+      <member refid="classgr_1_1block_1aebbc2ed68daafc4de5ee0f5df21efe6e" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>block</name></member>
+      <member refid="classgr_1_1basic__block_1aca13d6f083397aada5b44d0f349ce151" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>check_topology</name></member>
+      <member refid="classgr_1_1block_1af19867ade7536783777a5c5e91b69972" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>clear_finished</name></member>
+      <member refid="classgr_1_1basic__block_1ae6531de80c07321b7fb6f93d47952a12" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>color</name></member>
+      <member refid="classgr_1_1block_1a47193333ce3fe1536fb1663bf314f63d" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>consume</name></member>
+      <member refid="classgr_1_1block_1a12ea5eba701e22a3d023d0ba7c6ee07c" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>consume_each</name></member>
+      <member refid="classgr_1_1block_1a8b2991658d2d61fa34f776f557f5d508" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_blkd_input_timer_value</name></member>
+      <member refid="classgr_1_1basic__block_1afc7a00e9e0ff69ceb903d3d6ff506473" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_color</name></member>
+      <member refid="classgr_1_1basic__block_1a13bd702ed57a052484e8c431b4ba3a63" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_debug_logger</name></member>
+      <member refid="classgr_1_1basic__block_1a84d6b200bb5e268424e9e4630cb22e5a" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_input_signature</name></member>
+      <member refid="classgr_1_1basic__block_1a65abdb3eefde2c95646944b18094dddc" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_logger</name></member>
+      <member refid="classgr_1_1block_1ab740ebd7e5e88ab5ed7039db9f054db1" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_max_output_buffer</name></member>
+      <member refid="classgr_1_1basic__block_1aefa8ebb27b9d86bef179e30e37f0dfc3" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_message_subscribers</name></member>
+      <member refid="classgr_1_1block_1a4c393a6daebc82ddf6844a62f1c5e8ae" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_min_output_buffer</name></member>
+      <member refid="classgr_1_1basic__block_1ad7da20e98a288f84597882e047df63f4" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_name</name></member>
+      <member refid="classgr_1_1basic__block_1a84c091a90172b2eb6d617f6346bbce3f" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_output_signature</name></member>
+      <member refid="classgr_1_1block_1ad72091916b86278b58b6d106876b3e8c" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_pmt_done</name></member>
+      <member refid="classgr_1_1basic__block_1a8d54f7ea6ebf134e68e028294488354d" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_rpc_set</name></member>
+      <member refid="classgr_1_1basic__block_1ae5d5ad853077c6eaf83c0ebce53d14f2" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_rpc_vars</name></member>
+      <member refid="classgr_1_1block_1aaf5b8dd7bba021af7bd93f39453f7482" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_setlock</name></member>
+      <member refid="classgr_1_1basic__block_1a2de4ae58aaf6af63fe57ecf0e64dcbe0" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_symbol_alias</name></member>
+      <member refid="classgr_1_1basic__block_1af6b5f158f329834b12d9b204cf62a10e" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_symbol_name</name></member>
+      <member refid="classgr_1_1basic__block_1a7073674b5876118ae50cd7cc5646ad80" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_symbolic_id</name></member>
+      <member refid="classgr_1_1block_1a2460fc9ff6df7f38a51dadba06b94904" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_system_port</name></member>
+      <member refid="classgr_1_1basic__block_1a8afb0c354fb5fc2141fc7580361c2f00" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>d_unique_id</name></member>
+      <member refid="classgr_1_1block_1acad5d6e62ea885cb77d19f72451581c2" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>declare_sample_delay</name></member>
+      <member refid="classgr_1_1block_1aa7df9d4ebb09530cd3be2ad78da411b4" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>declare_sample_delay</name></member>
+      <member refid="classgr_1_1basic__block_1af9e69c810222df1bccbd159d660eda06" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>delete_head_nowait</name></member>
+      <member refid="classgr_1_1block_1acbed8f29e876494528b826c00e30cffa" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>detail</name></member>
+      <member refid="classgr_1_1basic__block_1aa0c8bc1d82de984c872fbaefc0ff954b" prot="protected" virt="virtual"><scope>gr::soapy::sink</scope><name>dispatch_msg</name></member>
+      <member refid="classgr_1_1basic__block_1a0ea70146bf5ce65a8c20c0b7234063d9" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>empty_handled_p</name></member>
+      <member refid="classgr_1_1basic__block_1a75b7c42c06430e9f5330f7462a5350a1" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>empty_handled_p</name></member>
+      <member refid="classgr_1_1basic__block_1aea4958dfb6cc37d60db6afaba91f6e6e" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>empty_p</name></member>
+      <member refid="classgr_1_1basic__block_1aecb5d318b3d3689e6f7f448d29a03032" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>empty_p</name></member>
+      <member refid="classgr_1_1block_1a71d3cc9f05edecef8b7bda7f16580848" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>enable_update_rate</name></member>
+      <member refid="classgr_1_1basic__block_1acffa27c6be8af72ae44773185687d49c" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>erase_msg</name></member>
+      <member refid="classgr_1_1block_1a9bbf96f6a81d5c289934a68ef44dd1b4" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>expand_minmax_buffer</name></member>
+      <member refid="classgr_1_1block_1a89242cb1ac9d2bf5e75f923745baa576" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>finished</name></member>
+      <member refid="classgr_1_1block_1ab82ebb52662cf4fa6b1417d3571414da" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>fixed_rate</name></member>
+      <member refid="classgr_1_1block_1a95e37b19dd73c24113ca9b848db00d16" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>fixed_rate_ninput_to_noutput</name></member>
+      <member refid="classgr_1_1block_1abe37ff91774ef438bdfcddd0a47ec1a6" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>fixed_rate_noutput_to_ninput</name></member>
+      <member refid="classgr_1_1block_1a5bc118d94944d2ff71e378f807fb8d28" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>forecast</name></member>
+      <member refid="classgr_1_1block_1a0a482fb96a3d7343ffdd86a21538c2e5" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>general_work</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a27341e6790a63656448ac4e6d57a17d7" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_antenna</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a569f683179a57dcc2adc0ce62489eefb" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_bandwidth</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a9c04e6220ced57aa4c7b259bde4482d6" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_bandwidth_range</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a1bbc2e06330802443cc0c0b3f76871bc" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_channel_info</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1ae7d22fdffc6963d47fa2c00ec06c36cd" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_clock_source</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1addfa3c601fdd93dd74fb66f331f492cd" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_dc_offset</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a522e1177f3185d7b432f18c5086a2114" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_dc_offset_mode</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1ab85a030132254935de518aad5804333e" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_driver_key</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1aada436fe9101748aaa68e595c24e12a0" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_frequency</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a2650b5ed69610f795fc401a320526066" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_frequency</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a4298929e95a116aa3d1f8e1fb216b8a4" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_frequency_args_info</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a30d58034a76d9339c88d6ed7e285ee2c" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_frequency_correction</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1aca1387feca915c4a5a9e5719523c9781" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_frequency_range</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a8ee39389e4436b8489c94d8f85bcf39e" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_frequency_range</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1ad6c25deb5ac6fb36e17c62f61e13e017" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_frontend_mapping</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a21732c5d39def8a32f9f6e12d2e8db0c" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_gain</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1aa2c571daa3578670c69b8b8b0654ffb8" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_gain</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1ada89254e69b86398aa696a59c5b4f0c5" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_gain_mode</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1aace9d95f2e1db5d816d549e4ceac086d" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_gain_range</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a021735e3bf44e06d61d9ad92da840e83" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_gain_range</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1ac1bc72d3c4e4b51d0396eab08ea2329b" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_hardware_info</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a865140e1ba4a05f54ef15454d4867969" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_hardware_key</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1aac993ae0571c4e85b10e701a5d877f21" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_hardware_time</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1aca7e6d676c98b8a96ff63deab2c83078" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_iq_balance</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1ab682b42df0a57f98a9b47afa3e9da8e0" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_iq_balance_mode</name></member>
+      <member refid="classgr_1_1basic__block_1a33724cc678371b3713e13ed29217963e" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>get_iterator</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a43f35debb5ddbca06e82472fa2f8f93b" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_master_clock_rate</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a546e57f6432bb472b92fc2d98ec06547" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_master_clock_rates</name></member>
+      <member refid="classgr_1_1basic__block_1a30fdffa888cd7433a1fe06caa6de2ec8" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>get_msg_map</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a16c70e2b0b75bf823d50c29bd1859b3e" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_reference_clock_rate</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1ac461be1ec76b612cc9d452c0bb0f61ba" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_reference_clock_rates</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a5d58175f5ddb79efab0330381ae6b7a0" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_sample_rate</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a387dc96b6fafa70dd621d62a7dd84140" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_sample_rate_range</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a790d07613afb5e5b5dc02a46a95a5797" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_sensor_info</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a5357a83f3487354d502da87a5f057818" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_sensor_info</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a9ac4de3cbb7f3f4c40e15329474d4ca0" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_setting_info</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1af6196df90e3596b5f3de51c5dc46bb23" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_setting_info</name></member>
+      <member refid="classgr_1_1block_1aa0272555827fe26a1878e53ce4be092c" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>get_tags_in_range</name></member>
+      <member refid="classgr_1_1block_1a83143d92b16b5bf93bf43a66a46bb60e" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>get_tags_in_range</name></member>
+      <member refid="classgr_1_1block_1abf2cc497d68c4650be55765d0fe12291" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>get_tags_in_window</name></member>
+      <member refid="classgr_1_1block_1a451b95d244e27e815eb3f9e56ea6ac32" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>get_tags_in_window</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a0b0e283a0f876ad2cd010d79a8526e32" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>get_time_source</name></member>
+      <member refid="classgr_1_1basic__block_1ac84f6979cb9e7650de9d9205901401aaa229412131f1cac62bf1cb3c63b12a19d" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>GREY</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a4cfc22e114a2006a293577a82d3c3dbc" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>has_dc_offset</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1aae4cd2b56a55ec23d92d59f2ad3e5424" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>has_dc_offset_mode</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a3f479141d5504c6452ab8b177f399e36" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>has_frequency_correction</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a84021079fba5976cc3efa6aba986a8f7" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>has_gain_mode</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a2f884eb0c281af5a83fe38f169738b06" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>has_hardware_time</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a460c4a105d445fffe41e5d46a5eb913e" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>has_iq_balance</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a2d300c57cb6368ace3ea64f541636d13" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>has_iq_balance_mode</name></member>
+      <member refid="classgr_1_1basic__block_1ac8bf058b47b635100945e20f3cc5d0b0" prot="protected" virt="virtual"><scope>gr::soapy::sink</scope><name>has_msg_handler</name></member>
+      <member refid="classgr_1_1basic__block_1a8cdeb25c366bedbadf918b7f106dbf85" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>has_msg_port</name></member>
+      <member refid="classgr_1_1block_1aa1bbd70747868454da06ba2049b61a18" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>history</name></member>
+      <member refid="classgr_1_1block_1a77149752323d0e1309cf43d66a31ae65" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>identifier</name></member>
+      <member refid="classgr_1_1basic__block_1a0067e4bfc94bd79182de1a9c7ab7d267" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>input_signature</name></member>
+      <member refid="classgr_1_1basic__block_1acbf0d8127f9b1da8dcb327b29391812a" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>insert_tail</name></member>
+      <member refid="classgr_1_1block_1abf6cf687db7ff69169d7fb7e3e346d65" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>is_pc_rpc_set</name></member>
+      <member refid="classgr_1_1basic__block_1a10bd994a51158fd3803377960d688795" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>is_rpc_set</name></member>
+      <member refid="classgr_1_1block_1a4f67d984bc126aa4d254e62464525b79" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>is_set_max_noutput_items</name></member>
+      <member refid="classgr_1_1block_1aa6323c615066d53d4d1b374900abb3f3" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>is_unaligned</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a14fc57d0980e5fa7d117cce4e7c49858" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>list_antennas</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a2847a6ff630d262b6c9ca423b7e65d16" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>list_clock_sources</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a43ba6c4c938ea8b5952cf6fc2ba4e566" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>list_frequencies</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1af0e48298c2345d4c1f48df02997e62d7" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>list_gains</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a5c4de1162ddd6f402ebb9024f4d6a260" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>list_gpio_banks</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a8f3fed21589b4edecc11e95c3f182ad4" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>list_register_interfaces</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1abb9581301a49fd76a12ecc523f4d1c05" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>list_sensors</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a5307de3fc257574d7f1ddb7d7e62ebfd" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>list_sensors</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a830cef1c0f514b96998392d2cf86e634" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>list_time_sources</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1ad04e63760bca0c316f156c4c92719da5" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>list_uarts</name></member>
+      <member refid="classgr_1_1block_1a7d4018d4bbe1bc19569f674003c60cc9" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>log_level</name></member>
+      <member refid="classgr_1_1soapy_1_1sink_1a65c5e6f93c15f50352645ab046828ff8" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>make</name></member>
+      <member refid="classgr_1_1block_1af710a90819f19705f2d2ba1aa49d0172" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>max_noutput_items</name></member>
+      <member refid="classgr_1_1block_1a5faeaab35423014dc59749d63cfe4cf1" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>max_output_buffer</name></member>
+      <member refid="classgr_1_1basic__block_1a8780d41bb2091c00a9637e15e872a7ce" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>message_port_is_hier</name></member>
+      <member refid="classgr_1_1basic__block_1a5cc9ea399d0940de8440e028b7352ed7" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>message_port_is_hier_in</name></member>
+      <member refid="classgr_1_1basic__block_1a218a3ea133d838c8344fb3914c54ba3a" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>message_port_is_hier_out</name></member>
+      <member refid="classgr_1_1basic__block_1a485fa8f9fa04a1abcfe3f111d22e8e5f" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>message_port_pub</name></member>
+      <member refid="classgr_1_1basic__block_1a362b6de38292cca9c1d56439a6efad04" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>message_port_register_in</name></member>
+      <member refid="classgr_1_1basic__block_1ac3047921885668943a13dabd35d5eda4" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>message_port_register_out</name></member>
+      <member refid="classgr_1_1basic__block_1adddd339f229f55bd96229d7a7dd5cc8f" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>message_port_sub</name></member>
+      <member refid="classgr_1_1basic__block_1ad5496693b3c7c8be32529d695f83db1c" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>message_port_unsub</name></member>
+      <member refid="classgr_1_1basic__block_1ae92faa0b6775de0100f6d202140403a2" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>message_ports_in</name></member>
+      <member refid="classgr_1_1basic__block_1ad6351658056b5381f3803233cb75c928" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>message_ports_out</name></member>
+      <member refid="classgr_1_1basic__block_1a15300c27e1a332bc7dcff6438ec6c080" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>message_subscribers</name></member>
+      <member refid="classgr_1_1block_1ab90ff4303cdcd140143b4f9f55a441ee" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>min_noutput_items</name></member>
+      <member refid="classgr_1_1block_1ac28e42e36ef843b999cca3702981ccd7" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>min_output_buffer</name></member>
+      <member refid="classgr_1_1block_1a594fc8f2ff2e456ed929221437696bce" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>mp_relative_rate</name></member>
+      <member refid="classgr_1_1msg__accepter_1ae25bb0b46019f4dbe2bdcecdf50dc755" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>msg_accepter</name></member>
+      <member refid="classgr_1_1basic__block_1a68e92e54cda7a02697074705b9a7c08d" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>msg_queue</name></member>
+      <member refid="classgr_1_1basic__block_1af3a5056e2de6b3e561c02f2de37de44c" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>name</name></member>
+      <member refid="classgr_1_1block_1a2279d1eb421203bc5b0f100a6d5dc263" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>nitems_read</name></member>
+      <member refid="classgr_1_1block_1a742128a481fcb9e43a3e0cd535a57f9e" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>nitems_written</name></member>
+      <member refid="classgr_1_1basic__block_1a4e3baf2d69f2a00871c89993e28b50ea" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>nmsgs</name></member>
+      <member refid="classgr_1_1block_1a74745ea741b0aae938b003854f6043e0" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>no_pc_rpc</name></member>
+      <member refid="classgr_1_1block_1adf235647d7ec77995751de89d94a22a6" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>notify_msg_neighbors</name></member>
+      <member refid="classgr_1_1block_1a9a78a1ee7447a340162c719ef948b915" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>output_multiple</name></member>
+      <member refid="classgr_1_1block_1ad3c6867e113ea236e5e07a3674783e1d" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>output_multiple_set</name></member>
+      <member refid="classgr_1_1basic__block_1ae1a185fca1da861c9e6213f9e8284fed" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>output_signature</name></member>
+      <member refid="classgr_1_1block_1a4989096e4edf5e8171b65e3ce663af1e" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_input_buffers_full</name></member>
+      <member refid="classgr_1_1block_1a97d830331a4274ff8060fa925262afcf" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_input_buffers_full</name></member>
+      <member refid="classgr_1_1block_1a08e5deef4ebd0e6c2e11b839eaeadd9f" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_input_buffers_full_avg</name></member>
+      <member refid="classgr_1_1block_1a4d364bfc03abaa13f77b515169a86cb1" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_input_buffers_full_avg</name></member>
+      <member refid="classgr_1_1block_1a00723a35c6e095da35608c8438e16cdf" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_input_buffers_full_var</name></member>
+      <member refid="classgr_1_1block_1aee4a47800f4d1484e276778a2461ce37" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_input_buffers_full_var</name></member>
+      <member refid="classgr_1_1block_1af4a03de0d6609ca0e03b875250b7650c" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_noutput_items</name></member>
+      <member refid="classgr_1_1block_1a3beb47de467a4a117b0c096f8511d3af" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_noutput_items_avg</name></member>
+      <member refid="classgr_1_1block_1ae0725cd4ff4f5040a513c2a61355d434" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_noutput_items_var</name></member>
+      <member refid="classgr_1_1block_1a84ef5905d40b507a2230c996d8857289" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_nproduced</name></member>
+      <member refid="classgr_1_1block_1ad0b4960e100a088caefa99fb39f99a02" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_nproduced_avg</name></member>
+      <member refid="classgr_1_1block_1a1a506f34b8b8c3f968dc0a8cb9da0650" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_nproduced_var</name></member>
+      <member refid="classgr_1_1block_1ab125047ee56cf687e3475674a28d267f" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_output_buffers_full</name></member>
+      <member refid="classgr_1_1block_1abc0ec64aeeb1e51206049f7804f7774f" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_output_buffers_full</name></member>
+      <member refid="classgr_1_1block_1a0ed8f2224fe1d0b27e17cd66723452a8" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_output_buffers_full_avg</name></member>
+      <member refid="classgr_1_1block_1ad7f7e6fbb500e78493bc27b85e6c4c9f" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_output_buffers_full_avg</name></member>
+      <member refid="classgr_1_1block_1a2ad2a99ea794d44956d2878471e5976d" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_output_buffers_full_var</name></member>
+      <member refid="classgr_1_1block_1a43ecae35f34a1fc99d1bcbdccb844505" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_output_buffers_full_var</name></member>
+      <member refid="classgr_1_1block_1a78a27917edcd3b32f10b2166f3362a68" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_throughput_avg</name></member>
+      <member refid="classgr_1_1block_1ae8b89079d24a3216eb1b17d75ec5b8d8" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_work_time</name></member>
+      <member refid="classgr_1_1block_1a2df6452cef2999e1b32458a5e542f948" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_work_time_avg</name></member>
+      <member refid="classgr_1_1block_1a2c9fdd36be297e4b503ccd6290663367" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_work_time_total</name></member>
+      <member refid="classgr_1_1block_1a4918e75c4d11a0b7222c9ba250313ebc" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>pc_work_time_var</name></member>
+      <member refid="classgr_1_1msg__accepter_1a1032a8f3bf410b7670bc9af0c7c6d7ad" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>post</name></member>
+      <member refid="classgr_1_1block_1aa10e476b727d19dc6f95cb2326193607" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>processor_affinity</name></member>
+      <member refid="classgr_1_1block_1aa5581727d057bdd8113f8b2a3fc5bd66" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>produce</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1aa37dc71f5b86baf1eed54e9d1b6f59f7" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>read_gpio</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1abe78f1fc0b60c4e5c2d56a165806a1c8" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>read_gpio_dir</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a1eb30bcba5cf33eaac5f8b88ddf1987c" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>read_i2c</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1ac09a9f700778172c3d245c26f9563778" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>read_register</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1abf98a5618d598c976928f527eda0b475" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>read_registers</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a6e804f6e8bc356cf750eb3ee9bc87128" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>read_sensor</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a33858b11f510e8ba79abc2bf4d0884d7" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>read_sensor</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a52cb39209760e150cf4b0af1021323e3" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>read_setting</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a703b5878bd65e146dd1053055400b3de" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>read_setting</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a0aeb96312f4fcd27f6de43a7f1a58bd5" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>read_uart</name></member>
+      <member refid="classgr_1_1block_1a2a9a0d39af4c22733092d6556042e810" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>relative_rate</name></member>
+      <member refid="classgr_1_1block_1a691c55aa7b05a6b316754b4833c7c08b" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>relative_rate_d</name></member>
+      <member refid="classgr_1_1block_1aa6a82fc4f09727a83d21a491dc355db4" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>relative_rate_i</name></member>
+      <member refid="classgr_1_1block_1a461f6cc92174e83b10c3ec5336036768" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>remove_item_tag</name></member>
+      <member refid="classgr_1_1block_1a94906298cd5995a94172c53dbfbc77dd" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>remove_item_tag</name></member>
+      <member refid="classgr_1_1block_1a13425cc28b7c19d8e6b004cf15df4063" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>replace_buffer</name></member>
+      <member refid="classgr_1_1block_1adb2d3602fe818cef1978090923667009" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>reset_perf_counters</name></member>
+      <member refid="classgr_1_1basic__block_1ac349eee015757c75f8486b36ee08b106" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>rpc_set</name></member>
+      <member refid="classgr_1_1block_1a5fbdc43bbdf257d22298bf5e68adb875" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>sample_delay</name></member>
+      <member refid="classgr_1_1block_1a49b49c097bffefe79f9d730539330edf" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_alignment</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a2fa3ac00cebd970648557800316bcd1a" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_antenna</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a33044d0748a4b6e292d0abd986d641eb" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_bandwidth</name></member>
+      <member refid="classgr_1_1block_1abc9220cdf7a9972db81549e0ee1bb275" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_blkd_input_timer_value</name></member>
+      <member refid="classgr_1_1basic__block_1ad5251b68da76a9ce6bef105ef8136547" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_block_alias</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a20f10d9be4449b5c1f981e6ade1b7aa6" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_clock_source</name></member>
+      <member refid="classgr_1_1basic__block_1a2c4a58849217d8b76ba2d25c0dfd8bd0" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_color</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a8e6d9657ea46933c807832775899e506" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_dc_offset</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a052b14a2288b57452f6e31766c17d620" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_dc_offset_mode</name></member>
+      <member refid="classgr_1_1block_1a776fbf15f5280bf8da74929b4ea8bb39" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_detail</name></member>
+      <member refid="classgr_1_1block_1aa927cd4d5b8993122cf60dd556ffe62d" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_fixed_rate</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a21e73e332366e96bf6a37400a7539fa8" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_frequency</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a57a5a61614346116de88fa0595302daa" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_frequency</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a6fccc5b4995bd240a346cd380389d110" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_frequency_correction</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a939724e3f90bb73e5b6e6429a2a86f83" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_frontend_mapping</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a604900f44a2682b0f995d0bbb9d66678" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_gain</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1ae45dfbff715b9c8cea89db7cf74aedc6" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_gain</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1ab27246ab1633dcb43f74643d6c459a9b" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_gain_mode</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a9b8b06ad295e03116f22d91012d1b121" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_hardware_time</name></member>
+      <member refid="classgr_1_1block_1ac2dac90e45498ad53a19544c01114136" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_history</name></member>
+      <member refid="classgr_1_1basic__block_1a3f3f8f70bd0f0f2925b09bb75725c2b6" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_input_signature</name></member>
+      <member refid="classgr_1_1block_1a2cbfba0f5144d425430e4139520bb297" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_inverse_relative_rate</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1ad3cc48a92416616185e4f060611b3049" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_iq_balance</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1ab5fb3441f421492d210f1247eca9627a" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_iq_balance_mode</name></member>
+      <member refid="classgr_1_1block_1a0d33c4cc8b0131b9b8df41e3b46784b1" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_is_unaligned</name></member>
+      <member refid="classgr_1_1soapy_1_1sink_1a79c570e932ea56a2bccabd463648a4b8" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_length_tag_name</name></member>
+      <member refid="classgr_1_1block_1ae4c10f5f25c47e15f715eee574cd0951" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>set_log_level</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a12159e0374fd850f567faedea68b3470" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_master_clock_rate</name></member>
+      <member refid="classgr_1_1block_1ae2405dc2f6c84bb8e59aab56e4ce9d84" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_max_noutput_items</name></member>
+      <member refid="classgr_1_1block_1a711fb69e35fb871e9a5e41d6a1f2afb1" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_max_output_buffer</name></member>
+      <member refid="classgr_1_1block_1a96d021628c08db3b138d3ee7c572ad90" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_max_output_buffer</name></member>
+      <member refid="classgr_1_1block_1a65cfc579150dc4d10c6180d3365aa9a8" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_min_noutput_items</name></member>
+      <member refid="classgr_1_1block_1a9d10e3f6747f91b215abe81b60a003d5" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_min_output_buffer</name></member>
+      <member refid="classgr_1_1block_1a46a03397c78096a2f1c7f1b59f225f5b" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_min_output_buffer</name></member>
+      <member refid="classgr_1_1basic__block_1a7fed11ec01538bfea999fb37687b43b4" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_msg_handler</name></member>
+      <member refid="classgr_1_1block_1a63d67fd758b70c6f2d7b7d4edcec53b3" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_output_multiple</name></member>
+      <member refid="classgr_1_1basic__block_1a7933b6bc4ad512774bbb40616cc31b4d" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_output_signature</name></member>
+      <member refid="classgr_1_1block_1a00276b0a919a51d9255131c92ed91b27" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>set_processor_affinity</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a05f6a40d128417c80f22a5037a8f369e" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_reference_clock_rate</name></member>
+      <member refid="classgr_1_1block_1aff3003eea3517dd3e8d9a5297c1196b1" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_relative_rate</name></member>
+      <member refid="classgr_1_1block_1adf7794aa6f7ae1f9e243d6bc07687a77" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_relative_rate</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a7b3c548b206533bf0de2305f36527920" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_sample_rate</name></member>
+      <member refid="classgr_1_1block_1a476e218927e426ac88c26431cbf086cd" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_tag_propagation_policy</name></member>
+      <member refid="classgr_1_1block_1a83e0fd5c4db199e6e6f2fc75cdfb5dfa" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_thread_priority</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a0b2e33554b29f0d05de0a3d851c18408" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>set_time_source</name></member>
+      <member refid="classgr_1_1block_1a4d914fbc7814a682e25f5b2a40140d47" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>set_unaligned</name></member>
+      <member refid="classgr_1_1block_1a9425064fac92607770042f472e140d7e" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>setup_pc_rpc</name></member>
+      <member refid="classgr_1_1basic__block_1a7f8bf6b9f28014657a6e8b5f25ca7802" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>setup_rpc</name></member>
+      <member refid="classgr_1_1basic__block_1a5b3a3265861764bbfb189e70f7a68cf1" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>shared_from_base</name></member>
+      <member refid="classgr_1_1soapy_1_1sink_1a2a4991c87c01598e936cc67097676148" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>sptr</name></member>
+      <member refid="classgr_1_1block_1a7f58745d1374b30a7b866406dc97850f" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>start</name></member>
+      <member refid="classgr_1_1block_1a0863bc16f7c84adf4cddf5d53124450e" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>stop</name></member>
+      <member refid="classgr_1_1basic__block_1ab4985e58945604020bb5fd252df7b4c5" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>symbol_name</name></member>
+      <member refid="classgr_1_1basic__block_1a7c225b210f999a526e5b714eb603ddd5" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>symbolic_id</name></member>
+      <member refid="classgr_1_1block_1a4070b0462cce39d66b0c7c90ef2153d8" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>system_handler</name></member>
+      <member refid="classgr_1_1block_1a4892196a19ef044a0eedeaa6566893c8" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>tag_propagation_policy</name></member>
+      <member refid="classgr_1_1block_1abc40fd4d514724a5446a2b34b2352b4e" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>tag_propagation_policy_t</name></member>
+      <member refid="classgr_1_1block_1a585b831aea5775730931d7fb9e6e8253" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>thread_priority</name></member>
+      <member refid="classgr_1_1basic__block_1a84bf6924dfa0bb724caca46575669557" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>to_basic_block</name></member>
+      <member refid="classgr_1_1block_1abc40fd4d514724a5446a2b34b2352b4ea5b3fd823d5f918e588008c0bc876e574" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>TPP_ALL_TO_ALL</name></member>
+      <member refid="classgr_1_1block_1abc40fd4d514724a5446a2b34b2352b4eaadf6e1b257eee0590cc2b26161d08cdc" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>TPP_CUSTOM</name></member>
+      <member refid="classgr_1_1block_1abc40fd4d514724a5446a2b34b2352b4ea2e3b11eb10000e0efab110c31a83e502" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>TPP_DONT</name></member>
+      <member refid="classgr_1_1block_1abc40fd4d514724a5446a2b34b2352b4ea747127b6fb520f34be8ae3f951fdc53c" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>TPP_ONE_TO_ONE</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1ac86cd53e751defe2b9016808bb3acb21" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>transact_spi</name></member>
+      <member refid="classgr_1_1block_1a079b46fddc4241f7d5784f47a4d69893" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>unaligned</name></member>
+      <member refid="classgr_1_1basic__block_1a2e458ea6cf1129f1c3bb6f66229303ca" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>unique_id</name></member>
+      <member refid="classgr_1_1block_1a460e8e5f15a4c5418ce3fc167c20a973" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>unset_max_noutput_items</name></member>
+      <member refid="classgr_1_1block_1a84b99b697f5323c8c062ff6ac5691fc3" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>unset_processor_affinity</name></member>
+      <member refid="classgr_1_1block_1af0c836adc464e4b05983facc66b6e401" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>update_rate</name></member>
+      <member refid="classgr_1_1basic__block_1ac84f6979cb9e7650de9d9205901401aa" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>vcolor</name></member>
+      <member refid="classgr_1_1basic__block_1ac84f6979cb9e7650de9d9205901401aaa42ae6a0efeb1be877a188c7ad4778f50" prot="protected" virt="non-virtual"><scope>gr::soapy::sink</scope><name>WHITE</name></member>
+      <member refid="classgr_1_1block_1aad622109b3f7676df26c6e75dede24caa8cac307593cf1087803f28eee28ff45a" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>WORK_CALLED_PRODUCE</name></member>
+      <member refid="classgr_1_1block_1aad622109b3f7676df26c6e75dede24caa3e2d37c41af566875030fa1376c4203f" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>WORK_DONE</name></member>
+      <member refid="classgr_1_1block_1aad622109b3f7676df26c6e75dede24ca" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>work_return_t</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a53b754d34b11d0183acf491c8fddde48" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>write_gpio</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1abd2c270e682c4d99839400c652d9d4c4" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>write_gpio</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a9e0c0590f3634754083b1d42ce3bb772" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>write_gpio_dir</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1abc80006f84a1d5539878b73af04bffce" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>write_gpio_dir</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a20181e8d9a64fba8566ae3d6db53edaf" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>write_i2c</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a23a14c30eb7a03dbb886a37075f139e8" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>write_register</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a9bcb2eeb36bb38bc82ad39166884379f" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>write_registers</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1a5cf1efa5d5239e2898dcd0a11e8b473e" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>write_setting</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1ae715af6f440a0b01e6bfaf5d77d75b45" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>write_setting</name></member>
+      <member refid="classgr_1_1soapy_1_1block_1afef1cc44ec0bfe459c0175d627b7c312" prot="public" virt="pure-virtual"><scope>gr::soapy::sink</scope><name>write_uart</name></member>
+      <member refid="classgr_1_1basic__block_1a6f1b212d7fb9637d34d078b073e7e803" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>~basic_block</name></member>
+      <member refid="classgr_1_1block_1a7713e4b282e743e8aac3df3c1b68fd6d" prot="public" virt="non-virtual"><scope>gr::soapy::sink</scope><name>~block</name></member>
+      <member refid="classgr_1_1msg__accepter_1a06c38c26efbfb1c4fd05eae97d2de748" prot="public" virt="virtual"><scope>gr::soapy::sink</scope><name>~msg_accepter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

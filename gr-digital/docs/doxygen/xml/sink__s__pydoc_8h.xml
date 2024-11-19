@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="sink__s__pydoc_8h" kind="file" language="C++">
+    <compoundname>sink_s_pydoc.h</compoundname>
+    <includes refid="build_2gr-video-sdl_2python_2video__sdl_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-video-sdl_2python_2video__sdl_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>sink_s_pydoc.h</label>
+        <link refid="sink__s__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="sink__s__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, video_sdl, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-video-sdl/python/video_sdl/bindings/sink_s_pydoc.h" line="10" column="11" bodyfile="/home/desktop2/gnuradio/build/gr-video-sdl/python/video_sdl/bindings/sink_s_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="sink__s__pydoc_8h_1a7ef2cd6545ef75939519159c1dbfcf6b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_video_sdl_sink_s</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_video_sdl_sink_s</name>
+        <initializer>= R&quot;doc(video sink using SDL
+
+input signature is one, two or three streams of signed short. One stream: stream is grey (Y) two streams: first is grey (Y), second is alternating U and V Three streams: first is grey (Y), second is U, third is V Input samples must be in the range [0,255].
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    framerate : 
+    width : 
+    height : 
+    dst_width : 
+    dst_height : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-video-sdl/python/video_sdl/bindings/sink_s_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-video-sdl/python/video_sdl/bindings/sink_s_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="sink__s__pydoc_8h_1abf89a15252416d36c973d5c134142924" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_video_sdl_sink_s_sink_s</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_video_sdl_sink_s_sink_s</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-video-sdl/python/video_sdl/bindings/sink_s_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-video-sdl/python/video_sdl/bindings/sink_s_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="sink__s__pydoc_8h_1a0493fe31ee6fc5b736bb80af28fef4b5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_video_sdl_sink_s_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_video_sdl_sink_s_make</name>
+        <initializer>= R&quot;doc(video sink using SDL
+
+input signature is one, two or three streams of signed short. One stream: stream is grey (Y) two streams: first is grey (Y), second is alternating U and V Three streams: first is grey (Y), second is U, third is V Input samples must be in the range [0,255].
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    framerate : 
+    width : 
+    height : 
+    dst_width : 
+    dst_height : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-video-sdl/python/video_sdl/bindings/sink_s_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-video-sdl/python/video_sdl/bindings/sink_s_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-video-sdl/python/video_sdl/bindings/sink_s_pydoc.h"/>
+  </compounddef>
+</doxygen>

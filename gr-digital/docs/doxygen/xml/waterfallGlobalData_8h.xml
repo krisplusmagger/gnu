@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="waterfallGlobalData_8h" kind="file" language="C++">
+    <compoundname>waterfallGlobalData.h</compoundname>
+    <includes local="no">qwt_raster_data.h</includes>
+    <includes local="no">cinttypes</includes>
+    <includes local="no">qwt_interval.h</includes>
+    <includedby refid="WaterfallDisplayPlot_8h" local="no">WaterfallDisplayPlot.h</includedby>
+    <includedby refid="plot__waterfall_8h" local="no">plot_waterfall.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>waterfallGlobalData.h</label>
+        <link refid="waterfallGlobalData_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>cinttypes</label>
+      </node>
+      <node id="4">
+        <label>qwt_interval.h</label>
+      </node>
+      <node id="2">
+        <label>qwt_raster_data.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6">
+        <label>spectrumdisplayform.ui.h</label>
+        <link refid="spectrumdisplayform_8ui_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ui_spectrumdisplayform.h</label>
+        <link refid="ui__spectrumdisplayform_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SpectrumGUIClass.h</label>
+        <link refid="SpectrumGUIClass_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>WaterfallDisplayPlot.h</label>
+        <link refid="WaterfallDisplayPlot_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>plot_waterfall.h</label>
+        <link refid="plot__waterfall_8h"/>
+      </node>
+      <node id="3">
+        <label>spectrumdisplayform.h</label>
+        <link refid="spectrumdisplayform_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>waterfallGlobalData.h</label>
+        <link refid="waterfallGlobalData_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>waterfalldisplayform.h</label>
+        <link refid="waterfalldisplayform_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classWaterfallData" prot="public">WaterfallData</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfallGlobalData.h"/>
+  </compounddef>
+</doxygen>

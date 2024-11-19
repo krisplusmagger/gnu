@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1messages_1_1msg__accepter__msgq" kind="class" language="C++" prot="public">
+    <compoundname>gr::messages::msg_accepter_msgq</compoundname>
+    <includes refid="msg__accepter__msgq_8h" local="no">gnuradio/messages/msg_accepter_msgq.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgr_1_1messages_1_1msg__accepter__msgq_1ad18ac48a176d2c1899ea487b4275cab4" prot="protected" static="no" mutable="no">
+        <type>msg_queue_sptr</type>
+        <definition>msg_queue_sptr gr::messages::msg_accepter_msgq::d_msg_queue</definition>
+        <argsstring></argsstring>
+        <name>d_msg_queue</name>
+        <qualifiedname>gr::messages::msg_accepter_msgq::d_msg_queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/messages/msg_accepter_msgq.h" line="28" column="20" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/messages/msg_accepter_msgq.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1messages_1_1msg__accepter__msgq_1a595a1fbedd5268499a8512240fe709c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::messages::msg_accepter_msgq::msg_accepter_msgq</definition>
+        <argsstring>(msg_queue_sptr msgq)</argsstring>
+        <name>msg_accepter_msgq</name>
+        <qualifiedname>gr::messages::msg_accepter_msgq::msg_accepter_msgq</qualifiedname>
+        <param>
+          <type>msg_queue_sptr</type>
+          <declname>msgq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/messages/msg_accepter_msgq.h" line="31" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1messages_1_1msg__accepter__msgq_1a3fe49b8bca7ccb6445f4354ab55c7a5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual gr::messages::msg_accepter_msgq::~msg_accepter_msgq</definition>
+        <argsstring>()</argsstring>
+        <name>~msg_accepter_msgq</name>
+        <qualifiedname>gr::messages::msg_accepter_msgq::~msg_accepter_msgq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/messages/msg_accepter_msgq.h" line="32" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1messages_1_1msg__accepter__msgq_1a2fbb7c62f116e2850f9f484da79b24b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::messages::msg_accepter_msgq::post</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>post</name>
+        <qualifiedname>gr::messages::msg_accepter_msgq::post</qualifiedname>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/messages/msg_accepter_msgq.h" line="34" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1messages_1_1msg__accepter__msgq_1a6990977600fb4a098554486f50955254" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>msg_queue_sptr</type>
+        <definition>msg_queue_sptr gr::messages::msg_accepter_msgq::msg_queue</definition>
+        <argsstring>() const</argsstring>
+        <name>msg_queue</name>
+        <qualifiedname>gr::messages::msg_accepter_msgq::msg_queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/messages/msg_accepter_msgq.h" line="36" column="20" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/messages/msg_accepter_msgq.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Concrete class that accepts messages and inserts them into a message queue. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::messages::msg_accepter_msgq</label>
+        <link refid="classgr_1_1messages_1_1msg__accepter__msgq"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>d_msg_queue</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::messages::msg_queue</label>
+        <link refid="classgr_1_1messages_1_1msg__queue"/>
+      </node>
+      <node id="2">
+        <label>std::shared_ptr&lt; msg_queue &gt;</label>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/messages/msg_accepter_msgq.h" line="25" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/messages/msg_accepter_msgq.h" bodystart="26" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classgr_1_1messages_1_1msg__accepter__msgq_1ad18ac48a176d2c1899ea487b4275cab4" prot="protected" virt="non-virtual"><scope>gr::messages::msg_accepter_msgq</scope><name>d_msg_queue</name></member>
+      <member refid="classgr_1_1messages_1_1msg__accepter__msgq_1a595a1fbedd5268499a8512240fe709c4" prot="public" virt="non-virtual"><scope>gr::messages::msg_accepter_msgq</scope><name>msg_accepter_msgq</name></member>
+      <member refid="classgr_1_1messages_1_1msg__accepter__msgq_1a6990977600fb4a098554486f50955254" prot="public" virt="non-virtual"><scope>gr::messages::msg_accepter_msgq</scope><name>msg_queue</name></member>
+      <member refid="classgr_1_1messages_1_1msg__accepter__msgq_1a2fbb7c62f116e2850f9f484da79b24b4" prot="public" virt="virtual"><scope>gr::messages::msg_accepter_msgq</scope><name>post</name></member>
+      <member refid="classgr_1_1messages_1_1msg__accepter__msgq_1a3fe49b8bca7ccb6445f4354ab55c7a5a" prot="public" virt="virtual"><scope>gr::messages::msg_accepter_msgq</scope><name>~msg_accepter_msgq</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

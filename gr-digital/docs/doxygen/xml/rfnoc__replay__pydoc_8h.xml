@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="rfnoc__replay__pydoc_8h" kind="file" language="C++">
+    <compoundname>rfnoc_replay_pydoc.h</compoundname>
+    <includes refid="build_2gr-uhd_2python_2uhd_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-uhd_2python_2uhd_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>rfnoc_replay_pydoc.h</label>
+        <link refid="rfnoc__replay__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="rfnoc__replay__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, uhd, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1aa4575dd03340181b1128c043237a1a1e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_replay</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_replay</name>
+        <initializer>= R&quot;doc(RFNoC Replay Block
+
+
+This wraps a replay block into GNU Radio.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    graph : Reference to the underlying rfnoc_graph object
+    block_args : Additional block arguments
+    device_select : Device Selection
+    instance : Instance Selection)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="17" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1aed2a1ce7c0f7da955a6530a1976708e1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_replay_rfnoc_replay_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_replay_rfnoc_replay_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="32" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1a57ddd2a45eb57663a7f18aea6a3cbc89" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_replay_rfnoc_replay_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_replay_rfnoc_replay_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1a7afe0bd7d6f783210166e2799737b5c7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_replay_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_replay_make</name>
+        <initializer>= R&quot;doc(RFNoC Replay Block
+
+
+This wraps a replay block into GNU Radio.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    graph : Reference to the underlying rfnoc_graph object
+    block_args : Additional block arguments
+    device_select : Device Selection
+    instance : Instance Selection)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1a6ccf3c4b3ab07216d8303eb1d88a894d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_replay_record</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_replay_record</name>
+        <initializer>= R&quot;doc(Record
+
+
+Begin recording. The offset sets the starting location in memory and the size limits the length of the recording. The flow of data is controlled by upstream RFNoC blocks.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1a769c6cfc31d666390c1a3c98c014a0bf" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_replay_record_restart</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_replay_record_restart</name>
+        <initializer>= R&quot;doc(Restarts recording from the record offset
+
+
+This is a shortcut for calling record() again with the same arguments.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="56" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1a1fe1f69dcdbde5ab37cd354bca68dbc1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_replay_play</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_replay_play</name>
+        <initializer>= R&quot;doc(Play back data.
+
+
+The offset and size define what data is played back on an output port. It will stream out  bytes of data, starting at memory offset .
+
+
+The data can be played once or repeated continuously until a stop command is issued. If a time_spec is supplied, it will be placed in the header of the first packet. Typically, this is used to tell a downstream Radio block when to start transmitting the data.
+
+
+If the data type on the output port is not defined, this function will throw an error.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="61" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1a761c613e397c69fddf45500904dd3f0a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_replay_stop_playback</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_replay_stop_playback</name>
+        <initializer>= R&quot;doc(Stops playback
+
+
+Halts any currently executing play commands and cancels any other play commands that are waiting to be executed for that output port.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="72" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1a3d399a2c2f204d5babc474427c0bdcf4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_replay_set_record_type</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_replay_set_record_type</name>
+        <initializer>= R&quot;doc(Sets the data type for items in the current record buffer for the given input port.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="77" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1ab3e4ae276867348198994e4246a2c2d3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_replay_set_play_type</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_replay_set_play_type</name>
+        <initializer>= R&quot;doc(Sets the data type for items in the current play buffer for the given output port.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="79" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1ae82cd2c16765d76351b5d56466c5d98a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_replay_issue_stream_cmd</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_replay_issue_stream_cmd</name>
+        <initializer>= R&quot;doc(Issue a stream command to the replay block
+
+
+Issue stream commands to start or stop playback from the configured playback buffer. Supports STREAM_MODE_START_CONTINUOUS to start continuous repeating playback, STREAM_MODE_NUM_SAMPS_AND_DONE to play the given number of samples once, and STREAM_MODE_STOP_CONTINUOUS to stop all playback immediately. If a time_spec is supplied, it is placed in the header of the first packet produced for that command. Commands are queued and executed in order. A STREAM_MODE_STOP_CONTINUOUS command will halt all playback and purge all commands in the queue for a given output port.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="81" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1abaa2ee9d28eea6ecc93607cfbe15ec4d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_replay_cmd_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_replay_cmd_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="86" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1ad51103cb3e1d2e470a2145634aacdc44" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_replay_cmd_port_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_replay_cmd_port_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="88" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1a09e2af481b339ffd5c6d5a35450d00ad" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_replay_cmd_offset_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_replay_cmd_offset_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="90" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1a0bba31f9e58a41ee9dccacb52f22c667" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_replay_cmd_size_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_replay_cmd_size_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="92" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1aeb17c8196f907d4c34567c67dd8687cf" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_replay_cmd_time_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_replay_cmd_time_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="94" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1a962c8e44c50401c69ebf23236e1ba55b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_replay_cmd_repeat_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_replay_cmd_repeat_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="96" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1ac23f8a0795d85cfbd1dbe69292706b94" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_replay_debug_port_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_replay_debug_port_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="98" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1a89871e25d7f467df4b413d1523943b92" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_replay_mem_fullness_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_replay_mem_fullness_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="100" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1ab376592bbf7d6df8124d3ce3e54eed07" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_replay_mem_size_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_replay_mem_size_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="102" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__replay__pydoc_8h_1ac6b0a4c2a8257f6ed8eba2bb10e9eb4f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_replay_word_size_key</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_replay_word_size_key</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" line="104" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_replay_pydoc.h"/>
+  </compounddef>
+</doxygen>

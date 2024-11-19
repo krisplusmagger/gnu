@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="short__to__char__pydoc_8h" kind="file" language="C++">
+    <compoundname>short_to_char_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>short_to_char_pydoc.h</label>
+        <link refid="short__to__char__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="short__to__char__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/short_to_char_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/short_to_char_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="short__to__char__pydoc_8h_1aaad76644c62dbdf9716ac54a637dd853" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_short_to_char</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_short_to_char</name>
+        <initializer>= R&quot;doc(Convert stream of shorts to a stream of chars.
+
+This block strips off the least significant byte from the short value.
+
+
+[0x00ff, 0x0ff0, 0xff00] =&gt; [0x00, 0x0f, 0xff]
+
+
+Converts  length vectors of input short samples to chars, dividing each element by 256.
+
+Constructor Specific Documentation:
+
+Build a short to char block.
+
+Args:
+    vlen : vector length of data streams.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/short_to_char_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/short_to_char_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="short__to__char__pydoc_8h_1a1c33f9f481493421d884a9843c006db4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_short_to_char_short_to_char</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_short_to_char_short_to_char</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/short_to_char_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/short_to_char_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="short__to__char__pydoc_8h_1a251700b113a4b05e0fabf852749ed0ce" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_short_to_char_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_short_to_char_make</name>
+        <initializer>= R&quot;doc(Convert stream of shorts to a stream of chars.
+
+This block strips off the least significant byte from the short value.
+
+
+[0x00ff, 0x0ff0, 0xff00] =&gt; [0x00, 0x0f, 0xff]
+
+
+Converts  length vectors of input short samples to chars, dividing each element by 256.
+
+Constructor Specific Documentation:
+
+Build a short to char block.
+
+Args:
+    vlen : vector length of data streams.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/short_to_char_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/short_to_char_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/short_to_char_pydoc.h"/>
+  </compounddef>
+</doxygen>

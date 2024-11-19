@@ -1,0 +1,845 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1trellis_1_1fsm" kind="class" language="C++" prot="public">
+    <compoundname>gr::trellis::fsm</compoundname>
+    <includes refid="fsm_8h" local="no">gnuradio/trellis/fsm.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1trellis_1_1fsm_1a5cbb9d05cba7e191c87e0e8896adfdc7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::trellis::fsm::d_I</definition>
+        <argsstring></argsstring>
+        <name>d_I</name>
+        <qualifiedname>gr::trellis::fsm::d_I</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="36" column="9" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1trellis_1_1fsm_1a412e6eebeae853e7125a48d0af62e810" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::trellis::fsm::d_S</definition>
+        <argsstring></argsstring>
+        <name>d_S</name>
+        <qualifiedname>gr::trellis::fsm::d_S</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="39" column="9" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1trellis_1_1fsm_1af2b7a5954b562754dff954472a71bff8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::trellis::fsm::d_O</definition>
+        <argsstring></argsstring>
+        <name>d_O</name>
+        <qualifiedname>gr::trellis::fsm::d_O</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="42" column="9" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1trellis_1_1fsm_1adfda79b58272b057980696565270d95b" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::trellis::fsm::d_NS</definition>
+        <argsstring></argsstring>
+        <name>d_NS</name>
+        <qualifiedname>gr::trellis::fsm::d_NS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="46" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1trellis_1_1fsm_1abc27db3b7b3f3ced669d2221ba2e9701" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::trellis::fsm::d_OS</definition>
+        <argsstring></argsstring>
+        <name>d_OS</name>
+        <qualifiedname>gr::trellis::fsm::d_OS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="50" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1trellis_1_1fsm_1a2015edf7ec6dda469a56a077a87cd1c2" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; int &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;int&gt; &gt; gr::trellis::fsm::d_PS</definition>
+        <argsstring></argsstring>
+        <name>d_PS</name>
+        <qualifiedname>gr::trellis::fsm::d_PS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="53" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1trellis_1_1fsm_1a0de32793995e381e53096af975a5ffd0" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; int &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;int&gt; &gt; gr::trellis::fsm::d_PI</definition>
+        <argsstring></argsstring>
+        <name>d_PI</name>
+        <qualifiedname>gr::trellis::fsm::d_PI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="59" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1trellis_1_1fsm_1a7c77a067048334cc95685405bbf7057a" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::trellis::fsm::d_TMl</definition>
+        <argsstring></argsstring>
+        <name>d_TMl</name>
+        <qualifiedname>gr::trellis::fsm::d_TMl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="64" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1trellis_1_1fsm_1ac13957858487fb112bb9a095723809c8" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::trellis::fsm::d_TMi</definition>
+        <argsstring></argsstring>
+        <name>d_TMi</name>
+        <qualifiedname>gr::trellis::fsm::d_TMi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="68" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1aee35cc4d3bfc9e22722a5aa85c4193c6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::trellis::fsm::generate_PS_PI</definition>
+        <argsstring>()</argsstring>
+        <name>generate_PS_PI</name>
+        <qualifiedname>gr::trellis::fsm::generate_PS_PI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="69" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1a2dc94f5c840dffe89331e7e8a52418ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::trellis::fsm::generate_TM</definition>
+        <argsstring>()</argsstring>
+        <name>generate_TM</name>
+        <qualifiedname>gr::trellis::fsm::generate_TM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="70" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1a53c20406f822e001d5b7b059d355c076" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::trellis::fsm::find_es</definition>
+        <argsstring>(int es)</argsstring>
+        <name>find_es</name>
+        <qualifiedname>gr::trellis::fsm::find_es</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>es</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="71" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1a7f7d6681e45f6414af9b8e61e4f4f8b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::trellis::fsm::fsm</definition>
+        <argsstring>()</argsstring>
+        <name>fsm</name>
+        <qualifiedname>gr::trellis::fsm::fsm</qualifiedname>
+        <briefdescription>
+<para>Constructor to create an uninitialized FSMS. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="77" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1ad291cb600c4b65711459269efef8265c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::trellis::fsm::fsm</definition>
+        <argsstring>(const fsm &amp;FSM)</argsstring>
+        <name>fsm</name>
+        <qualifiedname>gr::trellis::fsm::fsm</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1fsm" kindref="compound">fsm</ref> &amp;</type>
+          <declname>FSM</declname>
+        </param>
+        <briefdescription>
+<para>Constructor to copy an FSMS. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="82" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1aefea7f840a3c380088c9fc3184474a1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::trellis::fsm::fsm</definition>
+        <argsstring>(int I, int S, int O, const std::vector&lt; int &gt; &amp;NS, const std::vector&lt; int &gt; &amp;OS)</argsstring>
+        <name>fsm</name>
+        <qualifiedname>gr::trellis::fsm::fsm</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>I</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>S</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>O</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>NS</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>OS</declname>
+        </param>
+        <briefdescription>
+<para>Constructor to to create an FSMS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of possible input symbols. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>S</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of possible FSM states. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>O</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of possible output symbols. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NS</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A mapping from (current state, input symbol) to next state. next_state = NS[current_state * I + input_symbol] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>OS</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A mapping from (current state, input symbol) to output symbol. output_symbol = OS[current_state * I + input_symbol] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="96" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1ae8cdb8948e2f148f18c7612d419b996d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::trellis::fsm::fsm</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>fsm</name>
+        <qualifiedname>gr::trellis::fsm::fsm</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Constructor to create an FSMS from file contents. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>filename </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="104" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1ad23ac5bcd933bddf5318c04c2dd3797a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::trellis::fsm::fsm</definition>
+        <argsstring>(int k, int n, const std::vector&lt; int &gt; &amp;G)</argsstring>
+        <name>fsm</name>
+        <qualifiedname>gr::trellis::fsm::fsm</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>G</declname>
+        </param>
+        <briefdescription>
+<para>Creates an FSMS from the generator matrix of a (n, k) binary convolutional code. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>k</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>??? </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>??? </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>G</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>??? </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="115" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1ada8ac748ba79726207672df609f59d8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::trellis::fsm::fsm</definition>
+        <argsstring>(int mod_size, int ch_length)</argsstring>
+        <name>fsm</name>
+        <qualifiedname>gr::trellis::fsm::fsm</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>mod_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ch_length</declname>
+        </param>
+        <briefdescription>
+<para>Creates an FSMS describing ISI. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mod_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>modulation size </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ch_length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>channel length </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="124" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1a7b6d1eb2c97895249671d83885307f35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::trellis::fsm::fsm</definition>
+        <argsstring>(int P, int M, int L)</argsstring>
+        <name>fsm</name>
+        <qualifiedname>gr::trellis::fsm::fsm</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>P</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>M</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+<para>Creates an FSMS describing the trellis for a CPM. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>P</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>???? h=K/P (relatively prime) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>M</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>alphabet size </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>L</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pulse duration</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+This FSM is based on the paper by B. Rimoldi &quot;A decomposition approach to CPM&quot;, IEEE Trans. Info Theory, March 1988 See also my own notes at <ulink url="http://www.eecs.umich.edu/~anastas/docs/cpm.pdf">http://www.eecs.umich.edu/~anastas/docs/cpm.pdf</ulink> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="137" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1aa5c7ead33a14ff240d197a63e60fdfd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::trellis::fsm::fsm</definition>
+        <argsstring>(const fsm &amp;FSM1, const fsm &amp;FSM2)</argsstring>
+        <name>fsm</name>
+        <qualifiedname>gr::trellis::fsm::fsm</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1fsm" kindref="compound">fsm</ref> &amp;</type>
+          <declname>FSM1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1fsm" kindref="compound">fsm</ref> &amp;</type>
+          <declname>FSM2</declname>
+        </param>
+        <briefdescription>
+<para>Creates an FSMS describing the joint trellis of two FSMs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>FSM1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first FSMS </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>FSM2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>second FSMS </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="145" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1a69dd95ba22370e69cb31acd49fd56ce8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::trellis::fsm::fsm</definition>
+        <argsstring>(const fsm &amp;FSMo, const fsm &amp;FSMi, bool serial)</argsstring>
+        <name>fsm</name>
+        <qualifiedname>gr::trellis::fsm::fsm</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1fsm" kindref="compound">fsm</ref> &amp;</type>
+          <declname>FSMo</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1fsm" kindref="compound">fsm</ref> &amp;</type>
+          <declname>FSMi</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>serial</declname>
+        </param>
+        <briefdescription>
+<para>Creates an FSMS describing the trellis of two serially concatenated FSMs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>FSMo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>outer FSMS </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>FSMi</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>inner FSMS </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>serial</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set it to true to distinguish from the previous constructor </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="155" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1a37a7e19995ee51a454a948b37786cdd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::trellis::fsm::fsm</definition>
+        <argsstring>(const fsm &amp;FSM, int n)</argsstring>
+        <name>fsm</name>
+        <qualifiedname>gr::trellis::fsm::fsm</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1fsm" kindref="compound">fsm</ref> &amp;</type>
+          <declname>FSM</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Creates an FSMS representing n stages through the original FSM (AKA radix-n FSM). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>FSM</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Original FSMs </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of stages. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="164" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1aaeed6c390db334834a80a890b8d9be23" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::trellis::fsm::I</definition>
+        <argsstring>() const</argsstring>
+        <name>I</name>
+        <qualifiedname>gr::trellis::fsm::I</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="165" column="9" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="165" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1acd92f197d38409e97ea95c090e626255" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::trellis::fsm::S</definition>
+        <argsstring>() const</argsstring>
+        <name>S</name>
+        <qualifiedname>gr::trellis::fsm::S</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="166" column="9" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="166" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1ac84cd8338ff4288cbfe9cfabefeea9eb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::trellis::fsm::O</definition>
+        <argsstring>() const</argsstring>
+        <name>O</name>
+        <qualifiedname>gr::trellis::fsm::O</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="167" column="9" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="167" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1aee5c5f9f0a6a4938bbe017229dc65534" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; int &gt; &amp;</type>
+        <definition>const std::vector&lt; int &gt; &amp; gr::trellis::fsm::NS</definition>
+        <argsstring>() const</argsstring>
+        <name>NS</name>
+        <qualifiedname>gr::trellis::fsm::NS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="168" column="23" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="168" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1aaacd165474134020459ddfd4d479b6dd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; int &gt; &amp;</type>
+        <definition>const std::vector&lt; int &gt; &amp; gr::trellis::fsm::OS</definition>
+        <argsstring>() const</argsstring>
+        <name>OS</name>
+        <qualifiedname>gr::trellis::fsm::OS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="169" column="23" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="169" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1a8d160ab95fb97804575aeded6bbfbf6e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+        <definition>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp; gr::trellis::fsm::PS</definition>
+        <argsstring>() const</argsstring>
+        <name>PS</name>
+        <qualifiedname>gr::trellis::fsm::PS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="170" column="23" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="170" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1a703bc05823ed3fd3e11fcf266667af0e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+        <definition>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp; gr::trellis::fsm::PI</definition>
+        <argsstring>() const</argsstring>
+        <name>PI</name>
+        <qualifiedname>gr::trellis::fsm::PI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="171" column="23" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="171" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1a060661f8c748115d4418029ff895310e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; int &gt; &amp;</type>
+        <definition>const std::vector&lt; int &gt; &amp; gr::trellis::fsm::TMi</definition>
+        <argsstring>() const</argsstring>
+        <name>TMi</name>
+        <qualifiedname>gr::trellis::fsm::TMi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="172" column="23" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="172" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1a340e584c8bd142cf129d6edb3f16d7ea" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; int &gt; &amp;</type>
+        <definition>const std::vector&lt; int &gt; &amp; gr::trellis::fsm::TMl</definition>
+        <argsstring>() const</argsstring>
+        <name>TMl</name>
+        <qualifiedname>gr::trellis::fsm::TMl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="173" column="23" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="173" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1a261a33832481fb914da4f0842b96b449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::trellis::fsm::write_trellis_svg</definition>
+        <argsstring>(std::string filename, int number_stages)</argsstring>
+        <name>write_trellis_svg</name>
+        <qualifiedname>gr::trellis::fsm::write_trellis_svg</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>number_stages</declname>
+        </param>
+        <briefdescription>
+<para>Creates an svg image of the trellis representation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>filename </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>number_stages</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>???? </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="181" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1fsm_1a1b7759e7d8f26c7998449ab7ff2e31f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::trellis::fsm::write_fsm_txt</definition>
+        <argsstring>(std::string filename)</argsstring>
+        <name>write_fsm_txt</name>
+        <qualifiedname>gr::trellis::fsm::write_fsm_txt</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>Write the FSMS to a file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>filename </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="188" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Finite State Machine Specification class. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>An instance of this class represents a finite state machine specification (FSMS) rather than the FSM itself. It particular the state of the FSM is not stored within an instance of this class. </para>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" line="32" column="1" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h" bodystart="33" bodyend="189"/>
+    <listofallmembers>
+      <member refid="classgr_1_1trellis_1_1fsm_1a5cbb9d05cba7e191c87e0e8896adfdc7" prot="private" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>d_I</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1adfda79b58272b057980696565270d95b" prot="private" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>d_NS</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1af2b7a5954b562754dff954472a71bff8" prot="private" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>d_O</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1abc27db3b7b3f3ced669d2221ba2e9701" prot="private" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>d_OS</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a0de32793995e381e53096af975a5ffd0" prot="private" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>d_PI</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a2015edf7ec6dda469a56a077a87cd1c2" prot="private" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>d_PS</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a412e6eebeae853e7125a48d0af62e810" prot="private" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>d_S</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1ac13957858487fb112bb9a095723809c8" prot="private" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>d_TMi</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a7c77a067048334cc95685405bbf7057a" prot="private" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>d_TMl</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a53c20406f822e001d5b7b059d355c076" prot="private" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>find_es</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a7f7d6681e45f6414af9b8e61e4f4f8b9" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>fsm</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1ad291cb600c4b65711459269efef8265c" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>fsm</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1aefea7f840a3c380088c9fc3184474a1e" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>fsm</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1ae8cdb8948e2f148f18c7612d419b996d" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>fsm</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1ad23ac5bcd933bddf5318c04c2dd3797a" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>fsm</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1ada8ac748ba79726207672df609f59d8b" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>fsm</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a7b6d1eb2c97895249671d83885307f35" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>fsm</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1aa5c7ead33a14ff240d197a63e60fdfd3" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>fsm</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a69dd95ba22370e69cb31acd49fd56ce8" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>fsm</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a37a7e19995ee51a454a948b37786cdd9" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>fsm</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1aee35cc4d3bfc9e22722a5aa85c4193c6" prot="private" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>generate_PS_PI</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a2dc94f5c840dffe89331e7e8a52418ca" prot="private" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>generate_TM</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1aaeed6c390db334834a80a890b8d9be23" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>I</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1aee5c5f9f0a6a4938bbe017229dc65534" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>NS</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1ac84cd8338ff4288cbfe9cfabefeea9eb" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>O</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1aaacd165474134020459ddfd4d479b6dd" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>OS</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a703bc05823ed3fd3e11fcf266667af0e" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>PI</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a8d160ab95fb97804575aeded6bbfbf6e" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>PS</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1acd92f197d38409e97ea95c090e626255" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>S</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a060661f8c748115d4418029ff895310e" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>TMi</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a340e584c8bd142cf129d6edb3f16d7ea" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>TMl</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a1b7759e7d8f26c7998449ab7ff2e31f8" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>write_fsm_txt</name></member>
+      <member refid="classgr_1_1trellis_1_1fsm_1a261a33832481fb914da4f0842b96b449" prot="public" virt="non-virtual"><scope>gr::trellis::fsm</scope><name>write_trellis_svg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

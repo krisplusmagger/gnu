@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="pmt__pool__pydoc_8h" kind="file" language="C++">
+    <compoundname>pmt_pool_pydoc.h</compoundname>
+    <includes refid="build_2gnuradio-runtime_2python_2pmt_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>pmt_pool_pydoc.h</label>
+        <link refid="pmt__pool__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gnuradio-runtime_2python_2pmt_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="pmt__pool__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(pmt, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/pmt/bindings/pmt_pool_pydoc.h" line="10" column="11" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/pmt/bindings/pmt_pool_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="pmt__pool__pydoc_8h_1a7c1d367535862ae7fcb591c4c8304476" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_pmt_pmt_pool</definition>
+        <argsstring></argsstring>
+        <name>__doc_pmt_pmt_pool</name>
+        <initializer>= R&quot;doc(very simple thread-safe fixed-size allocation pool
+
+FIXME may want to go to global allocation with per-thread free list. This would eliminate virtually all lock contention.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/pmt/bindings/pmt_pool_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/pmt/bindings/pmt_pool_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pmt__pool__pydoc_8h_1a5cfc676f72113a38fff48b219be3c080" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_pmt_pmt_pool_pmt_pool</definition>
+        <argsstring></argsstring>
+        <name>__doc_pmt_pmt_pool_pmt_pool</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/pmt/bindings/pmt_pool_pydoc.h" line="23" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/pmt/bindings/pmt_pool_pydoc.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pmt__pool__pydoc_8h_1a65b82f72c005267033b1cb80b98f9220" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_pmt_pmt_pool_malloc</definition>
+        <argsstring></argsstring>
+        <name>__doc_pmt_pmt_pool_malloc</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/pmt/bindings/pmt_pool_pydoc.h" line="26" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/pmt/bindings/pmt_pool_pydoc.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pmt__pool__pydoc_8h_1a4606cc44a9418baf9c02cd154c8b8241" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_pmt_pmt_pool_free</definition>
+        <argsstring></argsstring>
+        <name>__doc_pmt_pmt_pool_free</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/pmt/bindings/pmt_pool_pydoc.h" line="29" column="19" bodyfile="/home/desktop2/gnuradio/build/gnuradio-runtime/python/pmt/bindings/pmt_pool_pydoc.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gnuradio-runtime/python/pmt/bindings/pmt_pool_pydoc.h"/>
+  </compounddef>
+</doxygen>

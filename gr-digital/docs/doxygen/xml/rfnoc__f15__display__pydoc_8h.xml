@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="rfnoc__f15__display__pydoc_8h" kind="file" language="C++">
+    <compoundname>rfnoc_f15_display_pydoc.h</compoundname>
+    <includes refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>rfnoc_f15_display_pydoc.h</label>
+        <link refid="rfnoc__f15__display__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="rfnoc__f15__display__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, qtgui, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="rfnoc__f15__display__pydoc_8h_1a4506ab0de1013ddd44cfbecb351f0ad1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_rfnoc_f15_display</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_rfnoc_f15_display</name>
+        <initializer>= R&quot;doc(FFT Histogram/Waterfall display widget for RFNoC fosphor display
+
+
+This block can consume one or two inputs, each vectors of unsigned 8-bit numbers. The vector length is  for both inputs.
+
+
+The histogram display is a 2<ref refid="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref> display widget which does not only plot the current (average) FFT, but also the max-hold values for the FFT, and a histogram of the FFT (also averaged over time). For every FFT bin, it plots a histogram of power level distributions.
+
+
+The first input contains the histogram data for the FFT histogram. It expects data in the following order:
+
+
+
+Averaging over time must be done by the upstream blocks. This block only does the display, none of the calculations.
+
+
+The second input contains FFT data for a waterfall display. It is simply a concatenation of FFT magnitude vectors (8-bit integers).
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of ettus::rfnoc_f15_display.
+
+Create an instance of an RFNoC fosphor display
+
+Args:
+    fft_bins : Number of FFT bins. This is also the vector length of the inputs, and the x-axis dimension on both the histogram plot and the waterfall plot (if enabled).
+    pwr_bins : The number of power bins histograms per FFT bin. This is also the y-axis dimension of the histogram plot. This must match the input provided (see block description).
+    wf_lines : The depth of the waterfall plot history (or the y-axis dimension of waterfall plot).
+    parent : The QWidget parent, if any.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__f15__display__pydoc_8h_1a41f1f606f2482f19b6a403a3d45735a9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_rfnoc_f15_display_rfnoc_f15_display_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_rfnoc_f15_display_rfnoc_f15_display_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" line="49" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__f15__display__pydoc_8h_1a22492adec9259a4f7cbcf51a017f5aa4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_rfnoc_f15_display_rfnoc_f15_display_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_rfnoc_f15_display_rfnoc_f15_display_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" line="52" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__f15__display__pydoc_8h_1a570fda29537f00443dc1de43a556d39c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_rfnoc_f15_display_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_rfnoc_f15_display_make</name>
+        <initializer>= R&quot;doc(FFT Histogram/Waterfall display widget for RFNoC fosphor display
+
+
+This block can consume one or two inputs, each vectors of unsigned 8-bit numbers. The vector length is  for both inputs.
+
+
+The histogram display is a 2<ref refid="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref> display widget which does not only plot the current (average) FFT, but also the max-hold values for the FFT, and a histogram of the FFT (also averaged over time). For every FFT bin, it plots a histogram of power level distributions.
+
+
+The first input contains the histogram data for the FFT histogram. It expects data in the following order:
+
+
+
+Averaging over time must be done by the upstream blocks. This block only does the display, none of the calculations.
+
+
+The second input contains FFT data for a waterfall display. It is simply a concatenation of FFT magnitude vectors (8-bit integers).
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of ettus::rfnoc_f15_display.
+
+Create an instance of an RFNoC fosphor display
+
+Args:
+    fft_bins : Number of FFT bins. This is also the vector length of the inputs, and the x-axis dimension on both the histogram plot and the waterfall plot (if enabled).
+    pwr_bins : The number of power bins histograms per FFT bin. This is also the y-axis dimension of the histogram plot. This must match the input provided (see block description).
+    wf_lines : The depth of the waterfall plot history (or the y-axis dimension of waterfall plot).
+    parent : The QWidget parent, if any.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" line="55" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__f15__display__pydoc_8h_1a900d0b6089e6e3a76efec8ba9ba4e1ac" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_rfnoc_f15_display_set_frequency_range</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_rfnoc_f15_display_set_frequency_range</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" line="86" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__f15__display__pydoc_8h_1a11690847fe8b61a82a122eeeae7a51fb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_rfnoc_f15_display_set_waterfall</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_rfnoc_f15_display_set_waterfall</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" line="89" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__f15__display__pydoc_8h_1a64e682d821254c54dbad8fd2f59094ea" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_rfnoc_f15_display_set_grid</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_rfnoc_f15_display_set_grid</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" line="92" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__f15__display__pydoc_8h_1a41fdfc349925aca3d191fea24198a034" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_rfnoc_f15_display_set_palette</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_rfnoc_f15_display_set_palette</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" line="95" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__f15__display__pydoc_8h_1a47a215f5b4ec0348dc473b097be3831c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_rfnoc_f15_display_set_frame_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_rfnoc_f15_display_set_frame_rate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" line="98" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__f15__display__pydoc_8h_1a1c318acde365dbd389a8ee4d5381c3c4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_rfnoc_f15_display_exec_</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_rfnoc_f15_display_exec_</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" line="101" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__f15__display__pydoc_8h_1a1b6623be228e0fde41a4c40ae01cd4fd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_rfnoc_f15_display_qwidget</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_rfnoc_f15_display_qwidget</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" line="104" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/rfnoc_f15_display_pydoc.h"/>
+  </compounddef>
+</doxygen>

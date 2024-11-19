@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="gr-channels_2include_2gnuradio_2channels_2api_8h" kind="file" language="C++">
+    <compoundname>gr-channels/include/gnuradio/channels/api.h</compoundname>
+    <includes refid="attributes_8h" local="no">gnuradio/attributes.h</includes>
+    <includedby refid="cfo__model_8h" local="no">cfo_model.h</includedby>
+    <includedby refid="channel__model_8h" local="no">channel_model.h</includedby>
+    <includedby refid="channel__model2_8h" local="no">channel_model2.h</includedby>
+    <includedby refid="dynamic__channel__model_8h" local="no">dynamic_channel_model.h</includedby>
+    <includedby refid="fading__model_8h" local="no">fading_model.h</includedby>
+    <includedby refid="selective__fading__model_8h" local="no">selective_fading_model.h</includedby>
+    <includedby refid="selective__fading__model2_8h" local="no">selective_fading_model2.h</includedby>
+    <includedby refid="sro__model_8h" local="no">sro_model.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="gr-channels_2include_2gnuradio_2channels_2api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="gr-channels_2include_2gnuradio_2channels_2api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cfo_model.h</label>
+        <link refid="cfo__model_8h"/>
+      </node>
+      <node id="3">
+        <label>channel_model.h</label>
+        <link refid="channel__model_8h"/>
+      </node>
+      <node id="4">
+        <label>channel_model2.h</label>
+        <link refid="channel__model2_8h"/>
+      </node>
+      <node id="5">
+        <label>dynamic_channel_model.h</label>
+        <link refid="dynamic__channel__model_8h"/>
+      </node>
+      <node id="6">
+        <label>fading_model.h</label>
+        <link refid="fading__model_8h"/>
+      </node>
+      <node id="7">
+        <label>selective_fading_model.h</label>
+        <link refid="selective__fading__model_8h"/>
+      </node>
+      <node id="8">
+        <label>selective_fading_model2.h</label>
+        <link refid="selective__fading__model2_8h"/>
+      </node>
+      <node id="9">
+        <label>sro_model.h</label>
+        <link refid="sro__model_8h"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="gr-channels_2include_2gnuradio_2channels_2api_8h_1a8a302ce31442c037bceb28cf5e80758a" prot="public" static="no">
+        <name>CHANNELS_API</name>
+        <initializer><ref refid="attributes_8h_1a17b9cb3c185c92af4799ec9b0a38f3c1" kindref="member">__GR_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-channels/include/gnuradio/channels/api.h" line="18" column="10" bodyfile="/home/desktop2/gnuradio/gr-channels/include/gnuradio/channels/api.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-channels/include/gnuradio/channels/api.h"/>
+  </compounddef>
+</doxygen>

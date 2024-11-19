@@ -1,0 +1,670 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc" kind="class" language="C++" prot="public">
+    <compoundname>gr::filter::kernel::pfb_arb_resampler_ccc</compoundname>
+    <includes refid="pfb__arb__resampler_8h" local="no">gnuradio/filter/pfb_arb_resampler.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1abdb7b36a107fc712526884bc4b144089" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="namespacegr_1_1filter_1_1kernel_1a27b343419254f9698b6243950bd1285c" kindref="member">fir_filter_ccc</ref> &gt;</type>
+        <definition>std::vector&lt;fir_filter_ccc&gt; gr::filter::kernel::pfb_arb_resampler_ccc::d_filters</definition>
+        <argsstring></argsstring>
+        <name>d_filters</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::d_filters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="215" column="17" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a2dc49a1642082e2057597ac2679e0ced" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="namespacegr_1_1filter_1_1kernel_1a27b343419254f9698b6243950bd1285c" kindref="member">fir_filter_ccc</ref> &gt;</type>
+        <definition>std::vector&lt;fir_filter_ccc&gt; gr::filter::kernel::pfb_arb_resampler_ccc::d_diff_filters</definition>
+        <argsstring></argsstring>
+        <name>d_diff_filters</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::d_diff_filters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="216" column="17" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a2eb22826d50b2fb562cec5c3adf0444c" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;gr_complex&gt; &gt; gr::filter::kernel::pfb_arb_resampler_ccc::d_taps</definition>
+        <argsstring></argsstring>
+        <name>d_taps</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::d_taps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="217" column="17" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a2523cc72c5d397c9a8d214ab129909b1" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;gr_complex&gt; &gt; gr::filter::kernel::pfb_arb_resampler_ccc::d_dtaps</definition>
+        <argsstring></argsstring>
+        <name>d_dtaps</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::d_dtaps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="218" column="17" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1aeff894c64d9d63b69cb4f752b1a6948a" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::kernel::pfb_arb_resampler_ccc::d_int_rate</definition>
+        <argsstring></argsstring>
+        <name>d_int_rate</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::d_int_rate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="219" column="18" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1ab837c56af00f7661fd547b33b817dc91" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::kernel::pfb_arb_resampler_ccc::d_dec_rate</definition>
+        <argsstring></argsstring>
+        <name>d_dec_rate</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::d_dec_rate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="220" column="18" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a858a4614f68c710d6459283738d9262e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::filter::kernel::pfb_arb_resampler_ccc::d_flt_rate</definition>
+        <argsstring></argsstring>
+        <name>d_flt_rate</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::d_flt_rate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="221" column="11" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a6d154e5333a8437e38a176f015716da4" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::filter::kernel::pfb_arb_resampler_ccc::d_acc</definition>
+        <argsstring></argsstring>
+        <name>d_acc</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::d_acc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="222" column="11" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a39f5a2090921a626e6b4687b6ce43d01" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::kernel::pfb_arb_resampler_ccc::d_last_filter</definition>
+        <argsstring></argsstring>
+        <name>d_last_filter</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::d_last_filter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="223" column="18" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a1e07ca5501e3dbb610b9911516d7a03e" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::kernel::pfb_arb_resampler_ccc::d_taps_per_filter</definition>
+        <argsstring></argsstring>
+        <name>d_taps_per_filter</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::d_taps_per_filter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="224" column="18" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a95bc9f866f95270530f2a37383e33cc9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::filter::kernel::pfb_arb_resampler_ccc::d_delay</definition>
+        <argsstring></argsstring>
+        <name>d_delay</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::d_delay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="225" column="9" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1aa4f2ec1330340c8a24013b9e64d78eea" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::filter::kernel::pfb_arb_resampler_ccc::d_est_phase_change</definition>
+        <argsstring></argsstring>
+        <name>d_est_phase_change</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::d_est_phase_change</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="226" column="11" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a7b262fef6962d3da4f25964cb0246d18" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::kernel::pfb_arb_resampler_ccc::create_diff_taps</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;newtaps, std::vector&lt; gr_complex &gt; &amp;difftaps)</argsstring>
+        <name>create_diff_taps</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::create_diff_taps</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &amp;</type>
+          <declname>newtaps</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &amp;</type>
+          <declname>difftaps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes in the taps and convolves them with [-1,0,1], which creates a differential set of taps that are used in the difference filterbank. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newtaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(vector of complex) The prototype filter. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>difftaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(vector of complex) (out) The differential filter taps. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="235" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1af15be2831cf63e1e7cb0d280a2467622" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::kernel::pfb_arb_resampler_ccc::create_taps</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;newtaps, std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;ourtaps, std::vector&lt; kernel::fir_filter_ccc &gt; &amp;ourfilter)</argsstring>
+        <name>create_taps</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::create_taps</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &amp;</type>
+          <declname>newtaps</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &gt; &amp;</type>
+          <declname>ourtaps</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="namespacegr_1_1filter_1_1kernel_1a27b343419254f9698b6243950bd1285c" kindref="member">kernel::fir_filter_ccc</ref> &gt; &amp;</type>
+          <declname>ourfilter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets the filterbank&apos;s filter taps with the new prototype filter <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newtaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(vector of complex) The prototype filter to populate the filterbank. The taps should be generated at the interpolated sampling rate.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ourtaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(vector of complex) Reference to our internal member of holding the taps.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ourfilter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(vector of ccc filters) Reference to our internal filter to set the taps for. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="246" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1ae28004ee94ed463233dc2cca965c1a08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::kernel::pfb_arb_resampler_ccc::pfb_arb_resampler_ccc</definition>
+        <argsstring>(float rate, const std::vector&lt; gr_complex &gt; &amp;taps, unsigned int filter_size)</argsstring>
+        <name>pfb_arb_resampler_ccc</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::pfb_arb_resampler_ccc</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>rate</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>filter_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a kernel to perform arbitrary resampling on a set of samples. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(float) Specifies the resampling rate to use </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>taps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(vector/list of complex) The prototype filter to populate the filterbank. The taps * should be generated at the filter_size sampling rate.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filter_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(unsigned int) The number of filters in the filter bank. This is directly related to quantization noise introduced during the resampling. Defaults to 32 filters. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="260" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a6d7c7c184a5007193121e4afd761861a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::kernel::pfb_arb_resampler_ccc::pfb_arb_resampler_ccc</definition>
+        <argsstring>(const pfb_arb_resampler_ccc &amp;)=delete</argsstring>
+        <name>pfb_arb_resampler_ccc</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::pfb_arb_resampler_ccc</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc" kindref="compound">pfb_arb_resampler_ccc</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="265" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a06bb98d48c99e45b3f36dd95bdbd1f83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc" kindref="compound">pfb_arb_resampler_ccc</ref> &amp;</type>
+        <definition>pfb_arb_resampler_ccc &amp; gr::filter::kernel::pfb_arb_resampler_ccc::operator=</definition>
+        <argsstring>(const pfb_arb_resampler_ccc &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc" kindref="compound">pfb_arb_resampler_ccc</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="266" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1acf215d4c833661456ad5ec5e86d79618" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::kernel::pfb_arb_resampler_ccc::set_taps</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;taps)</argsstring>
+        <name>set_taps</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::set_taps</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets the filterbank&apos;s filter taps with the new prototype filter <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>taps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(vector/list of complex) The prototype filter to populate the filterbank. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="273" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1ac67ed7ac03ac5d82ebd179f77be2a2df" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; gr_complex &gt; &gt; gr::filter::kernel::pfb_arb_resampler_ccc::taps</definition>
+        <argsstring>() const</argsstring>
+        <name>taps</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::taps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a vector&lt;vector&lt;&gt;&gt; of the filterbank taps </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="278" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a1aabc32ea5157e4056ee73c95008a589" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::kernel::pfb_arb_resampler_ccc::print_taps</definition>
+        <argsstring>()</argsstring>
+        <name>print_taps</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::print_taps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Print all of the filterbank taps to screen. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="283" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a296e3a1ac1ff9a79e4aa51529936bc64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::kernel::pfb_arb_resampler_ccc::set_rate</definition>
+        <argsstring>(float rate)</argsstring>
+        <name>set_rate</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::set_rate</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the resampling rate of the block. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="288" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a49ac928f1c93f92c1357c1299d8e0935" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::kernel::pfb_arb_resampler_ccc::set_phase</definition>
+        <argsstring>(float ph)</argsstring>
+        <name>set_phase</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::set_phase</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>ph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the current phase offset in radians (0 to 2pi). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="293" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1af8ac1a5a1ec639a26715447dc4c7e3e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::filter::kernel::pfb_arb_resampler_ccc::phase</definition>
+        <argsstring>() const</argsstring>
+        <name>phase</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::phase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the current phase of the resampler in radians (2 to 2pi). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="298" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1ab0461f2f5f986a16ca7113697018cd80" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::kernel::pfb_arb_resampler_ccc::taps_per_filter</definition>
+        <argsstring>() const</argsstring>
+        <name>taps_per_filter</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::taps_per_filter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the number of taps per filter. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="303" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a955afffa78cde23edc2647b4b19718a9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::kernel::pfb_arb_resampler_ccc::interpolation_rate</definition>
+        <argsstring>() const</argsstring>
+        <name>interpolation_rate</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::interpolation_rate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="305" column="18" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="305" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a986d6d979210222ec556b27ce30f0b33" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::kernel::pfb_arb_resampler_ccc::decimation_rate</definition>
+        <argsstring>() const</argsstring>
+        <name>decimation_rate</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::decimation_rate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="306" column="18" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="306" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1aa4789a2398d99c6ee453ffa7b32ad515" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::filter::kernel::pfb_arb_resampler_ccc::fractional_rate</definition>
+        <argsstring>() const</argsstring>
+        <name>fractional_rate</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::fractional_rate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="307" column="11" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="307" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a79fa7f9796a0798fcc5b9df704aa787f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::kernel::pfb_arb_resampler_ccc::group_delay</definition>
+        <argsstring>() const</argsstring>
+        <name>group_delay</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::group_delay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the group delay of the filter. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="312" column="9" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="312" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1ad280d34327022b18f9440d6f1c3c531f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::filter::kernel::pfb_arb_resampler_ccc::phase_offset</definition>
+        <argsstring>(float freq, float fs)</argsstring>
+        <name>phase_offset</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::phase_offset</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates the phase offset expected by a sine wave of frequency <computeroutput>freq</computeroutput> and sampling rate <computeroutput>fs</computeroutput> (assuming input sine wave has 0 degree phase). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="319" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a7b7a8f39c94e637324100bbe962464e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::kernel::pfb_arb_resampler_ccc::filter</definition>
+        <argsstring>(gr_complex *output, const gr_complex *input, int n_to_read, int &amp;n_read)</argsstring>
+        <name>filter</name>
+        <qualifiedname>gr::filter::kernel::pfb_arb_resampler_ccc::filter</qualifiedname>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_to_read</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>n_read</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs the filter operation that resamples the signal.</para>
+<para>This block takes in a stream of samples and outputs a resampled and filtered stream. This block should be called such that the output has <computeroutput>rate</computeroutput> * <computeroutput>n_to_read</computeroutput> amount of space available in the <computeroutput>output</computeroutput> buffer.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output samples at the new sample rate. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An input vector of samples to be resampled </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>n_to_read</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of samples to read from <computeroutput>input</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>n_read</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(out) Number of samples actually read from <computeroutput>input</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Number of samples put into <computeroutput>output</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="335" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" line="212" column="1" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/pfb_arb_resampler.h" bodystart="213" bodyend="336"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a7b262fef6962d3da4f25964cb0246d18" prot="private" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>create_diff_taps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1af15be2831cf63e1e7cb0d280a2467622" prot="private" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>create_taps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a6d154e5333a8437e38a176f015716da4" prot="private" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>d_acc</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1ab837c56af00f7661fd547b33b817dc91" prot="private" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>d_dec_rate</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a95bc9f866f95270530f2a37383e33cc9" prot="private" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>d_delay</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a2dc49a1642082e2057597ac2679e0ced" prot="private" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>d_diff_filters</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a2523cc72c5d397c9a8d214ab129909b1" prot="private" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>d_dtaps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1aa4f2ec1330340c8a24013b9e64d78eea" prot="private" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>d_est_phase_change</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1abdb7b36a107fc712526884bc4b144089" prot="private" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>d_filters</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a858a4614f68c710d6459283738d9262e" prot="private" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>d_flt_rate</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1aeff894c64d9d63b69cb4f752b1a6948a" prot="private" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>d_int_rate</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a39f5a2090921a626e6b4687b6ce43d01" prot="private" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>d_last_filter</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a2eb22826d50b2fb562cec5c3adf0444c" prot="private" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>d_taps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a1e07ca5501e3dbb610b9911516d7a03e" prot="private" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>d_taps_per_filter</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a986d6d979210222ec556b27ce30f0b33" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>decimation_rate</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a7b7a8f39c94e637324100bbe962464e6" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>filter</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1aa4789a2398d99c6ee453ffa7b32ad515" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>fractional_rate</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a79fa7f9796a0798fcc5b9df704aa787f" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>group_delay</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a955afffa78cde23edc2647b4b19718a9" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>interpolation_rate</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a06bb98d48c99e45b3f36dd95bdbd1f83" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>operator=</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1ae28004ee94ed463233dc2cca965c1a08" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>pfb_arb_resampler_ccc</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a6d7c7c184a5007193121e4afd761861a" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>pfb_arb_resampler_ccc</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1af8ac1a5a1ec639a26715447dc4c7e3e0" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>phase</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1ad280d34327022b18f9440d6f1c3c531f" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>phase_offset</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a1aabc32ea5157e4056ee73c95008a589" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>print_taps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a49ac928f1c93f92c1357c1299d8e0935" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>set_phase</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1a296e3a1ac1ff9a79e4aa51529936bc64" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>set_rate</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1acf215d4c833661456ad5ec5e86d79618" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1ac67ed7ac03ac5d82ebd179f77be2a2df" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>taps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccc_1ab0461f2f5f986a16ca7113697018cd80" prot="public" virt="non-virtual"><scope>gr::filter::kernel::pfb_arb_resampler_ccc</scope><name>taps_per_filter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

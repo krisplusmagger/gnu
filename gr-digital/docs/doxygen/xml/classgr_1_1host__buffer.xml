@@ -1,0 +1,833 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1host__buffer" kind="class" language="C++" prot="public">
+    <compoundname>gr::host_buffer</compoundname>
+    <basecompoundref refid="classgr_1_1buffer__single__mapped" prot="public" virt="non-virtual">gr::buffer_single_mapped</basecompoundref>
+    <includes refid="host__buffer_8h" local="no">gnuradio/host_buffer.h</includes>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgr_1_1host__buffer_1a7e38063225722c492eebd3e7bed7046e" prot="public" static="yes" mutable="no">
+        <type><ref refid="namespacegr_1a14226de3800846e1cf3b8a8f3eb5997f" kindref="member">buffer_type</ref></type>
+        <definition>buffer_type gr::host_buffer::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>gr::host_buffer::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="24" column="24" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1host__buffer_1a67c11e548d550c930c29e5af4f8a1741" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; char[]&gt;</type>
+        <definition>std::unique_ptr&lt;char[]&gt; gr::host_buffer::d_device_buf</definition>
+        <argsstring></argsstring>
+        <name>d_device_buf</name>
+        <qualifiedname>gr::host_buffer::d_device_buf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="98" column="21" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1host__buffer_1a5d8b67389afbcc2aa0dc4f45fe7a488b" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* gr::host_buffer::d_device_base</definition>
+        <argsstring></argsstring>
+        <name>d_device_base</name>
+        <qualifiedname>gr::host_buffer::d_device_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="99" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1host__buffer_1a0d9697e789e205743fd53c02089ad749" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>static void * gr::host_buffer::device_memcpy</definition>
+        <argsstring>(void *dest, const void *src, std::size_t count)</argsstring>
+        <name>device_memcpy</name>
+        <qualifiedname>gr::host_buffer::device_memcpy</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="21" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1host__buffer_1af59c5294498d3e6335b70207ada210f2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>static void * gr::host_buffer::device_memmove</definition>
+        <argsstring>(void *dest, const void *src, std::size_t count)</argsstring>
+        <name>device_memmove</name>
+        <qualifiedname>gr::host_buffer::device_memmove</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="22" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1host__buffer_1a0cfb9b3a322def87b03eb0f8ac63d282" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>buffer_sptr</type>
+        <definition>static buffer_sptr gr::host_buffer::make_buffer</definition>
+        <argsstring>(int nitems, size_t sizeof_item, uint64_t downstream_lcm_nitems, uint32_t downstream_max_out_mult, block_sptr link=block_sptr(), block_sptr buf_owner=block_sptr())</argsstring>
+        <name>make_buffer</name>
+        <qualifiedname>gr::host_buffer::make_buffer</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nitems</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>sizeof_item</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>downstream_lcm_nitems</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>downstream_max_out_mult</declname>
+        </param>
+        <param>
+          <type>block_sptr</type>
+          <declname>link</declname>
+          <defval>block_sptr()</defval>
+        </param>
+        <param>
+          <type>block_sptr</type>
+          <declname>buf_owner</declname>
+          <defval>block_sptr()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="26" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1host__buffer_1a596ee5e3853c63548efaa2164afc4307" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>buffer_sptr</type>
+        <definition>static buffer_sptr gr::host_buffer::make_host_buffer</definition>
+        <argsstring>(int nitems, std::size_t sizeof_item, uint64_t downstream_lcm_nitems, uint32_t downstream_max_out_mult, block_sptr link, block_sptr buf_owner)</argsstring>
+        <name>make_host_buffer</name>
+        <qualifiedname>gr::host_buffer::make_host_buffer</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nitems</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>sizeof_item</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>downstream_lcm_nitems</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>downstream_max_out_mult</declname>
+        </param>
+        <param>
+          <type>block_sptr</type>
+          <declname>link</declname>
+        </param>
+        <param>
+          <type>block_sptr</type>
+          <declname>buf_owner</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new <ref refid="classgr_1_1host__buffer" kindref="compound">host_buffer</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nitems</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sizeof_item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>downstream_lcm_nitems</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>downstream_max_out_mult</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>link</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf_owner</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>pointer to buffer base class </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="89" column="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1host__buffer_1a28474b3842d8a18a755a1a755bea14fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::host_buffer::~host_buffer</definition>
+        <argsstring>() override</argsstring>
+        <name>~host_buffer</name>
+        <qualifiedname>gr::host_buffer::~host_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="33" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1host__buffer_1a2fc5781b3554eb1b1a44075ee886bd65" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::host_buffer::post_work</definition>
+        <argsstring>(int nitems) override</argsstring>
+        <name>post_work</name>
+        <qualifiedname>gr::host_buffer::post_work</qualifiedname>
+        <reimplements refid="classgr_1_1buffer_1a5ac7fb51b1e936dfc2690744c090eb8e">post_work</reimplements>
+        <param>
+          <type>int</type>
+          <declname>nitems</declname>
+        </param>
+        <briefdescription>
+<para>Handles post-general_work() cleanup and data transfer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Called directly after call to general_work() completes and is used for data transfer (and perhaps other administrative activities)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nitems</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the number of items produced by the general_work() function. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="44" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1host__buffer_1ab4be05549de1670144858c0ab7ad966d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool gr::host_buffer::do_allocate_buffer</definition>
+        <argsstring>(size_t final_nitems, size_t sizeof_item) override</argsstring>
+        <name>do_allocate_buffer</name>
+        <qualifiedname>gr::host_buffer::do_allocate_buffer</qualifiedname>
+        <reimplements refid="classgr_1_1buffer__single__mapped_1af2a85b38753e63d23a6bb3b963383384">do_allocate_buffer</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>final_nitems</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>sizeof_item</declname>
+        </param>
+        <briefdescription>
+<para>Do actual buffer allocation. Inherited from <ref refid="classgr_1_1buffer__single__mapped" kindref="compound">buffer_single_mapped</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="49" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1host__buffer_1a9440c083d13047fafa97925bd61d8734" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void *</type>
+        <definition>void * gr::host_buffer::write_pointer</definition>
+        <argsstring>() override</argsstring>
+        <name>write_pointer</name>
+        <qualifiedname>gr::host_buffer::write_pointer</qualifiedname>
+        <reimplements refid="classgr_1_1buffer_1a23b016f0a5a493e5a73da972a5040222">write_pointer</reimplements>
+        <briefdescription>
+<para>Return a pointer to the write buffer depending on the context. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="54" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1host__buffer_1aa6d27e90a928c3c82cfc69f9a31eac97" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>const void *</type>
+        <definition>const void * gr::host_buffer::_read_pointer</definition>
+        <argsstring>(unsigned int read_index) override</argsstring>
+        <name>_read_pointer</name>
+        <qualifiedname>gr::host_buffer::_read_pointer</qualifiedname>
+        <reimplements refid="classgr_1_1buffer_1a3db6fc56cd5b5df7f672ecc4288fc5eb">_read_pointer</reimplements>
+        <param>
+          <type>unsigned int</type>
+          <declname>read_index</declname>
+        </param>
+        <briefdescription>
+<para>return pointer to read buffer depending on the context </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The return value points to at least items_available() items. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="61" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1host__buffer_1a22a2f0dc977950dde84ba3cac06837d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool gr::host_buffer::input_blocked_callback</definition>
+        <argsstring>(int items_required, int items_avail, unsigned read_index) override</argsstring>
+        <name>input_blocked_callback</name>
+        <qualifiedname>gr::host_buffer::input_blocked_callback</qualifiedname>
+        <reimplements refid="classgr_1_1buffer__single__mapped_1a24ff84645e8899e705fa991e511ab993">input_blocked_callback</reimplements>
+        <param>
+          <type>int</type>
+          <declname>items_required</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>items_avail</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>read_index</declname>
+        </param>
+        <briefdescription>
+<para>Callback function that the scheduler will call when it determines that the input is blocked. Override this function if needed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="67" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1host__buffer_1aae32802c23fdc011e8972f4b5796de35" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool gr::host_buffer::output_blocked_callback</definition>
+        <argsstring>(int output_multiple, bool force) override</argsstring>
+        <name>output_blocked_callback</name>
+        <qualifiedname>gr::host_buffer::output_blocked_callback</qualifiedname>
+        <reimplements refid="classgr_1_1buffer__single__mapped_1ac9f70c0b7e5e983f824673595c04634b">output_blocked_callback</reimplements>
+        <param>
+          <type>int</type>
+          <declname>output_multiple</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+<para>Callback function that the scheduler will call when it determines that the output is blocked. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="75" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1host__buffer_1a2396c9aad594eb06805e52e31f703f6c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::host_buffer::host_buffer</definition>
+        <argsstring>(int nitems, size_t sizeof_item, uint64_t downstream_lcm_nitems, uint32_t downstream_max_out_mult, block_sptr link, block_sptr buf_owner)</argsstring>
+        <name>host_buffer</name>
+        <qualifiedname>gr::host_buffer::host_buffer</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nitems</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>sizeof_item</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>downstream_lcm_nitems</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>downstream_max_out_mult</declname>
+        </param>
+        <param>
+          <type>block_sptr</type>
+          <declname>link</declname>
+        </param>
+        <param>
+          <type>block_sptr</type>
+          <declname>buf_owner</declname>
+        </param>
+        <briefdescription>
+<para>constructor is private. Use the static make_host_buffer function to create instances. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Allocate a buffer that holds at least <computeroutput>nitems</computeroutput> of size <computeroutput>sizeof_item</computeroutput>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nitems</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the minimum number of items the buffer will hold. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sizeof_item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the size of an item in bytes. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>downstream_lcm_nitems</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the least common multiple of the items to read by downstream blocks </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>downstream_max_out_mult</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the maximum output multiple of all downstream blocks </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>link</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the block that writes to this buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf_owner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if the block that owns the buffer which may or may not be the same as the block that writes to this buffer</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+The total size of the buffer will be rounded up to a system dependent boundary. This is typically the system page size, but under MS windows is 64KB. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="121" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::buffer</label>
+        <link refid="classgr_1_1buffer"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::buffer_single_mapped</label>
+        <link refid="classgr_1_1buffer__single__mapped"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gr::custom_lock_if</label>
+        <link refid="classgr_1_1custom__lock__if"/>
+      </node>
+      <node id="1">
+        <label>gr::host_buffer</label>
+        <link refid="classgr_1_1host__buffer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>T</label>
+      </node>
+      <node id="11">
+        <label>gr::basic_block</label>
+        <link refid="classgr_1_1basic__block"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>d_name</edgelabel>
+          <edgelabel>d_symbol_alias</edgelabel>
+          <edgelabel>d_symbol_name</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>d_input_signature</edgelabel>
+          <edgelabel>d_output_signature</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>d_debug_logger</edgelabel>
+          <edgelabel>d_logger</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>msg_queue</edgelabel>
+        </childnode>
+        <childnode refid="23" relation="usage">
+          <edgelabel>d_rpc_vars</edgelabel>
+        </childnode>
+        <childnode refid="24" relation="usage">
+          <edgelabel>d_message_subscribers</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>gr::block</label>
+        <link refid="classgr_1_1block"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>d_max_output_buffer</edgelabel>
+          <edgelabel>d_min_output_buffer</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>d_pmt_done</edgelabel>
+          <edgelabel>d_system_port</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::buffer</label>
+        <link refid="classgr_1_1buffer"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>d_debug_logger</edgelabel>
+          <edgelabel>d_logger</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>d_readers</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>d_link</edgelabel>
+        </childnode>
+        <childnode refid="26" relation="usage">
+          <edgelabel>d_item_tags</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::buffer_reader</label>
+        <link refid="classgr_1_1buffer__reader"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>d_buffer</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>d_link</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::buffer_single_mapped</label>
+        <link refid="classgr_1_1buffer__single__mapped"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>d_debug_logger</edgelabel>
+          <edgelabel>d_logger</edgelabel>
+        </childnode>
+        <childnode refid="28" relation="usage">
+          <edgelabel>d_buf_owner</edgelabel>
+        </childnode>
+        <childnode refid="29" relation="usage">
+          <edgelabel>d_buffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="30">
+        <label>gr::buffer_type_base</label>
+        <link refid="classgr_1_1buffer__type__base"/>
+        <childnode refid="15" relation="usage">
+          <edgelabel>d_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gr::custom_lock_if</label>
+        <link refid="classgr_1_1custom__lock__if"/>
+      </node>
+      <node id="1">
+        <label>gr::host_buffer</label>
+        <link refid="classgr_1_1host__buffer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="30" relation="usage">
+          <edgelabel>type</edgelabel>
+        </childnode>
+      </node>
+      <node id="18">
+        <label>gr::io_signature</label>
+        <link refid="classgr_1_1io__signature"/>
+      </node>
+      <node id="13">
+        <label>gr::messages::msg_accepter</label>
+        <link refid="classgr_1_1messages_1_1msg__accepter"/>
+      </node>
+      <node id="12">
+        <label>gr::msg_accepter</label>
+        <link refid="classgr_1_1msg__accepter"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>gr::tag_t</label>
+        <link refid="structgr_1_1tag__t"/>
+        <childnode refid="24" relation="usage">
+          <edgelabel>key</edgelabel>
+          <edgelabel>srcid</edgelabel>
+          <edgelabel>value</edgelabel>
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>marked_deleted</edgelabel>
+        </childnode>
+      </node>
+      <node id="19">
+        <label>std::map&lt; pmt::pmt_t, msg_queue_t, msg_queue_comparator &gt;</label>
+        <childnode refid="20" relation="usage">
+          <edgelabel>keys</edgelabel>
+        </childnode>
+        <childnode refid="22" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="26">
+        <label>std::multimap&lt; uint64_t, gr::tag_t &gt;</label>
+        <childnode refid="27" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="28">
+        <label>std::shared_ptr&lt; block &gt;</label>
+        <childnode refid="10" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>std::shared_ptr&lt; buffer &gt;</label>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="17">
+        <label>std::shared_ptr&lt; io_signature &gt;</label>
+        <childnode refid="18" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::shared_ptr&lt; logger &gt;</label>
+      </node>
+      <node id="24">
+        <label>std::shared_ptr&lt; pmt_base &gt;</label>
+      </node>
+      <node id="16">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="22">
+        <label>std::deque&lt; T &gt;</label>
+        <childnode refid="21" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>std::enable_shared_from_this&lt; basic_block &gt;</label>
+      </node>
+      <node id="20">
+        <label>std::shared_ptr&lt; T &gt;</label>
+        <childnode refid="21" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>std::string</label>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>std::unique_ptr&lt; char[]&gt;</label>
+      </node>
+      <node id="6">
+        <label>std::vector&lt; gr::buffer_reader * &gt;</label>
+        <childnode refid="7" relation="usage">
+          <edgelabel>elements</edgelabel>
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+      <node id="25">
+        <label>std::vector&lt; long &gt;</label>
+      </node>
+      <node id="23">
+        <label>std::vector&lt; rpcbasic_sptr &gt;</label>
+        <childnode refid="20" relation="usage">
+          <edgelabel>elements</edgelabel>
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>std::weak_ptr&lt; gr::block &gt;</label>
+        <childnode refid="10" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" line="18" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/host_buffer.h" bodystart="19" bodyend="127"/>
+    <listofallmembers>
+      <member refid="classgr_1_1host__buffer_1aa6d27e90a928c3c82cfc69f9a31eac97" prot="public" virt="virtual"><scope>gr::host_buffer</scope><name>_read_pointer</name></member>
+      <member refid="classgr_1_1buffer_1a5a40fb3c9766a4a1838ae8f297abd276" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>add_item_tag</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1a365a4d804322b14665608a648e57897b" prot="protected" virt="virtual"><scope>gr::host_buffer</scope><name>allocate_buffer</name></member>
+      <member refid="classgr_1_1buffer_1ab94dbed3b54d990bb5ddabf3a52d6dc6" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>base</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1ae514fe9623fbaa4eba3a5d0ed1d5aead" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>buf_owner</name></member>
+      <member refid="classgr_1_1buffer_1aec50e29ac75f0748e8c37d68d4748937" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>buffer</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1a571e60bca7a1c0286ea0b24c78ff8106" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>buffer_single_mapped</name></member>
+      <member refid="classgr_1_1buffer_1ab9d95112a0946ffeca3cbe4639c47491" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>bufsize</name></member>
+      <member refid="classgr_1_1buffer_1a8c322379309de2385a05e9bb4295cc2a" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_abs_write_offset</name></member>
+      <member refid="classgr_1_1buffer_1a07d08a3b8dd23ff660081eca977c9542" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_active_pointer_counter</name></member>
+      <member refid="classgr_1_1buffer_1ae16149310d83aecb8e509b6c6de2818a" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_base</name></member>
+      <member refid="classgr_1_1buffer_1a8d978b461b8068a71d95b5b70e842e7f" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_buf_map_type</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1a3b7d7d4b2bc929bfca74b6b60da0da2e" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_buf_owner</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1a815b3123cecc09093199c5dd287a093d" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_buffer</name></member>
+      <member refid="classgr_1_1buffer_1a6cb33e2a667363ffec56c98ba332a975" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_bufsize</name></member>
+      <member refid="classgr_1_1buffer_1af82abe71a746c88ddaac4df8869d8b54" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_callback_flag</name></member>
+      <member refid="classgr_1_1buffer_1af4e74b1c9eb50af9ceaf898303470131" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_cv</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1afe97e8390e21a225ad208ac29f3e8183" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_debug_logger</name></member>
+      <member refid="classgr_1_1host__buffer_1a5d8b67389afbcc2aa0dc4f45fe7a488b" prot="private" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_device_base</name></member>
+      <member refid="classgr_1_1host__buffer_1a67c11e548d550c930c29e5af4f8a1741" prot="private" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_device_buf</name></member>
+      <member refid="classgr_1_1buffer_1adc29bce8e14dbe56396fe10c2f111c79" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_done</name></member>
+      <member refid="classgr_1_1buffer_1abaf15e91a96ed8cae4291d03ced42041" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_downstream_lcm_nitems</name></member>
+      <member refid="classgr_1_1buffer_1a97e61077c70cd8c204d0c4206fe780ab" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_has_history</name></member>
+      <member refid="classgr_1_1buffer_1abb6050c09bdc24f68e84a8f1238195f4" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_item_tags</name></member>
+      <member refid="classgr_1_1buffer_1af828cd456f9ce3156cee0e8328de153e" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_last_min_items_read</name></member>
+      <member refid="classgr_1_1buffer_1a2b1e12f320803bb4cbbaf7e7fea2467b" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_link</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1aa9216c8b73394861d553ffe0d44d450e" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_logger</name></member>
+      <member refid="classgr_1_1buffer_1a14be6d8f626e91ae07e79a7a04aff52b" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_max_reader_delay</name></member>
+      <member refid="classgr_1_1buffer_1ad09fd178c58d1b31ff7eaf0f04e6cd53" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_max_reader_history</name></member>
+      <member refid="classgr_1_1buffer_1a7862241afea8e3c600cdefeae95fcf0b" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_max_reader_output_multiple</name></member>
+      <member refid="classgr_1_1buffer_1a29332c6ba773d6adf50528ee423fc67b" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1buffer_1abdf5dd91e8393bcae546b3719cf1c373" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_readers</name></member>
+      <member refid="classgr_1_1buffer_1aea14fec8297006abcc4aac9d1c312d9c" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_sizeof_item</name></member>
+      <member refid="classgr_1_1buffer_1af46779d6258054d382ffb457eedf606b" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_transfer_type</name></member>
+      <member refid="classgr_1_1buffer_1ae034276ad2deadf1a25017a07295eb33" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_write_index</name></member>
+      <member refid="classgr_1_1buffer_1a39ae98fb9329aa79c6a5c2b3e681082f" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>d_write_multiple</name></member>
+      <member refid="classgr_1_1buffer_1a4efebb7fd00b2c5f3b7129a84195f0ed" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>decrement_active</name></member>
+      <member refid="classgr_1_1host__buffer_1a0d9697e789e205743fd53c02089ad749" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>device_memcpy</name></member>
+      <member refid="classgr_1_1host__buffer_1af59c5294498d3e6335b70207ada210f2" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>device_memmove</name></member>
+      <member refid="classgr_1_1host__buffer_1ab4be05549de1670144858c0ab7ad966d" prot="public" virt="virtual"><scope>gr::host_buffer</scope><name>do_allocate_buffer</name></member>
+      <member refid="classgr_1_1buffer_1a4badc0ebfa6c47f6d200e78ff29fe3c1" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>done</name></member>
+      <member refid="classgr_1_1buffer_1aa56f822a5356b0dc192e7d2a83af41ee" prot="protected" virt="non-virtual"><scope>gr::host_buffer</scope><name>drop_reader</name></member>
+      <member refid="classgr_1_1buffer_1a39523f5579c55c0bf2a63dcfccb51fe2" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>get_downstream_lcm_nitems</name></member>
+      <member refid="classgr_1_1buffer_1aae022c285c8d1e8209312b9c2a3be8b4" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>get_mapping_type</name></member>
+      <member refid="classgr_1_1buffer_1a9755c1b7e901fdd2e2bbe693324141cc" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>get_max_reader_output_multiple</name></member>
+      <member refid="classgr_1_1buffer_1ab2d506dffae964a1984892d8bd4900f6" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>get_sizeof_item</name></member>
+      <member refid="classgr_1_1buffer_1ae154739f440c435840d0fbcd5ff31e74" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>get_tags_begin</name></member>
+      <member refid="classgr_1_1buffer_1a245a4ee253e5eb702569cf52029e2143" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>get_tags_end</name></member>
+      <member refid="classgr_1_1buffer_1a15bbdc75274e18fcac817e6673830714" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>get_tags_lower_bound</name></member>
+      <member refid="classgr_1_1buffer_1a3f618b43ab6b94a7fd2a77e4929856e9" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>get_tags_upper_bound</name></member>
+      <member refid="classgr_1_1host__buffer_1a2396c9aad594eb06805e52e31f703f6c" prot="private" virt="non-virtual"><scope>gr::host_buffer</scope><name>host_buffer</name></member>
+      <member refid="classgr_1_1buffer_1a545dd9979077aae2834959ddb11624ea" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>increment_active</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1adb7adf8b2d8f39264cc1cab369065161" prot="protected" virt="virtual"><scope>gr::host_buffer</scope><name>index_add</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1a174a65dbf1358b480f62a42320a9597e" prot="protected" virt="virtual"><scope>gr::host_buffer</scope><name>index_sub</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1a767578bce3205914c044e9a11f1366f1" prot="public" virt="virtual"><scope>gr::host_buffer</scope><name>input_blkd_cb_ready</name></member>
+      <member refid="classgr_1_1host__buffer_1a22a2f0dc977950dde84ba3cac06837d5" prot="public" virt="virtual"><scope>gr::host_buffer</scope><name>input_blocked_callback</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1a9289ad6ef90fc848c3bef9d714255949" prot="protected" virt="virtual"><scope>gr::host_buffer</scope><name>input_blocked_callback_logic</name></member>
+      <member refid="classgr_1_1buffer_1aa749e1b47a6ed898cbf6b7a2fe8e04f6" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>link</name></member>
+      <member refid="classgr_1_1host__buffer_1a0cfb9b3a322def87b03eb0f8ac63d282" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>make_buffer</name></member>
+      <member refid="classgr_1_1host__buffer_1a596ee5e3853c63548efaa2164afc4307" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>make_host_buffer</name></member>
+      <member refid="classgr_1_1buffer_1ae404a5f069e4a43297ce1683b16c00d0" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>mutex</name></member>
+      <member refid="classgr_1_1buffer_1ae84c5bd38f9c5171ee5fe3d392a87b0a" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>nitems_written</name></member>
+      <member refid="classgr_1_1buffer_1a0e390beb09787597d426ac7d55a186bf" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>nreaders</name></member>
+      <member refid="classgr_1_1buffer_1acd0478ad163d735f6d11bdeaa264087d" prot="public" virt="virtual"><scope>gr::host_buffer</scope><name>on_lock</name></member>
+      <member refid="classgr_1_1buffer_1a8bdc182def9a32d696a7f47e2eee6fc1" prot="public" virt="virtual"><scope>gr::host_buffer</scope><name>on_unlock</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1a6cab3e8b5114bc9f84ba988178ba9816" prot="public" virt="virtual"><scope>gr::host_buffer</scope><name>output_blkd_cb_ready</name></member>
+      <member refid="classgr_1_1host__buffer_1aae32802c23fdc011e8972f4b5796de35" prot="public" virt="virtual"><scope>gr::host_buffer</scope><name>output_blocked_callback</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1afa73ede64e1866e07050d840cd596e77" prot="protected" virt="virtual"><scope>gr::host_buffer</scope><name>output_blocked_callback_logic</name></member>
+      <member refid="classgr_1_1host__buffer_1a2fc5781b3554eb1b1a44075ee886bd65" prot="public" virt="virtual"><scope>gr::host_buffer</scope><name>post_work</name></member>
+      <member refid="classgr_1_1buffer_1a407543b3e4c24532b899a6ddffa0c956" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>prune_tags</name></member>
+      <member refid="classgr_1_1buffer_1a808ed5bf08d019b1a8562b587483d39d" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>reader</name></member>
+      <member refid="classgr_1_1buffer_1a2773056e40c1f34bc5be8b1ca71d8006" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>remove_item_tag</name></member>
+      <member refid="classgr_1_1buffer_1a89cc95c84f69fee453830ec3b2a30d7a" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>reset_nitem_counter</name></member>
+      <member refid="classgr_1_1buffer_1a9d03c27ca88115c9b7c966acdd3fed4c" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>set_done</name></member>
+      <member refid="classgr_1_1buffer_1ab0ad0bdc5f1d27d07e35ae152d77dac6" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>set_transfer_type</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1aedcc189b7e0ec0b6bc1fd9d316ce761d" prot="public" virt="virtual"><scope>gr::host_buffer</scope><name>space_available</name></member>
+      <member refid="classgr_1_1host__buffer_1a7e38063225722c492eebd3e7bed7046e" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>type</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1ad39c826c2884ec2952e5e19c02d5169d" prot="public" virt="virtual"><scope>gr::host_buffer</scope><name>update_reader_block_history</name></member>
+      <member refid="classgr_1_1buffer_1adbb35c9b612feb6cdc55756ba7c5b08c" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>update_write_pointer</name></member>
+      <member refid="classgr_1_1host__buffer_1a9440c083d13047fafa97925bd61d8734" prot="public" virt="virtual"><scope>gr::host_buffer</scope><name>write_pointer</name></member>
+      <member refid="classgr_1_1buffer_1a7d24f4f172944daa14978a3fdfdb7f4d" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>~buffer</name></member>
+      <member refid="classgr_1_1buffer__single__mapped_1a35b5927ef9a798c6017d77418f1afb6f" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>~buffer_single_mapped</name></member>
+      <member refid="classgr_1_1custom__lock__if_1a4584fd142418e846054e5e4bb21bf729" prot="public" virt="virtual"><scope>gr::host_buffer</scope><name>~custom_lock_if</name></member>
+      <member refid="classgr_1_1host__buffer_1a28474b3842d8a18a755a1a755bea14fa" prot="public" virt="non-virtual"><scope>gr::host_buffer</scope><name>~host_buffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

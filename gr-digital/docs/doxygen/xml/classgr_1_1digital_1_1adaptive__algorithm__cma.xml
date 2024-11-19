@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1digital_1_1adaptive__algorithm__cma" kind="class" language="C++" prot="public">
+    <compoundname>gr::digital::adaptive_algorithm_cma</compoundname>
+    <basecompoundref refid="classgr_1_1digital_1_1adaptive__algorithm" prot="public" virt="non-virtual">gr::digital::adaptive_algorithm</basecompoundref>
+    <includes refid="adaptive__algorithm__cma_8h" local="no">gnuradio/digital/adaptive_algorithm_cma.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1digital_1_1adaptive__algorithm__cma_1a8a560fcd0706f72f7a07104945ab7dc5" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1digital_1_1adaptive__algorithm__cma" kindref="compound">adaptive_algorithm_cma</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;adaptive_algorithm_cma&gt; gr::digital::adaptive_algorithm_cma::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::digital::adaptive_algorithm_cma::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" line="23" column="29" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1digital_1_1adaptive__algorithm__cma_1a7d2718b0c701d885092b9b6fc80cf4f8" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::digital::adaptive_algorithm_cma::d_step_size</definition>
+        <argsstring></argsstring>
+        <name>d_step_size</name>
+        <qualifiedname>gr::digital::adaptive_algorithm_cma::d_step_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" line="26" column="17" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1digital_1_1adaptive__algorithm__cma_1af9d33f83c362277adce3d684a15b4563" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::digital::adaptive_algorithm_cma::d_modulus</definition>
+        <argsstring></argsstring>
+        <name>d_modulus</name>
+        <qualifiedname>gr::digital::adaptive_algorithm_cma::d_modulus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" line="27" column="17" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1digital_1_1adaptive__algorithm__cma_1a2f701029f3b402ed553e42f171c8ff20" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::digital::adaptive_algorithm_cma::adaptive_algorithm_cma</definition>
+        <argsstring>(constellation_sptr cons, float step_size, float modulus)</argsstring>
+        <name>adaptive_algorithm_cma</name>
+        <qualifiedname>gr::digital::adaptive_algorithm_cma::adaptive_algorithm_cma</qualifiedname>
+        <param>
+          <type>constellation_sptr</type>
+          <declname>cons</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>step_size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>modulus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" line="30" column="5" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" bodystart="30" bodyend="35"/>
+        <references refid="namespacegr_1_1digital_1a23df898101b499a40b47a1c7a8ce7204a5be953486a32da5b2aff5a7b8f8833d1">gr::digital::CMA</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1digital_1_1adaptive__algorithm__cma_1a96b8dc2a8408f836204e43bfb8c3c3f3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgr_1_1digital_1_1adaptive__algorithm__cma_1a8a560fcd0706f72f7a07104945ab7dc5" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::digital::adaptive_algorithm_cma::make</definition>
+        <argsstring>(constellation_sptr cons, float step_size, float modulus)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::digital::adaptive_algorithm_cma::make</qualifiedname>
+        <param>
+          <type>constellation_sptr</type>
+          <declname>cons</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>step_size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>modulus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" line="38" column="17" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" bodystart="38" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1digital_1_1adaptive__algorithm__cma_1ae77697cba88ad968d6f964e1fc9e3f6b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::digital::adaptive_algorithm_cma::error</definition>
+        <argsstring>(const gr_complex &amp;out) const</argsstring>
+        <name>error</name>
+        <qualifiedname>gr::digital::adaptive_algorithm_cma::error</qualifiedname>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" line="44" column="16" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" bodystart="44" bodyend="50"/>
+        <references refid="namespacegr_1a854b0614f4de9b30b50b3f72b08fb372" compoundref="math_8h" startline="82" endline="90">gr::clip</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1adaptive__algorithm__cma_1af233ec6ca81cba9c65367739987754e1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::digital::adaptive_algorithm_cma::error_dd</definition>
+        <argsstring>(gr_complex &amp;u_n, gr_complex &amp;decision) const override</argsstring>
+        <name>error_dd</name>
+        <qualifiedname>gr::digital::adaptive_algorithm_cma::error_dd</qualifiedname>
+        <reimplements refid="classgr_1_1digital_1_1adaptive__algorithm_1a23536d8333087af0da113e0aff24f8ab">error_dd</reimplements>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &amp;</type>
+          <declname>u_n</declname>
+        </param>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &amp;</type>
+          <declname>decision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" line="52" column="16" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1adaptive__algorithm__cma_1af090d1e4852f903bea3108a87918fee4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::digital::adaptive_algorithm_cma::error_tr</definition>
+        <argsstring>(const gr_complex &amp;u_n, const gr_complex &amp;d_n) const override</argsstring>
+        <name>error_tr</name>
+        <qualifiedname>gr::digital::adaptive_algorithm_cma::error_tr</qualifiedname>
+        <reimplements refid="classgr_1_1digital_1_1adaptive__algorithm_1a25ed08fbd4457db622cf1067a0060200">error_tr</reimplements>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &amp;</type>
+          <declname>u_n</declname>
+        </param>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &amp;</type>
+          <declname>d_n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" line="57" column="16" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1adaptive__algorithm__cma_1a86624e94a2f65f54a142ee4c7109db47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::digital::adaptive_algorithm_cma::update_taps</definition>
+        <argsstring>(gr_complex *taps, const gr_complex *in, const gr_complex error, const gr_complex decision, unsigned int num_taps) override</argsstring>
+        <name>update_taps</name>
+        <qualifiedname>gr::digital::adaptive_algorithm_cma::update_taps</qualifiedname>
+        <reimplements refid="classgr_1_1digital_1_1adaptive__algorithm_1a69d9a5ac261ca0feb49ceb5bbce32514">update_taps</reimplements>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+          <declname>taps</declname>
+        </param>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>error</declname>
+        </param>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>decision</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>num_taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" line="62" column="10" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" bodystart="62" bodyend="81"/>
+        <references refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" compoundref="interpolator__taps_8h" startline="9" endline="1043">taps</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1adaptive__algorithm__cma_1a45b62788419a298190077a7ec3b15c6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::digital::adaptive_algorithm_cma::update_tap</definition>
+        <argsstring>(const gr_complex tap, const gr_complex &amp;u_n, const gr_complex err, const gr_complex decision) override</argsstring>
+        <name>update_tap</name>
+        <qualifiedname>gr::digital::adaptive_algorithm_cma::update_tap</qualifiedname>
+        <reimplements refid="classgr_1_1digital_1_1adaptive__algorithm_1acd3bd2aee5b6177571edf268f8ff7a26">update_tap</reimplements>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>tap</declname>
+        </param>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &amp;</type>
+          <declname>u_n</declname>
+        </param>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>err</declname>
+        </param>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>decision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" line="83" column="16" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" bodystart="83" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1digital_1_1adaptive__algorithm__cma_1a9a28a308cb15732024380753281065ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::digital::adaptive_algorithm_cma::~adaptive_algorithm_cma</definition>
+        <argsstring>() override</argsstring>
+        <name>~adaptive_algorithm_cma</name>
+        <qualifiedname>gr::digital::adaptive_algorithm_cma::~adaptive_algorithm_cma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" line="91" column="5" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::digital::adaptive_algorithm</label>
+        <link refid="classgr_1_1digital_1_1adaptive__algorithm"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::digital::adaptive_algorithm_cma</label>
+        <link refid="classgr_1_1digital_1_1adaptive__algorithm__cma"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::enable_shared_from_this&lt; adaptive_algorithm &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>T</label>
+      </node>
+      <node id="2">
+        <label>gr::digital::adaptive_algorithm</label>
+        <link refid="classgr_1_1digital_1_1adaptive__algorithm"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_constellation</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::digital::adaptive_algorithm_cma</label>
+        <link refid="classgr_1_1digital_1_1adaptive__algorithm__cma"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::enable_shared_from_this&lt; adaptive_algorithm &gt;</label>
+      </node>
+      <node id="4">
+        <label>std::shared_ptr&lt; T &gt;</label>
+        <childnode refid="5" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" line="20" column="1" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm_cma.h" bodystart="21" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm_1af37b18d77b178f7972de140844851ac6" prot="public" virt="non-virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>adaptive_algorithm</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm__cma_1a2f701029f3b402ed553e42f171c8ff20" prot="protected" virt="non-virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>adaptive_algorithm_cma</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm_1aa68609c13afb10bd6a695c86f2114059" prot="public" virt="non-virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>base</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm_1aeae144a4019707c44d179ce7a6881eb4" prot="protected" virt="non-virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>d_algorithm_type</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm_1a2576936ebfe5a5d749fd49b13b64ab81" prot="protected" virt="non-virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>d_constellation</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm__cma_1af9d33f83c362277adce3d684a15b4563" prot="private" virt="non-virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>d_modulus</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm__cma_1a7d2718b0c701d885092b9b6fc80cf4f8" prot="private" virt="non-virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>d_step_size</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm__cma_1ae77697cba88ad968d6f964e1fc9e3f6b" prot="public" virt="non-virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>error</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm__cma_1af233ec6ca81cba9c65367739987754e1" prot="public" virt="virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>error_dd</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm__cma_1af090d1e4852f903bea3108a87918fee4" prot="public" virt="virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>error_tr</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm_1a6c3aad35c9941cc011863e776a4c9ca9" prot="public" virt="virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>initialize_taps</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm__cma_1a96b8dc2a8408f836204e43bfb8c3c3f3" prot="public" virt="non-virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>make</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm__cma_1a8a560fcd0706f72f7a07104945ab7dc5" prot="public" virt="non-virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>sptr</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm__cma_1a45b62788419a298190077a7ec3b15c6b" prot="public" virt="virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>update_tap</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm__cma_1a86624e94a2f65f54a142ee4c7109db47" prot="public" virt="virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>update_taps</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm_1aa06214b93b870b9b83a1ac0e6e209a9f" prot="public" virt="virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>~adaptive_algorithm</name></member>
+      <member refid="classgr_1_1digital_1_1adaptive__algorithm__cma_1a9a28a308cb15732024380753281065ed" prot="public" virt="non-virtual"><scope>gr::digital::adaptive_algorithm_cma</scope><name>~adaptive_algorithm_cma</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

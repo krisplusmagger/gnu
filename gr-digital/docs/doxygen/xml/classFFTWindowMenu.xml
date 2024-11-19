@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFFTWindowMenu" kind="class" language="C++" prot="public">
+    <compoundname>FFTWindowMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMenu</basecompoundref>
+    <includes refid="form__menus_8h" local="no">gnuradio/qtgui/form_menus.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classFFTWindowMenu_1a8d6e69533aaf344502e26d7b06a8bf94" prot="private" static="no" mutable="no">
+        <type>QList&lt; QAction * &gt;</type>
+        <definition>QList&lt;QAction*&gt; FFTWindowMenu::d_act</definition>
+        <argsstring></argsstring>
+        <name>d_act</name>
+        <qualifiedname>FFTWindowMenu::d_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="670" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="670" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFFTWindowMenu_1ab4f6a14c42eb1ed77f7be60f70a4759f" prot="private" static="no" mutable="no">
+        <type>QActionGroup *</type>
+        <definition>QActionGroup* FFTWindowMenu::d_grp</definition>
+        <argsstring></argsstring>
+        <name>d_grp</name>
+        <qualifiedname>FFTWindowMenu::d_grp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="671" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="671" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFFTWindowMenu_1ac10191f516e878f83047822c76c3f081" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FFTWindowMenu::FFTWindowMenu</definition>
+        <argsstring>(QWidget *parent)</argsstring>
+        <name>FFTWindowMenu</name>
+        <qualifiedname>FFTWindowMenu::FFTWindowMenu</qualifiedname>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="579" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="579" bodyend="610"/>
+        <references refid="classFFTWindowMenu_1a9ed0bbafdce16a22b41772015bfb5dc2" compoundref="form__menus_8h" startline="663" endline="663">getBlackman</references>
+        <references refid="classFFTWindowMenu_1a4dbd5180da41b2953886a431e1951216" compoundref="form__menus_8h" startline="664" endline="664">getBlackmanharris</references>
+        <references refid="classFFTWindowMenu_1abc893e021018ecb0f79b6203a890466f" compoundref="form__menus_8h" startline="667" endline="667">getFlattop</references>
+        <references refid="classFFTWindowMenu_1ab51495a8b8ff490fcfb43ee87d718dcb" compoundref="form__menus_8h" startline="661" endline="661">getHamming</references>
+        <references refid="classFFTWindowMenu_1abf45230d53e38e2c98c1a3a46e0038b9" compoundref="form__menus_8h" startline="662" endline="662">getHann</references>
+        <references refid="classFFTWindowMenu_1a1394f162d3830262456f2fdafc84dd0d" compoundref="form__menus_8h" startline="666" endline="666">getKaiser</references>
+        <references refid="classFFTWindowMenu_1acd478ade217fe742ae5f168546211314" compoundref="form__menus_8h" startline="660" endline="660">getNone</references>
+        <references refid="classFFTWindowMenu_1ab908158282dc81c2d1f3d38fb8486db8" compoundref="form__menus_8h" startline="665" endline="665">getRectangular</references>
+      </memberdef>
+      <memberdef kind="function" id="classFFTWindowMenu_1ab677015be55457e7b670a107bcb2ac90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FFTWindowMenu::~FFTWindowMenu</definition>
+        <argsstring>() override</argsstring>
+        <name>~FFTWindowMenu</name>
+        <qualifiedname>FFTWindowMenu::~FFTWindowMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="612" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="612" bodyend="612"/>
+      </memberdef>
+      <memberdef kind="function" id="classFFTWindowMenu_1a142e44f65c2a52c85e6c1db4ffcc3f0f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int FFTWindowMenu::getNumActions</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumActions</name>
+        <qualifiedname>FFTWindowMenu::getNumActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="614" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="614" bodyend="614"/>
+      </memberdef>
+      <memberdef kind="function" id="classFFTWindowMenu_1a4b97b789ff47a6563d95694f465193a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * FFTWindowMenu::getAction</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>getAction</name>
+        <qualifiedname>FFTWindowMenu::getAction</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="616" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="616" bodyend="622"/>
+      </memberdef>
+      <memberdef kind="function" id="classFFTWindowMenu_1a12e0f8af5ac1628e7ed6e69ea417beb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * FFTWindowMenu::getActionFromWindow</definition>
+        <argsstring>(gr::fft::window::win_type type)</argsstring>
+        <name>getActionFromWindow</name>
+        <qualifiedname>FFTWindowMenu::getActionFromWindow</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2" kindref="member">gr::fft::window::win_type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="624" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="624" bodyend="654"/>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a91f445930cfe99e5622d0f4d59c83529" compoundref="window_8h" startline="33">gr::fft::window::WIN_BLACKMAN</references>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a232b339a4e4796ceb3a38725f9d2015f" compoundref="window_8h" startline="36">gr::fft::window::WIN_BLACKMAN_hARRIS</references>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2aa178141058a99d1f99e260bbb1b7733d" compoundref="window_8h" startline="40">gr::fft::window::WIN_FLATTOP</references>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2ac6d1f4881e7b588307b411847578c1b8" compoundref="window_8h" startline="30">gr::fft::window::WIN_HAMMING</references>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a0099ec5d7a2ab5d7a7f3fd7f7835c72a" compoundref="window_8h" startline="31">gr::fft::window::WIN_HANN</references>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a4658ee31217e2aa75ea5cd563ee1d433" compoundref="window_8h" startline="35">gr::fft::window::WIN_KAISER</references>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a79803e6722e6c4a961cad6dbe7897baf" compoundref="window_8h" startline="29">gr::fft::window::WIN_NONE</references>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a1bb9d0151e57b25aecf694c24663a17a" compoundref="window_8h" startline="34">gr::fft::window::WIN_RECTANGULAR</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classFFTWindowMenu_1a0844d0bca7dbd9f2e52d2335ac4b555d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FFTWindowMenu::whichTrigger</definition>
+        <argsstring>(const gr::fft::window::win_type type)</argsstring>
+        <name>whichTrigger</name>
+        <qualifiedname>FFTWindowMenu::whichTrigger</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2" kindref="member">gr::fft::window::win_type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="657" column="10"/>
+        <referencedby refid="classFFTWindowMenu_1a9ed0bbafdce16a22b41772015bfb5dc2" compoundref="form__menus_8h" startline="663" endline="663">getBlackman</referencedby>
+        <referencedby refid="classFFTWindowMenu_1a4dbd5180da41b2953886a431e1951216" compoundref="form__menus_8h" startline="664" endline="664">getBlackmanharris</referencedby>
+        <referencedby refid="classFFTWindowMenu_1abc893e021018ecb0f79b6203a890466f" compoundref="form__menus_8h" startline="667" endline="667">getFlattop</referencedby>
+        <referencedby refid="classFFTWindowMenu_1ab51495a8b8ff490fcfb43ee87d718dcb" compoundref="form__menus_8h" startline="661" endline="661">getHamming</referencedby>
+        <referencedby refid="classFFTWindowMenu_1abf45230d53e38e2c98c1a3a46e0038b9" compoundref="form__menus_8h" startline="662" endline="662">getHann</referencedby>
+        <referencedby refid="classFFTWindowMenu_1a1394f162d3830262456f2fdafc84dd0d" compoundref="form__menus_8h" startline="666" endline="666">getKaiser</referencedby>
+        <referencedby refid="classFFTWindowMenu_1acd478ade217fe742ae5f168546211314" compoundref="form__menus_8h" startline="660" endline="660">getNone</referencedby>
+        <referencedby refid="classFFTWindowMenu_1ab908158282dc81c2d1f3d38fb8486db8" compoundref="form__menus_8h" startline="665" endline="665">getRectangular</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classFFTWindowMenu_1acd478ade217fe742ae5f168546211314" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FFTWindowMenu::getNone</definition>
+        <argsstring>()</argsstring>
+        <name>getNone</name>
+        <qualifiedname>FFTWindowMenu::getNone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="660" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="660" bodyend="660"/>
+        <references refid="classFFTWindowMenu_1a0844d0bca7dbd9f2e52d2335ac4b555d">whichTrigger</references>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a79803e6722e6c4a961cad6dbe7897baf" compoundref="window_8h" startline="29">gr::fft::window::WIN_NONE</references>
+        <referencedby refid="classFFTWindowMenu_1ac10191f516e878f83047822c76c3f081" compoundref="form__menus_8h" startline="579" endline="610">FFTWindowMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classFFTWindowMenu_1ab51495a8b8ff490fcfb43ee87d718dcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FFTWindowMenu::getHamming</definition>
+        <argsstring>()</argsstring>
+        <name>getHamming</name>
+        <qualifiedname>FFTWindowMenu::getHamming</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="661" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="661" bodyend="661"/>
+        <references refid="classFFTWindowMenu_1a0844d0bca7dbd9f2e52d2335ac4b555d">whichTrigger</references>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2ac6d1f4881e7b588307b411847578c1b8" compoundref="window_8h" startline="30">gr::fft::window::WIN_HAMMING</references>
+        <referencedby refid="classFFTWindowMenu_1ac10191f516e878f83047822c76c3f081" compoundref="form__menus_8h" startline="579" endline="610">FFTWindowMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classFFTWindowMenu_1abf45230d53e38e2c98c1a3a46e0038b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FFTWindowMenu::getHann</definition>
+        <argsstring>()</argsstring>
+        <name>getHann</name>
+        <qualifiedname>FFTWindowMenu::getHann</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="662" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="662" bodyend="662"/>
+        <references refid="classFFTWindowMenu_1a0844d0bca7dbd9f2e52d2335ac4b555d">whichTrigger</references>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a0099ec5d7a2ab5d7a7f3fd7f7835c72a" compoundref="window_8h" startline="31">gr::fft::window::WIN_HANN</references>
+        <referencedby refid="classFFTWindowMenu_1ac10191f516e878f83047822c76c3f081" compoundref="form__menus_8h" startline="579" endline="610">FFTWindowMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classFFTWindowMenu_1a9ed0bbafdce16a22b41772015bfb5dc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FFTWindowMenu::getBlackman</definition>
+        <argsstring>()</argsstring>
+        <name>getBlackman</name>
+        <qualifiedname>FFTWindowMenu::getBlackman</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="663" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="663" bodyend="663"/>
+        <references refid="classFFTWindowMenu_1a0844d0bca7dbd9f2e52d2335ac4b555d">whichTrigger</references>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a91f445930cfe99e5622d0f4d59c83529" compoundref="window_8h" startline="33">gr::fft::window::WIN_BLACKMAN</references>
+        <referencedby refid="classFFTWindowMenu_1ac10191f516e878f83047822c76c3f081" compoundref="form__menus_8h" startline="579" endline="610">FFTWindowMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classFFTWindowMenu_1a4dbd5180da41b2953886a431e1951216" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FFTWindowMenu::getBlackmanharris</definition>
+        <argsstring>()</argsstring>
+        <name>getBlackmanharris</name>
+        <qualifiedname>FFTWindowMenu::getBlackmanharris</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="664" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="664" bodyend="664"/>
+        <references refid="classFFTWindowMenu_1a0844d0bca7dbd9f2e52d2335ac4b555d">whichTrigger</references>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a232b339a4e4796ceb3a38725f9d2015f" compoundref="window_8h" startline="36">gr::fft::window::WIN_BLACKMAN_hARRIS</references>
+        <referencedby refid="classFFTWindowMenu_1ac10191f516e878f83047822c76c3f081" compoundref="form__menus_8h" startline="579" endline="610">FFTWindowMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classFFTWindowMenu_1ab908158282dc81c2d1f3d38fb8486db8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FFTWindowMenu::getRectangular</definition>
+        <argsstring>()</argsstring>
+        <name>getRectangular</name>
+        <qualifiedname>FFTWindowMenu::getRectangular</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="665" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="665" bodyend="665"/>
+        <references refid="classFFTWindowMenu_1a0844d0bca7dbd9f2e52d2335ac4b555d">whichTrigger</references>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a1bb9d0151e57b25aecf694c24663a17a" compoundref="window_8h" startline="34">gr::fft::window::WIN_RECTANGULAR</references>
+        <referencedby refid="classFFTWindowMenu_1ac10191f516e878f83047822c76c3f081" compoundref="form__menus_8h" startline="579" endline="610">FFTWindowMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classFFTWindowMenu_1a1394f162d3830262456f2fdafc84dd0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FFTWindowMenu::getKaiser</definition>
+        <argsstring>()</argsstring>
+        <name>getKaiser</name>
+        <qualifiedname>FFTWindowMenu::getKaiser</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="666" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="666" bodyend="666"/>
+        <references refid="classFFTWindowMenu_1a0844d0bca7dbd9f2e52d2335ac4b555d">whichTrigger</references>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2a4658ee31217e2aa75ea5cd563ee1d433" compoundref="window_8h" startline="35">gr::fft::window::WIN_KAISER</references>
+        <referencedby refid="classFFTWindowMenu_1ac10191f516e878f83047822c76c3f081" compoundref="form__menus_8h" startline="579" endline="610">FFTWindowMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classFFTWindowMenu_1abc893e021018ecb0f79b6203a890466f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FFTWindowMenu::getFlattop</definition>
+        <argsstring>()</argsstring>
+        <name>getFlattop</name>
+        <qualifiedname>FFTWindowMenu::getFlattop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="667" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="667" bodyend="667"/>
+        <references refid="classFFTWindowMenu_1a0844d0bca7dbd9f2e52d2335ac4b555d">whichTrigger</references>
+        <references refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2aa178141058a99d1f99e260bbb1b7733d" compoundref="window_8h" startline="40">gr::fft::window::WIN_FLATTOP</references>
+        <referencedby refid="classFFTWindowMenu_1ac10191f516e878f83047822c76c3f081" compoundref="form__menus_8h" startline="579" endline="610">FFTWindowMenu</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FFTWindowMenu</label>
+        <link refid="classFFTWindowMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FFTWindowMenu</label>
+        <link refid="classFFTWindowMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="574" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="575" bodyend="672"/>
+    <listofallmembers>
+      <member refid="classFFTWindowMenu_1a8d6e69533aaf344502e26d7b06a8bf94" prot="private" virt="non-virtual"><scope>FFTWindowMenu</scope><name>d_act</name></member>
+      <member refid="classFFTWindowMenu_1ab4f6a14c42eb1ed77f7be60f70a4759f" prot="private" virt="non-virtual"><scope>FFTWindowMenu</scope><name>d_grp</name></member>
+      <member refid="classFFTWindowMenu_1ac10191f516e878f83047822c76c3f081" prot="public" virt="non-virtual"><scope>FFTWindowMenu</scope><name>FFTWindowMenu</name></member>
+      <member refid="classFFTWindowMenu_1a4b97b789ff47a6563d95694f465193a4" prot="public" virt="non-virtual"><scope>FFTWindowMenu</scope><name>getAction</name></member>
+      <member refid="classFFTWindowMenu_1a12e0f8af5ac1628e7ed6e69ea417beb3" prot="public" virt="non-virtual"><scope>FFTWindowMenu</scope><name>getActionFromWindow</name></member>
+      <member refid="classFFTWindowMenu_1a9ed0bbafdce16a22b41772015bfb5dc2" prot="public" virt="non-virtual"><scope>FFTWindowMenu</scope><name>getBlackman</name></member>
+      <member refid="classFFTWindowMenu_1a4dbd5180da41b2953886a431e1951216" prot="public" virt="non-virtual"><scope>FFTWindowMenu</scope><name>getBlackmanharris</name></member>
+      <member refid="classFFTWindowMenu_1abc893e021018ecb0f79b6203a890466f" prot="public" virt="non-virtual"><scope>FFTWindowMenu</scope><name>getFlattop</name></member>
+      <member refid="classFFTWindowMenu_1ab51495a8b8ff490fcfb43ee87d718dcb" prot="public" virt="non-virtual"><scope>FFTWindowMenu</scope><name>getHamming</name></member>
+      <member refid="classFFTWindowMenu_1abf45230d53e38e2c98c1a3a46e0038b9" prot="public" virt="non-virtual"><scope>FFTWindowMenu</scope><name>getHann</name></member>
+      <member refid="classFFTWindowMenu_1a1394f162d3830262456f2fdafc84dd0d" prot="public" virt="non-virtual"><scope>FFTWindowMenu</scope><name>getKaiser</name></member>
+      <member refid="classFFTWindowMenu_1acd478ade217fe742ae5f168546211314" prot="public" virt="non-virtual"><scope>FFTWindowMenu</scope><name>getNone</name></member>
+      <member refid="classFFTWindowMenu_1a142e44f65c2a52c85e6c1db4ffcc3f0f" prot="public" virt="non-virtual"><scope>FFTWindowMenu</scope><name>getNumActions</name></member>
+      <member refid="classFFTWindowMenu_1ab908158282dc81c2d1f3d38fb8486db8" prot="public" virt="non-virtual"><scope>FFTWindowMenu</scope><name>getRectangular</name></member>
+      <member refid="classFFTWindowMenu_1a0844d0bca7dbd9f2e52d2335ac4b555d" prot="public" virt="non-virtual"><scope>FFTWindowMenu</scope><name>whichTrigger</name></member>
+      <member refid="classFFTWindowMenu_1ab677015be55457e7b670a107bcb2ac90" prot="public" virt="non-virtual"><scope>FFTWindowMenu</scope><name>~FFTWindowMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

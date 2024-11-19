@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1fft_1_1fft__shift" kind="class" language="C++" prot="public">
+    <compoundname>gr::fft::fft_shift</compoundname>
+    <includes refid="fft__shift_8h" local="no">gnuradio/fft/fft_shift.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1fft_1_1fft__shift_1a7a4ed7589f14726b6d061408596d71c8" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::fft::fft_shift&lt; T &gt;::d_fftlen</definition>
+        <argsstring></argsstring>
+        <name>d_fftlen</name>
+        <qualifiedname>gr::fft::fft_shift::d_fftlen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" line="65" column="12" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fft_1_1fft__shift_1ab95da99356ab06ada09fe97be4cafb8d" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::fft::fft_shift&lt; T &gt;::d_lenpos</definition>
+        <argsstring></argsstring>
+        <name>d_lenpos</name>
+        <qualifiedname>gr::fft::fft_shift::d_lenpos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" line="66" column="12" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fft_1_1fft__shift_1aa67b2fc6649eb3fd57d6b11308ff1722" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::fft::fft_shift&lt; T &gt;::d_lenneg</definition>
+        <argsstring></argsstring>
+        <name>d_lenneg</name>
+        <qualifiedname>gr::fft::fft_shift::d_lenneg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" line="67" column="12" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fft_1_1fft__shift_1a4306aef623830cc37c934a2ac9b9135e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; T &gt;</type>
+        <definition>std::vector&lt;T&gt; gr::fft::fft_shift&lt; T &gt;::d_buf</definition>
+        <argsstring></argsstring>
+        <name>d_buf</name>
+        <qualifiedname>gr::fft::fft_shift::d_buf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" line="68" column="17" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft__shift_1a3f11efad45e204d0b4557fbd68f47c5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::fft::fft_shift&lt; T &gt;::fft_shift</definition>
+        <argsstring>(size_t fft_length)</argsstring>
+        <name>fft_shift</name>
+        <qualifiedname>gr::fft::fft_shift::fft_shift</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>fft_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" line="28" column="5" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" bodystart="28" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft__shift_1a8e336c6f90a5cb10d67c53bc8ba7a2dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::fft::fft_shift&lt; T &gt;::shift</definition>
+        <argsstring>(std::vector&lt; T &gt; &amp;v)</argsstring>
+        <name>shift</name>
+        <qualifiedname>gr::fft::fft_shift::shift</qualifiedname>
+        <param>
+          <type>std::vector&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>performs the cyclic shift on a vector v </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" line="38" column="10" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" bodystart="38" bodyend="38"/>
+        <references refid="classgr_1_1fft_1_1fft__shift_1a8e336c6f90a5cb10d67c53bc8ba7a2dc" compoundref="fft__shift_8h" startline="38" endline="38">gr::fft::fft_shift&lt; T &gt;::shift</references>
+        <referencedby refid="classgr_1_1fft_1_1fft__shift_1a8e336c6f90a5cb10d67c53bc8ba7a2dc" compoundref="fft__shift_8h" startline="38" endline="38">gr::fft::fft_shift&lt; T &gt;::shift</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft__shift_1aafe50b08192afa84a8312a37eb09bcbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::fft::fft_shift&lt; T &gt;::shift</definition>
+        <argsstring>(T *data, size_t fft_len)</argsstring>
+        <name>shift</name>
+        <qualifiedname>gr::fft::fft_shift::shift</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>fft_len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>performs the cyclic shift on an array </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" line="42" column="10" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" bodystart="42" bodyend="48"/>
+        <references refid="classgr_1_1fft_1_1fft__shift_1a731c43d8fb52e4bb533af83869e8b32f" compoundref="fft__shift_8h" startline="52" endline="61">gr::fft::fft_shift&lt; T &gt;::resize</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fft_1_1fft__shift_1a731c43d8fb52e4bb533af83869e8b32f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::fft::fft_shift&lt; T &gt;::resize</definition>
+        <argsstring>(size_t fft_length)</argsstring>
+        <name>resize</name>
+        <qualifiedname>gr::fft::fft_shift::resize</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>fft_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if needed adjusts the buffer size to a new fft length </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" line="52" column="10" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" bodystart="52" bodyend="61"/>
+        <referencedby refid="classgr_1_1fft_1_1fft__shift_1aafe50b08192afa84a8312a37eb09bcbd" compoundref="fft__shift_8h" startline="42" endline="48">gr::fft::fft_shift&lt; T &gt;::shift</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>reorder FFT results which are ordered from 0 to 1 in normalized frequency to -0.5 to 0.5 by cyclic shift </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" line="25" column="1" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft_shift.h" bodystart="26" bodyend="69"/>
+    <listofallmembers>
+      <member refid="classgr_1_1fft_1_1fft__shift_1a4306aef623830cc37c934a2ac9b9135e" prot="private" virt="non-virtual"><scope>gr::fft::fft_shift</scope><name>d_buf</name></member>
+      <member refid="classgr_1_1fft_1_1fft__shift_1a7a4ed7589f14726b6d061408596d71c8" prot="private" virt="non-virtual"><scope>gr::fft::fft_shift</scope><name>d_fftlen</name></member>
+      <member refid="classgr_1_1fft_1_1fft__shift_1aa67b2fc6649eb3fd57d6b11308ff1722" prot="private" virt="non-virtual"><scope>gr::fft::fft_shift</scope><name>d_lenneg</name></member>
+      <member refid="classgr_1_1fft_1_1fft__shift_1ab95da99356ab06ada09fe97be4cafb8d" prot="private" virt="non-virtual"><scope>gr::fft::fft_shift</scope><name>d_lenpos</name></member>
+      <member refid="classgr_1_1fft_1_1fft__shift_1a3f11efad45e204d0b4557fbd68f47c5a" prot="public" virt="non-virtual"><scope>gr::fft::fft_shift</scope><name>fft_shift</name></member>
+      <member refid="classgr_1_1fft_1_1fft__shift_1a731c43d8fb52e4bb533af83869e8b32f" prot="public" virt="non-virtual"><scope>gr::fft::fft_shift</scope><name>resize</name></member>
+      <member refid="classgr_1_1fft_1_1fft__shift_1a8e336c6f90a5cb10d67c53bc8ba7a2dc" prot="public" virt="non-virtual"><scope>gr::fft::fft_shift</scope><name>shift</name></member>
+      <member refid="classgr_1_1fft_1_1fft__shift_1aafe50b08192afa84a8312a37eb09bcbd" prot="public" virt="non-virtual"><scope>gr::fft::fft_shift</scope><name>shift</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

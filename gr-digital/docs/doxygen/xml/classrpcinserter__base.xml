@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classrpcinserter__base" kind="class" language="C++" prot="public">
+    <compoundname>rpcinserter_base</compoundname>
+    <basecompoundref refid="classgr_1_1messages_1_1msg__producer" prot="public" virt="virtual">gr::messages::msg_producer</basecompoundref>
+    <derivedcompoundref refid="classrpcbasic__inserter" prot="public" virt="virtual">rpcbasic_inserter&lt; T, Tfrom &gt;</derivedcompoundref>
+    <includes refid="rpcregisterhelpers_8h" local="no">gnuradio/rpcregisterhelpers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename Tfrom</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classrpcinserter__base_1a8f89af5214a3c15b93dad9ba4e76b88e" prot="protected" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* rpcinserter_base&lt; T, Tfrom &gt;::_source</definition>
+        <argsstring></argsstring>
+        <name>_source</name>
+        <qualifiedname>rpcinserter_base::_source</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="115" column="7" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="115" bodyend="-1"/>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1vector_3_01signed_01char_01_4_01_4_1a88e99af94110be919034de8747e89c4a" compoundref="rpcregisterhelpers_8h" startline="482" endline="488">rpcbasic_inserter&lt; T, std::vector&lt; signed char &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1vector_3_01short_01_4_01_4_1ad2c943d9943beb65d4063a3bb087de61" compoundref="rpcregisterhelpers_8h" startline="511" endline="516">rpcbasic_inserter&lt; T, std::vector&lt; short &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1vector_3_01int_01_4_01_4_1a4beff9e1defabd4e8a5036d70fc3a83d" compoundref="rpcregisterhelpers_8h" startline="539" endline="544">rpcbasic_inserter&lt; T, std::vector&lt; int &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1vector_3_01int64__t_01_4_01_4_1aa6cfb5bfd4b86bcc0334e1072826dd6e" compoundref="rpcregisterhelpers_8h" startline="567" endline="573">rpcbasic_inserter&lt; T, std::vector&lt; int64_t &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1vector_3_01std_1_1complex_3_01float_01_4_01_4_01_4_1aa1926d97c8d9ab199d73e9be44624811" compoundref="rpcregisterhelpers_8h" startline="596" endline="602">rpcbasic_inserter&lt; T, std::vector&lt; std::complex&lt; float &gt; &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1vector_3_01float_01_4_01_4_1a2fa24c85291058b811533f88e925b1bf" compoundref="rpcregisterhelpers_8h" startline="625" endline="630">rpcbasic_inserter&lt; T, std::vector&lt; float &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1vector_3_01uint8__t_01_4_01_4_1ad2ea9ea21b11b92afd946c25d4142d99" compoundref="rpcregisterhelpers_8h" startline="653" endline="659">rpcbasic_inserter&lt; T, std::vector&lt; uint8_t &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1complex_3_01float_01_4_01_4_1a33888388fc9763d697ee854938fbc1e9" compoundref="rpcregisterhelpers_8h" startline="682" endline="687">rpcbasic_inserter&lt; T, std::complex&lt; float &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1complex_3_01double_01_4_01_4_1a595352bc58eb771544780760657670b1" compoundref="rpcregisterhelpers_8h" startline="710" endline="716">rpcbasic_inserter&lt; T, std::complex&lt; double &gt; &gt;::retrieve</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classrpcinserter__base_1a26d399eb83eace035da2386ac16fe8ba" prot="protected" static="no" mutable="no">
+        <type>Tfrom(T::*</type>
+        <definition>Tfrom(T::* rpcinserter_base&lt; T, Tfrom &gt;::_func) ()</definition>
+        <argsstring>)()</argsstring>
+        <name>_func</name>
+        <qualifiedname>rpcinserter_base::_func</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="116" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="116" bodyend="-1"/>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1vector_3_01signed_01char_01_4_01_4_1a88e99af94110be919034de8747e89c4a" compoundref="rpcregisterhelpers_8h" startline="482" endline="488">rpcbasic_inserter&lt; T, std::vector&lt; signed char &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1vector_3_01short_01_4_01_4_1ad2c943d9943beb65d4063a3bb087de61" compoundref="rpcregisterhelpers_8h" startline="511" endline="516">rpcbasic_inserter&lt; T, std::vector&lt; short &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1vector_3_01int_01_4_01_4_1a4beff9e1defabd4e8a5036d70fc3a83d" compoundref="rpcregisterhelpers_8h" startline="539" endline="544">rpcbasic_inserter&lt; T, std::vector&lt; int &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1vector_3_01int64__t_01_4_01_4_1aa6cfb5bfd4b86bcc0334e1072826dd6e" compoundref="rpcregisterhelpers_8h" startline="567" endline="573">rpcbasic_inserter&lt; T, std::vector&lt; int64_t &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1vector_3_01std_1_1complex_3_01float_01_4_01_4_01_4_1aa1926d97c8d9ab199d73e9be44624811" compoundref="rpcregisterhelpers_8h" startline="596" endline="602">rpcbasic_inserter&lt; T, std::vector&lt; std::complex&lt; float &gt; &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1vector_3_01float_01_4_01_4_1a2fa24c85291058b811533f88e925b1bf" compoundref="rpcregisterhelpers_8h" startline="625" endline="630">rpcbasic_inserter&lt; T, std::vector&lt; float &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1vector_3_01uint8__t_01_4_01_4_1ad2ea9ea21b11b92afd946c25d4142d99" compoundref="rpcregisterhelpers_8h" startline="653" endline="659">rpcbasic_inserter&lt; T, std::vector&lt; uint8_t &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1complex_3_01float_01_4_01_4_1a33888388fc9763d697ee854938fbc1e9" compoundref="rpcregisterhelpers_8h" startline="682" endline="687">rpcbasic_inserter&lt; T, std::complex&lt; float &gt; &gt;::retrieve</referencedby>
+        <referencedby refid="classrpcbasic__inserter_3_01T_00_01std_1_1complex_3_01double_01_4_01_4_1a595352bc58eb771544780760657670b1" compoundref="rpcregisterhelpers_8h" startline="710" endline="716">rpcbasic_inserter&lt; T, std::complex&lt; double &gt; &gt;::retrieve</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrpcinserter__base_1ad0a669031de1cca36cf612f7d4f74b05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>rpcinserter_base&lt; T, Tfrom &gt;::rpcinserter_base</definition>
+        <argsstring>(T *source, Tfrom(T::*func)())</argsstring>
+        <name>rpcinserter_base</name>
+        <qualifiedname>rpcinserter_base::rpcinserter_base</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>Tfrom(T::*)()</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="105" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcinserter__base_1a64dc370d338f128215fa33e237166a18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>rpcinserter_base&lt; T, Tfrom &gt;::rpcinserter_base</definition>
+        <argsstring>()</argsstring>
+        <name>rpcinserter_base</name>
+        <qualifiedname>rpcinserter_base::rpcinserter_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="106" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcinserter__base_1a2c9dbe2caa0fbe2246d4ce4a2bf4eb38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+        <definition>pmt::pmt_t rpcinserter_base&lt; T, Tfrom &gt;::retrieve</definition>
+        <argsstring>() override</argsstring>
+        <name>retrieve</name>
+        <qualifiedname>rpcinserter_base::retrieve</qualifiedname>
+        <reimplements refid="classgr_1_1messages_1_1msg__producer_1a3e4471e76c488d5dfb4a7d2ffdc766cf">retrieve</reimplements>
+        <briefdescription>
+<para>send <computeroutput>msg</computeroutput> to <computeroutput>msg_producer</computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="108" column="16" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="108" bodyend="112"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Base class for registering a ControlPort Inserter. Produces a message. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::messages::msg_producer</label>
+        <link refid="classgr_1_1messages_1_1msg__producer"/>
+      </node>
+      <node id="3">
+        <label>rpcbasic_inserter&lt; T, Tfrom &gt;</label>
+        <link refid="classrpcbasic__inserter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>rpcinserter_base&lt; T, Tfrom &gt;</label>
+        <link refid="classrpcinserter__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::messages::msg_producer</label>
+        <link refid="classgr_1_1messages_1_1msg__producer"/>
+      </node>
+      <node id="1">
+        <label>rpcinserter_base&lt; T, Tfrom &gt;</label>
+        <link refid="classrpcinserter__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="102" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="103" bodyend="117"/>
+    <listofallmembers>
+      <member refid="classrpcinserter__base_1a26d399eb83eace035da2386ac16fe8ba" prot="protected" virt="non-virtual"><scope>rpcinserter_base</scope><name>_func</name></member>
+      <member refid="classrpcinserter__base_1a8f89af5214a3c15b93dad9ba4e76b88e" prot="protected" virt="non-virtual"><scope>rpcinserter_base</scope><name>_source</name></member>
+      <member refid="classgr_1_1messages_1_1msg__producer_1aecc9d396bc43ecd459b88dac2f9ae3de" prot="public" virt="non-virtual"><scope>rpcinserter_base</scope><name>msg_producer</name></member>
+      <member refid="classrpcinserter__base_1a2c9dbe2caa0fbe2246d4ce4a2bf4eb38" prot="public" virt="virtual"><scope>rpcinserter_base</scope><name>retrieve</name></member>
+      <member refid="classrpcinserter__base_1ad0a669031de1cca36cf612f7d4f74b05" prot="public" virt="non-virtual"><scope>rpcinserter_base</scope><name>rpcinserter_base</name></member>
+      <member refid="classrpcinserter__base_1a64dc370d338f128215fa33e237166a18" prot="public" virt="non-virtual"><scope>rpcinserter_base</scope><name>rpcinserter_base</name></member>
+      <member refid="classgr_1_1messages_1_1msg__producer_1ae2911393628f0a7e7e24d2336f14a9b3" prot="public" virt="virtual"><scope>rpcinserter_base</scope><name>~msg_producer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

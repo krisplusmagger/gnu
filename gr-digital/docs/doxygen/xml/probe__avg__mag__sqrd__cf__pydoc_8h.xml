@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="probe__avg__mag__sqrd__cf__pydoc_8h" kind="file" language="C++">
+    <compoundname>probe_avg_mag_sqrd_cf_pydoc.h</compoundname>
+    <includes refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>probe_avg_mag_sqrd_cf_pydoc.h</label>
+        <link refid="probe__avg__mag__sqrd__cf__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="probe__avg__mag__sqrd__cf__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, analog, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="probe__avg__mag__sqrd__cf__pydoc_8h_1a77f4d1a99173877c7cf981275e5894fe" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_probe_avg_mag_sqrd_cf</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_probe_avg_mag_sqrd_cf</name>
+        <initializer>= R&quot;doc(compute avg magnitude squared.
+
+Input stream 0: complex Output stream 0: float
+
+
+Compute a running average of the magnitude squared of the the input. The level and indication as to whether the level exceeds threshold can be retrieved with the level and unmuted accessors.
+
+Constructor Specific Documentation:
+
+Make a block that computes avg magnitude squared.
+
+Args:
+    threshold_db : Threshold for muting.
+    alpha : Gain parameter for the running average filter.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__avg__mag__sqrd__cf__pydoc_8h_1a724208edf0b74640a7a9658692eb27dd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_probe_avg_mag_sqrd_cf_probe_avg_mag_sqrd_cf_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_probe_avg_mag_sqrd_cf_probe_avg_mag_sqrd_cf_0</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__avg__mag__sqrd__cf__pydoc_8h_1a975f5d405e315bd1cebe684151d241da" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_probe_avg_mag_sqrd_cf_probe_avg_mag_sqrd_cf_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_probe_avg_mag_sqrd_cf_probe_avg_mag_sqrd_cf_1</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" line="38" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__avg__mag__sqrd__cf__pydoc_8h_1a44fe7590efd75b720056730db806ba68" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_probe_avg_mag_sqrd_cf_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_probe_avg_mag_sqrd_cf_make</name>
+        <initializer>= R&quot;doc(compute avg magnitude squared.
+
+Input stream 0: complex Output stream 0: float
+
+
+Compute a running average of the magnitude squared of the the input. The level and indication as to whether the level exceeds threshold can be retrieved with the level and unmuted accessors.
+
+Constructor Specific Documentation:
+
+Make a block that computes avg magnitude squared.
+
+Args:
+    threshold_db : Threshold for muting.
+    alpha : Gain parameter for the running average filter.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" line="42" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__avg__mag__sqrd__cf__pydoc_8h_1aad284e8f6714144292db12e2c2e89e39" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_probe_avg_mag_sqrd_cf_unmuted</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_probe_avg_mag_sqrd_cf_unmuted</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" line="58" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__avg__mag__sqrd__cf__pydoc_8h_1a5e29f9077ffbddf3c5c6bc087f3b7e0c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_probe_avg_mag_sqrd_cf_level</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_probe_avg_mag_sqrd_cf_level</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" line="61" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__avg__mag__sqrd__cf__pydoc_8h_1a2601da49f5da4b4a4a88925d99304413" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_probe_avg_mag_sqrd_cf_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_probe_avg_mag_sqrd_cf_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" line="64" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__avg__mag__sqrd__cf__pydoc_8h_1ae6a69ecab93568704b23b4fb1310cf4a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_probe_avg_mag_sqrd_cf_set_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_probe_avg_mag_sqrd_cf_set_alpha</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" line="67" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__avg__mag__sqrd__cf__pydoc_8h_1a8ed435a11c97e74b164bde2345f56746" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_probe_avg_mag_sqrd_cf_set_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_probe_avg_mag_sqrd_cf_set_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" line="70" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__avg__mag__sqrd__cf__pydoc_8h_1a34e8697453970313c33ef4a02a72a8ac" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_probe_avg_mag_sqrd_cf_reset</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_probe_avg_mag_sqrd_cf_reset</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" line="73" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/probe_avg_mag_sqrd_cf_pydoc.h"/>
+  </compounddef>
+</doxygen>

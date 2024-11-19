@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classTriggerChannelMenu" kind="class" language="C++" prot="public">
+    <compoundname>TriggerChannelMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMenu</basecompoundref>
+    <includes refid="form__menus_8h" local="no">gnuradio/qtgui/form_menus.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classTriggerChannelMenu_1a525a619ff5086f7e8a9cf0ead511b81f" prot="private" static="no" mutable="no">
+        <type>QList&lt; QAction * &gt;</type>
+        <definition>QList&lt;QAction*&gt; TriggerChannelMenu::d_act</definition>
+        <argsstring></argsstring>
+        <name>d_act</name>
+        <qualifiedname>TriggerChannelMenu::d_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1029" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1029" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTriggerChannelMenu_1aa03dd415f0084d1abb8731defb9e5523" prot="private" static="no" mutable="no">
+        <type>QActionGroup *</type>
+        <definition>QActionGroup* TriggerChannelMenu::d_grp</definition>
+        <argsstring></argsstring>
+        <name>d_grp</name>
+        <qualifiedname>TriggerChannelMenu::d_grp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1030" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1030" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTriggerChannelMenu_1a41413c73b95c119082b06aeb6b3ee185" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TriggerChannelMenu::TriggerChannelMenu</definition>
+        <argsstring>(int nchans, QWidget *parent)</argsstring>
+        <name>TriggerChannelMenu</name>
+        <qualifiedname>TriggerChannelMenu::TriggerChannelMenu</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nchans</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="990" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="990" bodyend="1001"/>
+        <references refid="classTriggerChannelMenu_1acc78c4a0f47c1563518aead3115d68a9" compoundref="form__menus_8h" startline="1021" endline="1026">getChannel</references>
+      </memberdef>
+      <memberdef kind="function" id="classTriggerChannelMenu_1a32c73012952e47163f52835be4218f6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TriggerChannelMenu::~TriggerChannelMenu</definition>
+        <argsstring>() override</argsstring>
+        <name>~TriggerChannelMenu</name>
+        <qualifiedname>TriggerChannelMenu::~TriggerChannelMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1003" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1003" bodyend="1003"/>
+      </memberdef>
+      <memberdef kind="function" id="classTriggerChannelMenu_1a5d7ef3c60e8042a61473705a944ff867" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TriggerChannelMenu::getNumActions</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumActions</name>
+        <qualifiedname>TriggerChannelMenu::getNumActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1005" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1005" bodyend="1005"/>
+      </memberdef>
+      <memberdef kind="function" id="classTriggerChannelMenu_1aed4131d7c339ebe0fdff1ee9dcab8c48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * TriggerChannelMenu::getAction</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>getAction</name>
+        <qualifiedname>TriggerChannelMenu::getAction</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1007" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1007" bodyend="1014"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classTriggerChannelMenu_1ae1e2cbe2299e0a9292edb0833db7eada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerChannelMenu::whichTrigger</definition>
+        <argsstring>(int n)</argsstring>
+        <name>whichTrigger</name>
+        <qualifiedname>TriggerChannelMenu::whichTrigger</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1018" column="10"/>
+        <referencedby refid="classTriggerChannelMenu_1acc78c4a0f47c1563518aead3115d68a9" compoundref="form__menus_8h" startline="1021" endline="1026">getChannel</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classTriggerChannelMenu_1acc78c4a0f47c1563518aead3115d68a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerChannelMenu::getChannel</definition>
+        <argsstring>()</argsstring>
+        <name>getChannel</name>
+        <qualifiedname>TriggerChannelMenu::getChannel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1021" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1021" bodyend="1026"/>
+        <references refid="classTriggerChannelMenu_1ae1e2cbe2299e0a9292edb0833db7eada">whichTrigger</references>
+        <referencedby refid="classTriggerChannelMenu_1a41413c73b95c119082b06aeb6b3ee185" compoundref="form__menus_8h" startline="990" endline="1001">TriggerChannelMenu</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+      <node id="1">
+        <label>TriggerChannelMenu</label>
+        <link refid="classTriggerChannelMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+      <node id="1">
+        <label>TriggerChannelMenu</label>
+        <link refid="classTriggerChannelMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="985" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="986" bodyend="1031"/>
+    <listofallmembers>
+      <member refid="classTriggerChannelMenu_1a525a619ff5086f7e8a9cf0ead511b81f" prot="private" virt="non-virtual"><scope>TriggerChannelMenu</scope><name>d_act</name></member>
+      <member refid="classTriggerChannelMenu_1aa03dd415f0084d1abb8731defb9e5523" prot="private" virt="non-virtual"><scope>TriggerChannelMenu</scope><name>d_grp</name></member>
+      <member refid="classTriggerChannelMenu_1aed4131d7c339ebe0fdff1ee9dcab8c48" prot="public" virt="non-virtual"><scope>TriggerChannelMenu</scope><name>getAction</name></member>
+      <member refid="classTriggerChannelMenu_1acc78c4a0f47c1563518aead3115d68a9" prot="public" virt="non-virtual"><scope>TriggerChannelMenu</scope><name>getChannel</name></member>
+      <member refid="classTriggerChannelMenu_1a5d7ef3c60e8042a61473705a944ff867" prot="public" virt="non-virtual"><scope>TriggerChannelMenu</scope><name>getNumActions</name></member>
+      <member refid="classTriggerChannelMenu_1a41413c73b95c119082b06aeb6b3ee185" prot="public" virt="non-virtual"><scope>TriggerChannelMenu</scope><name>TriggerChannelMenu</name></member>
+      <member refid="classTriggerChannelMenu_1ae1e2cbe2299e0a9292edb0833db7eada" prot="public" virt="non-virtual"><scope>TriggerChannelMenu</scope><name>whichTrigger</name></member>
+      <member refid="classTriggerChannelMenu_1a32c73012952e47163f52835be4218f6b" prot="public" virt="non-virtual"><scope>TriggerChannelMenu</scope><name>~TriggerChannelMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

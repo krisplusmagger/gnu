@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="gr-iio_2include_2gnuradio_2iio_2api_8h" kind="file" language="C++">
+    <compoundname>gr-iio/include/gnuradio/iio/api.h</compoundname>
+    <includes refid="attributes_8h" local="no">gnuradio/attributes.h</includes>
+    <includedby refid="attr__sink_8h" local="no">attr_sink.h</includedby>
+    <includedby refid="attr__source_8h" local="no">attr_source.h</includedby>
+    <includedby refid="attr__updater_8h" local="no">attr_updater.h</includedby>
+    <includedby refid="dds__control_8h" local="no">dds_control.h</includedby>
+    <includedby refid="device__sink_8h" local="no">device_sink.h</includedby>
+    <includedby refid="device__source_8h" local="no">device_source.h</includedby>
+    <includedby refid="fmcomms2__sink_8h" local="no">fmcomms2_sink.h</includedby>
+    <includedby refid="fmcomms2__source_8h" local="no">fmcomms2_source.h</includedby>
+    <includedby refid="iio__types_8h" local="no">iio_types.h</includedby>
+    <includedby refid="pluto__utils_8h" local="no">pluto_utils.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="gr-iio_2include_2gnuradio_2iio_2api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="gr-iio_2include_2gnuradio_2iio_2api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>attr_sink.h</label>
+        <link refid="attr__sink_8h"/>
+      </node>
+      <node id="3">
+        <label>attr_source.h</label>
+        <link refid="attr__source_8h"/>
+      </node>
+      <node id="4">
+        <label>attr_updater.h</label>
+        <link refid="attr__updater_8h"/>
+      </node>
+      <node id="5">
+        <label>dds_control.h</label>
+        <link refid="dds__control_8h"/>
+      </node>
+      <node id="6">
+        <label>device_sink.h</label>
+        <link refid="device__sink_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>device_source.h</label>
+        <link refid="device__source_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>fmcomms2_sink.h</label>
+        <link refid="fmcomms2__sink_8h"/>
+      </node>
+      <node id="9">
+        <label>fmcomms2_source.h</label>
+        <link refid="fmcomms2__source_8h"/>
+      </node>
+      <node id="10">
+        <label>iio_types.h</label>
+        <link refid="iio__types_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>pluto_utils.h</label>
+        <link refid="pluto__utils_8h"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="gr-iio_2include_2gnuradio_2iio_2api_8h_1a4fe5c81546d6371cb03d51cd640ef299" prot="public" static="no">
+        <name>IIO_API</name>
+        <initializer><ref refid="attributes_8h_1a17b9cb3c185c92af4799ec9b0a38f3c1" kindref="member">__GR_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-iio/include/gnuradio/iio/api.h" line="18" column="10" bodyfile="/home/desktop2/gnuradio/gr-iio/include/gnuradio/iio/api.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-iio/include/gnuradio/iio/api.h"/>
+  </compounddef>
+</doxygen>

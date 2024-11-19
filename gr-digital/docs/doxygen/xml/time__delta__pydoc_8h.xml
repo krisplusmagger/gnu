@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="time__delta__pydoc_8h" kind="file" language="C++">
+    <compoundname>time_delta_pydoc.h</compoundname>
+    <includes refid="build_2gr-pdu_2python_2pdu_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-pdu_2python_2pdu_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>time_delta_pydoc.h</label>
+        <link refid="time__delta__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="time__delta__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, pdu, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-pdu/python/pdu/bindings/time_delta_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-pdu/python/pdu/bindings/time_delta_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="time__delta__pydoc_8h_1acbed717302e83948d7762a45fbca8a4d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_pdu_time_delta</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_pdu_time_delta</name>
+        <initializer>= R&quot;doc(Compute system time differences and provide statistics upon completion.
+
+This block computes the difference between the current system time and a defined PDU key previously added (e.g.: by by the add_system_time block). This is useful for benchmarking PDU operations. The block also maintains running estimates of mean and variance, accessible by getters and printed when the flowgraph is stopped.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of pdu::time_delta.
+
+Args:
+    delta_key : - key to use for time delta metadata field
+    time_key : - key to use as reference time for delta)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-pdu/python/pdu/bindings/time_delta_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-pdu/python/pdu/bindings/time_delta_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__delta__pydoc_8h_1a27571cf660b0c35c2f078ae7e2b1b72f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_pdu_time_delta_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_pdu_time_delta_make</name>
+        <initializer>= R&quot;doc(Compute system time differences and provide statistics upon completion.
+
+This block computes the difference between the current system time and a defined PDU key previously added (e.g.: by by the add_system_time block). This is useful for benchmarking PDU operations. The block also maintains running estimates of mean and variance, accessible by getters and printed when the flowgraph is stopped.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of pdu::time_delta.
+
+Args:
+    delta_key : - key to use for time delta metadata field
+    time_key : - key to use as reference time for delta)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-pdu/python/pdu/bindings/time_delta_pydoc.h" line="31" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-pdu/python/pdu/bindings/time_delta_pydoc.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-pdu/python/pdu/bindings/time_delta_pydoc.h"/>
+  </compounddef>
+</doxygen>

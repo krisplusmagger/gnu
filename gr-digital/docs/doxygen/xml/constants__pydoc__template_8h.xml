@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="constants__pydoc__template_8h" kind="file" language="C++">
+    <compoundname>constants_pydoc_template.h</compoundname>
+    <includes local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>constants_pydoc_template.h</label>
+        <link refid="constants__pydoc__template_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="constants__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="constants__pydoc__template_8h_1ae8bfd56cabd80ab9b58dff2ad3cb408b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_prefix</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_prefix</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants__pydoc__template_8h_1abfe5a7b670714859655c40f253d614df" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_sysconfdir</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_sysconfdir</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" line="21" column="19" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants__pydoc__template_8h_1ab8cb1ee0676318501797566e2434f88c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_prefsdir</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_prefsdir</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" line="24" column="19" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants__pydoc__template_8h_1a188796799fbf31e73eb9c23a8459213c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_build_date</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_build_date</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" line="27" column="19" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants__pydoc__template_8h_1a963a40807a58294496b295d07a97c8ad" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_version</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_version</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" line="30" column="19" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants__pydoc__template_8h_1ac1c5f9966a80d407d47450a1a08061c9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_major_version</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_major_version</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants__pydoc__template_8h_1afabe596b1d2a46f189dac8b3d9407861" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_api_version</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_api_version</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants__pydoc__template_8h_1aacc08eb01df6773dd16ad74614a1229c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_minor_version</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_minor_version</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants__pydoc__template_8h_1aa4e37805fe48913983269b6347177c5d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_c_compiler</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_c_compiler</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" line="42" column="19" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants__pydoc__template_8h_1a5fea0966f791d163b3d9472171d6021e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_cxx_compiler</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_cxx_compiler</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" line="45" column="19" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants__pydoc__template_8h_1a5a5e641926634ee2129f80cc3d7db9d2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_compiler_flags</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_compiler_flags</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants__pydoc__template_8h_1adecea75c3697bb48c160cf9e73c0746b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_build_time_enabled_components</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_build_time_enabled_components</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/python/gnuradio/gr/bindings/docstrings/constants_pydoc_template.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1dtv_1_1plinfo" kind="class" language="C++" prot="public">
+    <compoundname>gr::dtv::plinfo</compoundname>
+    <includes refid="atsc__plinfo_8h" local="no">gnuradio/dtv/atsc_plinfo.h</includes>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgr_1_1dtv_1_1plinfo_1ad754d154806c20cb3752d91efd90a83e" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int gr::dtv::plinfo::fl_regular_seg</definition>
+        <argsstring></argsstring>
+        <name>fl_regular_seg</name>
+        <qualifiedname>gr::dtv::plinfo::fl_regular_seg</qualifiedname>
+        <initializer>= 0x0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="76" column="26" bodyfile="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1dtv_1_1plinfo_1ab326a2ced4318fec1d6187f4ba21766c" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int gr::dtv::plinfo::fl_field_sync1</definition>
+        <argsstring></argsstring>
+        <name>fl_field_sync1</name>
+        <qualifiedname>gr::dtv::plinfo::fl_field_sync1</qualifiedname>
+        <initializer>= 0x0002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="78" column="26" bodyfile="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1dtv_1_1plinfo_1a6c2ecb31108c570a6f1ef981a53eeaef" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int gr::dtv::plinfo::fl_field_sync2</definition>
+        <argsstring></argsstring>
+        <name>fl_field_sync2</name>
+        <qualifiedname>gr::dtv::plinfo::fl_field_sync2</qualifiedname>
+        <initializer>= 0x0004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="80" column="26" bodyfile="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1dtv_1_1plinfo_1afcaa4b35632ecd4f9a289bfee8387592" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int gr::dtv::plinfo::fl_first_regular_seg</definition>
+        <argsstring></argsstring>
+        <name>fl_first_regular_seg</name>
+        <qualifiedname>gr::dtv::plinfo::fl_first_regular_seg</qualifiedname>
+        <initializer>= 0x0008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="85" column="26" bodyfile="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1dtv_1_1plinfo_1a31dba1a61db07d45fe26c2437a67a20b" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int gr::dtv::plinfo::fl_field2</definition>
+        <argsstring></argsstring>
+        <name>fl_field2</name>
+        <qualifiedname>gr::dtv::plinfo::fl_field2</qualifiedname>
+        <initializer>= 0x0010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="88" column="26" bodyfile="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1dtv_1_1plinfo_1acc7b8528b751479b4a7dbc93c12fdf09" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int gr::dtv::plinfo::fl_transport_error</definition>
+        <argsstring></argsstring>
+        <name>fl_transport_error</name>
+        <qualifiedname>gr::dtv::plinfo::fl_transport_error</qualifiedname>
+        <initializer>= 0x0020</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="95" column="26" bodyfile="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1dtv_1_1plinfo_1acdd8f5bb49e6f52aec858b8ae1ca3e29" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::dtv::plinfo::d_flags</definition>
+        <argsstring></argsstring>
+        <name>d_flags</name>
+        <qualifiedname>gr::dtv::plinfo::d_flags</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="98" column="14" bodyfile="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1dtv_1_1plinfo_1a133f79889f5ed38dbd997b8f8bfa604f" prot="private" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t gr::dtv::plinfo::d_segno</definition>
+        <argsstring></argsstring>
+        <name>d_segno</name>
+        <qualifiedname>gr::dtv::plinfo::d_segno</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="99" column="13" bodyfile="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1abfebd8f15afc55eeadb1cbaf139cf9b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::dtv::plinfo::plinfo</definition>
+        <argsstring>()</argsstring>
+        <name>plinfo</name>
+        <qualifiedname>gr::dtv::plinfo::plinfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="32" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1ac898532fbe5f3e01681f252df4632db4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::dtv::plinfo::plinfo</definition>
+        <argsstring>(uint16_t flags, int16_t segno)</argsstring>
+        <name>plinfo</name>
+        <qualifiedname>gr::dtv::plinfo::plinfo</qualifiedname>
+        <param>
+          <type>uint16_t</type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>segno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="33" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1aa8482e43a1cafb51decf8c5becc7658b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::dtv::plinfo::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>gr::dtv::plinfo::reset</qualifiedname>
+        <briefdescription>
+<para>Resets the flags and segno fields. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="39" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1ae23c2f6e2cdd588107472f00eb98be77" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::dtv::plinfo::field_sync1_p</definition>
+        <argsstring>() const</argsstring>
+        <name>field_sync1_p</name>
+        <qualifiedname>gr::dtv::plinfo::field_sync1_p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="42" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1ae5aea434d43b2d56f0eecc3fb85a8be2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::dtv::plinfo::field_sync2_p</definition>
+        <argsstring>() const</argsstring>
+        <name>field_sync2_p</name>
+        <qualifiedname>gr::dtv::plinfo::field_sync2_p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="43" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1a1a0f42cd8482fe4106f2b481ab7ead66" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::dtv::plinfo::field_sync_p</definition>
+        <argsstring>() const</argsstring>
+        <name>field_sync_p</name>
+        <qualifiedname>gr::dtv::plinfo::field_sync_p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="44" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1a7ad1758858717b357a3970f58bd6eae4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::dtv::plinfo::regular_seg_p</definition>
+        <argsstring>() const</argsstring>
+        <name>regular_seg_p</name>
+        <qualifiedname>gr::dtv::plinfo::regular_seg_p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="46" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1a13a3cf9a318caa0db88ae93c4883dd57" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::dtv::plinfo::in_field1_p</definition>
+        <argsstring>() const</argsstring>
+        <name>in_field1_p</name>
+        <qualifiedname>gr::dtv::plinfo::in_field1_p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="48" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1a5a2713d1a2cdc2bcc280f89fb4f94d43" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::dtv::plinfo::in_field2_p</definition>
+        <argsstring>() const</argsstring>
+        <name>in_field2_p</name>
+        <qualifiedname>gr::dtv::plinfo::in_field2_p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="49" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1af5bd6e91f1727793c6061ffc9b42ec92" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::dtv::plinfo::first_regular_seg_p</definition>
+        <argsstring>() const</argsstring>
+        <name>first_regular_seg_p</name>
+        <qualifiedname>gr::dtv::plinfo::first_regular_seg_p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="51" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1a441d548d5dc9638bf082881509ae2141" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::dtv::plinfo::transport_error_p</definition>
+        <argsstring>() const</argsstring>
+        <name>transport_error_p</name>
+        <qualifiedname>gr::dtv::plinfo::transport_error_p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="53" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1a0dbcb4a7bd8c3d9da819fa9c7d741610" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::dtv::plinfo::segno</definition>
+        <argsstring>() const</argsstring>
+        <name>segno</name>
+        <qualifiedname>gr::dtv::plinfo::segno</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="55" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1a6007c7da1d115d60952d2fe77e1ec312" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::dtv::plinfo::flags</definition>
+        <argsstring>() const</argsstring>
+        <name>flags</name>
+        <qualifiedname>gr::dtv::plinfo::flags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="56" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1aa323a4a64068f83e0793c540d3c6ed80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::dtv::plinfo::set_field_sync1</definition>
+        <argsstring>()</argsstring>
+        <name>set_field_sync1</name>
+        <qualifiedname>gr::dtv::plinfo::set_field_sync1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="60" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1a9260755b34b882b9f26488d1d286baf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::dtv::plinfo::set_field_sync2</definition>
+        <argsstring>()</argsstring>
+        <name>set_field_sync2</name>
+        <qualifiedname>gr::dtv::plinfo::set_field_sync2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="62" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1a1ee2e1a57fb0ea9fc86efa170fd211c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::dtv::plinfo::set_regular_seg</definition>
+        <argsstring>(bool field2, int segno)</argsstring>
+        <name>set_regular_seg</name>
+        <qualifiedname>gr::dtv::plinfo::set_regular_seg</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>field2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>segno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="64" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1a2d5e0dd237fa234b384a77acb96c3edc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::dtv::plinfo::set_transport_error</definition>
+        <argsstring>(bool error)</argsstring>
+        <name>set_transport_error</name>
+        <qualifiedname>gr::dtv::plinfo::set_transport_error</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="66" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1dtv_1_1plinfo_1a945c38d8e549ccc63c8373bb7ecdad8d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void gr::dtv::plinfo::delay</definition>
+        <argsstring>(plinfo &amp;out, const plinfo &amp;in, int nsegs_of_delay)</argsstring>
+        <name>delay</name>
+        <qualifiedname>gr::dtv::plinfo::delay</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1dtv_1_1plinfo" kindref="compound">plinfo</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgr_1_1dtv_1_1plinfo" kindref="compound">plinfo</ref> &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nsegs_of_delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <computeroutput>OUT</computeroutput> such that it reflects a <computeroutput>NSEGS_OF_DELAY</computeroutput> pipeline delay from <computeroutput>IN</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="72" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>pipeline info that flows with data </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Not all modules need all the info </para>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" line="29" column="1" bodyfile="/home/desktop2/gnuradio/gr-dtv/include/gnuradio/dtv/atsc_plinfo.h" bodystart="30" bodyend="100"/>
+    <listofallmembers>
+      <member refid="classgr_1_1dtv_1_1plinfo_1acdd8f5bb49e6f52aec858b8ae1ca3e29" prot="private" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>d_flags</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1a133f79889f5ed38dbd997b8f8bfa604f" prot="private" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>d_segno</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1a945c38d8e549ccc63c8373bb7ecdad8d" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>delay</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1ae23c2f6e2cdd588107472f00eb98be77" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>field_sync1_p</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1ae5aea434d43b2d56f0eecc3fb85a8be2" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>field_sync2_p</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1a1a0f42cd8482fe4106f2b481ab7ead66" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>field_sync_p</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1af5bd6e91f1727793c6061ffc9b42ec92" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>first_regular_seg_p</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1a31dba1a61db07d45fe26c2437a67a20b" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>fl_field2</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1ab326a2ced4318fec1d6187f4ba21766c" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>fl_field_sync1</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1a6c2ecb31108c570a6f1ef981a53eeaef" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>fl_field_sync2</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1afcaa4b35632ecd4f9a289bfee8387592" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>fl_first_regular_seg</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1ad754d154806c20cb3752d91efd90a83e" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>fl_regular_seg</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1acc7b8528b751479b4a7dbc93c12fdf09" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>fl_transport_error</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1a6007c7da1d115d60952d2fe77e1ec312" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>flags</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1a13a3cf9a318caa0db88ae93c4883dd57" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>in_field1_p</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1a5a2713d1a2cdc2bcc280f89fb4f94d43" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>in_field2_p</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1abfebd8f15afc55eeadb1cbaf139cf9b9" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>plinfo</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1ac898532fbe5f3e01681f252df4632db4" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>plinfo</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1a7ad1758858717b357a3970f58bd6eae4" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>regular_seg_p</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1aa8482e43a1cafb51decf8c5becc7658b" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>reset</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1a0dbcb4a7bd8c3d9da819fa9c7d741610" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>segno</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1aa323a4a64068f83e0793c540d3c6ed80" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>set_field_sync1</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1a9260755b34b882b9f26488d1d286baf1" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>set_field_sync2</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1a1ee2e1a57fb0ea9fc86efa170fd211c6" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>set_regular_seg</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1a2d5e0dd237fa234b384a77acb96c3edc" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>set_transport_error</name></member>
+      <member refid="classgr_1_1dtv_1_1plinfo_1a441d548d5dc9638bf082881509ae2141" prot="public" virt="non-virtual"><scope>gr::dtv::plinfo</scope><name>transport_error_p</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1dictionary__logger__backend" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>gr::dictionary_logger_backend</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">spdlog::sinks::base_sink&lt; spdlog::details::null_mutex &gt;</basecompoundref>
+    <includes refid="dictionary__logger__backend_8h" local="no">gnuradio/dictionary_logger_backend.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1dictionary__logger__backend_1afacf5c362bf9dbc3d79305e633039dd5" prot="public" static="no">
+        <type>std::pair&lt; spdlog::log_clock::time_point, std::string &gt;</type>
+        <definition>using gr::dictionary_logger_backend::log_entry =  std::pair&lt;spdlog::log_clock::time_point, std::string&gt;</definition>
+        <argsstring></argsstring>
+        <name>log_entry</name>
+        <qualifiedname>gr::dictionary_logger_backend::log_entry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" line="38" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgr_1_1dictionary__logger__backend_1aa0fc585cd47a0b277f7af23d416017b6" prot="public" static="no">
+        <type>std::unordered_map&lt; std::string, std::set&lt; <ref refid="classgr_1_1dictionary__logger__backend_1afacf5c362bf9dbc3d79305e633039dd5" kindref="member">log_entry</ref> &gt; &gt;</type>
+        <definition>using gr::dictionary_logger_backend::log_map =  std::unordered_map&lt;std::string, std::set&lt;log_entry&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>log_map</name>
+        <qualifiedname>gr::dictionary_logger_backend::log_map</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" line="39" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1dictionary__logger__backend_1ac24d6dea3b96b71d7e5a52b8142848fd" prot="private" static="no" mutable="yes">
+        <type>std::mutex</type>
+        <definition>std::mutex gr::dictionary_logger_backend::map_mutex</definition>
+        <argsstring></argsstring>
+        <name>map_mutex</name>
+        <qualifiedname>gr::dictionary_logger_backend::map_mutex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" line="59" column="24" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1dictionary__logger__backend_1aff9d9c542bdd3eb202e0529942eecfaf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::dictionary_logger_backend::has_regex</definition>
+        <argsstring></argsstring>
+        <name>has_regex</name>
+        <qualifiedname>gr::dictionary_logger_backend::has_regex</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" line="60" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1dictionary__logger__backend_1ae419fed271f37f138beb593c2cd2f9dd" prot="private" static="no" mutable="no">
+        <type>std::regex</type>
+        <definition>std::regex gr::dictionary_logger_backend::src_regex</definition>
+        <argsstring></argsstring>
+        <name>src_regex</name>
+        <qualifiedname>gr::dictionary_logger_backend::src_regex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" line="61" column="16" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1dictionary__logger__backend_1ab2f39e52800d1e18de1f5a482e663656" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1dictionary__logger__backend_1aa0fc585cd47a0b277f7af23d416017b6" kindref="member">log_map</ref></type>
+        <definition>log_map gr::dictionary_logger_backend::log_entries</definition>
+        <argsstring></argsstring>
+        <name>log_entries</name>
+        <qualifiedname>gr::dictionary_logger_backend::log_entries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" line="62" column="13" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1dictionary__logger__backend_1abf4606f25f80bc592c7efe33767a64bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::dictionary_logger_backend::dictionary_logger_backend</definition>
+        <argsstring>()</argsstring>
+        <name>dictionary_logger_backend</name>
+        <qualifiedname>gr::dictionary_logger_backend::dictionary_logger_backend</qualifiedname>
+        <briefdescription>
+<para>Create unfiltered logger. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" line="42" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dictionary__logger__backend_1a46bb0377d64cee8a029b240876cd6f69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::dictionary_logger_backend::dictionary_logger_backend</definition>
+        <argsstring>(std::regex src_regex)</argsstring>
+        <name>dictionary_logger_backend</name>
+        <qualifiedname>gr::dictionary_logger_backend::dictionary_logger_backend</qualifiedname>
+        <param>
+          <type>std::regex</type>
+          <declname>src_regex</declname>
+        </param>
+        <briefdescription>
+<para>Create logger that filters according to the specified regex. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" line="45" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dictionary__logger__backend_1a3cd52a374684879d5b83e43bffe673e6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgr_1_1dictionary__logger__backend_1aa0fc585cd47a0b277f7af23d416017b6" kindref="member">log_map</ref></type>
+        <definition>log_map gr::dictionary_logger_backend::get_map</definition>
+        <argsstring>() const</argsstring>
+        <name>get_map</name>
+        <qualifiedname>gr::dictionary_logger_backend::get_map</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" line="50" column="13" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dictionary__logger__backend_1ad84f79752482a8506779479f9a3555f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::dictionary_logger_backend::~dictionary_logger_backend</definition>
+        <argsstring>() override</argsstring>
+        <name>~dictionary_logger_backend</name>
+        <qualifiedname>gr::dictionary_logger_backend::~dictionary_logger_backend</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" line="52" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1dictionary__logger__backend_1a976eefe8aa4e6e46b33d43557aa8ab57" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::dictionary_logger_backend::sink_it_</definition>
+        <argsstring>(const spdlog::details::log_msg &amp;message) override</argsstring>
+        <name>sink_it_</name>
+        <qualifiedname>gr::dictionary_logger_backend::sink_it_</qualifiedname>
+        <param>
+          <type>const spdlog::details::log_msg &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" line="55" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dictionary__logger__backend_1a31f1fa0c4949f1e4068ba8218c8fad61" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::dictionary_logger_backend::flush_</definition>
+        <argsstring>() override</argsstring>
+        <name>flush_</name>
+        <qualifiedname>gr::dictionary_logger_backend::flush_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" line="56" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>In-Memory Logger. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Logs the messages passing by, sorted by the name of the logger logging them.</para>
+<para>Use by adding a <computeroutput>std::shared_ptr</computeroutput> to this to the logging system, i.e., make a logger <computeroutput>auto new_backend = std::make_shared&lt;<ref refid="classgr_1_1dictionary__logger__backend" kindref="compound">gr::dictionary_logger_backend</ref>&gt;();</computeroutput> and use it through: <computeroutput><ref refid="classgr_1_1logging_1ac7797b1634d431ee66f1358135d2a33d" kindref="member">gr::logging.singleton()</ref>-&gt;add_default_backend(new_backend);</computeroutput></para>
+<para>After running your work load, get the map and fetch the logged messages from that. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::dictionary_logger_backend</label>
+        <link refid="classgr_1_1dictionary__logger__backend"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>spdlog::sinks::base_sink&lt; spdlog::details::null_mutex &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::dictionary_logger_backend</label>
+        <link refid="classgr_1_1dictionary__logger__backend"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>spdlog::sinks::base_sink&lt; spdlog::details::null_mutex &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" line="34" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/dictionary_logger_backend.h" bodystart="36" bodyend="63"/>
+    <listofallmembers>
+      <member refid="classgr_1_1dictionary__logger__backend_1abf4606f25f80bc592c7efe33767a64bd" prot="public" virt="non-virtual"><scope>gr::dictionary_logger_backend</scope><name>dictionary_logger_backend</name></member>
+      <member refid="classgr_1_1dictionary__logger__backend_1a46bb0377d64cee8a029b240876cd6f69" prot="public" virt="non-virtual"><scope>gr::dictionary_logger_backend</scope><name>dictionary_logger_backend</name></member>
+      <member refid="classgr_1_1dictionary__logger__backend_1a31f1fa0c4949f1e4068ba8218c8fad61" prot="protected" virt="non-virtual"><scope>gr::dictionary_logger_backend</scope><name>flush_</name></member>
+      <member refid="classgr_1_1dictionary__logger__backend_1a3cd52a374684879d5b83e43bffe673e6" prot="public" virt="non-virtual"><scope>gr::dictionary_logger_backend</scope><name>get_map</name></member>
+      <member refid="classgr_1_1dictionary__logger__backend_1aff9d9c542bdd3eb202e0529942eecfaf" prot="private" virt="non-virtual"><scope>gr::dictionary_logger_backend</scope><name>has_regex</name></member>
+      <member refid="classgr_1_1dictionary__logger__backend_1ab2f39e52800d1e18de1f5a482e663656" prot="private" virt="non-virtual"><scope>gr::dictionary_logger_backend</scope><name>log_entries</name></member>
+      <member refid="classgr_1_1dictionary__logger__backend_1afacf5c362bf9dbc3d79305e633039dd5" prot="public" virt="non-virtual"><scope>gr::dictionary_logger_backend</scope><name>log_entry</name></member>
+      <member refid="classgr_1_1dictionary__logger__backend_1aa0fc585cd47a0b277f7af23d416017b6" prot="public" virt="non-virtual"><scope>gr::dictionary_logger_backend</scope><name>log_map</name></member>
+      <member refid="classgr_1_1dictionary__logger__backend_1ac24d6dea3b96b71d7e5a52b8142848fd" prot="private" virt="non-virtual"><scope>gr::dictionary_logger_backend</scope><name>map_mutex</name></member>
+      <member refid="classgr_1_1dictionary__logger__backend_1a976eefe8aa4e6e46b33d43557aa8ab57" prot="protected" virt="non-virtual"><scope>gr::dictionary_logger_backend</scope><name>sink_it_</name></member>
+      <member refid="classgr_1_1dictionary__logger__backend_1ae419fed271f37f138beb593c2cd2f9dd" prot="private" virt="non-virtual"><scope>gr::dictionary_logger_backend</scope><name>src_regex</name></member>
+      <member refid="classgr_1_1dictionary__logger__backend_1ad84f79752482a8506779479f9a3555f4" prot="public" virt="non-virtual"><scope>gr::dictionary_logger_backend</scope><name>~dictionary_logger_backend</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

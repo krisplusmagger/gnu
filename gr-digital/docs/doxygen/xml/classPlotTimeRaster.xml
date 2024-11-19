@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classPlotTimeRaster" kind="class" language="C++" prot="public">
+    <compoundname>PlotTimeRaster</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QwtPlotRasterItem</basecompoundref>
+    <includes refid="plot__raster_8h" local="no">gnuradio/qtgui/plot_raster.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPlotTimeRaster_1afbba53b08bcac28fedded5fb84efb53d" prot="private" static="no" mutable="no">
+        <type>PrivateData *</type>
+        <definition>PrivateData* PlotTimeRaster::d_data</definition>
+        <argsstring></argsstring>
+        <name>d_data</name>
+        <qualifiedname>PlotTimeRaster::d_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_raster.h" line="60" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_raster.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPlotTimeRaster_1a6c9c92386cc0c9dddcef0b2195419e6a" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlotTimeRaster::PlotTimeRaster</definition>
+        <argsstring>(const QString &amp;title=QString())</argsstring>
+        <name>PlotTimeRaster</name>
+        <qualifiedname>PlotTimeRaster::PlotTimeRaster</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>title</declname>
+          <defval>QString()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_raster.h" line="37" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classPlotTimeRaster_1a929187facc5813b3234121c0691e393f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlotTimeRaster::~PlotTimeRaster</definition>
+        <argsstring>() override</argsstring>
+        <name>~PlotTimeRaster</name>
+        <qualifiedname>PlotTimeRaster::~PlotTimeRaster</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_raster.h" line="38" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classPlotTimeRaster_1ad30fa72fc3cc949eb23676144f69dc88" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classTimeRasterData" kindref="compound">TimeRasterData</ref> *</type>
+        <definition>const TimeRasterData * PlotTimeRaster::data</definition>
+        <argsstring>() const</argsstring>
+        <name>data</name>
+        <qualifiedname>PlotTimeRaster::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_raster.h" line="40" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classPlotTimeRaster_1a48d589746059eafa34b7bec515673195" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlotTimeRaster::setData</definition>
+        <argsstring>(TimeRasterData *data)</argsstring>
+        <name>setData</name>
+        <qualifiedname>PlotTimeRaster::setData</qualifiedname>
+        <param>
+          <type><ref refid="classTimeRasterData" kindref="compound">TimeRasterData</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_raster.h" line="42" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classPlotTimeRaster_1a6582913a604d7a7aa3145e2ff1ba428d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlotTimeRaster::setColorMap</definition>
+        <argsstring>(const QwtColorMap *map)</argsstring>
+        <name>setColorMap</name>
+        <qualifiedname>PlotTimeRaster::setColorMap</qualifiedname>
+        <param>
+          <type>const QwtColorMap *</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_raster.h" line="44" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classPlotTimeRaster_1ac9630b17f693f0d3ec09a11289b26649" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QwtColorMap &amp;</type>
+        <definition>const QwtColorMap &amp; PlotTimeRaster::colorMap</definition>
+        <argsstring>() const</argsstring>
+        <name>colorMap</name>
+        <qualifiedname>PlotTimeRaster::colorMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_raster.h" line="46" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classPlotTimeRaster_1a2d7d601cf7e9bc31df6f8615f7abcde6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QwtInterval</type>
+        <definition>QwtInterval PlotTimeRaster::interval</definition>
+        <argsstring>(Qt::Axis ax) const override</argsstring>
+        <name>interval</name>
+        <qualifiedname>PlotTimeRaster::interval</qualifiedname>
+        <param>
+          <type>Qt::Axis</type>
+          <declname>ax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_raster.h" line="48" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classPlotTimeRaster_1ac47802ce9cd93f0c89fbedd9a9f7450e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PlotTimeRaster::rtti</definition>
+        <argsstring>() const override</argsstring>
+        <name>rtti</name>
+        <qualifiedname>PlotTimeRaster::rtti</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_raster.h" line="50" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classPlotTimeRaster_1a28c0066d2e473fcb948d3d2d6c109348" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QImage</type>
+        <definition>QImage PlotTimeRaster::renderImage</definition>
+        <argsstring>(const QwtScaleMap &amp;xMap, const QwtScaleMap &amp;yMap, const QRectF &amp;rect, const QSize &amp;size=QSize(0, 0)) const override</argsstring>
+        <name>renderImage</name>
+        <qualifiedname>PlotTimeRaster::renderImage</qualifiedname>
+        <param>
+          <type>const QwtScaleMap &amp;</type>
+          <declname>xMap</declname>
+        </param>
+        <param>
+          <type>const QwtScaleMap &amp;</type>
+          <declname>yMap</declname>
+        </param>
+        <param>
+          <type>const QRectF &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>const QSize &amp;</type>
+          <declname>size</declname>
+          <defval>QSize(0, 0)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_raster.h" line="53" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A plot item, which displays a time raster. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>A time raster displays three-dimensional data, where the 3rd dimension (the intensity) is displayed using colors. The colors are calculated from the values using a color map.</para>
+<para><simplesect kind="see"><para>QwtRasterData, QwtColorMap </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PlotTimeRaster</label>
+        <link refid="classPlotTimeRaster"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QwtPlotRasterItem</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PlotTimeRaster</label>
+        <link refid="classPlotTimeRaster"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QwtPlotRasterItem</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_raster.h" line="34" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_raster.h" bodystart="35" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classPlotTimeRaster_1ac9630b17f693f0d3ec09a11289b26649" prot="public" virt="non-virtual"><scope>PlotTimeRaster</scope><name>colorMap</name></member>
+      <member refid="classPlotTimeRaster_1afbba53b08bcac28fedded5fb84efb53d" prot="private" virt="non-virtual"><scope>PlotTimeRaster</scope><name>d_data</name></member>
+      <member refid="classPlotTimeRaster_1ad30fa72fc3cc949eb23676144f69dc88" prot="public" virt="non-virtual"><scope>PlotTimeRaster</scope><name>data</name></member>
+      <member refid="classPlotTimeRaster_1a2d7d601cf7e9bc31df6f8615f7abcde6" prot="public" virt="non-virtual"><scope>PlotTimeRaster</scope><name>interval</name></member>
+      <member refid="classPlotTimeRaster_1a6c9c92386cc0c9dddcef0b2195419e6a" prot="public" virt="non-virtual"><scope>PlotTimeRaster</scope><name>PlotTimeRaster</name></member>
+      <member refid="classPlotTimeRaster_1a28c0066d2e473fcb948d3d2d6c109348" prot="protected" virt="non-virtual"><scope>PlotTimeRaster</scope><name>renderImage</name></member>
+      <member refid="classPlotTimeRaster_1ac47802ce9cd93f0c89fbedd9a9f7450e" prot="public" virt="non-virtual"><scope>PlotTimeRaster</scope><name>rtti</name></member>
+      <member refid="classPlotTimeRaster_1a6582913a604d7a7aa3145e2ff1ba428d" prot="public" virt="non-virtual"><scope>PlotTimeRaster</scope><name>setColorMap</name></member>
+      <member refid="classPlotTimeRaster_1a48d589746059eafa34b7bec515673195" prot="public" virt="non-virtual"><scope>PlotTimeRaster</scope><name>setData</name></member>
+      <member refid="classPlotTimeRaster_1a929187facc5813b3234121c0691e393f" prot="public" virt="non-virtual"><scope>PlotTimeRaster</scope><name>~PlotTimeRaster</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

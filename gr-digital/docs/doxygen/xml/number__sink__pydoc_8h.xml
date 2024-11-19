@@ -1,0 +1,498 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="number__sink__pydoc_8h" kind="file" language="C++">
+    <compoundname>number_sink_pydoc.h</compoundname>
+    <includes refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>number_sink_pydoc.h</label>
+        <link refid="number__sink__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="number__sink__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, qtgui, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a45ef7319580e91b6a2541067486efe65" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink</name>
+        <initializer>= R&quot;doc(A graphical sink to display numerical values of input streams.
+
+Displays the data stream in as a number in a simple text box GUI along with an optional bar graph. The bar graph can be set to horizontal (NUM_GRAPH_HORIZ), vertical (NUM_GRAPH_VERT), or no graph (NUM_GRAPH_NONE).
+
+
+The displayed value can be the average of the input stream, in which case all items received are averaged. If not averaging, the display simply samples a value in the data stream based on the update time of this block.
+
+
+Note that due to a flaw in the implementation, this block cannot receive integer value inputs. It will take chars, shorts, and floats and properly convert them by setting itemsize of the constructor to one of these three values (sizeof_char, sizeof_short, and sizeof_float, respectively). If using integers, the block treats these as floats. Instead, put the integer input stream through an <ref refid="classgr_1_1blocks_1_1int__to__float" kindref="compound">gr::blocks::int_to_float</ref> converter block.
+
+Constructor Specific Documentation:
+
+Build a number sink.
+
+Args:
+    itemsize : Size of input item stream
+    average : Averaging coefficient (0 - 1)
+    graph_type : Type of graph to use (number_sink::graph_t)
+    nconnections : number of signals connected to sink
+    parent : a QWidget parent object, if any)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a574a332f8c7fea66e4de7d85d04d166d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_number_sink_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_number_sink_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="40" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a5eaee0225ccaded378131d8e317508b9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_number_sink_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_number_sink_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="43" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1af7868b221a5f80d860dffd5c3b0c205b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_make</name>
+        <initializer>= R&quot;doc(A graphical sink to display numerical values of input streams.
+
+Displays the data stream in as a number in a simple text box GUI along with an optional bar graph. The bar graph can be set to horizontal (NUM_GRAPH_HORIZ), vertical (NUM_GRAPH_VERT), or no graph (NUM_GRAPH_NONE).
+
+
+The displayed value can be the average of the input stream, in which case all items received are averaged. If not averaging, the display simply samples a value in the data stream based on the update time of this block.
+
+
+Note that due to a flaw in the implementation, this block cannot receive integer value inputs. It will take chars, shorts, and floats and properly convert them by setting itemsize of the constructor to one of these three values (sizeof_char, sizeof_short, and sizeof_float, respectively). If using integers, the block treats these as floats. Instead, put the integer input stream through an <ref refid="classgr_1_1blocks_1_1int__to__float" kindref="compound">gr::blocks::int_to_float</ref> converter block.
+
+Constructor Specific Documentation:
+
+Build a number sink.
+
+Args:
+    itemsize : Size of input item stream
+    average : Averaging coefficient (0 - 1)
+    graph_type : Type of graph to use (number_sink::graph_t)
+    nconnections : number of signals connected to sink
+    parent : a QWidget parent object, if any)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="46" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1aec77d4bca0965d3ec67c1694130ceb0c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_exec_</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_exec_</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="68" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1aa35139ac2d62293e4a1b6122ecc10bc0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_qwidget</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_qwidget</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="71" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a5a612c878a005c9d71ac23af90f5771b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_set_update_time</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_set_update_time</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="74" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a916320d41cf60403dc82ee3108cdf9cd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_set_average</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_set_average</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="77" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1af848a2eb7e72e16ee11f235fea6f401d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_set_graph_type</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_set_graph_type</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="80" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a66ca74cdac0c96966f8e4e3f96b986ce" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_set_color_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_set_color_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="83" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a504b0de4e798626705050fc8438b8d04" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_set_color_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_set_color_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="86" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a7481e620fa6f3ce4d64b9ad85ca5ebfe" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_set_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_set_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="89" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a002d91248bed9959a9cf081b0bd7ff14" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_set_min</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_set_min</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="92" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1ab83935a909a4920f1491f56b2c4a128b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_set_max</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_set_max</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="95" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1afb3f5029acc3a9b9051d7e75ff62cbeb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_set_title</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_set_title</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="98" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a143c43ded589ab8a3c6fe8eed650f10d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_set_unit</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_set_unit</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="101" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a0369ea425c85bade11a71bba192169c5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_set_factor</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_set_factor</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="104" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a7f4c3e959a41ceeb61e38c841022d912" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_average</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_average</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="107" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1af62bec78957f45c656781bd77ca9c191" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_graph_type</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_graph_type</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="110" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a2df2d2fe1a0b9fded1494df341137d1b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_color_min</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_color_min</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="113" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1addb07a1583f46d4b06f49ee597a68f37" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_color_max</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_color_max</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="116" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a909e9f9b83508aff97f8b9f668cd16d1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="119" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a0053d5a314204159ebcc07d3b70365a2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_min</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_min</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="122" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a5fe33df40f0e9e583ba49a1dcef7531d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_max</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_max</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="125" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a8272c89e34d7547e5f75eb1ce3a4114b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_title</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_title</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="128" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1aaeddf6a45dbdf8cb641f361fd13cdfce" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_unit</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_unit</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="131" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a15f0bc5d3252aacc9108b4336a2c26c6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_factor</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_factor</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="134" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1a4647f6bd042a05d13588fc6b0e6179ab" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_enable_menu</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_enable_menu</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="137" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1ad8e8f129b93b1ea42ef077a18ec580fc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_enable_autoscale</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_enable_autoscale</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="140" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__sink__pydoc_8h_1abb1159ccc6a9e488e6f7cee61b90134e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_number_sink_reset</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_number_sink_reset</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" line="143" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/number_sink_pydoc.h"/>
+  </compounddef>
+</doxygen>

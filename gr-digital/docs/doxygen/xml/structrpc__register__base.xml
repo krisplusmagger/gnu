@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structrpc__register__base" kind="struct" language="C++" prot="public">
+    <compoundname>rpc_register_base</compoundname>
+    <includes refid="rpcregisterhelpers_8h" local="no">gnuradio/rpcregisterhelpers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="structrpc__register__base_1ad72a68036ccabdb8c75de37a8c265090" prot="protected" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int rpc_register_base&lt; T &gt;::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <qualifiedname>rpc_register_base::count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="727" column="16" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="727" bodyend="-1"/>
+        <referencedby refid="structrpc__register__base_1a99da5c328e17e69652f22d1ecc956f95" compoundref="rpcregisterhelpers_8h" startline="724" endline="724">rpc_register_base&lt; T &gt;::rpc_register_base</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structrpc__register__base_1a99da5c328e17e69652f22d1ecc956f95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>rpc_register_base&lt; T &gt;::rpc_register_base</definition>
+        <argsstring>()</argsstring>
+        <name>rpc_register_base</name>
+        <qualifiedname>rpc_register_base::rpc_register_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="724" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="724" bodyend="724"/>
+        <references refid="structrpc__register__base_1ad72a68036ccabdb8c75de37a8c265090" compoundref="rpcregisterhelpers_8h" startline="727">rpc_register_base&lt; T &gt;::count</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Base class for registering a ControlPort function. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="723" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="723" bodyend="728"/>
+    <listofallmembers>
+      <member refid="structrpc__register__base_1ad72a68036ccabdb8c75de37a8c265090" prot="protected" virt="non-virtual"><scope>rpc_register_base</scope><name>count</name></member>
+      <member refid="structrpc__register__base_1a99da5c328e17e69652f22d1ecc956f95" prot="public" virt="non-virtual"><scope>rpc_register_base</scope><name>rpc_register_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

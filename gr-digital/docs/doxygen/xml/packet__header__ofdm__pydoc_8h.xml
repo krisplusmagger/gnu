@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="packet__header__ofdm__pydoc_8h" kind="file" language="C++">
+    <compoundname>packet_header_ofdm_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>packet_header_ofdm_pydoc.h</label>
+        <link refid="packet__header__ofdm__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="packet__header__ofdm__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_ofdm_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_ofdm_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="packet__header__ofdm__pydoc_8h_1a1e29356859c8a0807a1e219e945a79b9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_ofdm</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_ofdm</name>
+        <initializer>= R&quot;doc(Header utility for OFDM signals.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    occupied_carriers : See carrier allocator
+    n_syms : The number of OFDM symbols the header should be (usually 1)
+    len_tag_key : The tag key used for the packet length (number of bytes)
+    frame_len_tag_key : The tag key used for the frame length (number of OFDM symbols, this is the tag key required for the frame equalizer etc.)
+    num_tag_key : The tag key used for packet numbering.
+    bits_per_header_sym : Bits per complex symbol in the header, e.g. 1 if the header is BPSK modulated, 2 if it&apos;s QPSK modulated etc.
+    bits_per_payload_sym : Bits per complex symbol in the payload. This is required to figure out how many OFDM symbols are necessary to encode the given number of bytes.
+    scramble_header : Set this to true to scramble the bits. This is highly recommended, as it reduces PAPR spikes.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_ofdm_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_ofdm_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet__header__ofdm__pydoc_8h_1a00f9c2dea49a75868515522d8d6320f4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_ofdm_packet_header_ofdm_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_ofdm_packet_header_ofdm_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_ofdm_pydoc.h" line="35" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_ofdm_pydoc.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet__header__ofdm__pydoc_8h_1aca8b41570859dd699adf5a709a1b7369" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_ofdm_packet_header_ofdm_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_ofdm_packet_header_ofdm_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_ofdm_pydoc.h" line="38" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_ofdm_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet__header__ofdm__pydoc_8h_1a0e8439661e5673b9f2cfb0ececc2fe87" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_ofdm_header_formatter</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_ofdm_header_formatter</name>
+        <initializer>= R&quot;doc(Header formatter.
+
+Does the same as packet_header_default::header_formatter(), but optionally scrambles the bits (this is more important for OFDM to avoid PAPR spikes).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_ofdm_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_ofdm_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet__header__ofdm__pydoc_8h_1abe38d4d7d7bf8c3d183c716b7eda4085" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_ofdm_header_parser</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_ofdm_header_parser</name>
+        <initializer>= R&quot;doc(Inverse function to header_formatter().
+
+Does the same as packet_header_default::header_parser(), but adds another tag that stores the number of OFDM symbols in the packet. Note that there is usually no linear connection between the number of OFDM symbols and the packet length because a packet might finish mid-OFDM-symbol.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_ofdm_pydoc.h" line="46" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_ofdm_pydoc.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet__header__ofdm__pydoc_8h_1aecd2273d326f72a1e6a09aed839b6b7a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_packet_header_ofdm_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_packet_header_ofdm_make</name>
+        <initializer>= R&quot;doc(Header utility for OFDM signals.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    occupied_carriers : See carrier allocator
+    n_syms : The number of OFDM symbols the header should be (usually 1)
+    len_tag_key : The tag key used for the packet length (number of bytes)
+    frame_len_tag_key : The tag key used for the frame length (number of OFDM symbols, this is the tag key required for the frame equalizer etc.)
+    num_tag_key : The tag key used for packet numbering.
+    bits_per_header_sym : Bits per complex symbol in the header, e.g. 1 if the header is BPSK modulated, 2 if it&apos;s QPSK modulated etc.
+    bits_per_payload_sym : Bits per complex symbol in the payload. This is required to figure out how many OFDM symbols are necessary to encode the given number of bytes.
+    scramble_header : Set this to true to scramble the bits. This is highly recommended, as it reduces PAPR spikes.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_ofdm_pydoc.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_ofdm_pydoc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/packet_header_ofdm_pydoc.h"/>
+  </compounddef>
+</doxygen>

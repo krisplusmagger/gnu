@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1filter_1_1kernel_1_1fir__filter" kind="class" language="C++" prot="public">
+    <compoundname>gr::filter::kernel::fir_filter</compoundname>
+    <includes refid="fir__filter_8h" local="no">gnuradio/filter/fir_filter.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class IN_T</type>
+      </param>
+      <param>
+        <type>class OUT_T</type>
+      </param>
+      <param>
+        <type>class TAP_T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1abe3f5886a6d68498a676cc5a47f72270" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; TAP_T &gt;</type>
+        <definition>std::vector&lt;TAP_T&gt; gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::d_taps</definition>
+        <argsstring></argsstring>
+        <name>d_taps</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::d_taps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="52" column="17" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1adeba3c949a67c5573d89d481906fe781" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::d_ntaps</definition>
+        <argsstring></argsstring>
+        <name>d_ntaps</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::d_ntaps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="53" column="18" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1a327546c210a610dbb63a6c4593abea76" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; volk::vector&lt; TAP_T &gt; &gt;</type>
+        <definition>std::vector&lt;volk::vector&lt;TAP_T&gt; &gt; gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::d_aligned_taps</definition>
+        <argsstring></argsstring>
+        <name>d_aligned_taps</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::d_aligned_taps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="54" column="17" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1ad4114a90f1ef80cbb3def4653f8ed91e" prot="protected" static="no" mutable="no">
+        <type>volk::vector&lt; OUT_T &gt;</type>
+        <definition>volk::vector&lt;OUT_T&gt; gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::d_output</definition>
+        <argsstring></argsstring>
+        <name>d_output</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::d_output</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="55" column="18" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1aa69cab64a062e6892286317eb94d7066" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::d_align</definition>
+        <argsstring></argsstring>
+        <name>d_align</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::d_align</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="56" column="9" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1a212cf75b89ae290bce8cf4c72e54e6bd" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::d_naligned</definition>
+        <argsstring></argsstring>
+        <name>d_naligned</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::d_naligned</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="57" column="9" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1a6d0f5b316abf58f7c68c6bda1b08165b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::fir_filter</definition>
+        <argsstring>(const std::vector&lt; TAP_T &gt; &amp;taps)</argsstring>
+        <name>fir_filter</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::fir_filter</qualifiedname>
+        <param>
+          <type>const std::vector&lt; TAP_T &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="28" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1addb740f49882e6d872ee4b5b6231a474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::fir_filter</definition>
+        <argsstring>(const fir_filter &amp;)=delete</argsstring>
+        <name>fir_filter</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::fir_filter</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">fir_filter</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="34" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1a9d85edf5872d3eb7d8b31822feaed4bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">fir_filter</ref> &amp;</type>
+        <definition>fir_filter &amp; gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::operator=</definition>
+        <argsstring>(const fir_filter &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">fir_filter</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="35" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1aff2213fdf53a914094ba1769491b2957" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::fir_filter</definition>
+        <argsstring>(fir_filter &amp;&amp;)=default</argsstring>
+        <name>fir_filter</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::fir_filter</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">fir_filter</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="36" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1a9a571d346dd7f220d34d3961eb535c4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">fir_filter</ref> &amp;</type>
+        <definition>fir_filter &amp; gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::operator=</definition>
+        <argsstring>(fir_filter &amp;&amp;)=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">fir_filter</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="37" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1af5a9421490ed0fdd5fb3984d6f9c3f74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::set_taps</definition>
+        <argsstring>(const std::vector&lt; TAP_T &gt; &amp;taps)</argsstring>
+        <name>set_taps</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::set_taps</qualifiedname>
+        <param>
+          <type>const std::vector&lt; TAP_T &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="39" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1a91c03a5d09efb74c5143a3f903bfa2b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::update_tap</definition>
+        <argsstring>(TAP_T t, unsigned int index)</argsstring>
+        <name>update_tap</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::update_tap</qualifiedname>
+        <param>
+          <type>TAP_T</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="40" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1a673f011306ac657f8f93c0a1a7b8071e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; TAP_T &gt;</type>
+        <definition>std::vector&lt; TAP_T &gt; gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::taps</definition>
+        <argsstring>() const</argsstring>
+        <name>taps</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::taps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="41" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1aca64df28a84919a2ef00d8f1e221d6a9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::ntaps</definition>
+        <argsstring>() const</argsstring>
+        <name>ntaps</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::ntaps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="42" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1ae4120ab37c3b2b6cc64fcf8dca10ab24" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>OUT_T</type>
+        <definition>OUT_T gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::filter</definition>
+        <argsstring>(const IN_T input[]) const</argsstring>
+        <name>filter</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::filter</qualifiedname>
+        <param>
+          <type>const IN_T</type>
+          <declname>input</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="44" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1a172474d6a76a79aed2f84289429a210c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::filterN</definition>
+        <argsstring>(OUT_T output[], const IN_T input[], unsigned long n)</argsstring>
+        <name>filterN</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::filterN</qualifiedname>
+        <param>
+          <type>OUT_T</type>
+          <declname>output</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>const IN_T</type>
+          <declname>input</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="45" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1fir__filter_1a4714282b3c49e9d4efb166367ab2d2dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;::filterNdec</definition>
+        <argsstring>(OUT_T output[], const IN_T input[], unsigned long n, unsigned int decimate)</argsstring>
+        <name>filterNdec</name>
+        <qualifiedname>gr::filter::kernel::fir_filter::filterNdec</qualifiedname>
+        <param>
+          <type>OUT_T</type>
+          <declname>output</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>const IN_T</type>
+          <declname>input</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>decimate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="46" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::filter::kernel::fir_filter&lt; IN_T, OUT_T, TAP_T &gt;</label>
+        <link refid="classgr_1_1filter_1_1kernel_1_1fir__filter"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>d_taps</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>d_aligned_taps</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::vector&lt; TAP_T &gt;</label>
+      </node>
+      <node id="3">
+        <label>std::vector&lt; volk::vector&lt; TAP_T &gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" line="25" column="1" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter.h" bodystart="26" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1aa69cab64a062e6892286317eb94d7066" prot="protected" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>d_align</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a327546c210a610dbb63a6c4593abea76" prot="protected" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>d_aligned_taps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a212cf75b89ae290bce8cf4c72e54e6bd" prot="protected" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>d_naligned</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1adeba3c949a67c5573d89d481906fe781" prot="protected" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>d_ntaps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1ad4114a90f1ef80cbb3def4653f8ed91e" prot="protected" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>d_output</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1abe3f5886a6d68498a676cc5a47f72270" prot="protected" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>d_taps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1ae4120ab37c3b2b6cc64fcf8dca10ab24" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>filter</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a172474d6a76a79aed2f84289429a210c" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>filterN</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a4714282b3c49e9d4efb166367ab2d2dd" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>filterNdec</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a6d0f5b316abf58f7c68c6bda1b08165b" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>fir_filter</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1addb740f49882e6d872ee4b5b6231a474" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>fir_filter</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1aff2213fdf53a914094ba1769491b2957" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>fir_filter</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1aca64df28a84919a2ef00d8f1e221d6a9" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>ntaps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a9d85edf5872d3eb7d8b31822feaed4bb" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>operator=</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a9a571d346dd7f220d34d3961eb535c4b" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>operator=</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1af5a9421490ed0fdd5fb3984d6f9c3f74" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a673f011306ac657f8f93c0a1a7b8071e" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>taps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a91c03a5d09efb74c5143a3f903bfa2b9" prot="public" virt="non-virtual"><scope>gr::filter::kernel::fir_filter</scope><name>update_tap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

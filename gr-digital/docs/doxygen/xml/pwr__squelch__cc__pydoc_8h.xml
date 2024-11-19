@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="pwr__squelch__cc__pydoc_8h" kind="file" language="C++">
+    <compoundname>pwr_squelch_cc_pydoc.h</compoundname>
+    <includes refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>pwr_squelch_cc_pydoc.h</label>
+        <link refid="pwr__squelch__cc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="pwr__squelch__cc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, analog, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="pwr__squelch__cc__pydoc_8h_1a83ae8377167a0027910280fbd6f08739" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_pwr_squelch_cc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_pwr_squelch_cc</name>
+        <initializer>= R&quot;doc(gate or zero output when input power below threshold
+
+Constructor Specific Documentation:
+
+Make power-based squelch block.
+
+The block will emit a tag with the key <ref refid="namespacepmt_1adcc4bde4742800dfea924f4e17477f2e" kindref="member">pmt::intern</ref>(\&quot;squelch_sob\&quot;) with the value of <ref refid="pmt_8h_1aa83efad7d7f377e5c9e06279a93221da" kindref="member">pmt::PMT_NIL</ref> on the first item it passes, and with the key <ref refid="namespacepmt_1adcc4bde4742800dfea924f4e17477f2e" kindref="member">pmt::intern</ref>(\&quot;squelch_eob\&quot;) on the last item it passes.
+
+Args:
+    db : threshold (in dB) for power squelch
+    alpha : Gain of averaging filter. Defaults to 0.0001.
+    ramp : attack / release time in samples; a sinusodial ramp is used. set to 0 to disable.
+    gate : if true, no output if no squelch tone. if false, output 0&apos;s if no squelch tone (default).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pwr__squelch__cc__pydoc_8h_1a8dbafa197ccaade429ed3b703423cb5c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_pwr_squelch_cc_pwr_squelch_cc_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_pwr_squelch_cc_pwr_squelch_cc_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pwr__squelch__cc__pydoc_8h_1a057e9bc70a6c6641fcf2bc1c5c193cd8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_pwr_squelch_cc_pwr_squelch_cc_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_pwr_squelch_cc_pwr_squelch_cc_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pwr__squelch__cc__pydoc_8h_1af673b4995e7be6f6c7c885ac126233d2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_pwr_squelch_cc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_pwr_squelch_cc_make</name>
+        <initializer>= R&quot;doc(gate or zero output when input power below threshold
+
+Constructor Specific Documentation:
+
+Make power-based squelch block.
+
+The block will emit a tag with the key <ref refid="namespacepmt_1adcc4bde4742800dfea924f4e17477f2e" kindref="member">pmt::intern</ref>(\&quot;squelch_sob\&quot;) with the value of <ref refid="pmt_8h_1aa83efad7d7f377e5c9e06279a93221da" kindref="member">pmt::PMT_NIL</ref> on the first item it passes, and with the key <ref refid="namespacepmt_1adcc4bde4742800dfea924f4e17477f2e" kindref="member">pmt::intern</ref>(\&quot;squelch_eob\&quot;) on the last item it passes.
+
+Args:
+    db : threshold (in dB) for power squelch
+    alpha : Gain of averaging filter. Defaults to 0.0001.
+    ramp : attack / release time in samples; a sinusodial ramp is used. set to 0 to disable.
+    gate : if true, no output if no squelch tone. if false, output 0&apos;s if no squelch tone (default).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pwr__squelch__cc__pydoc_8h_1a864b977fdb21240b121c885d237d1024" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_pwr_squelch_cc_squelch_range</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_pwr_squelch_cc_squelch_range</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" line="54" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pwr__squelch__cc__pydoc_8h_1af62ada7edcce737ad4b7c574370e91f8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_pwr_squelch_cc_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_pwr_squelch_cc_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" line="57" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pwr__squelch__cc__pydoc_8h_1a63b839e3571cc54147404f237edd17fc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_pwr_squelch_cc_set_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_pwr_squelch_cc_set_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" line="60" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pwr__squelch__cc__pydoc_8h_1a635f96c362f757833038b7903659fc6a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_pwr_squelch_cc_set_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_pwr_squelch_cc_set_alpha</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" line="63" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pwr__squelch__cc__pydoc_8h_1aa1d4dcb64182c294f315591c86acde11" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_pwr_squelch_cc_ramp</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_pwr_squelch_cc_ramp</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" line="66" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pwr__squelch__cc__pydoc_8h_1a7b7df9c73f9f86a30147a24d7fef39da" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_pwr_squelch_cc_set_ramp</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_pwr_squelch_cc_set_ramp</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" line="69" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pwr__squelch__cc__pydoc_8h_1aa2f6f0f6bb9d05678ce3619fcadd1fc7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_pwr_squelch_cc_gate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_pwr_squelch_cc_gate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" line="72" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pwr__squelch__cc__pydoc_8h_1ad3b8b7f269afe685446baf9ab7386fbc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_pwr_squelch_cc_set_gate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_pwr_squelch_cc_set_gate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" line="75" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pwr__squelch__cc__pydoc_8h_1abe195b6c32cd7fd889219ff6e16dd832" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_pwr_squelch_cc_unmuted</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_pwr_squelch_cc_unmuted</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" line="78" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/pwr_squelch_cc_pydoc.h"/>
+  </compounddef>
+</doxygen>

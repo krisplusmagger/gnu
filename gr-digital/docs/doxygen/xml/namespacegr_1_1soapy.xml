@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1soapy" kind="namespace" language="C++">
+    <compoundname>gr::soapy</compoundname>
+    <innerclass refid="classgr_1_1soapy_1_1block" prot="public">gr::soapy::block</innerclass>
+    <innerclass refid="classgr_1_1soapy_1_1sink" prot="public">gr::soapy::sink</innerclass>
+    <innerclass refid="classgr_1_1soapy_1_1source" prot="public">gr::soapy::source</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacegr_1_1soapy_1a8eeec33be02e25de917b16dd41618bbc" prot="public" static="no">
+        <type>SoapySDR::ArgInfo</type>
+        <definition>using gr::soapy::arginfo_t = typedef SoapySDR::ArgInfo</definition>
+        <argsstring></argsstring>
+        <name>arginfo_t</name>
+        <qualifiedname>gr::soapy::arginfo_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/soapy_types.h" line="20" column="1" bodyfile="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/soapy_types.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1soapy_1a5ab4dd421b1f1e21401c2b08e7c25e78" prot="public" static="no">
+        <type>SoapySDR::ArgInfoList</type>
+        <definition>using gr::soapy::arginfo_list_t = typedef SoapySDR::ArgInfoList</definition>
+        <argsstring></argsstring>
+        <name>arginfo_list_t</name>
+        <qualifiedname>gr::soapy::arginfo_list_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/soapy_types.h" line="21" column="1" bodyfile="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/soapy_types.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1soapy_1a9e55a722142054281461b68641c4aa11" prot="public" static="no">
+        <type>SoapySDR::ArgInfo::Type</type>
+        <definition>using gr::soapy::argtype_t = typedef SoapySDR::ArgInfo::Type</definition>
+        <argsstring></argsstring>
+        <name>argtype_t</name>
+        <qualifiedname>gr::soapy::argtype_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/soapy_types.h" line="23" column="1" bodyfile="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/soapy_types.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1soapy_1a8c520068c568fb570126d31f0e169abb" prot="public" static="no">
+        <type>SoapySDR::Kwargs</type>
+        <definition>using gr::soapy::kwargs_t = typedef SoapySDR::Kwargs</definition>
+        <argsstring></argsstring>
+        <name>kwargs_t</name>
+        <qualifiedname>gr::soapy::kwargs_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/soapy_types.h" line="25" column="1" bodyfile="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/soapy_types.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1soapy_1a305908309c4952f72df4f55fa2691499" prot="public" static="no">
+        <type>SoapySDR::KwargsList</type>
+        <definition>using gr::soapy::kwargs_list_t = typedef SoapySDR::KwargsList</definition>
+        <argsstring></argsstring>
+        <name>kwargs_list_t</name>
+        <qualifiedname>gr::soapy::kwargs_list_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/soapy_types.h" line="26" column="1" bodyfile="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/soapy_types.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1soapy_1ad9ef68263654fa3a96871151ad45ae03" prot="public" static="no">
+        <type>SoapySDR::Range</type>
+        <definition>using gr::soapy::range_t = typedef SoapySDR::Range</definition>
+        <argsstring></argsstring>
+        <name>range_t</name>
+        <qualifiedname>gr::soapy::range_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/soapy_types.h" line="28" column="1" bodyfile="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/soapy_types.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1soapy_1a56ff9f98449b5f5487c47112b40ffaee" prot="public" static="no">
+        <type>SoapySDR::RangeList</type>
+        <definition>using gr::soapy::range_list_t = typedef SoapySDR::RangeList</definition>
+        <argsstring></argsstring>
+        <name>range_list_t</name>
+        <qualifiedname>gr::soapy::range_list_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/soapy_types.h" line="29" column="1" bodyfile="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/soapy_types.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-soapy/include/gnuradio/soapy/block.h" line="20" column="1"/>
+  </compounddef>
+</doxygen>

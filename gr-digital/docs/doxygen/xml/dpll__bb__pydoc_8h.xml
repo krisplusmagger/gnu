@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dpll__bb__pydoc_8h" kind="file" language="C++">
+    <compoundname>dpll_bb_pydoc.h</compoundname>
+    <includes refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>dpll_bb_pydoc.h</label>
+        <link refid="dpll__bb__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dpll__bb__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, analog, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="dpll__bb__pydoc_8h_1a7c16625aa12e875662a158b230a319fa" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_dpll_bb</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_dpll_bb</name>
+        <initializer>= R&quot;doc(Detect the peak of a signal.
+
+If a peak is detected, this block outputs a 1, or it outputs 0&apos;s.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    period : 
+    gain : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dpll__bb__pydoc_8h_1a5ea5f3548b22567ba63d0cc547a30445" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_dpll_bb_dpll_bb_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_dpll_bb_dpll_bb_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" line="31" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dpll__bb__pydoc_8h_1ab0f952a6d984b2db97009d41ff6def42" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_dpll_bb_dpll_bb_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_dpll_bb_dpll_bb_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dpll__bb__pydoc_8h_1a418624916b59d1ce48961a20131d5e85" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_dpll_bb_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_dpll_bb_make</name>
+        <initializer>= R&quot;doc(Detect the peak of a signal.
+
+If a peak is detected, this block outputs a 1, or it outputs 0&apos;s.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    period : 
+    gain : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dpll__bb__pydoc_8h_1aa0de6beeb5b58ad614f54f8ed829b213" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_dpll_bb_set_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_dpll_bb_set_gain</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dpll__bb__pydoc_8h_1a2d36e1fbaa10975b1dc8c1c3a44f4887" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_dpll_bb_set_decision_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_dpll_bb_set_decision_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dpll__bb__pydoc_8h_1aa1b53c7b2ff35db2708ee47fbe0d4f54" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_dpll_bb_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_dpll_bb_gain</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" line="56" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dpll__bb__pydoc_8h_1a541c50f50de2d6c3a0b0034e1771597d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_dpll_bb_freq</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_dpll_bb_freq</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" line="59" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dpll__bb__pydoc_8h_1a7c8654e7129aed6f66fcbab4b03c57f6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_dpll_bb_phase</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_dpll_bb_phase</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" line="62" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dpll__bb__pydoc_8h_1a675ba3aecc44b13523a7a5268d4bf3d5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_dpll_bb_decision_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_dpll_bb_decision_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" line="65" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/dpll_bb_pydoc.h"/>
+  </compounddef>
+</doxygen>

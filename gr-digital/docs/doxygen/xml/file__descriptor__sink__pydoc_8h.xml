@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="file__descriptor__sink__pydoc_8h" kind="file" language="C++">
+    <compoundname>file_descriptor_sink_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>file_descriptor_sink_pydoc.h</label>
+        <link refid="file__descriptor__sink__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="file__descriptor__sink__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_descriptor_sink_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_descriptor_sink_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="file__descriptor__sink__pydoc_8h_1aa2c27b5f00bcc3af4da59aa4d6046be9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_descriptor_sink</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_descriptor_sink</name>
+        <initializer>= R&quot;doc(Write stream to file descriptor.
+
+Constructor Specific Documentation:
+
+Build a file descriptor sink block. The provided file descriptor will be closed when the sink is destroyed.
+
+Args:
+    itemsize : item size of the incoming data stream.
+    fd : file descriptor (as an integer).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_descriptor_sink_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_descriptor_sink_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__descriptor__sink__pydoc_8h_1ac8b7764e29fb3a726923f26c70e78294" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_descriptor_sink_file_descriptor_sink</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_descriptor_sink_file_descriptor_sink</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_descriptor_sink_pydoc.h" line="29" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_descriptor_sink_pydoc.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__descriptor__sink__pydoc_8h_1aa98878eb6b1e5a6fd90f127c49d55889" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_descriptor_sink_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_descriptor_sink_make</name>
+        <initializer>= R&quot;doc(Write stream to file descriptor.
+
+Constructor Specific Documentation:
+
+Build a file descriptor sink block. The provided file descriptor will be closed when the sink is destroyed.
+
+Args:
+    itemsize : item size of the incoming data stream.
+    fd : file descriptor (as an integer).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_descriptor_sink_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_descriptor_sink_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_descriptor_sink_pydoc.h"/>
+  </compounddef>
+</doxygen>

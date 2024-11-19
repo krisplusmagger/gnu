@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="constellation__encoder__bc__pydoc_8h" kind="file" language="C++">
+    <compoundname>constellation_encoder_bc_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>constellation_encoder_bc_pydoc.h</label>
+        <link refid="constellation__encoder__bc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="constellation__encoder__bc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_encoder_bc_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_encoder_bc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="constellation__encoder__bc__pydoc_8h_1a1cc2618394a035ced6548fdab35bd8d3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_constellation_encoder_bc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_constellation_encoder_bc</name>
+        <initializer>= R&quot;doc(Constellation Encoder.
+
+Encode index of constellation points into a constellation&apos;s complex space based on the map of the  object.
+
+Constructor Specific Documentation:
+
+Make constellation encoder block.
+
+Args:
+    constellation : A constellation derived from class &apos;constellation&apos;. Use base() method to get a shared pointer to this base class type.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_encoder_bc_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_encoder_bc_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellation__encoder__bc__pydoc_8h_1a786c97f275b9ebe1f4ed3b14a9d782ec" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_constellation_encoder_bc_constellation_encoder_bc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_constellation_encoder_bc_constellation_encoder_bc</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_encoder_bc_pydoc.h" line="30" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_encoder_bc_pydoc.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellation__encoder__bc__pydoc_8h_1a81421382b85bf94a37e6ed8ca1e9978f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_constellation_encoder_bc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_constellation_encoder_bc_make</name>
+        <initializer>= R&quot;doc(Constellation Encoder.
+
+Encode index of constellation points into a constellation&apos;s complex space based on the map of the  object.
+
+Constructor Specific Documentation:
+
+Make constellation encoder block.
+
+Args:
+    constellation : A constellation derived from class &apos;constellation&apos;. Use base() method to get a shared pointer to this base class type.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_encoder_bc_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_encoder_bc_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellation__encoder__bc__pydoc_8h_1a0ae8cec16ab09461f4d0481800807ba7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_constellation_encoder_bc_set_constellation</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_constellation_encoder_bc_set_constellation</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_encoder_bc_pydoc.h" line="46" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_encoder_bc_pydoc.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_encoder_bc_pydoc.h"/>
+  </compounddef>
+</doxygen>

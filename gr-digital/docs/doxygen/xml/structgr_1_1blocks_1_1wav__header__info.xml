@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structgr_1_1blocks_1_1wav__header__info" kind="struct" language="C++" prot="public">
+    <compoundname>gr::blocks::wav_header_info</compoundname>
+    <includes refid="wavfile_8h" local="no">gnuradio/blocks/wavfile.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr_1_1blocks_1_1wav__header__info_1a6917a943d536491c46d13faf7605eaa3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::blocks::wav_header_info::sample_rate</definition>
+        <argsstring></argsstring>
+        <name>sample_rate</name>
+        <qualifiedname>gr::blocks::wav_header_info::sample_rate</qualifiedname>
+        <briefdescription>
+<para>sample rate [S/s] </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" line="26" column="9" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1blocks_1_1wav__header__info_1a015cf485e311c45c667d20908079153d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::blocks::wav_header_info::nchans</definition>
+        <argsstring></argsstring>
+        <name>nchans</name>
+        <qualifiedname>gr::blocks::wav_header_info::nchans</qualifiedname>
+        <briefdescription>
+<para>Number of channels. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" line="29" column="9" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1blocks_1_1wav__header__info_1a1bd913f3be3834252d41ae03bd6a3d51" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::blocks::wav_header_info::bytes_per_sample</definition>
+        <argsstring></argsstring>
+        <name>bytes_per_sample</name>
+        <qualifiedname>gr::blocks::wav_header_info::bytes_per_sample</qualifiedname>
+        <briefdescription>
+<para>Bytes per sample. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" line="32" column="9" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1blocks_1_1wav__header__info_1a167787238c6bf97afa77e0f1662e17d2" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long gr::blocks::wav_header_info::samples_per_chan</definition>
+        <argsstring></argsstring>
+        <name>samples_per_chan</name>
+        <qualifiedname>gr::blocks::wav_header_info::samples_per_chan</qualifiedname>
+        <briefdescription>
+<para>Number of samples per channel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" line="35" column="15" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1blocks_1_1wav__header__info_1aaf03bd3fcd83262762ef9fb491d42398" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::blocks::wav_header_info::format</definition>
+        <argsstring></argsstring>
+        <name>format</name>
+        <qualifiedname>gr::blocks::wav_header_info::format</qualifiedname>
+        <briefdescription>
+<para>sndfile format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" line="38" column="9" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1blocks_1_1wav__header__info_1abd7f61258f0532e76dc4b8ca0575f61e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::blocks::wav_header_info::subformat</definition>
+        <argsstring></argsstring>
+        <name>subformat</name>
+        <qualifiedname>gr::blocks::wav_header_info::subformat</qualifiedname>
+        <briefdescription>
+<para>sndfile format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" line="41" column="9" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>WAV file header information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" line="23" column="1" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/wavfile.h" bodystart="23" bodyend="42"/>
+    <listofallmembers>
+      <member refid="structgr_1_1blocks_1_1wav__header__info_1a1bd913f3be3834252d41ae03bd6a3d51" prot="public" virt="non-virtual"><scope>gr::blocks::wav_header_info</scope><name>bytes_per_sample</name></member>
+      <member refid="structgr_1_1blocks_1_1wav__header__info_1aaf03bd3fcd83262762ef9fb491d42398" prot="public" virt="non-virtual"><scope>gr::blocks::wav_header_info</scope><name>format</name></member>
+      <member refid="structgr_1_1blocks_1_1wav__header__info_1a015cf485e311c45c667d20908079153d" prot="public" virt="non-virtual"><scope>gr::blocks::wav_header_info</scope><name>nchans</name></member>
+      <member refid="structgr_1_1blocks_1_1wav__header__info_1a6917a943d536491c46d13faf7605eaa3" prot="public" virt="non-virtual"><scope>gr::blocks::wav_header_info</scope><name>sample_rate</name></member>
+      <member refid="structgr_1_1blocks_1_1wav__header__info_1a167787238c6bf97afa77e0f1662e17d2" prot="public" virt="non-virtual"><scope>gr::blocks::wav_header_info</scope><name>samples_per_chan</name></member>
+      <member refid="structgr_1_1blocks_1_1wav__header__info_1abd7f61258f0532e76dc4b8ca0575f61e" prot="public" virt="non-virtual"><scope>gr::blocks::wav_header_info</scope><name>subformat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classQwtPickerDblClickPointMachine" kind="class" language="C++" prot="public">
+    <compoundname>QwtPickerDblClickPointMachine</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QwtPickerMachine</basecompoundref>
+    <includes refid="utils_8h" local="no">gnuradio/qtgui/utils.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classQwtPickerDblClickPointMachine_1ab836cded8d1b42854cd4b7d584dfb579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QwtPickerDblClickPointMachine::QwtPickerDblClickPointMachine</definition>
+        <argsstring>()</argsstring>
+        <name>QwtPickerDblClickPointMachine</name>
+        <qualifiedname>QwtPickerDblClickPointMachine::QwtPickerDblClickPointMachine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/utils.h" line="41" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classQwtPickerDblClickPointMachine_1aec37f30b44dcdd153f2eee101424b062" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QwtPickerDblClickPointMachine::~QwtPickerDblClickPointMachine</definition>
+        <argsstring>() override</argsstring>
+        <name>~QwtPickerDblClickPointMachine</name>
+        <qualifiedname>QwtPickerDblClickPointMachine::~QwtPickerDblClickPointMachine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/utils.h" line="42" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classQwtPickerDblClickPointMachine_1a2ace3c972de875adc2684434ecce8170" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; QwtPickerMachine::Command &gt;</type>
+        <definition>QList&lt; QwtPickerMachine::Command &gt; QwtPickerDblClickPointMachine::transition</definition>
+        <argsstring>(const QwtEventPattern &amp;eventPattern, const QEvent *e) override</argsstring>
+        <name>transition</name>
+        <qualifiedname>QwtPickerDblClickPointMachine::transition</qualifiedname>
+        <param>
+          <type>const QwtEventPattern &amp;</type>
+          <declname>eventPattern</declname>
+        </param>
+        <param>
+          <type>const QEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/utils.h" line="44" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>QwtPickerDblClickPointMachine</label>
+        <link refid="classQwtPickerDblClickPointMachine"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QwtPickerMachine</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>QwtPickerDblClickPointMachine</label>
+        <link refid="classQwtPickerDblClickPointMachine"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QwtPickerMachine</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/utils.h" line="38" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/utils.h" bodystart="39" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classQwtPickerDblClickPointMachine_1ab836cded8d1b42854cd4b7d584dfb579" prot="public" virt="non-virtual"><scope>QwtPickerDblClickPointMachine</scope><name>QwtPickerDblClickPointMachine</name></member>
+      <member refid="classQwtPickerDblClickPointMachine_1a2ace3c972de875adc2684434ecce8170" prot="public" virt="non-virtual"><scope>QwtPickerDblClickPointMachine</scope><name>transition</name></member>
+      <member refid="classQwtPickerDblClickPointMachine_1aec37f30b44dcdd153f2eee101424b062" prot="public" virt="non-virtual"><scope>QwtPickerDblClickPointMachine</scope><name>~QwtPickerDblClickPointMachine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

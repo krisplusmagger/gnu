@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classSpectrumFrequencyRangeEvent" kind="class" language="C++" prot="public">
+    <compoundname>SpectrumFrequencyRangeEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QEvent</basecompoundref>
+    <includes refid="spectrumUpdateEvents_8h" local="no">gnuradio/qtgui/spectrumUpdateEvents.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSpectrumFrequencyRangeEvent_1a5a915874cd65a913f74f4cd414fba70d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SpectrumFrequencyRangeEvent::_centerFrequency</definition>
+        <argsstring></argsstring>
+        <name>_centerFrequency</name>
+        <qualifiedname>SpectrumFrequencyRangeEvent::_centerFrequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="102" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSpectrumFrequencyRangeEvent_1a12b203ce86ee3cad557be5e330d82279" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SpectrumFrequencyRangeEvent::_startFrequency</definition>
+        <argsstring></argsstring>
+        <name>_startFrequency</name>
+        <qualifiedname>SpectrumFrequencyRangeEvent::_startFrequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="103" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSpectrumFrequencyRangeEvent_1a016eb52d0c667270cc6c46c970319b5e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SpectrumFrequencyRangeEvent::_stopFrequency</definition>
+        <argsstring></argsstring>
+        <name>_stopFrequency</name>
+        <qualifiedname>SpectrumFrequencyRangeEvent::_stopFrequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="104" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSpectrumFrequencyRangeEvent_1ae8ea3001631ff7c8d333793829f18b18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SpectrumFrequencyRangeEvent::SpectrumFrequencyRangeEvent</definition>
+        <argsstring>(const double, const double, const double)</argsstring>
+        <name>SpectrumFrequencyRangeEvent</name>
+        <qualifiedname>SpectrumFrequencyRangeEvent::SpectrumFrequencyRangeEvent</qualifiedname>
+        <param>
+          <type>const double</type>
+        </param>
+        <param>
+          <type>const double</type>
+        </param>
+        <param>
+          <type>const double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="94" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classSpectrumFrequencyRangeEvent_1a788c3db4f01faa3d6bcde802d85db96e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SpectrumFrequencyRangeEvent::~SpectrumFrequencyRangeEvent</definition>
+        <argsstring>() override</argsstring>
+        <name>~SpectrumFrequencyRangeEvent</name>
+        <qualifiedname>SpectrumFrequencyRangeEvent::~SpectrumFrequencyRangeEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="95" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classSpectrumFrequencyRangeEvent_1a9dcbe240b7aea4099e5745d970ff71b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double SpectrumFrequencyRangeEvent::GetCenterFrequency</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCenterFrequency</name>
+        <qualifiedname>SpectrumFrequencyRangeEvent::GetCenterFrequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="96" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classSpectrumFrequencyRangeEvent_1af10f4cef61c9f6dacc1ac5b4102f038a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double SpectrumFrequencyRangeEvent::GetStartFrequency</definition>
+        <argsstring>() const</argsstring>
+        <name>GetStartFrequency</name>
+        <qualifiedname>SpectrumFrequencyRangeEvent::GetStartFrequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="97" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classSpectrumFrequencyRangeEvent_1af249c61653284581e6b8a76c86a098ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double SpectrumFrequencyRangeEvent::GetStopFrequency</definition>
+        <argsstring>() const</argsstring>
+        <name>GetStopFrequency</name>
+        <qualifiedname>SpectrumFrequencyRangeEvent::GetStopFrequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="98" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+      <node id="1">
+        <label>SpectrumFrequencyRangeEvent</label>
+        <link refid="classSpectrumFrequencyRangeEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+      <node id="1">
+        <label>SpectrumFrequencyRangeEvent</label>
+        <link refid="classSpectrumFrequencyRangeEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="91" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="92" bodyend="105"/>
+    <listofallmembers>
+      <member refid="classSpectrumFrequencyRangeEvent_1a5a915874cd65a913f74f4cd414fba70d" prot="private" virt="non-virtual"><scope>SpectrumFrequencyRangeEvent</scope><name>_centerFrequency</name></member>
+      <member refid="classSpectrumFrequencyRangeEvent_1a12b203ce86ee3cad557be5e330d82279" prot="private" virt="non-virtual"><scope>SpectrumFrequencyRangeEvent</scope><name>_startFrequency</name></member>
+      <member refid="classSpectrumFrequencyRangeEvent_1a016eb52d0c667270cc6c46c970319b5e" prot="private" virt="non-virtual"><scope>SpectrumFrequencyRangeEvent</scope><name>_stopFrequency</name></member>
+      <member refid="classSpectrumFrequencyRangeEvent_1a9dcbe240b7aea4099e5745d970ff71b3" prot="public" virt="non-virtual"><scope>SpectrumFrequencyRangeEvent</scope><name>GetCenterFrequency</name></member>
+      <member refid="classSpectrumFrequencyRangeEvent_1af10f4cef61c9f6dacc1ac5b4102f038a" prot="public" virt="non-virtual"><scope>SpectrumFrequencyRangeEvent</scope><name>GetStartFrequency</name></member>
+      <member refid="classSpectrumFrequencyRangeEvent_1af249c61653284581e6b8a76c86a098ba" prot="public" virt="non-virtual"><scope>SpectrumFrequencyRangeEvent</scope><name>GetStopFrequency</name></member>
+      <member refid="classSpectrumFrequencyRangeEvent_1ae8ea3001631ff7c8d333793829f18b18" prot="public" virt="non-virtual"><scope>SpectrumFrequencyRangeEvent</scope><name>SpectrumFrequencyRangeEvent</name></member>
+      <member refid="classSpectrumFrequencyRangeEvent_1a788c3db4f01faa3d6bcde802d85db96e" prot="public" virt="non-virtual"><scope>SpectrumFrequencyRangeEvent</scope><name>~SpectrumFrequencyRangeEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

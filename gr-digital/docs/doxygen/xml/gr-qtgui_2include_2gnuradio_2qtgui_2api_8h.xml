@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="gr-qtgui_2include_2gnuradio_2qtgui_2api_8h" kind="file" language="C++">
+    <compoundname>gr-qtgui/include/gnuradio/qtgui/api.h</compoundname>
+    <includes refid="attributes_8h" local="no">gnuradio/attributes.h</includes>
+    <includedby refid="ber__sink__b_8h" local="no">ber_sink_b.h</includedby>
+    <includedby refid="const__sink__c_8h" local="no">const_sink_c.h</includedby>
+    <includedby refid="constellationdisplayform_8h" local="no">constellationdisplayform.h</includedby>
+    <includedby refid="displayform_8h" local="no">displayform.h</includedby>
+    <includedby refid="edit__box__msg_8h" local="no">edit_box_msg.h</includedby>
+    <includedby refid="eye__sink__c_8h" local="no">eye_sink_c.h</includedby>
+    <includedby refid="eye__sink__f_8h" local="no">eye_sink_f.h</includedby>
+    <includedby refid="eyedisplaysform_8h" local="no">eyedisplaysform.h</includedby>
+    <includedby refid="freq__sink__c_8h" local="no">freq_sink_c.h</includedby>
+    <includedby refid="freq__sink__f_8h" local="no">freq_sink_f.h</includedby>
+    <includedby refid="histogram__sink__f_8h" local="no">histogram_sink_f.h</includedby>
+    <includedby refid="matrix__sink_8h" local="no">matrix_sink.h</includedby>
+    <includedby refid="number__sink_8h" local="no">number_sink.h</includedby>
+    <includedby refid="rfnoc__f15__display_8h" local="no">rfnoc_f15_display.h</includedby>
+    <includedby refid="sink__c_8h" local="no">sink_c.h</includedby>
+    <includedby refid="sink__f_8h" local="no">sink_f.h</includedby>
+    <includedby refid="spectrumUpdateEvents_8h" local="no">spectrumUpdateEvents.h</includedby>
+    <includedby refid="time__raster__sink__b_8h" local="no">time_raster_sink_b.h</includedby>
+    <includedby refid="time__raster__sink__f_8h" local="no">time_raster_sink_f.h</includedby>
+    <includedby refid="time__sink__c_8h" local="no">time_sink_c.h</includedby>
+    <includedby refid="time__sink__f_8h" local="no">time_sink_f.h</includedby>
+    <includedby refid="utils_8h" local="no">utils.h</includedby>
+    <includedby refid="vector__sink__f_8h" local="no">vector_sink_f.h</includedby>
+    <includedby refid="waterfall__sink__c_8h" local="no">waterfall_sink_c.h</includedby>
+    <includedby refid="waterfall__sink__f_8h" local="no">waterfall_sink_f.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="gr-qtgui_2include_2gnuradio_2qtgui_2api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="32">
+        <label>spectrumdisplayform.ui.h</label>
+        <link refid="spectrumdisplayform_8ui_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>ui_spectrumdisplayform.h</label>
+        <link refid="ui__spectrumdisplayform_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>ConstellationDisplayPlot.h</label>
+        <link refid="ConstellationDisplayPlot_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>DisplayPlot.h</label>
+        <link refid="DisplayPlot_8h"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>EyeDisplayPlot.h</label>
+        <link refid="EyeDisplayPlot_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>FrequencyDisplayPlot.h</label>
+        <link refid="FrequencyDisplayPlot_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>HistogramDisplayPlot.h</label>
+        <link refid="HistogramDisplayPlot_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>SpectrumGUIClass.h</label>
+        <link refid="SpectrumGUIClass_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>TimeDomainDisplayPlot.h</label>
+        <link refid="TimeDomainDisplayPlot_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>TimeRasterDisplayPlot.h</label>
+        <link refid="TimeRasterDisplayPlot_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>VectorDisplayPlot.h</label>
+        <link refid="VectorDisplayPlot_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>WaterfallDisplayPlot.h</label>
+        <link refid="WaterfallDisplayPlot_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="gr-qtgui_2include_2gnuradio_2qtgui_2api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ber_sink_b.h</label>
+        <link refid="ber__sink__b_8h"/>
+      </node>
+      <node id="3">
+        <label>const_sink_c.h</label>
+        <link refid="const__sink__c_8h"/>
+      </node>
+      <node id="4">
+        <label>constellationdisplayform.h</label>
+        <link refid="constellationdisplayform_8h"/>
+      </node>
+      <node id="5">
+        <label>displayform.h</label>
+        <link refid="displayform_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>edit_box_msg.h</label>
+        <link refid="edit__box__msg_8h"/>
+      </node>
+      <node id="15">
+        <label>eye_sink_c.h</label>
+        <link refid="eye__sink__c_8h"/>
+      </node>
+      <node id="16">
+        <label>eye_sink_f.h</label>
+        <link refid="eye__sink__f_8h"/>
+      </node>
+      <node id="18">
+        <label>eyecontrolpanel.h</label>
+        <link refid="eyecontrolpanel_8h"/>
+      </node>
+      <node id="19">
+        <label>eyedisplayform.h</label>
+        <link refid="eyedisplayform_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>eyedisplaysform.h</label>
+        <link refid="eyedisplaysform_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>freq_sink_c.h</label>
+        <link refid="freq__sink__c_8h"/>
+      </node>
+      <node id="21">
+        <label>freq_sink_f.h</label>
+        <link refid="freq__sink__f_8h"/>
+      </node>
+      <node id="6">
+        <label>freqcontrolpanel.h</label>
+        <link refid="freqcontrolpanel_8h"/>
+      </node>
+      <node id="7">
+        <label>freqdisplayform.h</label>
+        <link refid="freqdisplayform_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>histogram_sink_f.h</label>
+        <link refid="histogram__sink__f_8h"/>
+      </node>
+      <node id="8">
+        <label>histogramdisplayform.h</label>
+        <link refid="histogramdisplayform_8h"/>
+      </node>
+      <node id="23">
+        <label>matrix_sink.h</label>
+        <link refid="matrix__sink_8h"/>
+      </node>
+      <node id="24">
+        <label>number_sink.h</label>
+        <link refid="number__sink_8h"/>
+      </node>
+      <node id="33">
+        <label>numberdisplayform.h</label>
+        <link refid="numberdisplayform_8h"/>
+      </node>
+      <node id="25">
+        <label>rfnoc_f15_display.h</label>
+        <link refid="rfnoc__f15__display_8h"/>
+      </node>
+      <node id="26">
+        <label>sink_c.h</label>
+        <link refid="sink__c_8h"/>
+      </node>
+      <node id="27">
+        <label>sink_f.h</label>
+        <link refid="sink__f_8h"/>
+      </node>
+      <node id="28">
+        <label>spectrumUpdateEvents.h</label>
+        <link refid="spectrumUpdateEvents_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>spectrumdisplayform.h</label>
+        <link refid="spectrumdisplayform_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>time_raster_sink_b.h</label>
+        <link refid="time__raster__sink__b_8h"/>
+      </node>
+      <node id="35">
+        <label>time_raster_sink_f.h</label>
+        <link refid="time__raster__sink__f_8h"/>
+      </node>
+      <node id="36">
+        <label>time_sink_c.h</label>
+        <link refid="time__sink__c_8h"/>
+      </node>
+      <node id="37">
+        <label>time_sink_f.h</label>
+        <link refid="time__sink__f_8h"/>
+      </node>
+      <node id="9">
+        <label>timecontrolpanel.h</label>
+        <link refid="timecontrolpanel_8h"/>
+      </node>
+      <node id="10">
+        <label>timedisplayform.h</label>
+        <link refid="timedisplayform_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>timerasterdisplayform.h</label>
+        <link refid="timerasterdisplayform_8h"/>
+      </node>
+      <node id="38">
+        <label>utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>vector_sink_f.h</label>
+        <link refid="vector__sink__f_8h"/>
+      </node>
+      <node id="12">
+        <label>vectordisplayform.h</label>
+        <link refid="vectordisplayform_8h"/>
+      </node>
+      <node id="49">
+        <label>waterfall_sink_c.h</label>
+        <link refid="waterfall__sink__c_8h"/>
+      </node>
+      <node id="50">
+        <label>waterfall_sink_f.h</label>
+        <link refid="waterfall__sink__f_8h"/>
+      </node>
+      <node id="13">
+        <label>waterfalldisplayform.h</label>
+        <link refid="waterfalldisplayform_8h"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="gr-qtgui_2include_2gnuradio_2qtgui_2api_8h_1ad56994f3de62ec599559c55e7ec6191e" prot="public" static="no">
+        <name>QTGUI_API</name>
+        <initializer><ref refid="attributes_8h_1a17b9cb3c185c92af4799ec9b0a38f3c1" kindref="member">__GR_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/api.h" line="18" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/api.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/api.h"/>
+  </compounddef>
+</doxygen>

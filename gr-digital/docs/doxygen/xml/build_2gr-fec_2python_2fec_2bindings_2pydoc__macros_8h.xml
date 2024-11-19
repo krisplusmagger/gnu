@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h" kind="file" language="C++">
+    <compoundname>build/gr-fec/python/fec/bindings/pydoc_macros.h</compoundname>
+    <includedby refid="async__decoder__pydoc_8h" local="yes">async_decoder_pydoc.h</includedby>
+    <includedby refid="async__encoder__pydoc_8h" local="yes">async_encoder_pydoc.h</includedby>
+    <includedby refid="ber__bf__pydoc_8h" local="yes">ber_bf_pydoc.h</includedby>
+    <includedby refid="cc__decoder__pydoc_8h" local="yes">cc_decoder_pydoc.h</includedby>
+    <includedby refid="cc__encoder__pydoc_8h" local="yes">cc_encoder_pydoc.h</includedby>
+    <includedby refid="ccsds__encoder__pydoc_8h" local="yes">ccsds_encoder_pydoc.h</includedby>
+    <includedby refid="conv__bit__corr__bb__pydoc_8h" local="yes">conv_bit_corr_bb_pydoc.h</includedby>
+    <includedby refid="decode__ccsds__27__fb__pydoc_8h" local="yes">decode_ccsds_27_fb_pydoc.h</includedby>
+    <includedby refid="decoder__pydoc_8h" local="yes">decoder_pydoc.h</includedby>
+    <includedby refid="depuncture__bb__pydoc_8h" local="yes">depuncture_bb_pydoc.h</includedby>
+    <includedby refid="dummy__decoder__pydoc_8h" local="yes">dummy_decoder_pydoc.h</includedby>
+    <includedby refid="dummy__encoder__pydoc_8h" local="yes">dummy_encoder_pydoc.h</includedby>
+    <includedby refid="encode__ccsds__27__bb__pydoc_8h" local="yes">encode_ccsds_27_bb_pydoc.h</includedby>
+    <includedby refid="gr-fec_2python_2fec_2bindings_2encoder__pydoc_8h" local="yes">encoder_pydoc.h</includedby>
+    <includedby refid="fec__mtrx__pydoc_8h" local="yes">fec_mtrx_pydoc.h</includedby>
+    <includedby refid="generic__decoder__pydoc_8h" local="yes">generic_decoder_pydoc.h</includedby>
+    <includedby refid="generic__encoder__pydoc_8h" local="yes">generic_encoder_pydoc.h</includedby>
+    <includedby refid="ldpc__G__matrix__pydoc_8h" local="yes">ldpc_G_matrix_pydoc.h</includedby>
+    <includedby refid="ldpc__H__matrix__pydoc_8h" local="yes">ldpc_H_matrix_pydoc.h</includedby>
+    <includedby refid="ldpc__bit__flip__decoder__pydoc_8h" local="yes">ldpc_bit_flip_decoder_pydoc.h</includedby>
+    <includedby refid="ldpc__decoder__pydoc_8h" local="yes">ldpc_decoder_pydoc.h</includedby>
+    <includedby refid="ldpc__encoder__pydoc_8h" local="yes">ldpc_encoder_pydoc.h</includedby>
+    <includedby refid="ldpc__gen__mtrx__encoder__pydoc_8h" local="yes">ldpc_gen_mtrx_encoder_pydoc.h</includedby>
+    <includedby refid="ldpc__par__mtrx__encoder__pydoc_8h" local="yes">ldpc_par_mtrx_encoder_pydoc.h</includedby>
+    <includedby refid="polar__common__pydoc_8h" local="yes">polar_common_pydoc.h</includedby>
+    <includedby refid="polar__decoder__common__pydoc_8h" local="yes">polar_decoder_common_pydoc.h</includedby>
+    <includedby refid="polar__decoder__sc__list__pydoc_8h" local="yes">polar_decoder_sc_list_pydoc.h</includedby>
+    <includedby refid="polar__decoder__sc__pydoc_8h" local="yes">polar_decoder_sc_pydoc.h</includedby>
+    <includedby refid="polar__decoder__sc__systematic__pydoc_8h" local="yes">polar_decoder_sc_systematic_pydoc.h</includedby>
+    <includedby refid="polar__encoder__pydoc_8h" local="yes">polar_encoder_pydoc.h</includedby>
+    <includedby refid="polar__encoder__systematic__pydoc_8h" local="yes">polar_encoder_systematic_pydoc.h</includedby>
+    <includedby refid="puncture__bb__pydoc_8h" local="yes">puncture_bb_pydoc.h</includedby>
+    <includedby refid="puncture__ff__pydoc_8h" local="yes">puncture_ff_pydoc.h</includedby>
+    <includedby refid="repetition__decoder__pydoc_8h" local="yes">repetition_decoder_pydoc.h</includedby>
+    <includedby refid="repetition__encoder__pydoc_8h" local="yes">repetition_encoder_pydoc.h</includedby>
+    <includedby refid="tagged__decoder__pydoc_8h" local="yes">tagged_decoder_pydoc.h</includedby>
+    <includedby refid="tagged__encoder__pydoc_8h" local="yes">tagged_encoder_pydoc.h</includedby>
+    <includedby refid="tpc__common__pydoc_8h" local="yes">tpc_common_pydoc.h</includedby>
+    <includedby refid="tpc__decoder__pydoc_8h" local="yes">tpc_decoder_pydoc.h</includedby>
+    <includedby refid="tpc__encoder__pydoc_8h" local="yes">tpc_encoder_pydoc.h</includedby>
+    <includedby refid="gr-fec_2python_2fec_2bindings_2viterbi__pydoc_8h" local="yes">viterbi_pydoc.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>async_decoder_pydoc.h</label>
+        <link refid="async__decoder__pydoc_8h"/>
+      </node>
+      <node id="3">
+        <label>async_encoder_pydoc.h</label>
+        <link refid="async__encoder__pydoc_8h"/>
+      </node>
+      <node id="4">
+        <label>ber_bf_pydoc.h</label>
+        <link refid="ber__bf__pydoc_8h"/>
+      </node>
+      <node id="5">
+        <label>cc_decoder_pydoc.h</label>
+        <link refid="cc__decoder__pydoc_8h"/>
+      </node>
+      <node id="6">
+        <label>cc_encoder_pydoc.h</label>
+        <link refid="cc__encoder__pydoc_8h"/>
+      </node>
+      <node id="7">
+        <label>ccsds_encoder_pydoc.h</label>
+        <link refid="ccsds__encoder__pydoc_8h"/>
+      </node>
+      <node id="8">
+        <label>conv_bit_corr_bb_pydoc.h</label>
+        <link refid="conv__bit__corr__bb__pydoc_8h"/>
+      </node>
+      <node id="9">
+        <label>decode_ccsds_27_fb_pydoc.h</label>
+        <link refid="decode__ccsds__27__fb__pydoc_8h"/>
+      </node>
+      <node id="10">
+        <label>decoder_pydoc.h</label>
+        <link refid="decoder__pydoc_8h"/>
+      </node>
+      <node id="11">
+        <label>depuncture_bb_pydoc.h</label>
+        <link refid="depuncture__bb__pydoc_8h"/>
+      </node>
+      <node id="12">
+        <label>dummy_decoder_pydoc.h</label>
+        <link refid="dummy__decoder__pydoc_8h"/>
+      </node>
+      <node id="13">
+        <label>dummy_encoder_pydoc.h</label>
+        <link refid="dummy__encoder__pydoc_8h"/>
+      </node>
+      <node id="14">
+        <label>encode_ccsds_27_bb_pydoc.h</label>
+        <link refid="encode__ccsds__27__bb__pydoc_8h"/>
+      </node>
+      <node id="15">
+        <label>encoder_pydoc.h</label>
+        <link refid="gr-fec_2python_2fec_2bindings_2encoder__pydoc_8h"/>
+      </node>
+      <node id="16">
+        <label>fec_mtrx_pydoc.h</label>
+        <link refid="fec__mtrx__pydoc_8h"/>
+      </node>
+      <node id="17">
+        <label>generic_decoder_pydoc.h</label>
+        <link refid="generic__decoder__pydoc_8h"/>
+      </node>
+      <node id="18">
+        <label>generic_encoder_pydoc.h</label>
+        <link refid="generic__encoder__pydoc_8h"/>
+      </node>
+      <node id="19">
+        <label>ldpc_G_matrix_pydoc.h</label>
+        <link refid="ldpc__G__matrix__pydoc_8h"/>
+      </node>
+      <node id="20">
+        <label>ldpc_H_matrix_pydoc.h</label>
+        <link refid="ldpc__H__matrix__pydoc_8h"/>
+      </node>
+      <node id="21">
+        <label>ldpc_bit_flip_decoder_pydoc.h</label>
+        <link refid="ldpc__bit__flip__decoder__pydoc_8h"/>
+      </node>
+      <node id="22">
+        <label>ldpc_decoder_pydoc.h</label>
+        <link refid="ldpc__decoder__pydoc_8h"/>
+      </node>
+      <node id="23">
+        <label>ldpc_encoder_pydoc.h</label>
+        <link refid="ldpc__encoder__pydoc_8h"/>
+      </node>
+      <node id="24">
+        <label>ldpc_gen_mtrx_encoder_pydoc.h</label>
+        <link refid="ldpc__gen__mtrx__encoder__pydoc_8h"/>
+      </node>
+      <node id="25">
+        <label>ldpc_par_mtrx_encoder_pydoc.h</label>
+        <link refid="ldpc__par__mtrx__encoder__pydoc_8h"/>
+      </node>
+      <node id="26">
+        <label>polar_common_pydoc.h</label>
+        <link refid="polar__common__pydoc_8h"/>
+      </node>
+      <node id="27">
+        <label>polar_decoder_common_pydoc.h</label>
+        <link refid="polar__decoder__common__pydoc_8h"/>
+      </node>
+      <node id="28">
+        <label>polar_decoder_sc_list_pydoc.h</label>
+        <link refid="polar__decoder__sc__list__pydoc_8h"/>
+      </node>
+      <node id="29">
+        <label>polar_decoder_sc_pydoc.h</label>
+        <link refid="polar__decoder__sc__pydoc_8h"/>
+      </node>
+      <node id="30">
+        <label>polar_decoder_sc_systematic_pydoc.h</label>
+        <link refid="polar__decoder__sc__systematic__pydoc_8h"/>
+      </node>
+      <node id="31">
+        <label>polar_encoder_pydoc.h</label>
+        <link refid="polar__encoder__pydoc_8h"/>
+      </node>
+      <node id="32">
+        <label>polar_encoder_systematic_pydoc.h</label>
+        <link refid="polar__encoder__systematic__pydoc_8h"/>
+      </node>
+      <node id="33">
+        <label>puncture_bb_pydoc.h</label>
+        <link refid="puncture__bb__pydoc_8h"/>
+      </node>
+      <node id="34">
+        <label>puncture_ff_pydoc.h</label>
+        <link refid="puncture__ff__pydoc_8h"/>
+      </node>
+      <node id="1">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>repetition_decoder_pydoc.h</label>
+        <link refid="repetition__decoder__pydoc_8h"/>
+      </node>
+      <node id="36">
+        <label>repetition_encoder_pydoc.h</label>
+        <link refid="repetition__encoder__pydoc_8h"/>
+      </node>
+      <node id="37">
+        <label>tagged_decoder_pydoc.h</label>
+        <link refid="tagged__decoder__pydoc_8h"/>
+      </node>
+      <node id="38">
+        <label>tagged_encoder_pydoc.h</label>
+        <link refid="tagged__encoder__pydoc_8h"/>
+      </node>
+      <node id="39">
+        <label>tpc_common_pydoc.h</label>
+        <link refid="tpc__common__pydoc_8h"/>
+      </node>
+      <node id="40">
+        <label>tpc_decoder_pydoc.h</label>
+        <link refid="tpc__decoder__pydoc_8h"/>
+      </node>
+      <node id="41">
+        <label>tpc_encoder_pydoc.h</label>
+        <link refid="tpc__encoder__pydoc_8h"/>
+      </node>
+      <node id="42">
+        <label>viterbi_pydoc.h</label>
+        <link refid="gr-fec_2python_2fec_2bindings_2viterbi__pydoc_8h"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" prot="public" static="no">
+        <name>__EXPAND</name>
+        <param><defname>x</defname></param>
+        <initializer>x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" line="4" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" prot="public" static="no">
+        <name>__COUNT</name>
+        <param><defname>_1</defname></param>
+        <param><defname>_2</defname></param>
+        <param><defname>_3</defname></param>
+        <param><defname>_4</defname></param>
+        <param><defname>_5</defname></param>
+        <param><defname>_6</defname></param>
+        <param><defname>_7</defname></param>
+        <param><defname>COUNT</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>COUNT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" line="5" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" prot="public" static="no">
+        <name>__VA_SIZE</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kindref="member">__EXPAND</ref>(<ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" kindref="member">__COUNT</ref>(__VA_ARGS__, 7, 6, 5, 4, 3, 2, 1))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" line="6" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" prot="public" static="no">
+        <name>__CAT1</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>a##b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" line="7" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" prot="public" static="no">
+        <name>__CAT2</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" kindref="member">__CAT1</ref>(a, b)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" line="8" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h_1a43c147206df4346db5e9d6445aab28ae" prot="public" static="no">
+        <name>__DOC1</name>
+        <param><defname>n1</defname></param>
+        <initializer>__doc_##n1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" line="9" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h_1a53738db606593bc1554371d718695fed" prot="public" static="no">
+        <name>__DOC2</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <initializer>__doc_##n1##_##n2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" line="10" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h_1a21baf08c04d32485764f227c32b5bf5d" prot="public" static="no">
+        <name>__DOC3</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" line="11" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h_1a9463ba0ad86bcb4c59b5aecf8a37174c" prot="public" static="no">
+        <name>__DOC4</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" line="12" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h_1a942579d548421ddb2906af7094e5789c" prot="public" static="no">
+        <name>__DOC5</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <param><defname>n5</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4##_##n5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" line="13" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h_1a31ea356761360e78d16525aa69d2dae6" prot="public" static="no">
+        <name>__DOC6</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <param><defname>n5</defname></param>
+        <param><defname>n6</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4##_##n5##_##n6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" line="14" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h_1a6f1e731f1c6d2893ff1bf98582a7de6e" prot="public" static="no">
+        <name>__DOC7</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <param><defname>n5</defname></param>
+        <param><defname>n6</defname></param>
+        <param><defname>n7</defname></param>
+        <initializer>    __doc_##n1##_##n2##_##n3##_##n4##_##n5##_##n6##_##n7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" line="15" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" bodystart="15" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" prot="public" static="no">
+        <name>DOC</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kindref="member">__EXPAND</ref>(<ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kindref="member">__EXPAND</ref>(<ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" kindref="member">__CAT2</ref>(__DOC, <ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" kindref="member">__VA_SIZE</ref>(__VA_ARGS__)))(__VA_ARGS__))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" line="17" column="9" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/pydoc_macros.h"/>
+  </compounddef>
+</doxygen>

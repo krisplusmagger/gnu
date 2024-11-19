@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1filter" kind="namespace" language="C++">
+    <compoundname>gr::filter</compoundname>
+    <innerclass refid="classgr_1_1filter_1_1dc__blocker__cc" prot="public">gr::filter::dc_blocker_cc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1dc__blocker__ff" prot="public">gr::filter::dc_blocker_ff</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1fft__filter__ccc" prot="public">gr::filter::fft_filter_ccc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1fft__filter__ccf" prot="public">gr::filter::fft_filter_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1fft__filter__fff" prot="public">gr::filter::fft_filter_fff</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1filter__delay__fc" prot="public">gr::filter::filter_delay_fc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1filterbank__vcvcf" prot="public">gr::filter::filterbank_vcvcf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1fir__filter__blk" prot="public">gr::filter::fir_filter_blk</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1firdes" prot="public">gr::filter::firdes</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1freq__xlating__fir__filter" prot="public">gr::filter::freq_xlating_fir_filter</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1hilbert__fc" prot="public">gr::filter::hilbert_fc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1iir__filter__ccc" prot="public">gr::filter::iir_filter_ccc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1iir__filter__ccd" prot="public">gr::filter::iir_filter_ccd</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1iir__filter__ccf" prot="public">gr::filter::iir_filter_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1iir__filter__ccz" prot="public">gr::filter::iir_filter_ccz</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1iir__filter__ffd" prot="public">gr::filter::iir_filter_ffd</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1interp__fir__filter" prot="public">gr::filter::interp_fir_filter</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1ival__decimator" prot="public">gr::filter::ival_decimator</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1mmse__fir__interpolator__cc" prot="public">gr::filter::mmse_fir_interpolator_cc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1mmse__fir__interpolator__ff" prot="public">gr::filter::mmse_fir_interpolator_ff</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1mmse__interp__differentiator__cc" prot="public">gr::filter::mmse_interp_differentiator_cc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1mmse__interp__differentiator__ff" prot="public">gr::filter::mmse_interp_differentiator_ff</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1mmse__resampler__cc" prot="public">gr::filter::mmse_resampler_cc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1mmse__resampler__ff" prot="public">gr::filter::mmse_resampler_ff</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__arb__resampler__ccc" prot="public">gr::filter::pfb_arb_resampler_ccc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf" prot="public">gr::filter::pfb_arb_resampler_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__arb__resampler__fff" prot="public">gr::filter::pfb_arb_resampler_fff</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__channelizer__ccf" prot="public">gr::filter::pfb_channelizer_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__decimator__ccf" prot="public">gr::filter::pfb_decimator_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__interpolator__ccf" prot="public">gr::filter::pfb_interpolator_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__synthesizer__ccf" prot="public">gr::filter::pfb_synthesizer_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1rational__resampler" prot="public">gr::filter::rational_resampler</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1single__pole__iir" prot="public">gr::filter::single_pole_iir</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1single__pole__iir_3_01gr__complex_00_01i__type_00_01double_01_4" prot="public">gr::filter::single_pole_iir&lt; gr_complex, i_type, double &gt;</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1single__pole__iir__filter__cc" prot="public">gr::filter::single_pole_iir_filter_cc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1single__pole__iir__filter__ff" prot="public">gr::filter::single_pole_iir_filter_ff</innerclass>
+    <innernamespace refid="namespacegr_1_1filter_1_1kernel">gr::filter::kernel</innernamespace>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1ac4a0cd7e21a7e210454c415910a3b53b" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1fir__filter__blk" kindref="compound">fir_filter_blk</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef fir_filter_blk&lt;gr_complex, gr_complex, gr_complex&gt; gr::filter::fir_filter_ccc</definition>
+        <argsstring></argsstring>
+        <name>fir_filter_ccc</name>
+        <qualifiedname>gr::filter::fir_filter_ccc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_blk.h" line="63" column="24" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_blk.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a3579591196cddb312c6099f8970a0040" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1fir__filter__blk" kindref="compound">fir_filter_blk</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, float &gt;</type>
+        <definition>typedef fir_filter_blk&lt;gr_complex, gr_complex, float&gt; gr::filter::fir_filter_ccf</definition>
+        <argsstring></argsstring>
+        <name>fir_filter_ccf</name>
+        <qualifiedname>gr::filter::fir_filter_ccf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_blk.h" line="64" column="24" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_blk.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1ae2bc3e64eee8abd70391ecf2662ffec3" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1fir__filter__blk" kindref="compound">fir_filter_blk</ref>&lt; float, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef fir_filter_blk&lt;float, gr_complex, gr_complex&gt; gr::filter::fir_filter_fcc</definition>
+        <argsstring></argsstring>
+        <name>fir_filter_fcc</name>
+        <qualifiedname>gr::filter::fir_filter_fcc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_blk.h" line="65" column="24" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_blk.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a4603e316df3818b84523b7123b5a444b" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1fir__filter__blk" kindref="compound">fir_filter_blk</ref>&lt; float, float, float &gt;</type>
+        <definition>typedef fir_filter_blk&lt;float, float, float&gt; gr::filter::fir_filter_fff</definition>
+        <argsstring></argsstring>
+        <name>fir_filter_fff</name>
+        <qualifiedname>gr::filter::fir_filter_fff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_blk.h" line="66" column="24" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_blk.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a12e3607660ca8b4aaf51762e6c03d82d" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1fir__filter__blk" kindref="compound">fir_filter_blk</ref>&lt; float, std::int16_t, float &gt;</type>
+        <definition>typedef fir_filter_blk&lt;float, std::int16_t, float&gt; gr::filter::fir_filter_fsf</definition>
+        <argsstring></argsstring>
+        <name>fir_filter_fsf</name>
+        <qualifiedname>gr::filter::fir_filter_fsf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_blk.h" line="67" column="24" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_blk.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a0cf68e24c2900c50467b9e914378f7b8" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1fir__filter__blk" kindref="compound">fir_filter_blk</ref>&lt; std::int16_t, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef fir_filter_blk&lt;std::int16_t, gr_complex, gr_complex&gt; gr::filter::fir_filter_scc</definition>
+        <argsstring></argsstring>
+        <name>fir_filter_scc</name>
+        <qualifiedname>gr::filter::fir_filter_scc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_blk.h" line="68" column="24" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/fir_filter_blk.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a04e2f2598e1d46e2e5ec8994010c6520" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1freq__xlating__fir__filter" kindref="compound">freq_xlating_fir_filter</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef freq_xlating_fir_filter&lt;gr_complex, gr_complex, gr_complex&gt; gr::filter::freq_xlating_fir_filter_ccc</definition>
+        <argsstring></argsstring>
+        <name>freq_xlating_fir_filter_ccc</name>
+        <qualifiedname>gr::filter::freq_xlating_fir_filter_ccc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/freq_xlating_fir_filter.h" line="78" column="5" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/freq_xlating_fir_filter.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a123635d644a05f9c457e27de1d855a94" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1freq__xlating__fir__filter" kindref="compound">freq_xlating_fir_filter</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, float &gt;</type>
+        <definition>typedef freq_xlating_fir_filter&lt;gr_complex, gr_complex, float&gt; gr::filter::freq_xlating_fir_filter_ccf</definition>
+        <argsstring></argsstring>
+        <name>freq_xlating_fir_filter_ccf</name>
+        <qualifiedname>gr::filter::freq_xlating_fir_filter_ccf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/freq_xlating_fir_filter.h" line="80" column="5" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/freq_xlating_fir_filter.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1adcfd303df576ea23cbe7ac1cda3d3359" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1freq__xlating__fir__filter" kindref="compound">freq_xlating_fir_filter</ref>&lt; float, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef freq_xlating_fir_filter&lt;float, gr_complex, gr_complex&gt; gr::filter::freq_xlating_fir_filter_fcc</definition>
+        <argsstring></argsstring>
+        <name>freq_xlating_fir_filter_fcc</name>
+        <qualifiedname>gr::filter::freq_xlating_fir_filter_fcc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/freq_xlating_fir_filter.h" line="82" column="5" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/freq_xlating_fir_filter.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a9718957a02f83918f0235d6921093b88" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1freq__xlating__fir__filter" kindref="compound">freq_xlating_fir_filter</ref>&lt; float, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, float &gt;</type>
+        <definition>typedef freq_xlating_fir_filter&lt;float, gr_complex, float&gt; gr::filter::freq_xlating_fir_filter_fcf</definition>
+        <argsstring></argsstring>
+        <name>freq_xlating_fir_filter_fcf</name>
+        <qualifiedname>gr::filter::freq_xlating_fir_filter_fcf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/freq_xlating_fir_filter.h" line="83" column="33" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/freq_xlating_fir_filter.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a371727affcd3f7226907316a690bcb4d" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1freq__xlating__fir__filter" kindref="compound">freq_xlating_fir_filter</ref>&lt; std::int16_t, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, float &gt;</type>
+        <definition>typedef freq_xlating_fir_filter&lt;std::int16_t, gr_complex, float&gt; gr::filter::freq_xlating_fir_filter_scf</definition>
+        <argsstring></argsstring>
+        <name>freq_xlating_fir_filter_scf</name>
+        <qualifiedname>gr::filter::freq_xlating_fir_filter_scf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/freq_xlating_fir_filter.h" line="85" column="5" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/freq_xlating_fir_filter.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a6e1f96d12af6e277985ff9c2a8df8b7d" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1freq__xlating__fir__filter" kindref="compound">freq_xlating_fir_filter</ref>&lt; std::int16_t, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef freq_xlating_fir_filter&lt;std::int16_t, gr_complex, gr_complex&gt; gr::filter::freq_xlating_fir_filter_scc</definition>
+        <argsstring></argsstring>
+        <name>freq_xlating_fir_filter_scc</name>
+        <qualifiedname>gr::filter::freq_xlating_fir_filter_scc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/freq_xlating_fir_filter.h" line="87" column="5" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/freq_xlating_fir_filter.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a0466bddf51b92f5f0da9475ad7b309e0" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1interp__fir__filter" kindref="compound">interp_fir_filter</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef interp_fir_filter&lt;gr_complex, gr_complex, gr_complex&gt; gr::filter::interp_fir_filter_ccc</definition>
+        <argsstring></argsstring>
+        <name>interp_fir_filter_ccc</name>
+        <qualifiedname>gr::filter::interp_fir_filter_ccc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_fir_filter.h" line="64" column="27" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_fir_filter.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1ade7cb3e7904426833eda789b6a0364a6" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1interp__fir__filter" kindref="compound">interp_fir_filter</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, float &gt;</type>
+        <definition>typedef interp_fir_filter&lt;gr_complex, gr_complex, float&gt; gr::filter::interp_fir_filter_ccf</definition>
+        <argsstring></argsstring>
+        <name>interp_fir_filter_ccf</name>
+        <qualifiedname>gr::filter::interp_fir_filter_ccf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_fir_filter.h" line="65" column="27" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_fir_filter.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1abdeb5674c5557368dfa8049bff6a30eb" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1interp__fir__filter" kindref="compound">interp_fir_filter</ref>&lt; float, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef interp_fir_filter&lt;float, gr_complex, gr_complex&gt; gr::filter::interp_fir_filter_fcc</definition>
+        <argsstring></argsstring>
+        <name>interp_fir_filter_fcc</name>
+        <qualifiedname>gr::filter::interp_fir_filter_fcc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_fir_filter.h" line="66" column="27" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_fir_filter.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a54f6e7ea6b305afb31c55622fe1389c9" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1interp__fir__filter" kindref="compound">interp_fir_filter</ref>&lt; float, float, float &gt;</type>
+        <definition>typedef interp_fir_filter&lt;float, float, float&gt; gr::filter::interp_fir_filter_fff</definition>
+        <argsstring></argsstring>
+        <name>interp_fir_filter_fff</name>
+        <qualifiedname>gr::filter::interp_fir_filter_fff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_fir_filter.h" line="67" column="27" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_fir_filter.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a1553e338fb82179e9c56b2e699fbb718" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1interp__fir__filter" kindref="compound">interp_fir_filter</ref>&lt; float, std::int16_t, float &gt;</type>
+        <definition>typedef interp_fir_filter&lt;float, std::int16_t, float&gt; gr::filter::interp_fir_filter_fsf</definition>
+        <argsstring></argsstring>
+        <name>interp_fir_filter_fsf</name>
+        <qualifiedname>gr::filter::interp_fir_filter_fsf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_fir_filter.h" line="68" column="27" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_fir_filter.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a2717c2ea86a97e12d4e7d76702b74a80" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1interp__fir__filter" kindref="compound">interp_fir_filter</ref>&lt; std::int16_t, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef interp_fir_filter&lt;std::int16_t, gr_complex, gr_complex&gt; gr::filter::interp_fir_filter_scc</definition>
+        <argsstring></argsstring>
+        <name>interp_fir_filter_scc</name>
+        <qualifiedname>gr::filter::interp_fir_filter_scc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_fir_filter.h" line="69" column="27" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_fir_filter.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a1072c808d596a0e30c7a703d862bef8e" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1rational__resampler" kindref="compound">rational_resampler</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef rational_resampler&lt;gr_complex, gr_complex, gr_complex&gt; gr::filter::rational_resampler_ccc</definition>
+        <argsstring></argsstring>
+        <name>rational_resampler_ccc</name>
+        <qualifiedname>gr::filter::rational_resampler_ccc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/rational_resampler.h" line="82" column="28" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/rational_resampler.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1adc2d2cadb04894ba837550b7624dd85f" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1rational__resampler" kindref="compound">rational_resampler</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, float &gt;</type>
+        <definition>typedef rational_resampler&lt;gr_complex, gr_complex, float&gt; gr::filter::rational_resampler_ccf</definition>
+        <argsstring></argsstring>
+        <name>rational_resampler_ccf</name>
+        <qualifiedname>gr::filter::rational_resampler_ccf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/rational_resampler.h" line="83" column="28" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/rational_resampler.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a1ecba28a7f2ff001beed27312180bb6e" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1rational__resampler" kindref="compound">rational_resampler</ref>&lt; float, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef rational_resampler&lt;float, gr_complex, gr_complex&gt; gr::filter::rational_resampler_fcc</definition>
+        <argsstring></argsstring>
+        <name>rational_resampler_fcc</name>
+        <qualifiedname>gr::filter::rational_resampler_fcc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/rational_resampler.h" line="84" column="28" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/rational_resampler.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a8603df9c50a3258f9c87c909afaf0120" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1rational__resampler" kindref="compound">rational_resampler</ref>&lt; float, float, float &gt;</type>
+        <definition>typedef rational_resampler&lt;float, float, float&gt; gr::filter::rational_resampler_fff</definition>
+        <argsstring></argsstring>
+        <name>rational_resampler_fff</name>
+        <qualifiedname>gr::filter::rational_resampler_fff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/rational_resampler.h" line="85" column="28" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/rational_resampler.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a974639f30219bab6ac9b5d6f83e01f97" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1rational__resampler" kindref="compound">rational_resampler</ref>&lt; float, std::int16_t, float &gt;</type>
+        <definition>typedef rational_resampler&lt;float, std::int16_t, float&gt; gr::filter::rational_resampler_fsf</definition>
+        <argsstring></argsstring>
+        <name>rational_resampler_fsf</name>
+        <qualifiedname>gr::filter::rational_resampler_fsf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/rational_resampler.h" line="86" column="28" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/rational_resampler.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1abb76db07ea5ce5311944ca12df33e874" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1rational__resampler" kindref="compound">rational_resampler</ref>&lt; std::int16_t, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef rational_resampler&lt;std::int16_t, gr_complex, gr_complex&gt; gr::filter::rational_resampler_scc</definition>
+        <argsstring></argsstring>
+        <name>rational_resampler_scc</name>
+        <qualifiedname>gr::filter::rational_resampler_scc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/rational_resampler.h" line="87" column="28" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/rational_resampler.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__filter__design_1gaeb926a91ce5acb128e6c348a782b47dc" kind="function"><name>pm_remez</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/dc_blocker_cc.h" line="18" column="1"/>
+  </compounddef>
+</doxygen>

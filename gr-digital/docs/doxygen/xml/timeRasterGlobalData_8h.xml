@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="timeRasterGlobalData_8h" kind="file" language="C++">
+    <compoundname>timeRasterGlobalData.h</compoundname>
+    <includes local="no">qwt_raster_data.h</includes>
+    <includes local="no">cinttypes</includes>
+    <includes local="no">qwt_interval.h</includes>
+    <includedby refid="TimeRasterDisplayPlot_8h" local="no">TimeRasterDisplayPlot.h</includedby>
+    <includedby refid="plot__raster_8h" local="no">plot_raster.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>timeRasterGlobalData.h</label>
+        <link refid="timeRasterGlobalData_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>cinttypes</label>
+      </node>
+      <node id="4">
+        <label>qwt_interval.h</label>
+      </node>
+      <node id="2">
+        <label>qwt_raster_data.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>TimeRasterDisplayPlot.h</label>
+        <link refid="TimeRasterDisplayPlot_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>plot_raster.h</label>
+        <link refid="plot__raster_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>timeRasterGlobalData.h</label>
+        <link refid="timeRasterGlobalData_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>timerasterdisplayform.h</label>
+        <link refid="timerasterdisplayform_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classTimeRasterData" prot="public">TimeRasterData</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h"/>
+  </compounddef>
+</doxygen>

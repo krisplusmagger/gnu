@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mmse__resampler__cc__pydoc_8h" kind="file" language="C++">
+    <compoundname>mmse_resampler_cc_pydoc.h</compoundname>
+    <includes refid="build_2gr-filter_2python_2filter_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>mmse_resampler_cc_pydoc.h</label>
+        <link refid="mmse__resampler__cc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-filter_2python_2filter_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="mmse__resampler__cc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, filter, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="mmse__resampler__cc__pydoc_8h_1af3d236a96eebfe7c984e42672cc59678" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_mmse_resampler_cc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_mmse_resampler_cc</name>
+        <initializer>= R&quot;doc(resampling MMSE filter with complex input, complex output
+
+The resampling ratio and mu parameters can be set with a pmt dict message. Keys are pmt symbols with the strings \&quot;resamp_ratio\&quot; and \&quot;mu\&quot; and values are pmt floats.
+
+Constructor Specific Documentation:
+
+Build the resampling MMSE filter (complex input, complex output)
+
+Args:
+    phase_shift : The phase shift of the output signal to the input
+    resamp_ratio : The resampling ratio = input_rate / output_rate.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mmse__resampler__cc__pydoc_8h_1a77f722f1203501db3f700266465becb0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_mmse_resampler_cc_mmse_resampler_cc_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_mmse_resampler_cc_mmse_resampler_cc_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" line="31" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mmse__resampler__cc__pydoc_8h_1ad1895bee15d83a6d5d763b3b9066a31f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_mmse_resampler_cc_mmse_resampler_cc_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_mmse_resampler_cc_mmse_resampler_cc_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mmse__resampler__cc__pydoc_8h_1a89e9168708c5a5ead6c2e0680a240723" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_mmse_resampler_cc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_mmse_resampler_cc_make</name>
+        <initializer>= R&quot;doc(resampling MMSE filter with complex input, complex output
+
+The resampling ratio and mu parameters can be set with a pmt dict message. Keys are pmt symbols with the strings \&quot;resamp_ratio\&quot; and \&quot;mu\&quot; and values are pmt floats.
+
+Constructor Specific Documentation:
+
+Build the resampling MMSE filter (complex input, complex output)
+
+Args:
+    phase_shift : The phase shift of the output signal to the input
+    resamp_ratio : The resampling ratio = input_rate / output_rate.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mmse__resampler__cc__pydoc_8h_1a53c4b83fa64534f0761a16f65ba1aa2e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_mmse_resampler_cc_mu</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_mmse_resampler_cc_mu</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mmse__resampler__cc__pydoc_8h_1a8ef50d3a4211d8a8028686d4907f5afb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_mmse_resampler_cc_resamp_ratio</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_mmse_resampler_cc_resamp_ratio</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mmse__resampler__cc__pydoc_8h_1a1b7d02b561dca89852f87d7e183e0129" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_mmse_resampler_cc_set_mu</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_mmse_resampler_cc_set_mu</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" line="56" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mmse__resampler__cc__pydoc_8h_1a2c44f9162a085aeb7c9f4acc6896caa9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_filter_mmse_resampler_cc_set_resamp_ratio</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_filter_mmse_resampler_cc_set_resamp_ratio</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" line="59" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-filter/python/filter/bindings/mmse_resampler_cc_pydoc.h"/>
+  </compounddef>
+</doxygen>

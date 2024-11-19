@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classPopupMenu" kind="class" language="C++" prot="public">
+    <compoundname>PopupMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QAction</basecompoundref>
+    <includes refid="form__menus_8h" local="no">gnuradio/qtgui/form_menus.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPopupMenu_1a1c32e59d286838e2b2b9f633e714bd9c" prot="private" static="no" mutable="no">
+        <type>QDialog *</type>
+        <definition>QDialog* PopupMenu::d_diag</definition>
+        <argsstring></argsstring>
+        <name>d_diag</name>
+        <qualifiedname>PopupMenu::d_diag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1235" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPopupMenu_1a2503f30ff722eb07f32cbbd1772c7bfb" prot="private" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* PopupMenu::d_text</definition>
+        <argsstring></argsstring>
+        <name>d_text</name>
+        <qualifiedname>PopupMenu::d_text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1236" column="15" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1236" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPopupMenu_1a6836a96276e4659c33c8c3386ec61b36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PopupMenu::PopupMenu</definition>
+        <argsstring>(QString desc, QWidget *parent)</argsstring>
+        <name>PopupMenu</name>
+        <qualifiedname>PopupMenu::PopupMenu</qualifiedname>
+        <param>
+          <type>QString</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1195" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1195" bodyend="1215"/>
+        <references refid="classPopupMenu_1ae6ab74764b915645c2b11bed20f6f00f" compoundref="form__menus_8h" startline="1225" endline="1225">getTextDiag</references>
+      </memberdef>
+      <memberdef kind="function" id="classPopupMenu_1a37f35fbf30aaa5cf23c4fde8f580403e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PopupMenu::~PopupMenu</definition>
+        <argsstring>() override</argsstring>
+        <name>~PopupMenu</name>
+        <qualifiedname>PopupMenu::~PopupMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1217" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1217" bodyend="1217"/>
+      </memberdef>
+      <memberdef kind="function" id="classPopupMenu_1ac0ded5a3ea3ae684d35056381a07840d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PopupMenu::setText</definition>
+        <argsstring>(QString s)</argsstring>
+        <name>setText</name>
+        <qualifiedname>PopupMenu::setText</qualifiedname>
+        <param>
+          <type>QString</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1219" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1219" bodyend="1219"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classPopupMenu_1aba91c034e0f016821b871d15f17948eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PopupMenu::whichTrigger</definition>
+        <argsstring>(const QString data)</argsstring>
+        <name>whichTrigger</name>
+        <qualifiedname>PopupMenu::whichTrigger</qualifiedname>
+        <param>
+          <type>const QString</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1222" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classPopupMenu_1ae6ab74764b915645c2b11bed20f6f00f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PopupMenu::getTextDiag</definition>
+        <argsstring>()</argsstring>
+        <name>getTextDiag</name>
+        <qualifiedname>PopupMenu::getTextDiag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1225" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1225" bodyend="1225"/>
+        <referencedby refid="classPopupMenu_1a6836a96276e4659c33c8c3386ec61b36" compoundref="form__menus_8h" startline="1195" endline="1215">PopupMenu</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classPopupMenu_1a3dd13d5392148e90886bc9433aea5a1a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PopupMenu::getText</definition>
+        <argsstring>()</argsstring>
+        <name>getText</name>
+        <qualifiedname>PopupMenu::getText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1228" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1228" bodyend="1232"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PopupMenu</label>
+        <link refid="classPopupMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QAction</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PopupMenu</label>
+        <link refid="classPopupMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QAction</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1190" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1191" bodyend="1237"/>
+    <listofallmembers>
+      <member refid="classPopupMenu_1a1c32e59d286838e2b2b9f633e714bd9c" prot="private" virt="non-virtual"><scope>PopupMenu</scope><name>d_diag</name></member>
+      <member refid="classPopupMenu_1a2503f30ff722eb07f32cbbd1772c7bfb" prot="private" virt="non-virtual"><scope>PopupMenu</scope><name>d_text</name></member>
+      <member refid="classPopupMenu_1a3dd13d5392148e90886bc9433aea5a1a" prot="private" virt="non-virtual"><scope>PopupMenu</scope><name>getText</name></member>
+      <member refid="classPopupMenu_1ae6ab74764b915645c2b11bed20f6f00f" prot="public" virt="non-virtual"><scope>PopupMenu</scope><name>getTextDiag</name></member>
+      <member refid="classPopupMenu_1a6836a96276e4659c33c8c3386ec61b36" prot="public" virt="non-virtual"><scope>PopupMenu</scope><name>PopupMenu</name></member>
+      <member refid="classPopupMenu_1ac0ded5a3ea3ae684d35056381a07840d" prot="public" virt="non-virtual"><scope>PopupMenu</scope><name>setText</name></member>
+      <member refid="classPopupMenu_1aba91c034e0f016821b871d15f17948eb" prot="public" virt="non-virtual"><scope>PopupMenu</scope><name>whichTrigger</name></member>
+      <member refid="classPopupMenu_1a37f35fbf30aaa5cf23c4fde8f580403e" prot="public" virt="non-virtual"><scope>PopupMenu</scope><name>~PopupMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

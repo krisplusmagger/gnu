@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classNumberLayoutMenu" kind="class" language="C++" prot="public">
+    <compoundname>NumberLayoutMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMenu</basecompoundref>
+    <includes refid="form__menus_8h" local="no">gnuradio/qtgui/form_menus.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classNumberLayoutMenu_1a7e43abfbfc84ea925dc8d9979fc5f5f7" prot="private" static="no" mutable="no">
+        <type>QList&lt; QAction * &gt;</type>
+        <definition>QList&lt;QAction*&gt; NumberLayoutMenu::d_act</definition>
+        <argsstring></argsstring>
+        <name>d_act</name>
+        <qualifiedname>NumberLayoutMenu::d_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1100" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNumberLayoutMenu_1a8aaa67f108445fab8c047f6bbdcfa0ad" prot="private" static="no" mutable="no">
+        <type>QActionGroup *</type>
+        <definition>QActionGroup* NumberLayoutMenu::d_grp</definition>
+        <argsstring></argsstring>
+        <name>d_grp</name>
+        <qualifiedname>NumberLayoutMenu::d_grp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1101" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1101" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classNumberLayoutMenu_1a823020d7a7aa58cad2fbaa14ef28db2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NumberLayoutMenu::NumberLayoutMenu</definition>
+        <argsstring>(QWidget *parent)</argsstring>
+        <name>NumberLayoutMenu</name>
+        <qualifiedname>NumberLayoutMenu::NumberLayoutMenu</qualifiedname>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1042" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1042" bodyend="1060"/>
+        <references refid="classNumberLayoutMenu_1ae3ac6f90f7eca3488f0c84270880fe99" compoundref="form__menus_8h" startline="1095" endline="1095">getHoriz</references>
+        <references refid="classNumberLayoutMenu_1a45696e0c615d9b4c91e41b6c3a8cc8ad" compoundref="form__menus_8h" startline="1097" endline="1097">getNone</references>
+        <references refid="classNumberLayoutMenu_1a7826c8f4c2c4d75463ad65522ef2dd87" compoundref="form__menus_8h" startline="1096" endline="1096">getVert</references>
+      </memberdef>
+      <memberdef kind="function" id="classNumberLayoutMenu_1a4a92670a4423ca518dcf2295ae821153" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NumberLayoutMenu::~NumberLayoutMenu</definition>
+        <argsstring>() override</argsstring>
+        <name>~NumberLayoutMenu</name>
+        <qualifiedname>NumberLayoutMenu::~NumberLayoutMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1062" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1062" bodyend="1062"/>
+      </memberdef>
+      <memberdef kind="function" id="classNumberLayoutMenu_1ac287fe68c5592535869ac41d1336b579" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int NumberLayoutMenu::getNumActions</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumActions</name>
+        <qualifiedname>NumberLayoutMenu::getNumActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1064" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1064" bodyend="1064"/>
+      </memberdef>
+      <memberdef kind="function" id="classNumberLayoutMenu_1afcf2e28cf362e14db3bd89757d286282" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * NumberLayoutMenu::getAction</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>getAction</name>
+        <qualifiedname>NumberLayoutMenu::getAction</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1066" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1066" bodyend="1072"/>
+      </memberdef>
+      <memberdef kind="function" id="classNumberLayoutMenu_1a2eaebfc35073129ac6e189ff719b5eb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * NumberLayoutMenu::getAction</definition>
+        <argsstring>(gr::qtgui::graph_t layout)</argsstring>
+        <name>getAction</name>
+        <qualifiedname>NumberLayoutMenu::getAction</qualifiedname>
+        <param>
+          <type>gr::qtgui::graph_t</type>
+          <declname>layout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1074" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1074" bodyend="1089"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classNumberLayoutMenu_1a55e599b70de0a252848fef5e916af121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberLayoutMenu::whichTrigger</definition>
+        <argsstring>(gr::qtgui::graph_t layout)</argsstring>
+        <name>whichTrigger</name>
+        <qualifiedname>NumberLayoutMenu::whichTrigger</qualifiedname>
+        <param>
+          <type>gr::qtgui::graph_t</type>
+          <declname>layout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1092" column="10"/>
+        <referencedby refid="classNumberLayoutMenu_1ae3ac6f90f7eca3488f0c84270880fe99" compoundref="form__menus_8h" startline="1095" endline="1095">getHoriz</referencedby>
+        <referencedby refid="classNumberLayoutMenu_1a45696e0c615d9b4c91e41b6c3a8cc8ad" compoundref="form__menus_8h" startline="1097" endline="1097">getNone</referencedby>
+        <referencedby refid="classNumberLayoutMenu_1a7826c8f4c2c4d75463ad65522ef2dd87" compoundref="form__menus_8h" startline="1096" endline="1096">getVert</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classNumberLayoutMenu_1ae3ac6f90f7eca3488f0c84270880fe99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberLayoutMenu::getHoriz</definition>
+        <argsstring>()</argsstring>
+        <name>getHoriz</name>
+        <qualifiedname>NumberLayoutMenu::getHoriz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1095" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1095" bodyend="1095"/>
+        <references refid="classNumberLayoutMenu_1a55e599b70de0a252848fef5e916af121">whichTrigger</references>
+        <referencedby refid="classNumberLayoutMenu_1a823020d7a7aa58cad2fbaa14ef28db2b" compoundref="form__menus_8h" startline="1042" endline="1060">NumberLayoutMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberLayoutMenu_1a7826c8f4c2c4d75463ad65522ef2dd87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberLayoutMenu::getVert</definition>
+        <argsstring>()</argsstring>
+        <name>getVert</name>
+        <qualifiedname>NumberLayoutMenu::getVert</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1096" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1096" bodyend="1096"/>
+        <references refid="classNumberLayoutMenu_1a55e599b70de0a252848fef5e916af121">whichTrigger</references>
+        <referencedby refid="classNumberLayoutMenu_1a823020d7a7aa58cad2fbaa14ef28db2b" compoundref="form__menus_8h" startline="1042" endline="1060">NumberLayoutMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classNumberLayoutMenu_1a45696e0c615d9b4c91e41b6c3a8cc8ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberLayoutMenu::getNone</definition>
+        <argsstring>()</argsstring>
+        <name>getNone</name>
+        <qualifiedname>NumberLayoutMenu::getNone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1097" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1097" bodyend="1097"/>
+        <references refid="classNumberLayoutMenu_1a55e599b70de0a252848fef5e916af121">whichTrigger</references>
+        <referencedby refid="classNumberLayoutMenu_1a823020d7a7aa58cad2fbaa14ef28db2b" compoundref="form__menus_8h" startline="1042" endline="1060">NumberLayoutMenu</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>NumberLayoutMenu</label>
+        <link refid="classNumberLayoutMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>NumberLayoutMenu</label>
+        <link refid="classNumberLayoutMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="1037" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="1038" bodyend="1102"/>
+    <listofallmembers>
+      <member refid="classNumberLayoutMenu_1a7e43abfbfc84ea925dc8d9979fc5f5f7" prot="private" virt="non-virtual"><scope>NumberLayoutMenu</scope><name>d_act</name></member>
+      <member refid="classNumberLayoutMenu_1a8aaa67f108445fab8c047f6bbdcfa0ad" prot="private" virt="non-virtual"><scope>NumberLayoutMenu</scope><name>d_grp</name></member>
+      <member refid="classNumberLayoutMenu_1afcf2e28cf362e14db3bd89757d286282" prot="public" virt="non-virtual"><scope>NumberLayoutMenu</scope><name>getAction</name></member>
+      <member refid="classNumberLayoutMenu_1a2eaebfc35073129ac6e189ff719b5eb2" prot="public" virt="non-virtual"><scope>NumberLayoutMenu</scope><name>getAction</name></member>
+      <member refid="classNumberLayoutMenu_1ae3ac6f90f7eca3488f0c84270880fe99" prot="public" virt="non-virtual"><scope>NumberLayoutMenu</scope><name>getHoriz</name></member>
+      <member refid="classNumberLayoutMenu_1a45696e0c615d9b4c91e41b6c3a8cc8ad" prot="public" virt="non-virtual"><scope>NumberLayoutMenu</scope><name>getNone</name></member>
+      <member refid="classNumberLayoutMenu_1ac287fe68c5592535869ac41d1336b579" prot="public" virt="non-virtual"><scope>NumberLayoutMenu</scope><name>getNumActions</name></member>
+      <member refid="classNumberLayoutMenu_1a7826c8f4c2c4d75463ad65522ef2dd87" prot="public" virt="non-virtual"><scope>NumberLayoutMenu</scope><name>getVert</name></member>
+      <member refid="classNumberLayoutMenu_1a823020d7a7aa58cad2fbaa14ef28db2b" prot="public" virt="non-virtual"><scope>NumberLayoutMenu</scope><name>NumberLayoutMenu</name></member>
+      <member refid="classNumberLayoutMenu_1a55e599b70de0a252848fef5e916af121" prot="public" virt="non-virtual"><scope>NumberLayoutMenu</scope><name>whichTrigger</name></member>
+      <member refid="classNumberLayoutMenu_1a4a92670a4423ca518dcf2295ae821153" prot="public" virt="non-virtual"><scope>NumberLayoutMenu</scope><name>~NumberLayoutMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

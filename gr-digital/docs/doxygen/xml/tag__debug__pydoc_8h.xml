@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="tag__debug__pydoc_8h" kind="file" language="C++">
+    <compoundname>tag_debug_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>tag_debug_pydoc.h</label>
+        <link refid="tag__debug__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="tag__debug__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="tag__debug__pydoc_8h_1affd7bb17a9748d5d906365e8b1efe93b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tag_debug</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tag_debug</name>
+        <initializer>= R&quot;doc(Bit bucket that prints out any tag received.
+
+This block collects all tags sent to it on all input ports and displays them to stdout in a formatted way. The  parameter is used to identify which debug sink generated the tag, so when connecting a block to this debug sink, an appropriate name is something that identifies the input block.
+
+
+This block otherwise acts as a NULL sink in that items from the input stream are ignored. It is designed to be able to attach to any block and watch all tags streaming out of that block for debugging purposes.
+
+
+Specifying a key will allow this block to filter out all other tags and only display tags that match the given key. This can help clean up the output and allow you to focus in on a particular tag of interest.
+
+
+The tags from the last call to this work function are stored and can be retrieved using the function &apos;current_tags&apos;.
+
+Constructor Specific Documentation:
+
+Build a tag debug block
+
+Args:
+    sizeof_stream_item : size of the items in the incoming stream.
+    name : name to identify which debug sink generated the info.
+    key_filter : Specify a tag&apos;s key value to use as a filter.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tag__debug__pydoc_8h_1a0c70902f5dbe183e135801a3fda5556e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tag_debug_tag_debug_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tag_debug_tag_debug_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tag__debug__pydoc_8h_1ab7bef8e4d9766ffd08b3f68f2be6b63b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tag_debug_tag_debug_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tag_debug_tag_debug_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" line="44" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tag__debug__pydoc_8h_1ad380908fea71e6b136a42817da1dd9c4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tag_debug_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tag_debug_make</name>
+        <initializer>= R&quot;doc(Bit bucket that prints out any tag received.
+
+This block collects all tags sent to it on all input ports and displays them to stdout in a formatted way. The  parameter is used to identify which debug sink generated the tag, so when connecting a block to this debug sink, an appropriate name is something that identifies the input block.
+
+
+This block otherwise acts as a NULL sink in that items from the input stream are ignored. It is designed to be able to attach to any block and watch all tags streaming out of that block for debugging purposes.
+
+
+Specifying a key will allow this block to filter out all other tags and only display tags that match the given key. This can help clean up the output and allow you to focus in on a particular tag of interest.
+
+
+The tags from the last call to this work function are stored and can be retrieved using the function &apos;current_tags&apos;.
+
+Constructor Specific Documentation:
+
+Build a tag debug block
+
+Args:
+    sizeof_stream_item : size of the items in the incoming stream.
+    name : name to identify which debug sink generated the info.
+    key_filter : Specify a tag&apos;s key value to use as a filter.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" line="47" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tag__debug__pydoc_8h_1a4e5add7500a526b8bab71e788c9b6ac9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tag_debug_current_tags</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tag_debug_current_tags</name>
+        <initializer>= R&quot;doc(Returns a vector of tag_t items as of the last call to work.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" line="70" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tag__debug__pydoc_8h_1acb8501ac979346187f1e6ce0306cfef8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tag_debug_num_tags</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tag_debug_num_tags</name>
+        <initializer>= R&quot;doc(Return the total number of tags in the tag queue.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" line="73" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tag__debug__pydoc_8h_1a33b9ca279740541c1e16886bdebfda1e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tag_debug_set_display</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tag_debug_set_display</name>
+        <initializer>= R&quot;doc(Set the display of tags to stdout on/off.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" line="76" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tag__debug__pydoc_8h_1a47a1d6b4302ddcf2de487e4788adf943" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tag_debug_set_save_all</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tag_debug_set_save_all</name>
+        <initializer>= R&quot;doc(Set whether to store all tags ever received (s=True) or solely the tags from the last work (s=False).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" line="79" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tag__debug__pydoc_8h_1a9a20c037dce47e6ae0b78920f26dc6ab" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tag_debug_set_key_filter</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tag_debug_set_key_filter</name>
+        <initializer>= R&quot;doc(Set a new key to filter with.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" line="82" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tag__debug__pydoc_8h_1a1e16a88cd6d16a326d708cf3d8e225ed" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tag_debug_key_filter</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tag_debug_key_filter</name>
+        <initializer>= R&quot;doc(Get the current filter key.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" line="85" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_debug_pydoc.h"/>
+  </compounddef>
+</doxygen>

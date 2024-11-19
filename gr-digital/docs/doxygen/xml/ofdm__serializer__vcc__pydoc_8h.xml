@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="ofdm__serializer__vcc__pydoc_8h" kind="file" language="C++">
+    <compoundname>ofdm_serializer_vcc_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>ofdm_serializer_vcc_pydoc.h</label>
+        <link refid="ofdm__serializer__vcc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="ofdm__serializer__vcc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_serializer_vcc_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_serializer_vcc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="ofdm__serializer__vcc__pydoc_8h_1a86e1ba6a42cdf298c86f4569f91ddd57" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_serializer_vcc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_serializer_vcc</name>
+        <initializer>= R&quot;doc(Serializes complex modulations symbols from OFDM sub-carriers.
+
+This is the inverse block to the carrier_allocator_cvc. It outputs the complex data symbols as a tagged stream, discarding the pilot symbols.
+
+
+If given, two different tags are parsed: The first key () specifies the number of OFDM symbols in the frame at the input. The second key () specifies the number of complex symbols that are coded into this frame. If given, this second key is then used at the output, otherwise,  is used. If both are given, the packet length specifies the maximum number of output items, and the frame length specifies the exact number of consumed input items.
+
+
+It is possible to correct a carrier offset in this function by passing another tag with said offset.
+
+
+Input: Complex vectors of length  Output: Complex scalars, in the same order as specified in occupied_carriers.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    fft_len : FFT length
+    occupied_carriers : See ofdm_carrier_allocator_cvc.
+    len_tag_key : The key of the tag identifying the length of the input frame in OFDM symbols.
+    packet_len_tag_key : The key of the tag identifying the number of complex symbols in this packet.
+    symbols_skipped : If the first symbol is not allocated as in [0], set this
+    carr_offset_key : When this block should correct a carrier offset, specify the tag key of the offset here (not necessary if following an ofdm_frame_equalizer_vcvc)
+    input_is_shifted : If the input has the DC carrier on index 0 (i.e. it is not FFT shifted), set this to false)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_serializer_vcc_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_serializer_vcc_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__serializer__vcc__pydoc_8h_1a5efdbe69a8877f1df539f295fdb3f0aa" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_serializer_vcc_ofdm_serializer_vcc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_serializer_vcc_ofdm_serializer_vcc</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_serializer_vcc_pydoc.h" line="45" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_serializer_vcc_pydoc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__serializer__vcc__pydoc_8h_1ac84cadc0b0d05f41db70b2a5fb190d77" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_serializer_vcc_make_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_serializer_vcc_make_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_serializer_vcc_pydoc.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_serializer_vcc_pydoc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__serializer__vcc__pydoc_8h_1a1188c61110cf9c92f056a017e1cf10af" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_serializer_vcc_make_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_serializer_vcc_make_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_serializer_vcc_pydoc.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_serializer_vcc_pydoc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_serializer_vcc_pydoc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="file__meta__source__pydoc_8h" kind="file" language="C++">
+    <compoundname>file_meta_source_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>file_meta_source_pydoc.h</label>
+        <link refid="file__meta__source__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="file__meta__source__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="file__meta__source__pydoc_8h_1a95e80454c235e6521e10209ac41b867d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_meta_source</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_meta_source</name>
+        <initializer>= R&quot;doc(Reads stream from file with meta-data headers. Headers are parsed into tags.
+
+The information in the metadata headers includes:
+
+
+
+Any item inside of the extra header dictionary is ready out and made into a stream tag.
+
+Constructor Specific Documentation:
+
+Create a meta-data file source.
+
+Args:
+    filename : (string): Name of file to write data to.
+    repeat : (bool): Repeats file when EOF is found.
+    detached_header : (bool): Set to true if header info is stored in a separate file (usually named filename.hdr)
+    hdr_filename : (string): Name of detached header file if used. Defaults to &apos;filename.hdr&apos; if detached_header is true but this field is an empty string.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__meta__source__pydoc_8h_1af0def52d2eebec2663a6bab5edd11de0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_meta_source_file_meta_source_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_meta_source_file_meta_source_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__meta__source__pydoc_8h_1aa25f1820bd27dc26e8c1990cefa5a67c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_meta_source_file_meta_source_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_meta_source_file_meta_source_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" line="40" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__meta__source__pydoc_8h_1a2be6b7b36e53e8ae133da2c5b33736e6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_meta_source_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_meta_source_make</name>
+        <initializer>= R&quot;doc(Reads stream from file with meta-data headers. Headers are parsed into tags.
+
+The information in the metadata headers includes:
+
+
+
+Any item inside of the extra header dictionary is ready out and made into a stream tag.
+
+Constructor Specific Documentation:
+
+Create a meta-data file source.
+
+Args:
+    filename : (string): Name of file to write data to.
+    repeat : (bool): Repeats file when EOF is found.
+    detached_header : (bool): Set to true if header info is stored in a separate file (usually named filename.hdr)
+    hdr_filename : (string): Name of detached header file if used. Defaults to &apos;filename.hdr&apos; if detached_header is true but this field is an empty string.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" line="43" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__meta__source__pydoc_8h_1a71370f0ad831345ab4bd1e41ecb3aeb1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_meta_source_open</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_meta_source_open</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" line="62" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__meta__source__pydoc_8h_1a755a890357bbd08697a9dc45289d9f0e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_meta_source_close</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_meta_source_close</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" line="65" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__meta__source__pydoc_8h_1adc02c021b3cb8970956a5af8bbf41f04" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_meta_source_do_update</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_meta_source_do_update</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" line="68" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_meta_source_pydoc.h"/>
+  </compounddef>
+</doxygen>

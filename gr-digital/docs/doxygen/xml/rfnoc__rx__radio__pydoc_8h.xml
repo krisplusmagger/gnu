@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="rfnoc__rx__radio__pydoc_8h" kind="file" language="C++">
+    <compoundname>rfnoc_rx_radio_pydoc.h</compoundname>
+    <includes refid="build_2gr-uhd_2python_2uhd_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-uhd_2python_2uhd_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>rfnoc_rx_radio_pydoc.h</label>
+        <link refid="rfnoc__rx__radio__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="rfnoc__rx__radio__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, uhd, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1ada08708b51bc82c74d905d2ae569af07" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio</name>
+        <initializer>= R&quot;doc(RFNoC RX Radio
+
+
+This wraps a radio block into GNU Radio. Note: When doing TX and RX in the same flow graph, simply create an rfnoc_rx_radio and an rfnoc_tx_radio with the same block ID.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    graph : Reference to the underlying rfnoc_graph object
+    block_args : Additional block arguments
+    device_select : Device Selection
+    instance : Instance Selection)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="17" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1acc24f450aa82f33494a0d00509b998a7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_rfnoc_rx_radio_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_rfnoc_rx_radio_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="32" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1a23da668131a261b426179328100133f8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_rfnoc_rx_radio_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_rfnoc_rx_radio_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1ab44ae678fe9f09d265b3240f11493c82" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_make</name>
+        <initializer>= R&quot;doc(RFNoC RX Radio
+
+
+This wraps a radio block into GNU Radio. Note: When doing TX and RX in the same flow graph, simply create an rfnoc_rx_radio and an rfnoc_tx_radio with the same block ID.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    graph : Reference to the underlying rfnoc_graph object
+    block_args : Additional block arguments
+    device_select : Device Selection
+    instance : Instance Selection)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1af5d10154b21947ac2b320f04dab962c9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_rate</name>
+        <initializer>= R&quot;doc(Set the output sampling rate of the radio block.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1afadd2f4945178987fc4eced44e7c8143" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_antenna</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_antenna</name>
+        <initializer>= R&quot;doc(Set the antenna for this radio.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1a9d872d1792200ed50476bdcc85a0c320" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_frequency</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_frequency</name>
+        <initializer>= R&quot;doc(Set the RX frequency for this radio.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="55" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1a61edcb7bda3c8e6586fb3f9e4398b3f7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_tune_args</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_tune_args</name>
+        <initializer>= R&quot;doc(Configure the tune args for this RX radio.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="57" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1a60db2c3a4e3e783a28c783659eb515f5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_gain_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_gain_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="59" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1afdd12fcea4b2a2344de062b1fef47790" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_gain_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_gain_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="61" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1adc1ef224f656594551b2d4fe67907750" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_agc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_agc</name>
+        <initializer>= R&quot;doc(Enable/disable the AGC for this RX radio (if available))doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="63" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1a318445ef1e71dd3c4efd66bea18d4be0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_gain_profile</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_gain_profile</name>
+        <initializer>= R&quot;doc(Switch the gain profile for this RX radio.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="65" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1a3b1633025c85d09925b2c0618a9463ed" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_bandwidth</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_bandwidth</name>
+        <initializer>= R&quot;doc(Set the analog bandwidth for this RX radio.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="67" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1a4dc3359a23430b56b3ffca4a472f80c7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_lo_source</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_lo_source</name>
+        <initializer>= R&quot;doc(Set the LO source for this RX radio.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="69" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1a1cdb61faa6340cbcb8533a2d787acc60" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_lo_export_enabled</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_lo_export_enabled</name>
+        <initializer>= R&quot;doc(Enable/disable LO export for this RX radio.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="71" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1a737fec3e75fb283d12dc5b3f1724ce5a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_lo_freq</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_lo_freq</name>
+        <initializer>= R&quot;doc(Configure the LO frequency explicitly.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="73" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1ab33be420721d0c5d575e836804c72f32" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_dc_offset_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_dc_offset_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="75" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1afc46f6092768e6c4757a7ba494f54118" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_dc_offset_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_dc_offset_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="77" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1a4955a2de39ac8876fc8a394221a9fbb5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_iq_balance_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_iq_balance_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="79" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1a1e0fa51ee49ceafb02c4d3532415f300" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_set_iq_balance_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_set_iq_balance_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="81" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1a8d62374ab8c7660e58e1f5bbecbe2211" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_issue_stream_cmd</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_issue_stream_cmd</name>
+        <initializer>= R&quot;doc(Issue a stream command to specific channels
+
+
+This behaves differently from usrp_source::issue_stream_cmd() in two ways:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="83" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rfnoc__rx__radio__pydoc_8h_1a0144182ded73d349169c1372d85aa63a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_uhd_rfnoc_rx_radio_enable_rx_timestamps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_uhd_rfnoc_rx_radio_enable_rx_timestamps</name>
+        <initializer>= R&quot;doc(Enable/disable timestamp generation on a radio channel.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" line="88" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-uhd/python/uhd/bindings/rfnoc_rx_radio_pydoc.h"/>
+  </compounddef>
+</doxygen>

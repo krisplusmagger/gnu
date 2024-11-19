@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="math_8h" kind="file" language="C++">
+    <compoundname>math.h</compoundname>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2api_8h" local="no">gnuradio/api.h</includes>
+    <includes refid="gr__complex_8h" local="no">gnuradio/gr_complex.h</includes>
+    <includes local="no">cmath</includes>
+    <includedby refid="adaptive__algorithm_8h" local="no">adaptive_algorithm.h</includedby>
+    <includedby refid="control__loop_8h" local="no">control_loop.h</includedby>
+    <includedby refid="getTaps_8h" local="no">getTaps.h</includedby>
+    <includedby refid="getTaps__impl_8h" local="no">getTaps_impl.h</includedby>
+    <includedby refid="nco_8h" local="no">nco.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="4">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>math.h</label>
+        <link refid="math_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>cmath</label>
+      </node>
+      <node id="5">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>math.h</label>
+        <link refid="math_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>nco.h</label>
+        <link refid="nco_8h"/>
+      </node>
+      <node id="12">
+        <label>pll_carriertracking_cc.h</label>
+        <link refid="pll__carriertracking__cc_8h"/>
+      </node>
+      <node id="13">
+        <label>pll_freqdet_cf.h</label>
+        <link refid="pll__freqdet__cf_8h"/>
+      </node>
+      <node id="14">
+        <label>pll_refout_cc.h</label>
+        <link refid="pll__refout__cc_8h"/>
+      </node>
+      <node id="8">
+        <label>control_loop.h</label>
+        <link refid="control__loop_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>getTaps.h</label>
+        <link refid="getTaps_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>getTaps_impl.h</label>
+        <link refid="getTaps__impl_8h"/>
+      </node>
+      <node id="2">
+        <label>adaptive_algorithm.h</label>
+        <link refid="adaptive__algorithm_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>adaptive_algorithm_cma.h</label>
+        <link refid="adaptive__algorithm__cma_8h"/>
+      </node>
+      <node id="4">
+        <label>adaptive_algorithm_lms.h</label>
+        <link refid="adaptive__algorithm__lms_8h"/>
+      </node>
+      <node id="5">
+        <label>adaptive_algorithm_nlms.h</label>
+        <link refid="adaptive__algorithm__nlms_8h"/>
+      </node>
+      <node id="9">
+        <label>constellation_receiver_cb.h</label>
+        <link refid="constellation__receiver__cb_8h"/>
+      </node>
+      <node id="10">
+        <label>costas_loop_cc.h</label>
+        <link refid="costas__loop__cc_8h"/>
+      </node>
+      <node id="6">
+        <label>decision_feedback_equalizer.h</label>
+        <link refid="decision__feedback__equalizer_8h"/>
+      </node>
+      <node id="11">
+        <label>fll_band_edge_cc.h</label>
+        <link refid="fll__band__edge__cc_8h"/>
+      </node>
+      <node id="7">
+        <label>linear_equalizer.h</label>
+        <link refid="linear__equalizer_8h"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="math_8h_1af58397066e4dbeafddbb2f331cd614a0" prot="public" static="no">
+        <name>GR_M_PI</name>
+        <initializer>3.14159265358979323846    /* pi */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/math.h" line="32" column="9" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/math.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="math_8h_1aa14fb267e01eae3f30667805c898205e" prot="public" static="no">
+        <name>GR_M_SQRT2</name>
+        <initializer>1.41421356237309504880 /* sqrt(2) */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/math.h" line="33" column="9" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/math.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/math.h"/>
+  </compounddef>
+</doxygen>

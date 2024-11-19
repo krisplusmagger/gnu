@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1filter_1_1single__pole__iir" kind="class" language="C++" prot="public">
+    <compoundname>gr::filter::single_pole_iir</compoundname>
+    <includes refid="single__pole__iir_8h" local="no">gnuradio/filter/single_pole_iir.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class o_type</type>
+      </param>
+      <param>
+        <type>class i_type</type>
+      </param>
+      <param>
+        <type>class tap_type</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1single__pole__iir_1aae34e9e591019dd8b081eb06a981252d" prot="protected" static="no" mutable="no">
+        <type>tap_type</type>
+        <definition>tap_type gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::d_alpha</definition>
+        <argsstring></argsstring>
+        <name>d_alpha</name>
+        <qualifiedname>gr::filter::single_pole_iir::d_alpha</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" line="69" column="14" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" bodystart="69" bodyend="-1"/>
+        <referencedby refid="classgr_1_1filter_1_1single__pole__iir_3_01gr__complex_00_01i__type_00_01double_01_4_1aaa9a126536418a29f6539b0033ae74b6" compoundref="single__pole__iir_8h" startline="134" endline="141">gr::filter::single_pole_iir&lt; gr_complex, i_type, double &gt;::set_taps</referencedby>
+        <referencedby refid="classgr_1_1filter_1_1single__pole__iir_1addcc5e4b40b047a852999125d69d5e94" compoundref="single__pole__iir_8h" startline="54" endline="61">gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::set_taps</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1single__pole__iir_1aa8d14823d7649449309387443c133615" prot="protected" static="no" mutable="no">
+        <type>tap_type</type>
+        <definition>tap_type gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::d_one_minus_alpha</definition>
+        <argsstring></argsstring>
+        <name>d_one_minus_alpha</name>
+        <qualifiedname>gr::filter::single_pole_iir::d_one_minus_alpha</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" line="70" column="14" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" bodystart="70" bodyend="-1"/>
+        <referencedby refid="classgr_1_1filter_1_1single__pole__iir_3_01gr__complex_00_01i__type_00_01double_01_4_1aaa9a126536418a29f6539b0033ae74b6" compoundref="single__pole__iir_8h" startline="134" endline="141">gr::filter::single_pole_iir&lt; gr_complex, i_type, double &gt;::set_taps</referencedby>
+        <referencedby refid="classgr_1_1filter_1_1single__pole__iir_1addcc5e4b40b047a852999125d69d5e94" compoundref="single__pole__iir_8h" startline="54" endline="61">gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::set_taps</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1single__pole__iir_1ac3a1d570a4eee0373568c4c9d17ee5da" prot="protected" static="no" mutable="no">
+        <type>o_type</type>
+        <definition>o_type gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::d_prev_output</definition>
+        <argsstring></argsstring>
+        <name>d_prev_output</name>
+        <qualifiedname>gr::filter::single_pole_iir::d_prev_output</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" line="71" column="12" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="classgr_1_1filter_1_1single__pole__iir_1a031311ff3287bcb5fa79b51dbb274400" compoundref="single__pole__iir_8h" startline="66" endline="66">gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::prev_output</referencedby>
+        <referencedby refid="classgr_1_1filter_1_1single__pole__iir_3_01gr__complex_00_01i__type_00_01double_01_4_1a21222c21ce020b0091006dfa3858b59f" compoundref="single__pole__iir_8h" startline="146" endline="146">gr::filter::single_pole_iir&lt; gr_complex, i_type, double &gt;::prev_output</referencedby>
+        <referencedby refid="classgr_1_1filter_1_1single__pole__iir_1a8109c9b02a2688dc7525b0e9b661c179" compoundref="single__pole__iir_8h" startline="64" endline="64">gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::reset</referencedby>
+        <referencedby refid="classgr_1_1filter_1_1single__pole__iir_3_01gr__complex_00_01i__type_00_01double_01_4_1a4be9464dd8eaaa41f5b8771da9e3061f" compoundref="single__pole__iir_8h" startline="144" endline="144">gr::filter::single_pole_iir&lt; gr_complex, i_type, double &gt;::reset</referencedby>
+        <referencedby refid="classgr_1_1filter_1_1single__pole__iir_3_01gr__complex_00_01i__type_00_01double_01_4_1a8a61fabfa88654680de0c584db5a56da" compoundref="single__pole__iir_8h" startline="113" endline="117">gr::filter::single_pole_iir&lt; gr_complex, i_type, double &gt;::single_pole_iir</referencedby>
+        <referencedby refid="classgr_1_1filter_1_1single__pole__iir_1a40b890ca87df59847b7a0b3e8f664544" compoundref="single__pole__iir_8h" startline="33" endline="37">gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::single_pole_iir</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1single__pole__iir_1a40b890ca87df59847b7a0b3e8f664544" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::single_pole_iir</definition>
+        <argsstring>(tap_type alpha=1.0)</argsstring>
+        <name>single_pole_iir</name>
+        <qualifiedname>gr::filter::single_pole_iir::single_pole_iir</qualifiedname>
+        <param>
+          <type>tap_type</type>
+          <declname>alpha</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+<para>construct new single pole IIR with given alpha </para>
+        </briefdescription>
+        <detaileddescription>
+<para>computes y(i) = (1-alpha) * y(i-1) + alpha * x(i) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" line="33" column="5" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" bodystart="33" bodyend="37"/>
+        <references refid="classgr_1_1filter_1_1single__pole__iir_1ac3a1d570a4eee0373568c4c9d17ee5da" compoundref="single__pole__iir_8h" startline="71">gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::d_prev_output</references>
+        <references refid="classgr_1_1filter_1_1single__pole__iir_1addcc5e4b40b047a852999125d69d5e94" compoundref="single__pole__iir_8h" startline="54" endline="61">gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::set_taps</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1single__pole__iir_1a5f02362d24af0e1cc955d32c3e82adfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>o_type</type>
+        <definition>o_type gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::filter</definition>
+        <argsstring>(const i_type input)</argsstring>
+        <name>filter</name>
+        <qualifiedname>gr::filter::single_pole_iir::filter</qualifiedname>
+        <param>
+          <type>const i_type</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+<para>compute a single output value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the filtered input value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" line="43" column="12" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" bodystart="78" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1single__pole__iir_1ad20bfdc464667155333c099f04210552" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::filterN</definition>
+        <argsstring>(o_type output[], const i_type input[], unsigned long n)</argsstring>
+        <name>filterN</name>
+        <qualifiedname>gr::filter::single_pole_iir::filterN</qualifiedname>
+        <param>
+          <type>o_type</type>
+          <declname>output</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>const i_type</type>
+          <declname>input</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>compute an array of N output values. <computeroutput>input</computeroutput> must have n valid entries. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" line="49" column="10" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" bodystart="90" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1single__pole__iir_1addcc5e4b40b047a852999125d69d5e94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::set_taps</definition>
+        <argsstring>(tap_type alpha)</argsstring>
+        <name>set_taps</name>
+        <qualifiedname>gr::filter::single_pole_iir::set_taps</qualifiedname>
+        <param>
+          <type>tap_type</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>install <computeroutput>alpha</computeroutput> as the current taps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" line="54" column="10" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" bodystart="54" bodyend="61"/>
+        <references refid="classgr_1_1filter_1_1single__pole__iir_1aae34e9e591019dd8b081eb06a981252d" compoundref="single__pole__iir_8h" startline="69">gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::d_alpha</references>
+        <references refid="classgr_1_1filter_1_1single__pole__iir_1aa8d14823d7649449309387443c133615" compoundref="single__pole__iir_8h" startline="70">gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::d_one_minus_alpha</references>
+        <referencedby refid="classgr_1_1filter_1_1single__pole__iir_3_01gr__complex_00_01i__type_00_01double_01_4_1a8a61fabfa88654680de0c584db5a56da" compoundref="single__pole__iir_8h" startline="113" endline="117">gr::filter::single_pole_iir&lt; gr_complex, i_type, double &gt;::single_pole_iir</referencedby>
+        <referencedby refid="classgr_1_1filter_1_1single__pole__iir_1a40b890ca87df59847b7a0b3e8f664544" compoundref="single__pole__iir_8h" startline="33" endline="37">gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::single_pole_iir</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1single__pole__iir_1a8109c9b02a2688dc7525b0e9b661c179" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>gr::filter::single_pole_iir::reset</qualifiedname>
+        <briefdescription>
+<para>reset state to zero </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" line="64" column="10" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" bodystart="64" bodyend="64"/>
+        <references refid="classgr_1_1filter_1_1single__pole__iir_1ac3a1d570a4eee0373568c4c9d17ee5da" compoundref="single__pole__iir_8h" startline="71">gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::d_prev_output</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1single__pole__iir_1a031311ff3287bcb5fa79b51dbb274400" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>o_type</type>
+        <definition>o_type gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::prev_output</definition>
+        <argsstring>() const</argsstring>
+        <name>prev_output</name>
+        <qualifiedname>gr::filter::single_pole_iir::prev_output</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" line="66" column="12" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" bodystart="66" bodyend="66"/>
+        <references refid="classgr_1_1filter_1_1single__pole__iir_1ac3a1d570a4eee0373568c4c9d17ee5da" compoundref="single__pole__iir_8h" startline="71">gr::filter::single_pole_iir&lt; o_type, i_type, tap_type &gt;::d_prev_output</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>class template for single pole IIR filter </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" line="25" column="1" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h" bodystart="26" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1single__pole__iir_1aae34e9e591019dd8b081eb06a981252d" prot="protected" virt="non-virtual"><scope>gr::filter::single_pole_iir</scope><name>d_alpha</name></member>
+      <member refid="classgr_1_1filter_1_1single__pole__iir_1aa8d14823d7649449309387443c133615" prot="protected" virt="non-virtual"><scope>gr::filter::single_pole_iir</scope><name>d_one_minus_alpha</name></member>
+      <member refid="classgr_1_1filter_1_1single__pole__iir_1ac3a1d570a4eee0373568c4c9d17ee5da" prot="protected" virt="non-virtual"><scope>gr::filter::single_pole_iir</scope><name>d_prev_output</name></member>
+      <member refid="classgr_1_1filter_1_1single__pole__iir_1a5f02362d24af0e1cc955d32c3e82adfe" prot="public" virt="non-virtual"><scope>gr::filter::single_pole_iir</scope><name>filter</name></member>
+      <member refid="classgr_1_1filter_1_1single__pole__iir_1ad20bfdc464667155333c099f04210552" prot="public" virt="non-virtual"><scope>gr::filter::single_pole_iir</scope><name>filterN</name></member>
+      <member refid="classgr_1_1filter_1_1single__pole__iir_1a031311ff3287bcb5fa79b51dbb274400" prot="public" virt="non-virtual"><scope>gr::filter::single_pole_iir</scope><name>prev_output</name></member>
+      <member refid="classgr_1_1filter_1_1single__pole__iir_1a8109c9b02a2688dc7525b0e9b661c179" prot="public" virt="non-virtual"><scope>gr::filter::single_pole_iir</scope><name>reset</name></member>
+      <member refid="classgr_1_1filter_1_1single__pole__iir_1addcc5e4b40b047a852999125d69d5e94" prot="public" virt="non-virtual"><scope>gr::filter::single_pole_iir</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1single__pole__iir_1a40b890ca87df59847b7a0b3e8f664544" prot="public" virt="non-virtual"><scope>gr::filter::single_pole_iir</scope><name>single_pole_iir</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

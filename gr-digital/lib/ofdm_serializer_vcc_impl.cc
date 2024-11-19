@@ -169,7 +169,7 @@ int ofdm_serializer_vcc_impl::work(int noutput_items,
         }
         for (unsigned k = 0; k < d_occupied_carriers[d_curr_set].size(); k++) {
             out[n_out_symbols++] =
-                in[i * d_fft_len + d_occupied_carriers[d_curr_set][k] + carr_offset];
+                in[i * d_fft_len + d_occupied_carriers[d_curr_set][k] + carr_offset]; 
         }
         if (packet_length && n_out_symbols > packet_length) {
             n_out_symbols = packet_length;

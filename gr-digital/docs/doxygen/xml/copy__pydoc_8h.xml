@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="copy__pydoc_8h" kind="file" language="C++">
+    <compoundname>copy_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>copy_pydoc.h</label>
+        <link refid="copy__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="copy__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/copy_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/copy_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="copy__pydoc_8h_1a9a03a1c544249f11260fcbebd9842e10" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_copy</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_copy</name>
+        <initializer>= R&quot;doc(output[i] = input[i]
+
+When enabled (default), this block copies its input to its output. When disabled, this block drops its input on the floor.
+
+
+Message Ports:
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    itemsize : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/copy_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/copy_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="copy__pydoc_8h_1ae3014055c1bdeb8c21ef8658a76f1e42" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_copy_copy_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_copy_copy_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/copy_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/copy_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="copy__pydoc_8h_1ad997eb3d7e3725fb4a659c1fb2b50caa" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_copy_copy_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_copy_copy_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/copy_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/copy_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="copy__pydoc_8h_1a4e38abb6eff369e33d06369e0912534a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_copy_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_copy_make</name>
+        <initializer>= R&quot;doc(output[i] = input[i]
+
+When enabled (default), this block copies its input to its output. When disabled, this block drops its input on the floor.
+
+
+Message Ports:
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    itemsize : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/copy_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/copy_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="copy__pydoc_8h_1a8714300d6bdb1f62bb9e41d7683e14b2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_copy_set_enabled</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_copy_set_enabled</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/copy_pydoc.h" line="54" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/copy_pydoc.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="copy__pydoc_8h_1a6a5c7d9f425103453f6555013e734ef8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_copy_enabled</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_copy_enabled</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/copy_pydoc.h" line="57" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/copy_pydoc.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/copy_pydoc.h"/>
+  </compounddef>
+</doxygen>

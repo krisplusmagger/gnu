@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="probe__rate__pydoc_8h" kind="file" language="C++">
+    <compoundname>probe_rate_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>probe_rate_pydoc.h</label>
+        <link refid="probe__rate__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="probe__rate__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="probe__rate__pydoc_8h_1a711289b3457e08010321bc30029e1494" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_probe_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_probe_rate</name>
+        <initializer>= R&quot;doc(throughput measurement
+
+Constructor Specific Documentation:
+
+Make a throughput measurement block.
+
+If the name is empty, the \&quot;name\&quot; field in the emitted dictionaries is omitted.
+
+Args:
+    itemsize : size of each stream item
+    update_rate_ms : minimum update time in milliseconds
+    alpha : gain for running average filter
+    name : name for this probe (used in generated dictionaries))doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__rate__pydoc_8h_1a9b6e763aacb729034d188267487776ed" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_probe_rate_probe_rate_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_probe_rate_probe_rate_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" line="33" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__rate__pydoc_8h_1ae7a4480b8493e5d21bf4eeea1540d092" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_probe_rate_probe_rate_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_probe_rate_probe_rate_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" line="36" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__rate__pydoc_8h_1a1037775e814684a11d5f2d8b40461fa8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_probe_rate_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_probe_rate_make</name>
+        <initializer>= R&quot;doc(throughput measurement
+
+Constructor Specific Documentation:
+
+Make a throughput measurement block.
+
+If the name is empty, the \&quot;name\&quot; field in the emitted dictionaries is omitted.
+
+Args:
+    itemsize : size of each stream item
+    update_rate_ms : minimum update time in milliseconds
+    alpha : gain for running average filter
+    name : name for this probe (used in generated dictionaries))doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" line="39" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__rate__pydoc_8h_1aad74b40109f76ab67209d6905fca1948" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_probe_rate_set_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_probe_rate_set_alpha</name>
+        <initializer>= R&quot;doc(Set the decay of the exponential rate average.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" line="54" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__rate__pydoc_8h_1a692486505eaa4a507a82f7e6f067b881" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_probe_rate_set_name</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_probe_rate_set_name</name>
+        <initializer>= R&quot;doc(Set the name of this probe Used in the emitted dictionaries if not empty.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" line="57" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__rate__pydoc_8h_1a44ff07e6393c4cdbf217a21b708573cb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_probe_rate_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_probe_rate_rate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" line="60" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__rate__pydoc_8h_1a3e9a3336602c723fc98aa01fb774b779" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_probe_rate_start</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_probe_rate_start</name>
+        <initializer>= R&quot;doc(Called to enable drivers, etc for i/o devices.
+
+This allows a block to enable an associated driver to begin transferring data just before we start to execute the scheduler. The end result is that this reduces latency in the pipeline when dealing with audio devices, usrps, etc.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" line="63" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="probe__rate__pydoc_8h_1a6a5a9f54e5b53b212696a6a4d64fa1d1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_probe_rate_stop</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_probe_rate_stop</name>
+        <initializer>= R&quot;doc(Called to disable drivers, etc for i/o devices.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" line="68" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/probe_rate_pydoc.h"/>
+  </compounddef>
+</doxygen>

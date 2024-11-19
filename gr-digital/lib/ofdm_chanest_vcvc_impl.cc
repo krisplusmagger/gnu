@@ -103,9 +103,9 @@ ofdm_chanest_vcvc_impl::ofdm_chanest_vcvc_impl(
     if (d_n_sync_syms == 2) {
         for (int i = 0; i < d_fft_len; i++) {
             if (sync_symbol1[i] == gr_complex(0, 0)) {
-                d_corr_v[i] = gr_complex(0, 0);
+                d_corr_v[i] = gr_complex(0, 0);  // d_corr_v = sync_symbol2
             } else {
-                d_corr_v[i] /= sync_symbol1[i];
+                d_corr_v[i] /= sync_symbol1[i];// differenaial modulation between two training symbols 
             }
         }
     } else {
@@ -115,7 +115,7 @@ ofdm_chanest_vcvc_impl::ofdm_chanest_vcvc_impl(
         for (int i = d_first_active_carrier;
              i < d_last_active_carrier - 2 && i < d_fft_len - 2;
              i += 2) {
-            d_known_symbol_diffs[i] = std::norm(sync_symbol1[i] - sync_symbol1[i + 2]);
+            d_known_symbol_diffs[i] = std::norm(sync_symbol1[i] - sync_symbol1[i + 2]); // z^2 = a^2 + b^2
         }
     }
 
@@ -146,7 +146,7 @@ int ofdm_chanest_vcvc_impl::get_carr_offset(const gr_complex* sync_sym1,
             for (int k = 0; k < d_fft_len; k++) {
                 if (d_corr_v[k] != gr_complex(0, 0)) {
                     tmp += std::conj(sync_sym1[k + g]) * std::conj(d_corr_v[k]) *
-                           sync_sym2[k + g];
+                           sync_sym2[k + g]; // x_1*v_k*x_2
                 }
             }
             if (std::abs(tmp) > Bg_max) {
@@ -194,6 +194,8 @@ void ofdm_chanest_vcvc_impl::get_chan_taps(const gr_complex* sync_sym1,
     } else if (carr_offset < 0) {
         loop_end = d_fft_len + carr_offset;
     }
+    // d_ref_sym --> original sync_symbol2
+    //sym --> received sync_sym2
     for (int i = loop_start; i < loop_end; i++) {
         if ((d_ref_sym[i - carr_offset] != gr_complex(0, 0))) {
             taps[i - carr_offset] = sym[i] / d_ref_sym[i - carr_offset];
@@ -230,6 +232,7 @@ int ofdm_chanest_vcvc_impl::general_work(int noutput_items,
     int carr_offset = get_carr_offset(in, in + d_fft_len);
     std::vector<gr_complex> chan_taps(d_fft_len, 0);
     get_chan_taps(in, in + d_fft_len, carr_offset, chan_taps);
+    // the input is received sync_symbol
     add_item_tag(0,
                  nitems_written(0),
                  pmt::string_to_symbol("ofdm_sync_carr_offset"),

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="ofdm__cyclic__prefixer__pydoc_8h" kind="file" language="C++">
+    <compoundname>ofdm_cyclic_prefixer_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>ofdm_cyclic_prefixer_pydoc.h</label>
+        <link refid="ofdm__cyclic__prefixer__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="ofdm__cyclic__prefixer__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_cyclic_prefixer_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_cyclic_prefixer_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="ofdm__cyclic__prefixer__pydoc_8h_1a1de5c66f5658797a98dff53e15e9cfca" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_cyclic_prefixer</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_cyclic_prefixer</name>
+        <initializer>= R&quot;doc(Adds a cyclic prefix and performs optional pulse shaping on OFDM symbols.
+
+Input: OFDM symbols (in the time domain, i.e. after the IFFT). Optionally, entire frames can be processed. In this case,  must be specified which holds the key of the tag that denotes how many OFDM symbols are in a frame. Output: A stream of (scalar) complex symbols, which include the cyclic prefix and the pulse shaping. Note: If complete frames are processed, and  is greater than zero, the final OFDM symbol is followed by the delay line of the pulse shaping.
+
+
+The pulse shape is a raised cosine in the time domain.
+
+
+Different CP lengths as for instance needed in LTE are supported. This is why one of the inputs is std::vector&lt;int&gt;. After every CP given has been prepended to symbols, each with the length of the IFFT operation, the mechanism will wrap around and start over. To give an example, the input tuple for LTE with an FFT length of 2048 would be (160,) + (144,)*6, which is equal to (160, 144, 144, 144, 144, 144, 144). A uniform CP would be indicated by (uniform_cp_length, ).
+
+
+This block does some sanity checking: 1. It is not allowed to have a vector of CP lengths, which are only 0. 2. Not a single CP in the vector must be longer than the rolloff. 3. Not a single CP is allowed to be &lt; 0.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    input_size : IFFT length (i.e. length of the OFDM symbols).
+    output_size : FFT length + cyclic prefix length (in samples).
+    rolloff_len : Length of the rolloff flank in samples.
+    len_tag_key : For framed processing the key of the length tag.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_cyclic_prefixer_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_cyclic_prefixer_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__cyclic__prefixer__pydoc_8h_1a197786e95336997babe37b3d25321f12" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_cyclic_prefixer_ofdm_cyclic_prefixer</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_cyclic_prefixer_ofdm_cyclic_prefixer</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_cyclic_prefixer_pydoc.h" line="42" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_cyclic_prefixer_pydoc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__cyclic__prefixer__pydoc_8h_1a5c8a5c4a4d585fa74c7814fd62d13efe" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_cyclic_prefixer_make_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_cyclic_prefixer_make_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_cyclic_prefixer_pydoc.h" line="46" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_cyclic_prefixer_pydoc.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__cyclic__prefixer__pydoc_8h_1aebdd059672c09de6232cf86b43d181f4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_cyclic_prefixer_make_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_cyclic_prefixer_make_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_cyclic_prefixer_pydoc.h" line="49" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_cyclic_prefixer_pydoc.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_cyclic_prefixer_pydoc.h"/>
+  </compounddef>
+</doxygen>

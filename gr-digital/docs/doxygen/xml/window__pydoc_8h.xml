@@ -1,0 +1,514 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="window__pydoc_8h" kind="file" language="C++">
+    <compoundname>window_pydoc.h</compoundname>
+    <includes refid="build_2gr-fft_2python_2fft_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-fft_2python_2fft_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>window_pydoc.h</label>
+        <link refid="window__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="window__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, fft, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="window__pydoc_8h_1aa2ed010b2c0e650630349ef0a43bb56a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a45a141c689d50f9627f2ba7d84c0f2e9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_window_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_window_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="21" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a46b714382e6788e87818a6c0db3972d9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_window_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_window_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="24" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a37640db1473d346493bf5cfe1862219a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_max_attenuation</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_max_attenuation</name>
+        <initializer>= R&quot;doc(Given a window::win_type, this tells you the maximum attenuation (really the maximum approximation error) you can expect.
+
+For most windows, this is a set value. For the Kaiser, Exponential, Gaussian, and Tukey windows, the attenuation is based on the value of a provided parameter.
+
+
+For the Kaiser window the actual relationship is a piece-wise exponential relationship to calculate beta from the desired attenuation and can be found on page 542 of Oppenheim and Schafer (Discrete-Time Signal Processing, 3rd edition). To simplify this function to solve for A given beta, we use a linear form that is exact for attenuation &gt;= 50 dB. For an attenuation of 50 dB, beta = 4.55; for an attenuation of 70 dB, beta = 6.76.
+
+
+Exponential attenuation is complicated to measure due to the irregular error ripple structure, but it ranges between 23 and 26 dB depending on the decay factor; 26 dB is a good bound.
+
+
+The Gaussian window should not be used for window based filter construction; instead there is a dedicated gaussian filter construction function. There is no meaningful way to measure approximation error &apos;delta&apos; as shown in Fig 7.23 of Oppenheim and Schafer (Discrete-Time Signal Processing, 3rd edition).
+
+
+Tukey windows provide attenuation that varies non-linearily between Rectangular (21 dB) and Hann (44 dB) windows.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="27" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1ae5f742ed4308c014a6134ca49b375067" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_coswindow_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_coswindow_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="44" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a7ee3d7036198993df20e4b7e51ef7f1b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_coswindow_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_coswindow_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="47" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a7507e97d9829dd0f1c776051a1a92568" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_coswindow_2</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_coswindow_2</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1adfa7ba1bc1b63d2bd0a8addfeda3bb3a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_rectangular</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_rectangular</name>
+        <initializer>= R&quot;doc(Build a rectangular window.
+
+Taps are flat across the window.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a3133d316d251fd11bc7dfa10f8cc88fa" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_hamming</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_hamming</name>
+        <initializer>= R&quot;doc(Build a Hamming window.
+
+See:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="58" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1ad757e68a3ec76e8313e20b2da91e173f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_hann</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_hann</name>
+        <initializer>= R&quot;doc(Build a Hann window (sometimes known as Hanning).
+
+See:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="63" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a90728f173f4cd3d344985239f5f16088" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_hanning</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_hanning</name>
+        <initializer>= R&quot;doc(Alias to build a Hann window.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="68" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a79a45c59f578836af6a174e245e0e208" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_blackman</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_blackman</name>
+        <initializer>= R&quot;doc(Build an exact Blackman window.
+
+See:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="71" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1abef72b68b244cb02e6da94f29610f279" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_blackman2</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_blackman2</name>
+        <initializer>= R&quot;doc(Build Blackman window, variation 1.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="76" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a4daad9380bb264e00bc9aa0644b805fd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_blackman3</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_blackman3</name>
+        <initializer>= R&quot;doc(Build Blackman window, variation 2.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="79" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a352df49ecc02e3a1d2982524e6f8d764" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_blackman4</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_blackman4</name>
+        <initializer>= R&quot;doc(Build Blackman window, variation 3.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="82" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a0ccecc0cf89430fe0d5ea430d2d22edb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_blackman_harris</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_blackman_harris</name>
+        <initializer>= R&quot;doc(Build a Blackman-harris window with a given attenuation.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="85" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a2059174839cec7dbab9a11477187b8f4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_blackmanharris</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_blackmanharris</name>
+        <initializer>= R&quot;doc(Alias to gr::fft::window::blackman_harris.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="88" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1ad7a90155f516f09aac62159bd8ac57f7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_nuttall</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_nuttall</name>
+        <initializer>= R&quot;doc(Build a minimum 4-term Nuttall (or Blackman-Nuttall) window, referred to by Heinzel G. et al. as a Nuttall4c window.
+
+See: A.H. Nuttall: &apos;Some windows with very good sidelobe behaviour&apos;, IEEE Trans. on Acoustics, Speech and Signal Processing, Vol ASSP-29, figure 15
+
+
+See: &apos;Spectrum and spectral density estimation by the Discrete Fourier transform (DFT), including a comprehensive list of window functions and some new flat-top windows&apos;, February 15, 2002 
+
+
+Also:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="91" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a604e5f635013d7e0578d01f3d8949e40" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_blackman_nuttall</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_blackman_nuttall</name>
+        <initializer>= R&quot;doc(Alias to the Nuttall window.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="102" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a5dd94df62a01449431f65aaa01c7f41e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_nuttall_cfd</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_nuttall_cfd</name>
+        <initializer>= R&quot;doc(Build a Nuttall 4-term continuous first derivative window, referred to by Heinzel G. et al. as a Nuttall4b window.
+
+See: A.H. Nuttall: &apos;Some windows with very good sidelobe behaviour&apos;, IEEE Trans. on Acoustics, Speech and Signal Processing, Vol ASSP-29, figure 12
+
+
+See: &apos;Spectrum and spectral density estimation by the Discrete Fourier transform (DFT), including a comprehensive list of window functions and some new flat-top windows&apos;, February 15, 2002 
+
+
+Also:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="105" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a3588ddf024bde962be903176e9eb4560" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_flattop</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_flattop</name>
+        <initializer>= R&quot;doc(Build a flat top window per the SRS specification.
+
+See: 
+
+
+Note: there are many flat top windows, and this implementation is different from SciPY and Matlab which use the coefficients from <ref refid="basic__block__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref>?Antona et al. \&quot;Digital Signal
+Processing for Measurement Systems\&quot; with the following cosine coefficients:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="116" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a5c9e4366cd644f055935f797049a781d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_kaiser</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_kaiser</name>
+        <initializer>= R&quot;doc(Build a Kaiser window with a given beta.
+
+See:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="125" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a5bf628769ca50b1c20098e1064b2115a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_bartlett</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_bartlett</name>
+        <initializer>= R&quot;doc(Build a Barlett (triangular) window.
+
+See:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="130" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a96fba5e4406ddf87806bc9a992128484" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_welch</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_welch</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="135" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1ae945becab42308f20e75fc283f055a70" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_parzen</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_parzen</name>
+        <initializer>= R&quot;doc(Build a Parzen (or de la Valle-Poussin) window.
+
+See:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="138" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a86482f8eec95ebc96a349f68c871ce37" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_exponential</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_exponential</name>
+        <initializer>= R&quot;doc(Build an exponential window with a given decay.
+
+See:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="143" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1a73a9c66b6c1b1e1c3f9b65a134cdefae" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_riemann</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_riemann</name>
+        <initializer>= R&quot;doc(Build a Riemann window.
+
+See:)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="148" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1acbd3ae2bda8d61ade5e2c1aa626c00f1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_tukey</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_tukey</name>
+        <initializer>= R&quot;doc(Build a Tukey window.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="153" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1aaeca62381b771362697fba9d77546ec2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_gaussian</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_gaussian</name>
+        <initializer>= R&quot;doc(Build a Gaussian window using the equation.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="156" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="window__pydoc_8h_1ad7fb12c0edbbb5236c60999b0968150d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fft_window_build</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fft_window_build</name>
+        <initializer>= R&quot;doc(Build a window using gr::fft::win_type to index the type of window desired.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" line="159" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-fft/python/fft/bindings/window_pydoc.h"/>
+  </compounddef>
+</doxygen>

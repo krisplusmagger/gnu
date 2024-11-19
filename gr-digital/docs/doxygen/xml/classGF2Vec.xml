@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classGF2Vec" kind="class" language="C++" prot="public">
+    <compoundname>GF2Vec</compoundname>
+    <includes refid="gf2vec_8h" local="no">gnuradio/fec/gf2vec.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classGF2Vec_1aada0c0c333a33e894a768b5994f59357" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; GF2Vec::vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>GF2Vec::vec</qualifiedname>
+        <briefdescription>
+<para>The vector vec. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" line="21" column="17" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classGF2Vec_1a8906f8a506eae916c3c6e862cb3b119e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GF2Vec::resize</definition>
+        <argsstring>(int size)</argsstring>
+        <name>resize</name>
+        <qualifiedname>GF2Vec::resize</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Resize the vector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" line="24" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGF2Vec_1a68e30d99a6bc3f2cc12e6a1fe1909bc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GF2Vec::GF2Vec</definition>
+        <argsstring>()</argsstring>
+        <name>GF2Vec</name>
+        <qualifiedname>GF2Vec::GF2Vec</qualifiedname>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" line="28" column="5" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1a5d807869243b2328acdcd0a1c1b80ccc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GF2Vec::GF2Vec</definition>
+        <argsstring>(int size)</argsstring>
+        <name>GF2Vec</name>
+        <qualifiedname>GF2Vec::GF2Vec</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a vector of length &quot;size&quot; with all 0 entries. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" line="31" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1ae3696e3e22f532a2a9effe7f20812564" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt; uint8_t &gt; GF2Vec::get_vec</definition>
+        <argsstring>()</argsstring>
+        <name>get_vec</name>
+        <qualifiedname>GF2Vec::get_vec</qualifiedname>
+        <briefdescription>
+<para>Returns the vector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" line="34" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1a0333d28a24c6930adfc2cec14846d78a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int GF2Vec::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>GF2Vec::size</qualifiedname>
+        <briefdescription>
+<para>Returns the size of the vector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" line="37" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1a8b215189465cc7a9d8a1c328035f06f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GF2Vec::set_vec</definition>
+        <argsstring>(const std::vector&lt; uint8_t &gt;)</argsstring>
+        <name>set_vec</name>
+        <qualifiedname>GF2Vec::set_vec</qualifiedname>
+        <param>
+          <type>const std::vector&lt; uint8_t &gt;</type>
+        </param>
+        <briefdescription>
+<para>Resets the vector with the given input. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" line="40" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1a95d1c9fe1031eaea9201628305aefc3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t &amp;</type>
+        <definition>uint8_t &amp; GF2Vec::operator[]</definition>
+        <argsstring>(int i)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>GF2Vec::operator[]</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Access the ith element. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" line="43" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1ad4681bf180403ea8071dd2d3925f598e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GF2Vec::operator=</definition>
+        <argsstring>(GF2Vec x)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>GF2Vec::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classGF2Vec" kindref="compound">GF2Vec</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Overloading the operator &apos;=&apos;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" line="46" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1a33556180b01b2cca550218ea0bf1610b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classGF2Vec" kindref="compound">GF2Vec</ref></type>
+        <definition>GF2Vec GF2Vec::sub_vector</definition>
+        <argsstring>(int i, int j)</argsstring>
+        <name>sub_vector</name>
+        <qualifiedname>GF2Vec::sub_vector</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+<para>Obtain a subvector between the indices i to j. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" line="49" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1a95410e945a06d2a7325d3cefe9bf4b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GF2Vec::print_vec</definition>
+        <argsstring>()</argsstring>
+        <name>print_vec</name>
+        <qualifiedname>GF2Vec::print_vec</qualifiedname>
+        <briefdescription>
+<para>Prints the vector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" line="58" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classGF2Vec_1a27c25177ab17706613c97db2da05bad2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classGF2Vec" kindref="compound">GF2Vec</ref></type>
+        <definition>GF2Vec operator+</definition>
+        <argsstring>(GF2Vec a, GF2Vec b)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>GF2Vec::operator+</qualifiedname>
+        <param>
+          <type><ref refid="classGF2Vec" kindref="compound">GF2Vec</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classGF2Vec" kindref="compound">GF2Vec</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Overloading the operator &apos;+&apos;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" line="52" column="19"/>
+      </memberdef>
+      <memberdef kind="friend" id="classGF2Vec_1a618ecfc38856beeda95dcfd9fb946d8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t operator*</definition>
+        <argsstring>(GF2Vec a, GF2Vec b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>GF2Vec::operator*</qualifiedname>
+        <param>
+          <type><ref refid="classGF2Vec" kindref="compound">GF2Vec</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classGF2Vec" kindref="compound">GF2Vec</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Overloading the operator &apos;*&apos;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" line="55" column="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" line="17" column="1" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h" bodystart="18" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classGF2Vec_1ae3696e3e22f532a2a9effe7f20812564" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>get_vec</name></member>
+      <member refid="classGF2Vec_1a68e30d99a6bc3f2cc12e6a1fe1909bc9" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>GF2Vec</name></member>
+      <member refid="classGF2Vec_1a5d807869243b2328acdcd0a1c1b80ccc" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>GF2Vec</name></member>
+      <member refid="classGF2Vec_1a618ecfc38856beeda95dcfd9fb946d8a" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>operator*</name></member>
+      <member refid="classGF2Vec_1a27c25177ab17706613c97db2da05bad2" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>operator+</name></member>
+      <member refid="classGF2Vec_1ad4681bf180403ea8071dd2d3925f598e" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>operator=</name></member>
+      <member refid="classGF2Vec_1a95d1c9fe1031eaea9201628305aefc3f" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>operator[]</name></member>
+      <member refid="classGF2Vec_1a95410e945a06d2a7325d3cefe9bf4b72" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>print_vec</name></member>
+      <member refid="classGF2Vec_1a8906f8a506eae916c3c6e862cb3b119e" prot="private" virt="non-virtual"><scope>GF2Vec</scope><name>resize</name></member>
+      <member refid="classGF2Vec_1a8b215189465cc7a9d8a1c328035f06f4" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>set_vec</name></member>
+      <member refid="classGF2Vec_1a0333d28a24c6930adfc2cec14846d78a" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>size</name></member>
+      <member refid="classGF2Vec_1a33556180b01b2cca550218ea0bf1610b" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>sub_vector</name></member>
+      <member refid="classGF2Vec_1aada0c0c333a33e894a768b5994f59357" prot="private" virt="non-virtual"><scope>GF2Vec</scope><name>vec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

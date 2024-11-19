@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interp__differentiator__taps_8h" kind="file" language="C++">
+    <compoundname>interp_differentiator_taps.h</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="interp__differentiator__taps_8h_1aff6106dc71b281a23fc6f2735fe644af" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int DNTAPS</definition>
+        <argsstring></argsstring>
+        <name>DNTAPS</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_differentiator_taps.h" line="14" column="22" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_differentiator_taps.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interp__differentiator__taps_8h_1a2a4ee58e735d4916d45255ea12f76c86" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int DNSTEPS</definition>
+        <argsstring></argsstring>
+        <name>DNSTEPS</name>
+        <initializer>= 128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_differentiator_taps.h" line="15" column="22" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_differentiator_taps.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interp__differentiator__taps_8h_1aff6a0dcfbdd3bddeae4382ed41e474fb" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double DBANDWIDTH</definition>
+        <argsstring></argsstring>
+        <name>DBANDWIDTH</name>
+        <initializer>= 0.25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_differentiator_taps.h" line="16" column="25" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_differentiator_taps.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interp__differentiator__taps_8h_1ae92d8b59e8530c274efe7ab4795ba1ed" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr float</type>
+        <definition>constexpr float Dtaps[DNSTEPS+1][DNTAPS]</definition>
+        <argsstring>[DNSTEPS+1][DNTAPS]</argsstring>
+        <name>Dtaps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_differentiator_taps.h" line="18" column="24" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_differentiator_taps.h" bodystart="18" bodyend="1052"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interp_differentiator_taps.h"/>
+  </compounddef>
+</doxygen>

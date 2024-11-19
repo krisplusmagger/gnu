@@ -1,0 +1,710 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="freq__sink__c__pydoc_8h" kind="file" language="C++">
+    <compoundname>freq_sink_c_pydoc.h</compoundname>
+    <includes refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>freq_sink_c_pydoc.h</label>
+        <link refid="freq__sink__c__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="freq__sink__c__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, qtgui, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a93b2b339eb9c96f47063f54db3a649c5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c</name>
+        <initializer>= R&quot;doc(A graphical sink to display multiple signals in frequency.
+
+This is a QT-based graphical sink the takes set of a complex streams and plots the PSD. Each signal is plotted with a different color, and the  and  functions can be used to change the label and color for a given input number.
+
+
+The sink supports plotting streaming complex data or messages. The message port is named \&quot;in\&quot;. The two modes cannot be used simultaneously, and  should be set to 0 when using the message mode. GRC handles this issue by providing the \&quot;Complex Message\&quot; type that removes the streaming port(s).
+
+
+This sink can plot messages that contain either uniform vectors of complex 32 values (<ref refid="namespacepmt_1aeb135345903361a969d0e90ddb191272" kindref="member">pmt::is_c32vector</ref>) or PDUs where the data is a uniform vector of complex 32 values.
+
+
+Message Ports:
+
+Constructor Specific Documentation:
+
+Build a complex PSD sink.
+
+Args:
+    fftsize : size of the FFT to compute and display. If using the PDU message port to plot samples, the length of each PDU must be a multiple of the FFT size.
+    wintype : type of window to apply (see <ref refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2" kindref="member">gr::fft::window::win_type</ref>). By setting bit 16 to one, this block will normalize the window before applying it. This allows switching between windows without sacrificing signal power due to tapering, but it will also amplify some samples. See also set_fft_window_normalized().
+    fc : center frequency of signal (use for x-axis labels)
+    bw : bandwidth of signal (used to set x-axis labels)
+    name : title for the plot
+    nconnections : number of signals to be connected to the sink. The PDU message port is always available for a connection, and this value must be set to 0 if only the PDU message port is being used.
+    parent : a QWidget parent object, if any)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a0797bb5e2524985ebaaac679724dc229" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_freq_sink_c_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_freq_sink_c_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="45" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a634b686a026ad7ac5af4a1bb42928edd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_freq_sink_c_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_freq_sink_c_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1ae1ea3da6a274c5045f3f51543eec7e62" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_make</name>
+        <initializer>= R&quot;doc(A graphical sink to display multiple signals in frequency.
+
+This is a QT-based graphical sink the takes set of a complex streams and plots the PSD. Each signal is plotted with a different color, and the  and  functions can be used to change the label and color for a given input number.
+
+
+The sink supports plotting streaming complex data or messages. The message port is named \&quot;in\&quot;. The two modes cannot be used simultaneously, and  should be set to 0 when using the message mode. GRC handles this issue by providing the \&quot;Complex Message\&quot; type that removes the streaming port(s).
+
+
+This sink can plot messages that contain either uniform vectors of complex 32 values (<ref refid="namespacepmt_1aeb135345903361a969d0e90ddb191272" kindref="member">pmt::is_c32vector</ref>) or PDUs where the data is a uniform vector of complex 32 values.
+
+
+Message Ports:
+
+Constructor Specific Documentation:
+
+Build a complex PSD sink.
+
+Args:
+    fftsize : size of the FFT to compute and display. If using the PDU message port to plot samples, the length of each PDU must be a multiple of the FFT size.
+    wintype : type of window to apply (see <ref refid="classgr_1_1fft_1_1window_1a599d7e9625d6cc77203a8b877c4911e2" kindref="member">gr::fft::window::win_type</ref>). By setting bit 16 to one, this block will normalize the window before applying it. This allows switching between windows without sacrificing signal power due to tapering, but it will also amplify some samples. See also set_fft_window_normalized().
+    fc : center frequency of signal (use for x-axis labels)
+    bw : bandwidth of signal (used to set x-axis labels)
+    name : title for the plot
+    nconnections : number of signals to be connected to the sink. The PDU message port is always available for a connection, and this value must be set to 0 if only the PDU message port is being used.
+    parent : a QWidget parent object, if any)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a4ab289ea7d30be7688bf748f292ad310" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_exec_</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_exec_</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="78" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1aa1553ed6b4f89a9e140a1a75480d4010" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_qwidget</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_qwidget</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="81" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1ae7fb0febb5bda73187997bf3481f3a55" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_fft_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_fft_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="84" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1afe0c44512c615bee635fc32855675560" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_fft_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_fft_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="87" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a8d8ab4af815fd9e23caf6fb3f21c52b6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_fft_average</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_fft_average</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="90" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a3b7d3e6726d554171e64ba96e472a458" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_fft_average</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_fft_average</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="93" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1af5437b556d98a62273225feafdcd3fe7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_fft_window</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_fft_window</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="96" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a9d40306cb8988c74fbfeefcd741403a7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_fft_window</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_fft_window</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="99" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a629cb9466bc443ccc5d55ca0fbb32c53" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_fft_window_normalized</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_fft_window_normalized</name>
+        <initializer>= R&quot;doc(If true, normalize window to unit power.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="102" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a2e82548330fdd7af72d7a422ba4194f9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_frequency_range</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_frequency_range</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="105" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a70576639e51d9226bd990e24ff9dd4dd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_y_axis</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_y_axis</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="108" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a264a07559bd94aa5bc236eef8109c203" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_update_time</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_update_time</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="111" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1aedc8815e6616b7d86af0e4296dfbf9fd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_title</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_title</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="114" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1af1d98ed43333255d0ea4c10e6cb8c800" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_y_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_y_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="117" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a86f50a4f32e7e88f208ac9e43bea184c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_line_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_line_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="120" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a8caf0150139ec23c53209244a23affed" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_line_color</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_line_color</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="123" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a7ca405c7f8ca89afc58331dfe24e3e73" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_line_width</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_line_width</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="126" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1acd28e63790a76648a4bb316e8b98a9c8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_line_style</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_line_style</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="129" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a4d8316bf3fd82b7644639a9a36cddb01" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_line_marker</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_line_marker</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="132" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1ac6df8bc334f410b9ec753eb32e9fd382" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_line_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_line_alpha</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="135" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1af77194f1315b1c7e4f53c55b2e11482b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_trigger_mode</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_trigger_mode</name>
+        <initializer>= R&quot;doc(Set up a trigger for the sink to know when to start plotting. Useful to isolate events and avoid noise.
+
+
+The trigger modes are Free, Auto, Normal, and Tag (see <ref refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91" kindref="member">gr::qtgui::trigger_mode</ref>). The first three are like a normal trigger function. Free means free running with no trigger, auto will trigger if the trigger event is seen, but will still plot otherwise, and normal will hold until the trigger event is observed. The Tag trigger mode allows us to trigger off a specific stream tag. The tag trigger is based only on the name of the tag, so when a tag of the given name is seen, the trigger is activated.
+
+
+In auto and normal mode, we look to see if the magnitude of the any FFT point is over the set level.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="138" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1aed6981f918192d608bad93b49935b7f8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_title</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_title</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="147" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a276ee22754b0e9e65961d941c9d11a18" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_line_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_line_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="150" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1ab929a207a1eb4bea6efba02896c7e101" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_line_color</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_line_color</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="153" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1abfe0d2fc362ab2bf49a869041d13176b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_line_width</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_line_width</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="156" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a2cf1e02d50ba5c99e7e8343705ed4e0f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_line_style</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_line_style</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="159" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1aaf5bd7949eaa64997faca676a1ec8d09" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_line_marker</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_line_marker</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="162" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a7cd0706de851783ac191b885294854ab" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_line_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_line_alpha</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="165" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a0521b5ce75eac80b60789ab596130ade" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_set_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_set_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="168" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a1895f6cd5b93f7d14ca947552f945ec0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_enable_menu</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_enable_menu</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="171" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a0506573fa7ab38caee77046091a947c1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_enable_grid</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_enable_grid</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="174" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a6781ad166d4fdcda21e5341f792ac20a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_enable_autoscale</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_enable_autoscale</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="177" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a9b3c0ddb27f59cdf689664c38582679b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_enable_control_panel</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_enable_control_panel</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="180" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a3162cbd34f980721a48b504b06732700" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_enable_max_hold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_enable_max_hold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="183" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1af6bc773060e02a9cd8a54386cd4a8479" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_enable_min_hold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_enable_min_hold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="186" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1adf486ee25f20b0b0c7f3fab1baa9a93c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_clear_max_hold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_clear_max_hold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="189" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1ac999e4ddc80109f1e7809c052d6722a1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_clear_min_hold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_clear_min_hold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="192" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1ae448ccda2d56957b735842b3557d12e7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_disable_legend</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_disable_legend</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="195" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1ad2b4b7fd8232524092deaaa8c141abd4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_reset</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_reset</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="198" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="freq__sink__c__pydoc_8h_1a361c0035395711229741816744412ec0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_freq_sink_c_enable_axis_labels</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_freq_sink_c_enable_axis_labels</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" line="201" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h" bodystart="201" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/freq_sink_c_pydoc.h"/>
+  </compounddef>
+</doxygen>

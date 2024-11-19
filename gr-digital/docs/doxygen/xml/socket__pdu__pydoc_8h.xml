@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="socket__pdu__pydoc_8h" kind="file" language="C++">
+    <compoundname>socket_pdu_pydoc.h</compoundname>
+    <includes refid="build_2gr-network_2python_2network_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-network_2python_2network_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>socket_pdu_pydoc.h</label>
+        <link refid="socket__pdu__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="socket__pdu__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, network, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/socket_pdu_pydoc.h" line="10" column="11" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/socket_pdu_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="socket__pdu__pydoc_8h_1a3cfde9e639e48d898efbc9bea55b8721" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_network_socket_pdu</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_network_socket_pdu</name>
+        <initializer>= R&quot;doc(Creates socket interface and translates traffic to PDUs.
+
+Constructor Specific Documentation:
+
+Construct a SOCKET PDU interface.
+
+Args:
+    type : \&quot;TCP_SERVER\&quot;, \&quot;TCP_CLIENT\&quot;, \&quot;UDP_SERVER\&quot;, or \&quot;UDP_CLIENT\&quot;
+    addr : network address to use
+    port : network port to use
+    MTU : maximum transmission unit
+    tcp_no_delay : TCP No Delay option (set to True to disable Nagle algorithm))doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/socket_pdu_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/socket_pdu_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="socket__pdu__pydoc_8h_1ab40fcc63ac111243e9327a3ae0edc840" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_network_socket_pdu_socket_pdu</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_network_socket_pdu_socket_pdu</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/socket_pdu_pydoc.h" line="32" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/socket_pdu_pydoc.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="socket__pdu__pydoc_8h_1aa08e0aae9efd4f63e5e66ac345db2ef6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_network_socket_pdu_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_network_socket_pdu_make</name>
+        <initializer>= R&quot;doc(Creates socket interface and translates traffic to PDUs.
+
+Constructor Specific Documentation:
+
+Construct a SOCKET PDU interface.
+
+Args:
+    type : \&quot;TCP_SERVER\&quot;, \&quot;TCP_CLIENT\&quot;, \&quot;UDP_SERVER\&quot;, or \&quot;UDP_CLIENT\&quot;
+    addr : network address to use
+    port : network port to use
+    MTU : maximum transmission unit
+    tcp_no_delay : TCP No Delay option (set to True to disable Nagle algorithm))doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/socket_pdu_pydoc.h" line="35" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/socket_pdu_pydoc.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/socket_pdu_pydoc.h"/>
+  </compounddef>
+</doxygen>

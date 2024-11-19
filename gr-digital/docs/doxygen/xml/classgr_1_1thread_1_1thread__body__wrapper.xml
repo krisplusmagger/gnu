@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1thread_1_1thread__body__wrapper" kind="class" language="C++" prot="public">
+    <compoundname>gr::thread::thread_body_wrapper</compoundname>
+    <includes refid="thread__body__wrapper_8h" local="no">gnuradio/thread/thread_body_wrapper.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class F</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1thread_1_1thread__body__wrapper_1a46e688d4b647afcae6fa6d8f4ded1fe4" prot="private" static="no" mutable="no">
+        <type>F</type>
+        <definition>F gr::thread::thread_body_wrapper&lt; F &gt;::d_f</definition>
+        <argsstring></argsstring>
+        <name>d_f</name>
+        <qualifiedname>gr::thread::thread_body_wrapper::d_f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" line="28" column="7" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1thread_1_1thread__body__wrapper_1ac79ae8387c6db0733da0007b95062566" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::thread::thread_body_wrapper&lt; F &gt;::d_name</definition>
+        <argsstring></argsstring>
+        <name>d_name</name>
+        <qualifiedname>gr::thread::thread_body_wrapper::d_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" line="29" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1thread_1_1thread__body__wrapper_1a1cf707ada31cb981b915f2a28d5fa26a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::thread::thread_body_wrapper&lt; F &gt;::d_catch_exceptions</definition>
+        <argsstring></argsstring>
+        <name>d_catch_exceptions</name>
+        <qualifiedname>gr::thread::thread_body_wrapper::d_catch_exceptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" line="30" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1thread_1_1thread__body__wrapper_1afa7c65d65814be4e2006d5647bef3fed" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacegr_1a151431341c1556ca0703e304eac650c8" kindref="member">gr::logger_ptr</ref></type>
+        <definition>gr::logger_ptr gr::thread::thread_body_wrapper&lt; F &gt;::d_logger</definition>
+        <argsstring></argsstring>
+        <name>d_logger</name>
+        <qualifiedname>gr::thread::thread_body_wrapper::d_logger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" line="31" column="20" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1thread_1_1thread__body__wrapper_1afc4c2c6191140591a4edd1af0bb51e79" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacegr_1a151431341c1556ca0703e304eac650c8" kindref="member">gr::logger_ptr</ref></type>
+        <definition>gr::logger_ptr gr::thread::thread_body_wrapper&lt; F &gt;::d_debug_logger</definition>
+        <argsstring></argsstring>
+        <name>d_debug_logger</name>
+        <qualifiedname>gr::thread::thread_body_wrapper::d_debug_logger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" line="32" column="20" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1thread_1_1thread__body__wrapper_1a3d858304e91431e046d445649278b7a1" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::thread::thread_body_wrapper&lt; F &gt;::thread_body_wrapper</definition>
+        <argsstring>(F f, const std::string &amp;name=&quot;&quot;, bool catch_exceptions=true)</argsstring>
+        <name>thread_body_wrapper</name>
+        <qualifiedname>gr::thread::thread_body_wrapper::thread_body_wrapper</qualifiedname>
+        <param>
+          <type>F</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>catch_exceptions</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" line="35" column="14" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" bodystart="35" bodyend="41"/>
+        <references refid="namespacegr_1a7b0e38144a5245a9bda616a17563602c">gr::configure_default_loggers</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1thread_1_1thread__body__wrapper_1ad10e18fab1a17432167492b15045dd8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::thread::thread_body_wrapper&lt; F &gt;::operator()</definition>
+        <argsstring>()</argsstring>
+        <name>operator()</name>
+        <qualifiedname>gr::thread::thread_body_wrapper::operator()</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" line="43" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" bodystart="43" bodyend="64"/>
+        <references refid="namespacegr_1_1thread_1ae44f2973136864aedbd453b601f1f9e1">gr::thread::mask_signals</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" line="25" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_body_wrapper.h" bodystart="26" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classgr_1_1thread_1_1thread__body__wrapper_1a1cf707ada31cb981b915f2a28d5fa26a" prot="private" virt="non-virtual"><scope>gr::thread::thread_body_wrapper</scope><name>d_catch_exceptions</name></member>
+      <member refid="classgr_1_1thread_1_1thread__body__wrapper_1afc4c2c6191140591a4edd1af0bb51e79" prot="private" virt="non-virtual"><scope>gr::thread::thread_body_wrapper</scope><name>d_debug_logger</name></member>
+      <member refid="classgr_1_1thread_1_1thread__body__wrapper_1a46e688d4b647afcae6fa6d8f4ded1fe4" prot="private" virt="non-virtual"><scope>gr::thread::thread_body_wrapper</scope><name>d_f</name></member>
+      <member refid="classgr_1_1thread_1_1thread__body__wrapper_1afa7c65d65814be4e2006d5647bef3fed" prot="private" virt="non-virtual"><scope>gr::thread::thread_body_wrapper</scope><name>d_logger</name></member>
+      <member refid="classgr_1_1thread_1_1thread__body__wrapper_1ac79ae8387c6db0733da0007b95062566" prot="private" virt="non-virtual"><scope>gr::thread::thread_body_wrapper</scope><name>d_name</name></member>
+      <member refid="classgr_1_1thread_1_1thread__body__wrapper_1ad10e18fab1a17432167492b15045dd8d" prot="public" virt="non-virtual"><scope>gr::thread::thread_body_wrapper</scope><name>operator()</name></member>
+      <member refid="classgr_1_1thread_1_1thread__body__wrapper_1a3d858304e91431e046d445649278b7a1" prot="public" virt="non-virtual"><scope>gr::thread::thread_body_wrapper</scope><name>thread_body_wrapper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

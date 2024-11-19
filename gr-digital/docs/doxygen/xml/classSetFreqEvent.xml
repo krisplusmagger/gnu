@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classSetFreqEvent" kind="class" language="C++" prot="public">
+    <compoundname>SetFreqEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QEvent</basecompoundref>
+    <includes refid="spectrumUpdateEvents_8h" local="no">gnuradio/qtgui/spectrumUpdateEvents.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSetFreqEvent_1aa220c44057e548b12f73a106bb146e01" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SetFreqEvent::_centerFrequency</definition>
+        <argsstring></argsstring>
+        <name>_centerFrequency</name>
+        <qualifiedname>SetFreqEvent::_centerFrequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="170" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSetFreqEvent_1ad30e3d3c5997fbdd8e73e02c9de706f1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SetFreqEvent::_bandwidth</definition>
+        <argsstring></argsstring>
+        <name>_bandwidth</name>
+        <qualifiedname>SetFreqEvent::_bandwidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="171" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSetFreqEvent_1a52bbfc77079dff06c93feb13f2bbf582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SetFreqEvent::SetFreqEvent</definition>
+        <argsstring>(const double, const double)</argsstring>
+        <name>SetFreqEvent</name>
+        <qualifiedname>SetFreqEvent::SetFreqEvent</qualifiedname>
+        <param>
+          <type>const double</type>
+        </param>
+        <param>
+          <type>const double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="164" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classSetFreqEvent_1a1d8d7a659c6886b32e7321925e0b3c45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SetFreqEvent::~SetFreqEvent</definition>
+        <argsstring>() override</argsstring>
+        <name>~SetFreqEvent</name>
+        <qualifiedname>SetFreqEvent::~SetFreqEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="165" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classSetFreqEvent_1ae2be51c965438d015f79e5bc4fada3fe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double SetFreqEvent::getCenterFrequency</definition>
+        <argsstring>() const</argsstring>
+        <name>getCenterFrequency</name>
+        <qualifiedname>SetFreqEvent::getCenterFrequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="166" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classSetFreqEvent_1a97029df492d76849cbb105c9bdac07d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double SetFreqEvent::getBandwidth</definition>
+        <argsstring>() const</argsstring>
+        <name>getBandwidth</name>
+        <qualifiedname>SetFreqEvent::getBandwidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="167" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+      <node id="1">
+        <label>SetFreqEvent</label>
+        <link refid="classSetFreqEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+      <node id="1">
+        <label>SetFreqEvent</label>
+        <link refid="classSetFreqEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="161" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="162" bodyend="172"/>
+    <listofallmembers>
+      <member refid="classSetFreqEvent_1ad30e3d3c5997fbdd8e73e02c9de706f1" prot="private" virt="non-virtual"><scope>SetFreqEvent</scope><name>_bandwidth</name></member>
+      <member refid="classSetFreqEvent_1aa220c44057e548b12f73a106bb146e01" prot="private" virt="non-virtual"><scope>SetFreqEvent</scope><name>_centerFrequency</name></member>
+      <member refid="classSetFreqEvent_1a97029df492d76849cbb105c9bdac07d8" prot="public" virt="non-virtual"><scope>SetFreqEvent</scope><name>getBandwidth</name></member>
+      <member refid="classSetFreqEvent_1ae2be51c965438d015f79e5bc4fada3fe" prot="public" virt="non-virtual"><scope>SetFreqEvent</scope><name>getCenterFrequency</name></member>
+      <member refid="classSetFreqEvent_1a52bbfc77079dff06c93feb13f2bbf582" prot="public" virt="non-virtual"><scope>SetFreqEvent</scope><name>SetFreqEvent</name></member>
+      <member refid="classSetFreqEvent_1a1d8d7a659c6886b32e7321925e0b3c45" prot="public" virt="non-virtual"><scope>SetFreqEvent</scope><name>~SetFreqEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

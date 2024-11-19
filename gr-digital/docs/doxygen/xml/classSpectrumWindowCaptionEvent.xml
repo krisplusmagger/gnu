@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classSpectrumWindowCaptionEvent" kind="class" language="C++" prot="public">
+    <compoundname>SpectrumWindowCaptionEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QEvent</basecompoundref>
+    <includes refid="spectrumUpdateEvents_8h" local="no">gnuradio/qtgui/spectrumUpdateEvents.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSpectrumWindowCaptionEvent_1a52044f8bed4b1731aef6ae509757e18b" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString SpectrumWindowCaptionEvent::_labelString</definition>
+        <argsstring></argsstring>
+        <name>_labelString</name>
+        <qualifiedname>SpectrumWindowCaptionEvent::_labelString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="78" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSpectrumWindowCaptionEvent_1a83c510a5f7bd2aafa2de5a841f3c4db7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SpectrumWindowCaptionEvent::SpectrumWindowCaptionEvent</definition>
+        <argsstring>(const QString &amp;)</argsstring>
+        <name>SpectrumWindowCaptionEvent</name>
+        <qualifiedname>SpectrumWindowCaptionEvent::SpectrumWindowCaptionEvent</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="72" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classSpectrumWindowCaptionEvent_1ad3c3a49db7a3349199f3b099acba69c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SpectrumWindowCaptionEvent::~SpectrumWindowCaptionEvent</definition>
+        <argsstring>() override</argsstring>
+        <name>~SpectrumWindowCaptionEvent</name>
+        <qualifiedname>SpectrumWindowCaptionEvent::~SpectrumWindowCaptionEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="73" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classSpectrumWindowCaptionEvent_1ac0e0d65efc516f855c4d035063a15586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString SpectrumWindowCaptionEvent::getLabel</definition>
+        <argsstring>()</argsstring>
+        <name>getLabel</name>
+        <qualifiedname>SpectrumWindowCaptionEvent::getLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="74" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+      <node id="1">
+        <label>SpectrumWindowCaptionEvent</label>
+        <link refid="classSpectrumWindowCaptionEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+      <node id="1">
+        <label>SpectrumWindowCaptionEvent</label>
+        <link refid="classSpectrumWindowCaptionEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="69" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="70" bodyend="79"/>
+    <listofallmembers>
+      <member refid="classSpectrumWindowCaptionEvent_1a52044f8bed4b1731aef6ae509757e18b" prot="private" virt="non-virtual"><scope>SpectrumWindowCaptionEvent</scope><name>_labelString</name></member>
+      <member refid="classSpectrumWindowCaptionEvent_1ac0e0d65efc516f855c4d035063a15586" prot="public" virt="non-virtual"><scope>SpectrumWindowCaptionEvent</scope><name>getLabel</name></member>
+      <member refid="classSpectrumWindowCaptionEvent_1a83c510a5f7bd2aafa2de5a841f3c4db7" prot="public" virt="non-virtual"><scope>SpectrumWindowCaptionEvent</scope><name>SpectrumWindowCaptionEvent</name></member>
+      <member refid="classSpectrumWindowCaptionEvent_1ad3c3a49db7a3349199f3b099acba69c9" prot="public" virt="non-virtual"><scope>SpectrumWindowCaptionEvent</scope><name>~SpectrumWindowCaptionEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

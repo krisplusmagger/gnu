@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1random" kind="class" language="C++" prot="public">
+    <compoundname>gr::random</compoundname>
+    <includes refid="random_8h" local="no">gnuradio/random.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgr_1_1random_1a9e67633f5faa44bf11823441db200750" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::random::d_seed</definition>
+        <argsstring></argsstring>
+        <name>d_seed</name>
+        <qualifiedname>gr::random::d_seed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="69" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1random_1ad51359b8b534fed826f451a601d56669" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::random::d_gauss_stored</definition>
+        <argsstring></argsstring>
+        <name>d_gauss_stored</name>
+        <qualifiedname>gr::random::d_gauss_stored</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="70" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1random_1ac1632a7ea50a75b8cf1065bcc4fa48ba" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::random::d_gauss_value</definition>
+        <argsstring></argsstring>
+        <name>d_gauss_value</name>
+        <qualifiedname>gr::random::d_gauss_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="71" column="11" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1random_1abed6b22104862ef176ee431e0ba89845" prot="protected" static="no" mutable="no">
+        <type><ref refid="classgr_1_1xoroshiro128p__prng" kindref="compound">xoroshiro128p_prng</ref></type>
+        <definition>xoroshiro128p_prng gr::random::d_rng</definition>
+        <argsstring></argsstring>
+        <name>d_rng</name>
+        <qualifiedname>gr::random::d_rng</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="73" column="24" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1random_1aaafbcf8099a5adb17631869752a75cee" prot="protected" static="no" mutable="no">
+        <type>std::uniform_real_distribution&lt; float &gt;</type>
+        <definition>std::uniform_real_distribution&lt;float&gt; gr::random::d_uniform</definition>
+        <argsstring></argsstring>
+        <name>d_uniform</name>
+        <qualifiedname>gr::random::d_uniform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="75" column="9" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1random_1af6b8af08e14d44dc1f8c29f5b1f2c30d" prot="protected" static="no" mutable="no">
+        <type>std::uniform_int_distribution&lt; int64_t &gt;</type>
+        <definition>std::uniform_int_distribution&lt;int64_t&gt; gr::random::d_integer_dis</definition>
+        <argsstring></argsstring>
+        <name>d_integer_dis</name>
+        <qualifiedname>gr::random::d_integer_dis</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="76" column="35" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1random_1ae6cdcf58ce99067b2db6e8f5e8465c80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::random::random</definition>
+        <argsstring>(uint64_t seed=0, int64_t min_integer=0, int64_t max_integer=2)</argsstring>
+        <name>random</name>
+        <qualifiedname>gr::random::random</qualifiedname>
+        <param>
+          <type>uint64_t</type>
+          <declname>seed</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int64_t</type>
+          <declname>min_integer</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int64_t</type>
+          <declname>max_integer</declname>
+          <defval>2</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="79" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1random_1a77c4297c43a371b87580fae77ac2717c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::random::~random</definition>
+        <argsstring>()</argsstring>
+        <name>~random</name>
+        <qualifiedname>gr::random::~random</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="80" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1random_1ab5df76081e5c9a85bab3d7038b0715c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::random::reseed</definition>
+        <argsstring>(uint64_t seed)</argsstring>
+        <name>reseed</name>
+        <qualifiedname>gr::random::reseed</qualifiedname>
+        <param>
+          <type>uint64_t</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+<para>Change the seed for the initialized number generator. seed = 0 initializes the random number generator with the system time. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="86" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1random_1a73a5cac4d0f1cddfcb1ffd2a1e5122df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::random::set_integer_limits</definition>
+        <argsstring>(int64_t minimum, int64_t maximum)</argsstring>
+        <name>set_integer_limits</name>
+        <qualifiedname>gr::random::set_integer_limits</qualifiedname>
+        <param>
+          <type>int64_t</type>
+          <declname>minimum</declname>
+        </param>
+        <param>
+          <type>int64_t</type>
+          <declname>maximum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set minimum and maximum for integer random number generator. Limits are [minimum, maximum) Default: [0, std::numeric_limits&lt; IntType &gt;::max)] </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="93" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1random_1a9c71b7512f09d0fc8a852a7d5661247a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t gr::random::ran_int</definition>
+        <argsstring>()</argsstring>
+        <name>ran_int</name>
+        <qualifiedname>gr::random::ran_int</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Uniform random integers in the range set by &apos;set_integer_limits&apos; [min, max). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="98" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1random_1a60f6cef7165f7f067c91ee7b692e2b48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::random::ran1</definition>
+        <argsstring>()</argsstring>
+        <name>ran1</name>
+        <qualifiedname>gr::random::ran1</qualifiedname>
+        <briefdescription>
+<para>Uniform random numbers in the range [0.0, 1.0) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="103" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1random_1afa6cf9e3e25f320518cfa69f6b0a6752" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::random::gasdev</definition>
+        <argsstring>()</argsstring>
+        <name>gasdev</name>
+        <qualifiedname>gr::random::gasdev</qualifiedname>
+        <briefdescription>
+<para>Normally distributed random numbers (Gaussian distribution with zero mean and variance 1) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="109" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1random_1a89cb6c7a1895a13ffac47245a063ec98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::random::laplacian</definition>
+        <argsstring>()</argsstring>
+        <name>laplacian</name>
+        <qualifiedname>gr::random::laplacian</qualifiedname>
+        <briefdescription>
+<para>Laplacian distributed random numbers with zero mean and variance 1. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="114" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1random_1a0e023537cf9bca1c665dbde67835876c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::random::rayleigh</definition>
+        <argsstring>()</argsstring>
+        <name>rayleigh</name>
+        <qualifiedname>gr::random::rayleigh</qualifiedname>
+        <briefdescription>
+<para>Rayleigh distributed random numbers (zero mean and variance 1 for the underlying Gaussian distributions) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="120" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1random_1a53e3a4e8f003d23df06d5be4a7ae2670" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::random::impulse</definition>
+        <argsstring>(float factor)</argsstring>
+        <name>impulse</name>
+        <qualifiedname>gr::random::impulse</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>factor</declname>
+        </param>
+        <briefdescription>
+<para>Exponentially distributed random numbers with values less than or equal to factor replaced with zero. The underlying exponential distribution has mean sqrt(2) and variance 2. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="127" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1random_1a806f27be06796e46df420769935c3518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::random::rayleigh_complex</definition>
+        <argsstring>()</argsstring>
+        <name>rayleigh_complex</name>
+        <qualifiedname>gr::random::rayleigh_complex</qualifiedname>
+        <briefdescription>
+<para>Normally distributed random numbers with zero mean and variance 1 on real and imaginary part. This results in a Rayleigh distribution for the amplitude and an uniform distribution for the phase. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="134" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>pseudo random number generator </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::random</label>
+        <link refid="classgr_1_1random"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>d_rng</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::xoroshiro128p_prng</label>
+        <link refid="classgr_1_1xoroshiro128p__prng"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" line="66" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/random.h" bodystart="67" bodyend="135"/>
+    <listofallmembers>
+      <member refid="classgr_1_1random_1ad51359b8b534fed826f451a601d56669" prot="protected" virt="non-virtual"><scope>gr::random</scope><name>d_gauss_stored</name></member>
+      <member refid="classgr_1_1random_1ac1632a7ea50a75b8cf1065bcc4fa48ba" prot="protected" virt="non-virtual"><scope>gr::random</scope><name>d_gauss_value</name></member>
+      <member refid="classgr_1_1random_1af6b8af08e14d44dc1f8c29f5b1f2c30d" prot="protected" virt="non-virtual"><scope>gr::random</scope><name>d_integer_dis</name></member>
+      <member refid="classgr_1_1random_1abed6b22104862ef176ee431e0ba89845" prot="protected" virt="non-virtual"><scope>gr::random</scope><name>d_rng</name></member>
+      <member refid="classgr_1_1random_1a9e67633f5faa44bf11823441db200750" prot="protected" virt="non-virtual"><scope>gr::random</scope><name>d_seed</name></member>
+      <member refid="classgr_1_1random_1aaafbcf8099a5adb17631869752a75cee" prot="protected" virt="non-virtual"><scope>gr::random</scope><name>d_uniform</name></member>
+      <member refid="classgr_1_1random_1afa6cf9e3e25f320518cfa69f6b0a6752" prot="public" virt="non-virtual"><scope>gr::random</scope><name>gasdev</name></member>
+      <member refid="classgr_1_1random_1a53e3a4e8f003d23df06d5be4a7ae2670" prot="public" virt="non-virtual"><scope>gr::random</scope><name>impulse</name></member>
+      <member refid="classgr_1_1random_1a89cb6c7a1895a13ffac47245a063ec98" prot="public" virt="non-virtual"><scope>gr::random</scope><name>laplacian</name></member>
+      <member refid="classgr_1_1random_1a60f6cef7165f7f067c91ee7b692e2b48" prot="public" virt="non-virtual"><scope>gr::random</scope><name>ran1</name></member>
+      <member refid="classgr_1_1random_1a9c71b7512f09d0fc8a852a7d5661247a" prot="public" virt="non-virtual"><scope>gr::random</scope><name>ran_int</name></member>
+      <member refid="classgr_1_1random_1ae6cdcf58ce99067b2db6e8f5e8465c80" prot="public" virt="non-virtual"><scope>gr::random</scope><name>random</name></member>
+      <member refid="classgr_1_1random_1a0e023537cf9bca1c665dbde67835876c" prot="public" virt="non-virtual"><scope>gr::random</scope><name>rayleigh</name></member>
+      <member refid="classgr_1_1random_1a806f27be06796e46df420769935c3518" prot="public" virt="non-virtual"><scope>gr::random</scope><name>rayleigh_complex</name></member>
+      <member refid="classgr_1_1random_1ab5df76081e5c9a85bab3d7038b0715c7" prot="public" virt="non-virtual"><scope>gr::random</scope><name>reseed</name></member>
+      <member refid="classgr_1_1random_1a73a5cac4d0f1cddfcb1ffd2a1e5122df" prot="public" virt="non-virtual"><scope>gr::random</scope><name>set_integer_limits</name></member>
+      <member refid="classgr_1_1random_1a77c4297c43a371b87580fae77ac2717c" prot="public" virt="non-virtual"><scope>gr::random</scope><name>~random</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

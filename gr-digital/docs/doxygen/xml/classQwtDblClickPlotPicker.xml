@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classQwtDblClickPlotPicker" kind="class" language="C++" prot="public">
+    <compoundname>QwtDblClickPlotPicker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QwtPlotPicker</basecompoundref>
+    <includes refid="utils_8h" local="no">gnuradio/qtgui/utils.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classQwtDblClickPlotPicker_1ae955e4de09fd99523f89bd5660cc84a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QwtDblClickPlotPicker::QwtDblClickPlotPicker</definition>
+        <argsstring>(QWidget *)</argsstring>
+        <name>QwtDblClickPlotPicker</name>
+        <qualifiedname>QwtDblClickPlotPicker::QwtDblClickPlotPicker</qualifiedname>
+        <param>
+          <type>QWidget *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/utils.h" line="32" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classQwtDblClickPlotPicker_1a1c5bfbc77ba0b160f2fd9c9939ac891e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QwtDblClickPlotPicker::~QwtDblClickPlotPicker</definition>
+        <argsstring>() override</argsstring>
+        <name>~QwtDblClickPlotPicker</name>
+        <qualifiedname>QwtDblClickPlotPicker::~QwtDblClickPlotPicker</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/utils.h" line="33" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classQwtDblClickPlotPicker_1a0682096a2720a2605c780c22efcd3b80" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QwtPickerMachine *</type>
+        <definition>virtual QwtPickerMachine * QwtDblClickPlotPicker::stateMachine</definition>
+        <argsstring>(int) const</argsstring>
+        <name>stateMachine</name>
+        <qualifiedname>QwtDblClickPlotPicker::stateMachine</qualifiedname>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/utils.h" line="35" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>QwtDblClickPlotPicker</label>
+        <link refid="classQwtDblClickPlotPicker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QwtPlotPicker</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>QwtDblClickPlotPicker</label>
+        <link refid="classQwtDblClickPlotPicker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QwtPlotPicker</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/utils.h" line="29" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/utils.h" bodystart="30" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classQwtDblClickPlotPicker_1ae955e4de09fd99523f89bd5660cc84a8" prot="public" virt="non-virtual"><scope>QwtDblClickPlotPicker</scope><name>QwtDblClickPlotPicker</name></member>
+      <member refid="classQwtDblClickPlotPicker_1a0682096a2720a2605c780c22efcd3b80" prot="public" virt="virtual"><scope>QwtDblClickPlotPicker</scope><name>stateMachine</name></member>
+      <member refid="classQwtDblClickPlotPicker_1a1c5bfbc77ba0b160f2fd9c9939ac891e" prot="public" virt="non-virtual"><scope>QwtDblClickPlotPicker</scope><name>~QwtDblClickPlotPicker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

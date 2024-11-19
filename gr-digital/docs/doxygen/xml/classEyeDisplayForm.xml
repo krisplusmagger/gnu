@@ -1,0 +1,1392 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEyeDisplayForm" kind="class" language="C++" prot="public">
+    <compoundname>EyeDisplayForm</compoundname>
+    <basecompoundref refid="classEyeDisplaysForm" prot="public" virt="non-virtual">EyeDisplaysForm</basecompoundref>
+    <includes refid="eyedisplayform_8h" local="no">gnuradio/qtgui/eyedisplayform.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classEyeDisplayForm_1a8955e0cfb40e85fe35fb6dbecb474c35" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double EyeDisplayForm::d_start_frequency</definition>
+        <argsstring></argsstring>
+        <name>d_start_frequency</name>
+        <qualifiedname>EyeDisplayForm::d_start_frequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="95" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1a60ba781139cc2e3d1948a8c4d7c61ac1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double EyeDisplayForm::d_stop_frequency</definition>
+        <argsstring></argsstring>
+        <name>d_stop_frequency</name>
+        <qualifiedname>EyeDisplayForm::d_stop_frequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="96" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1a5953e0b61fe88514bba9aa4921bb4dc7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double EyeDisplayForm::d_current_units</definition>
+        <argsstring></argsstring>
+        <name>d_current_units</name>
+        <qualifiedname>EyeDisplayForm::d_current_units</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="97" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1aaa69028e0b9ff74172707f68fec58e86" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EyeDisplayForm::d_npoints</definition>
+        <argsstring></argsstring>
+        <name>d_npoints</name>
+        <qualifiedname>EyeDisplayForm::d_npoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="98" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1a50e04e25a4bc2aaafcaf9aae6a279537" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int EyeDisplayForm::d_rows</definition>
+        <argsstring></argsstring>
+        <name>d_rows</name>
+        <qualifiedname>EyeDisplayForm::d_rows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="99" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1aa2a4b661282d344c341bc45742d9e8da" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int EyeDisplayForm::d_cols</definition>
+        <argsstring></argsstring>
+        <name>d_cols</name>
+        <qualifiedname>EyeDisplayForm::d_cols</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="100" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1a18d5b1271de059d9c09a45a836abd451" prot="private" static="no" mutable="no">
+        <type><ref refid="classNPointsMenu" kindref="compound">NPointsMenu</ref> *</type>
+        <definition>NPointsMenu* EyeDisplayForm::d_nptsmenu</definition>
+        <argsstring></argsstring>
+        <name>d_nptsmenu</name>
+        <qualifiedname>EyeDisplayForm::d_nptsmenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="101" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1a6e45163d9fdd069091f3a503a1a9ba92" prot="private" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* EyeDisplayForm::d_controlpanelmenu</definition>
+        <argsstring></argsstring>
+        <name>d_controlpanelmenu</name>
+        <qualifiedname>EyeDisplayForm::d_controlpanelmenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="103" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1ae5e3562dbc4601acd618f53188b280b5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; QAction * &gt;</type>
+        <definition>std::vector&lt;QAction*&gt; EyeDisplayForm::d_tagsmenu</definition>
+        <argsstring></argsstring>
+        <name>d_tagsmenu</name>
+        <qualifiedname>EyeDisplayForm::d_tagsmenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="104" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1a9535a6ce94b2ad1b117f7d568aa6a1ae" prot="private" static="no" mutable="no">
+        <type>QMenu *</type>
+        <definition>QMenu* EyeDisplayForm::d_triggermenu</definition>
+        <argsstring></argsstring>
+        <name>d_triggermenu</name>
+        <qualifiedname>EyeDisplayForm::d_triggermenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="106" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1a3e64d0e1b70b53cd3f6d620eb6f1d494" prot="private" static="no" mutable="no">
+        <type><ref refid="classTriggerModeMenu" kindref="compound">TriggerModeMenu</ref> *</type>
+        <definition>TriggerModeMenu* EyeDisplayForm::d_tr_mode_menu</definition>
+        <argsstring></argsstring>
+        <name>d_tr_mode_menu</name>
+        <qualifiedname>EyeDisplayForm::d_tr_mode_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="107" column="21" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1ace8ee668979c7e5c80a71d847265717c" prot="private" static="no" mutable="no">
+        <type><ref refid="classTriggerSlopeMenu" kindref="compound">TriggerSlopeMenu</ref> *</type>
+        <definition>TriggerSlopeMenu* EyeDisplayForm::d_tr_slope_menu</definition>
+        <argsstring></argsstring>
+        <name>d_tr_slope_menu</name>
+        <qualifiedname>EyeDisplayForm::d_tr_slope_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="108" column="22" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1aa5157f0d805a6244ce480aee6ba6514d" prot="private" static="no" mutable="no">
+        <type><ref refid="classTriggerChannelMenu" kindref="compound">TriggerChannelMenu</ref> *</type>
+        <definition>TriggerChannelMenu* EyeDisplayForm::d_tr_channel_menu</definition>
+        <argsstring></argsstring>
+        <name>d_tr_channel_menu</name>
+        <qualifiedname>EyeDisplayForm::d_tr_channel_menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="109" column="24" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1a9d8893eb7bca015ec2fdb82730bb9fbe" prot="private" static="no" mutable="no">
+        <type><ref refid="classPopupMenu" kindref="compound">PopupMenu</ref> *</type>
+        <definition>PopupMenu* EyeDisplayForm::d_tr_tag_key_act</definition>
+        <argsstring></argsstring>
+        <name>d_tr_tag_key_act</name>
+        <qualifiedname>EyeDisplayForm::d_tr_tag_key_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="110" column="15" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1a6f4042eebd6b33a75e1b18b9131b8b53" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91" kindref="member">gr::qtgui::trigger_mode</ref></type>
+        <definition>gr::qtgui::trigger_mode EyeDisplayForm::d_trig_mode</definition>
+        <argsstring></argsstring>
+        <name>d_trig_mode</name>
+        <qualifiedname>EyeDisplayForm::d_trig_mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="112" column="29" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1aaecf002f3c96fe111d47552eccfbb3b6" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacegr_1_1qtgui_1ad9b40f0b7d2d567bd8002fb3b9b0fd10" kindref="member">gr::qtgui::trigger_slope</ref></type>
+        <definition>gr::qtgui::trigger_slope EyeDisplayForm::d_trig_slope</definition>
+        <argsstring></argsstring>
+        <name>d_trig_slope</name>
+        <qualifiedname>EyeDisplayForm::d_trig_slope</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="113" column="30" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1a109eacbded99f95cbfcd75352f9ddef7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EyeDisplayForm::d_trig_level</definition>
+        <argsstring></argsstring>
+        <name>d_trig_level</name>
+        <qualifiedname>EyeDisplayForm::d_trig_level</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="114" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1af814eb0607a715d3a957a827b5cd100a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EyeDisplayForm::d_trig_delay</definition>
+        <argsstring></argsstring>
+        <name>d_trig_delay</name>
+        <qualifiedname>EyeDisplayForm::d_trig_delay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="115" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1a2c957246771c4673f1a8734f72b28a7b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EyeDisplayForm::d_trig_channel</definition>
+        <argsstring></argsstring>
+        <name>d_trig_channel</name>
+        <qualifiedname>EyeDisplayForm::d_trig_channel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="116" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1a8c7192d3975c84d5aa1eda4c38cb5579" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string EyeDisplayForm::d_trig_tag_key</definition>
+        <argsstring></argsstring>
+        <name>d_trig_tag_key</name>
+        <qualifiedname>EyeDisplayForm::d_trig_tag_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="117" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayForm_1af302fa8cc0f05af67cd6a8169db16600" prot="private" static="no" mutable="no">
+        <type><ref refid="classEyeControlPanel" kindref="compound">EyeControlPanel</ref> *</type>
+        <definition>EyeControlPanel* EyeDisplayForm::d_controlpanel</definition>
+        <argsstring></argsstring>
+        <name>d_controlpanel</name>
+        <qualifiedname>EyeDisplayForm::d_controlpanel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="119" column="21" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEyeDisplayForm_1ac63007802f7c609fa4b1b914ee29e9bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EyeDisplayForm::EyeDisplayForm</definition>
+        <argsstring>(int nplots=1, bool cmplx=false, QWidget *parent=0)</argsstring>
+        <name>EyeDisplayForm</name>
+        <qualifiedname>EyeDisplayForm::EyeDisplayForm</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nplots</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cmplx</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="30" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayForm_1ad58e73fbffb667e1a3d308367752ffff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EyeDisplayForm::~EyeDisplayForm</definition>
+        <argsstring>() override</argsstring>
+        <name>~EyeDisplayForm</name>
+        <qualifiedname>EyeDisplayForm::~EyeDisplayForm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="31" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayForm_1aa4e479e0e0726d64070980b77f7fda06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classEyeDisplayPlot" kindref="compound">EyeDisplayPlot</ref> *</type>
+        <definition>EyeDisplayPlot * EyeDisplayForm::getPlot</definition>
+        <argsstring>()</argsstring>
+        <name>getPlot</name>
+        <qualifiedname>EyeDisplayForm::getPlot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="33" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayForm_1ad070f22a91276b9e271dc59175f6cce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classEyeDisplayPlot" kindref="compound">EyeDisplayPlot</ref> *</type>
+        <definition>EyeDisplayPlot * EyeDisplayForm::getSinglePlot</definition>
+        <argsstring>(unsigned int)</argsstring>
+        <name>getSinglePlot</name>
+        <qualifiedname>EyeDisplayForm::getSinglePlot</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="34" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayForm_1aa3e5f7a79d7b5f66d41c981fa39f2a81" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EyeDisplayForm::getNPoints</definition>
+        <argsstring>() const</argsstring>
+        <name>getNPoints</name>
+        <qualifiedname>EyeDisplayForm::getNPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="36" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayForm_1aa80113cd6ffd920a99c012cda001dd74" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EyeDisplayForm::getSamplesPerSymbol</definition>
+        <argsstring>() const</argsstring>
+        <name>getSamplesPerSymbol</name>
+        <qualifiedname>EyeDisplayForm::getSamplesPerSymbol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="37" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayForm_1a05c9a70f49691274dbefdc6d7fa2e8ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91" kindref="member">gr::qtgui::trigger_mode</ref></type>
+        <definition>gr::qtgui::trigger_mode EyeDisplayForm::getTriggerMode</definition>
+        <argsstring>() const</argsstring>
+        <name>getTriggerMode</name>
+        <qualifiedname>EyeDisplayForm::getTriggerMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="39" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayForm_1a8d3fcb3f2df0365a3c55a610312a87d7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacegr_1_1qtgui_1ad9b40f0b7d2d567bd8002fb3b9b0fd10" kindref="member">gr::qtgui::trigger_slope</ref></type>
+        <definition>gr::qtgui::trigger_slope EyeDisplayForm::getTriggerSlope</definition>
+        <argsstring>() const</argsstring>
+        <name>getTriggerSlope</name>
+        <qualifiedname>EyeDisplayForm::getTriggerSlope</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="40" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayForm_1a13199ee8748e6725f2d1d8c8311e4bd8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float EyeDisplayForm::getTriggerLevel</definition>
+        <argsstring>() const</argsstring>
+        <name>getTriggerLevel</name>
+        <qualifiedname>EyeDisplayForm::getTriggerLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="41" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayForm_1a2f5377a18b6ab261232c8592357e716f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float EyeDisplayForm::getTriggerDelay</definition>
+        <argsstring>() const</argsstring>
+        <name>getTriggerDelay</name>
+        <qualifiedname>EyeDisplayForm::getTriggerDelay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="42" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayForm_1a31f8f64ea151a372fc94e27a17364ae7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EyeDisplayForm::getTriggerChannel</definition>
+        <argsstring>() const</argsstring>
+        <name>getTriggerChannel</name>
+        <qualifiedname>EyeDisplayForm::getTriggerChannel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="43" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayForm_1a2eeb163c675c07ec3809bcaa740eaae6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string EyeDisplayForm::getTriggerTagKey</definition>
+        <argsstring>() const</argsstring>
+        <name>getTriggerTagKey</name>
+        <qualifiedname>EyeDisplayForm::getTriggerTagKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="44" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayForm_1a7551c270a1d8555e7d14c135c9a3730b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setAxisLabels</definition>
+        <argsstring>(bool en)</argsstring>
+        <name>setAxisLabels</name>
+        <qualifiedname>EyeDisplayForm::setAxisLabels</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="45" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classEyeDisplayForm_1ab2a216593618606ce27c2f4616d58cb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::customEvent</definition>
+        <argsstring>(QEvent *e) override</argsstring>
+        <name>customEvent</name>
+        <qualifiedname>EyeDisplayForm::customEvent</qualifiedname>
+        <param>
+          <type>QEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="48" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1aaa1666ba29afe03ca9b1035a566599c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setSampleRate</definition>
+        <argsstring>(const double samprate)</argsstring>
+        <name>setSampleRate</name>
+        <qualifiedname>EyeDisplayForm::setSampleRate</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>samprate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="50" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a096d24dcef0acf2ce940abb781b3cd38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setSampleRate</definition>
+        <argsstring>(const QString &amp;samprate) override</argsstring>
+        <name>setSampleRate</name>
+        <qualifiedname>EyeDisplayForm::setSampleRate</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>samprate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="51" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a582e84feefd8382b3157e04e5e29887a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setYaxis</definition>
+        <argsstring>(double min, double max)</argsstring>
+        <name>setYaxis</name>
+        <qualifiedname>EyeDisplayForm::setYaxis</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="52" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a8b22855280dc89d14d18cb43231676b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setYLabel</definition>
+        <argsstring>(const std::string &amp;label, const std::string &amp;unit=&quot;&quot;)</argsstring>
+        <name>setYLabel</name>
+        <qualifiedname>EyeDisplayForm::setYLabel</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>unit</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="53" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1ae7d2edf68ac24a94dddd0699fda84d54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setNPoints</definition>
+        <argsstring>(const int)</argsstring>
+        <name>setNPoints</name>
+        <qualifiedname>EyeDisplayForm::setNPoints</qualifiedname>
+        <param>
+          <type>const int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="54" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a220085df60b61201948710d05ece7910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::autoScale</definition>
+        <argsstring>(bool en) override</argsstring>
+        <name>autoScale</name>
+        <qualifiedname>EyeDisplayForm::autoScale</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="55" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1af8c26a08f322209a78fc86a605e9518f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::autoScaleShot</definition>
+        <argsstring>()</argsstring>
+        <name>autoScaleShot</name>
+        <qualifiedname>EyeDisplayForm::autoScaleShot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="56" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a7b0d1556daf68099e8bfbbe65ba8a2c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::tagMenuSlot</definition>
+        <argsstring>(bool en)</argsstring>
+        <name>tagMenuSlot</name>
+        <qualifiedname>EyeDisplayForm::tagMenuSlot</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="57" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1abf5ebdc2527f96c54ffe097c8837fab7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setTagMenu</definition>
+        <argsstring>(unsigned int which, bool en)</argsstring>
+        <name>setTagMenu</name>
+        <qualifiedname>EyeDisplayForm::setTagMenu</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="58" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a83b659721d4eb5cf0a59a3643baa3c20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::updateTrigger</definition>
+        <argsstring>(gr::qtgui::trigger_mode mode)</argsstring>
+        <name>updateTrigger</name>
+        <qualifiedname>EyeDisplayForm::updateTrigger</qualifiedname>
+        <param>
+          <type><ref refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91" kindref="member">gr::qtgui::trigger_mode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="60" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a465ce5325e74e3bd5ecd4978e3ba8943" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setTriggerMode</definition>
+        <argsstring>(gr::qtgui::trigger_mode mode)</argsstring>
+        <name>setTriggerMode</name>
+        <qualifiedname>EyeDisplayForm::setTriggerMode</qualifiedname>
+        <param>
+          <type><ref refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91" kindref="member">gr::qtgui::trigger_mode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="61" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1aeb9ef48fa514849189db1ad9d5b0547e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setTriggerSlope</definition>
+        <argsstring>(gr::qtgui::trigger_slope slope)</argsstring>
+        <name>setTriggerSlope</name>
+        <qualifiedname>EyeDisplayForm::setTriggerSlope</qualifiedname>
+        <param>
+          <type><ref refid="namespacegr_1_1qtgui_1ad9b40f0b7d2d567bd8002fb3b9b0fd10" kindref="member">gr::qtgui::trigger_slope</ref></type>
+          <declname>slope</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="62" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1aaec5c37c6aa8d38e255b6acc3965d31d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setTriggerLevel</definition>
+        <argsstring>(float level)</argsstring>
+        <name>setTriggerLevel</name>
+        <qualifiedname>EyeDisplayForm::setTriggerLevel</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="63" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1ac8ced253ca67af76d7b8e5ad3b26a88f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setTriggerDelay</definition>
+        <argsstring>(float delay)</argsstring>
+        <name>setTriggerDelay</name>
+        <qualifiedname>EyeDisplayForm::setTriggerDelay</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="64" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a67a1355a5edc567def0b1709c9e14847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setTriggerChannel</definition>
+        <argsstring>(int chan)</argsstring>
+        <name>setTriggerChannel</name>
+        <qualifiedname>EyeDisplayForm::setTriggerChannel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>chan</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="65" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a14b8df0fb3273a7bdf19344338a69abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setTriggerTagKey</definition>
+        <argsstring>(QString s)</argsstring>
+        <name>setTriggerTagKey</name>
+        <qualifiedname>EyeDisplayForm::setTriggerTagKey</qualifiedname>
+        <param>
+          <type>QString</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="66" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a9417dfef42a8f06d8c0b240631fdfcee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setTriggerTagKey</definition>
+        <argsstring>(const std::string &amp;s)</argsstring>
+        <name>setTriggerTagKey</name>
+        <qualifiedname>EyeDisplayForm::setTriggerTagKey</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="67" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a0e77d60c2c3a0984afec04638537fcde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setupControlPanel</definition>
+        <argsstring>(bool en)</argsstring>
+        <name>setupControlPanel</name>
+        <qualifiedname>EyeDisplayForm::setupControlPanel</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="69" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1ac30c66dbf5564f66733241f25b91253d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::setupControlPanel</definition>
+        <argsstring>()</argsstring>
+        <name>setupControlPanel</name>
+        <qualifiedname>EyeDisplayForm::setupControlPanel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="70" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a10bcf34bb906c043f3244197ccacab46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::teardownControlPanel</definition>
+        <argsstring>()</argsstring>
+        <name>teardownControlPanel</name>
+        <qualifiedname>EyeDisplayForm::teardownControlPanel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="71" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classEyeDisplayForm_1ae5d7888aa7671aff5b28333be1db5f29" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::newData</definition>
+        <argsstring>(const QEvent *) override</argsstring>
+        <name>newData</name>
+        <qualifiedname>EyeDisplayForm::newData</qualifiedname>
+        <param>
+          <type>const QEvent *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="74" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1ac895a956cd93bb66b63552ba61b611aa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::notifyYAxisPlus</definition>
+        <argsstring>()</argsstring>
+        <name>notifyYAxisPlus</name>
+        <qualifiedname>EyeDisplayForm::notifyYAxisPlus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="75" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a9679354c7748b756ffd8753af2de94c0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::notifyYAxisMinus</definition>
+        <argsstring>()</argsstring>
+        <name>notifyYAxisMinus</name>
+        <qualifiedname>EyeDisplayForm::notifyYAxisMinus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="76" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a43afbff24fc337528d2ebcc5c65c8ed4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::notifyYRangePlus</definition>
+        <argsstring>()</argsstring>
+        <name>notifyYRangePlus</name>
+        <qualifiedname>EyeDisplayForm::notifyYRangePlus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="77" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1af80f103f38aa7fb9706cb689bbc6383d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::notifyYRangeMinus</definition>
+        <argsstring>()</argsstring>
+        <name>notifyYRangeMinus</name>
+        <qualifiedname>EyeDisplayForm::notifyYRangeMinus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="78" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1ab8c71a93abd23441cc08836675f8ae89" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::notifyTriggerMode</definition>
+        <argsstring>(const QString &amp;mode)</argsstring>
+        <name>notifyTriggerMode</name>
+        <qualifiedname>EyeDisplayForm::notifyTriggerMode</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="79" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a1725e0e544c55cf53a28eafdb2d0a430" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::notifyTriggerSlope</definition>
+        <argsstring>(const QString &amp;slope)</argsstring>
+        <name>notifyTriggerSlope</name>
+        <qualifiedname>EyeDisplayForm::notifyTriggerSlope</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>slope</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="80" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a3dd824fa9890d7ccf70537f4bbf2708d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::notifyTriggerLevelPlus</definition>
+        <argsstring>()</argsstring>
+        <name>notifyTriggerLevelPlus</name>
+        <qualifiedname>EyeDisplayForm::notifyTriggerLevelPlus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="81" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a89f670332de7c8d5640f5322469fafff" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::notifyTriggerLevelMinus</definition>
+        <argsstring>()</argsstring>
+        <name>notifyTriggerLevelMinus</name>
+        <qualifiedname>EyeDisplayForm::notifyTriggerLevelMinus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="82" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1af99fcc0bb81e3c750b665770cdcb6df0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::notifyTriggerDelayPlus</definition>
+        <argsstring>()</argsstring>
+        <name>notifyTriggerDelayPlus</name>
+        <qualifiedname>EyeDisplayForm::notifyTriggerDelayPlus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="83" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayForm_1a23280d3d27e495d82577399a0efe23cc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::notifyTriggerDelayMinus</definition>
+        <argsstring>()</argsstring>
+        <name>notifyTriggerDelayMinus</name>
+        <qualifiedname>EyeDisplayForm::notifyTriggerDelayMinus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="84" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classEyeDisplayForm_1a48e59d4a2fe89da505cb279f1eb0f688" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::signalTriggerMode</definition>
+        <argsstring>(gr::qtgui::trigger_mode mode)</argsstring>
+        <name>signalTriggerMode</name>
+        <qualifiedname>EyeDisplayForm::signalTriggerMode</qualifiedname>
+        <param>
+          <type><ref refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91" kindref="member">gr::qtgui::trigger_mode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="87" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="classEyeDisplayForm_1a53a262e57172af97aaa64599884d1ec4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::signalTriggerSlope</definition>
+        <argsstring>(gr::qtgui::trigger_slope slope)</argsstring>
+        <name>signalTriggerSlope</name>
+        <qualifiedname>EyeDisplayForm::signalTriggerSlope</qualifiedname>
+        <param>
+          <type><ref refid="namespacegr_1_1qtgui_1ad9b40f0b7d2d567bd8002fb3b9b0fd10" kindref="member">gr::qtgui::trigger_slope</ref></type>
+          <declname>slope</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="88" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="classEyeDisplayForm_1a276cc24bd3925eabcc0522ee19aa8ee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::signalTriggerLevel</definition>
+        <argsstring>(float level)</argsstring>
+        <name>signalTriggerLevel</name>
+        <qualifiedname>EyeDisplayForm::signalTriggerLevel</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="89" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="classEyeDisplayForm_1ab2de765203e558281b129dce037c0b0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::signalTriggerDelay</definition>
+        <argsstring>(float delay)</argsstring>
+        <name>signalTriggerDelay</name>
+        <qualifiedname>EyeDisplayForm::signalTriggerDelay</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="90" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="classEyeDisplayForm_1a981cd9062142e72ff1cb7aee9af9e76d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::signalReplot</definition>
+        <argsstring>()</argsstring>
+        <name>signalReplot</name>
+        <qualifiedname>EyeDisplayForm::signalReplot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="91" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="classEyeDisplayForm_1ad2e607ed728e9a299555394c43497c87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayForm::signalNPoints</definition>
+        <argsstring>(const int npts)</argsstring>
+        <name>signalNPoints</name>
+        <qualifiedname>EyeDisplayForm::signalNPoints</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>npts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="92" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classEyeDisplaysForm" kindref="compound">EyeDisplaysForm</ref> child for managing eye pattern plots. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EyeDisplayForm</label>
+        <link refid="classEyeDisplayForm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EyeDisplaysForm</label>
+        <link refid="classEyeDisplaysForm"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>DisplayPlot</label>
+        <link refid="classDisplayPlot"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>d_plot_curve</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>d_picker</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>EyeDisplayForm</label>
+        <link refid="classEyeDisplayForm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EyeDisplaysForm</label>
+        <link refid="classEyeDisplaysForm"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_display_plot</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>d_displays_plot</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>d_grids</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>d_samp_rate_act</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>PopupMenu</label>
+        <link refid="classPopupMenu"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>QAction</label>
+      </node>
+      <node id="3">
+        <label>QWidget</label>
+      </node>
+      <node id="7">
+        <label>QwtDblClickPlotPicker</label>
+        <link refid="classQwtDblClickPlotPicker"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>QwtPlot</label>
+      </node>
+      <node id="8">
+        <label>QwtPlotPicker</label>
+      </node>
+      <node id="9">
+        <label>std::vector&lt; DisplayPlot * &gt;</label>
+        <childnode refid="4" relation="usage">
+          <edgelabel>elements</edgelabel>
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::vector&lt; QwtPlotCurve * &gt;</label>
+      </node>
+      <node id="10">
+        <label>std::vector&lt; QwtPlotGrid * &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" line="25" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/eyedisplayform.h" bodystart="26" bodyend="120"/>
+    <listofallmembers>
+      <member refid="classEyeDisplayForm_1a220085df60b61201948710d05ece7910" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>autoScale</name></member>
+      <member refid="classEyeDisplayForm_1af8c26a08f322209a78fc86a605e9518f" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>autoScaleShot</name></member>
+      <member refid="classEyeDisplaysForm_1afd3a8983b25d7c1fa3c1dba36fb1f626" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>closeEvent</name></member>
+      <member refid="classEyeDisplayForm_1ab2a216593618606ce27c2f4616d58cb0" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>customEvent</name></member>
+      <member refid="classEyeDisplaysForm_1a5564be4f68fbed45cbc4fdba04f84bcb" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_autoscale_act</name></member>
+      <member refid="classEyeDisplaysForm_1a27863d386d0b24910a5acacfb90fd2e9" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_autoscale_state</name></member>
+      <member refid="classEyeDisplaysForm_1a3bd664f8cbae5608978b5131be3edb63" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_axislabels</name></member>
+      <member refid="classEyeDisplaysForm_1a7b25e52c244d3ca766e9f0485a0d4bba" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_axislabelsmenu</name></member>
+      <member refid="classEyeDisplayForm_1aa2a4b661282d344c341bc45742d9e8da" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_cols</name></member>
+      <member refid="classEyeDisplayForm_1af302fa8cc0f05af67cd6a8169db16600" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_controlpanel</name></member>
+      <member refid="classEyeDisplayForm_1a6e45163d9fdd069091f3a503a1a9ba92" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_controlpanelmenu</name></member>
+      <member refid="classEyeDisplayForm_1a5953e0b61fe88514bba9aa4921bb4dc7" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_current_units</name></member>
+      <member refid="classEyeDisplaysForm_1abd0870770ce6d95691c3dba59f070a95" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_display_plot</name></member>
+      <member refid="classEyeDisplaysForm_1a17d86bb0f8e6d4ed71bcc85316531201" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_displays_plot</name></member>
+      <member refid="classEyeDisplaysForm_1a91bd5378971761e9774135b299ce004d" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_grid_act</name></member>
+      <member refid="classEyeDisplaysForm_1aed26b5ee39481be93ff911b4902c4577" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_grid_state</name></member>
+      <member refid="classEyeDisplaysForm_1a686f713c0df971452f40452c5bfbad3e" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_grids</name></member>
+      <member refid="classEyeDisplaysForm_1a324e4a6c18b05d9e698db1641fff0c5f" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_layout</name></member>
+      <member refid="classEyeDisplaysForm_1a68c5d93ab624a055351a0af48fa90f0b" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_line_color_menu</name></member>
+      <member refid="classEyeDisplaysForm_1a97a4d10ae45fa385f38a23540c9ec3eb" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_line_marker_menu</name></member>
+      <member refid="classEyeDisplaysForm_1a3f4c37a4105e81fdcccb118d27839792" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_line_style_menu</name></member>
+      <member refid="classEyeDisplaysForm_1a4a43d0d465d7b7b23dd66fce2c3e1e61" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_line_title_act</name></member>
+      <member refid="classEyeDisplaysForm_1a9ecc09ab8a86e4e3cfaa3ed8da52231a" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_line_width_menu</name></member>
+      <member refid="classEyeDisplaysForm_1a7e5328e905faf9fbdf560e359f46af4c" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_lines_menu</name></member>
+      <member refid="classEyeDisplaysForm_1a30812f2344f002942fcf566e2701001d" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_marker_alpha_menu</name></member>
+      <member refid="classEyeDisplaysForm_1a33852f1c86ec7ae57004210fc70460f4" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_menu</name></member>
+      <member refid="classEyeDisplaysForm_1aee3b6c1025a02b1a3f97146c27e71683" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_menu_on</name></member>
+      <member refid="classEyeDisplaysForm_1aca57ba9d35f1619e3af99bc1c53e193a" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_nplots</name></member>
+      <member refid="classEyeDisplayForm_1aaa69028e0b9ff74172707f68fec58e86" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_npoints</name></member>
+      <member refid="classEyeDisplayForm_1a18d5b1271de059d9c09a45a836abd451" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_nptsmenu</name></member>
+      <member refid="classEyeDisplayForm_1a50e04e25a4bc2aaafcaf9aae6a279537" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_rows</name></member>
+      <member refid="classEyeDisplaysForm_1a3c39cfb171405df141f6a373bc41dc5d" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_samp_rate_act</name></member>
+      <member refid="classEyeDisplaysForm_1ab6de44e419daa4366db4b5c9fc4c58e4" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_save_act</name></member>
+      <member refid="classEyeDisplaysForm_1aee81fc86b8c61fa2bf960373a0d05915" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_sps</name></member>
+      <member refid="classEyeDisplayForm_1a8955e0cfb40e85fe35fb6dbecb474c35" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_start_frequency</name></member>
+      <member refid="classEyeDisplaysForm_1abd4499998b509b0a2aff7edbd0245b21" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_stop_act</name></member>
+      <member refid="classEyeDisplayForm_1a60ba781139cc2e3d1948a8c4d7c61ac1" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_stop_frequency</name></member>
+      <member refid="classEyeDisplaysForm_1a184d25a41d3c164c62d041d1e48f0127" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_stop_state</name></member>
+      <member refid="classEyeDisplaysForm_1af773f97f7e28e203852de7c1b2ea86d7" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_system_specified_flag</name></member>
+      <member refid="classEyeDisplayForm_1ae5e3562dbc4601acd618f53188b280b5" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_tagsmenu</name></member>
+      <member refid="classEyeDisplayForm_1aa5157f0d805a6244ce480aee6ba6514d" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_tr_channel_menu</name></member>
+      <member refid="classEyeDisplayForm_1a3e64d0e1b70b53cd3f6d620eb6f1d494" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_tr_mode_menu</name></member>
+      <member refid="classEyeDisplayForm_1ace8ee668979c7e5c80a71d847265717c" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_tr_slope_menu</name></member>
+      <member refid="classEyeDisplayForm_1a9d8893eb7bca015ec2fdb82730bb9fbe" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_tr_tag_key_act</name></member>
+      <member refid="classEyeDisplayForm_1a2c957246771c4673f1a8734f72b28a7b" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_trig_channel</name></member>
+      <member refid="classEyeDisplayForm_1af814eb0607a715d3a957a827b5cd100a" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_trig_delay</name></member>
+      <member refid="classEyeDisplayForm_1a109eacbded99f95cbfcd75352f9ddef7" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_trig_level</name></member>
+      <member refid="classEyeDisplayForm_1a6f4042eebd6b33a75e1b18b9131b8b53" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_trig_mode</name></member>
+      <member refid="classEyeDisplayForm_1aaecf002f3c96fe111d47552eccfbb3b6" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_trig_slope</name></member>
+      <member refid="classEyeDisplayForm_1a8c7192d3975c84d5aa1eda4c38cb5579" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_trig_tag_key</name></member>
+      <member refid="classEyeDisplayForm_1a9535a6ce94b2ad1b117f7d568aa6a1ae" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_triggermenu</name></member>
+      <member refid="classEyeDisplaysForm_1aa0ed85f133029222e76ca10b3dc675fc" prot="protected" virt="non-virtual"><scope>EyeDisplayForm</scope><name>d_update_time</name></member>
+      <member refid="classEyeDisplaysForm_1a1f39c6bd4e189708ba79ffb31888a202" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>disableLegend</name></member>
+      <member refid="classEyeDisplaysForm_1a827bd012c2a067cd92f1821fdbfe4919" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>enableMenu</name></member>
+      <member refid="classEyeDisplayForm_1ac63007802f7c609fa4b1b914ee29e9bc" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>EyeDisplayForm</name></member>
+      <member refid="classEyeDisplaysForm_1a646f1371df91b27e5a33a6a7dfaa9388" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>EyeDisplaysForm</name></member>
+      <member refid="classEyeDisplayForm_1aa3e5f7a79d7b5f66d41c981fa39f2a81" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>getNPoints</name></member>
+      <member refid="classEyeDisplayForm_1aa4e479e0e0726d64070980b77f7fda06" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>getPlot</name></member>
+      <member refid="classEyeDisplayForm_1aa80113cd6ffd920a99c012cda001dd74" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>getSamplesPerSymbol</name></member>
+      <member refid="classEyeDisplayForm_1ad070f22a91276b9e271dc59175f6cce7" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>getSinglePlot</name></member>
+      <member refid="classEyeDisplayForm_1a31f8f64ea151a372fc94e27a17364ae7" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>getTriggerChannel</name></member>
+      <member refid="classEyeDisplayForm_1a2f5377a18b6ab261232c8592357e716f" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>getTriggerDelay</name></member>
+      <member refid="classEyeDisplayForm_1a13199ee8748e6725f2d1d8c8311e4bd8" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>getTriggerLevel</name></member>
+      <member refid="classEyeDisplayForm_1a05c9a70f49691274dbefdc6d7fa2e8ed" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>getTriggerMode</name></member>
+      <member refid="classEyeDisplayForm_1a8d3fcb3f2df0365a3c55a610312a87d7" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>getTriggerSlope</name></member>
+      <member refid="classEyeDisplayForm_1a2eeb163c675c07ec3809bcaa740eaae6" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>getTriggerTagKey</name></member>
+      <member refid="classEyeDisplaysForm_1a6479b4685e680f3c4d2d0de67710bc23" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>lineColor</name></member>
+      <member refid="classEyeDisplaysForm_1ada3544ccba2c0c7938b7c5810bad814f" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>lineLabel</name></member>
+      <member refid="classEyeDisplaysForm_1a032816df9093bf003193d7dffd12c1cc" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>lineMarker</name></member>
+      <member refid="classEyeDisplaysForm_1a48d8de359afc1339b13880c518e68c17" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>lineStyle</name></member>
+      <member refid="classEyeDisplaysForm_1a95425089aafd57b2ea52dc2bdcf9d34c" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>lineWidth</name></member>
+      <member refid="classEyeDisplaysForm_1ade6d6eba7e639e18acbc6eed5cc71ab3" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>markerAlpha</name></member>
+      <member refid="classEyeDisplaysForm_1a97b89361b808add9d67d4dc2065de011" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>mousePressEvent</name></member>
+      <member refid="classEyeDisplayForm_1ae5d7888aa7671aff5b28333be1db5f29" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>newData</name></member>
+      <member refid="classEyeDisplayForm_1a23280d3d27e495d82577399a0efe23cc" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>notifyTriggerDelayMinus</name></member>
+      <member refid="classEyeDisplayForm_1af99fcc0bb81e3c750b665770cdcb6df0" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>notifyTriggerDelayPlus</name></member>
+      <member refid="classEyeDisplayForm_1a89f670332de7c8d5640f5322469fafff" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>notifyTriggerLevelMinus</name></member>
+      <member refid="classEyeDisplayForm_1a3dd824fa9890d7ccf70537f4bbf2708d" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>notifyTriggerLevelPlus</name></member>
+      <member refid="classEyeDisplayForm_1ab8c71a93abd23441cc08836675f8ae89" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>notifyTriggerMode</name></member>
+      <member refid="classEyeDisplayForm_1a1725e0e544c55cf53a28eafdb2d0a430" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>notifyTriggerSlope</name></member>
+      <member refid="classEyeDisplayForm_1a9679354c7748b756ffd8753af2de94c0" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>notifyYAxisMinus</name></member>
+      <member refid="classEyeDisplayForm_1ac895a956cd93bb66b63552ba61b611aa" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>notifyYAxisPlus</name></member>
+      <member refid="classEyeDisplayForm_1af80f103f38aa7fb9706cb689bbc6383d" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>notifyYRangeMinus</name></member>
+      <member refid="classEyeDisplayForm_1a43afbff24fc337528d2ebcc5c65c8ed4" prot="private" virt="non-virtual"><scope>EyeDisplayForm</scope><name>notifyYRangePlus</name></member>
+      <member refid="classEyeDisplaysForm_1aef324f6c6629bd03b78041ac40cd8530" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>plotPointSelected</name></member>
+      <member refid="classEyeDisplaysForm_1aa7400ff921736a0055bd30820e494364" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>Reset</name></member>
+      <member refid="classEyeDisplaysForm_1a893161ca405a8801fa10015632e62e12" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>resizeEvent</name></member>
+      <member refid="classEyeDisplaysForm_1a10263600cb64383c018de2bc73bf6a1a" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>saveFigure</name></member>
+      <member refid="classEyeDisplayForm_1a7551c270a1d8555e7d14c135c9a3730b" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setAxisLabels</name></member>
+      <member refid="classEyeDisplaysForm_1add5dd9c9346fd7622a63f3814fa3b0de" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setGrid</name></member>
+      <member refid="classEyeDisplaysForm_1a35f9d4001a3e4d0427e8959ae9a45543" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setLineColor</name></member>
+      <member refid="classEyeDisplaysForm_1aea1ca59cd46f00269894fe0a0c8a0897" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setLineLabel</name></member>
+      <member refid="classEyeDisplaysForm_1ae12f51e28b584f36a6b82e882b0d5748" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setLineMarker</name></member>
+      <member refid="classEyeDisplaysForm_1a72d4b4c511ef627c071a976c7802c253" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setLineStyle</name></member>
+      <member refid="classEyeDisplaysForm_1aa3f90155a0d094198148e92c0af67ab1" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setLineWidth</name></member>
+      <member refid="classEyeDisplaysForm_1a23913e8668ce79c3873c8bc068a6e571" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setMarkerAlpha</name></member>
+      <member refid="classEyeDisplayForm_1ae7d2edf68ac24a94dddd0699fda84d54" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setNPoints</name></member>
+      <member refid="classEyeDisplayForm_1aaa1666ba29afe03ca9b1035a566599c9" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setSampleRate</name></member>
+      <member refid="classEyeDisplayForm_1a096d24dcef0acf2ce940abb781b3cd38" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setSampleRate</name></member>
+      <member refid="classEyeDisplaysForm_1a738182e2827af1a274463068a906d596" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setSamplesPerSymbol</name></member>
+      <member refid="classEyeDisplaysForm_1ae4d4b787d167a143fc556437fc9596a4" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setStop</name></member>
+      <member refid="classEyeDisplaysForm_1a9e91b06b323c6235ea1046d7997cb341" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setStop</name></member>
+      <member refid="classEyeDisplayForm_1abf5ebdc2527f96c54ffe097c8837fab7" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setTagMenu</name></member>
+      <member refid="classEyeDisplaysForm_1af4a756662efd8693da915f0767ad07c7" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setTitle</name></member>
+      <member refid="classEyeDisplayForm_1a67a1355a5edc567def0b1709c9e14847" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setTriggerChannel</name></member>
+      <member refid="classEyeDisplayForm_1ac8ced253ca67af76d7b8e5ad3b26a88f" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setTriggerDelay</name></member>
+      <member refid="classEyeDisplayForm_1aaec5c37c6aa8d38e255b6acc3965d31d" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setTriggerLevel</name></member>
+      <member refid="classEyeDisplayForm_1a465ce5325e74e3bd5ecd4978e3ba8943" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setTriggerMode</name></member>
+      <member refid="classEyeDisplayForm_1aeb9ef48fa514849189db1ad9d5b0547e" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setTriggerSlope</name></member>
+      <member refid="classEyeDisplayForm_1a14b8df0fb3273a7bdf19344338a69abe" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setTriggerTagKey</name></member>
+      <member refid="classEyeDisplayForm_1a9417dfef42a8f06d8c0b240631fdfcee" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setTriggerTagKey</name></member>
+      <member refid="classEyeDisplayForm_1a0e77d60c2c3a0984afec04638537fcde" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setupControlPanel</name></member>
+      <member refid="classEyeDisplayForm_1ac30c66dbf5564f66733241f25b91253d" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setupControlPanel</name></member>
+      <member refid="classEyeDisplaysForm_1a0616e253bf9514bf074187ef59e409ab" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setUpdateTime</name></member>
+      <member refid="classEyeDisplayForm_1a582e84feefd8382b3157e04e5e29887a" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setYaxis</name></member>
+      <member refid="classEyeDisplayForm_1a8b22855280dc89d14d18cb43231676b6" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>setYLabel</name></member>
+      <member refid="classEyeDisplayForm_1ad2e607ed728e9a299555394c43497c87" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>signalNPoints</name></member>
+      <member refid="classEyeDisplayForm_1a981cd9062142e72ff1cb7aee9af9e76d" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>signalReplot</name></member>
+      <member refid="classEyeDisplayForm_1ab2de765203e558281b129dce037c0b0f" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>signalTriggerDelay</name></member>
+      <member refid="classEyeDisplayForm_1a276cc24bd3925eabcc0522ee19aa8ee1" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>signalTriggerLevel</name></member>
+      <member refid="classEyeDisplayForm_1a48e59d4a2fe89da505cb279f1eb0f688" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>signalTriggerMode</name></member>
+      <member refid="classEyeDisplayForm_1a53a262e57172af97aaa64599884d1ec4" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>signalTriggerSlope</name></member>
+      <member refid="classEyeDisplayForm_1a7b0d1556daf68099e8bfbbe65ba8a2c9" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>tagMenuSlot</name></member>
+      <member refid="classEyeDisplayForm_1a10bcf34bb906c043f3244197ccacab46" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>teardownControlPanel</name></member>
+      <member refid="classEyeDisplaysForm_1a0322dfedb1346919ab9c373b98e9b8cc" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>title</name></member>
+      <member refid="classEyeDisplaysForm_1a040c5e6d9f6d974ad247d1b423776d33" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>toggleGrid</name></member>
+      <member refid="classEyeDisplayForm_1a83b659721d4eb5cf0a59a3643baa3c20" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>updateTrigger</name></member>
+      <member refid="classEyeDisplayForm_1ad58e73fbffb667e1a3d308367752ffff" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>~EyeDisplayForm</name></member>
+      <member refid="classEyeDisplaysForm_1ab8dcfa83420212c2830aadcc284bd1b4" prot="public" virt="non-virtual"><scope>EyeDisplayForm</scope><name>~EyeDisplaysForm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

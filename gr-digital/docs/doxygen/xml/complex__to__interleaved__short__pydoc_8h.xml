@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="complex__to__interleaved__short__pydoc_8h" kind="file" language="C++">
+    <compoundname>complex_to_interleaved_short_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>complex_to_interleaved_short_pydoc.h</label>
+        <link refid="complex__to__interleaved__short__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="complex__to__interleaved__short__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/complex_to_interleaved_short_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/complex_to_interleaved_short_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="complex__to__interleaved__short__pydoc_8h_1a6c0a4e044cccc54d512ea2491f0a1260" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_complex_to_interleaved_short</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_complex_to_interleaved_short</name>
+        <initializer>= R&quot;doc(Convert stream of complex to a stream of interleaved shorts.
+
+The output stream contains shorts with twice as many output items as input items. For every complex input item, we produce two output shorts that contain the real part and imaginary part converted to shorts:
+
+Constructor Specific Documentation:
+
+Build a complex to interleaved shorts block.
+
+Args:
+    vector : 
+    scale_factor : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/complex_to_interleaved_short_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/complex_to_interleaved_short_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="complex__to__interleaved__short__pydoc_8h_1acd92e51ef19552dffb8ca5fe7a9a0431" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_complex_to_interleaved_short_complex_to_interleaved_short_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_complex_to_interleaved_short_complex_to_interleaved_short_0</name>
+        <initializer>=
+        R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/complex_to_interleaved_short_pydoc.h" line="32" column="5" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/complex_to_interleaved_short_pydoc.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="complex__to__interleaved__short__pydoc_8h_1a1f6d34e5adda63a34bd09ea6324a9360" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_complex_to_interleaved_short_complex_to_interleaved_short_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_complex_to_interleaved_short_complex_to_interleaved_short_1</name>
+        <initializer>=
+        R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/complex_to_interleaved_short_pydoc.h" line="37" column="5" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/complex_to_interleaved_short_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="complex__to__interleaved__short__pydoc_8h_1ab1d412757909776fd098045b30e92b4d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_complex_to_interleaved_short_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_complex_to_interleaved_short_make</name>
+        <initializer>= R&quot;doc(Convert stream of complex to a stream of interleaved shorts.
+
+The output stream contains shorts with twice as many output items as input items. For every complex input item, we produce two output shorts that contain the real part and imaginary part converted to shorts:
+
+Constructor Specific Documentation:
+
+Build a complex to interleaved shorts block.
+
+Args:
+    vector : 
+    scale_factor : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/complex_to_interleaved_short_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/complex_to_interleaved_short_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="complex__to__interleaved__short__pydoc_8h_1ae1d0a2eb235d20e034a134bc446e844f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_complex_to_interleaved_short_set_scale_factor</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_complex_to_interleaved_short_set_scale_factor</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/complex_to_interleaved_short_pydoc.h" line="54" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/complex_to_interleaved_short_pydoc.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/complex_to_interleaved_short_pydoc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classthrift__application__base__impl" kind="class" language="C++" prot="public">
+    <compoundname>thrift_application_base_impl</compoundname>
+    <includes refid="thrift__application__base_8h" local="no">gnuradio/thrift_application_base.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classthrift__application__base__impl_1a7a39af1aa81684bab38fd864a72bb9b8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool thrift_application_base_impl::d_application_initialized</definition>
+        <argsstring></argsstring>
+        <name>d_application_initialized</name>
+        <qualifiedname>thrift_application_base_impl::d_application_initialized</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_application_base.h" line="51" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_application_base.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classthrift__application__base__impl_1a6d5be561dea92d4741918cf33ae67346" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string thrift_application_base_impl::d_endpointStr</definition>
+        <argsstring></argsstring>
+        <name>d_endpointStr</name>
+        <qualifiedname>thrift_application_base_impl::d_endpointStr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_application_base.h" line="53" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_application_base.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classthrift__application__base__impl_1a85fb55089d1419ea137554c362dda31e" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="namespacegr_1_1thread_1a8db1729ee02223979eb266b92f6cdd64" kindref="member">gr::thread::thread</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;gr::thread::thread&gt; thrift_application_base_impl::d_start_thrift_thread</definition>
+        <argsstring></argsstring>
+        <name>d_start_thrift_thread</name>
+        <qualifiedname>thrift_application_base_impl::d_start_thrift_thread</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_application_base.h" line="55" column="21" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_application_base.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classthrift__application__base__impl_1ad19a9452e10306dcd2e0edc65bfba562" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>thrift_application_base_impl::thrift_application_base_impl</definition>
+        <argsstring>()</argsstring>
+        <name>thrift_application_base_impl</name>
+        <qualifiedname>thrift_application_base_impl::thrift_application_base_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_application_base.h" line="44" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_application_base.h" bodystart="44" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class to be statically initialized by <ref refid="classthrift__application__base" kindref="compound">thrift_application_base</ref>. Used to store state for <ref refid="classthrift__application__base" kindref="compound">thrift_application_base</ref>&apos;s singleton functions. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>std::shared_ptr&lt; gr::thread::thread &gt;</label>
+      </node>
+      <node id="3">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="2">
+        <label>std::string</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>thrift_application_base_impl</label>
+        <link refid="classthrift__application__base__impl"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>d_endpointStr</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_start_thrift_thread</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_application_base.h" line="41" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/thrift_application_base.h" bodystart="42" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classthrift__application__base__impl_1a7a39af1aa81684bab38fd864a72bb9b8" prot="public" virt="non-virtual"><scope>thrift_application_base_impl</scope><name>d_application_initialized</name></member>
+      <member refid="classthrift__application__base__impl_1a6d5be561dea92d4741918cf33ae67346" prot="public" virt="non-virtual"><scope>thrift_application_base_impl</scope><name>d_endpointStr</name></member>
+      <member refid="classthrift__application__base__impl_1a85fb55089d1419ea137554c362dda31e" prot="public" virt="non-virtual"><scope>thrift_application_base_impl</scope><name>d_start_thrift_thread</name></member>
+      <member refid="classthrift__application__base__impl_1ad19a9452e10306dcd2e0edc65bfba562" prot="public" virt="non-virtual"><scope>thrift_application_base_impl</scope><name>thrift_application_base_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1fxpt" kind="class" language="C++" prot="public">
+    <compoundname>gr::fxpt</compoundname>
+    <includes refid="fxpt_8h" local="no">gnuradio/fxpt.h</includes>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classgr_1_1fxpt_1a216c6ab71273b76056b6b830361573e7" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int gr::fxpt::WORDBITS</definition>
+        <argsstring></argsstring>
+        <name>WORDBITS</name>
+        <qualifiedname>gr::fxpt::WORDBITS</qualifiedname>
+        <initializer>= 32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" line="32" column="26" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fxpt_1a44df55f08a71ab7eca46f5e4a6fede78" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int gr::fxpt::NBITS</definition>
+        <argsstring></argsstring>
+        <name>NBITS</name>
+        <qualifiedname>gr::fxpt::NBITS</qualifiedname>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" line="33" column="26" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fxpt_1a629a5990c7230e3ca1c86f30841042bc" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t gr::fxpt::ACCUM_MASK</definition>
+        <argsstring></argsstring>
+        <name>ACCUM_MASK</name>
+        <qualifiedname>gr::fxpt::ACCUM_MASK</qualifiedname>
+        <initializer>= ((1 &lt;&lt; (WORDBITS - NBITS)) - 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" line="34" column="31" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fxpt_1a9059c0a01f801d66d91665cef9e324cd" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::fxpt::s_sine_table[1&lt;&lt; NBITS][2]</definition>
+        <argsstring>[1&lt;&lt; NBITS][2]</argsstring>
+        <name>s_sine_table</name>
+        <qualifiedname>gr::fxpt::s_sine_table</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" line="35" column="24" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fxpt_1aef51c0d7d18088dce384aadf41f3a868" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::fxpt::PI</definition>
+        <argsstring></argsstring>
+        <name>PI</name>
+        <qualifiedname>gr::fxpt::PI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" line="36" column="24" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fxpt_1ab8f11c6498fc4bcc2b4fac91aeb4fdc7" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::fxpt::TAU</definition>
+        <argsstring></argsstring>
+        <name>TAU</name>
+        <qualifiedname>gr::fxpt::TAU</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" line="37" column="24" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1fxpt_1a60c0655bd5822b23c0db208c210d06b7" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::fxpt::TWO_TO_THE_31</definition>
+        <argsstring></argsstring>
+        <name>TWO_TO_THE_31</name>
+        <qualifiedname>gr::fxpt::TWO_TO_THE_31</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" line="38" column="24" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1fxpt_1a86114484325a250853a858e4ab4d1acd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>static int32_t gr::fxpt::float_to_fixed</definition>
+        <argsstring>(float x)</argsstring>
+        <name>float_to_fixed</name>
+        <qualifiedname>gr::fxpt::float_to_fixed</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" line="41" column="20" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" bodystart="41" bodyend="48"/>
+        <referencedby refid="classgr_1_1fxpt__nco_1a16a4d6ecff0bbf086eeca378b3f809a6" compoundref="fxpt__nco_8h" startline="50" endline="53">gr::fxpt_nco::adjust_freq</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1a297f6034e9a278fe94a89d25f75de887" compoundref="fxpt__nco_8h" startline="38" endline="41">gr::fxpt_nco::adjust_phase</referencedby>
+        <referencedby refid="classgr_1_1fxpt__vco_1a8f173ead148b4e753472d8b298fca678" compoundref="fxpt__vco_8h" startline="36" endline="39">gr::fxpt_vco::adjust_phase</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1a6b39937315aff637b428af1b6a2340fd" compoundref="fxpt__nco_8h" startline="44" endline="47">gr::fxpt_nco::set_freq</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1ade433364b8e8adf76204f578d4afcf6d" compoundref="fxpt__nco_8h" startline="36" endline="36">gr::fxpt_nco::set_phase</referencedby>
+        <referencedby refid="classgr_1_1fxpt__vco_1a45b941b7d9c0fb16d899fe901852e4e9" compoundref="fxpt__vco_8h" startline="34" endline="34">gr::fxpt_vco::set_phase</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fxpt_1add5bfd2ce2c084ecb2956ccaf7cc4207" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float gr::fxpt::fixed_to_float</definition>
+        <argsstring>(int32_t x)</argsstring>
+        <name>fixed_to_float</name>
+        <qualifiedname>gr::fxpt::fixed_to_float</qualifiedname>
+        <param>
+          <type>int32_t</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" line="50" column="18" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" bodystart="50" bodyend="50"/>
+        <referencedby refid="classgr_1_1fxpt__nco_1a5e5088dfa6421bc1f4612d4bcdc7ba06" compoundref="fxpt__nco_8h" startline="63" endline="63">gr::fxpt_nco::get_freq</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1a12e0c9bf59d7e8002fdd4f52b10450bc" compoundref="fxpt__nco_8h" startline="62" endline="62">gr::fxpt_nco::get_phase</referencedby>
+        <referencedby refid="classgr_1_1fxpt__vco_1ad2a2bd6a9ca1a62a35b6c4742182926f" compoundref="fxpt__vco_8h" startline="41" endline="41">gr::fxpt_vco::get_phase</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fxpt_1a8ffd418632630ee06b096dda9ceb18be" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float gr::fxpt::sin</definition>
+        <argsstring>(int32_t x)</argsstring>
+        <name>sin</name>
+        <qualifiedname>gr::fxpt::sin</qualifiedname>
+        <param>
+          <type>int32_t</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Given a fixed point angle x, return float sine (x) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" line="55" column="18" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" bodystart="55" bodyend="60"/>
+        <referencedby refid="classgr_1_1fxpt__nco_1ae701fb79ff2028c54408d45f0c37e2ee" compoundref="fxpt__nco_8h" startline="156" endline="156">gr::fxpt_nco::sin</referencedby>
+        <referencedby refid="classgr_1_1fxpt__vco_1a5111172a727d305e434a14326fe565af" compoundref="fxpt__vco_8h" startline="76" endline="76">gr::fxpt_vco::sin</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1aeefc6c722242cf5ceb26a9f550dbfbe0" compoundref="fxpt__nco_8h" startline="83" endline="89">gr::fxpt_nco::sin</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1a02313c8d288ad1cd9e791b082092fa0f" compoundref="fxpt__nco_8h" startline="137" endline="143">gr::fxpt_nco::sin</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1ac91c331fc8694ee6212ab6ae3b40a9fa" compoundref="fxpt__nco_8h" startline="119" endline="125">gr::fxpt_nco::sin</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1ae856b67add6f3e486c7124f8aef0e283" compoundref="fxpt__nco_8h" startline="101" endline="107">gr::fxpt_nco::sin</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1ad7c8c06fd0abf15f071f1e801ef6da30" compoundref="fxpt__nco_8h" startline="66" endline="70">gr::fxpt_nco::sincos</referencedby>
+        <referencedby refid="classgr_1_1fxpt__vco_1aca83e03b421d624fc7d75d6a7eee9093" compoundref="fxpt__vco_8h" startline="44" endline="48">gr::fxpt_vco::sincos</referencedby>
+        <referencedby refid="classgr_1_1fxpt__vco_1a13383aa62dbd34e317f800a74bbfc38a" compoundref="fxpt__vco_8h" startline="51" endline="62">gr::fxpt_vco::sincos</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1a3657a605265edf0f59f4b9105f35de9a" compoundref="fxpt__nco_8h" startline="73" endline="80">gr::fxpt_nco::sincos</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fxpt_1a2ea2541e4b14398ad950e1f7232027b4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float gr::fxpt::cos</definition>
+        <argsstring>(int32_t x)</argsstring>
+        <name>cos</name>
+        <qualifiedname>gr::fxpt::cos</qualifiedname>
+        <param>
+          <type>int32_t</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" line="65" column="18" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" bodystart="65" bodyend="70"/>
+        <referencedby refid="classgr_1_1fxpt__nco_1aa510eff925cac3be009d8c53a1924fad" compoundref="fxpt__nco_8h" startline="155" endline="155">gr::fxpt_nco::cos</referencedby>
+        <referencedby refid="classgr_1_1fxpt__vco_1abdc48cb0a6c7eb0096b6af9eff56a519" compoundref="fxpt__vco_8h" startline="75" endline="75">gr::fxpt_vco::cos</referencedby>
+        <referencedby refid="classgr_1_1fxpt__vco_1a1cd482cc8a2aea461b5f1140094b5e51" compoundref="fxpt__vco_8h" startline="66" endline="72">gr::fxpt_vco::cos</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1a93165e4f08a82947f7e2549b6d8e5548" compoundref="fxpt__nco_8h" startline="92" endline="98">gr::fxpt_nco::cos</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1a7f7ff159b379a86021492798b06e5178" compoundref="fxpt__nco_8h" startline="146" endline="152">gr::fxpt_nco::cos</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1a297f79f7274d6abfa23a4b82f86a128b" compoundref="fxpt__nco_8h" startline="128" endline="134">gr::fxpt_nco::cos</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1a8d294c672d129032467a737b4df26998" compoundref="fxpt__nco_8h" startline="110" endline="116">gr::fxpt_nco::cos</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1ad7c8c06fd0abf15f071f1e801ef6da30" compoundref="fxpt__nco_8h" startline="66" endline="70">gr::fxpt_nco::sincos</referencedby>
+        <referencedby refid="classgr_1_1fxpt__vco_1aca83e03b421d624fc7d75d6a7eee9093" compoundref="fxpt__vco_8h" startline="44" endline="48">gr::fxpt_vco::sincos</referencedby>
+        <referencedby refid="classgr_1_1fxpt__vco_1a13383aa62dbd34e317f800a74bbfc38a" compoundref="fxpt__vco_8h" startline="51" endline="62">gr::fxpt_vco::sincos</referencedby>
+        <referencedby refid="classgr_1_1fxpt__nco_1a3657a605265edf0f59f4b9105f35de9a" compoundref="fxpt__nco_8h" startline="73" endline="80">gr::fxpt_nco::sincos</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fxpt_1a20352535e2345e012767cb6eade52228" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void gr::fxpt::sincos</definition>
+        <argsstring>(int32_t x, float *s, float *c)</argsstring>
+        <name>sincos</name>
+        <qualifiedname>gr::fxpt::sincos</qualifiedname>
+        <param>
+          <type>int32_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" line="75" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" bodystart="75" bodyend="86"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>fixed point sine and cosine and friends. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>fixed pt radians <hruler/>
+ -2**31 -pi 0 0 2**31-1 pi - epsilon </para>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" line="30" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/fxpt.h" bodystart="31" bodyend="87"/>
+    <listofallmembers>
+      <member refid="classgr_1_1fxpt_1a629a5990c7230e3ca1c86f30841042bc" prot="private" virt="non-virtual"><scope>gr::fxpt</scope><name>ACCUM_MASK</name></member>
+      <member refid="classgr_1_1fxpt_1a2ea2541e4b14398ad950e1f7232027b4" prot="public" virt="non-virtual"><scope>gr::fxpt</scope><name>cos</name></member>
+      <member refid="classgr_1_1fxpt_1add5bfd2ce2c084ecb2956ccaf7cc4207" prot="public" virt="non-virtual"><scope>gr::fxpt</scope><name>fixed_to_float</name></member>
+      <member refid="classgr_1_1fxpt_1a86114484325a250853a858e4ab4d1acd" prot="public" virt="non-virtual"><scope>gr::fxpt</scope><name>float_to_fixed</name></member>
+      <member refid="classgr_1_1fxpt_1a44df55f08a71ab7eca46f5e4a6fede78" prot="private" virt="non-virtual"><scope>gr::fxpt</scope><name>NBITS</name></member>
+      <member refid="classgr_1_1fxpt_1aef51c0d7d18088dce384aadf41f3a868" prot="private" virt="non-virtual"><scope>gr::fxpt</scope><name>PI</name></member>
+      <member refid="classgr_1_1fxpt_1a9059c0a01f801d66d91665cef9e324cd" prot="private" virt="non-virtual"><scope>gr::fxpt</scope><name>s_sine_table</name></member>
+      <member refid="classgr_1_1fxpt_1a8ffd418632630ee06b096dda9ceb18be" prot="public" virt="non-virtual"><scope>gr::fxpt</scope><name>sin</name></member>
+      <member refid="classgr_1_1fxpt_1a20352535e2345e012767cb6eade52228" prot="public" virt="non-virtual"><scope>gr::fxpt</scope><name>sincos</name></member>
+      <member refid="classgr_1_1fxpt_1ab8f11c6498fc4bcc2b4fac91aeb4fdc7" prot="private" virt="non-virtual"><scope>gr::fxpt</scope><name>TAU</name></member>
+      <member refid="classgr_1_1fxpt_1a60c0655bd5822b23c0db208c210d06b7" prot="private" virt="non-virtual"><scope>gr::fxpt</scope><name>TWO_TO_THE_31</name></member>
+      <member refid="classgr_1_1fxpt_1a216c6ab71273b76056b6b830361573e7" prot="private" virt="non-virtual"><scope>gr::fxpt</scope><name>WORDBITS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

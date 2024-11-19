@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classrpcextractor__base" kind="class" language="C++" prot="public">
+    <compoundname>rpcextractor_base</compoundname>
+    <basecompoundref refid="classgr_1_1messages_1_1msg__accepter" prot="public" virt="virtual">gr::messages::msg_accepter</basecompoundref>
+    <derivedcompoundref refid="classrpcbasic__extractor" prot="public" virt="virtual">rpcbasic_extractor&lt; T, Tto &gt;</derivedcompoundref>
+    <includes refid="rpcregisterhelpers_8h" local="no">gnuradio/rpcregisterhelpers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename Tto</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classrpcextractor__base_1afb9a96dc63c5144792ca5e086476818f" prot="protected" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* rpcextractor_base&lt; T, Tto &gt;::_source</definition>
+        <argsstring></argsstring>
+        <name>_source</name>
+        <qualifiedname>rpcextractor_base::_source</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="54" column="7" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="54" bodyend="-1"/>
+        <referencedby refid="classrpcbasic__extractor_3_01T_00_01std_1_1complex_3_01float_01_4_01_4_1a9d8c7fccef28eb3ad03e3f4a6c003071" compoundref="rpcregisterhelpers_8h" startline="378" endline="384">rpcbasic_extractor&lt; T, std::complex&lt; float &gt; &gt;::post</referencedby>
+        <referencedby refid="classrpcbasic__extractor_3_01T_00_01std_1_1complex_3_01double_01_4_01_4_1a124eae18698b700c2a7388c197e54f09" compoundref="rpcregisterhelpers_8h" startline="401" endline="406">rpcbasic_extractor&lt; T, std::complex&lt; double &gt; &gt;::post</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classrpcextractor__base_1a43d3515d8de66880ed10c992df00d8ea" prot="protected" static="no" mutable="no">
+        <type>void(T::*</type>
+        <definition>void(T::* rpcextractor_base&lt; T, Tto &gt;::_func) (Tto)</definition>
+        <argsstring>)(Tto)</argsstring>
+        <name>_func</name>
+        <qualifiedname>rpcextractor_base::_func</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="55" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="55" bodyend="-1"/>
+        <referencedby refid="classrpcbasic__extractor_3_01T_00_01std_1_1complex_3_01float_01_4_01_4_1a9d8c7fccef28eb3ad03e3f4a6c003071" compoundref="rpcregisterhelpers_8h" startline="378" endline="384">rpcbasic_extractor&lt; T, std::complex&lt; float &gt; &gt;::post</referencedby>
+        <referencedby refid="classrpcbasic__extractor_3_01T_00_01std_1_1complex_3_01double_01_4_01_4_1a124eae18698b700c2a7388c197e54f09" compoundref="rpcregisterhelpers_8h" startline="401" endline="406">rpcbasic_extractor&lt; T, std::complex&lt; double &gt; &gt;::post</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrpcextractor__base_1a85303828dca8aef06ede86c1da67a848" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>rpcextractor_base&lt; T, Tto &gt;::rpcextractor_base</definition>
+        <argsstring>(T *source, void(T::*func)(Tto))</argsstring>
+        <name>rpcextractor_base</name>
+        <qualifiedname>rpcextractor_base::rpcextractor_base</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>void(T::*)(Tto)</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="39" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcextractor__base_1a66bd14205adb0857c47fc9afc861bf3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>rpcextractor_base&lt; T, Tto &gt;::~rpcextractor_base</definition>
+        <argsstring>() override</argsstring>
+        <name>~rpcextractor_base</name>
+        <qualifiedname>rpcextractor_base::~rpcextractor_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="43" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcextractor__base_1a6918e1bc4477c4cb0d5c9ca79dcb0951" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void rpcextractor_base&lt; T, Tto &gt;::post</definition>
+        <argsstring>(pmt::pmt_t which_port, pmt::pmt_t msg) override</argsstring>
+        <name>post</name>
+        <qualifiedname>rpcextractor_base::post</qualifiedname>
+        <reimplements refid="classgr_1_1messages_1_1msg__accepter_1a68a933600f38482c4d447ed57d20875a">post</reimplements>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+          <declname>which_port</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacepmt_1a94a208b58dc16675b02674c28784d88b" kindref="member">pmt::pmt_t</ref></type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+<para>send <computeroutput>msg</computeroutput> to <computeroutput>msg_accepter</computeroutput> on port <computeroutput>which_port</computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Sending a message is an asynchronous operation. The <computeroutput>post</computeroutput> call will not wait for the message either to arrive at the destination or to be received. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="45" column="10" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="45" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Base class for registering a ControlPort Extractor. Acts as a message acceptor. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::messages::msg_accepter</label>
+        <link refid="classgr_1_1messages_1_1msg__accepter"/>
+      </node>
+      <node id="3">
+        <label>rpcbasic_extractor&lt; T, Tto &gt;</label>
+        <link refid="classrpcbasic__extractor"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>rpcextractor_base&lt; T, Tto &gt;</label>
+        <link refid="classrpcextractor__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::messages::msg_accepter</label>
+        <link refid="classgr_1_1messages_1_1msg__accepter"/>
+      </node>
+      <node id="1">
+        <label>rpcextractor_base&lt; T, Tto &gt;</label>
+        <link refid="classrpcextractor__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" line="36" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcregisterhelpers.h" bodystart="37" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classrpcextractor__base_1a43d3515d8de66880ed10c992df00d8ea" prot="protected" virt="non-virtual"><scope>rpcextractor_base</scope><name>_func</name></member>
+      <member refid="classrpcextractor__base_1afb9a96dc63c5144792ca5e086476818f" prot="protected" virt="non-virtual"><scope>rpcextractor_base</scope><name>_source</name></member>
+      <member refid="classgr_1_1messages_1_1msg__accepter_1ad6092d4c7f34d71ceb85d1f0d261184f" prot="public" virt="non-virtual"><scope>rpcextractor_base</scope><name>msg_accepter</name></member>
+      <member refid="classrpcextractor__base_1a6918e1bc4477c4cb0d5c9ca79dcb0951" prot="public" virt="virtual"><scope>rpcextractor_base</scope><name>post</name></member>
+      <member refid="classrpcextractor__base_1a85303828dca8aef06ede86c1da67a848" prot="public" virt="non-virtual"><scope>rpcextractor_base</scope><name>rpcextractor_base</name></member>
+      <member refid="classgr_1_1messages_1_1msg__accepter_1ac2c26834f090b1af422d874be1bb7c54" prot="public" virt="virtual"><scope>rpcextractor_base</scope><name>~msg_accepter</name></member>
+      <member refid="classrpcextractor__base_1a66bd14205adb0857c47fc9afc861bf3e" prot="public" virt="non-virtual"><scope>rpcextractor_base</scope><name>~rpcextractor_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

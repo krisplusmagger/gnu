@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classrpcserver__booter__base" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>rpcserver_booter_base</compoundname>
+    <derivedcompoundref refid="classrpcserver__booter__aggregator" prot="public" virt="virtual">rpcserver_booter_aggregator</derivedcompoundref>
+    <derivedcompoundref refid="classrpcserver__booter__thrift" prot="public" virt="virtual">rpcserver_booter_thrift</derivedcompoundref>
+    <includes refid="rpcserver__booter__base_8h" local="no">gnuradio/rpcserver_booter_base.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrpcserver__booter__base_1adffeca7b8541f70d9a62a6c36b59b83e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>rpcserver_booter_base::rpcserver_booter_base</definition>
+        <argsstring>()</argsstring>
+        <name>rpcserver_booter_base</name>
+        <qualifiedname>rpcserver_booter_base::rpcserver_booter_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_base.h" line="22" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_base.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcserver__booter__base_1afd437c9750e290e6239d9f018ef8ead5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual rpcserver_booter_base::~rpcserver_booter_base</definition>
+        <argsstring>()</argsstring>
+        <name>~rpcserver_booter_base</name>
+        <qualifiedname>rpcserver_booter_base::~rpcserver_booter_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_base.h" line="23" column="13" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_base.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcserver__booter__base_1aa6e5532f1193df5bff6bc34645982c67" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classrpcserver__base" kindref="compound">rpcserver_base</ref> *</type>
+        <definition>virtual rpcserver_base * rpcserver_booter_base::i</definition>
+        <argsstring>()=0</argsstring>
+        <name>i</name>
+        <qualifiedname>rpcserver_booter_base::i</qualifiedname>
+        <reimplementedby refid="classrpcserver__booter__thrift_1a209555c50d992cb9901ad05adba88e42">i</reimplementedby>
+        <reimplementedby refid="classrpcserver__booter__aggregator_1a1abb5061b39b10e563275fcbf759464c">i</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_base.h" line="25" column="28"/>
+        <referencedby refid="classrpcbasic__register__get_1a267dd1e98043093e18d5e0748fc23c03" compoundref="rpcregisterhelpers_8h" startline="1178" endline="1215">rpcbasic_register_get&lt; T, Tfrom &gt;::rpcbasic_register_get</referencedby>
+        <referencedby refid="classrpcbasic__register__get_1a923e56d2f4de6a7375413c59a964de29" compoundref="rpcregisterhelpers_8h" startline="1135" endline="1171">rpcbasic_register_get&lt; T, Tfrom &gt;::rpcbasic_register_get</referencedby>
+        <referencedby refid="classrpcbasic__register__get_1a887fc7ee3ebfeeca9b3c6893e338ac93" compoundref="rpcregisterhelpers_8h" startline="1284" endline="1321">rpcbasic_register_get&lt; T, Tfrom &gt;::rpcbasic_register_get</referencedby>
+        <referencedby refid="classrpcbasic__register__get_1af3d110b18b0c08ac6bb18b683a06e565" compoundref="rpcregisterhelpers_8h" startline="1241" endline="1277">rpcbasic_register_get&lt; T, Tfrom &gt;::rpcbasic_register_get</referencedby>
+        <referencedby refid="classrpcbasic__register__handler_1a988eb7c3331580616d6077a0a02ef8e2" compoundref="rpcregisterhelpers_8h" startline="1614" endline="1643">rpcbasic_register_handler&lt; T &gt;::rpcbasic_register_handler</referencedby>
+        <referencedby refid="structrpcbasic__register__set_1a51de2a95c2e182a2130598a081087116" compoundref="rpcregisterhelpers_8h" startline="804" endline="840">rpcbasic_register_set&lt; T, Tto &gt;::rpcbasic_register_set</referencedby>
+        <referencedby refid="structrpcbasic__register__set_1a03872c707222797e7f2e82b2899835af" compoundref="rpcregisterhelpers_8h" startline="865" endline="901">rpcbasic_register_set&lt; T, Tto &gt;::rpcbasic_register_set</referencedby>
+        <referencedby refid="structrpcbasic__register__trigger_1af0b1d8ee78a476cfe521a90a7042a2f4" compoundref="rpcregisterhelpers_8h" startline="984" endline="1005">rpcbasic_register_trigger&lt; T &gt;::rpcbasic_register_trigger</referencedby>
+        <referencedby refid="structrpcbasic__register__trigger_1a9e0289b6dced5cefc560708771920626" compoundref="rpcregisterhelpers_8h" startline="1025" endline="1046">rpcbasic_register_trigger&lt; T &gt;::rpcbasic_register_trigger</referencedby>
+        <referencedby refid="classrpcbasic__register__get_1a8c68752c58725b4dfb128f613d13c7fb" compoundref="rpcregisterhelpers_8h" startline="1323" endline="1328">rpcbasic_register_get&lt; T, Tfrom &gt;::~rpcbasic_register_get</referencedby>
+        <referencedby refid="classrpcbasic__register__handler_1a3e9d3af1ff30096774c4c9a6e141e3c0" compoundref="rpcregisterhelpers_8h" startline="1645" endline="1650">rpcbasic_register_handler&lt; T &gt;::~rpcbasic_register_handler</referencedby>
+        <referencedby refid="structrpcbasic__register__set_1a348e5d40cc8138b1283c38559af7ca4c" compoundref="rpcregisterhelpers_8h" startline="903" endline="908">rpcbasic_register_set&lt; T, Tto &gt;::~rpcbasic_register_set</referencedby>
+        <referencedby refid="structrpcbasic__register__trigger_1ace474a763e4408737104e9645ea142e7" compoundref="rpcregisterhelpers_8h" startline="1048" endline="1053">rpcbasic_register_trigger&lt; T &gt;::~rpcbasic_register_trigger</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classrpcserver__booter__base_1ad91b8016dc178034c777f40bd0749130" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const std::vector&lt; std::string &gt;</type>
+        <definition>virtual const std::vector&lt; std::string &gt; rpcserver_booter_base::endpoints</definition>
+        <argsstring>()=0</argsstring>
+        <name>endpoints</name>
+        <qualifiedname>rpcserver_booter_base::endpoints</qualifiedname>
+        <reimplementedby refid="classrpcserver__booter__thrift_1adb7411dc71b2296486d053bae12395c6">endpoints</reimplementedby>
+        <reimplementedby refid="classrpcserver__booter__aggregator_1a25110aca5bd446d59f780fc689a1690e">endpoints</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_base.h" line="26" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcserver__booter__base_1a1ec6498d684b39ee79233b43b96d9952" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const std::string &amp;</type>
+        <definition>virtual const std::string &amp; rpcserver_booter_base::type</definition>
+        <argsstring>()=0</argsstring>
+        <name>type</name>
+        <qualifiedname>rpcserver_booter_base::type</qualifiedname>
+        <reimplementedby refid="classrpcserver__booter__thrift_1a7096536e142b703abd548631fd5f09bf">type</reimplementedby>
+        <reimplementedby refid="classrpcserver__booter__aggregator_1ae043534c835365a31ff9154d1e2d59e9">type</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_base.h" line="27" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>rpcserver_booter_aggregator</label>
+        <link refid="classrpcserver__booter__aggregator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>rpcserver_booter_base</label>
+        <link refid="classrpcserver__booter__base"/>
+      </node>
+      <node id="3">
+        <label>rpcserver_booter_thrift</label>
+        <link refid="classrpcserver__booter__thrift"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_base.h" line="19" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_base.h" bodystart="20" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classrpcserver__booter__base_1ad91b8016dc178034c777f40bd0749130" prot="public" virt="pure-virtual"><scope>rpcserver_booter_base</scope><name>endpoints</name></member>
+      <member refid="classrpcserver__booter__base_1aa6e5532f1193df5bff6bc34645982c67" prot="public" virt="pure-virtual"><scope>rpcserver_booter_base</scope><name>i</name></member>
+      <member refid="classrpcserver__booter__base_1adffeca7b8541f70d9a62a6c36b59b83e" prot="public" virt="non-virtual"><scope>rpcserver_booter_base</scope><name>rpcserver_booter_base</name></member>
+      <member refid="classrpcserver__booter__base_1a1ec6498d684b39ee79233b43b96d9952" prot="public" virt="pure-virtual"><scope>rpcserver_booter_base</scope><name>type</name></member>
+      <member refid="classrpcserver__booter__base_1afd437c9750e290e6239d9f018ef8ead5" prot="public" virt="virtual"><scope>rpcserver_booter_base</scope><name>~rpcserver_booter_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

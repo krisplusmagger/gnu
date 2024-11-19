@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classLineMarkerMenu" kind="class" language="C++" prot="public">
+    <compoundname>LineMarkerMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMenu</basecompoundref>
+    <includes refid="form__menus_8h" local="no">gnuradio/qtgui/form_menus.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classLineMarkerMenu_1a117cd91199563efeb94877eb5b2e73a4" prot="private" static="no" mutable="no">
+        <type>QActionGroup *</type>
+        <definition>QActionGroup* LineMarkerMenu::d_grp</definition>
+        <argsstring></argsstring>
+        <name>d_grp</name>
+        <qualifiedname>LineMarkerMenu::d_grp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="340" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLineMarkerMenu_1ad4fec9d8fe04790c572b8aedca4e92ed" prot="private" static="no" mutable="no">
+        <type>QList&lt; QAction * &gt;</type>
+        <definition>QList&lt;QAction*&gt; LineMarkerMenu::d_act</definition>
+        <argsstring></argsstring>
+        <name>d_act</name>
+        <qualifiedname>LineMarkerMenu::d_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="341" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLineMarkerMenu_1ae1c42beaf3c2270eaa9c5fb457e8851c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LineMarkerMenu::d_which</definition>
+        <argsstring></argsstring>
+        <name>d_which</name>
+        <qualifiedname>LineMarkerMenu::d_which</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="342" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="342" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LineMarkerMenu::LineMarkerMenu</definition>
+        <argsstring>(unsigned int which, QWidget *parent)</argsstring>
+        <name>LineMarkerMenu</name>
+        <qualifiedname>LineMarkerMenu::LineMarkerMenu</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="261" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="261" bodyend="305"/>
+        <references refid="classLineMarkerMenu_1a660ae65600d5dd846d59953b3990624e" compoundref="form__menus_8h" startline="324" endline="324">getCircle</references>
+        <references refid="classLineMarkerMenu_1aa76a374bd4a772c89fc7087ec748e4c8" compoundref="form__menus_8h" startline="331" endline="331">getCross</references>
+        <references refid="classLineMarkerMenu_1ab6e4101a0813cfa679d2b32d122329ca" compoundref="form__menus_8h" startline="326" endline="326">getDiamond</references>
+        <references refid="classLineMarkerMenu_1a462347779faac37020474477899faadf" compoundref="form__menus_8h" startline="328" endline="328">getDTriangle</references>
+        <references refid="classLineMarkerMenu_1a8eb77a660f93113916ec6fdc1f3609fa" compoundref="form__menus_8h" startline="337" endline="337">getHexagon</references>
+        <references refid="classLineMarkerMenu_1a793166af41ad21c594d24941daa43e8e" compoundref="form__menus_8h" startline="333" endline="333">getHLine</references>
+        <references refid="classLineMarkerMenu_1a3bd97612f8509f8bf9a19fd36f2caeba" compoundref="form__menus_8h" startline="329" endline="329">getLTriangle</references>
+        <references refid="classLineMarkerMenu_1ad9cd7485772c0c08b2ea888713f5921a" compoundref="form__menus_8h" startline="323" endline="323">getNone</references>
+        <references refid="classLineMarkerMenu_1a6f34f50c3ccef6f3ed34a9629c740023" compoundref="form__menus_8h" startline="325" endline="325">getRect</references>
+        <references refid="classLineMarkerMenu_1a7a8494b0712db20242e7865c3778ea4f" compoundref="form__menus_8h" startline="330" endline="330">getRTriangle</references>
+        <references refid="classLineMarkerMenu_1a273d25d0e984ef3f2e8f309258f04ddc" compoundref="form__menus_8h" startline="335" endline="335">getStar1</references>
+        <references refid="classLineMarkerMenu_1a019c8a9473797e229117a55e4e244304" compoundref="form__menus_8h" startline="336" endline="336">getStar2</references>
+        <references refid="classLineMarkerMenu_1a625d8dfae20ee9eae51d3c95527392a9" compoundref="form__menus_8h" startline="327" endline="327">getTriangle</references>
+        <references refid="classLineMarkerMenu_1a3770f516266ab42e6660907f622c43b0" compoundref="form__menus_8h" startline="334" endline="334">getVLine</references>
+        <references refid="classLineMarkerMenu_1aa97f352be069d5eac590056fb6b0c5c3" compoundref="form__menus_8h" startline="332" endline="332">getXCross</references>
+      </memberdef>
+      <memberdef kind="function" id="classLineMarkerMenu_1a049ad4994150cb60b465116d04dda603" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LineMarkerMenu::~LineMarkerMenu</definition>
+        <argsstring>() override</argsstring>
+        <name>~LineMarkerMenu</name>
+        <qualifiedname>LineMarkerMenu::~LineMarkerMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="307" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="307" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classLineMarkerMenu_1a6e58003467d131ceb61f25053a4bc7f5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int LineMarkerMenu::getNumActions</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumActions</name>
+        <qualifiedname>LineMarkerMenu::getNumActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="309" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="309" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="classLineMarkerMenu_1a23fe305e1ca8552f7fae989ffcb0e785" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * LineMarkerMenu::getAction</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>getAction</name>
+        <qualifiedname>LineMarkerMenu::getAction</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="311" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="311" bodyend="317"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::whichTrigger</definition>
+        <argsstring>(unsigned int which, QwtSymbol::Style)</argsstring>
+        <name>whichTrigger</name>
+        <qualifiedname>LineMarkerMenu::whichTrigger</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>QwtSymbol::Style</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="320" column="10"/>
+        <referencedby refid="classLineMarkerMenu_1a660ae65600d5dd846d59953b3990624e" compoundref="form__menus_8h" startline="324" endline="324">getCircle</referencedby>
+        <referencedby refid="classLineMarkerMenu_1aa76a374bd4a772c89fc7087ec748e4c8" compoundref="form__menus_8h" startline="331" endline="331">getCross</referencedby>
+        <referencedby refid="classLineMarkerMenu_1ab6e4101a0813cfa679d2b32d122329ca" compoundref="form__menus_8h" startline="326" endline="326">getDiamond</referencedby>
+        <referencedby refid="classLineMarkerMenu_1a462347779faac37020474477899faadf" compoundref="form__menus_8h" startline="328" endline="328">getDTriangle</referencedby>
+        <referencedby refid="classLineMarkerMenu_1a8eb77a660f93113916ec6fdc1f3609fa" compoundref="form__menus_8h" startline="337" endline="337">getHexagon</referencedby>
+        <referencedby refid="classLineMarkerMenu_1a793166af41ad21c594d24941daa43e8e" compoundref="form__menus_8h" startline="333" endline="333">getHLine</referencedby>
+        <referencedby refid="classLineMarkerMenu_1a3bd97612f8509f8bf9a19fd36f2caeba" compoundref="form__menus_8h" startline="329" endline="329">getLTriangle</referencedby>
+        <referencedby refid="classLineMarkerMenu_1ad9cd7485772c0c08b2ea888713f5921a" compoundref="form__menus_8h" startline="323" endline="323">getNone</referencedby>
+        <referencedby refid="classLineMarkerMenu_1a6f34f50c3ccef6f3ed34a9629c740023" compoundref="form__menus_8h" startline="325" endline="325">getRect</referencedby>
+        <referencedby refid="classLineMarkerMenu_1a7a8494b0712db20242e7865c3778ea4f" compoundref="form__menus_8h" startline="330" endline="330">getRTriangle</referencedby>
+        <referencedby refid="classLineMarkerMenu_1a273d25d0e984ef3f2e8f309258f04ddc" compoundref="form__menus_8h" startline="335" endline="335">getStar1</referencedby>
+        <referencedby refid="classLineMarkerMenu_1a019c8a9473797e229117a55e4e244304" compoundref="form__menus_8h" startline="336" endline="336">getStar2</referencedby>
+        <referencedby refid="classLineMarkerMenu_1a625d8dfae20ee9eae51d3c95527392a9" compoundref="form__menus_8h" startline="327" endline="327">getTriangle</referencedby>
+        <referencedby refid="classLineMarkerMenu_1a3770f516266ab42e6660907f622c43b0" compoundref="form__menus_8h" startline="334" endline="334">getVLine</referencedby>
+        <referencedby refid="classLineMarkerMenu_1aa97f352be069d5eac590056fb6b0c5c3" compoundref="form__menus_8h" startline="332" endline="332">getXCross</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classLineMarkerMenu_1ad9cd7485772c0c08b2ea888713f5921a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::getNone</definition>
+        <argsstring>()</argsstring>
+        <name>getNone</name>
+        <qualifiedname>LineMarkerMenu::getNone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="323" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="323" bodyend="323"/>
+        <references refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3">whichTrigger</references>
+        <referencedby refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" compoundref="form__menus_8h" startline="261" endline="305">LineMarkerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineMarkerMenu_1a660ae65600d5dd846d59953b3990624e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::getCircle</definition>
+        <argsstring>()</argsstring>
+        <name>getCircle</name>
+        <qualifiedname>LineMarkerMenu::getCircle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="324" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="324" bodyend="324"/>
+        <references refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3">whichTrigger</references>
+        <referencedby refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" compoundref="form__menus_8h" startline="261" endline="305">LineMarkerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineMarkerMenu_1a6f34f50c3ccef6f3ed34a9629c740023" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::getRect</definition>
+        <argsstring>()</argsstring>
+        <name>getRect</name>
+        <qualifiedname>LineMarkerMenu::getRect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="325" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="325" bodyend="325"/>
+        <references refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3">whichTrigger</references>
+        <referencedby refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" compoundref="form__menus_8h" startline="261" endline="305">LineMarkerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineMarkerMenu_1ab6e4101a0813cfa679d2b32d122329ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::getDiamond</definition>
+        <argsstring>()</argsstring>
+        <name>getDiamond</name>
+        <qualifiedname>LineMarkerMenu::getDiamond</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="326" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="326" bodyend="326"/>
+        <references refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3">whichTrigger</references>
+        <referencedby refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" compoundref="form__menus_8h" startline="261" endline="305">LineMarkerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineMarkerMenu_1a625d8dfae20ee9eae51d3c95527392a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::getTriangle</definition>
+        <argsstring>()</argsstring>
+        <name>getTriangle</name>
+        <qualifiedname>LineMarkerMenu::getTriangle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="327" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="327" bodyend="327"/>
+        <references refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3">whichTrigger</references>
+        <referencedby refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" compoundref="form__menus_8h" startline="261" endline="305">LineMarkerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineMarkerMenu_1a462347779faac37020474477899faadf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::getDTriangle</definition>
+        <argsstring>()</argsstring>
+        <name>getDTriangle</name>
+        <qualifiedname>LineMarkerMenu::getDTriangle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="328" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="328" bodyend="328"/>
+        <references refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3">whichTrigger</references>
+        <referencedby refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" compoundref="form__menus_8h" startline="261" endline="305">LineMarkerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineMarkerMenu_1a3bd97612f8509f8bf9a19fd36f2caeba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::getLTriangle</definition>
+        <argsstring>()</argsstring>
+        <name>getLTriangle</name>
+        <qualifiedname>LineMarkerMenu::getLTriangle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="329" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="329" bodyend="329"/>
+        <references refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3">whichTrigger</references>
+        <referencedby refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" compoundref="form__menus_8h" startline="261" endline="305">LineMarkerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineMarkerMenu_1a7a8494b0712db20242e7865c3778ea4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::getRTriangle</definition>
+        <argsstring>()</argsstring>
+        <name>getRTriangle</name>
+        <qualifiedname>LineMarkerMenu::getRTriangle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="330" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="330" bodyend="330"/>
+        <references refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3">whichTrigger</references>
+        <referencedby refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" compoundref="form__menus_8h" startline="261" endline="305">LineMarkerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineMarkerMenu_1aa76a374bd4a772c89fc7087ec748e4c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::getCross</definition>
+        <argsstring>()</argsstring>
+        <name>getCross</name>
+        <qualifiedname>LineMarkerMenu::getCross</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="331" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="331" bodyend="331"/>
+        <references refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3">whichTrigger</references>
+        <referencedby refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" compoundref="form__menus_8h" startline="261" endline="305">LineMarkerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineMarkerMenu_1aa97f352be069d5eac590056fb6b0c5c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::getXCross</definition>
+        <argsstring>()</argsstring>
+        <name>getXCross</name>
+        <qualifiedname>LineMarkerMenu::getXCross</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="332" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="332" bodyend="332"/>
+        <references refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3">whichTrigger</references>
+        <referencedby refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" compoundref="form__menus_8h" startline="261" endline="305">LineMarkerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineMarkerMenu_1a793166af41ad21c594d24941daa43e8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::getHLine</definition>
+        <argsstring>()</argsstring>
+        <name>getHLine</name>
+        <qualifiedname>LineMarkerMenu::getHLine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="333" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="333" bodyend="333"/>
+        <references refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3">whichTrigger</references>
+        <referencedby refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" compoundref="form__menus_8h" startline="261" endline="305">LineMarkerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineMarkerMenu_1a3770f516266ab42e6660907f622c43b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::getVLine</definition>
+        <argsstring>()</argsstring>
+        <name>getVLine</name>
+        <qualifiedname>LineMarkerMenu::getVLine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="334" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="334" bodyend="334"/>
+        <references refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3">whichTrigger</references>
+        <referencedby refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" compoundref="form__menus_8h" startline="261" endline="305">LineMarkerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineMarkerMenu_1a273d25d0e984ef3f2e8f309258f04ddc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::getStar1</definition>
+        <argsstring>()</argsstring>
+        <name>getStar1</name>
+        <qualifiedname>LineMarkerMenu::getStar1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="335" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="335" bodyend="335"/>
+        <references refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3">whichTrigger</references>
+        <referencedby refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" compoundref="form__menus_8h" startline="261" endline="305">LineMarkerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineMarkerMenu_1a019c8a9473797e229117a55e4e244304" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::getStar2</definition>
+        <argsstring>()</argsstring>
+        <name>getStar2</name>
+        <qualifiedname>LineMarkerMenu::getStar2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="336" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="336" bodyend="336"/>
+        <references refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3">whichTrigger</references>
+        <referencedby refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" compoundref="form__menus_8h" startline="261" endline="305">LineMarkerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classLineMarkerMenu_1a8eb77a660f93113916ec6fdc1f3609fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineMarkerMenu::getHexagon</definition>
+        <argsstring>()</argsstring>
+        <name>getHexagon</name>
+        <qualifiedname>LineMarkerMenu::getHexagon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="337" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="337" bodyend="337"/>
+        <references refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3">whichTrigger</references>
+        <referencedby refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" compoundref="form__menus_8h" startline="261" endline="305">LineMarkerMenu</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LineMarkerMenu</label>
+        <link refid="classLineMarkerMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LineMarkerMenu</label>
+        <link refid="classLineMarkerMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="256" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="257" bodyend="343"/>
+    <listofallmembers>
+      <member refid="classLineMarkerMenu_1ad4fec9d8fe04790c572b8aedca4e92ed" prot="private" virt="non-virtual"><scope>LineMarkerMenu</scope><name>d_act</name></member>
+      <member refid="classLineMarkerMenu_1a117cd91199563efeb94877eb5b2e73a4" prot="private" virt="non-virtual"><scope>LineMarkerMenu</scope><name>d_grp</name></member>
+      <member refid="classLineMarkerMenu_1ae1c42beaf3c2270eaa9c5fb457e8851c" prot="private" virt="non-virtual"><scope>LineMarkerMenu</scope><name>d_which</name></member>
+      <member refid="classLineMarkerMenu_1a23fe305e1ca8552f7fae989ffcb0e785" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getAction</name></member>
+      <member refid="classLineMarkerMenu_1a660ae65600d5dd846d59953b3990624e" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getCircle</name></member>
+      <member refid="classLineMarkerMenu_1aa76a374bd4a772c89fc7087ec748e4c8" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getCross</name></member>
+      <member refid="classLineMarkerMenu_1ab6e4101a0813cfa679d2b32d122329ca" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getDiamond</name></member>
+      <member refid="classLineMarkerMenu_1a462347779faac37020474477899faadf" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getDTriangle</name></member>
+      <member refid="classLineMarkerMenu_1a8eb77a660f93113916ec6fdc1f3609fa" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getHexagon</name></member>
+      <member refid="classLineMarkerMenu_1a793166af41ad21c594d24941daa43e8e" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getHLine</name></member>
+      <member refid="classLineMarkerMenu_1a3bd97612f8509f8bf9a19fd36f2caeba" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getLTriangle</name></member>
+      <member refid="classLineMarkerMenu_1ad9cd7485772c0c08b2ea888713f5921a" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getNone</name></member>
+      <member refid="classLineMarkerMenu_1a6e58003467d131ceb61f25053a4bc7f5" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getNumActions</name></member>
+      <member refid="classLineMarkerMenu_1a6f34f50c3ccef6f3ed34a9629c740023" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getRect</name></member>
+      <member refid="classLineMarkerMenu_1a7a8494b0712db20242e7865c3778ea4f" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getRTriangle</name></member>
+      <member refid="classLineMarkerMenu_1a273d25d0e984ef3f2e8f309258f04ddc" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getStar1</name></member>
+      <member refid="classLineMarkerMenu_1a019c8a9473797e229117a55e4e244304" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getStar2</name></member>
+      <member refid="classLineMarkerMenu_1a625d8dfae20ee9eae51d3c95527392a9" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getTriangle</name></member>
+      <member refid="classLineMarkerMenu_1a3770f516266ab42e6660907f622c43b0" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getVLine</name></member>
+      <member refid="classLineMarkerMenu_1aa97f352be069d5eac590056fb6b0c5c3" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>getXCross</name></member>
+      <member refid="classLineMarkerMenu_1a62e627c5ae60aa3b3376f11f75a55ced" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>LineMarkerMenu</name></member>
+      <member refid="classLineMarkerMenu_1a390c9f397277173000b6bfa56acbd0d3" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>whichTrigger</name></member>
+      <member refid="classLineMarkerMenu_1a049ad4994150cb60b465116d04dda603" prot="public" virt="non-virtual"><scope>LineMarkerMenu</scope><name>~LineMarkerMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

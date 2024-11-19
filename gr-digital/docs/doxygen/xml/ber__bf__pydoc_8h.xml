@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="ber__bf__pydoc_8h" kind="file" language="C++">
+    <compoundname>ber_bf_pydoc.h</compoundname>
+    <includes refid="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>ber_bf_pydoc.h</label>
+        <link refid="ber__bf__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-fec_2python_2fec_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="ber__bf__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, fec, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/ber_bf_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/ber_bf_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="ber__bf__pydoc_8h_1ad90054e1eb89a55841dfdd893f80edb8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_ber_bf</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_ber_bf</name>
+        <initializer>= R&quot;doc(BER block in FECAPI.
+
+This block measures the bit error rate between two streams of packed data. It compares the bits of each streams and counts the number of incorrect bits between them. It outputs the log of the bit error rate, so a value of -X is 10^{-X} bit errors.
+
+
+When the  is set to false (default), it is in streaming mode. This means that the output is constantly producing the current value of the BER. In this mode, there is a single output BER calculation per chunk of bytes passed to it, so there is no exact timing between calculations of BER. In this mode, the other two parameters to the constructor are ignored.
+
+
+When  is true, the block is in test mode. This mode is used in the ber_curve_gen example and for other offline analysis of BER curves. Here, the block waits until at least  are observed and then produces a BER calculation. The parameter  helps make sure that the simulation is controlled. If the BER calculation drops below the  setting, the block will exit and simply return the set limit; the real BER is therefore some amount lower than this.
+
+
+Note that this block takes in data as packed bytes with 8-bits per byte used. It outputs a stream of floats as the log-scale BER.
+
+Constructor Specific Documentation:
+
+Calculate the BER between two streams of data.
+
+Args:
+    test_mode : false for normal streaming mode (default); true for test mode.
+    berminerrors : the block needs to observe this many errors before outputting a result. Only valid when test_mode=true.
+    ber_limit : if the BER calculation falls below this limit, produce this value and exit. Only valid when test_mode=true.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/ber_bf_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/ber_bf_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ber__bf__pydoc_8h_1a97ca125a3171e4eba284fa94434ce70a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_ber_bf_ber_bf_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_ber_bf_ber_bf_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/ber_bf_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/ber_bf_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ber__bf__pydoc_8h_1a5903df4650269cdd4ccee47939e181cf" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_ber_bf_ber_bf_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_ber_bf_ber_bf_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/ber_bf_pydoc.h" line="44" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/ber_bf_pydoc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ber__bf__pydoc_8h_1af6dacfd4667e2efc9d4ec2b159b8b07b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_ber_bf_total_errors</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_ber_bf_total_errors</name>
+        <initializer>= R&quot;doc(Get total number of errors counter value.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/ber_bf_pydoc.h" line="47" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/ber_bf_pydoc.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ber__bf__pydoc_8h_1a583c68e64680d7663c519b5cb798135a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_fec_ber_bf_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_fec_ber_bf_make</name>
+        <initializer>= R&quot;doc(BER block in FECAPI.
+
+This block measures the bit error rate between two streams of packed data. It compares the bits of each streams and counts the number of incorrect bits between them. It outputs the log of the bit error rate, so a value of -X is 10^{-X} bit errors.
+
+
+When the  is set to false (default), it is in streaming mode. This means that the output is constantly producing the current value of the BER. In this mode, there is a single output BER calculation per chunk of bytes passed to it, so there is no exact timing between calculations of BER. In this mode, the other two parameters to the constructor are ignored.
+
+
+When  is true, the block is in test mode. This mode is used in the ber_curve_gen example and for other offline analysis of BER curves. Here, the block waits until at least  are observed and then produces a BER calculation. The parameter  helps make sure that the simulation is controlled. If the BER calculation drops below the  setting, the block will exit and simply return the set limit; the real BER is therefore some amount lower than this.
+
+
+Note that this block takes in data as packed bytes with 8-bits per byte used. It outputs a stream of floats as the log-scale BER.
+
+Constructor Specific Documentation:
+
+Calculate the BER between two streams of data.
+
+Args:
+    test_mode : false for normal streaming mode (default); true for test mode.
+    berminerrors : the block needs to observe this many errors before outputting a result. Only valid when test_mode=true.
+    ber_limit : if the BER calculation falls below this limit, produce this value and exit. Only valid when test_mode=true.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/ber_bf_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/ber_bf_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-fec/python/fec/bindings/ber_bf_pydoc.h"/>
+  </compounddef>
+</doxygen>

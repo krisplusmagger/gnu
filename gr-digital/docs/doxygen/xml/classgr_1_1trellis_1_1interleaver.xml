@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1trellis_1_1interleaver" kind="class" language="C++" prot="public">
+    <compoundname>gr::trellis::interleaver</compoundname>
+    <includes refid="interleaver_8h" local="no">gnuradio/trellis/interleaver.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1trellis_1_1interleaver_1a79d1c3e8d83abdaf1340dc918271e4c8" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::trellis::interleaver::d_K</definition>
+        <argsstring></argsstring>
+        <name>d_K</name>
+        <qualifiedname>gr::trellis::interleaver::d_K</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" line="28" column="18" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1trellis_1_1interleaver_1a64b6718e8016bee8c1375f47badfcd22" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::trellis::interleaver::d_INTER</definition>
+        <argsstring></argsstring>
+        <name>d_INTER</name>
+        <qualifiedname>gr::trellis::interleaver::d_INTER</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" line="29" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1trellis_1_1interleaver_1a9960ec42bf0ac6681000f2e6f3cd322e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::trellis::interleaver::d_DEINTER</definition>
+        <argsstring></argsstring>
+        <name>d_DEINTER</name>
+        <qualifiedname>gr::trellis::interleaver::d_DEINTER</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" line="30" column="17" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1trellis_1_1interleaver_1ae9a2c920ab551f42c1766c9ddcfccbff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::trellis::interleaver::interleaver</definition>
+        <argsstring>()</argsstring>
+        <name>interleaver</name>
+        <qualifiedname>gr::trellis::interleaver::interleaver</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" line="33" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1interleaver_1aa0fc211e63a0b6dd634fe24df34fcd78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::trellis::interleaver::interleaver</definition>
+        <argsstring>(const interleaver &amp;INTERLEAVER)</argsstring>
+        <name>interleaver</name>
+        <qualifiedname>gr::trellis::interleaver::interleaver</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1trellis_1_1interleaver" kindref="compound">interleaver</ref> &amp;</type>
+          <declname>INTERLEAVER</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" line="34" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1interleaver_1ad074ad0c855bf619efe61c7e7a56ac47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::trellis::interleaver::interleaver</definition>
+        <argsstring>(unsigned int K, const std::vector&lt; int &gt; &amp;INTER)</argsstring>
+        <name>interleaver</name>
+        <qualifiedname>gr::trellis::interleaver::interleaver</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>K</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>INTER</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" line="35" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1interleaver_1ac5d01f929d729dceab19280fbb173ed6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::trellis::interleaver::interleaver</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>interleaver</name>
+        <qualifiedname>gr::trellis::interleaver::interleaver</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" line="36" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1interleaver_1ae7306ae62f74f3c35ee8cf6174786037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::trellis::interleaver::interleaver</definition>
+        <argsstring>(unsigned int K, int seed)</argsstring>
+        <name>interleaver</name>
+        <qualifiedname>gr::trellis::interleaver::interleaver</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>K</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" line="37" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1interleaver_1a69c4c637f65af2fae2ac8eba4183b09b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::trellis::interleaver::K</definition>
+        <argsstring>() const</argsstring>
+        <name>K</name>
+        <qualifiedname>gr::trellis::interleaver::K</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" line="38" column="18" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1interleaver_1a82cb9f4574713b8ae749c41d125fd48c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; int &gt; &amp;</type>
+        <definition>const std::vector&lt; int &gt; &amp; gr::trellis::interleaver::INTER</definition>
+        <argsstring>() const</argsstring>
+        <name>INTER</name>
+        <qualifiedname>gr::trellis::interleaver::INTER</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" line="39" column="23" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1interleaver_1ab96bc6c8ef6403bb28dbcdc95199e98f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; int &gt; &amp;</type>
+        <definition>const std::vector&lt; int &gt; &amp; gr::trellis::interleaver::DEINTER</definition>
+        <argsstring>() const</argsstring>
+        <name>DEINTER</name>
+        <qualifiedname>gr::trellis::interleaver::DEINTER</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" line="40" column="23" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1trellis_1_1interleaver_1a29e671f1fc87a70dc3563e1701d6c7d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::trellis::interleaver::write_interleaver_txt</definition>
+        <argsstring>(std::string filename)</argsstring>
+        <name>write_interleaver_txt</name>
+        <qualifiedname>gr::trellis::interleaver::write_interleaver_txt</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" line="41" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>INTERLEAVER class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" line="25" column="1" bodyfile="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/interleaver.h" bodystart="26" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classgr_1_1trellis_1_1interleaver_1a9960ec42bf0ac6681000f2e6f3cd322e" prot="private" virt="non-virtual"><scope>gr::trellis::interleaver</scope><name>d_DEINTER</name></member>
+      <member refid="classgr_1_1trellis_1_1interleaver_1a64b6718e8016bee8c1375f47badfcd22" prot="private" virt="non-virtual"><scope>gr::trellis::interleaver</scope><name>d_INTER</name></member>
+      <member refid="classgr_1_1trellis_1_1interleaver_1a79d1c3e8d83abdaf1340dc918271e4c8" prot="private" virt="non-virtual"><scope>gr::trellis::interleaver</scope><name>d_K</name></member>
+      <member refid="classgr_1_1trellis_1_1interleaver_1ab96bc6c8ef6403bb28dbcdc95199e98f" prot="public" virt="non-virtual"><scope>gr::trellis::interleaver</scope><name>DEINTER</name></member>
+      <member refid="classgr_1_1trellis_1_1interleaver_1a82cb9f4574713b8ae749c41d125fd48c" prot="public" virt="non-virtual"><scope>gr::trellis::interleaver</scope><name>INTER</name></member>
+      <member refid="classgr_1_1trellis_1_1interleaver_1ae9a2c920ab551f42c1766c9ddcfccbff" prot="public" virt="non-virtual"><scope>gr::trellis::interleaver</scope><name>interleaver</name></member>
+      <member refid="classgr_1_1trellis_1_1interleaver_1aa0fc211e63a0b6dd634fe24df34fcd78" prot="public" virt="non-virtual"><scope>gr::trellis::interleaver</scope><name>interleaver</name></member>
+      <member refid="classgr_1_1trellis_1_1interleaver_1ad074ad0c855bf619efe61c7e7a56ac47" prot="public" virt="non-virtual"><scope>gr::trellis::interleaver</scope><name>interleaver</name></member>
+      <member refid="classgr_1_1trellis_1_1interleaver_1ac5d01f929d729dceab19280fbb173ed6" prot="public" virt="non-virtual"><scope>gr::trellis::interleaver</scope><name>interleaver</name></member>
+      <member refid="classgr_1_1trellis_1_1interleaver_1ae7306ae62f74f3c35ee8cf6174786037" prot="public" virt="non-virtual"><scope>gr::trellis::interleaver</scope><name>interleaver</name></member>
+      <member refid="classgr_1_1trellis_1_1interleaver_1a69c4c637f65af2fae2ac8eba4183b09b" prot="public" virt="non-virtual"><scope>gr::trellis::interleaver</scope><name>K</name></member>
+      <member refid="classgr_1_1trellis_1_1interleaver_1a29e671f1fc87a70dc3563e1701d6c7d7" prot="public" virt="non-virtual"><scope>gr::trellis::interleaver</scope><name>write_interleaver_txt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

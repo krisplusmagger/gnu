@@ -1,0 +1,590 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1digital" kind="namespace" language="C++">
+    <compoundname>gr::digital</compoundname>
+    <innerclass refid="classgr_1_1digital_1_1adaptive__algorithm" prot="public">gr::digital::adaptive_algorithm</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1adaptive__algorithm__cma" prot="public">gr::digital::adaptive_algorithm_cma</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1adaptive__algorithm__lms" prot="public">gr::digital::adaptive_algorithm_lms</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1adaptive__algorithm__nlms" prot="public">gr::digital::adaptive_algorithm_nlms</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1additive__scrambler" prot="public">gr::digital::additive_scrambler</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1binary__slicer__fb" prot="public">gr::digital::binary_slicer_fb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1burst__shaper" prot="public">gr::digital::burst_shaper</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1chunks__to__symbols" prot="public">gr::digital::chunks_to_symbols</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1clock__recovery__mm__cc" prot="public">gr::digital::clock_recovery_mm_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1clock__recovery__mm__ff" prot="public">gr::digital::clock_recovery_mm_ff</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation" prot="public">gr::digital::constellation</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation__16qam" prot="public">gr::digital::constellation_16qam</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation__8psk" prot="public">gr::digital::constellation_8psk</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation__8psk__natural" prot="public">gr::digital::constellation_8psk_natural</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation__bpsk" prot="public">gr::digital::constellation_bpsk</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation__calcdist" prot="public">gr::digital::constellation_calcdist</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation__decoder__cb" prot="public">gr::digital::constellation_decoder_cb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation__dqpsk" prot="public">gr::digital::constellation_dqpsk</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation__encoder__bc" prot="public">gr::digital::constellation_encoder_bc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation__expl__rect" prot="public">gr::digital::constellation_expl_rect</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation__psk" prot="public">gr::digital::constellation_psk</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation__qpsk" prot="public">gr::digital::constellation_qpsk</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation__receiver__cb" prot="public">gr::digital::constellation_receiver_cb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation__rect" prot="public">gr::digital::constellation_rect</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation__sector" prot="public">gr::digital::constellation_sector</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1constellation__soft__decoder__cf" prot="public">gr::digital::constellation_soft_decoder_cf</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1corr__est__cc" prot="public">gr::digital::corr_est_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1correlate__access__code__bb" prot="public">gr::digital::correlate_access_code_bb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1correlate__access__code__bb__ts" prot="public">gr::digital::correlate_access_code_bb_ts</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1correlate__access__code__ff__ts" prot="public">gr::digital::correlate_access_code_ff_ts</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1correlate__access__code__tag__bb" prot="public">gr::digital::correlate_access_code_tag_bb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1correlate__access__code__tag__ff" prot="public">gr::digital::correlate_access_code_tag_ff</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1costas__loop__cc" prot="public">gr::digital::costas_loop_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1cpmmod__bc" prot="public">gr::digital::cpmmod_bc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1crc" prot="public">gr::digital::crc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1crc16__async__bb" prot="public">gr::digital::crc16_async_bb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1crc32__async__bb" prot="public">gr::digital::crc32_async_bb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1crc32__bb" prot="public">gr::digital::crc32_bb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1crc__append" prot="public">gr::digital::crc_append</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1crc__check" prot="public">gr::digital::crc_check</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1decision__feedback__equalizer" prot="public">gr::digital::decision_feedback_equalizer</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1descrambler__bb" prot="public">gr::digital::descrambler_bb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1diff__decoder__bb" prot="public">gr::digital::diff_decoder_bb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1diff__encoder__bb" prot="public">gr::digital::diff_encoder_bb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1diff__phasor__cc" prot="public">gr::digital::diff_phasor_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1fll__band__edge__cc" prot="public">gr::digital::fll_band_edge_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1framer__sink__1" prot="public">gr::digital::framer_sink_1</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1glfsr" prot="public">gr::digital::glfsr</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1glfsr__source__b" prot="public">gr::digital::glfsr_source_b</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1glfsr__source__f" prot="public">gr::digital::glfsr_source_f</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1hdlc__deframer__bp" prot="public">gr::digital::hdlc_deframer_bp</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1hdlc__framer__pb" prot="public">gr::digital::hdlc_framer_pb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1header__buffer" prot="public">gr::digital::header_buffer</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1header__format__base" prot="public">gr::digital::header_format_base</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1header__format__counter" prot="public">gr::digital::header_format_counter</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1header__format__crc" prot="public">gr::digital::header_format_crc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1header__format__default" prot="public">gr::digital::header_format_default</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1header__format__ofdm" prot="public">gr::digital::header_format_ofdm</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1header__payload__demux" prot="public">gr::digital::header_payload_demux</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1lfsr" prot="public">gr::digital::lfsr</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1linear__equalizer" prot="public">gr::digital::linear_equalizer</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1map__bb" prot="public">gr::digital::map_bb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1meas__evm__cc" prot="public">gr::digital::meas_evm_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1mpsk__snr__est" prot="public">gr::digital::mpsk_snr_est</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1mpsk__snr__est__cc" prot="public">gr::digital::mpsk_snr_est_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1mpsk__snr__est__m2m4" prot="public">gr::digital::mpsk_snr_est_m2m4</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1mpsk__snr__est__simple" prot="public">gr::digital::mpsk_snr_est_simple</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1mpsk__snr__est__skew" prot="public">gr::digital::mpsk_snr_est_skew</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1mpsk__snr__est__svr" prot="public">gr::digital::mpsk_snr_est_svr</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1msk__timing__recovery__cc" prot="public">gr::digital::msk_timing_recovery_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1ofdm__carrier__allocator__cvc" prot="public">gr::digital::ofdm_carrier_allocator_cvc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1ofdm__chanest__vcvc" prot="public">gr::digital::ofdm_chanest_vcvc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1ofdm__cyclic__prefixer" prot="public">gr::digital::ofdm_cyclic_prefixer</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1ofdm__equalizer__1d__pilots" prot="public">gr::digital::ofdm_equalizer_1d_pilots</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1ofdm__equalizer__base" prot="public">gr::digital::ofdm_equalizer_base</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1ofdm__equalizer__simpledfe" prot="public">gr::digital::ofdm_equalizer_simpledfe</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1ofdm__equalizer__static" prot="public">gr::digital::ofdm_equalizer_static</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1ofdm__frame__equalizer__vcvc" prot="public">gr::digital::ofdm_frame_equalizer_vcvc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1ofdm__serializer__vcc" prot="public">gr::digital::ofdm_serializer_vcc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1ofdm__sync__sc__cfb" prot="public">gr::digital::ofdm_sync_sc_cfb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1packet__header__default" prot="public">gr::digital::packet_header_default</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1packet__header__ofdm" prot="public">gr::digital::packet_header_ofdm</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1packet__headergenerator__bb" prot="public">gr::digital::packet_headergenerator_bb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1packet__headerparser__b" prot="public">gr::digital::packet_headerparser_b</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1packet__sink" prot="public">gr::digital::packet_sink</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1pfb__clock__sync__ccf" prot="public">gr::digital::pfb_clock_sync_ccf</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1pfb__clock__sync__fff" prot="public">gr::digital::pfb_clock_sync_fff</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1pn__correlator__cc" prot="public">gr::digital::pn_correlator_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1probe__density__b" prot="public">gr::digital::probe_density_b</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1probe__mpsk__snr__est__c" prot="public">gr::digital::probe_mpsk_snr_est_c</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1protocol__formatter__async" prot="public">gr::digital::protocol_formatter_async</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1protocol__formatter__bb" prot="public">gr::digital::protocol_formatter_bb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1protocol__parser__b" prot="public">gr::digital::protocol_parser_b</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1scrambler__bb" prot="public">gr::digital::scrambler_bb</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1snr__est__m2m4" prot="public">gr::digital::snr_est_m2m4</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1symbol__sync__cc" prot="public">gr::digital::symbol_sync_cc</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1symbol__sync__ff" prot="public">gr::digital::symbol_sync_ff</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacegr_1_1digital_1a23df898101b499a40b47a1c7a8ce7204" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>adaptive_algorithm_t</name>
+        <qualifiedname>gr::digital::adaptive_algorithm_t</qualifiedname>
+        <enumvalue id="namespacegr_1_1digital_1a23df898101b499a40b47a1c7a8ce7204a66a8f2813dac128f9d3d9abeaaae607b" prot="public">
+          <name>LMS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a23df898101b499a40b47a1c7a8ce7204a90941e55bef7af3341225cacb6c8b5a3" prot="public">
+          <name>NLMS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a23df898101b499a40b47a1c7a8ce7204a5be953486a32da5b2aff5a7b8f8833d1" prot="public">
+          <name>CMA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm.h" line="23" column="1" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <member refid="group__synchronizers__blk_1gac1749266339e589356ef04459650a277" kind="enum"><name>tm_type</name></member>
+      <memberdef kind="enum" id="namespacegr_1_1digital_1a974022982f651ca85ace47d11919ed8d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>diff_coding_type</name>
+        <qualifiedname>gr::digital::diff_coding_type</qualifiedname>
+        <enumvalue id="namespacegr_1_1digital_1a974022982f651ca85ace47d11919ed8da52d3f893bcdf1cb8f29c45c8fe3d5780" prot="public">
+          <name>DIFF_DIFFERENTIAL</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a974022982f651ca85ace47d11919ed8da6ea0210c0130ef663530bcc8c74bf659" prot="public">
+          <name>DIFF_NRZI</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/diff_coding_type.h" line="18" column="1" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/diff_coding_type.h" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacegr_1_1digital_1a80f2c72575ea136677ce580a7eadfe2d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ir_type</name>
+        <qualifiedname>gr::digital::ir_type</qualifiedname>
+        <enumvalue id="namespacegr_1_1digital_1a80f2c72575ea136677ce580a7eadfe2da705f515de359ac74785f089fcb12a2e5" prot="public">
+          <name>IR_NONE</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a80f2c72575ea136677ce580a7eadfe2da1dd807e4131eda4aba3c1393ad34ba84" prot="public">
+          <name>IR_MMSE_8TAP</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a80f2c72575ea136677ce580a7eadfe2da511b86b1aa3d2a83633fc70225335305" prot="public">
+          <name>IR_PFB_NO_MF</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a80f2c72575ea136677ce580a7eadfe2da8defe77c588dfaf7f95cb386c07bdbce" prot="public">
+          <name>IR_PFB_MF</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/interpolating_resampler_type.h" line="18" column="1" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/interpolating_resampler_type.h" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacegr_1_1digital_1a6e82684af87d5f463834259f607cbd5e" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>evm_measurement_t</name>
+        <qualifiedname>gr::digital::evm_measurement_t</qualifiedname>
+        <enumvalue id="namespacegr_1_1digital_1a6e82684af87d5f463834259f607cbd5ea7b3b6cfc0591b590dd5a84c2a6284e65" prot="public">
+          <name>EVM_PERCENT</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a6e82684af87d5f463834259f607cbd5ea702fc4e9164a683b3e55366f03427781" prot="public">
+          <name>EVM_DB</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Measures EVM of incoming symbols relative to a constellation object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/meas_evm_cc.h" line="26" column="1" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/meas_evm_cc.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacegr_1_1digital_1a53f5dbe3f2097d58ae646db19f4be8cc" prot="public" static="no" strong="no">
+        <type></type>
+        <name>trellis_metric_type_t</name>
+        <qualifiedname>gr::digital::trellis_metric_type_t</qualifiedname>
+        <enumvalue id="namespacegr_1_1digital_1a53f5dbe3f2097d58ae646db19f4be8ccafdc866e2d8fea92cd9de422842c1ab5e" prot="public">
+          <name>TRELLIS_EUCLIDEAN</name>
+          <initializer>= 200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a53f5dbe3f2097d58ae646db19f4be8ccae00e5292f9195cdcc98f3704167bc1fb" prot="public">
+          <name>TRELLIS_HARD_SYMBOL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a53f5dbe3f2097d58ae646db19f4be8ccafc9a76384e1c86cb877e7af9810a7db3" prot="public">
+          <name>TRELLIS_HARD_BIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/metric_type.h" line="17" column="1" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/metric_type.h" bodystart="17" bodyend="21"/>
+      </memberdef>
+      <member refid="group__measurement__tools__blk_1ga56518da55fdaa3723f89e20f2db2ca12" kind="enum"><name>snr_est_type_t</name></member>
+      <memberdef kind="enum" id="namespacegr_1_1digital_1a2eeef32117cb5dba016ae65e489ba782" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ted_type</name>
+        <qualifiedname>gr::digital::ted_type</qualifiedname>
+        <enumvalue id="namespacegr_1_1digital_1a2eeef32117cb5dba016ae65e489ba782a9456327d711f2f2e5805e02ae1ece2a5" prot="public">
+          <name>TED_NONE</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a2eeef32117cb5dba016ae65e489ba782a6706d5928f252f895feeb58897dc20b0" prot="public">
+          <name>TED_MUELLER_AND_MULLER</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a2eeef32117cb5dba016ae65e489ba782a863b835a1c3a1259bb118d765be85ca7" prot="public">
+          <name>TED_MOD_MUELLER_AND_MULLER</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a2eeef32117cb5dba016ae65e489ba782a7206334235360e73056f0dadd2f055b6" prot="public">
+          <name>TED_ZERO_CROSSING</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a2eeef32117cb5dba016ae65e489ba782ab43556e589408c4469327752148d39ce" prot="public">
+          <name>TED_GARDNER</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a2eeef32117cb5dba016ae65e489ba782aa30caf3b5d1c06604e18b6dda4409f9e" prot="public">
+          <name>TED_EARLY_LATE</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a2eeef32117cb5dba016ae65e489ba782a2fbfbf0ca97ade21f79840d28e4a2569" prot="public">
+          <name>TED_DANDREA_AND_MENGALI_GEN_MSK</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a2eeef32117cb5dba016ae65e489ba782acbbd692491859602b5f018e616499499" prot="public">
+          <name>TED_SIGNAL_TIMES_SLOPE_ML</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a2eeef32117cb5dba016ae65e489ba782aae5d38d8bbb3145cf30952d5b074cadc" prot="public">
+          <name>TED_SIGNUM_TIMES_SLOPE_ML</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1digital_1a2eeef32117cb5dba016ae65e489ba782ab6445ec386679946e6e78a097b76f7eb" prot="public">
+          <name>TED_MENGALI_AND_DANDREA_GMSK</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/timing_error_detector_type.h" line="18" column="1" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/timing_error_detector_type.h" bodystart="18" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacegr_1_1digital_1ad79c7c05bb82107f67006a75b4646f5d" prot="public" static="no">
+        <type><ref refid="classgr_1_1digital_1_1additive__scrambler" kindref="compound">additive_scrambler</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef additive_scrambler&lt;gr_complex&gt; gr::digital::additive_scrambler_cc</definition>
+        <argsstring></argsstring>
+        <name>additive_scrambler_cc</name>
+        <qualifiedname>gr::digital::additive_scrambler_cc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/additive_scrambler.h" line="80" column="28" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/additive_scrambler.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1digital_1a6742e5ab02702438839876115fd0322c" prot="public" static="no">
+        <type><ref refid="classgr_1_1digital_1_1additive__scrambler" kindref="compound">additive_scrambler</ref>&lt; float &gt;</type>
+        <definition>typedef additive_scrambler&lt;float&gt; gr::digital::additive_scrambler_ff</definition>
+        <argsstring></argsstring>
+        <name>additive_scrambler_ff</name>
+        <qualifiedname>gr::digital::additive_scrambler_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/additive_scrambler.h" line="81" column="28" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/additive_scrambler.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1digital_1a0093e3b59208619412325ea340f81fb0" prot="public" static="no">
+        <type><ref refid="classgr_1_1digital_1_1additive__scrambler" kindref="compound">additive_scrambler</ref>&lt; int32_t &gt;</type>
+        <definition>typedef additive_scrambler&lt;int32_t&gt; gr::digital::additive_scrambler_ii</definition>
+        <argsstring></argsstring>
+        <name>additive_scrambler_ii</name>
+        <qualifiedname>gr::digital::additive_scrambler_ii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/additive_scrambler.h" line="82" column="28" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/additive_scrambler.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1digital_1a0414658a67fdd04658285bc2c6f833c2" prot="public" static="no">
+        <type><ref refid="classgr_1_1digital_1_1additive__scrambler" kindref="compound">additive_scrambler</ref>&lt; int16_t &gt;</type>
+        <definition>typedef additive_scrambler&lt;int16_t&gt; gr::digital::additive_scrambler_ss</definition>
+        <argsstring></argsstring>
+        <name>additive_scrambler_ss</name>
+        <qualifiedname>gr::digital::additive_scrambler_ss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/additive_scrambler.h" line="83" column="28" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/additive_scrambler.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1digital_1a4077a2162eacd6d23734007f2cab17f2" prot="public" static="no">
+        <type><ref refid="classgr_1_1digital_1_1additive__scrambler" kindref="compound">additive_scrambler</ref>&lt; uint8_t &gt;</type>
+        <definition>typedef additive_scrambler&lt;uint8_t&gt; gr::digital::additive_scrambler_bb</definition>
+        <argsstring></argsstring>
+        <name>additive_scrambler_bb</name>
+        <qualifiedname>gr::digital::additive_scrambler_bb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/additive_scrambler.h" line="84" column="28" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/additive_scrambler.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1digital_1a0f23dc613843145495360bcb21d07736" prot="public" static="no">
+        <type><ref refid="classgr_1_1digital_1_1burst__shaper" kindref="compound">burst_shaper</ref>&lt; float &gt;</type>
+        <definition>typedef burst_shaper&lt;float&gt; gr::digital::burst_shaper_ff</definition>
+        <argsstring></argsstring>
+        <name>burst_shaper_ff</name>
+        <qualifiedname>gr::digital::burst_shaper_ff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/burst_shaper.h" line="107" column="22" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/burst_shaper.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1digital_1ad9f1306e40253ceb45b43014b1c5beab" prot="public" static="no">
+        <type><ref refid="classgr_1_1digital_1_1burst__shaper" kindref="compound">burst_shaper</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef burst_shaper&lt;gr_complex&gt; gr::digital::burst_shaper_cc</definition>
+        <argsstring></argsstring>
+        <name>burst_shaper_cc</name>
+        <qualifiedname>gr::digital::burst_shaper_cc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/burst_shaper.h" line="108" column="22" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/burst_shaper.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1digital_1a82b554b71d754e02e4a5a08eb8db6eb8" prot="public" static="no">
+        <type><ref refid="classgr_1_1digital_1_1chunks__to__symbols" kindref="compound">chunks_to_symbols</ref>&lt; std::uint8_t, float &gt;</type>
+        <definition>typedef chunks_to_symbols&lt;std::uint8_t, float&gt; gr::digital::chunks_to_symbols_bf</definition>
+        <argsstring></argsstring>
+        <name>chunks_to_symbols_bf</name>
+        <qualifiedname>gr::digital::chunks_to_symbols_bf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/chunks_to_symbols.h" line="61" column="27" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/chunks_to_symbols.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1digital_1af633a9a1fc337922ca5df9e9afcf1503" prot="public" static="no">
+        <type><ref refid="classgr_1_1digital_1_1chunks__to__symbols" kindref="compound">chunks_to_symbols</ref>&lt; std::uint8_t, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef chunks_to_symbols&lt;std::uint8_t, gr_complex&gt; gr::digital::chunks_to_symbols_bc</definition>
+        <argsstring></argsstring>
+        <name>chunks_to_symbols_bc</name>
+        <qualifiedname>gr::digital::chunks_to_symbols_bc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/chunks_to_symbols.h" line="62" column="27" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/chunks_to_symbols.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1digital_1a9174984701bc69c73b351c56ce9c8d18" prot="public" static="no">
+        <type><ref refid="classgr_1_1digital_1_1chunks__to__symbols" kindref="compound">chunks_to_symbols</ref>&lt; std::int16_t, float &gt;</type>
+        <definition>typedef chunks_to_symbols&lt;std::int16_t, float&gt; gr::digital::chunks_to_symbols_sf</definition>
+        <argsstring></argsstring>
+        <name>chunks_to_symbols_sf</name>
+        <qualifiedname>gr::digital::chunks_to_symbols_sf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/chunks_to_symbols.h" line="63" column="27" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/chunks_to_symbols.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1digital_1a1976fcf70373b96eca235bb82aed64e9" prot="public" static="no">
+        <type><ref refid="classgr_1_1digital_1_1chunks__to__symbols" kindref="compound">chunks_to_symbols</ref>&lt; std::int16_t, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef chunks_to_symbols&lt;std::int16_t, gr_complex&gt; gr::digital::chunks_to_symbols_sc</definition>
+        <argsstring></argsstring>
+        <name>chunks_to_symbols_sc</name>
+        <qualifiedname>gr::digital::chunks_to_symbols_sc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/chunks_to_symbols.h" line="64" column="27" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/chunks_to_symbols.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1digital_1a845d67444ee73e1c965075f5cb39b49d" prot="public" static="no">
+        <type><ref refid="classgr_1_1digital_1_1chunks__to__symbols" kindref="compound">chunks_to_symbols</ref>&lt; std::int32_t, float &gt;</type>
+        <definition>typedef chunks_to_symbols&lt;std::int32_t, float&gt; gr::digital::chunks_to_symbols_if</definition>
+        <argsstring></argsstring>
+        <name>chunks_to_symbols_if</name>
+        <qualifiedname>gr::digital::chunks_to_symbols_if</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/chunks_to_symbols.h" line="65" column="27" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/chunks_to_symbols.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1digital_1aa37c7bf9e262006bc2d09f0af71817ef" prot="public" static="no">
+        <type><ref refid="classgr_1_1digital_1_1chunks__to__symbols" kindref="compound">chunks_to_symbols</ref>&lt; std::int32_t, <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>typedef chunks_to_symbols&lt;std::int32_t, gr_complex&gt; gr::digital::chunks_to_symbols_ic</definition>
+        <argsstring></argsstring>
+        <name>chunks_to_symbols_ic</name>
+        <qualifiedname>gr::digital::chunks_to_symbols_ic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/chunks_to_symbols.h" line="66" column="27" bodyfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/chunks_to_symbols.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacegr_1_1digital_1a6666f55de92fe55401fa910338d11824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-digital_2include_2gnuradio_2digital_2api_8h_1ae14969f36ec69051c4b2f13a0db7e9ba" kindref="member">DIGITAL_API</ref> std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>DIGITAL_API std::vector&lt; gr_complex &gt; gr::digital::modulate_vector_bc</definition>
+        <argsstring>(basic_block_sptr modulator, std::vector&lt; uint8_t &gt; data, std::vector&lt; float &gt; taps)</argsstring>
+        <name>modulate_vector_bc</name>
+        <qualifiedname>gr::digital::modulate_vector_bc</qualifiedname>
+        <param>
+          <type>basic_block_sptr</type>
+          <declname>modulator</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+<para>Modulate a vector of data and apply a shaping filter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>modulator:</computeroutput> Pointer to a byte-to-complex modulator block. <computeroutput>data:</computeroutput> Vector of bytes to modulate into symbols. <computeroutput>taps:</computeroutput> Post-modulation symbol shaping filter taps.</para>
+<para>This function modulates the input vector and applies a symbol shaping filter. It is intended for use with the <ref refid="classgr_1_1digital_1_1corr__est__cc" kindref="compound">corr_est_cc</ref> block as the symbol stream to correlate against.</para>
+<para>Any differential encoding or other data coding must be performed on the input vector before this modulation operation.</para>
+<para>Be aware that the format of the incoming data must match the format the modulator block is expecting. GNURadio modulator blocks are inconsistent in their data type expectations. For instance, <ref refid="classgr_1_1digital_1_1cpmmod__bc" kindref="compound">cpmmod_bc</ref> expects unpacked, signed bytes in (-1, 1), while gmsk_mod expects packed, unsigned bytes in (0, 1). In other words, the output of gmsk_mod given the input vector [0xaa, 0x00] is equivalent to the output of <ref refid="classgr_1_1digital_1_1cpmmod__bc" kindref="compound">cpmmod_bc</ref> given the input vector [1,255,1,255,1,255,1,255,255,255,255,255,255,255,255,255]</para>
+<para>Please check the documentation or source of the modulator before using this function. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/modulate_vector.h" line="50" column="25" declfile="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/modulate_vector.h" declline="50" declcolumn="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-digital/include/gnuradio/digital/adaptive_algorithm.h" line="22" column="1"/>
+  </compounddef>
+</doxygen>

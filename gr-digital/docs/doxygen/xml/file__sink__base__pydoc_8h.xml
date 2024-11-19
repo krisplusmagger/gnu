@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="file__sink__base__pydoc_8h" kind="file" language="C++">
+    <compoundname>file_sink_base_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>file_sink_base_pydoc.h</label>
+        <link refid="file__sink__base__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="file__sink__base__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_sink_base_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_sink_base_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="file__sink__base__pydoc_8h_1a89efc4cc990972e0ab92b34c277b9821" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_sink_base</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_sink_base</name>
+        <initializer>= R&quot;doc(Common base class for file sinks.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_sink_base_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_sink_base_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__sink__base__pydoc_8h_1aefb0c9c163ac11931bb72ea8575ff045" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_sink_base_file_sink_base</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_sink_base_file_sink_base</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_sink_base_pydoc.h" line="21" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_sink_base_pydoc.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__sink__base__pydoc_8h_1afd81b345d1c626b35e4ba0c7ea4c53dc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_sink_base_open</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_sink_base_open</name>
+        <initializer>= R&quot;doc(Open filename and begin output to it.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_sink_base_pydoc.h" line="24" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_sink_base_pydoc.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__sink__base__pydoc_8h_1a0eacc51c6fac64d6a20b4a43709e9794" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_sink_base_close</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_sink_base_close</name>
+        <initializer>= R&quot;doc(Close current output file.
+
+Closes current output file and ignores any output until open is called to connect to another file.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_sink_base_pydoc.h" line="27" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_sink_base_pydoc.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__sink__base__pydoc_8h_1aded18d78b8f9dc7217f069605fdaebf5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_sink_base_do_update</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_sink_base_do_update</name>
+        <initializer>= R&quot;doc(if we&apos;ve had an update, do it now.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_sink_base_pydoc.h" line="32" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_sink_base_pydoc.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="file__sink__base__pydoc_8h_1af9ac5eb5d41256d39b2f830a0cac92b3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_file_sink_base_set_unbuffered</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_file_sink_base_set_unbuffered</name>
+        <initializer>= R&quot;doc(turn on unbuffered writes for slower outputs)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_sink_base_pydoc.h" line="35" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_sink_base_pydoc.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/file_sink_base_pydoc.h"/>
+  </compounddef>
+</doxygen>

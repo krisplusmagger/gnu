@@ -1,0 +1,1215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEyeDisplayPlot" kind="class" language="C++" prot="public">
+    <compoundname>EyeDisplayPlot</compoundname>
+    <basecompoundref refid="classDisplayPlot" prot="public" virt="non-virtual">DisplayPlot</basecompoundref>
+    <includes refid="EyeDisplayPlot_8h" local="no">gnuradio/qtgui/EyeDisplayPlot.h</includes>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classEyeDisplayPlot_1ae229b5d598c50ed735136dfe72bf6a68" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QColor</type>
+        <definition>QColor EyeDisplayPlot::tag_text_color</definition>
+        <argsstring></argsstring>
+        <name>tag_text_color</name>
+        <qualifiedname>EyeDisplayPlot::tag_text_color</qualifiedname>
+        <read>getTagTextColor</read>
+        <write>setTagTextColor</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="27" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classEyeDisplayPlot_1af573d0f7e25ff5900c65191a0f7ebc3d" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QColor</type>
+        <definition>QColor EyeDisplayPlot::tag_background_color</definition>
+        <argsstring></argsstring>
+        <name>tag_background_color</name>
+        <qualifiedname>EyeDisplayPlot::tag_background_color</qualifiedname>
+        <read>getTagBackgroundColor</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="28" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classEyeDisplayPlot_1ac948c8b99a1ed808e5c869f134cd4087" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Qt::BrushStyle</type>
+        <definition>Qt::BrushStyle EyeDisplayPlot::tag_background_style</definition>
+        <argsstring></argsstring>
+        <name>tag_background_style</name>
+        <qualifiedname>EyeDisplayPlot::tag_background_style</qualifiedname>
+        <read>getTagBackgroundStyle</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="30" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classEyeDisplayPlot_1a3126c1b8b0307ae0692bc97fbcbf7c93" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; double &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;double&gt; &gt; EyeDisplayPlot::d_ydata</definition>
+        <argsstring></argsstring>
+        <name>d_ydata</name>
+        <qualifiedname>EyeDisplayPlot::d_ydata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="91" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayPlot_1afd5e55e64b708ab0f57815f5061b6b7e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; EyeDisplayPlot::d_xdata</definition>
+        <argsstring></argsstring>
+        <name>d_xdata</name>
+        <qualifiedname>EyeDisplayPlot::d_xdata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="93" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayPlot_1a35b38cde03fafbcdbdc5ccf15d72848a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double EyeDisplayPlot::d_sample_rate</definition>
+        <argsstring></argsstring>
+        <name>d_sample_rate</name>
+        <qualifiedname>EyeDisplayPlot::d_sample_rate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="95" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayPlot_1a24dce4b2eccfa894132ed775a97c95dc" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int EyeDisplayPlot::d_curve_index</definition>
+        <argsstring></argsstring>
+        <name>d_curve_index</name>
+        <qualifiedname>EyeDisplayPlot::d_curve_index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="97" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayPlot_1a10514e85890535a2ee91b2008eacc603" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EyeDisplayPlot::d_sps</definition>
+        <argsstring></argsstring>
+        <name>d_sps</name>
+        <qualifiedname>EyeDisplayPlot::d_sps</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="98" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayPlot_1a5f90251e2496de7a6e23a21ce6b33519" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int EyeDisplayPlot::d_numPointsPerPeriod</definition>
+        <argsstring></argsstring>
+        <name>d_numPointsPerPeriod</name>
+        <qualifiedname>EyeDisplayPlot::d_numPointsPerPeriod</qualifiedname>
+        <initializer>= 2 * d_sps + 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="99" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayPlot_1ab8f30b980c64d323522988cce75cdb33" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int EyeDisplayPlot::d_numPeriods</definition>
+        <argsstring></argsstring>
+        <name>d_numPeriods</name>
+        <qualifiedname>EyeDisplayPlot::d_numPeriods</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="100" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayPlot_1ad2de690bf38f615db7daf522d97459f7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EyeDisplayPlot::d_autoscale_shot</definition>
+        <argsstring></argsstring>
+        <name>d_autoscale_shot</name>
+        <qualifiedname>EyeDisplayPlot::d_autoscale_shot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="102" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayPlot_1ae899f7579e884000594093cf41356c27" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; QwtPlotMarker * &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;QwtPlotMarker*&gt; &gt; EyeDisplayPlot::d_tag_markers</definition>
+        <argsstring></argsstring>
+        <name>d_tag_markers</name>
+        <qualifiedname>EyeDisplayPlot::d_tag_markers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="104" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayPlot_1a0c5f89b450933bb112e10793aba96842" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; EyeDisplayPlot::d_tag_markers_en</definition>
+        <argsstring></argsstring>
+        <name>d_tag_markers_en</name>
+        <qualifiedname>EyeDisplayPlot::d_tag_markers_en</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="105" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayPlot_1a058425221f3733bc3bd40e749d589461" prot="private" static="no" mutable="no">
+        <type>QList&lt; QColor &gt;</type>
+        <definition>QList&lt;QColor&gt; EyeDisplayPlot::colors</definition>
+        <argsstring></argsstring>
+        <name>colors</name>
+        <qualifiedname>EyeDisplayPlot::colors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="107" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayPlot_1a873e8e075158d0a6c6c98328df6e505c" prot="private" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor EyeDisplayPlot::d_tag_text_color</definition>
+        <argsstring></argsstring>
+        <name>d_tag_text_color</name>
+        <qualifiedname>EyeDisplayPlot::d_tag_text_color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="108" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayPlot_1a41c68ef64056c54f7d72e3d02c9751cc" prot="private" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor EyeDisplayPlot::d_tag_background_color</definition>
+        <argsstring></argsstring>
+        <name>d_tag_background_color</name>
+        <qualifiedname>EyeDisplayPlot::d_tag_background_color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="109" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayPlot_1ae45f4b4261b3e900a4a9e644f2026159" prot="private" static="no" mutable="no">
+        <type>Qt::BrushStyle</type>
+        <definition>Qt::BrushStyle EyeDisplayPlot::d_tag_background_style</definition>
+        <argsstring></argsstring>
+        <name>d_tag_background_style</name>
+        <qualifiedname>EyeDisplayPlot::d_tag_background_style</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="110" column="20" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEyeDisplayPlot_1a34265c70b537c751ecf08b3200a70fca" prot="private" static="no" mutable="no">
+        <type>QwtPlotMarker *</type>
+        <definition>QwtPlotMarker* EyeDisplayPlot::d_trigger_lines[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>d_trigger_lines</name>
+        <qualifiedname>EyeDisplayPlot::d_trigger_lines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="112" column="19" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEyeDisplayPlot_1aec86931d96d52d697d755a9e17e9dfca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EyeDisplayPlot::EyeDisplayPlot</definition>
+        <argsstring>(unsigned int nplots, unsigned int curve_index, QWidget *parent)</argsstring>
+        <name>EyeDisplayPlot</name>
+        <qualifiedname>EyeDisplayPlot::EyeDisplayPlot</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>nplots</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>curve_index</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="34" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1a131e518d164d84eddba1fd665b4b370a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EyeDisplayPlot::~EyeDisplayPlot</definition>
+        <argsstring>() override</argsstring>
+        <name>~EyeDisplayPlot</name>
+        <qualifiedname>EyeDisplayPlot::~EyeDisplayPlot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="35" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1a5139d5c10cf15ccfd6a4db7aac792bf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EyeDisplayPlot::EyeDisplayPlot</definition>
+        <argsstring>(const EyeDisplayPlot &amp;)=delete</argsstring>
+        <name>EyeDisplayPlot</name>
+        <qualifiedname>EyeDisplayPlot::EyeDisplayPlot</qualifiedname>
+        <param>
+          <type>const <ref refid="classEyeDisplayPlot" kindref="compound">EyeDisplayPlot</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="38" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1a097e21891607c7ca59527eb4af8ff127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EyeDisplayPlot::EyeDisplayPlot</definition>
+        <argsstring>(EyeDisplayPlot &amp;&amp;)=delete</argsstring>
+        <name>EyeDisplayPlot</name>
+        <qualifiedname>EyeDisplayPlot::EyeDisplayPlot</qualifiedname>
+        <param>
+          <type><ref refid="classEyeDisplayPlot" kindref="compound">EyeDisplayPlot</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="39" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1adb792795ab106cfbf32a43dd69492655" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classEyeDisplayPlot" kindref="compound">EyeDisplayPlot</ref> &amp;</type>
+        <definition>EyeDisplayPlot &amp; EyeDisplayPlot::operator=</definition>
+        <argsstring>(const EyeDisplayPlot &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>EyeDisplayPlot::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classEyeDisplayPlot" kindref="compound">EyeDisplayPlot</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="40" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1a56101e28b7a5253e57a57893a9dbf01e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classEyeDisplayPlot" kindref="compound">EyeDisplayPlot</ref> &amp;</type>
+        <definition>EyeDisplayPlot &amp; EyeDisplayPlot::operator=</definition>
+        <argsstring>(EyeDisplayPlot &amp;&amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>EyeDisplayPlot::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classEyeDisplayPlot" kindref="compound">EyeDisplayPlot</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="41" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1a88f4eb0f47bdf2fbf7317cb721080c04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::plotNewData</definition>
+        <argsstring>(const std::vector&lt; const double * &gt; dataPoints, const int64_t numDataPoints, int d_sps, const double timeInterval, const std::vector&lt; std::vector&lt; gr::tag_t &gt; &gt; &amp;tags=std::vector&lt; std::vector&lt; gr::tag_t &gt; &gt;())</argsstring>
+        <name>plotNewData</name>
+        <qualifiedname>EyeDisplayPlot::plotNewData</qualifiedname>
+        <param>
+          <type>const std::vector&lt; const double * &gt;</type>
+          <declname>dataPoints</declname>
+        </param>
+        <param>
+          <type>const int64_t</type>
+          <declname>numDataPoints</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>d_sps</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>timeInterval</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; <ref refid="structgr_1_1tag__t" kindref="compound">gr::tag_t</ref> &gt; &gt; &amp;</type>
+          <declname>tags</declname>
+          <defval>std::vector&lt; std::vector&lt; <ref refid="structgr_1_1tag__t" kindref="compound">gr::tag_t</ref> &gt; &gt;()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="43" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1a946847042f8300e7d1a64b49addc0635" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::replot</definition>
+        <argsstring>() override</argsstring>
+        <name>replot</name>
+        <qualifiedname>EyeDisplayPlot::replot</qualifiedname>
+        <reimplements refid="classDisplayPlot_1aa9114ba6d2490ccc767fe3eee61289d4">replot</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="50" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1a5e92f60b9e4ce2b37227f761f65bf0cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::stemPlot</definition>
+        <argsstring>(bool en)</argsstring>
+        <name>stemPlot</name>
+        <qualifiedname>EyeDisplayPlot::stemPlot</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="52" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1a784433abb74fe3110fa83c20a017b0c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double EyeDisplayPlot::sampleRate</definition>
+        <argsstring>() const</argsstring>
+        <name>sampleRate</name>
+        <qualifiedname>EyeDisplayPlot::sampleRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="54" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1a1321f525f40baff9c09eca2fbd8f4ad8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QColor</type>
+        <definition>const QColor EyeDisplayPlot::getTagTextColor</definition>
+        <argsstring>() const</argsstring>
+        <name>getTagTextColor</name>
+        <qualifiedname>EyeDisplayPlot::getTagTextColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="56" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1a5f2c52782b55212fedf32ebfb25cda33" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QColor</type>
+        <definition>const QColor EyeDisplayPlot::getTagBackgroundColor</definition>
+        <argsstring>() const</argsstring>
+        <name>getTagBackgroundColor</name>
+        <qualifiedname>EyeDisplayPlot::getTagBackgroundColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="57" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1a0d1e6f9c8f497db38be8ee5747d4f16d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Qt::BrushStyle</type>
+        <definition>Qt::BrushStyle EyeDisplayPlot::getTagBackgroundStyle</definition>
+        <argsstring>() const</argsstring>
+        <name>getTagBackgroundStyle</name>
+        <qualifiedname>EyeDisplayPlot::getTagBackgroundStyle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="58" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1ad2d2419639f2df970c337370f53d1ca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::setLineColor</definition>
+        <argsstring>(unsigned int which, QColor color) override</argsstring>
+        <name>setLineColor</name>
+        <qualifiedname>EyeDisplayPlot::setLineColor</qualifiedname>
+        <reimplements refid="classDisplayPlot_1ab25cc7e3a838c0e0bc7ffa0d7cd36e53">setLineColor</reimplements>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="59" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1afcc1863e6eb740d34e4e8994b29e9f74" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::setLineWidth</definition>
+        <argsstring>(unsigned int which, int width) override</argsstring>
+        <name>setLineWidth</name>
+        <qualifiedname>EyeDisplayPlot::setLineWidth</qualifiedname>
+        <reimplements refid="classDisplayPlot_1ae87b15769482bcf810ec80e5ce558136">setLineWidth</reimplements>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="60" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1a810dadbe80756d0d98665eda1c903fe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::setLineMarker</definition>
+        <argsstring>(unsigned int which, QwtSymbol::Style marker) override</argsstring>
+        <name>setLineMarker</name>
+        <qualifiedname>EyeDisplayPlot::setLineMarker</qualifiedname>
+        <reimplements refid="classDisplayPlot_1a8a64be042384c3b555e410ccb3abbeba">setLineMarker</reimplements>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>QwtSymbol::Style</type>
+          <declname>marker</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="61" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1a8856578dacea58afffe5be170db88f72" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::setLineStyle</definition>
+        <argsstring>(unsigned int which, Qt::PenStyle style) override</argsstring>
+        <name>setLineStyle</name>
+        <qualifiedname>EyeDisplayPlot::setLineStyle</qualifiedname>
+        <reimplements refid="classDisplayPlot_1a180de031b83c6e1101a0c72c7f90478b">setLineStyle</reimplements>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>Qt::PenStyle</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="62" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1a979737f4005aca8bd9e81764c161ac62" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::setMarkerAlpha</definition>
+        <argsstring>(unsigned int which, int alpha) override</argsstring>
+        <name>setMarkerAlpha</name>
+        <qualifiedname>EyeDisplayPlot::setMarkerAlpha</qualifiedname>
+        <reimplements refid="classDisplayPlot_1a80ba9ba16c395d34a5d1772bcc6df7bc">setMarkerAlpha</reimplements>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="63" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classEyeDisplayPlot_1ab4c05545dfa56b2456e72e293e78df7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::setSampleRate</definition>
+        <argsstring>(double sr, double units, const std::string &amp;strunits)</argsstring>
+        <name>setSampleRate</name>
+        <qualifiedname>EyeDisplayPlot::setSampleRate</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>sr</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>units</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>strunits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="66" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayPlot_1a6af7024215da03da523fac5b0ceaab30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::setAutoScale</definition>
+        <argsstring>(bool state)</argsstring>
+        <name>setAutoScale</name>
+        <qualifiedname>EyeDisplayPlot::setAutoScale</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="68" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayPlot_1ab31bf059a85702f271657068914f7cdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::setAutoScaleShot</definition>
+        <argsstring>()</argsstring>
+        <name>setAutoScaleShot</name>
+        <qualifiedname>EyeDisplayPlot::setAutoScaleShot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="69" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayPlot_1ad96ebe03c7f106587e5c870623369575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::legendEntryChecked</definition>
+        <argsstring>(QwtPlotItem *plotItem, bool on) override</argsstring>
+        <name>legendEntryChecked</name>
+        <qualifiedname>EyeDisplayPlot::legendEntryChecked</qualifiedname>
+        <param>
+          <type>QwtPlotItem *</type>
+          <declname>plotItem</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="71" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayPlot_1a87b40e5160cb0b5caa1b1f55202b3abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::legendEntryChecked</definition>
+        <argsstring>(const QVariant &amp;plotItem, bool on, int index) override</argsstring>
+        <name>legendEntryChecked</name>
+        <qualifiedname>EyeDisplayPlot::legendEntryChecked</qualifiedname>
+        <param>
+          <type>const QVariant &amp;</type>
+          <declname>plotItem</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="72" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayPlot_1a03d9629f37231bea126bfa18130a74d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::enableTagMarker</definition>
+        <argsstring>(unsigned int which, bool en)</argsstring>
+        <name>enableTagMarker</name>
+        <qualifiedname>EyeDisplayPlot::enableTagMarker</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="74" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayPlot_1a1ba1229467849ffddc8057f47b8abfb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::setYLabel</definition>
+        <argsstring>(const std::string &amp;label, const std::string &amp;unit=&quot;&quot;)</argsstring>
+        <name>setYLabel</name>
+        <qualifiedname>EyeDisplayPlot::setYLabel</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>unit</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="76" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayPlot_1a3142e4e7900c332edd5c7ec1e1980f74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::attachTriggerLines</definition>
+        <argsstring>(bool en)</argsstring>
+        <name>attachTriggerLines</name>
+        <qualifiedname>EyeDisplayPlot::attachTriggerLines</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="78" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayPlot_1a69d2e22b2048a7028c41416c9adb508d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::setTriggerLines</definition>
+        <argsstring>(double x, double y)</argsstring>
+        <name>setTriggerLines</name>
+        <qualifiedname>EyeDisplayPlot::setTriggerLines</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="79" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayPlot_1a662ec1fdaeb4b69f7a7d29ba2fab1699" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::setTagTextColor</definition>
+        <argsstring>(QColor c)</argsstring>
+        <name>setTagTextColor</name>
+        <qualifiedname>EyeDisplayPlot::setTagTextColor</qualifiedname>
+        <param>
+          <type>QColor</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="81" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayPlot_1a4e4ca46dbaff13cc75833af4dc9f819a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::setTagBackgroundColor</definition>
+        <argsstring>(QColor c)</argsstring>
+        <name>setTagBackgroundColor</name>
+        <qualifiedname>EyeDisplayPlot::setTagBackgroundColor</qualifiedname>
+        <param>
+          <type>QColor</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="82" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayPlot_1accb3d4222e3ab7bd867f6bcb13ffa3bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::setTagBackgroundStyle</definition>
+        <argsstring>(Qt::BrushStyle b)</argsstring>
+        <name>setTagBackgroundStyle</name>
+        <qualifiedname>EyeDisplayPlot::setTagBackgroundStyle</qualifiedname>
+        <param>
+          <type>Qt::BrushStyle</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="83" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEyeDisplayPlot_1a42a8da2be68313b5cb27f293095bd614" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::setLineLabel</definition>
+        <argsstring>(unsigned int which, QString label) override</argsstring>
+        <name>setLineLabel</name>
+        <qualifiedname>EyeDisplayPlot::setLineLabel</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="85" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classEyeDisplayPlot_1a759fc560adb506b21557dfc0f138f62d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::_resetXAxisPoints</definition>
+        <argsstring>()</argsstring>
+        <name>_resetXAxisPoints</name>
+        <qualifiedname>EyeDisplayPlot::_resetXAxisPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="88" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classEyeDisplayPlot_1a2a856c89c4385fa004b05421b2db0b0a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EyeDisplayPlot::_autoScale</definition>
+        <argsstring>(double bottom, double top)</argsstring>
+        <name>_autoScale</name>
+        <qualifiedname>EyeDisplayPlot::_autoScale</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>bottom</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="89" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>QWidget for displaying eye pattern plots. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>DisplayPlot</label>
+        <link refid="classDisplayPlot"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>EyeDisplayPlot</label>
+        <link refid="classEyeDisplayPlot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QwtPlot</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>DisplayPlot</label>
+        <link refid="classDisplayPlot"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_plot_curve</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>d_picker</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>EyeDisplayPlot</label>
+        <link refid="classEyeDisplayPlot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>QwtDblClickPlotPicker</label>
+        <link refid="classQwtDblClickPlotPicker"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QwtPlot</label>
+      </node>
+      <node id="6">
+        <label>QwtPlotPicker</label>
+      </node>
+      <node id="4">
+        <label>std::vector&lt; QwtPlotCurve * &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" line="23" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/EyeDisplayPlot.h" bodystart="24" bodyend="113"/>
+    <listofallmembers>
+      <member refid="classEyeDisplayPlot_1a2a856c89c4385fa004b05421b2db0b0a" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>_autoScale</name></member>
+      <member refid="classEyeDisplayPlot_1a759fc560adb506b21557dfc0f138f62d" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>_resetXAxisPoints</name></member>
+      <member refid="classEyeDisplayPlot_1a3142e4e7900c332edd5c7ec1e1980f74" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>attachTriggerLines</name></member>
+      <member refid="classDisplayPlot_1a0260e53aed38f1201ac20c11589cc870" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>axes_label_font_size</name></member>
+      <member refid="classEyeDisplayPlot_1a058425221f3733bc3bd40e749d589461" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>colors</name></member>
+      <member refid="classEyeDisplayPlot_1ad2de690bf38f615db7daf522d97459f7" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_autoscale_shot</name></member>
+      <member refid="classDisplayPlot_1a92e5733325c8231d8f0463619777346a" prot="protected" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_autoscale_state</name></member>
+      <member refid="classEyeDisplayPlot_1a24dce4b2eccfa894132ed775a97c95dc" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_curve_index</name></member>
+      <member refid="classDisplayPlot_1a34130f0375fb54a4c9f95ad234a242dc" prot="protected" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_magnifier</name></member>
+      <member refid="classDisplayPlot_1ac779b2b3fa9712f1d06a0fa00c26386c" prot="protected" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_nplots</name></member>
+      <member refid="classEyeDisplayPlot_1ab8f30b980c64d323522988cce75cdb33" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_numPeriods</name></member>
+      <member refid="classDisplayPlot_1ad028a67854d113ef317bce118f68822a" prot="protected" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_numPoints</name></member>
+      <member refid="classEyeDisplayPlot_1a5f90251e2496de7a6e23a21ce6b33519" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_numPointsPerPeriod</name></member>
+      <member refid="classDisplayPlot_1a31c48a2b8eb3b9955246ff1669c8211e" prot="protected" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_panner</name></member>
+      <member refid="classDisplayPlot_1a8620a2589683a86c3b7cbac3d9758373" prot="protected" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_picker</name></member>
+      <member refid="classDisplayPlot_1af829ddbdabf8ecd63615209a11d4d9e3" prot="protected" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_plot_curve</name></member>
+      <member refid="classEyeDisplayPlot_1a35b38cde03fafbcdbdc5ccf15d72848a" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_sample_rate</name></member>
+      <member refid="classEyeDisplayPlot_1a10514e85890535a2ee91b2008eacc603" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_sps</name></member>
+      <member refid="classDisplayPlot_1a5bf1d771d169919c492f2fcc4659668b" prot="protected" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_stop</name></member>
+      <member refid="classEyeDisplayPlot_1a41c68ef64056c54f7d72e3d02c9751cc" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_tag_background_color</name></member>
+      <member refid="classEyeDisplayPlot_1ae45f4b4261b3e900a4a9e644f2026159" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_tag_background_style</name></member>
+      <member refid="classEyeDisplayPlot_1ae899f7579e884000594093cf41356c27" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_tag_markers</name></member>
+      <member refid="classEyeDisplayPlot_1a0c5f89b450933bb112e10793aba96842" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_tag_markers_en</name></member>
+      <member refid="classEyeDisplayPlot_1a873e8e075158d0a6c6c98328df6e505c" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_tag_text_color</name></member>
+      <member refid="classDisplayPlot_1ad21e08d42be40fd6fdca25479f71326d" prot="protected" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_trace_colors</name></member>
+      <member refid="classEyeDisplayPlot_1a34265c70b537c751ecf08b3200a70fca" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_trigger_lines</name></member>
+      <member refid="classEyeDisplayPlot_1afd5e55e64b708ab0f57815f5061b6b7e" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_xdata</name></member>
+      <member refid="classEyeDisplayPlot_1a3126c1b8b0307ae0692bc97fbcbf7c93" prot="private" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_ydata</name></member>
+      <member refid="classDisplayPlot_1ad3402266e20ef74bb751c8c5c9b9350e" prot="protected" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>d_zoomer</name></member>
+      <member refid="classDisplayPlot_1ac2c9e0898a91a8ed6a87c60effaea9d2" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>disableLegend</name></member>
+      <member refid="classDisplayPlot_1a588f56cb85a0f1c23d0c2fb2880df65f" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>DisplayPlot</name></member>
+      <member refid="classEyeDisplayPlot_1a03d9629f37231bea126bfa18130a74d0" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>enableTagMarker</name></member>
+      <member refid="classEyeDisplayPlot_1aec86931d96d52d697d755a9e17e9dfca" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>EyeDisplayPlot</name></member>
+      <member refid="classEyeDisplayPlot_1a5139d5c10cf15ccfd6a4db7aac792bf3" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>EyeDisplayPlot</name></member>
+      <member refid="classEyeDisplayPlot_1a097e21891607c7ca59527eb4af8ff127" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>EyeDisplayPlot</name></member>
+      <member refid="classDisplayPlot_1ab61db7a3f7e681c0c5239e94563885a8" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getAxesLabelFontSize</name></member>
+      <member refid="classDisplayPlot_1a78b7a93fa5ab7f8d47d231738a75b10a" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getAxisLabelFontSize</name></member>
+      <member refid="classDisplayPlot_1ab82b2590de108b33536169a3d7394b5e" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>getLineColor</name></member>
+      <member refid="classDisplayPlot_1a926a2a4a6ab85bf8e29e524a7df2d246" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineColor1</name></member>
+      <member refid="classDisplayPlot_1a9197daf05fc6806c14c166f69c47ef81" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineColor2</name></member>
+      <member refid="classDisplayPlot_1ac7367bcc7deba96cbad1d7e4649c223c" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineColor3</name></member>
+      <member refid="classDisplayPlot_1a50e0e79f768326dc0fc328d0f754249d" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineColor4</name></member>
+      <member refid="classDisplayPlot_1a2840de96154d54a91fa578dafce8f7f6" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineColor5</name></member>
+      <member refid="classDisplayPlot_1a22a416d8601a7bcf68e03cf831d9543a" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineColor6</name></member>
+      <member refid="classDisplayPlot_1a19f6ce0eebb28c9a78f551383b27ded4" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineColor7</name></member>
+      <member refid="classDisplayPlot_1a1f298544eb26e214da9cc96b194274bf" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineColor8</name></member>
+      <member refid="classDisplayPlot_1a59acb875dc2b27bb7ddaf0e45589d903" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineColor9</name></member>
+      <member refid="classDisplayPlot_1a82ad6a8583d4804852b918319a5207de" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>getLineLabel</name></member>
+      <member refid="classDisplayPlot_1aefa211747847c9b48eed0ff1260a718b" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>getLineMarker</name></member>
+      <member refid="classDisplayPlot_1ac6742fd83302d302fa9a2fbc865c79c9" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineMarker1</name></member>
+      <member refid="classDisplayPlot_1adf0917791d44984adb9dd8b84ed2d62d" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineMarker2</name></member>
+      <member refid="classDisplayPlot_1ae02a5e177b3e3ff21e6eaad119071797" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineMarker3</name></member>
+      <member refid="classDisplayPlot_1ab735c4d44b8ab53d613bea06882c8b3f" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineMarker4</name></member>
+      <member refid="classDisplayPlot_1a981a738dffcd8f3cc3cdcc09603cf5d6" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineMarker5</name></member>
+      <member refid="classDisplayPlot_1a65c338293b068d4591683c5d89692500" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineMarker6</name></member>
+      <member refid="classDisplayPlot_1a2fee80e709a377f420a7ef92badb2da6" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineMarker7</name></member>
+      <member refid="classDisplayPlot_1ad783ec88978052804b426d17f45b3b5a" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineMarker8</name></member>
+      <member refid="classDisplayPlot_1a7627bdfd389a426fa1f80012e17f986b" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineMarker9</name></member>
+      <member refid="classDisplayPlot_1a3879d40f4afe4ad62dfd1ea7193c589c" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>getLineStyle</name></member>
+      <member refid="classDisplayPlot_1a066be975bb64b9cc964f48fb49ba3140" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineStyle1</name></member>
+      <member refid="classDisplayPlot_1aec6b274042f20e66048b91577cace3b4" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineStyle2</name></member>
+      <member refid="classDisplayPlot_1a1d2d3ef50fde4e24939ad4ceae345dd6" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineStyle3</name></member>
+      <member refid="classDisplayPlot_1ae33a1e1f0d36a67f004002eef6d001f6" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineStyle4</name></member>
+      <member refid="classDisplayPlot_1ad745ff0bca0661164a7ad73e4e94df14" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineStyle5</name></member>
+      <member refid="classDisplayPlot_1a96dcfe9dd99957687da72f24ffe86a5b" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineStyle6</name></member>
+      <member refid="classDisplayPlot_1ad3d97367546512413f6c66780d710fe6" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineStyle7</name></member>
+      <member refid="classDisplayPlot_1abb9b2be9a5c414e906847c10bec1bbea" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineStyle8</name></member>
+      <member refid="classDisplayPlot_1ab8de226221e448ca1b8113987fdfd555" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineStyle9</name></member>
+      <member refid="classDisplayPlot_1a5e71e8a49c6d225d001ad5f639c86f60" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>getLineWidth</name></member>
+      <member refid="classDisplayPlot_1a9cddb99da0a5642f03e5b1f1b2a79ff8" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineWidth1</name></member>
+      <member refid="classDisplayPlot_1a2390c5235f2111975c528017d509f28d" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineWidth2</name></member>
+      <member refid="classDisplayPlot_1adf5737a54ae43cf1534ceafc057bca8a" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineWidth3</name></member>
+      <member refid="classDisplayPlot_1a5cc48d31fb0dbfbd62b05dd18fbeefac" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineWidth4</name></member>
+      <member refid="classDisplayPlot_1ad7d8bfff105eb5c518e1232a3fca7e9b" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineWidth5</name></member>
+      <member refid="classDisplayPlot_1a39e78c09b905efd24967b4cac17da388" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineWidth6</name></member>
+      <member refid="classDisplayPlot_1a6fb72173c1c78958ad07da4461a03827" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineWidth7</name></member>
+      <member refid="classDisplayPlot_1aaa8dee8ced522e631f8c1ee89ec91db8" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineWidth8</name></member>
+      <member refid="classDisplayPlot_1addf80d68321539e17b30fa7ce9e302f3" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getLineWidth9</name></member>
+      <member refid="classDisplayPlot_1af3b91884cda040c05529dbb79b0b2ac3" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>getMarkerAlpha</name></member>
+      <member refid="classDisplayPlot_1aa811716f413ada4010c99d2856b297a6" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getMarkerAlpha1</name></member>
+      <member refid="classDisplayPlot_1af616910c8e524dae8b950d422f6b5484" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getMarkerAlpha2</name></member>
+      <member refid="classDisplayPlot_1adecf328fc1e5759243d3bdd2735e2242" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getMarkerAlpha3</name></member>
+      <member refid="classDisplayPlot_1a6c4b0df75ee8a1b6e37c5b7de56aaf5d" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getMarkerAlpha4</name></member>
+      <member refid="classDisplayPlot_1a232055539d65eae1c5010590d8af96af" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getMarkerAlpha5</name></member>
+      <member refid="classDisplayPlot_1a9a05c67d7a27fe4ddcb16d9f4fe04441" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getMarkerAlpha6</name></member>
+      <member refid="classDisplayPlot_1a7bd664940724009a8f14dffbf880b45d" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getMarkerAlpha7</name></member>
+      <member refid="classDisplayPlot_1a29814a3d5de3c0d6599e1a1efb63e9ee" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getMarkerAlpha8</name></member>
+      <member refid="classDisplayPlot_1ac4f6b9ce93d85cc1714fcb2b0a1e536b" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getMarkerAlpha9</name></member>
+      <member refid="classDisplayPlot_1aa52078b591e3a225895846e2f8b4ccef" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getPaletteColor</name></member>
+      <member refid="classEyeDisplayPlot_1a5f2c52782b55212fedf32ebfb25cda33" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getTagBackgroundColor</name></member>
+      <member refid="classEyeDisplayPlot_1a0d1e6f9c8f497db38be8ee5747d4f16d" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getTagBackgroundStyle</name></member>
+      <member refid="classEyeDisplayPlot_1a1321f525f40baff9c09eca2fbd8f4ad8" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getTagTextColor</name></member>
+      <member refid="classDisplayPlot_1aca7e3695fe551c61a327abf81f5afc33" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getXaxisLabelFontSize</name></member>
+      <member refid="classDisplayPlot_1ae499a361e276d2ac426b203c32ee15c8" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getYaxisLabelFontSize</name></member>
+      <member refid="classDisplayPlot_1ac8069537f11773d22c7b01740ea44304" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>getZoomerColor</name></member>
+      <member refid="classEyeDisplayPlot_1ad96ebe03c7f106587e5c870623369575" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>legendEntryChecked</name></member>
+      <member refid="classEyeDisplayPlot_1a87b40e5160cb0b5caa1b1f55202b3abe" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>legendEntryChecked</name></member>
+      <member refid="classDisplayPlot_1a87ab74adc02bd448fc26536ff49d438f" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_color1</name></member>
+      <member refid="classDisplayPlot_1a37b92b9a65820ab9f1bdbe136f61f522" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_color2</name></member>
+      <member refid="classDisplayPlot_1a1c55ce39a8e2f5e7a8f5b684d171c1c5" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_color3</name></member>
+      <member refid="classDisplayPlot_1acbb0a0b858073500a4acc052b8a4bc16" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_color4</name></member>
+      <member refid="classDisplayPlot_1a3cab49395685e4bed0ea89561b3980ca" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_color5</name></member>
+      <member refid="classDisplayPlot_1a17ce136ff413c0fc1905633f1c3da9c6" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_color6</name></member>
+      <member refid="classDisplayPlot_1a782da7c221bab22e4c79e66829a3a017" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_color7</name></member>
+      <member refid="classDisplayPlot_1a0ce50d7f15ac5cf964f14cbe2cd77ddf" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_color8</name></member>
+      <member refid="classDisplayPlot_1a242deafdd1355979fbb1a03fd2d0be2c" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_color9</name></member>
+      <member refid="classDisplayPlot_1a2ef1354c6f5838f25bf01b6867feea2c" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_marker1</name></member>
+      <member refid="classDisplayPlot_1a0ba0571bd7dd5806209ef94915d94baa" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_marker2</name></member>
+      <member refid="classDisplayPlot_1a834119ccd2654c3db8cfdb04943e3db1" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_marker3</name></member>
+      <member refid="classDisplayPlot_1ad7077609d555ea650f8dcd04a20611ee" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_marker4</name></member>
+      <member refid="classDisplayPlot_1a2034eb962846f3ad3043e325d9b01104" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_marker5</name></member>
+      <member refid="classDisplayPlot_1abcaf765759825d645671d2b7bc276156" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_marker6</name></member>
+      <member refid="classDisplayPlot_1a99c8290836e8901246a7fe701e9abdc2" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_marker7</name></member>
+      <member refid="classDisplayPlot_1a1e09d8845efeb45336e5ff94a5d621ee" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_marker8</name></member>
+      <member refid="classDisplayPlot_1a9c3cb555eca9e55d13fca9727afecee2" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_marker9</name></member>
+      <member refid="classDisplayPlot_1a53dfe801acf6f784e912cb16f52e4ffe" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_style1</name></member>
+      <member refid="classDisplayPlot_1a47e542b645e902a27fd9f4f7dd3d4c0f" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_style2</name></member>
+      <member refid="classDisplayPlot_1a54f4a0661dadb89a087b7b5999e5e674" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_style3</name></member>
+      <member refid="classDisplayPlot_1a8a3c075154a5f0da3e4e38aa5ea5fd98" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_style4</name></member>
+      <member refid="classDisplayPlot_1ab14fe9fb0b440d355840d4079da72f39" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_style5</name></member>
+      <member refid="classDisplayPlot_1a952b35996baab615ef1d4e7963c3ab22" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_style6</name></member>
+      <member refid="classDisplayPlot_1af875a232e737f78e80277d3a6a664df4" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_style7</name></member>
+      <member refid="classDisplayPlot_1ae0561d4be3462d9c3a48ed0c6dc8a3c6" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_style8</name></member>
+      <member refid="classDisplayPlot_1a797d1dbd6affee54cab9587c0a10d0c5" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_style9</name></member>
+      <member refid="classDisplayPlot_1af3fbde0c2afb71b063f6d02355fac4f6" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_width1</name></member>
+      <member refid="classDisplayPlot_1ad67103198252abdb27a69349396c8770" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_width2</name></member>
+      <member refid="classDisplayPlot_1a2cf70bc3b27870f40fefc7d1ba5ea55c" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_width3</name></member>
+      <member refid="classDisplayPlot_1ab15527362a7f7a1a3df87d67bba60897" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_width4</name></member>
+      <member refid="classDisplayPlot_1a5fbc6f97db7fbe586481e7f296fe7c21" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_width5</name></member>
+      <member refid="classDisplayPlot_1a8f91352605d3091a21d929e2a7f2d537" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_width6</name></member>
+      <member refid="classDisplayPlot_1a27bc5ce3f13209b4620857ada83af4a2" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_width7</name></member>
+      <member refid="classDisplayPlot_1a2366d10fe373f4376baf478a374e8dae" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_width8</name></member>
+      <member refid="classDisplayPlot_1ace8f3cf4c6137a15847c592a08c4a59d" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>line_width9</name></member>
+      <member refid="classDisplayPlot_1a4a4ce348bd9f8bd9394d8a493e45e787" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>marker_alpha1</name></member>
+      <member refid="classDisplayPlot_1aa311bfe37b936e8b8432093565342c8e" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>marker_alpha2</name></member>
+      <member refid="classDisplayPlot_1aaef336cfa30c760024b1364d3bb85ed8" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>marker_alpha3</name></member>
+      <member refid="classDisplayPlot_1adced30b44aac55b5473ed92a861c24bb" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>marker_alpha4</name></member>
+      <member refid="classDisplayPlot_1a985df75128fe0ffcb42be3d6874a96f4" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>marker_alpha5</name></member>
+      <member refid="classDisplayPlot_1a5b21befaa505fab455ef899410ffaf3a" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>marker_alpha6</name></member>
+      <member refid="classDisplayPlot_1a264182163af63b69b2e4147022313686" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>marker_alpha7</name></member>
+      <member refid="classDisplayPlot_1a5b17c853fc2a606afb35f5978325e27d" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>marker_alpha8</name></member>
+      <member refid="classDisplayPlot_1a73043475dcfad5ab34f1d6ea409f7da7" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>marker_alpha9</name></member>
+      <member refid="classDisplayPlot_1a7ef3610e5a58fb09c482c1f9c9fe1cb2" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>onPickerPointSelected</name></member>
+      <member refid="classEyeDisplayPlot_1adb792795ab106cfbf32a43dd69492655" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>operator=</name></member>
+      <member refid="classEyeDisplayPlot_1a56101e28b7a5253e57a57893a9dbf01e" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>operator=</name></member>
+      <member refid="classDisplayPlot_1a1e3d561106a3672f143f782f6e8974a7" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>palette_color</name></member>
+      <member refid="classEyeDisplayPlot_1a88f4eb0f47bdf2fbf7317cb721080c04" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>plotNewData</name></member>
+      <member refid="classDisplayPlot_1a06de984110abfef870815502f8c79a83" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>plotPointSelected</name></member>
+      <member refid="classEyeDisplayPlot_1a946847042f8300e7d1a64b49addc0635" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>replot</name></member>
+      <member refid="classDisplayPlot_1ae1d792c3b067aeb6039791b4e8a228f8" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>resizeSlot</name></member>
+      <member refid="classEyeDisplayPlot_1a784433abb74fe3110fa83c20a017b0c1" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>sampleRate</name></member>
+      <member refid="classEyeDisplayPlot_1a6af7024215da03da523fac5b0ceaab30" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setAutoScale</name></member>
+      <member refid="classEyeDisplayPlot_1ab31bf059a85702f271657068914f7cdb" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setAutoScaleShot</name></member>
+      <member refid="classDisplayPlot_1a10263062efb822aff158bb7d3940fe08" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setAxesLabelFontSize</name></member>
+      <member refid="classDisplayPlot_1a99d5d8eaa7febe3ae5264351dc0da88c" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setAxisLabelFontSize</name></member>
+      <member refid="classDisplayPlot_1a42c89c34bcb2ca2f387ce9f9a97a86a0" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>setAxisLabels</name></member>
+      <member refid="classEyeDisplayPlot_1ad2d2419639f2df970c337370f53d1ca2" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>setLineColor</name></member>
+      <member refid="classDisplayPlot_1a29b70f45a430f1db4eef8280f2411768" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineColor1</name></member>
+      <member refid="classDisplayPlot_1aab29d19142bc6fce607453a3398d4b72" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineColor2</name></member>
+      <member refid="classDisplayPlot_1a5adde7dce9b3138b521e9601feab53e8" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineColor3</name></member>
+      <member refid="classDisplayPlot_1abbd838c40a5e3b74e56dbdb71553e47c" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineColor4</name></member>
+      <member refid="classDisplayPlot_1a62675298630d90455ad17bb42003722f" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineColor5</name></member>
+      <member refid="classDisplayPlot_1a95cbf2f39bc01d89773050dbafc2c366" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineColor6</name></member>
+      <member refid="classDisplayPlot_1a143f8e3a2c3ba7549ef21d22455c27d3" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineColor7</name></member>
+      <member refid="classDisplayPlot_1a51bcaeb3ead3154c33255e4e751dfb79" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineColor8</name></member>
+      <member refid="classDisplayPlot_1a27b4ed8da67a110b19f3c5380257eeae" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineColor9</name></member>
+      <member refid="classEyeDisplayPlot_1a42a8da2be68313b5cb27f293095bd614" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineLabel</name></member>
+      <member refid="classEyeDisplayPlot_1a810dadbe80756d0d98665eda1c903fe3" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>setLineMarker</name></member>
+      <member refid="classDisplayPlot_1af10e3d43c7a4e98d22daa9cb50baef17" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineMarker1</name></member>
+      <member refid="classDisplayPlot_1a10c415a2348fee7d34946a55e5e4334d" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineMarker2</name></member>
+      <member refid="classDisplayPlot_1a0a6b04777fcee62855d2afa5e4e6b344" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineMarker3</name></member>
+      <member refid="classDisplayPlot_1afccdfb8f8817226a785b648c13270e28" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineMarker4</name></member>
+      <member refid="classDisplayPlot_1aabe43efed715d3023fa31fb50fc51eb0" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineMarker5</name></member>
+      <member refid="classDisplayPlot_1a5919c5531b47d3b4ab4d17aa7a89d3c8" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineMarker6</name></member>
+      <member refid="classDisplayPlot_1a97c171606b8e094d3247e8b0daba8443" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineMarker7</name></member>
+      <member refid="classDisplayPlot_1a1db9ea1d817ba3d866da6cce2f512641" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineMarker8</name></member>
+      <member refid="classDisplayPlot_1a3d9affbf73cb66da5fb418a8a52ebd8e" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineMarker9</name></member>
+      <member refid="classEyeDisplayPlot_1a8856578dacea58afffe5be170db88f72" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>setLineStyle</name></member>
+      <member refid="classDisplayPlot_1ad6b4a75b27f9c6d2513b6073b83ef8e4" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineStyle1</name></member>
+      <member refid="classDisplayPlot_1a66957cd79a6c33be7aeef8430dd7e88e" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineStyle2</name></member>
+      <member refid="classDisplayPlot_1a1c43eee6b28a4dae0a45df7f0ad319d3" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineStyle3</name></member>
+      <member refid="classDisplayPlot_1a08d2331335e9b6a05efb6521d3257eb6" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineStyle4</name></member>
+      <member refid="classDisplayPlot_1a38ffadf02e37579b290f90d381e34318" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineStyle5</name></member>
+      <member refid="classDisplayPlot_1ae4e44e1d228a0c5669eb1433200bf93f" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineStyle6</name></member>
+      <member refid="classDisplayPlot_1a6687fd290e5b8694554ec1d4cd060ccf" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineStyle7</name></member>
+      <member refid="classDisplayPlot_1a8f17a88d8b70f451850a74608267e815" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineStyle8</name></member>
+      <member refid="classDisplayPlot_1a7dbe5b4064cfde8f522c73c426fce7b6" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineStyle9</name></member>
+      <member refid="classEyeDisplayPlot_1afcc1863e6eb740d34e4e8994b29e9f74" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>setLineWidth</name></member>
+      <member refid="classDisplayPlot_1ac7347d5f90f2ed4eeffd0459add46c37" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineWidth1</name></member>
+      <member refid="classDisplayPlot_1a524b49f300105b5f3abc67fea52a00a0" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineWidth2</name></member>
+      <member refid="classDisplayPlot_1aedb9079ffed828dd5946c6efcba41111" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineWidth3</name></member>
+      <member refid="classDisplayPlot_1ae47b346bc1ab449a0ec60c8bd35ec0c5" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineWidth4</name></member>
+      <member refid="classDisplayPlot_1a07b77f2a1df172fd0490f12c4cafc3db" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineWidth5</name></member>
+      <member refid="classDisplayPlot_1ab0bba0a5f1087602b4595211b27f0257" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineWidth6</name></member>
+      <member refid="classDisplayPlot_1ab20ccb75e4a6ad7becf68b2015e5f828" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineWidth7</name></member>
+      <member refid="classDisplayPlot_1a539c5eeb1bca4327d9b03abab34c0828" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineWidth8</name></member>
+      <member refid="classDisplayPlot_1aaa38d522b100107540958ad092098c28" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setLineWidth9</name></member>
+      <member refid="classEyeDisplayPlot_1a979737f4005aca8bd9e81764c161ac62" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>setMarkerAlpha</name></member>
+      <member refid="classDisplayPlot_1a43b4f96bcce6bb4279c9ce3126d197fc" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setMarkerAlpha1</name></member>
+      <member refid="classDisplayPlot_1a00ae636a27c3e4e700f0c1af9de80def" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setMarkerAlpha2</name></member>
+      <member refid="classDisplayPlot_1ab7082751e854f59cf1bf1ce95fa3e068" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setMarkerAlpha3</name></member>
+      <member refid="classDisplayPlot_1aca45f9299201b26d2ca6c5b492f19b1f" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setMarkerAlpha4</name></member>
+      <member refid="classDisplayPlot_1acbee08790c6fc6f732d043e77efc945b" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setMarkerAlpha5</name></member>
+      <member refid="classDisplayPlot_1ae3f54bba79b58ec4a2e2cdc19856975d" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setMarkerAlpha6</name></member>
+      <member refid="classDisplayPlot_1a39b5736b7b7b3b775a43190a1f1dce00" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setMarkerAlpha7</name></member>
+      <member refid="classDisplayPlot_1ae249059bb5a657bea2405f3cbf8072dd" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setMarkerAlpha8</name></member>
+      <member refid="classDisplayPlot_1a60ff6d9a0abb0076fc3de01611fea0e4" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setMarkerAlpha9</name></member>
+      <member refid="classDisplayPlot_1a22903f897ffab9bd33f32cc8bf676d4c" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setPaletteColor</name></member>
+      <member refid="classEyeDisplayPlot_1ab4c05545dfa56b2456e72e293e78df7a" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setSampleRate</name></member>
+      <member refid="classDisplayPlot_1aa4b181cb717d3f01e7b9f66e0faf2e36" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setStop</name></member>
+      <member refid="classEyeDisplayPlot_1a4e4ca46dbaff13cc75833af4dc9f819a" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setTagBackgroundColor</name></member>
+      <member refid="classEyeDisplayPlot_1accb3d4222e3ab7bd867f6bcb13ffa3bb" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setTagBackgroundStyle</name></member>
+      <member refid="classEyeDisplayPlot_1a662ec1fdaeb4b69f7a7d29ba2fab1699" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setTagTextColor</name></member>
+      <member refid="classEyeDisplayPlot_1a69d2e22b2048a7028c41416c9adb508d" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setTriggerLines</name></member>
+      <member refid="classDisplayPlot_1aadf76f7a6698a8c90098d7f57a2ae8c8" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>setXaxis</name></member>
+      <member refid="classDisplayPlot_1a08f362aa783c9fc6b14fbc3ff5aeccb9" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setXaxisLabelFontSize</name></member>
+      <member refid="classDisplayPlot_1a8376aabe947045324a4e882cc3155c8e" prot="public" virt="virtual"><scope>EyeDisplayPlot</scope><name>setYaxis</name></member>
+      <member refid="classDisplayPlot_1a83a1d4719128a20298927a2c78c845ed" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setYaxisLabelFontSize</name></member>
+      <member refid="classEyeDisplayPlot_1a1ba1229467849ffddc8057f47b8abfb7" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setYLabel</name></member>
+      <member refid="classDisplayPlot_1adfb013186be2f85267c0ae6df609cd43" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>setZoomerColor</name></member>
+      <member refid="classEyeDisplayPlot_1a5e92f60b9e4ce2b37227f761f65bf0cb" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>stemPlot</name></member>
+      <member refid="classEyeDisplayPlot_1af573d0f7e25ff5900c65191a0f7ebc3d" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>tag_background_color</name></member>
+      <member refid="classEyeDisplayPlot_1ac948c8b99a1ed808e5c869f134cd4087" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>tag_background_style</name></member>
+      <member refid="classEyeDisplayPlot_1ae229b5d598c50ed735136dfe72bf6a68" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>tag_text_color</name></member>
+      <member refid="classDisplayPlot_1a637a37e0bff3bd1367f895edc3c7756f" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>xaxis_label_font_size</name></member>
+      <member refid="classDisplayPlot_1aa5d7720f54f6f778d2b3cdb51aa831f5" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>yaxis_label_font_size</name></member>
+      <member refid="classDisplayPlot_1acc858f57b01b2b1e892da6679460b0d4" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>zoomer_color</name></member>
+      <member refid="classDisplayPlot_1aa99f69f4cd237e9daebaa359b5fa7847" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>~DisplayPlot</name></member>
+      <member refid="classEyeDisplayPlot_1a131e518d164d84eddba1fd665b4b370a" prot="public" virt="non-virtual"><scope>EyeDisplayPlot</scope><name>~EyeDisplayPlot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

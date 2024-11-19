@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="gr-uhd_2include_2gnuradio_2uhd_2api_8h" kind="file" language="C++">
+    <compoundname>gr-uhd/include/gnuradio/uhd/api.h</compoundname>
+    <includes local="no">uhd/config.hpp</includes>
+    <includedby refid="amsg__source_8h" local="no">amsg_source.h</includedby>
+    <includedby refid="cmd__keys_8h" local="no">cmd_keys.h</includedby>
+    <includedby refid="rfnoc__block__generic_8h" local="no">rfnoc_block_generic.h</includedby>
+    <includedby refid="rfnoc__ddc_8h" local="no">rfnoc_ddc.h</includedby>
+    <includedby refid="rfnoc__duc_8h" local="no">rfnoc_duc.h</includedby>
+    <includedby refid="rfnoc__fir__filter_8h" local="no">rfnoc_fir_filter.h</includedby>
+    <includedby refid="rfnoc__graph_8h" local="no">rfnoc_graph.h</includedby>
+    <includedby refid="rfnoc__replay_8h" local="no">rfnoc_replay.h</includedby>
+    <includedby refid="rfnoc__rx__radio_8h" local="no">rfnoc_rx_radio.h</includedby>
+    <includedby refid="rfnoc__rx__streamer_8h" local="no">rfnoc_rx_streamer.h</includedby>
+    <includedby refid="rfnoc__siggen_8h" local="no">rfnoc_siggen.h</includedby>
+    <includedby refid="rfnoc__tx__radio_8h" local="no">rfnoc_tx_radio.h</includedby>
+    <includedby refid="rfnoc__tx__streamer_8h" local="no">rfnoc_tx_streamer.h</includedby>
+    <includedby refid="rfnoc__window_8h" local="no">rfnoc_window.h</includedby>
+    <includedby refid="usrp__block_8h" local="no">usrp_block.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>uhd/config.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>amsg_source.h</label>
+        <link refid="amsg__source_8h"/>
+      </node>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>cmd_keys.h</label>
+        <link refid="cmd__keys_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>rfnoc_block.h</label>
+        <link refid="rfnoc__block_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>rfnoc_block_generic.h</label>
+        <link refid="rfnoc__block__generic_8h"/>
+      </node>
+      <node id="8">
+        <label>rfnoc_ddc.h</label>
+        <link refid="rfnoc__ddc_8h"/>
+      </node>
+      <node id="9">
+        <label>rfnoc_duc.h</label>
+        <link refid="rfnoc__duc_8h"/>
+      </node>
+      <node id="10">
+        <label>rfnoc_fir_filter.h</label>
+        <link refid="rfnoc__fir__filter_8h"/>
+      </node>
+      <node id="11">
+        <label>rfnoc_graph.h</label>
+        <link refid="rfnoc__graph_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>rfnoc_replay.h</label>
+        <link refid="rfnoc__replay_8h"/>
+      </node>
+      <node id="14">
+        <label>rfnoc_rx_radio.h</label>
+        <link refid="rfnoc__rx__radio_8h"/>
+      </node>
+      <node id="18">
+        <label>rfnoc_rx_streamer.h</label>
+        <link refid="rfnoc__rx__streamer_8h"/>
+      </node>
+      <node id="15">
+        <label>rfnoc_siggen.h</label>
+        <link refid="rfnoc__siggen_8h"/>
+      </node>
+      <node id="16">
+        <label>rfnoc_tx_radio.h</label>
+        <link refid="rfnoc__tx__radio_8h"/>
+      </node>
+      <node id="19">
+        <label>rfnoc_tx_streamer.h</label>
+        <link refid="rfnoc__tx__streamer_8h"/>
+      </node>
+      <node id="17">
+        <label>rfnoc_window.h</label>
+        <link refid="rfnoc__window_8h"/>
+      </node>
+      <node id="4">
+        <label>usrp_block.h</label>
+        <link refid="usrp__block_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>usrp_sink.h</label>
+        <link refid="usrp__sink_8h"/>
+      </node>
+      <node id="6">
+        <label>usrp_source.h</label>
+        <link refid="usrp__source_8h"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="gr-uhd_2include_2gnuradio_2uhd_2api_8h_1af9aa018424cf030907c7f8c5a48f4771" prot="public" static="no">
+        <name>GR_UHD_API</name>
+        <initializer>UHD_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/api.h" line="18" column="10" bodyfile="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/api.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-uhd/include/gnuradio/uhd/api.h"/>
+  </compounddef>
+</doxygen>

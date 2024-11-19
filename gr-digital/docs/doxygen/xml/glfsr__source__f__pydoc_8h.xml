@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="glfsr__source__f__pydoc_8h" kind="file" language="C++">
+    <compoundname>glfsr_source_f_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>glfsr_source_f_pydoc.h</label>
+        <link refid="glfsr__source__f__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="glfsr__source__f__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/glfsr_source_f_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/glfsr_source_f_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="glfsr__source__f__pydoc_8h_1a7d677e0aae0f1edb11a6c012ffcbe55b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_glfsr_source_f</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_glfsr_source_f</name>
+        <initializer>= R&quot;doc(Galois LFSR pseudo-random source generating float outputs -1.0 - 1.0.
+
+Constructor Specific Documentation:
+
+Make a Galois LFSR pseudo-random source block.
+
+Args:
+    degree : Degree of shift register must be in [1, 64]. If mask is 0, the degree determines a default mask (see digital_impl_glfsr.cc for the mapping).
+    repeat : Set to repeat sequence.
+    mask : Allows a user-defined bit mask for indexes of the shift register to feed back.
+    seed : Initial setting for values in shift register.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/glfsr_source_f_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/glfsr_source_f_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="glfsr__source__f__pydoc_8h_1a094c7382b78d224ba592ea084ce8ca19" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_glfsr_source_f_glfsr_source_f_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_glfsr_source_f_glfsr_source_f_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/glfsr_source_f_pydoc.h" line="31" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/glfsr_source_f_pydoc.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="glfsr__source__f__pydoc_8h_1aa98f2181bde9f1068aaaa8b1f2f83de6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_glfsr_source_f_glfsr_source_f_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_glfsr_source_f_glfsr_source_f_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/glfsr_source_f_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/glfsr_source_f_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="glfsr__source__f__pydoc_8h_1a4188acd09819c3f8b5ef9324c92d4cdf" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_glfsr_source_f_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_glfsr_source_f_make</name>
+        <initializer>= R&quot;doc(Galois LFSR pseudo-random source generating float outputs -1.0 - 1.0.
+
+Constructor Specific Documentation:
+
+Make a Galois LFSR pseudo-random source block.
+
+Args:
+    degree : Degree of shift register must be in [1, 64]. If mask is 0, the degree determines a default mask (see digital_impl_glfsr.cc for the mapping).
+    repeat : Set to repeat sequence.
+    mask : Allows a user-defined bit mask for indexes of the shift register to feed back.
+    seed : Initial setting for values in shift register.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/glfsr_source_f_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/glfsr_source_f_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="glfsr__source__f__pydoc_8h_1afef332e206222c2ad0a6add8a4e9e2c9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_glfsr_source_f_period</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_glfsr_source_f_period</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/glfsr_source_f_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/glfsr_source_f_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="glfsr__source__f__pydoc_8h_1a6e8b2f343fe7baddf61f47e422c4f146" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_glfsr_source_f_mask</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_glfsr_source_f_mask</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/glfsr_source_f_pydoc.h" line="53" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/glfsr_source_f_pydoc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/glfsr_source_f_pydoc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="tcp__sink__pydoc_8h" kind="file" language="C++">
+    <compoundname>tcp_sink_pydoc.h</compoundname>
+    <includes refid="build_2gr-network_2python_2network_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-network_2python_2network_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>tcp_sink_pydoc.h</label>
+        <link refid="tcp__sink__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="tcp__sink__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, network, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tcp_sink_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tcp_sink_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="tcp__sink__pydoc_8h_1abdba9465fc368f5b3e4ce3522e2bf248" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_network_tcp_sink</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_network_tcp_sink</name>
+        <initializer>= R&quot;doc(This block provides a TCP Sink block that supports both client and server modes.
+
+This block provides a TCP sink that supports both listening for inbound connections (server mode) and connecting to other applications (client mode) in order to send data from a GNU Radio flowgraph. The block supports both IPv4 and IPv6 with appropriate code determined by the address used. In server mode, if a client disconnects, the flowgraph will continue to execute. If/when a new client connection is established, data will then pick up with the current stream for transmission to the new client.
+
+Constructor Specific Documentation:
+
+Build a tcp_sink block.
+
+Args:
+    itemsize : 
+    veclen : 
+    host : 
+    port : 
+    sinkmode : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tcp_sink_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tcp_sink_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tcp__sink__pydoc_8h_1ac2535513e65d96174da41c0f2f7dd160" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_network_tcp_sink_tcp_sink</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_network_tcp_sink_tcp_sink</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tcp_sink_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tcp_sink_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tcp__sink__pydoc_8h_1a8d42d9efb5fc231b26504a3c036ad9c5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_network_tcp_sink_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_network_tcp_sink_make</name>
+        <initializer>= R&quot;doc(This block provides a TCP Sink block that supports both client and server modes.
+
+This block provides a TCP sink that supports both listening for inbound connections (server mode) and connecting to other applications (client mode) in order to send data from a GNU Radio flowgraph. The block supports both IPv4 and IPv6 with appropriate code determined by the address used. In server mode, if a client disconnects, the flowgraph will continue to execute. If/when a new client connection is established, data will then pick up with the current stream for transmission to the new client.
+
+Constructor Specific Documentation:
+
+Build a tcp_sink block.
+
+Args:
+    itemsize : 
+    veclen : 
+    host : 
+    port : 
+    sinkmode : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tcp_sink_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tcp_sink_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-network/python/network/bindings/tcp_sink_pydoc.h"/>
+  </compounddef>
+</doxygen>

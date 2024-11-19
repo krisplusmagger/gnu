@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="gr-soapy_2python_2soapy_2bindings_2sink__pydoc_8h" kind="file" language="C++">
+    <compoundname>gr-soapy/python/soapy/bindings/sink_pydoc.h</compoundname>
+    <includes refid="build_2gr-soapy_2python_2soapy_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-soapy_2python_2soapy_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>sink_pydoc.h</label>
+        <link refid="gr-soapy_2python_2soapy_2bindings_2sink__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="gr-soapy_2python_2soapy_2bindings_2sink__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, soapy, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-soapy/python/soapy/bindings/sink_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-soapy/python/soapy/bindings/sink_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="gr-soapy_2python_2soapy_2bindings_2sink__pydoc_8h_1a8774204348af5f262975da8399fbc208" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_soapy_sink</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_soapy_sink</name>
+        <initializer>= R&quot;doc(
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of soapy::sink.
+
+To avoid accidental use of raw pointers, soapy::sink&apos;s constructor is in a private implementation class. soapy::sink::make is the public interface for creating new instances. 
+Driver name can be any of \&quot;uhd\&quot;, \&quot;lime\&quot;, \&quot;airspy\&quot;, \&quot;rtlsdr\&quot; or others
+
+Args:
+    device : the device driver and type
+    type : output stream format
+    nchan : number of channels
+    dev_args : device specific arguments
+    stream_args : stream arguments. Same for all enabled channels
+    tune_args : list with tuning specific arguments, one entry for every enabled channel, or a single entry to apply to all
+    other_settings : list with general settings, one entry for every enabled channel, or a single entry to apply to all. Supports also specific gain settings.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-soapy/python/soapy/bindings/sink_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-soapy/python/soapy/bindings/sink_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gr-soapy_2python_2soapy_2bindings_2sink__pydoc_8h_1a3cbf64d085a23349c328d3b166a6a52a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_soapy_sink_sink_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_soapy_sink_sink_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-soapy/python/soapy/bindings/sink_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-soapy/python/soapy/bindings/sink_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gr-soapy_2python_2soapy_2bindings_2sink__pydoc_8h_1a42c6ee225d05df9435561ba35ebd1455" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_soapy_sink_sink_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_soapy_sink_sink_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-soapy/python/soapy/bindings/sink_pydoc.h" line="40" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-soapy/python/soapy/bindings/sink_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gr-soapy_2python_2soapy_2bindings_2sink__pydoc_8h_1a23849903711cf64f6c56df0d190a61be" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_soapy_sink_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_soapy_sink_make</name>
+        <initializer>= R&quot;doc(
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of soapy::sink.
+
+To avoid accidental use of raw pointers, soapy::sink&apos;s constructor is in a private implementation class. soapy::sink::make is the public interface for creating new instances. 
+Driver name can be any of \&quot;uhd\&quot;, \&quot;lime\&quot;, \&quot;airspy\&quot;, \&quot;rtlsdr\&quot; or others
+
+Args:
+    device : the device driver and type
+    type : output stream format
+    nchan : number of channels
+    dev_args : device specific arguments
+    stream_args : stream arguments. Same for all enabled channels
+    tune_args : list with tuning specific arguments, one entry for every enabled channel, or a single entry to apply to all
+    other_settings : list with general settings, one entry for every enabled channel, or a single entry to apply to all. Supports also specific gain settings.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-soapy/python/soapy/bindings/sink_pydoc.h" line="43" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-soapy/python/soapy/bindings/sink_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gr-soapy_2python_2soapy_2bindings_2sink__pydoc_8h_1abfd1e4555eb706ecf9807568d3abd361" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_soapy_sink_set_length_tag_name</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_soapy_sink_set_length_tag_name</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-soapy/python/soapy/bindings/sink_pydoc.h" line="62" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-soapy/python/soapy/bindings/sink_pydoc.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-soapy/python/soapy/bindings/sink_pydoc.h"/>
+  </compounddef>
+</doxygen>

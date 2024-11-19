@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1blocks_1_1kernel_1_1block__interleaving" kind="class" language="C++" prot="public">
+    <compoundname>gr::blocks::kernel::block_interleaving</compoundname>
+    <includes refid="blockinterleaving_8h" local="no">gnuradio/blocks/blockinterleaving.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1ad72c8033e8d24035e04ee167cc8cf55b" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; size_t &gt;</type>
+        <definition>std::vector&lt;size_t&gt; gr::blocks::kernel::block_interleaving::_interleaver_indices</definition>
+        <argsstring></argsstring>
+        <name>_interleaver_indices</name>
+        <qualifiedname>gr::blocks::kernel::block_interleaving::_interleaver_indices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" line="48" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1adb3b9b77d3252514de74d72661187e97" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; size_t &gt;</type>
+        <definition>std::vector&lt;size_t&gt; gr::blocks::kernel::block_interleaving::_deinterleaver_indices</definition>
+        <argsstring></argsstring>
+        <name>_deinterleaver_indices</name>
+        <qualifiedname>gr::blocks::kernel::block_interleaving::_deinterleaver_indices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" line="49" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1ad068ff23568330ee2b33e2ab027e0fa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::kernel::block_interleaving::block_interleaving</definition>
+        <argsstring>(std::vector&lt; size_t &gt; interleaver_indices)</argsstring>
+        <name>block_interleaving</name>
+        <qualifiedname>gr::blocks::kernel::block_interleaving::block_interleaving</qualifiedname>
+        <param>
+          <type>std::vector&lt; size_t &gt;</type>
+          <declname>interleaver_indices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" line="25" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1a01d7f9438651a45b26f7eb3ec010616a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t gr::blocks::kernel::block_interleaving::interleaver_length</definition>
+        <argsstring>()</argsstring>
+        <name>interleaver_length</name>
+        <qualifiedname>gr::blocks::kernel::block_interleaving::interleaver_length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" line="27" column="12" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1ae0c396c2e7e6625987239f23a2184430" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; size_t &gt;</type>
+        <definition>std::vector&lt; size_t &gt; gr::blocks::kernel::block_interleaving::interleaver_indices</definition>
+        <argsstring>()</argsstring>
+        <name>interleaver_indices</name>
+        <qualifiedname>gr::blocks::kernel::block_interleaving::interleaver_indices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" line="28" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1a37bd82b75608b8560aab5fda217a0416" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; size_t &gt;</type>
+        <definition>std::vector&lt; size_t &gt; gr::blocks::kernel::block_interleaving::deinterleaver_indices</definition>
+        <argsstring>()</argsstring>
+        <name>deinterleaver_indices</name>
+        <qualifiedname>gr::blocks::kernel::block_interleaving::deinterleaver_indices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" line="29" column="17" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1a26e8ebbddf70f6c75cbd88e0d88a8421" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::blocks::kernel::block_interleaving::interleave</definition>
+        <argsstring>(T *target, const T *src)</argsstring>
+        <name>interleave</name>
+        <qualifiedname>gr::blocks::kernel::block_interleaving::interleave</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>const T *</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" line="32" column="10" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1aef4f091e780428b11d0459d7292d550c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::blocks::kernel::block_interleaving::deinterleave</definition>
+        <argsstring>(T *target, const T *src)</argsstring>
+        <name>deinterleave</name>
+        <qualifiedname>gr::blocks::kernel::block_interleaving::deinterleave</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>const T *</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" line="40" column="10" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" bodystart="40" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1aed4651ab2b989128adcbf12f0020d35a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::kernel::block_interleaving::set_interleaver_indices</definition>
+        <argsstring>(const std::vector&lt; size_t &gt; &amp;interleaver_indices)</argsstring>
+        <name>set_interleaver_indices</name>
+        <qualifiedname>gr::blocks::kernel::block_interleaving::set_interleaver_indices</qualifiedname>
+        <param>
+          <type>const std::vector&lt; size_t &gt; &amp;</type>
+          <declname>interleaver_indices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" line="51" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" line="22" column="1" bodyfile="/home/desktop2/gnuradio/gr-blocks/include/gnuradio/blocks/blockinterleaving.h" bodystart="23" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1adb3b9b77d3252514de74d72661187e97" prot="private" virt="non-virtual"><scope>gr::blocks::kernel::block_interleaving</scope><name>_deinterleaver_indices</name></member>
+      <member refid="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1ad72c8033e8d24035e04ee167cc8cf55b" prot="private" virt="non-virtual"><scope>gr::blocks::kernel::block_interleaving</scope><name>_interleaver_indices</name></member>
+      <member refid="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1ad068ff23568330ee2b33e2ab027e0fa2" prot="public" virt="non-virtual"><scope>gr::blocks::kernel::block_interleaving</scope><name>block_interleaving</name></member>
+      <member refid="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1aef4f091e780428b11d0459d7292d550c" prot="public" virt="non-virtual"><scope>gr::blocks::kernel::block_interleaving</scope><name>deinterleave</name></member>
+      <member refid="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1a37bd82b75608b8560aab5fda217a0416" prot="public" virt="non-virtual"><scope>gr::blocks::kernel::block_interleaving</scope><name>deinterleaver_indices</name></member>
+      <member refid="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1a26e8ebbddf70f6c75cbd88e0d88a8421" prot="public" virt="non-virtual"><scope>gr::blocks::kernel::block_interleaving</scope><name>interleave</name></member>
+      <member refid="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1ae0c396c2e7e6625987239f23a2184430" prot="public" virt="non-virtual"><scope>gr::blocks::kernel::block_interleaving</scope><name>interleaver_indices</name></member>
+      <member refid="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1a01d7f9438651a45b26f7eb3ec010616a" prot="public" virt="non-virtual"><scope>gr::blocks::kernel::block_interleaving</scope><name>interleaver_length</name></member>
+      <member refid="classgr_1_1blocks_1_1kernel_1_1block__interleaving_1aed4651ab2b989128adcbf12f0020d35a" prot="private" virt="non-virtual"><scope>gr::blocks::kernel::block_interleaving</scope><name>set_interleaver_indices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

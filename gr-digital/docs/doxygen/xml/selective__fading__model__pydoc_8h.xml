@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="selective__fading__model__pydoc_8h" kind="file" language="C++">
+    <compoundname>selective_fading_model_pydoc.h</compoundname>
+    <includes refid="build_2gr-channels_2python_2channels_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-channels_2python_2channels_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>selective_fading_model_pydoc.h</label>
+        <link refid="selective__fading__model__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="selective__fading__model__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, channels, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="selective__fading__model__pydoc_8h_1af1685b1a80da1d022e93f78e68cc3c63" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_selective_fading_model</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_selective_fading_model</name>
+        <initializer>= R&quot;doc(fading simulator
+
+This block implements a basic fading model simulator that can be used to help evaluate, design, and test various signals, waveforms, and algorithms.
+
+Constructor Specific Documentation:
+
+Build the channel simulator.
+
+Args:
+    N : the number of sinusoids to use in simulating the channel; 8 is a good value
+    fDTs : normalized maximum Doppler frequency, fD * Ts
+    LOS : include Line-of-Site path? selects between Rayleigh (NLOS) and Rician (LOS) models
+    K : Rician factor (ratio of the specular power to the scattered power)
+    seed : a random number to seed the noise generators
+    delays : a vector of values that specify the time delay of each impulse
+    mags : a vector of values that specify the magnitude of each impulse
+    ntaps : the number of filter <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref>)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="selective__fading__model__pydoc_8h_1a89cb532065f8f784b074a58c95786ca7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_selective_fading_model_selective_fading_model_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_selective_fading_model_selective_fading_model_0</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="selective__fading__model__pydoc_8h_1af318b5b6cc166750f893df79bf4be8a8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_selective_fading_model_selective_fading_model_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_selective_fading_model_selective_fading_model_1</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" line="41" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="selective__fading__model__pydoc_8h_1aa818cf70110e9f77c669beea6e35e085" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_selective_fading_model_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_selective_fading_model_make</name>
+        <initializer>= R&quot;doc(fading simulator
+
+This block implements a basic fading model simulator that can be used to help evaluate, design, and test various signals, waveforms, and algorithms.
+
+Constructor Specific Documentation:
+
+Build the channel simulator.
+
+Args:
+    N : the number of sinusoids to use in simulating the channel; 8 is a good value
+    fDTs : normalized maximum Doppler frequency, fD * Ts
+    LOS : include Line-of-Site path? selects between Rayleigh (NLOS) and Rician (LOS) models
+    K : Rician factor (ratio of the specular power to the scattered power)
+    seed : a random number to seed the noise generators
+    delays : a vector of values that specify the time delay of each impulse
+    mags : a vector of values that specify the magnitude of each impulse
+    ntaps : the number of filter <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref>)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" line="45" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="selective__fading__model__pydoc_8h_1a4dcbb2f9fea0cef71307f70d9973f55f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_selective_fading_model_fDTs</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_selective_fading_model_fDTs</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" line="64" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="selective__fading__model__pydoc_8h_1ad80695ccbc554c2f1bf6c375fbefe239" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_selective_fading_model_K</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_selective_fading_model_K</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" line="67" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="selective__fading__model__pydoc_8h_1a63868e9e7ced62a3f302160fda0d81f4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_selective_fading_model_step</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_selective_fading_model_step</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" line="70" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="selective__fading__model__pydoc_8h_1acd8a6c85f7a3905c04d2cb5f042b4b3b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_selective_fading_model_set_fDTs</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_selective_fading_model_set_fDTs</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" line="73" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="selective__fading__model__pydoc_8h_1a82c3ad727962f7d1ceb69257d44c1403" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_selective_fading_model_set_K</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_selective_fading_model_set_K</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" line="76" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="selective__fading__model__pydoc_8h_1ae045276b6aeb8ad91df5f35db43acfd6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_channels_selective_fading_model_set_step</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_channels_selective_fading_model_set_step</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" line="79" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-channels/python/channels/bindings/selective_fading_model_pydoc.h"/>
+  </compounddef>
+</doxygen>

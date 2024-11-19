@@ -1,0 +1,619 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1logger" kind="class" language="C++" prot="public">
+    <compoundname>gr::logger</compoundname>
+    <includes refid="logger_8h" local="no">gnuradio/logger.h</includes>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classgr_1_1logger_1ae44e5cf9680686ba3b7e867d6d9088c4" prot="private" static="no">
+        <type>std::shared_ptr&lt; spdlog::logger &gt;</type>
+        <definition>using gr::logger::underlying_logger_ptr =  std::shared_ptr&lt;spdlog::logger&gt;</definition>
+        <argsstring></argsstring>
+        <name>underlying_logger_ptr</name>
+        <qualifiedname>gr::logger::underlying_logger_ptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="123" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgr_1_1logger_1a0ca791cb3efbe5b7c9ca6b3a4a19e047" prot="private" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>const spdlog::string_view_t &amp;</type>
+        <definition>using gr::logger::format_string_t =  const spdlog::string_view_t&amp;</definition>
+        <argsstring></argsstring>
+        <name>format_string_t</name>
+        <qualifiedname>gr::logger::format_string_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="138" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1logger_1a023e0ecfdc2739031b952e1b17e1f515" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::logger::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <qualifiedname>gr::logger::_name</qualifiedname>
+        <briefdescription>
+<para>pointer to logger associated with this wrapper class </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="122" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1logger_1a61898a4fa5b86d8b3b6c43ffd7b01280" prot="public" static="no" mutable="no">
+        <type>underlying_logger_ptr</type>
+        <definition>underlying_logger_ptr gr::logger::d_logger</definition>
+        <argsstring></argsstring>
+        <name>d_logger</name>
+        <qualifiedname>gr::logger::d_logger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="156" column="27" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1logger_1a8d89c21585dd4355c8725f8ea65d8648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::logger::logger</definition>
+        <argsstring>(const std::string &amp;logger_name)</argsstring>
+        <name>logger</name>
+        <qualifiedname>gr::logger::logger</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>logger_name</declname>
+        </param>
+        <briefdescription>
+<para>constructor Provide name of logger to associate with this class </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>logger_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of logger associated with class</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Creates a new logger. Loggers inherit the logging level (through <computeroutput><ref refid="classgr_1_1prefs" kindref="compound">gr.prefs</ref></computeroutput> or through <computeroutput><ref refid="classgr_1_1logging_1ac7797b1634d431ee66f1358135d2a33d" kindref="member">gr::logging::singleton()</ref>.set_default_level()</computeroutput>) that is set at the time of their creation. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="150" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1a57c4c8eac635d8f6c6a189b0563757fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::logger::~logger</definition>
+        <argsstring>()=default</argsstring>
+        <name>~logger</name>
+        <qualifiedname>gr::logger::~logger</qualifiedname>
+        <briefdescription>
+<para>Destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="154" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1aa66820ef56990a624a4d6103e9684f9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::logger::set_level</definition>
+        <argsstring>(const std::string &amp;level)</argsstring>
+        <name>set_level</name>
+        <qualifiedname>gr::logger::set_level</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+<para>inline function, wrapper to set the logger level </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="160" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1a9e8c99a38a07803350b5525461f52543" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::logger::set_level</definition>
+        <argsstring>(const log_level level)</argsstring>
+        <name>set_level</name>
+        <qualifiedname>gr::logger::set_level</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacegr_1abaca7fdbdb347d5b2690b992b30f3136" kindref="member">log_level</ref></type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="161" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1a2134fe5ce035edbc10c4de3a4560e42c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::logger::get_level</definition>
+        <argsstring>(std::string &amp;level) const</argsstring>
+        <name>get_level</name>
+        <qualifiedname>gr::logger::get_level</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+<para>inline function, wrapper to get the logger level </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="164" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1ad75426e2df998b69b8cc3b6e1e2d3262" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string</type>
+        <definition>const std::string gr::logger::get_string_level</definition>
+        <argsstring>() const</argsstring>
+        <name>get_string_level</name>
+        <qualifiedname>gr::logger::get_string_level</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="165" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1ac62524869e47187f7d331c7d277251b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacegr_1abaca7fdbdb347d5b2690b992b30f3136" kindref="member">log_level</ref></type>
+        <definition>log_level gr::logger::get_level</definition>
+        <argsstring>() const</argsstring>
+        <name>get_level</name>
+        <qualifiedname>gr::logger::get_level</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="166" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1a9b7e4779bf7407dd0667aa2f40112ccc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string &amp; gr::logger::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <qualifiedname>gr::logger::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="168" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1a03db907e5508654a2601068db0f7f0b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::logger::set_name</definition>
+        <argsstring>(const std::string &amp;name)</argsstring>
+        <name>set_name</name>
+        <qualifiedname>gr::logger::set_name</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="169" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1a4cdede6e911324f263a531f9892a95b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::logger::trace</definition>
+        <argsstring>(format_string_t&lt; Args... &gt; msg, Args &amp;&amp;... args)</argsstring>
+        <name>trace</name>
+        <qualifiedname>gr::logger::trace</qualifiedname>
+        <param>
+          <type>format_string_t&lt; Args... &gt;</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>inline function, wrapper for TRACE message </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="173" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="173" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1a83b5d51cea1d2811e1aa0be5e6ddfcf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::logger::debug</definition>
+        <argsstring>(format_string_t&lt; Args... &gt; msg, Args &amp;&amp;... args)</argsstring>
+        <name>debug</name>
+        <qualifiedname>gr::logger::debug</qualifiedname>
+        <param>
+          <type>format_string_t&lt; Args... &gt;</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>inline function, wrapper for DEBUG message </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="180" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="180" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1a6f2984faa6d784bec89b71514229367a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::logger::info</definition>
+        <argsstring>(format_string_t&lt; Args... &gt; msg, Args &amp;&amp;... args)</argsstring>
+        <name>info</name>
+        <qualifiedname>gr::logger::info</qualifiedname>
+        <param>
+          <type>format_string_t&lt; Args... &gt;</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>inline function, wrapper for INFO message </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="187" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="187" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1aa4dd33f8f514290fdfcd5d6708d3dc1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::logger::notice</definition>
+        <argsstring>(format_string_t&lt; Args... &gt; msg, Args &amp;&amp;... args)</argsstring>
+        <name>notice</name>
+        <qualifiedname>gr::logger::notice</qualifiedname>
+        <param>
+          <type>format_string_t&lt; Args... &gt;</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>inline function, wrapper for INFO message, DEPRECATED </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="194" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="194" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1afa794529d3a33864ae9784f45fa8bba6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::logger::warn</definition>
+        <argsstring>(format_string_t&lt; Args... &gt; msg, Args &amp;&amp;... args)</argsstring>
+        <name>warn</name>
+        <qualifiedname>gr::logger::warn</qualifiedname>
+        <param>
+          <type>format_string_t&lt; Args... &gt;</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>inline function, wrapper for WARN message </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="201" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="201" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1a3ae117ca132383dbdf8090b2fca7181f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::logger::error</definition>
+        <argsstring>(format_string_t&lt; Args... &gt; msg, Args &amp;&amp;... args)</argsstring>
+        <name>error</name>
+        <qualifiedname>gr::logger::error</qualifiedname>
+        <param>
+          <type>format_string_t&lt; Args... &gt;</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>inline function, wrapper for ERROR message </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="208" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="208" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1a635f1acace22e2554d046145bfbd2fb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::logger::crit</definition>
+        <argsstring>(format_string_t&lt; Args... &gt; msg, Args &amp;&amp;... args)</argsstring>
+        <name>crit</name>
+        <qualifiedname>gr::logger::crit</qualifiedname>
+        <param>
+          <type>format_string_t&lt; Args... &gt;</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>inline function, wrapper for CRITICAL message </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="215" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="215" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1a03ca8e5ef7d6cbc9529dc7166a37d535" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::logger::alert</definition>
+        <argsstring>(format_string_t&lt; Args... &gt; msg, Args &amp;&amp;... args)</argsstring>
+        <name>alert</name>
+        <qualifiedname>gr::logger::alert</qualifiedname>
+        <param>
+          <type>format_string_t&lt; Args... &gt;</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>inline function, wrapper for CRITICAL message, DEPRECATED </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="222" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="222" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1abc2f4b77044a46e609e4c2459ff12dde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::logger::fatal</definition>
+        <argsstring>(format_string_t&lt; Args... &gt; msg, Args &amp;&amp;... args)</argsstring>
+        <name>fatal</name>
+        <qualifiedname>gr::logger::fatal</qualifiedname>
+        <param>
+          <type>format_string_t&lt; Args... &gt;</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>inline function, wrapper for CRITICAL message, DEPRECATED </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="229" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="229" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1ac11fee79525c99eb8e5b6cf097733d3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::logger::emerg</definition>
+        <argsstring>(format_string_t&lt; Args... &gt; msg, Args &amp;&amp;... args)</argsstring>
+        <name>emerg</name>
+        <qualifiedname>gr::logger::emerg</qualifiedname>
+        <param>
+          <type>format_string_t&lt; Args... &gt;</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>inline function, wrapper for CRITICAL message, DEPRECATED </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="236" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="236" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1logger_1a50a7ede690bae35506cfab4babff4c3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void gr::logger::log</definition>
+        <argsstring>(spdlog::level::level_enum level, format_string_t&lt; Args... &gt; msg, Args &amp;&amp;... args)</argsstring>
+        <name>log</name>
+        <qualifiedname>gr::logger::log</qualifiedname>
+        <param>
+          <type>spdlog::level::level_enum</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>format_string_t&lt; Args... &gt;</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>inline function, wrapper for logging with ad-hoc adjustable level </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="243" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="243" bodyend="246"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>GR_LOG macros. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>These macros wrap the standard LOG4CPP_LEVEL macros. The available macros are: LOG_DEBUG LOG_INFO LOG_WARN LOG_TRACE LOG_ERROR LOG_ALERT LOG_CRIT LOG_FATAL LOG_EMERG</para>
+<para>Logger class for referencing loggers in python. Not needed in C++ (use macros) Wraps and manipulates loggers for python as python has no macros </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::logger</label>
+        <link refid="classgr_1_1logger"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>d_logger</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::shared_ptr&lt; spdlog::logger &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" line="118" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/logger.h" bodystart="119" bodyend="247"/>
+    <listofallmembers>
+      <member refid="classgr_1_1logger_1a023e0ecfdc2739031b952e1b17e1f515" prot="private" virt="non-virtual"><scope>gr::logger</scope><name>_name</name></member>
+      <member refid="classgr_1_1logger_1a03ca8e5ef7d6cbc9529dc7166a37d535" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>alert</name></member>
+      <member refid="classgr_1_1logger_1a635f1acace22e2554d046145bfbd2fb2" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>crit</name></member>
+      <member refid="classgr_1_1logger_1a61898a4fa5b86d8b3b6c43ffd7b01280" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>d_logger</name></member>
+      <member refid="classgr_1_1logger_1a83b5d51cea1d2811e1aa0be5e6ddfcf4" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>debug</name></member>
+      <member refid="classgr_1_1logger_1ac11fee79525c99eb8e5b6cf097733d3f" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>emerg</name></member>
+      <member refid="classgr_1_1logger_1a3ae117ca132383dbdf8090b2fca7181f" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>error</name></member>
+      <member refid="classgr_1_1logger_1abc2f4b77044a46e609e4c2459ff12dde" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>fatal</name></member>
+      <member refid="classgr_1_1logger_1a0ca791cb3efbe5b7c9ca6b3a4a19e047" prot="private" virt="non-virtual"><scope>gr::logger</scope><name>format_string_t</name></member>
+      <member refid="classgr_1_1logger_1a2134fe5ce035edbc10c4de3a4560e42c" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>get_level</name></member>
+      <member refid="classgr_1_1logger_1ac62524869e47187f7d331c7d277251b1" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>get_level</name></member>
+      <member refid="classgr_1_1logger_1ad75426e2df998b69b8cc3b6e1e2d3262" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>get_string_level</name></member>
+      <member refid="classgr_1_1logger_1a6f2984faa6d784bec89b71514229367a" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>info</name></member>
+      <member refid="classgr_1_1logger_1a50a7ede690bae35506cfab4babff4c3d" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>log</name></member>
+      <member refid="classgr_1_1logger_1a8d89c21585dd4355c8725f8ea65d8648" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>logger</name></member>
+      <member refid="classgr_1_1logger_1a9b7e4779bf7407dd0667aa2f40112ccc" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>name</name></member>
+      <member refid="classgr_1_1logger_1aa4dd33f8f514290fdfcd5d6708d3dc1c" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>notice</name></member>
+      <member refid="classgr_1_1logger_1aa66820ef56990a624a4d6103e9684f9b" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>set_level</name></member>
+      <member refid="classgr_1_1logger_1a9e8c99a38a07803350b5525461f52543" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>set_level</name></member>
+      <member refid="classgr_1_1logger_1a03db907e5508654a2601068db0f7f0b2" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>set_name</name></member>
+      <member refid="classgr_1_1logger_1a4cdede6e911324f263a531f9892a95b2" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>trace</name></member>
+      <member refid="classgr_1_1logger_1ae44e5cf9680686ba3b7e867d6d9088c4" prot="private" virt="non-virtual"><scope>gr::logger</scope><name>underlying_logger_ptr</name></member>
+      <member refid="classgr_1_1logger_1afa794529d3a33864ae9784f45fa8bba6" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>warn</name></member>
+      <member refid="classgr_1_1logger_1a57c4c8eac635d8f6c6a189b0563757fc" prot="public" virt="non-virtual"><scope>gr::logger</scope><name>~logger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

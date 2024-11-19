@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classMarkerAlphaMenu" kind="class" language="C++" prot="public">
+    <compoundname>MarkerAlphaMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMenu</basecompoundref>
+    <includes refid="form__menus_8h" local="no">gnuradio/qtgui/form_menus.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMarkerAlphaMenu_1a9116c15f9ca780a04ef25262192b0854" prot="private" static="no" mutable="no">
+        <type>QActionGroup *</type>
+        <definition>QActionGroup* MarkerAlphaMenu::d_grp</definition>
+        <argsstring></argsstring>
+        <name>d_grp</name>
+        <qualifiedname>MarkerAlphaMenu::d_grp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="403" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMarkerAlphaMenu_1a02662e094601a00bc5ca6006a66ba5e3" prot="private" static="no" mutable="no">
+        <type>QList&lt; QAction * &gt;</type>
+        <definition>QList&lt;QAction*&gt; MarkerAlphaMenu::d_act</definition>
+        <argsstring></argsstring>
+        <name>d_act</name>
+        <qualifiedname>MarkerAlphaMenu::d_act</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="404" column="11" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="404" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMarkerAlphaMenu_1a77174fc49bebb4acc728fc1c6d3b82cb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MarkerAlphaMenu::d_which</definition>
+        <argsstring></argsstring>
+        <name>d_which</name>
+        <qualifiedname>MarkerAlphaMenu::d_which</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="405" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="405" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMarkerAlphaMenu_1a573c61dc35949d1d877753c00383085b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MarkerAlphaMenu::MarkerAlphaMenu</definition>
+        <argsstring>(unsigned int which, QWidget *parent)</argsstring>
+        <name>MarkerAlphaMenu</name>
+        <qualifiedname>MarkerAlphaMenu::MarkerAlphaMenu</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="354" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="354" bodyend="378"/>
+        <references refid="classMarkerAlphaMenu_1ad0eed14ca14d1a72c3b339f0e39c6dcb" compoundref="form__menus_8h" startline="399" endline="399">getHigh</references>
+        <references refid="classMarkerAlphaMenu_1aecfe801856d3827b7550a8623f2630a6" compoundref="form__menus_8h" startline="397" endline="397">getLow</references>
+        <references refid="classMarkerAlphaMenu_1a4c3d0ad6abedfbfaee1ff034d26fa27e" compoundref="form__menus_8h" startline="398" endline="398">getMedium</references>
+        <references refid="classMarkerAlphaMenu_1af76153f8130924c3bd239b9964671851" compoundref="form__menus_8h" startline="396" endline="396">getNone</references>
+        <references refid="classMarkerAlphaMenu_1a1daea0467643591c41b4b043bf39c823" compoundref="form__menus_8h" startline="400" endline="400">getOff</references>
+      </memberdef>
+      <memberdef kind="function" id="classMarkerAlphaMenu_1aae22373a3cb9cd7c7c206944113d2a0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MarkerAlphaMenu::~MarkerAlphaMenu</definition>
+        <argsstring>() override</argsstring>
+        <name>~MarkerAlphaMenu</name>
+        <qualifiedname>MarkerAlphaMenu::~MarkerAlphaMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="380" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="380" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="classMarkerAlphaMenu_1ab2f6f1eb00b209014cc5a38cb4e03ced" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MarkerAlphaMenu::getNumActions</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumActions</name>
+        <qualifiedname>MarkerAlphaMenu::getNumActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="382" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="382" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classMarkerAlphaMenu_1a5ec7370f80b672f6f49250de4827161c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * MarkerAlphaMenu::getAction</definition>
+        <argsstring>(unsigned int which)</argsstring>
+        <name>getAction</name>
+        <qualifiedname>MarkerAlphaMenu::getAction</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="384" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="384" bodyend="390"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classMarkerAlphaMenu_1ae45cad23d68cbdfe5464acebafae362e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MarkerAlphaMenu::whichTrigger</definition>
+        <argsstring>(unsigned int which, unsigned int)</argsstring>
+        <name>whichTrigger</name>
+        <qualifiedname>MarkerAlphaMenu::whichTrigger</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="393" column="10"/>
+        <referencedby refid="classMarkerAlphaMenu_1ad0eed14ca14d1a72c3b339f0e39c6dcb" compoundref="form__menus_8h" startline="399" endline="399">getHigh</referencedby>
+        <referencedby refid="classMarkerAlphaMenu_1aecfe801856d3827b7550a8623f2630a6" compoundref="form__menus_8h" startline="397" endline="397">getLow</referencedby>
+        <referencedby refid="classMarkerAlphaMenu_1a4c3d0ad6abedfbfaee1ff034d26fa27e" compoundref="form__menus_8h" startline="398" endline="398">getMedium</referencedby>
+        <referencedby refid="classMarkerAlphaMenu_1af76153f8130924c3bd239b9964671851" compoundref="form__menus_8h" startline="396" endline="396">getNone</referencedby>
+        <referencedby refid="classMarkerAlphaMenu_1a1daea0467643591c41b4b043bf39c823" compoundref="form__menus_8h" startline="400" endline="400">getOff</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classMarkerAlphaMenu_1af76153f8130924c3bd239b9964671851" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MarkerAlphaMenu::getNone</definition>
+        <argsstring>()</argsstring>
+        <name>getNone</name>
+        <qualifiedname>MarkerAlphaMenu::getNone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="396" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="396" bodyend="396"/>
+        <references refid="classMarkerAlphaMenu_1ae45cad23d68cbdfe5464acebafae362e">whichTrigger</references>
+        <referencedby refid="classMarkerAlphaMenu_1a573c61dc35949d1d877753c00383085b" compoundref="form__menus_8h" startline="354" endline="378">MarkerAlphaMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMarkerAlphaMenu_1aecfe801856d3827b7550a8623f2630a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MarkerAlphaMenu::getLow</definition>
+        <argsstring>()</argsstring>
+        <name>getLow</name>
+        <qualifiedname>MarkerAlphaMenu::getLow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="397" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="397" bodyend="397"/>
+        <references refid="classMarkerAlphaMenu_1ae45cad23d68cbdfe5464acebafae362e">whichTrigger</references>
+        <referencedby refid="classMarkerAlphaMenu_1a573c61dc35949d1d877753c00383085b" compoundref="form__menus_8h" startline="354" endline="378">MarkerAlphaMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMarkerAlphaMenu_1a4c3d0ad6abedfbfaee1ff034d26fa27e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MarkerAlphaMenu::getMedium</definition>
+        <argsstring>()</argsstring>
+        <name>getMedium</name>
+        <qualifiedname>MarkerAlphaMenu::getMedium</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="398" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="398" bodyend="398"/>
+        <references refid="classMarkerAlphaMenu_1ae45cad23d68cbdfe5464acebafae362e">whichTrigger</references>
+        <referencedby refid="classMarkerAlphaMenu_1a573c61dc35949d1d877753c00383085b" compoundref="form__menus_8h" startline="354" endline="378">MarkerAlphaMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMarkerAlphaMenu_1ad0eed14ca14d1a72c3b339f0e39c6dcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MarkerAlphaMenu::getHigh</definition>
+        <argsstring>()</argsstring>
+        <name>getHigh</name>
+        <qualifiedname>MarkerAlphaMenu::getHigh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="399" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="399" bodyend="399"/>
+        <references refid="classMarkerAlphaMenu_1ae45cad23d68cbdfe5464acebafae362e">whichTrigger</references>
+        <referencedby refid="classMarkerAlphaMenu_1a573c61dc35949d1d877753c00383085b" compoundref="form__menus_8h" startline="354" endline="378">MarkerAlphaMenu</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMarkerAlphaMenu_1a1daea0467643591c41b4b043bf39c823" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MarkerAlphaMenu::getOff</definition>
+        <argsstring>()</argsstring>
+        <name>getOff</name>
+        <qualifiedname>MarkerAlphaMenu::getOff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="400" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="400" bodyend="400"/>
+        <references refid="classMarkerAlphaMenu_1ae45cad23d68cbdfe5464acebafae362e">whichTrigger</references>
+        <referencedby refid="classMarkerAlphaMenu_1a573c61dc35949d1d877753c00383085b" compoundref="form__menus_8h" startline="354" endline="378">MarkerAlphaMenu</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MarkerAlphaMenu</label>
+        <link refid="classMarkerAlphaMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MarkerAlphaMenu</label>
+        <link refid="classMarkerAlphaMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMenu</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="349" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="350" bodyend="406"/>
+    <listofallmembers>
+      <member refid="classMarkerAlphaMenu_1a02662e094601a00bc5ca6006a66ba5e3" prot="private" virt="non-virtual"><scope>MarkerAlphaMenu</scope><name>d_act</name></member>
+      <member refid="classMarkerAlphaMenu_1a9116c15f9ca780a04ef25262192b0854" prot="private" virt="non-virtual"><scope>MarkerAlphaMenu</scope><name>d_grp</name></member>
+      <member refid="classMarkerAlphaMenu_1a77174fc49bebb4acc728fc1c6d3b82cb" prot="private" virt="non-virtual"><scope>MarkerAlphaMenu</scope><name>d_which</name></member>
+      <member refid="classMarkerAlphaMenu_1a5ec7370f80b672f6f49250de4827161c" prot="public" virt="non-virtual"><scope>MarkerAlphaMenu</scope><name>getAction</name></member>
+      <member refid="classMarkerAlphaMenu_1ad0eed14ca14d1a72c3b339f0e39c6dcb" prot="public" virt="non-virtual"><scope>MarkerAlphaMenu</scope><name>getHigh</name></member>
+      <member refid="classMarkerAlphaMenu_1aecfe801856d3827b7550a8623f2630a6" prot="public" virt="non-virtual"><scope>MarkerAlphaMenu</scope><name>getLow</name></member>
+      <member refid="classMarkerAlphaMenu_1a4c3d0ad6abedfbfaee1ff034d26fa27e" prot="public" virt="non-virtual"><scope>MarkerAlphaMenu</scope><name>getMedium</name></member>
+      <member refid="classMarkerAlphaMenu_1af76153f8130924c3bd239b9964671851" prot="public" virt="non-virtual"><scope>MarkerAlphaMenu</scope><name>getNone</name></member>
+      <member refid="classMarkerAlphaMenu_1ab2f6f1eb00b209014cc5a38cb4e03ced" prot="public" virt="non-virtual"><scope>MarkerAlphaMenu</scope><name>getNumActions</name></member>
+      <member refid="classMarkerAlphaMenu_1a1daea0467643591c41b4b043bf39c823" prot="public" virt="non-virtual"><scope>MarkerAlphaMenu</scope><name>getOff</name></member>
+      <member refid="classMarkerAlphaMenu_1a573c61dc35949d1d877753c00383085b" prot="public" virt="non-virtual"><scope>MarkerAlphaMenu</scope><name>MarkerAlphaMenu</name></member>
+      <member refid="classMarkerAlphaMenu_1ae45cad23d68cbdfe5464acebafae362e" prot="public" virt="non-virtual"><scope>MarkerAlphaMenu</scope><name>whichTrigger</name></member>
+      <member refid="classMarkerAlphaMenu_1aae22373a3cb9cd7c7c206944113d2a0e" prot="public" virt="non-virtual"><scope>MarkerAlphaMenu</scope><name>~MarkerAlphaMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

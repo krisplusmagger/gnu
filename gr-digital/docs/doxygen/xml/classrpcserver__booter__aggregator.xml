@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classrpcserver__booter__aggregator" kind="class" language="C++" prot="public">
+    <compoundname>rpcserver_booter_aggregator</compoundname>
+    <basecompoundref refid="classrpcserver__booter__base" prot="public" virt="virtual">rpcserver_booter_base</basecompoundref>
+    <includes refid="rpcserver__booter__aggregator_8h" local="no">gnuradio/rpcserver_booter_aggregator.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classrpcserver__booter__aggregator_1a7d984515e304419da0d28b844053826b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class rpcmanager</definition>
+        <argsstring></argsstring>
+        <name>rpcmanager</name>
+        <qualifiedname>rpcserver_booter_aggregator::rpcmanager</qualifiedname>
+        <param>
+          <type><ref refid="classrpcmanager" kindref="compound">rpcmanager</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h" line="35" column="18" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classrpcserver__booter__aggregator_1a540715f7cdf4fc20a2df4da2cdd6b08e" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string rpcserver_booter_aggregator::d_type</definition>
+        <argsstring></argsstring>
+        <name>d_type</name>
+        <qualifiedname>rpcserver_booter_aggregator::d_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h" line="39" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrpcserver__booter__aggregator_1a330cb88a472a66f9e0eba5b154afb631" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classrpcserver__aggregator" kindref="compound">rpcserver_aggregator</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;rpcserver_aggregator&gt; rpcserver_booter_aggregator::server</definition>
+        <argsstring></argsstring>
+        <name>server</name>
+        <qualifiedname>rpcserver_booter_aggregator::server</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h" line="40" column="21" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrpcserver__booter__aggregator_1ad0683cb579e86a020188917d0772ac53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rpcserver_booter_aggregator::rpcserver_booter_aggregator</definition>
+        <argsstring>()</argsstring>
+        <name>rpcserver_booter_aggregator</name>
+        <qualifiedname>rpcserver_booter_aggregator::rpcserver_booter_aggregator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h" line="25" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcserver__booter__aggregator_1a4f45cbcc00457290371337717171b41b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rpcserver_booter_aggregator::~rpcserver_booter_aggregator</definition>
+        <argsstring>() override</argsstring>
+        <name>~rpcserver_booter_aggregator</name>
+        <qualifiedname>rpcserver_booter_aggregator::~rpcserver_booter_aggregator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h" line="26" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcserver__booter__aggregator_1a1abb5061b39b10e563275fcbf759464c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classrpcserver__base" kindref="compound">rpcserver_base</ref> *</type>
+        <definition>rpcserver_base * rpcserver_booter_aggregator::i</definition>
+        <argsstring>() override</argsstring>
+        <name>i</name>
+        <qualifiedname>rpcserver_booter_aggregator::i</qualifiedname>
+        <reimplements refid="classrpcserver__booter__base_1aa6e5532f1193df5bff6bc34645982c67">i</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h" line="28" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcserver__booter__aggregator_1ae043534c835365a31ff9154d1e2d59e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string &amp; rpcserver_booter_aggregator::type</definition>
+        <argsstring>() override</argsstring>
+        <name>type</name>
+        <qualifiedname>rpcserver_booter_aggregator::type</qualifiedname>
+        <reimplements refid="classrpcserver__booter__base_1a1ec6498d684b39ee79233b43b96d9952">type</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h" line="29" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcserver__booter__aggregator_1a25110aca5bd446d59f780fc689a1690e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>const std::vector&lt; std::string &gt;</type>
+        <definition>const std::vector&lt; std::string &gt; rpcserver_booter_aggregator::endpoints</definition>
+        <argsstring>() override</argsstring>
+        <name>endpoints</name>
+        <qualifiedname>rpcserver_booter_aggregator::endpoints</qualifiedname>
+        <reimplements refid="classrpcserver__booter__base_1ad91b8016dc178034c777f40bd0749130">endpoints</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h" line="30" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classrpcserver__booter__aggregator_1a483d6bfaadce0f5ec9686c0f7af7c80a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; std::string &gt; &amp;</type>
+        <definition>const std::vector&lt; std::string &gt; &amp; rpcserver_booter_aggregator::registeredServers</definition>
+        <argsstring>()</argsstring>
+        <name>registeredServers</name>
+        <qualifiedname>rpcserver_booter_aggregator::registeredServers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h" line="32" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classrpcserver__booter__aggregator_1a62a6351925bd013abf36a847ca1fb533" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classrpcserver__aggregator" kindref="compound">rpcserver_aggregator</ref> *</type>
+        <definition>rpcserver_aggregator * rpcserver_booter_aggregator::agg</definition>
+        <argsstring>()</argsstring>
+        <name>agg</name>
+        <qualifiedname>rpcserver_booter_aggregator::agg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h" line="36" column="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>rpcserver_booter_aggregator</label>
+        <link refid="classrpcserver__booter__aggregator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>rpcserver_booter_base</label>
+        <link refid="classrpcserver__booter__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>rpcserver_booter_aggregator</label>
+        <link refid="classrpcserver__booter__aggregator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>rpcserver_booter_base</label>
+        <link refid="classrpcserver__booter__base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h" line="22" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h" bodystart="23" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classrpcserver__booter__aggregator_1a62a6351925bd013abf36a847ca1fb533" prot="protected" virt="non-virtual"><scope>rpcserver_booter_aggregator</scope><name>agg</name></member>
+      <member refid="classrpcserver__booter__aggregator_1a540715f7cdf4fc20a2df4da2cdd6b08e" prot="private" virt="non-virtual"><scope>rpcserver_booter_aggregator</scope><name>d_type</name></member>
+      <member refid="classrpcserver__booter__aggregator_1a25110aca5bd446d59f780fc689a1690e" prot="public" virt="virtual"><scope>rpcserver_booter_aggregator</scope><name>endpoints</name></member>
+      <member refid="classrpcserver__booter__aggregator_1a1abb5061b39b10e563275fcbf759464c" prot="public" virt="virtual"><scope>rpcserver_booter_aggregator</scope><name>i</name></member>
+      <member refid="classrpcserver__booter__aggregator_1a483d6bfaadce0f5ec9686c0f7af7c80a" prot="public" virt="non-virtual"><scope>rpcserver_booter_aggregator</scope><name>registeredServers</name></member>
+      <member refid="classrpcserver__booter__aggregator_1a7d984515e304419da0d28b844053826b" prot="protected" virt="non-virtual"><scope>rpcserver_booter_aggregator</scope><name>rpcmanager</name></member>
+      <member refid="classrpcserver__booter__aggregator_1ad0683cb579e86a020188917d0772ac53" prot="public" virt="non-virtual"><scope>rpcserver_booter_aggregator</scope><name>rpcserver_booter_aggregator</name></member>
+      <member refid="classrpcserver__booter__base_1adffeca7b8541f70d9a62a6c36b59b83e" prot="public" virt="non-virtual"><scope>rpcserver_booter_aggregator</scope><name>rpcserver_booter_base</name></member>
+      <member refid="classrpcserver__booter__aggregator_1a330cb88a472a66f9e0eba5b154afb631" prot="private" virt="non-virtual"><scope>rpcserver_booter_aggregator</scope><name>server</name></member>
+      <member refid="classrpcserver__booter__aggregator_1ae043534c835365a31ff9154d1e2d59e9" prot="public" virt="virtual"><scope>rpcserver_booter_aggregator</scope><name>type</name></member>
+      <member refid="classrpcserver__booter__aggregator_1a4f45cbcc00457290371337717171b41b" prot="public" virt="non-virtual"><scope>rpcserver_booter_aggregator</scope><name>~rpcserver_booter_aggregator</name></member>
+      <member refid="classrpcserver__booter__base_1afd437c9750e290e6239d9f018ef8ead5" prot="public" virt="virtual"><scope>rpcserver_booter_aggregator</scope><name>~rpcserver_booter_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

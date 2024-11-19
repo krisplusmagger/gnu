@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1fft" kind="namespace" language="C++">
+    <compoundname>gr::fft</compoundname>
+    <innerclass refid="classgr_1_1fft_1_1ctrlport__probe__psd" prot="public">gr::fft::ctrlport_probe_psd</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1fft" prot="public">gr::fft::fft</innerclass>
+    <innerclass refid="structgr_1_1fft_1_1fft__inbuf" prot="public">gr::fft::fft_inbuf</innerclass>
+    <innerclass refid="structgr_1_1fft_1_1fft__inbuf_3_01float_00_01false_01_4" prot="public">gr::fft::fft_inbuf&lt; float, false &gt;</innerclass>
+    <innerclass refid="structgr_1_1fft_1_1fft__outbuf" prot="public">gr::fft::fft_outbuf</innerclass>
+    <innerclass refid="structgr_1_1fft_1_1fft__outbuf_3_01float_00_01true_01_4" prot="public">gr::fft::fft_outbuf&lt; float, true &gt;</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1fft__shift" prot="public">gr::fft::fft_shift</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1fft__v" prot="public">gr::fft::fft_v</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1goertzel" prot="public">gr::fft::goertzel</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1goertzel__fc" prot="public">gr::fft::goertzel_fc</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1planner" prot="public">gr::fft::planner</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1window" prot="public">gr::fft::window</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacegr_1_1fft_1a8dc01914ec33ee81d687fede5e70bad6" prot="public" static="no">
+        <type><ref refid="classgr_1_1fft_1_1fft" kindref="compound">fft</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, true &gt;</type>
+        <definition>using gr::fft::fft_complex_fwd = typedef fft&lt;gr_complex, true&gt;</definition>
+        <argsstring></argsstring>
+        <name>fft_complex_fwd</name>
+        <qualifiedname>gr::fft::fft_complex_fwd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="113" column="1" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1fft_1a794fc220dc61c201161c84bba6e22581" prot="public" static="no">
+        <type><ref refid="classgr_1_1fft_1_1fft" kindref="compound">fft</ref>&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref>, false &gt;</type>
+        <definition>using gr::fft::fft_complex_rev = typedef fft&lt;gr_complex, false&gt;</definition>
+        <argsstring></argsstring>
+        <name>fft_complex_rev</name>
+        <qualifiedname>gr::fft::fft_complex_rev</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="114" column="1" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1fft_1afe453381439b7d9aa79d248495fd2d14" prot="public" static="no">
+        <type><ref refid="classgr_1_1fft_1_1fft" kindref="compound">fft</ref>&lt; float, true &gt;</type>
+        <definition>using gr::fft::fft_real_fwd = typedef fft&lt;float, true&gt;</definition>
+        <argsstring></argsstring>
+        <name>fft_real_fwd</name>
+        <qualifiedname>gr::fft::fft_real_fwd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="115" column="1" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1fft_1aea50b95d50464a11acc432839ae6e023" prot="public" static="no">
+        <type><ref refid="classgr_1_1fft_1_1fft" kindref="compound">fft</ref>&lt; float, false &gt;</type>
+        <definition>using gr::fft::fft_real_rev = typedef fft&lt;float, false&gt;</definition>
+        <argsstring></argsstring>
+        <name>fft_real_rev</name>
+        <qualifiedname>gr::fft::fft_real_rev</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" line="116" column="1" bodyfile="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/fft.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-fft/include/gnuradio/fft/ctrlport_probe_psd.h" line="18" column="1"/>
+  </compounddef>
+</doxygen>

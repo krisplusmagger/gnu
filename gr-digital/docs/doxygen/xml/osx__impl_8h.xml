@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="osx__impl_8h" kind="file" language="C++">
+    <compoundname>osx_impl.h</compoundname>
+    <includes refid="gr-audio_2include_2gnuradio_2audio_2api_8h" local="no">gnuradio/audio/api.h</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">AudioToolbox/AudioToolbox.h</includes>
+    <includes local="no">AudioUnit/AudioUnit.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="2">
+        <label>gnuradio/audio/api.h</label>
+        <link refid="gr-audio_2include_2gnuradio_2audio_2api_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>osx_impl.h</label>
+        <link refid="osx__impl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>AudioToolbox/AudioToolbox.h</label>
+      </node>
+      <node id="7">
+        <label>AudioUnit/AudioUnit.h</label>
+      </node>
+      <node id="5">
+        <label>string.h</label>
+      </node>
+      <node id="4">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1audio">gr::audio</innernamespace>
+    <innernamespace refid="namespacegr_1_1audio_1_1osx">gr::audio::osx</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="osx__impl_8h_1ad7398ed30d861d6b2704aa2ad63944aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;<ref refid="gr-audio_2include_2gnuradio_2audio_2api_8h_1a222adfe41ab381b8e026445ba45db5a1" kindref="member">GR_AUDIO_API</ref></type>
+        <definition>std::ostream &amp;GR_AUDIO_API operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;s, const AudioStreamBasicDescription &amp;asbd)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const AudioStreamBasicDescription &amp;</type>
+          <declname>asbd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-audio/include/gnuradio/audio/osx_impl.h" line="25" column="14" declfile="/home/desktop2/gnuradio/gr-audio/include/gnuradio/audio/osx_impl.h" declline="25" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-audio/include/gnuradio/audio/osx_impl.h"/>
+  </compounddef>
+</doxygen>

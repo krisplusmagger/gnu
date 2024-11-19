@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="ofdm__frame__equalizer__vcvc__pydoc_8h" kind="file" language="C++">
+    <compoundname>ofdm_frame_equalizer_vcvc_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>ofdm_frame_equalizer_vcvc_pydoc.h</label>
+        <link refid="ofdm__frame__equalizer__vcvc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="ofdm__frame__equalizer__vcvc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_frame_equalizer_vcvc_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_frame_equalizer_vcvc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="ofdm__frame__equalizer__vcvc__pydoc_8h_1a6744e92e4804131c23c91cd34e64bae8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_frame_equalizer_vcvc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_frame_equalizer_vcvc</name>
+        <initializer>= R&quot;doc(OFDM frame equalizer.
+
+Performs equalization in one or two dimensions on a tagged OFDM frame.
+
+
+This does two things: First, it removes the coarse carrier offset. If a tag is found on the first item with the key &apos;ofdm_sync_carr_offset&apos;, this is interpreted as the coarse frequency offset in number of carriers. Next, it performs equalization in one or two dimensions on a tagged OFDM frame. The actual equalization is done by a ofdm_frame_equalizer object, outside of the block.
+
+
+Note that the tag with the coarse carrier offset is not removed. Blocks downstream from this block must not attempt to also correct this offset.
+
+
+Input: a tagged series of OFDM symbols. Output: The same as the input, but equalized and frequency-corrected.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    equalizer : The equalizer object that will do the actual work
+    cp_len : Length of the cyclic prefix in samples (required to correct the frequency offset)
+    tsb_key : TSB key
+    propagate_channel_state : If true, the channel state after the last symbol will be added to the first symbol as a tag
+    fixed_frame_len : Set if the frame length is fixed. When this value is given, the TSB tag key can be left empty, but it is useful even when using tagged streams at the input.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_frame_equalizer_vcvc_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_frame_equalizer_vcvc_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__frame__equalizer__vcvc__pydoc_8h_1ae4d8dc1c7cd2fb72d76c5bee4fdd9c4e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_frame_equalizer_vcvc_ofdm_frame_equalizer_vcvc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_frame_equalizer_vcvc_ofdm_frame_equalizer_vcvc</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_frame_equalizer_vcvc_pydoc.h" line="43" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_frame_equalizer_vcvc_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__frame__equalizer__vcvc__pydoc_8h_1a9ed173bf6c285840714e867d2f0a4a5a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_frame_equalizer_vcvc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_frame_equalizer_vcvc_make</name>
+        <initializer>= R&quot;doc(OFDM frame equalizer.
+
+Performs equalization in one or two dimensions on a tagged OFDM frame.
+
+
+This does two things: First, it removes the coarse carrier offset. If a tag is found on the first item with the key &apos;ofdm_sync_carr_offset&apos;, this is interpreted as the coarse frequency offset in number of carriers. Next, it performs equalization in one or two dimensions on a tagged OFDM frame. The actual equalization is done by a ofdm_frame_equalizer object, outside of the block.
+
+
+Note that the tag with the coarse carrier offset is not removed. Blocks downstream from this block must not attempt to also correct this offset.
+
+
+Input: a tagged series of OFDM symbols. Output: The same as the input, but equalized and frequency-corrected.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    equalizer : The equalizer object that will do the actual work
+    cp_len : Length of the cyclic prefix in samples (required to correct the frequency offset)
+    tsb_key : TSB key
+    propagate_channel_state : If true, the channel state after the last symbol will be added to the first symbol as a tag
+    fixed_frame_len : Set if the frame length is fixed. When this value is given, the TSB tag key can be left empty, but it is useful even when using tagged streams at the input.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_frame_equalizer_vcvc_pydoc.h" line="47" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_frame_equalizer_vcvc_pydoc.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_frame_equalizer_vcvc_pydoc.h"/>
+  </compounddef>
+</doxygen>

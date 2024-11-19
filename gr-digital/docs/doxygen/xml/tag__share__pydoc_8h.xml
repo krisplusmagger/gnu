@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="tag__share__pydoc_8h" kind="file" language="C++">
+    <compoundname>tag_share_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>tag_share_pydoc.h</label>
+        <link refid="tag__share__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="tag__share__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_share_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_share_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="tag__share__pydoc_8h_1afd62fec96a1375b120bc0184e2466c5b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tag_share</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tag_share</name>
+        <initializer>= R&quot;doc(Adds tags from Input 1 onto Input 0&apos;s stream.
+
+This block utilizes the GNU Radio runtime&apos;s tag propagation policy to transfer or share Input 1&apos;s tags to Input 0&apos;s stream. This is useful when a signal is detected via a correlate_access_code_bb or a threshold crossing from a complex_to_mag_squared block. The tag from that detection is on the alternate stream, either bytes or floats. Often there is further signal processing that should be done on the complex stream. This block allows the detection tags to be added to the complex stream to trigger downstream processing without the need of redundant trigger inputs on all subsequent blocks.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    sizeof_io_item : The size of the Input 0/Output 0 stream type. Input 0 stream items will be directly copied to Output 0.
+    sizeof_share_item : The size of the Input 1 (tag share) stream type. This stream type does not have to match the input/output stream type. Tags from Input 1&apos;s items will be combined with Input 0&apos;s item tags and outputted on Output 0.
+    vlen : The vector size of the input and output stream items)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_share_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_share_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tag__share__pydoc_8h_1a890525a99c5794d7d96afc66515e66ee" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tag_share_tag_share</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tag_share_tag_share</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_share_pydoc.h" line="32" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_share_pydoc.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="tag__share__pydoc_8h_1a4b6da7e8d24bfa7f3aab99f4f7764f4f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_tag_share_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_tag_share_make</name>
+        <initializer>= R&quot;doc(Adds tags from Input 1 onto Input 0&apos;s stream.
+
+This block utilizes the GNU Radio runtime&apos;s tag propagation policy to transfer or share Input 1&apos;s tags to Input 0&apos;s stream. This is useful when a signal is detected via a correlate_access_code_bb or a threshold crossing from a complex_to_mag_squared block. The tag from that detection is on the alternate stream, either bytes or floats. Often there is further signal processing that should be done on the complex stream. This block allows the detection tags to be added to the complex stream to trigger downstream processing without the need of redundant trigger inputs on all subsequent blocks.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    sizeof_io_item : The size of the Input 0/Output 0 stream type. Input 0 stream items will be directly copied to Output 0.
+    sizeof_share_item : The size of the Input 1 (tag share) stream type. This stream type does not have to match the input/output stream type. Tags from Input 1&apos;s items will be combined with Input 0&apos;s item tags and outputted on Output 0.
+    vlen : The vector size of the input and output stream items)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_share_pydoc.h" line="35" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_share_pydoc.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/tag_share_pydoc.h"/>
+  </compounddef>
+</doxygen>

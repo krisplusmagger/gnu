@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classPlotWaterfall" kind="class" language="C++" prot="public">
+    <compoundname>PlotWaterfall</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QwtPlotRasterItem</basecompoundref>
+    <includes refid="plot__waterfall_8h" local="no">gnuradio/qtgui/plot_waterfall.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPlotWaterfall_1a001d8e0fa181ee0b2af962ff6f3fff32" prot="private" static="no" mutable="no">
+        <type>PrivateData *</type>
+        <definition>PrivateData* PlotWaterfall::d_data</definition>
+        <argsstring></argsstring>
+        <name>d_data</name>
+        <qualifiedname>PlotWaterfall::d_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_waterfall.h" line="56" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_waterfall.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPlotWaterfall_1ae92aae4c7a66f169abf9f3c024dd3b7b" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlotWaterfall::PlotWaterfall</definition>
+        <argsstring>(WaterfallData *data, const QString &amp;title=QString())</argsstring>
+        <name>PlotWaterfall</name>
+        <qualifiedname>PlotWaterfall::PlotWaterfall</qualifiedname>
+        <param>
+          <type><ref refid="classWaterfallData" kindref="compound">WaterfallData</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>title</declname>
+          <defval>QString()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_waterfall.h" line="37" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classPlotWaterfall_1a802e5a07ede86d2dee5f16b6b3deacec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlotWaterfall::~PlotWaterfall</definition>
+        <argsstring>() override</argsstring>
+        <name>~PlotWaterfall</name>
+        <qualifiedname>PlotWaterfall::~PlotWaterfall</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_waterfall.h" line="38" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classPlotWaterfall_1a55ef51f3d291f58e0048dd240807e3f6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classWaterfallData" kindref="compound">WaterfallData</ref> *</type>
+        <definition>const WaterfallData * PlotWaterfall::data</definition>
+        <argsstring>() const</argsstring>
+        <name>data</name>
+        <qualifiedname>PlotWaterfall::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_waterfall.h" line="40" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classPlotWaterfall_1a601291d3e35516dbf4da74744ad6a44a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlotWaterfall::setColorMap</definition>
+        <argsstring>(const QwtColorMap &amp;)</argsstring>
+        <name>setColorMap</name>
+        <qualifiedname>PlotWaterfall::setColorMap</qualifiedname>
+        <param>
+          <type>const QwtColorMap &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_waterfall.h" line="42" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classPlotWaterfall_1a6464020077e56ec684058d56b9624d68" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QwtColorMap &amp;</type>
+        <definition>const QwtColorMap &amp; PlotWaterfall::colorMap</definition>
+        <argsstring>() const</argsstring>
+        <name>colorMap</name>
+        <qualifiedname>PlotWaterfall::colorMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_waterfall.h" line="44" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classPlotWaterfall_1a5cbf40ec42421a67df60b98b923d908a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PlotWaterfall::rtti</definition>
+        <argsstring>() const override</argsstring>
+        <name>rtti</name>
+        <qualifiedname>PlotWaterfall::rtti</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_waterfall.h" line="46" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classPlotWaterfall_1a88b8df82920ff65c62396c91cfcffeb5" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QImage</type>
+        <definition>QImage PlotWaterfall::renderImage</definition>
+        <argsstring>(const QwtScaleMap &amp;xMap, const QwtScaleMap &amp;yMap, const QRectF &amp;rect, const QSize &amp;size=QSize(0, 0)) const override</argsstring>
+        <name>renderImage</name>
+        <qualifiedname>PlotWaterfall::renderImage</qualifiedname>
+        <param>
+          <type>const QwtScaleMap &amp;</type>
+          <declname>xMap</declname>
+        </param>
+        <param>
+          <type>const QwtScaleMap &amp;</type>
+          <declname>yMap</declname>
+        </param>
+        <param>
+          <type>const QRectF &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>const QSize &amp;</type>
+          <declname>size</declname>
+          <defval>QSize(0, 0)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_waterfall.h" line="49" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A plot item, which displays a waterfall spectrogram. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>A waterfall displays three-dimensional data, where the 3rd dimension (the intensity) is displayed using colors. The colors are calculated from the values using a color map.</para>
+<para><simplesect kind="see"><para>QwtRasterData, QwtColorMap </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PlotWaterfall</label>
+        <link refid="classPlotWaterfall"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QwtPlotRasterItem</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PlotWaterfall</label>
+        <link refid="classPlotWaterfall"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QwtPlotRasterItem</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_waterfall.h" line="34" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/plot_waterfall.h" bodystart="35" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classPlotWaterfall_1a6464020077e56ec684058d56b9624d68" prot="public" virt="non-virtual"><scope>PlotWaterfall</scope><name>colorMap</name></member>
+      <member refid="classPlotWaterfall_1a001d8e0fa181ee0b2af962ff6f3fff32" prot="private" virt="non-virtual"><scope>PlotWaterfall</scope><name>d_data</name></member>
+      <member refid="classPlotWaterfall_1a55ef51f3d291f58e0048dd240807e3f6" prot="public" virt="non-virtual"><scope>PlotWaterfall</scope><name>data</name></member>
+      <member refid="classPlotWaterfall_1ae92aae4c7a66f169abf9f3c024dd3b7b" prot="public" virt="non-virtual"><scope>PlotWaterfall</scope><name>PlotWaterfall</name></member>
+      <member refid="classPlotWaterfall_1a88b8df82920ff65c62396c91cfcffeb5" prot="protected" virt="non-virtual"><scope>PlotWaterfall</scope><name>renderImage</name></member>
+      <member refid="classPlotWaterfall_1a5cbf40ec42421a67df60b98b923d908a" prot="public" virt="non-virtual"><scope>PlotWaterfall</scope><name>rtti</name></member>
+      <member refid="classPlotWaterfall_1a601291d3e35516dbf4da74744ad6a44a" prot="public" virt="non-virtual"><scope>PlotWaterfall</scope><name>setColorMap</name></member>
+      <member refid="classPlotWaterfall_1a802e5a07ede86d2dee5f16b6b3deacec" prot="public" virt="non-virtual"><scope>PlotWaterfall</scope><name>~PlotWaterfall</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

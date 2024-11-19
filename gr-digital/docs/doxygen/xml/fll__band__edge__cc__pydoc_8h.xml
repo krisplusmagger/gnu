@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="fll__band__edge__cc__pydoc_8h" kind="file" language="C++">
+    <compoundname>fll_band_edge_cc_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>fll_band_edge_cc_pydoc.h</label>
+        <link refid="fll__band__edge__cc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="fll__band__edge__cc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="fll__band__edge__cc__pydoc_8h_1a4f8e2ddb3140abd4183fa2ed810ecf44" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_fll_band_edge_cc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_fll_band_edge_cc</name>
+        <initializer>= R&quot;doc(Frequency Lock Loop using band-edge filters.
+
+The frequency lock loop derives a band-edge filter that covers the upper and lower bandwidths of a digitally-modulated signal. The bandwidth range is determined by the excess bandwidth (e.g., rolloff factor) of the modulated signal. The placement in frequency of the band-edges is determined by the oversampling ratio (number of samples per symbol) and the excess bandwidth. The size of the filters should be fairly large so as to average over a number of symbols.
+
+
+The FLL works by filtering the upper and lower band edges into x_u(t) and x_l(t), respectively. These are combined to form cc(t) = x_u(t) + x_l(t) and ss(t) = x_u(t) - x_l(t). Combining these to form the signal e(t) = Re{cc(t) \\times ss(t)^*} (where ^* is the complex conjugate) provides an error signal at the DC term that is directly proportional to the carrier frequency. We then make a second-order loop using the error signal that is the running average of e(t).
+
+
+In practice, the above equation can be simplified by just comparing the absolute value squared of the output of both filters: abs(x_l(t))^2 - abs(x_u(t))^2 = norm(x_l(t)) - norm(x_u(t)).
+
+
+In theory, the band-edge filter is the derivative of the matched filter in frequency, (H_be(f) = frac{H(f)}{df}). In practice, this comes down to a quarter sine wave at the point of the matched filter&apos;s rolloff (if it&apos;s a raised-cosine, the derivative of a cosine is a sine). Extend this sine by another quarter wave to make a half wave around the band-edges is equivalent in time to the sum of two sinc functions. The baseband filter for the band edges is therefore derived from this sum of sincs. The band edge filters are then just the baseband signal modulated to the correct place in frequency. All of these calculations are done in the &apos;design_filter&apos; function.
+
+
+Note: We use FIR filters here because the filters have to have a flat phase response over the entire frequency range to allow their comparisons to be valid.
+
+
+It is very important that the band edge filters be the derivatives of the pulse shaping filter, and that they be linear phase. Otherwise, the variance of the error will be very large.
+
+Constructor Specific Documentation:
+
+Make an FLL block.
+
+Args:
+    samps_per_sym : (float) number of samples per symbol
+    rolloff : (float) Rolloff (excess bandwidth) of signal filter
+    filter_size : (int) number of filter <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> to generate
+    bandwidth : (float) Loop bandwidth)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fll__band__edge__cc__pydoc_8h_1a03d745cc6b942b8487f162800c85ca22" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_fll_band_edge_cc_fll_band_edge_cc_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_fll_band_edge_cc_fll_band_edge_cc_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fll__band__edge__cc__pydoc_8h_1a4e020926ff4626f9fc60f8be9214ce70" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_fll_band_edge_cc_fll_band_edge_cc_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_fll_band_edge_cc_fll_band_edge_cc_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fll__band__edge__cc__pydoc_8h_1aab7c78704c391f55a6e0a7ed1d008c88" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_fll_band_edge_cc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_fll_band_edge_cc_make</name>
+        <initializer>= R&quot;doc(Frequency Lock Loop using band-edge filters.
+
+The frequency lock loop derives a band-edge filter that covers the upper and lower bandwidths of a digitally-modulated signal. The bandwidth range is determined by the excess bandwidth (e.g., rolloff factor) of the modulated signal. The placement in frequency of the band-edges is determined by the oversampling ratio (number of samples per symbol) and the excess bandwidth. The size of the filters should be fairly large so as to average over a number of symbols.
+
+
+The FLL works by filtering the upper and lower band edges into x_u(t) and x_l(t), respectively. These are combined to form cc(t) = x_u(t) + x_l(t) and ss(t) = x_u(t) - x_l(t). Combining these to form the signal e(t) = Re{cc(t) \\times ss(t)^*} (where ^* is the complex conjugate) provides an error signal at the DC term that is directly proportional to the carrier frequency. We then make a second-order loop using the error signal that is the running average of e(t).
+
+
+In practice, the above equation can be simplified by just comparing the absolute value squared of the output of both filters: abs(x_l(t))^2 - abs(x_u(t))^2 = norm(x_l(t)) - norm(x_u(t)).
+
+
+In theory, the band-edge filter is the derivative of the matched filter in frequency, (H_be(f) = frac{H(f)}{df}). In practice, this comes down to a quarter sine wave at the point of the matched filter&apos;s rolloff (if it&apos;s a raised-cosine, the derivative of a cosine is a sine). Extend this sine by another quarter wave to make a half wave around the band-edges is equivalent in time to the sum of two sinc functions. The baseband filter for the band edges is therefore derived from this sum of sincs. The band edge filters are then just the baseband signal modulated to the correct place in frequency. All of these calculations are done in the &apos;design_filter&apos; function.
+
+
+Note: We use FIR filters here because the filters have to have a flat phase response over the entire frequency range to allow their comparisons to be valid.
+
+
+It is very important that the band edge filters be the derivatives of the pulse shaping filter, and that they be linear phase. Otherwise, the variance of the error will be very large.
+
+Constructor Specific Documentation:
+
+Make an FLL block.
+
+Args:
+    samps_per_sym : (float) number of samples per symbol
+    rolloff : (float) Rolloff (excess bandwidth) of signal filter
+    filter_size : (int) number of filter <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> to generate
+    bandwidth : (float) Loop bandwidth)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" line="54" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fll__band__edge__cc__pydoc_8h_1af2885e92122173c13591556545769504" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_fll_band_edge_cc_set_samples_per_symbol</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_fll_band_edge_cc_set_samples_per_symbol</name>
+        <initializer>= R&quot;doc(Set the number of samples per symbol.
+
+Set&apos;s the number of samples per symbol the system should use. This value is used to calculate the filter <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> and will force a recalculation.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" line="84" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fll__band__edge__cc__pydoc_8h_1a5496a700f0286ba301a2c28c9a22864c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_fll_band_edge_cc_set_rolloff</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_fll_band_edge_cc_set_rolloff</name>
+        <initializer>= R&quot;doc(Set the rolloff factor of the shaping filter.
+
+This sets the rolloff factor that is used in the pulse shaping filter and is used to calculate the filter taps. Changing this will force a recalculation of the filter taps.
+
+
+This should be the same value that is used in the transmitter&apos;s pulse shaping filter. It must be between 0 and 1 and is usually between 0.2 and 0.5 (where 0.22 and 0.35 are commonly used values).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" line="89" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fll__band__edge__cc__pydoc_8h_1a740f5df363b77fddab6bb068a38a648a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_fll_band_edge_cc_set_filter_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_fll_band_edge_cc_set_filter_size</name>
+        <initializer>= R&quot;doc(Set the number of <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> in the filter.
+
+This sets the number of <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> in the band-edge filters. Setting this will force a recalculation of the filter taps.
+
+
+This should be about the same number of <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> used in the transmitter&apos;s shaping filter and also not very large. A large number of <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> will result in a large delay between input and frequency estimation, and so will not be as accurate. Between 30 and 70 <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> is usual.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" line="97" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fll__band__edge__cc__pydoc_8h_1aa6862c556550024ec1e204119bdd9db7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_fll_band_edge_cc_samples_per_symbol</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_fll_band_edge_cc_samples_per_symbol</name>
+        <initializer>= R&quot;doc(Returns the number of sampler per symbol used for the filter.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" line="105" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fll__band__edge__cc__pydoc_8h_1a1834d9f6e50af6d1d5df3396f4ddd265" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_fll_band_edge_cc_rolloff</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_fll_band_edge_cc_rolloff</name>
+        <initializer>= R&quot;doc(Returns the rolloff factor used for the filter.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" line="108" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fll__band__edge__cc__pydoc_8h_1abb67b2f89a55ef754c5669b57ba209ce" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_fll_band_edge_cc_filter_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_fll_band_edge_cc_filter_size</name>
+        <initializer>= R&quot;doc(Returns the number of <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> of the filter.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" line="111" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="fll__band__edge__cc__pydoc_8h_1ac91b366633c6b479cb6bd85386ddd03b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_fll_band_edge_cc_print_taps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_fll_band_edge_cc_print_taps</name>
+        <initializer>= R&quot;doc(Print the <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> to screen.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" line="114" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/fll_band_edge_cc_pydoc.h"/>
+  </compounddef>
+</doxygen>

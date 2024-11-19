@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="constellation__receiver__cb__pydoc_8h" kind="file" language="C++">
+    <compoundname>constellation_receiver_cb_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>constellation_receiver_cb_pydoc.h</label>
+        <link refid="constellation__receiver__cb__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="constellation__receiver__cb__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_receiver_cb_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_receiver_cb_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="constellation__receiver__cb__pydoc_8h_1ab8b6314b3bbe7d59d1682bbd1580e9fb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_constellation_receiver_cb</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_constellation_receiver_cb</name>
+        <initializer>= R&quot;doc(This block makes hard decisions about the received symbols (using a constellation object) and also fine tunes phase synchronization.
+
+The phase and frequency synchronization are based on a Costas loop that finds the error of the incoming signal point compared to its nearest constellation point. The frequency and phase of the NCO are updated according to this error.
+
+
+Message Ports:
+
+
+set_constellation (input): Receives a PMT any containing a new <ref refid="classgr_1_1digital_1_1constellation" kindref="compound">gr::digital::constellation</ref> object. The PMT is cast back to a gr::digital::constellation_sptr and passes this to set_constellation.
+
+
+rotate_phase (input): Receives a PMT double to update the phase. The phase value passed in the message is added to the current phase of the receiver.
+
+Constructor Specific Documentation:
+
+Constructs a constellation receiver that (phase/fine freq) synchronizes and decodes constellation points specified by a constellation object.
+
+Args:
+    constellation : constellation of points for generic modulation
+    loop_bw : Loop bandwidth of the Costas Loop (~ 2pi/100)
+    fmin : minimum normalized frequency value the loop can achieve
+    fmax : maximum normalized frequency value the loop can achieve)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_receiver_cb_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_receiver_cb_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellation__receiver__cb__pydoc_8h_1a0913f419fef08c98ab504b35816334cb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_constellation_receiver_cb_constellation_receiver_cb_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_constellation_receiver_cb_constellation_receiver_cb_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_receiver_cb_pydoc.h" line="43" column="5" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_receiver_cb_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellation__receiver__cb__pydoc_8h_1a72e92608b24ad106b86fcea4382076fc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_constellation_receiver_cb_constellation_receiver_cb_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_constellation_receiver_cb_constellation_receiver_cb_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_receiver_cb_pydoc.h" line="47" column="5" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_receiver_cb_pydoc.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellation__receiver__cb__pydoc_8h_1a03ef095af8d18c705753468677dde94a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_constellation_receiver_cb_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_constellation_receiver_cb_make</name>
+        <initializer>= R&quot;doc(This block makes hard decisions about the received symbols (using a constellation object) and also fine tunes phase synchronization.
+
+The phase and frequency synchronization are based on a Costas loop that finds the error of the incoming signal point compared to its nearest constellation point. The frequency and phase of the NCO are updated according to this error.
+
+
+Message Ports:
+
+
+set_constellation (input): Receives a PMT any containing a new <ref refid="classgr_1_1digital_1_1constellation" kindref="compound">gr::digital::constellation</ref> object. The PMT is cast back to a gr::digital::constellation_sptr and passes this to set_constellation.
+
+
+rotate_phase (input): Receives a PMT double to update the phase. The phase value passed in the message is added to the current phase of the receiver.
+
+Constructor Specific Documentation:
+
+Constructs a constellation receiver that (phase/fine freq) synchronizes and decodes constellation points specified by a constellation object.
+
+Args:
+    constellation : constellation of points for generic modulation
+    loop_bw : Loop bandwidth of the Costas Loop (~ 2pi/100)
+    fmin : minimum normalized frequency value the loop can achieve
+    fmax : maximum normalized frequency value the loop can achieve)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_receiver_cb_pydoc.h" line="50" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_receiver_cb_pydoc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellation__receiver__cb__pydoc_8h_1a882122fe0cf793ddf88ee7936648b94a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_constellation_receiver_cb_phase_error_tracking</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_constellation_receiver_cb_phase_error_tracking</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_receiver_cb_pydoc.h" line="74" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_receiver_cb_pydoc.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/constellation_receiver_cb_pydoc.h"/>
+  </compounddef>
+</doxygen>

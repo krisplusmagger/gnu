@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1fec_1_1code_1_1ldpc__bit__flip__decoder" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::fec::code::ldpc_bit_flip_decoder</compoundname>
+    <basecompoundref refid="classgr_1_1fec_1_1generic__decoder" prot="public" virt="virtual">gr::fec::generic_decoder</basecompoundref>
+    <includes refid="ldpc__bit__flip__decoder_8h" local="no">gnuradio/fec/ldpc_bit_flip_decoder.h</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1fec_1_1code_1_1ldpc__bit__flip__decoder_1aa440d761375f873a722e0148ff24c617" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1fec_1_1generic__decoder_1a8536c9bc3f1ba576bb1245f1040b32ae" kindref="member">generic_decoder::sptr</ref></type>
+        <definition>static generic_decoder::sptr gr::fec::code::ldpc_bit_flip_decoder::make</definition>
+        <argsstring>(const fec_mtrx_sptr mtrx_obj, unsigned int max_iter=100)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::fec::code::ldpc_bit_flip_decoder::make</qualifiedname>
+        <param>
+          <type>const fec_mtrx_sptr</type>
+          <declname>mtrx_obj</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>max_iter</declname>
+          <defval>100</defval>
+        </param>
+        <briefdescription>
+<para>Build a bit flip decoding FEC API object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mtrx_obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The LDPC parity check matrix to use for decoding. This should be the same matrix used for encoding. Provide either a <ref refid="classgr_1_1fec_1_1code_1_1ldpc__H__matrix" kindref="compound">ldpc_H_matrix</ref> or a <ref refid="classgr_1_1fec_1_1code_1_1ldpc__G__matrix" kindref="compound">ldpc_G_matrix</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_iter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Maximum number of iterations to complete during the decoding algorithm. The default is 100 because this seemed to be sufficient during testing. May be increased for possibly better performance, but may slow things down. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/ldpc_bit_flip_decoder.h" line="56" column="34"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1fec_1_1code_1_1ldpc__bit__flip__decoder_1ac90417828eb6cf94ecf7cab6dcb99d27" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>bool gr::fec::code::ldpc_bit_flip_decoder::set_frame_size</definition>
+        <argsstring>(unsigned int frame_size) override=0</argsstring>
+        <name>set_frame_size</name>
+        <qualifiedname>gr::fec::code::ldpc_bit_flip_decoder::set_frame_size</qualifiedname>
+        <reimplements refid="classgr_1_1fec_1_1generic__decoder_1a6da8f43baf97fab0691e80355f2fbb74">set_frame_size</reimplements>
+        <param>
+          <type>unsigned int</type>
+          <declname>frame_size</declname>
+        </param>
+        <briefdescription>
+<para>Sets the uncoded frame size to <computeroutput>frame_size</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the uncoded frame size to <computeroutput>frame_size</computeroutput>. If <computeroutput>frame_size</computeroutput> is greater than the value given to the constructor, the frame size will be capped by that initial value and this function will return false. Otherwise, it returns true. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/ldpc_bit_flip_decoder.h" line="68" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1fec_1_1code_1_1ldpc__bit__flip__decoder_1a87a93518e9eb8f9d64ba6dda5c81d174" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>double gr::fec::code::ldpc_bit_flip_decoder::rate</definition>
+        <argsstring>() override=0</argsstring>
+        <name>rate</name>
+        <qualifiedname>gr::fec::code::ldpc_bit_flip_decoder::rate</qualifiedname>
+        <reimplements refid="classgr_1_1fec_1_1generic__decoder_1a32869de99deaec078e6b3bdc01444795">rate</reimplements>
+        <briefdescription>
+<para>Returns the coding rate of this decoder. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/ldpc_bit_flip_decoder.h" line="71" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>LDPC bit flip decoding class. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>A hard decision bit flip decoder class for decoding low density parity check (LDPC) codes. The decoder requires knowledge of the matrix used to create (encode) the codewords. The simple algorithm is:</para>
+<para><orderedlist>
+<listitem><para>Compute parity checks on all of the bits.</para>
+</listitem><listitem><para>Flip the bit(s) associated with the most failed parity checks.</para>
+</listitem><listitem><para>Check to see if new word is valid. ( <formula id="43">$\overline{x}$</formula> is a codeword if and only if <formula id="44">$\mathbf{H}\bar{x}^{T}=\overline{0}$</formula>.) If it is not valid, go back to step 1.</para>
+</listitem><listitem><para>Repeat until valid codeword is found or the maximum number of iterations is reached. </para>
+</listitem></orderedlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::fec::code::ldpc_bit_flip_decoder</label>
+        <link refid="classgr_1_1fec_1_1code_1_1ldpc__bit__flip__decoder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::fec::generic_decoder</label>
+        <link refid="classgr_1_1fec_1_1generic__decoder"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::fec::code::ldpc_bit_flip_decoder</label>
+        <link refid="classgr_1_1fec_1_1code_1_1ldpc__bit__flip__decoder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::fec::generic_decoder</label>
+        <link refid="classgr_1_1fec_1_1generic__decoder"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>d_logger</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::shared_ptr&lt; logger &gt;</label>
+      </node>
+      <node id="5">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="4">
+        <label>std::string</label>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/ldpc_bit_flip_decoder.h" line="41" column="1" bodyfile="/home/desktop2/gnuradio/gr-fec/include/gnuradio/fec/ldpc_bit_flip_decoder.h" bodystart="42" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a9a6cbe6022c593cded3c00b929873855" prot="public" virt="non-virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>alias</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a09d4e84d633630b77a47b80398c209ad" prot="public" virt="non-virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>base_unique_id</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a29d043afec8a523972c67e17bf8f3f78" prot="protected" virt="non-virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>d_logger</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a96ed2f7bb7465e0df29a13b127ad9fd4" prot="public" virt="non-virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>d_name</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a699ddfa2fc51343b3193149646bab208" prot="public" virt="non-virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>generic_decoder</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1ab32bf0b94adb801b523001de32ee7dfc" prot="public" virt="non-virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>generic_decoder</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a63079cebc08c5a13add64b5f24750e21" prot="public" virt="pure-virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>generic_work</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a9037426d33b865dda50055380f9b85c8" prot="public" virt="virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>get_history</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a0da070002d16590ec2f1277431ba2afb" prot="public" virt="virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>get_input_conversion</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a1f4ba1fe5a0e9b3508724b48400ff537" prot="public" virt="virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>get_input_item_size</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a68f0c06cc9b57e421d4d755fc7eb60d5" prot="public" virt="pure-virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>get_input_size</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a75ffb122f2891ee457be1874e198e836" prot="public" virt="virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>get_iterations</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1ae42dd367cb736e35ea3058536597d559" prot="public" virt="virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>get_output_conversion</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a558263fff172b7867ed96afccb93078f" prot="public" virt="virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>get_output_item_size</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a0cad8d8b1977ebb9184b6c36ed73db9a" prot="public" virt="pure-virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>get_output_size</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a7c46fd20d994c05ece2aa93dc8d3a926" prot="public" virt="virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>get_shift</name></member>
+      <member refid="classgr_1_1fec_1_1code_1_1ldpc__bit__flip__decoder_1aa440d761375f873a722e0148ff24c617" prot="public" virt="non-virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>make</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a2ea0d9d63a13ef1bd22e6517a856b340" prot="public" virt="non-virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>my_id</name></member>
+      <member refid="classgr_1_1fec_1_1code_1_1ldpc__bit__flip__decoder_1a87a93518e9eb8f9d64ba6dda5c81d174" prot="public" virt="pure-virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>rate</name></member>
+      <member refid="classgr_1_1fec_1_1code_1_1ldpc__bit__flip__decoder_1ac90417828eb6cf94ecf7cab6dcb99d27" prot="public" virt="pure-virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>set_frame_size</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a8536c9bc3f1ba576bb1245f1040b32ae" prot="public" virt="non-virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>sptr</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a7480b06afbc530f4a524905deab8f70b" prot="public" virt="non-virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>unique_id</name></member>
+      <member refid="classgr_1_1fec_1_1generic__decoder_1a36a7aeb512d578e53d6f984bfd380667" prot="public" virt="virtual"><scope>gr::fec::code::ldpc_bit_flip_decoder</scope><name>~generic_decoder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

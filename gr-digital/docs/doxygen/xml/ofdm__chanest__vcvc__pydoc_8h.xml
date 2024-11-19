@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="ofdm__chanest__vcvc__pydoc_8h" kind="file" language="C++">
+    <compoundname>ofdm_chanest_vcvc_pydoc.h</compoundname>
+    <includes refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>ofdm_chanest_vcvc_pydoc.h</label>
+        <link refid="ofdm__chanest__vcvc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-digital_2python_2digital_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="ofdm__chanest__vcvc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, digital, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_chanest_vcvc_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_chanest_vcvc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="ofdm__chanest__vcvc__pydoc_8h_1a30561805d0575ac3db8ce7b4a856f3ee" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_chanest_vcvc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_chanest_vcvc</name>
+        <initializer>= R&quot;doc(Estimate channel and coarse frequency offset for OFDM from preambles
+
+
+Input: OFDM symbols (in frequency domain). The first one (or two) symbols are expected to be synchronisation symbols, which are used to estimate the coarse freq offset and the initial equalizer <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> (these symbols are removed from the stream). The following  are passed through unmodified (the actual equalisation must be done elsewhere). Output: The data symbols, without the synchronisation symbols. The first data symbol passed through has two tags: &apos;ofdm_sync_carr_offset&apos; (integer), the coarse frequency offset as number of carriers, and &apos;ofdm_sync_eq_taps&apos; (complex vector). Any tags attached to the synchronisation symbols are attached to the first data symbol. All other tags are propagated as expected.
+
+
+Note: The vector on ofdm_sync_eq_taps is already frequency-corrected, whereas the rest is not.
+
+
+This block assumes the frequency offset is even (i.e. an integer multiple of 2).
+
+
+[1] Schmidl, T.M. and Cox, D.C., \&quot;Robust frequency and timing synchronization
+    for OFDM\&quot;, Communications, IEEE Transactions on, 1997. [2] K.D. Kammeyer, \&quot;Nachrichtenuebertragung,\&quot; Chapter. 16.3.2.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    sync_symbol1 : First synchronisation symbol in the frequency domain. Its length must be the FFT length. For Schmidl &amp; Cox synchronisation, every second sub-carrier has to be zero.
+    sync_symbol2 : Second synchronisation symbol in the frequency domain. Must be equal to the FFT length, or zero length if only one synchronisation symbol is used. Using this symbol is how synchronisation is described in [1]. Leaving this empty forces us to interpolate the equalizer taps. If you are using an unusual sub-carrier configuration (e.g. because of OFDMA), this sync symbol is used to identify the active sub-carriers. If you only have one synchronisation symbol, set the active sub-carriers to a non-zero value in here, and set  parameter to true.
+    n_data_symbols : The number of data symbols following each set of synchronisation symbols. Must be at least 1.
+    eq_noise_red_len : If non-zero, noise reduction for the equalizer <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> is done according to [2]. In this case, it is the channel influence time in number of samples. A good value is usually the length of the cyclic prefix.
+    max_carr_offset : Limit the number of sub-carriers the frequency offset can maximally be. Leave this zero to try all possibilities.
+    force_one_sync_symbol : See .)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_chanest_vcvc_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_chanest_vcvc_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__chanest__vcvc__pydoc_8h_1ac5341ce11d639badffa61339bae436de" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_chanest_vcvc_ofdm_chanest_vcvc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_chanest_vcvc_ofdm_chanest_vcvc</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_chanest_vcvc_pydoc.h" line="46" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_chanest_vcvc_pydoc.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__chanest__vcvc__pydoc_8h_1ab94255eb5310ccee7ee3b06ab1a4c64e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_digital_ofdm_chanest_vcvc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_digital_ofdm_chanest_vcvc_make</name>
+        <initializer>= R&quot;doc(Estimate channel and coarse frequency offset for OFDM from preambles
+
+
+Input: OFDM symbols (in frequency domain). The first one (or two) symbols are expected to be synchronisation symbols, which are used to estimate the coarse freq offset and the initial equalizer <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> (these symbols are removed from the stream). The following  are passed through unmodified (the actual equalisation must be done elsewhere). Output: The data symbols, without the synchronisation symbols. The first data symbol passed through has two tags: &apos;ofdm_sync_carr_offset&apos; (integer), the coarse frequency offset as number of carriers, and &apos;ofdm_sync_eq_taps&apos; (complex vector). Any tags attached to the synchronisation symbols are attached to the first data symbol. All other tags are propagated as expected.
+
+
+Note: The vector on ofdm_sync_eq_taps is already frequency-corrected, whereas the rest is not.
+
+
+This block assumes the frequency offset is even (i.e. an integer multiple of 2).
+
+
+[1] Schmidl, T.M. and Cox, D.C., \&quot;Robust frequency and timing synchronization
+    for OFDM\&quot;, Communications, IEEE Transactions on, 1997. [2] K.D. Kammeyer, \&quot;Nachrichtenuebertragung,\&quot; Chapter. 16.3.2.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    sync_symbol1 : First synchronisation symbol in the frequency domain. Its length must be the FFT length. For Schmidl &amp; Cox synchronisation, every second sub-carrier has to be zero.
+    sync_symbol2 : Second synchronisation symbol in the frequency domain. Must be equal to the FFT length, or zero length if only one synchronisation symbol is used. Using this symbol is how synchronisation is described in [1]. Leaving this empty forces us to interpolate the equalizer taps. If you are using an unusual sub-carrier configuration (e.g. because of OFDMA), this sync symbol is used to identify the active sub-carriers. If you only have one synchronisation symbol, set the active sub-carriers to a non-zero value in here, and set  parameter to true.
+    n_data_symbols : The number of data symbols following each set of synchronisation symbols. Must be at least 1.
+    eq_noise_red_len : If non-zero, noise reduction for the equalizer <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> is done according to [2]. In this case, it is the channel influence time in number of samples. A good value is usually the length of the cyclic prefix.
+    max_carr_offset : Limit the number of sub-carriers the frequency offset can maximally be. Leave this zero to try all possibilities.
+    force_one_sync_symbol : See .)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_chanest_vcvc_pydoc.h" line="49" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_chanest_vcvc_pydoc.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-digital/python/digital/bindings/ofdm_chanest_vcvc_pydoc.h"/>
+  </compounddef>
+</doxygen>

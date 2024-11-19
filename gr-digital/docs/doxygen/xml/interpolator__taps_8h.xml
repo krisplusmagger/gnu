@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interpolator__taps_8h" kind="file" language="C++">
+    <compoundname>interpolator_taps.h</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="interpolator__taps_8h_1a9c1fa7ecfc7b63e1ca1010ec599bbddb" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int NTAPS</definition>
+        <argsstring></argsstring>
+        <name>NTAPS</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interpolator_taps.h" line="6" column="22" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interpolator_taps.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interpolator__taps_8h_1ab7185caaa461f993643cba8a5b93e201" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int NSTEPS</definition>
+        <argsstring></argsstring>
+        <name>NSTEPS</name>
+        <initializer>= 128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interpolator_taps.h" line="7" column="22" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interpolator_taps.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr float</type>
+        <definition>constexpr float taps[NSTEPS+1][NTAPS]</definition>
+        <argsstring>[NSTEPS+1][NTAPS]</argsstring>
+        <name>taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interpolator_taps.h" line="9" column="24" bodyfile="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interpolator_taps.h" bodystart="9" bodyend="1043"/>
+        <referencedby refid="classgr_1_1digital_1_1adaptive__algorithm_1a6c3aad35c9941cc011863e776a4c9ca9" compoundref="adaptive__algorithm_8h" startline="45" endline="49">gr::digital::adaptive_algorithm::initialize_taps</referencedby>
+        <referencedby refid="classgr_1_1digital_1_1adaptive__algorithm__lms_1a5c0288dad73371f036de3c3d97c9d4d7" compoundref="adaptive__algorithm__lms_8h" startline="72" endline="75">gr::digital::adaptive_algorithm_lms::initialize_taps</referencedby>
+        <referencedby refid="classgr_1_1digital_1_1adaptive__algorithm__nlms_1a5a457eb186fa047605d98dd9269cae50" compoundref="adaptive__algorithm__nlms_8h" startline="68" endline="71">gr::digital::adaptive_algorithm_nlms::initialize_taps</referencedby>
+        <referencedby refid="classgr_1_1digital_1_1adaptive__algorithm_1a69d9a5ac261ca0feb49ceb5bbce32514" compoundref="adaptive__algorithm_8h" startline="73" endline="85">gr::digital::adaptive_algorithm::update_taps</referencedby>
+        <referencedby refid="classgr_1_1digital_1_1adaptive__algorithm__cma_1a86624e94a2f65f54a142ee4c7109db47" compoundref="adaptive__algorithm__cma_8h" startline="62" endline="81">gr::digital::adaptive_algorithm_cma::update_taps</referencedby>
+        <referencedby refid="classgr_1_1digital_1_1adaptive__algorithm__lms_1ad4357b6d15bda43f2dd2581543c9bd2c" compoundref="adaptive__algorithm__lms_8h" startline="43" endline="62">gr::digital::adaptive_algorithm_lms::update_taps</referencedby>
+        <referencedby refid="classgr_1_1digital_1_1adaptive__algorithm__nlms_1ac011075b44718a47de4b1f9858cd0f19" compoundref="adaptive__algorithm__nlms_8h" startline="50" endline="64">gr::digital::adaptive_algorithm_nlms::update_taps</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-filter/include/gnuradio/filter/interpolator_taps.h"/>
+  </compounddef>
+</doxygen>

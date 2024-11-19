@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="cpm__pydoc_8h" kind="file" language="C++">
+    <compoundname>cpm_pydoc.h</compoundname>
+    <includes refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>cpm_pydoc.h</label>
+        <link refid="cpm__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-analog_2python_2analog_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="cpm__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, analog, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpm_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpm_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="cpm__pydoc_8h_1a28b6dfdf8fd5225a0749582ab2052abd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_cpm</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_cpm</name>
+        <initializer>= R&quot;doc(Return the <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> for an interpolating FIR filter (<ref refid="namespacegr_1_1filter_1a54f6e7ea6b305afb31c55622fe1389c9" kindref="member">gr::filter::interp_fir_filter_fff</ref>).)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpm_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpm_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpm__pydoc_8h_1a57884ce75a2674908c9a24ef48d3903c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_cpm_cpm_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_cpm_cpm_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpm_pydoc.h" line="21" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpm_pydoc.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpm__pydoc_8h_1a683aefe8fb02febf39cdffe6b4ac1a8a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_cpm_cpm_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_cpm_cpm_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpm_pydoc.h" line="24" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpm_pydoc.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cpm__pydoc_8h_1a4833f8e15d108cc84505d5a6f9a10f03" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_analog_cpm_phase_response</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_analog_cpm_phase_response</name>
+        <initializer>= R&quot;doc(Return the <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> for an interpolating FIR filter (<ref refid="namespacegr_1_1filter_1a54f6e7ea6b305afb31c55622fe1389c9" kindref="member">gr::filter::interp_fir_filter_fff</ref>).
+
+These <ref refid="interpolator__taps_8h_1a52d84e18f5f0d5d94f4531caf64dde98" kindref="member">taps</ref> represent the phase response  for use in a CPM modulator, see also gr_cpmmod_bc.
+
+
+
+Output: returns a vector of length  =  x . This can be used directly in an interpolating FIR filter such as gr_interp_fir_filter_fff with interpolation factor .
+
+
+All phase responses are normalised s.t. ; this will cause a maximum phase change of  between two symbols, where  is the modulation index.
+
+
+The following phase responses can be generated:
+
+
+
+A short description of all these phase responses can be found in [1].
+
+
+[1]: Anderson, Aulin and Sundberg; Digital Phase Modulation)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpm_pydoc.h" line="27" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpm_pydoc.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-analog/python/analog/bindings/cpm_pydoc.h"/>
+  </compounddef>
+</doxygen>

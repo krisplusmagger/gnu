@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="correctiq__auto__pydoc_8h" kind="file" language="C++">
+    <compoundname>correctiq_auto_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>correctiq_auto_pydoc.h</label>
+        <link refid="correctiq__auto__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="correctiq__auto__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="correctiq__auto__pydoc_8h_1ad433508a8131834ceabf5d698bbbad0f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_correctiq_auto</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_correctiq_auto</name>
+        <initializer>= R&quot;doc(This block to removes that center frequency IQ DC spike with a slight variation.  automatically calculates the offset then switches to straight DC offset mode to  any possible IIR filtering after it&apos;s been tuned. However, if frequency  upstream gain is changed, it must retune, so frequency and upstream gain are  taken as parameters and monitored for changes.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    samp_rate : 
+    freq : 
+    gain : 
+    sync_window : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correctiq__auto__pydoc_8h_1a7692e33091ac80da2a948515968d2f7c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_correctiq_auto_correctiq_auto_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_correctiq_auto_correctiq_auto_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" line="31" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correctiq__auto__pydoc_8h_1ab78a20ac83b020b146182e26f548d252" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_correctiq_auto_correctiq_auto_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_correctiq_auto_correctiq_auto_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" line="34" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correctiq__auto__pydoc_8h_1afdcf93cf28baf60e57463a8da67b7fcb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_correctiq_auto_get_freq</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_correctiq_auto_get_freq</name>
+        <initializer>= R&quot;doc(Return a shared_ptr to a new instance of correctiq::correctiq_auto.
+
+To avoid accidental use of raw pointers, correctiq::correctiq_auto&apos;s constructor is in a private implementation class. correctiq::correctiq_auto::make is the public interface for creating new instances.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" line="37" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correctiq__auto__pydoc_8h_1a8f0d3b661e847be0b484fb5fc42d802e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_correctiq_auto_get_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_correctiq_auto_get_gain</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" line="42" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correctiq__auto__pydoc_8h_1a0a6594019b519ea2d9c5e49aa2b47cfa" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_correctiq_auto_set_freq</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_correctiq_auto_set_freq</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" line="45" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correctiq__auto__pydoc_8h_1a6e05d728ef2cc1ca65e06d87371a1ce9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_correctiq_auto_set_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_correctiq_auto_set_gain</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="correctiq__auto__pydoc_8h_1a209322ac31d5871fce8b7f646477f837" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_correctiq_auto_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_correctiq_auto_make</name>
+        <initializer>= R&quot;doc(This block to removes that center frequency IQ DC spike with a slight variation.  automatically calculates the offset then switches to straight DC offset mode to  any possible IIR filtering after it&apos;s been tuned. However, if frequency  upstream gain is changed, it must retune, so frequency and upstream gain are  taken as parameters and monitored for changes.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    samp_rate : 
+    freq : 
+    gain : 
+    sync_window : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" line="51" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/correctiq_auto_pydoc.h"/>
+  </compounddef>
+</doxygen>

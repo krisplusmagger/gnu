@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="count__bits__pydoc_8h" kind="file" language="C++">
+    <compoundname>count_bits_pydoc.h</compoundname>
+    <includes refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>count_bits_pydoc.h</label>
+        <link refid="count__bits__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-blocks_2python_2blocks_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="count__bits__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, blocks, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/count_bits_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/count_bits_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="count__bits__pydoc_8h_1a0b3a939e656c2ef10d072c92d153d470" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_count_bits8</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_count_bits8</name>
+        <initializer>= R&quot;doc(return number of set bits in the low 8 bits of x)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/count_bits_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/count_bits_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="count__bits__pydoc_8h_1aaebef6680d4b30c864a1d5d1c0cd4d21" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_count_bits16</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_count_bits16</name>
+        <initializer>= R&quot;doc(return number of set bits in the low 16 bits of x)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/count_bits_pydoc.h" line="21" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/count_bits_pydoc.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="count__bits__pydoc_8h_1a47444c3a17d01bf02bdfec69d391a104" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_count_bits32</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_count_bits32</name>
+        <initializer>= R&quot;doc(return number of set bits in the low 32 bits of x)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/count_bits_pydoc.h" line="24" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/count_bits_pydoc.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="count__bits__pydoc_8h_1a0810774d8ebb90495b0babf8e2ee9a4b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_blocks_count_bits64</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_blocks_count_bits64</name>
+        <initializer>= R&quot;doc(return number of set bits in a 64-bit word)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/count_bits_pydoc.h" line="27" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/count_bits_pydoc.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-blocks/python/blocks/bindings/count_bits_pydoc.h"/>
+  </compounddef>
+</doxygen>

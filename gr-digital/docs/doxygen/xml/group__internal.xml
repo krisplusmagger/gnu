@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="group__internal" kind="group">
+    <compoundname>internal</compoundname>
+    <title>Implementation Details               &lt;br&gt;</title>
+    <innerclass refid="classgr_1_1basic__block" prot="public">gr::basic_block</innerclass>
+    <innerclass refid="classgr_1_1block__detail" prot="public">gr::block_detail</innerclass>
+    <innerclass refid="classgr_1_1buffer" prot="public">gr::buffer</innerclass>
+    <innerclass refid="classgr_1_1buffer__double__mapped" prot="public">gr::buffer_double_mapped</innerclass>
+    <innerclass refid="classgr_1_1buffer__reader" prot="public">gr::buffer_reader</innerclass>
+    <innerclass refid="classgr_1_1buffer__single__mapped" prot="public">gr::buffer_single_mapped</innerclass>
+    <innerclass refid="classgr_1_1endpoint" prot="public">gr::endpoint</innerclass>
+    <innerclass refid="classgr_1_1flowgraph" prot="public">gr::flowgraph</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__internal_1ga524c1d5413cf1d28ebb97656057d622f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sptr</type>
+        <definition>static sptr gr::io_signature::make</definition>
+        <argsstring>(int min_streams, int max_streams, int sizeof_stream_item, buffer_type buftype=default_buftype::type)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::io_signature::make</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>min_streams</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_streams</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sizeof_stream_item</declname>
+        </param>
+        <param>
+          <type>buffer_type</type>
+          <declname>buftype</declname>
+          <defval>default_buftype::type</defval>
+        </param>
+        <briefdescription>
+<para>Create an i/o signature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>min_streams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify minimum number of streams (&gt;= 0) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_streams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify maximum number of streams (&gt;= min_streams or -1 -&gt; infinite)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sizeof_stream_item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify the size of the items in each stream </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buftype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of buffers the streams should use (defaults to standard host double mapped buffer) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="74" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__internal_1gae8ff9ba44dadc54d5f03ec25e3efb4ae" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sptr</type>
+        <definition>static sptr gr::io_signature::make</definition>
+        <argsstring>(int min_streams, int max_streams, const std::vector&lt; size_t &gt; &amp;sizeof_stream_items, const gr::gr_vector_buffer_type &amp;buftypes=gr::gr_vector_buffer_type(1, default_buftype::type))</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::io_signature::make</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>min_streams</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_streams</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; size_t &gt; &amp;</type>
+          <declname>sizeof_stream_items</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacegr_1a1ef605b75fdf8904a9e48e0c9d8db852" kindref="member">gr::gr_vector_buffer_type</ref> &amp;</type>
+          <declname>buftypes</declname>
+          <defval><ref refid="namespacegr_1a1ef605b75fdf8904a9e48e0c9d8db852" kindref="member">gr::gr_vector_buffer_type</ref>(1, default_buftype::type)</defval>
+        </param>
+        <briefdescription>
+<para>Create an i/o signature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>min_streams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify minimum number of streams (&gt;= 0) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_streams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify maximum number of streams (&gt;= min_streams or -1 -&gt; infinite) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sizeof_stream_items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify the size of the items in each stream </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buftypes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of buffers the streams should use (defaults to standard host double mapped buffer) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="91" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classLineTitleAction" kind="class" language="C++" prot="public">
+    <compoundname>LineTitleAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QAction</basecompoundref>
+    <includes refid="form__menus_8h" local="no">gnuradio/qtgui/form_menus.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classLineTitleAction_1a1ed161987b8ceef2562c6c3558a70ad3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LineTitleAction::d_which</definition>
+        <argsstring></argsstring>
+        <name>d_which</name>
+        <qualifiedname>LineTitleAction::d_which</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="455" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLineTitleAction_1a5123ae2a85e3a054814a6310f7a86f1b" prot="private" static="no" mutable="no">
+        <type>QDialog *</type>
+        <definition>QDialog* LineTitleAction::d_diag</definition>
+        <argsstring></argsstring>
+        <name>d_diag</name>
+        <qualifiedname>LineTitleAction::d_diag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="457" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="457" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLineTitleAction_1a537608704e9b1d51278b746f7565957e" prot="private" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* LineTitleAction::d_text</definition>
+        <argsstring></argsstring>
+        <name>d_text</name>
+        <qualifiedname>LineTitleAction::d_text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="458" column="15" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="458" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLineTitleAction_1a9ec083bd2f1a822cd7cc538819fd9062" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LineTitleAction::LineTitleAction</definition>
+        <argsstring>(unsigned int which, QWidget *parent)</argsstring>
+        <name>LineTitleAction</name>
+        <qualifiedname>LineTitleAction::LineTitleAction</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="417" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="417" bodyend="437"/>
+        <references refid="classLineTitleAction_1a19fce0f38615e75a8ac4e1ad9d1c0f95" compoundref="form__menus_8h" startline="445" endline="445">getTextDiag</references>
+      </memberdef>
+      <memberdef kind="function" id="classLineTitleAction_1af43f816f0ff95488623dd30757941ee4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LineTitleAction::~LineTitleAction</definition>
+        <argsstring>() override</argsstring>
+        <name>~LineTitleAction</name>
+        <qualifiedname>LineTitleAction::~LineTitleAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="439" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="439" bodyend="439"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="classLineTitleAction_1adf8abcf7cbad71125a20689067d26d92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineTitleAction::whichTrigger</definition>
+        <argsstring>(unsigned int which, const QString &amp;text)</argsstring>
+        <name>whichTrigger</name>
+        <qualifiedname>LineTitleAction::whichTrigger</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="442" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classLineTitleAction_1a19fce0f38615e75a8ac4e1ad9d1c0f95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineTitleAction::getTextDiag</definition>
+        <argsstring>()</argsstring>
+        <name>getTextDiag</name>
+        <qualifiedname>LineTitleAction::getTextDiag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="445" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="445" bodyend="445"/>
+        <referencedby refid="classLineTitleAction_1a9ec083bd2f1a822cd7cc538819fd9062" compoundref="form__menus_8h" startline="417" endline="437">LineTitleAction</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classLineTitleAction_1a23b61ba4168767d93c3e06c507947585" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineTitleAction::getText</definition>
+        <argsstring>()</argsstring>
+        <name>getText</name>
+        <qualifiedname>LineTitleAction::getText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="448" column="10" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="448" bodyend="452"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LineTitleAction</label>
+        <link refid="classLineTitleAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QAction</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LineTitleAction</label>
+        <link refid="classLineTitleAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QAction</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" line="412" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/form_menus.h" bodystart="413" bodyend="459"/>
+    <listofallmembers>
+      <member refid="classLineTitleAction_1a5123ae2a85e3a054814a6310f7a86f1b" prot="private" virt="non-virtual"><scope>LineTitleAction</scope><name>d_diag</name></member>
+      <member refid="classLineTitleAction_1a537608704e9b1d51278b746f7565957e" prot="private" virt="non-virtual"><scope>LineTitleAction</scope><name>d_text</name></member>
+      <member refid="classLineTitleAction_1a1ed161987b8ceef2562c6c3558a70ad3" prot="private" virt="non-virtual"><scope>LineTitleAction</scope><name>d_which</name></member>
+      <member refid="classLineTitleAction_1a23b61ba4168767d93c3e06c507947585" prot="private" virt="non-virtual"><scope>LineTitleAction</scope><name>getText</name></member>
+      <member refid="classLineTitleAction_1a19fce0f38615e75a8ac4e1ad9d1c0f95" prot="public" virt="non-virtual"><scope>LineTitleAction</scope><name>getTextDiag</name></member>
+      <member refid="classLineTitleAction_1a9ec083bd2f1a822cd7cc538819fd9062" prot="public" virt="non-virtual"><scope>LineTitleAction</scope><name>LineTitleAction</name></member>
+      <member refid="classLineTitleAction_1adf8abcf7cbad71125a20689067d26d92" prot="public" virt="non-virtual"><scope>LineTitleAction</scope><name>whichTrigger</name></member>
+      <member refid="classLineTitleAction_1af43f816f0ff95488623dd30757941ee4" prot="public" virt="non-virtual"><scope>LineTitleAction</scope><name>~LineTitleAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

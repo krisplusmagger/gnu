@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dvbt__reference__signals__pydoc_8h" kind="file" language="C++">
+    <compoundname>dvbt_reference_signals_pydoc.h</compoundname>
+    <includes refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>dvbt_reference_signals_pydoc.h</label>
+        <link refid="dvbt__reference__signals__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-dtv_2python_2dtv_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dvbt__reference__signals__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, dtv, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_reference_signals_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_reference_signals_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="dvbt__reference__signals__pydoc_8h_1aa736cb6555994f36530d9a4b00d57e84" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbt_reference_signals</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbt_reference_signals</name>
+        <initializer>= R&quot;doc(Reference signals generator.
+
+ETSI EN 300 744 Clause 4.5 
+Data input format: 
+complex(real(float), imag(float)). 
+Data output format: 
+complex(real(float), imag(float)).
+
+Constructor Specific Documentation:
+
+Create Reference signals generator.
+
+Args:
+    itemsize : size of an in/out item.
+    ninput : input stream length.
+    noutput : output stream length.
+    constellation : constellation used.
+    hierarchy : hierarchy used.
+    code_rate_HP : high priority stream code rate.
+    code_rate_LP : low priority stream code rate.
+    guard_interval : guard interval used.
+    transmission_mode : transmission mode used.
+    include_cell_id : include or not Cell ID.
+    cell_id : value of the Cell ID.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_reference_signals_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_reference_signals_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvbt__reference__signals__pydoc_8h_1abd9f07b1b2dc9503b454bdf79569c487" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbt_reference_signals_dvbt_reference_signals</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbt_reference_signals_dvbt_reference_signals</name>
+        <initializer>=
+    R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_reference_signals_pydoc.h" line="44" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_reference_signals_pydoc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvbt__reference__signals__pydoc_8h_1a696e124652af3b0c685046be463bcc39" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_dtv_dvbt_reference_signals_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_dtv_dvbt_reference_signals_make</name>
+        <initializer>= R&quot;doc(Reference signals generator.
+
+ETSI EN 300 744 Clause 4.5 
+Data input format: 
+complex(real(float), imag(float)). 
+Data output format: 
+complex(real(float), imag(float)).
+
+Constructor Specific Documentation:
+
+Create Reference signals generator.
+
+Args:
+    itemsize : size of an in/out item.
+    ninput : input stream length.
+    noutput : output stream length.
+    constellation : constellation used.
+    hierarchy : hierarchy used.
+    code_rate_HP : high priority stream code rate.
+    code_rate_LP : low priority stream code rate.
+    guard_interval : guard interval used.
+    transmission_mode : transmission mode used.
+    include_cell_id : include or not Cell ID.
+    cell_id : value of the Cell ID.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_reference_signals_pydoc.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_reference_signals_pydoc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-dtv/python/dtv/bindings/dvbt_reference_signals_pydoc.h"/>
+  </compounddef>
+</doxygen>

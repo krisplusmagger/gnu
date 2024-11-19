@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="page_releasing" kind="page">
+    <compoundname>page_releasing</compoundname>
+    <title>Release Process Documentation</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="page_releasing_1Preparation">
+<title>Preparation</title>
+<para><itemizedlist>
+<listitem><para>make sure a clean build works </para>
+</listitem>
+<listitem><para>Check whether all significant changes are in CHANGELOG </para>
+</listitem>
+<listitem><para>List of contributors <computeroutput>git log --format=&quot;* %aN &lt;%aE&gt;&quot; vLASTRELEASE..HEAD | sort -u &gt; /tmp/authors.txt</computeroutput> </para>
+</listitem>
+<listitem><para>Check for ABI / API break, determine Version (MAJOR.MINOR.ABI.PATCH) </para>
+</listitem>
+<listitem><para>Change [unreleased] to [MAJOR.MINOR.ABI.PATCH] in CHANGELOG </para>
+</listitem>
+<listitem><para>Update version in CMakeList </para>
+</listitem>
+<listitem><para>Commit with message: `git commit -m &quot;Release MAJOR.MINOR.ABI.PATCH&quot; CMakeLists.txt CHANGELOG.md </para>
+</listitem>
+<listitem><para>prepare release statement / tag annotation file: copy last Tag&apos;s annotation format (basically, contributors top, new Changelog bottom</para>
+</listitem>
+</itemizedlist>
+</para>
+</sect1>
+<sect1 id="page_releasing_1Release">
+<title>Tagging</title>
+<para><itemizedlist>
+<listitem><para><computeroutput>git tag --annotate --sign -F /path/to/release_statement.md vMAJOR.MINOR.ABI.PATCH</computeroutput> </para>
+</listitem>
+<listitem><para><computeroutput>git push yourrepo vMAJOR.MINOR.ABI.PATCH &amp;&amp; hub pull-request -b {master|maint-MAJOR.MINOR}</computeroutput> </para>
+</listitem>
+<listitem><para>let CI do its thing; if that&apos;s OK: </para>
+</listitem>
+<listitem><para><computeroutput>git push origin {master|maint-MAJOR.MINOR} vMAJOR.MINOR.ABI.PATCH</computeroutput> </para>
+</listitem>
+<listitem><para>on github, mark release</para>
+</listitem>
+</itemizedlist>
+</para>
+</sect1>
+<sect1 id="page_releasing_1Creation">
+<title>Of Archives</title>
+<para><itemizedlist>
+<listitem><para><computeroutput>git checkout vMAJOR.MINOR.ABI.PATCH; git submodule update</computeroutput> should be clean </para>
+</listitem>
+<listitem><para><computeroutput>gnuradio/dtools/bin/roll-tarball.sh</computeroutput> </para>
+</listitem>
+</itemizedlist>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/docs/doxygen/other/releasing.dox"/>
+  </compounddef>
+</doxygen>

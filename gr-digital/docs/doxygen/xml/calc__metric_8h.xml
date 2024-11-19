@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="calc__metric_8h" kind="file" language="C++">
+    <compoundname>calc_metric.h</compoundname>
+    <includes refid="metric__type_8h" local="no">gnuradio/digital/metric_type.h</includes>
+    <includes refid="gr__complex_8h" local="no">gnuradio/gr_complex.h</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="metrics_8h" local="no">metrics.h</includedby>
+    <includedby refid="pccc__decoder__combined__blk_8h" local="no">pccc_decoder_combined_blk.h</includedby>
+    <includedby refid="sccc__decoder__combined__blk_8h" local="no">sccc_decoder_combined_blk.h</includedby>
+    <includedby refid="siso__combined__f_8h" local="no">siso_combined_f.h</includedby>
+    <includedby refid="viterbi__combined_8h" local="no">viterbi_combined.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gnuradio/digital/metric_type.h</label>
+        <link refid="metric__type_8h"/>
+      </node>
+      <node id="1">
+        <label>calc_metric.h</label>
+        <link refid="calc__metric_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>complex</label>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>calc_metric.h</label>
+        <link refid="calc__metric_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>metrics.h</label>
+        <link refid="metrics_8h"/>
+      </node>
+      <node id="3">
+        <label>pccc_decoder_combined_blk.h</label>
+        <link refid="pccc__decoder__combined__blk_8h"/>
+      </node>
+      <node id="4">
+        <label>sccc_decoder_combined_blk.h</label>
+        <link refid="sccc__decoder__combined__blk_8h"/>
+      </node>
+      <node id="5">
+        <label>siso_combined_f.h</label>
+        <link refid="siso__combined__f_8h"/>
+      </node>
+      <node id="6">
+        <label>viterbi_combined.h</label>
+        <link refid="viterbi__combined_8h"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1trellis">gr::trellis</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gr-trellis/include/gnuradio/trellis/calc_metric.h"/>
+  </compounddef>
+</doxygen>

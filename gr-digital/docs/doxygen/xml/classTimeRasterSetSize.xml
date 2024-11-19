@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classTimeRasterSetSize" kind="class" language="C++" prot="public">
+    <compoundname>TimeRasterSetSize</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QEvent</basecompoundref>
+    <includes refid="spectrumUpdateEvents_8h" local="no">gnuradio/qtgui/spectrumUpdateEvents.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classTimeRasterSetSize_1a9f85185ed1d668f074308e81b0066298" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TimeRasterSetSize::_nrows</definition>
+        <argsstring></argsstring>
+        <name>_nrows</name>
+        <qualifiedname>TimeRasterSetSize::_nrows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="272" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTimeRasterSetSize_1ad053c33669a70b5a89b49c75e72f6fff" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TimeRasterSetSize::_ncols</definition>
+        <argsstring></argsstring>
+        <name>_ncols</name>
+        <qualifiedname>TimeRasterSetSize::_ncols</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="273" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTimeRasterSetSize_1af916866c8b73ba4938f7c376dfb2f1ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TimeRasterSetSize::TimeRasterSetSize</definition>
+        <argsstring>(const double nrows, const double ncols)</argsstring>
+        <name>TimeRasterSetSize</name>
+        <qualifiedname>TimeRasterSetSize::TimeRasterSetSize</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>nrows</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>ncols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="263" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeRasterSetSize_1a54c4eda2a28995728995feddfd7cd012" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TimeRasterSetSize::~TimeRasterSetSize</definition>
+        <argsstring>() override</argsstring>
+        <name>~TimeRasterSetSize</name>
+        <qualifiedname>TimeRasterSetSize::~TimeRasterSetSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="264" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeRasterSetSize_1a8415b3908db083073a57eae72276eab4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double TimeRasterSetSize::nRows</definition>
+        <argsstring>() const</argsstring>
+        <name>nRows</name>
+        <qualifiedname>TimeRasterSetSize::nRows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="266" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeRasterSetSize_1a2fa42f5180c1c120a4cd6e26262f3dc8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double TimeRasterSetSize::nCols</definition>
+        <argsstring>() const</argsstring>
+        <name>nCols</name>
+        <qualifiedname>TimeRasterSetSize::nCols</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="267" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classTimeRasterSetSize_1a7c2a47fb967a57e837e63f8a730540ec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QEvent::Type</type>
+        <definition>static QEvent::Type TimeRasterSetSize::Type</definition>
+        <argsstring>()</argsstring>
+        <name>Type</name>
+        <qualifiedname>TimeRasterSetSize::Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="269" column="25" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="269" bodyend="269"/>
+        <references refid="spectrumUpdateEvents_8h_1ac31addf0edee93b209aba289ae383b5d" compoundref="spectrumUpdateEvents_8h" startline="24">SpectrumUpdateEventType</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+      <node id="1">
+        <label>TimeRasterSetSize</label>
+        <link refid="classTimeRasterSetSize"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+      <node id="1">
+        <label>TimeRasterSetSize</label>
+        <link refid="classTimeRasterSetSize"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="260" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="261" bodyend="274"/>
+    <listofallmembers>
+      <member refid="classTimeRasterSetSize_1ad053c33669a70b5a89b49c75e72f6fff" prot="private" virt="non-virtual"><scope>TimeRasterSetSize</scope><name>_ncols</name></member>
+      <member refid="classTimeRasterSetSize_1a9f85185ed1d668f074308e81b0066298" prot="private" virt="non-virtual"><scope>TimeRasterSetSize</scope><name>_nrows</name></member>
+      <member refid="classTimeRasterSetSize_1a2fa42f5180c1c120a4cd6e26262f3dc8" prot="public" virt="non-virtual"><scope>TimeRasterSetSize</scope><name>nCols</name></member>
+      <member refid="classTimeRasterSetSize_1a8415b3908db083073a57eae72276eab4" prot="public" virt="non-virtual"><scope>TimeRasterSetSize</scope><name>nRows</name></member>
+      <member refid="classTimeRasterSetSize_1af916866c8b73ba4938f7c376dfb2f1ce" prot="public" virt="non-virtual"><scope>TimeRasterSetSize</scope><name>TimeRasterSetSize</name></member>
+      <member refid="classTimeRasterSetSize_1a7c2a47fb967a57e837e63f8a730540ec" prot="public" virt="non-virtual"><scope>TimeRasterSetSize</scope><name>Type</name></member>
+      <member refid="classTimeRasterSetSize_1a54c4eda2a28995728995feddfd7cd012" prot="public" virt="non-virtual"><scope>TimeRasterSetSize</scope><name>~TimeRasterSetSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

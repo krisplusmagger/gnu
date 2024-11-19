@@ -1,0 +1,647 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="time__sink__f__pydoc_8h" kind="file" language="C++">
+    <compoundname>time_sink_f_pydoc.h</compoundname>
+    <includes refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2gr-qtgui_2python_2qtgui_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>time_sink_f_pydoc.h</label>
+        <link refid="time__sink__f__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="time__sink__f__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2gnuradio-runtime_2python_2gnuradio_2gr_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, qtgui, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="10" column="10" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1accf831711f7e65e5fcccc750775de89c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f</name>
+        <initializer>= R&quot;doc(A graphical sink to display multiple signals in time.
+
+This is a QT-based graphical sink the takes set of a float streams and plots them in the time domain. Each signal is plotted with a different color, and the  and  functions can be used to change the label and color for a given input number.
+
+
+The sink supports plotting streaming float data or messages. The message port is named \&quot;in\&quot;. The two modes cannot be used simultaneously, and  should be set to 0 when using the message mode. GRC handles this issue by providing the \&quot;Float Message\&quot; type that removes the streaming port(s).
+
+
+This sink can plot messages that contain either uniform vectors of float 32 values (<ref refid="namespacepmt_1afbdce2e3a9a172fdbdcf9da08cce862a" kindref="member">pmt::is_f32vector</ref>) or PDUs where the data is a uniform vector of float 32 values.
+
+Constructor Specific Documentation:
+
+Build floating point time sink.
+
+Args:
+    size : number of points to plot at once
+    samp_rate : sample rate (used to set x-axis labels)
+    name : title for the plot
+    nconnections : number of signals connected to sink
+    parent : a QWidget parent object, if any)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="18" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1acd5892c21d2ce8d68a42540a5a933a10" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_time_sink_f_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_time_sink_f_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="40" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a8955a83687cf8114772f692df46ba3ec" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_time_sink_f_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_time_sink_f_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="43" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a4e7649c2022e2fe040133a47c0a4abdb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_make</name>
+        <initializer>= R&quot;doc(A graphical sink to display multiple signals in time.
+
+This is a QT-based graphical sink the takes set of a float streams and plots them in the time domain. Each signal is plotted with a different color, and the  and  functions can be used to change the label and color for a given input number.
+
+
+The sink supports plotting streaming float data or messages. The message port is named \&quot;in\&quot;. The two modes cannot be used simultaneously, and  should be set to 0 when using the message mode. GRC handles this issue by providing the \&quot;Float Message\&quot; type that removes the streaming port(s).
+
+
+This sink can plot messages that contain either uniform vectors of float 32 values (<ref refid="namespacepmt_1afbdce2e3a9a172fdbdcf9da08cce862a" kindref="member">pmt::is_f32vector</ref>) or PDUs where the data is a uniform vector of float 32 values.
+
+Constructor Specific Documentation:
+
+Build floating point time sink.
+
+Args:
+    size : number of points to plot at once
+    samp_rate : sample rate (used to set x-axis labels)
+    name : title for the plot
+    nconnections : number of signals connected to sink
+    parent : a QWidget parent object, if any)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="46" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a66b112b842f2897887fa21773cf67c80" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_exec_</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_exec_</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="68" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1ae0e4fe4d720c5a28c77759206848a902" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_qwidget</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_qwidget</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="71" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a52b1b3e7edb51e5314ab06a460dfede1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_set_y_axis</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_set_y_axis</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="74" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1aaa41bf7f1560e3b558668ffc22ef188b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_set_y_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_set_y_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="77" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1ab0403f8a8141e0c984928db4cb806ceb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_set_update_time</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_set_update_time</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="80" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1ab18ebb55acc619a0cabd8725907d7d02" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_set_title</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_set_title</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="83" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a008d9dd1aa16860ed55aaf26eee0fc23" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_set_line_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_set_line_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="86" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1ab5feed6957efc7ed262047f493c69d93" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_set_line_color</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_set_line_color</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="89" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a497b45e625839a58f9516ecce807400c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_set_line_width</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_set_line_width</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="92" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1ab4b61184908c88200463169aa68ddbdd" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_set_line_style</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_set_line_style</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="95" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a0357f24019adcabd7fd2d9516cf6f8e1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_set_line_marker</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_set_line_marker</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="98" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a5f5efd38ff3e3b8070e5cece6ea152fa" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_set_nsamps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_set_nsamps</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="101" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a23eeeee9cac2905babcc1059e8e966c8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_set_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_set_samp_rate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="104" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1ae06827bed991729b68ec16b74a1cc986" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_set_line_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_set_line_alpha</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="107" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a31a5cd9b61aa60ff271f1daa4dfcb856" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_set_trigger_mode</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_set_trigger_mode</name>
+        <initializer>= R&quot;doc(Set up a trigger for the sink to know when to start plotting. Useful to isolate events and avoid noise.
+
+
+The trigger modes are Free, Auto, Normal, and Tag (see <ref refid="namespacegr_1_1qtgui_1a49cbdbc60174a89351f281f769b72b91" kindref="member">gr::qtgui::trigger_mode</ref>). The first three are like a normal oscope trigger function. Free means free running with no trigger, auto will trigger if the trigger event is seen, but will still plot otherwise, and normal will hold until the trigger event is observed. The Tag trigger mode allows us to trigger off a specific stream tag. The tag trigger is based only on the name of the tag, so when a tag of the given name is seen, the trigger is activated.
+
+
+In auto and normal mode, we look for the slope of the of the signal. Given a <ref refid="namespacegr_1_1qtgui_1ad9b40f0b7d2d567bd8002fb3b9b0fd10" kindref="member">gr::qtgui::trigger_slope</ref> as either Positive or Negative, if the value between two samples moves in the given direction (x[1] &gt; x[0] for Positive or x[1] &lt; x[0] for Negative), then the trigger is activated.
+
+
+The  value is specified in time based off the sample rate. If the sample rate of the block is set to 1, the delay is then also the sample number offset. This is the offset from the left-hand y-axis of the plot. It delays the signal to show the trigger event at the given delay along with some portion of the signal before the event. The delay must be within 0 - t_max where t_max is the maximum amount of time displayed on the time plot.)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="110" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a190dea96930c380a65acef9bede56f44" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_title</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_title</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="122" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a5b3b8e82a05c3520c460eec48302347e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_line_label</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_line_label</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="125" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a652c9d64f6b233e834e5e61d6bf256c5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_line_color</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_line_color</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="128" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a820322626b841acdeb4ef77a689aeb94" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_line_width</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_line_width</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="131" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a0e9e2b8126d5a44cfb7e53ced9e1aaec" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_line_style</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_line_style</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="134" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a3d8bd7e0361809670307233162f07b17" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_line_marker</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_line_marker</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="137" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a587efd48fd444fec22bc92261b517437" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_line_alpha</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_line_alpha</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="140" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a98b8be3144bfd2510bc571a005a7867f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_set_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_set_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="143" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a8962c40e1f49db9b13bf7a830066126f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_enable_menu</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_enable_menu</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="146" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1afb0416801d5a7b3d1ed4abed3cbe6db9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_enable_grid</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_enable_grid</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="149" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1acf18f498f92516716debe27f2a09e19a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_enable_autoscale</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_enable_autoscale</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="152" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1ade471bfdb773131139a3c7ed78347469" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_enable_stem_plot</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_enable_stem_plot</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="155" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a6fd5e93e9985d5046b40ba39f5ec6b3f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_enable_semilogx</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_enable_semilogx</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="158" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a8b5de8dba81a3b6beb7a8daaa20fa4b4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_enable_semilogy</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_enable_semilogy</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="161" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a0d610481b31cbeeecfe20f22d3b8b0c0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_enable_control_panel</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_enable_control_panel</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="164" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a695529ac4d73e10b30e8a6cbc8bb81a3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_enable_tags_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_enable_tags_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="167" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1acec255c427dfbc3e972ca13fb0a03c0e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_enable_tags_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_enable_tags_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="170" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a98a283f94ba6dba67cca10238d5ff084" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_enable_axis_labels</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_enable_axis_labels</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="173" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1ac268287ed08c56a18b57f98bc35a1b0b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_disable_legend</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_disable_legend</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="176" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1a62f5d3da24e0db717d13571098d5da33" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_nsamps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_nsamps</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="179" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="time__sink__f__pydoc_8h_1ada1cb580bb6bb5a0b16795645d47a44e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_qtgui_time_sink_f_reset</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_qtgui_time_sink_f_reset</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" line="182" column="19" bodyfile="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/build/gr-qtgui/python/qtgui/bindings/time_sink_f_pydoc.h"/>
+  </compounddef>
+</doxygen>

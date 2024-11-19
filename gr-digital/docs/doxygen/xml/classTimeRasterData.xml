@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classTimeRasterData" kind="class" language="C++" prot="public">
+    <compoundname>TimeRasterData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QwtRasterData</basecompoundref>
+    <includes refid="timeRasterGlobalData_8h" local="no">gnuradio/qtgui/timeRasterGlobalData.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classTimeRasterData_1ae6b00cc319f022f304e8c698e00951f0" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; TimeRasterData::d_data</definition>
+        <argsstring></argsstring>
+        <name>d_data</name>
+        <qualifiedname>TimeRasterData::d_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="47" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTimeRasterData_1a47574e77529227912e69298fde737a40" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TimeRasterData::d_rows</definition>
+        <argsstring></argsstring>
+        <name>d_rows</name>
+        <qualifiedname>TimeRasterData::d_rows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="48" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTimeRasterData_1a5174d0a11128862edae9e1c0c714f396" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TimeRasterData::d_cols</definition>
+        <argsstring></argsstring>
+        <name>d_cols</name>
+        <qualifiedname>TimeRasterData::d_cols</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="48" column="19" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTimeRasterData_1ae0fa0d8e991aa68ddb14aeeb78812fcc" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TimeRasterData::d_resid</definition>
+        <argsstring></argsstring>
+        <name>d_resid</name>
+        <qualifiedname>TimeRasterData::d_resid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="49" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTimeRasterData_1a8d0f76de6f66aca505d80c5fac879c3c" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TimeRasterData::d_nitems</definition>
+        <argsstring></argsstring>
+        <name>d_nitems</name>
+        <qualifiedname>TimeRasterData::d_nitems</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="50" column="9" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTimeRasterData_1a66b752d3d5d8aa5536f81590ee4d8c85" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TimeRasterData::d_totalitems</definition>
+        <argsstring></argsstring>
+        <name>d_totalitems</name>
+        <qualifiedname>TimeRasterData::d_totalitems</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="50" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTimeRasterData_1aa0c85febb17ad5888275fe4888fa3e65" prot="protected" static="no" mutable="no">
+        <type>QwtInterval</type>
+        <definition>QwtInterval TimeRasterData::d_intensityRange</definition>
+        <argsstring></argsstring>
+        <name>d_intensityRange</name>
+        <qualifiedname>TimeRasterData::d_intensityRange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="52" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTimeRasterData_1afb75bcd85e2a68aeffa5648fd98a5aca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TimeRasterData::TimeRasterData</definition>
+        <argsstring>(const double rows, const double cols)</argsstring>
+        <name>TimeRasterData</name>
+        <qualifiedname>TimeRasterData::TimeRasterData</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>rows</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>cols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="22" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeRasterData_1aa28b9efb509473b04da385ac249d1e4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TimeRasterData::~TimeRasterData</definition>
+        <argsstring>() override</argsstring>
+        <name>~TimeRasterData</name>
+        <qualifiedname>TimeRasterData::~TimeRasterData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="23" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeRasterData_1adfdd35dce6348d548bbdbd7d74cfb249" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void TimeRasterData::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>TimeRasterData::reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="25" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeRasterData_1a469a8fb9971c6773c482097d25d21292" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void TimeRasterData::copy</definition>
+        <argsstring>(const TimeRasterData *)</argsstring>
+        <name>copy</name>
+        <qualifiedname>TimeRasterData::copy</qualifiedname>
+        <param>
+          <type>const <ref refid="classTimeRasterData" kindref="compound">TimeRasterData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="26" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeRasterData_1aba5478f9ab419f5dec42a9cb1bbab38d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void TimeRasterData::resizeData</definition>
+        <argsstring>(const double rows, const double cols)</argsstring>
+        <name>resizeData</name>
+        <qualifiedname>TimeRasterData::resizeData</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>rows</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>cols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="28" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeRasterData_1a08cda7bb21fd9124e0b5a5cf0102ed51" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QwtRasterData *</type>
+        <definition>virtual QwtRasterData * TimeRasterData::copy</definition>
+        <argsstring>() const</argsstring>
+        <name>copy</name>
+        <qualifiedname>TimeRasterData::copy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="30" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeRasterData_1a3e2b91e02b901b193fea8c162086774e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double TimeRasterData::value</definition>
+        <argsstring>(double x, double y) const override</argsstring>
+        <name>value</name>
+        <qualifiedname>TimeRasterData::value</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="37" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeRasterData_1aeccb0ac4bb450365137cecbd3a60e6f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>virtual double TimeRasterData::getNumCols</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumCols</name>
+        <qualifiedname>TimeRasterData::getNumCols</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="39" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeRasterData_1ac072571269c8bba0b5d8dce7a1ee3db0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>virtual double TimeRasterData::getNumRows</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumRows</name>
+        <qualifiedname>TimeRasterData::getNumRows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="40" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeRasterData_1a168b43fca4f38c81c98428b53fd09ed2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void TimeRasterData::addData</definition>
+        <argsstring>(const double *, const int)</argsstring>
+        <name>addData</name>
+        <qualifiedname>TimeRasterData::addData</qualifiedname>
+        <param>
+          <type>const double *</type>
+        </param>
+        <param>
+          <type>const int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="42" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classTimeRasterData_1a066f6ea9d1caa1a242e0bce9032ecaea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeRasterData::incrementResidual</definition>
+        <argsstring>()</argsstring>
+        <name>incrementResidual</name>
+        <qualifiedname>TimeRasterData::incrementResidual</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="44" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QwtRasterData</label>
+      </node>
+      <node id="1">
+        <label>TimeRasterData</label>
+        <link refid="classTimeRasterData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QwtRasterData</label>
+      </node>
+      <node id="1">
+        <label>TimeRasterData</label>
+        <link refid="classTimeRasterData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>d_data</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::vector&lt; double &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" line="19" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/timeRasterGlobalData.h" bodystart="20" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classTimeRasterData_1a168b43fca4f38c81c98428b53fd09ed2" prot="public" virt="virtual"><scope>TimeRasterData</scope><name>addData</name></member>
+      <member refid="classTimeRasterData_1a469a8fb9971c6773c482097d25d21292" prot="public" virt="virtual"><scope>TimeRasterData</scope><name>copy</name></member>
+      <member refid="classTimeRasterData_1a08cda7bb21fd9124e0b5a5cf0102ed51" prot="public" virt="virtual"><scope>TimeRasterData</scope><name>copy</name></member>
+      <member refid="classTimeRasterData_1a5174d0a11128862edae9e1c0c714f396" prot="protected" virt="non-virtual"><scope>TimeRasterData</scope><name>d_cols</name></member>
+      <member refid="classTimeRasterData_1ae6b00cc319f022f304e8c698e00951f0" prot="protected" virt="non-virtual"><scope>TimeRasterData</scope><name>d_data</name></member>
+      <member refid="classTimeRasterData_1aa0c85febb17ad5888275fe4888fa3e65" prot="protected" virt="non-virtual"><scope>TimeRasterData</scope><name>d_intensityRange</name></member>
+      <member refid="classTimeRasterData_1a8d0f76de6f66aca505d80c5fac879c3c" prot="protected" virt="non-virtual"><scope>TimeRasterData</scope><name>d_nitems</name></member>
+      <member refid="classTimeRasterData_1ae0fa0d8e991aa68ddb14aeeb78812fcc" prot="protected" virt="non-virtual"><scope>TimeRasterData</scope><name>d_resid</name></member>
+      <member refid="classTimeRasterData_1a47574e77529227912e69298fde737a40" prot="protected" virt="non-virtual"><scope>TimeRasterData</scope><name>d_rows</name></member>
+      <member refid="classTimeRasterData_1a66b752d3d5d8aa5536f81590ee4d8c85" prot="protected" virt="non-virtual"><scope>TimeRasterData</scope><name>d_totalitems</name></member>
+      <member refid="classTimeRasterData_1aeccb0ac4bb450365137cecbd3a60e6f3" prot="public" virt="virtual"><scope>TimeRasterData</scope><name>getNumCols</name></member>
+      <member refid="classTimeRasterData_1ac072571269c8bba0b5d8dce7a1ee3db0" prot="public" virt="virtual"><scope>TimeRasterData</scope><name>getNumRows</name></member>
+      <member refid="classTimeRasterData_1a066f6ea9d1caa1a242e0bce9032ecaea" prot="public" virt="non-virtual"><scope>TimeRasterData</scope><name>incrementResidual</name></member>
+      <member refid="classTimeRasterData_1adfdd35dce6348d548bbdbd7d74cfb249" prot="public" virt="virtual"><scope>TimeRasterData</scope><name>reset</name></member>
+      <member refid="classTimeRasterData_1aba5478f9ab419f5dec42a9cb1bbab38d" prot="public" virt="virtual"><scope>TimeRasterData</scope><name>resizeData</name></member>
+      <member refid="classTimeRasterData_1afb75bcd85e2a68aeffa5648fd98a5aca" prot="public" virt="non-virtual"><scope>TimeRasterData</scope><name>TimeRasterData</name></member>
+      <member refid="classTimeRasterData_1a3e2b91e02b901b193fea8c162086774e" prot="public" virt="non-virtual"><scope>TimeRasterData</scope><name>value</name></member>
+      <member refid="classTimeRasterData_1aa28b9efb509473b04da385ac249d1e4b" prot="public" virt="non-virtual"><scope>TimeRasterData</scope><name>~TimeRasterData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

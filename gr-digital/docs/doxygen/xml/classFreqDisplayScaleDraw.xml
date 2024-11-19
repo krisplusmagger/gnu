@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFreqDisplayScaleDraw" kind="class" language="C++" prot="public">
+    <compoundname>FreqDisplayScaleDraw</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QwtScaleDraw</basecompoundref>
+    <basecompoundref refid="classFreqOffsetAndPrecisionClass" prot="private" virt="non-virtual">FreqOffsetAndPrecisionClass</basecompoundref>
+    <includes refid="qtgui__types_8h" local="no">gnuradio/qtgui/qtgui_types.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFreqDisplayScaleDraw_1a1854dd63d6b3f118effd38e643d56670" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FreqDisplayScaleDraw::FreqDisplayScaleDraw</definition>
+        <argsstring>(const unsigned int precision)</argsstring>
+        <name>FreqDisplayScaleDraw</name>
+        <qualifiedname>FreqDisplayScaleDraw::FreqDisplayScaleDraw</qualifiedname>
+        <param>
+          <type>const unsigned int</type>
+          <declname>precision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="100" column="5" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classFreqDisplayScaleDraw_1ae3ec3764cc1ac3040189f585a9fa060d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QwtText</type>
+        <definition>QwtText FreqDisplayScaleDraw::label</definition>
+        <argsstring>(double value) const override</argsstring>
+        <name>label</name>
+        <qualifiedname>FreqDisplayScaleDraw::label</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="105" column="13" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="105" bodyend="108"/>
+        <references refid="classFreqOffsetAndPrecisionClass_1a5868dd38a3166e175672673b469280b4" compoundref="qtgui__types_8h" startline="48" endline="48">FreqOffsetAndPrecisionClass::getFrequencyPrecision</references>
+      </memberdef>
+      <memberdef kind="function" id="classFreqDisplayScaleDraw_1a1facd1b2d8af2b30fac15e0d21b8b573" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FreqDisplayScaleDraw::initiateUpdate</definition>
+        <argsstring>(void)</argsstring>
+        <name>initiateUpdate</name>
+        <qualifiedname>FreqDisplayScaleDraw::initiateUpdate</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="110" column="18" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="110" bodyend="110"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FreqDisplayScaleDraw</label>
+        <link refid="classFreqDisplayScaleDraw"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FreqOffsetAndPrecisionClass</label>
+        <link refid="classFreqOffsetAndPrecisionClass"/>
+      </node>
+      <node id="2">
+        <label>QwtScaleDraw</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FreqDisplayScaleDraw</label>
+        <link refid="classFreqDisplayScaleDraw"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FreqOffsetAndPrecisionClass</label>
+        <link refid="classFreqOffsetAndPrecisionClass"/>
+      </node>
+      <node id="2">
+        <label>QwtScaleDraw</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="97" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="98" bodyend="114"/>
+    <listofallmembers>
+      <member refid="classFreqDisplayScaleDraw_1a1854dd63d6b3f118effd38e643d56670" prot="public" virt="non-virtual"><scope>FreqDisplayScaleDraw</scope><name>FreqDisplayScaleDraw</name></member>
+      <member refid="classFreqDisplayScaleDraw_1a1facd1b2d8af2b30fac15e0d21b8b573" prot="public" virt="virtual"><scope>FreqDisplayScaleDraw</scope><name>initiateUpdate</name></member>
+      <member refid="classFreqDisplayScaleDraw_1ae3ec3764cc1ac3040189f585a9fa060d" prot="public" virt="non-virtual"><scope>FreqDisplayScaleDraw</scope><name>label</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

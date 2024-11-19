@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classConstUpdateEvent" kind="class" language="C++" prot="public">
+    <compoundname>ConstUpdateEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QEvent</basecompoundref>
+    <includes refid="spectrumUpdateEvents_8h" local="no">gnuradio/qtgui/spectrumUpdateEvents.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classConstUpdateEvent_1ab8e58d4144d47691a3eaad1f36ea6a16" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t ConstUpdateEvent::_nplots</definition>
+        <argsstring></argsstring>
+        <name>_nplots</name>
+        <qualifiedname>ConstUpdateEvent::_nplots</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="197" column="12" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConstUpdateEvent_1a12e38074e68f0c7cb36fd937b94ccdc7" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; const double * &gt;</type>
+        <definition>std::vector&lt;const double*&gt; ConstUpdateEvent::_realDataPoints</definition>
+        <argsstring></argsstring>
+        <name>_realDataPoints</name>
+        <qualifiedname>ConstUpdateEvent::_realDataPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="198" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConstUpdateEvent_1a4b659d34b1dce53b09aab92d0a0aca70" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; const double * &gt;</type>
+        <definition>std::vector&lt;const double*&gt; ConstUpdateEvent::_imagDataPoints</definition>
+        <argsstring></argsstring>
+        <name>_imagDataPoints</name>
+        <qualifiedname>ConstUpdateEvent::_imagDataPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="199" column="17" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConstUpdateEvent_1a4fe6ed4cab9481cf29e4531711aefbbc" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t ConstUpdateEvent::_numDataPoints</definition>
+        <argsstring></argsstring>
+        <name>_numDataPoints</name>
+        <qualifiedname>ConstUpdateEvent::_numDataPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="200" column="14" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classConstUpdateEvent_1a4528aeba01341e2a293e246e3828c253" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ConstUpdateEvent::ConstUpdateEvent</definition>
+        <argsstring>(const std::vector&lt; volk::vector&lt; double &gt; &gt; realDataPoints, const std::vector&lt; volk::vector&lt; double &gt; &gt; imagDataPoints, const uint64_t numDataPoints)</argsstring>
+        <name>ConstUpdateEvent</name>
+        <qualifiedname>ConstUpdateEvent::ConstUpdateEvent</qualifiedname>
+        <param>
+          <type>const std::vector&lt; volk::vector&lt; double &gt; &gt;</type>
+          <declname>realDataPoints</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; volk::vector&lt; double &gt; &gt;</type>
+          <declname>imagDataPoints</declname>
+        </param>
+        <param>
+          <type>const uint64_t</type>
+          <declname>numDataPoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="181" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classConstUpdateEvent_1a27b58e24959e1c5f9777d6804dce82a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ConstUpdateEvent::~ConstUpdateEvent</definition>
+        <argsstring>() override</argsstring>
+        <name>~ConstUpdateEvent</name>
+        <qualifiedname>ConstUpdateEvent::~ConstUpdateEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="185" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classConstUpdateEvent_1a083002b6f4bc39afbde346cd7d6b1d69" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ConstUpdateEvent::which</definition>
+        <argsstring>() const</argsstring>
+        <name>which</name>
+        <qualifiedname>ConstUpdateEvent::which</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="187" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classConstUpdateEvent_1a38bddad368df97884f41686e0e683f6d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; const double * &gt;</type>
+        <definition>const std::vector&lt; const double * &gt; ConstUpdateEvent::getRealPoints</definition>
+        <argsstring>() const</argsstring>
+        <name>getRealPoints</name>
+        <qualifiedname>ConstUpdateEvent::getRealPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="188" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classConstUpdateEvent_1a8552f45e5cb0a50e6af654cbecd1e2d3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; const double * &gt;</type>
+        <definition>const std::vector&lt; const double * &gt; ConstUpdateEvent::getImagPoints</definition>
+        <argsstring>() const</argsstring>
+        <name>getImagPoints</name>
+        <qualifiedname>ConstUpdateEvent::getImagPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="189" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classConstUpdateEvent_1ad0f4655772ac7c879e9af7dabccc0795" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t ConstUpdateEvent::getNumDataPoints</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumDataPoints</name>
+        <qualifiedname>ConstUpdateEvent::getNumDataPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="190" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classConstUpdateEvent_1aac9c6b0683993e3e5e4ba3690ea7ae3a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ConstUpdateEvent::getRepeatDataFlag</definition>
+        <argsstring>() const</argsstring>
+        <name>getRepeatDataFlag</name>
+        <qualifiedname>ConstUpdateEvent::getRepeatDataFlag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="191" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classConstUpdateEvent_1aff44afeef9f98d139d1bfde0f63d3915" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QEvent::Type</type>
+        <definition>static QEvent::Type ConstUpdateEvent::Type</definition>
+        <argsstring>()</argsstring>
+        <name>Type</name>
+        <qualifiedname>ConstUpdateEvent::Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="193" column="25" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="193" bodyend="193"/>
+        <references refid="spectrumUpdateEvents_8h_1ac31addf0edee93b209aba289ae383b5d" compoundref="spectrumUpdateEvents_8h" startline="24">SpectrumUpdateEventType</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ConstUpdateEvent</label>
+        <link refid="classConstUpdateEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ConstUpdateEvent</label>
+        <link refid="classConstUpdateEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QEvent</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" line="178" column="1" bodyfile="/home/desktop2/gnuradio/gr-qtgui/include/gnuradio/qtgui/spectrumUpdateEvents.h" bodystart="179" bodyend="201"/>
+    <listofallmembers>
+      <member refid="classConstUpdateEvent_1a4b659d34b1dce53b09aab92d0a0aca70" prot="private" virt="non-virtual"><scope>ConstUpdateEvent</scope><name>_imagDataPoints</name></member>
+      <member refid="classConstUpdateEvent_1ab8e58d4144d47691a3eaad1f36ea6a16" prot="private" virt="non-virtual"><scope>ConstUpdateEvent</scope><name>_nplots</name></member>
+      <member refid="classConstUpdateEvent_1a4fe6ed4cab9481cf29e4531711aefbbc" prot="private" virt="non-virtual"><scope>ConstUpdateEvent</scope><name>_numDataPoints</name></member>
+      <member refid="classConstUpdateEvent_1a12e38074e68f0c7cb36fd937b94ccdc7" prot="private" virt="non-virtual"><scope>ConstUpdateEvent</scope><name>_realDataPoints</name></member>
+      <member refid="classConstUpdateEvent_1a4528aeba01341e2a293e246e3828c253" prot="public" virt="non-virtual"><scope>ConstUpdateEvent</scope><name>ConstUpdateEvent</name></member>
+      <member refid="classConstUpdateEvent_1a8552f45e5cb0a50e6af654cbecd1e2d3" prot="public" virt="non-virtual"><scope>ConstUpdateEvent</scope><name>getImagPoints</name></member>
+      <member refid="classConstUpdateEvent_1ad0f4655772ac7c879e9af7dabccc0795" prot="public" virt="non-virtual"><scope>ConstUpdateEvent</scope><name>getNumDataPoints</name></member>
+      <member refid="classConstUpdateEvent_1a38bddad368df97884f41686e0e683f6d" prot="public" virt="non-virtual"><scope>ConstUpdateEvent</scope><name>getRealPoints</name></member>
+      <member refid="classConstUpdateEvent_1aac9c6b0683993e3e5e4ba3690ea7ae3a" prot="public" virt="non-virtual"><scope>ConstUpdateEvent</scope><name>getRepeatDataFlag</name></member>
+      <member refid="classConstUpdateEvent_1aff44afeef9f98d139d1bfde0f63d3915" prot="public" virt="non-virtual"><scope>ConstUpdateEvent</scope><name>Type</name></member>
+      <member refid="classConstUpdateEvent_1a083002b6f4bc39afbde346cd7d6b1d69" prot="public" virt="non-virtual"><scope>ConstUpdateEvent</scope><name>which</name></member>
+      <member refid="classConstUpdateEvent_1a27b58e24959e1c5f9777d6804dce82a3" prot="public" virt="non-virtual"><scope>ConstUpdateEvent</scope><name>~ConstUpdateEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

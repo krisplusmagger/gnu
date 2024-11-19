@@ -1,0 +1,636 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1io__signature" kind="class" language="C++" prot="public">
+    <compoundname>gr::io_signature</compoundname>
+    <includes refid="io__signature_8h" local="no">gnuradio/io_signature.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1io__signature_1a3aa5219846c4dfe7e8ebf03b322741f1" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1io__signature" kindref="compound">io_signature</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;io_signature&gt; gr::io_signature::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::io_signature::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="52" column="29" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgr_1_1io__signature_1a300beabaf21480acbcf9348dcd80d3c9" prot="public" static="no">
+        <type><ref refid="classgr_1_1buffer__double__mapped" kindref="compound">buffer_double_mapped</ref></type>
+        <definition>using gr::io_signature::default_buftype =  buffer_double_mapped</definition>
+        <argsstring></argsstring>
+        <name>default_buftype</name>
+        <qualifiedname>gr::io_signature::default_buftype</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="57" column="5" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1io__signature_1aad035ad0b2077984b0fe49897783b560" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::io_signature::d_min_streams</definition>
+        <argsstring></argsstring>
+        <name>d_min_streams</name>
+        <qualifiedname>gr::io_signature::d_min_streams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="41" column="9" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1io__signature_1a57bc48871edd5404c3613cc398fe3cfc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::io_signature::d_max_streams</definition>
+        <argsstring></argsstring>
+        <name>d_max_streams</name>
+        <qualifiedname>gr::io_signature::d_max_streams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="42" column="9" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1io__signature_1ae5a130eed5462cf018e2551a4653222a" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; size_t &gt;</type>
+        <definition>std::vector&lt;size_t&gt; gr::io_signature::d_sizeof_stream_item</definition>
+        <argsstring></argsstring>
+        <name>d_sizeof_stream_item</name>
+        <qualifiedname>gr::io_signature::d_sizeof_stream_item</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="43" column="17" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1io__signature_1a18198fdad0d45c69d4237e4af754132b" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacegr_1a1ef605b75fdf8904a9e48e0c9d8db852" kindref="member">gr_vector_buffer_type</ref></type>
+        <definition>gr_vector_buffer_type gr::io_signature::d_stream_buffer_type</definition>
+        <argsstring></argsstring>
+        <name>d_stream_buffer_type</name>
+        <qualifiedname>gr::io_signature::d_stream_buffer_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="44" column="27" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgr_1_1io__signature_1a17cbcd3eedd8418ed1141ddd7ca5a52a" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int gr::io_signature::IO_INFINITE</definition>
+        <argsstring></argsstring>
+        <name>IO_INFINITE</name>
+        <qualifiedname>gr::io_signature::IO_INFINITE</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="60" column="26" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1io__signature_1af20eb39e3a4605c897fb5441583b5b95" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::io_signature::io_signature</definition>
+        <argsstring>(int min_streams, int max_streams, const std::vector&lt; size_t &gt; &amp;sizeof_stream_items, const gr_vector_buffer_type &amp;buftypes)</argsstring>
+        <name>io_signature</name>
+        <qualifiedname>gr::io_signature::io_signature</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>min_streams</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_streams</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; size_t &gt; &amp;</type>
+          <declname>sizeof_stream_items</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacegr_1a1ef605b75fdf8904a9e48e0c9d8db852" kindref="member">gr_vector_buffer_type</ref> &amp;</type>
+          <declname>buftypes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="46" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1io__signature_1a4b063f3a1b517f3b1c97a896dced1a86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::io_signature::~io_signature</definition>
+        <argsstring>()</argsstring>
+        <name>~io_signature</name>
+        <qualifiedname>gr::io_signature::~io_signature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="62" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1io__signature_1a1cf724f47c3f0087617ce9aed04ec4c6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::io_signature::min_streams</definition>
+        <argsstring>() const</argsstring>
+        <name>min_streams</name>
+        <qualifiedname>gr::io_signature::min_streams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="180" column="9" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" bodystart="180" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1io__signature_1af1b0c1b8baae3557b3e8dd256eabcaa5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::io_signature::max_streams</definition>
+        <argsstring>() const</argsstring>
+        <name>max_streams</name>
+        <qualifiedname>gr::io_signature::max_streams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="181" column="9" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" bodystart="181" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1io__signature_1a2959e716e4b7908d56af204220fcd59d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::io_signature::sizeof_stream_item</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>sizeof_stream_item</name>
+        <qualifiedname>gr::io_signature::sizeof_stream_item</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="182" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1io__signature_1abb62271c4c64adfa75425c300f814a41" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; gr::io_signature::sizeof_stream_items</definition>
+        <argsstring>() const</argsstring>
+        <name>sizeof_stream_items</name>
+        <qualifiedname>gr::io_signature::sizeof_stream_items</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="184" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1io__signature_1ad04f671653d845322c4092114c293f4c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacegr_1a14226de3800846e1cf3b8a8f3eb5997f" kindref="member">buffer_type</ref></type>
+        <definition>buffer_type gr::io_signature::stream_buffer_type</definition>
+        <argsstring>(size_t index) const</argsstring>
+        <name>stream_buffer_type</name>
+        <qualifiedname>gr::io_signature::stream_buffer_type</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="185" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1io__signature_1a5395b67c877c53f7539f847eef6e23f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacegr_1a1ef605b75fdf8904a9e48e0c9d8db852" kindref="member">gr_vector_buffer_type</ref></type>
+        <definition>gr_vector_buffer_type gr::io_signature::stream_buffer_types</definition>
+        <argsstring>() const</argsstring>
+        <name>stream_buffer_types</name>
+        <qualifiedname>gr::io_signature::stream_buffer_types</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="186" column="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__internal_1ga524c1d5413cf1d28ebb97656057d622f" kind="function"><name>make</name></member>
+      <member refid="group__internal_1gae8ff9ba44dadc54d5f03ec25e3efb4ae" kind="function"><name>make</name></member>
+      <memberdef kind="function" id="classgr_1_1io__signature_1a558d64812b7129c3358bad5f3cae8c57" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1io__signature_1a3aa5219846c4dfe7e8ebf03b322741f1" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::io_signature::make2</definition>
+        <argsstring>(int min_streams, int max_streams, int sizeof_stream_item1, int sizeof_stream_item2, buffer_type buftype1=default_buftype::type, buffer_type buftype2=default_buftype::type)</argsstring>
+        <name>make2</name>
+        <qualifiedname>gr::io_signature::make2</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>min_streams</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_streams</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sizeof_stream_item1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sizeof_stream_item2</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacegr_1a14226de3800846e1cf3b8a8f3eb5997f" kindref="member">buffer_type</ref></type>
+          <declname>buftype1</declname>
+          <defval><ref refid="classgr_1_1buffer__double__mapped_1af171d6ad53c77f673931299f39c37756" kindref="member">default_buftype::type</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="namespacegr_1a14226de3800846e1cf3b8a8f3eb5997f" kindref="member">buffer_type</ref></type>
+          <declname>buftype2</declname>
+          <defval><ref refid="classgr_1_1buffer__double__mapped_1af171d6ad53c77f673931299f39c37756" kindref="member">default_buftype::type</ref></defval>
+        </param>
+        <briefdescription>
+<para>Create an i/o signature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>min_streams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify minimum number of streams (&gt;= 0) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_streams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify maximum number of streams (&gt;= min_streams or -1 -&gt; infinite)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sizeof_stream_item1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify the size of the items in the first stream</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sizeof_stream_item2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify the size of the items in the second and subsequent streams </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buftype1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of buffers the first stream should use (defaults to standard host double mapped buffer) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buftype2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of buffers the second and subsequent streams should use (defaults to standard host double mapped buffer) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="111" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1io__signature_1a7f216c2012d99558f8a27d95c791d09e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1io__signature_1a3aa5219846c4dfe7e8ebf03b322741f1" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::io_signature::make3</definition>
+        <argsstring>(int min_streams, int max_streams, int sizeof_stream_item1, int sizeof_stream_item2, int sizeof_stream_item3, buffer_type buftype1=default_buftype::type, buffer_type buftype2=default_buftype::type, buffer_type buftype3=default_buftype::type)</argsstring>
+        <name>make3</name>
+        <qualifiedname>gr::io_signature::make3</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>min_streams</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_streams</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sizeof_stream_item1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sizeof_stream_item2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sizeof_stream_item3</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacegr_1a14226de3800846e1cf3b8a8f3eb5997f" kindref="member">buffer_type</ref></type>
+          <declname>buftype1</declname>
+          <defval><ref refid="classgr_1_1buffer__double__mapped_1af171d6ad53c77f673931299f39c37756" kindref="member">default_buftype::type</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="namespacegr_1a14226de3800846e1cf3b8a8f3eb5997f" kindref="member">buffer_type</ref></type>
+          <declname>buftype2</declname>
+          <defval><ref refid="classgr_1_1buffer__double__mapped_1af171d6ad53c77f673931299f39c37756" kindref="member">default_buftype::type</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="namespacegr_1a14226de3800846e1cf3b8a8f3eb5997f" kindref="member">buffer_type</ref></type>
+          <declname>buftype3</declname>
+          <defval><ref refid="classgr_1_1buffer__double__mapped_1af171d6ad53c77f673931299f39c37756" kindref="member">default_buftype::type</ref></defval>
+        </param>
+        <briefdescription>
+<para>Create an i/o signature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>min_streams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify minimum number of streams (&gt;= 0) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_streams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify maximum number of streams (&gt;= min_streams or -1 -&gt; infinite)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sizeof_stream_item1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify the size of the items in the first stream</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sizeof_stream_item2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify the size of the items in the second stream</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sizeof_stream_item3</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify the size of the items in the third and subsequent streams </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buftype1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of buffers the first stream should use (defaults to standard host double mapped buffer) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buftype2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of buffers the second stream should use (defaults to standard host double mapped buffer) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buftype3</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of buffers the third and subsequent streams should use (defaults to standard host double mapped buffer) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="135" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1io__signature_1a99e0f9e8de8e7ce16ed92d9f2655e66c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1io__signature_1a3aa5219846c4dfe7e8ebf03b322741f1" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::io_signature::makev</definition>
+        <argsstring>(int min_streams, int max_streams, const std::vector&lt; int &gt; &amp;sizeof_stream_items)</argsstring>
+        <name>makev</name>
+        <qualifiedname>gr::io_signature::makev</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>min_streams</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_streams</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>sizeof_stream_items</declname>
+        </param>
+        <briefdescription>
+<para>Create an i/o signature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>min_streams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify minimum number of streams (&gt;= 0) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_streams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify maximum number of streams (&gt;= min_streams or -1 -&gt; infinite)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sizeof_stream_items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify the size of the items in the streams</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+If there are more streams than there are entries in sizeof_stream_items, the value of the last entry in sizeof_stream_items is used for the missing values. sizeof_stream_items must contain at least 1 entry. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="158" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1io__signature_1a75acc4a2f4855ff722c2e6414bbc9591" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1io__signature_1a3aa5219846c4dfe7e8ebf03b322741f1" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::io_signature::makev</definition>
+        <argsstring>(int min_streams, int max_streams, const std::vector&lt; int &gt; &amp;sizeof_stream_items, const gr_vector_buffer_type &amp;buftypes)</argsstring>
+        <name>makev</name>
+        <qualifiedname>gr::io_signature::makev</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>min_streams</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_streams</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>sizeof_stream_items</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacegr_1a1ef605b75fdf8904a9e48e0c9d8db852" kindref="member">gr_vector_buffer_type</ref> &amp;</type>
+          <declname>buftypes</declname>
+        </param>
+        <briefdescription>
+<para>Create an i/o signature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>min_streams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify minimum number of streams (&gt;= 0) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_streams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify maximum number of streams (&gt;= min_streams or -1 -&gt; infinite) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sizeof_stream_items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specify the size of the items in the streams </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buftypes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the type of buffer each stream will should use</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+If there are more streams than there are entries in sizeof_stream_items, the value of the last entry in sizeof_stream_items is used for the missing values. sizeof_stream_items must contain at least 1 entry. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="175" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classgr_1_1io__signature_1a6377cf24168cc6e4a7ac4861e4c83d00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const io_signature &amp;lhs, const io_signature &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gr::io_signature::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classgr_1_1io__signature" kindref="compound">io_signature</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgr_1_1io__signature" kindref="compound">io_signature</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="187" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>i/o signature for input and output ports. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>misc </para>
+    </detaileddescription>
+    <location file="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" line="39" column="1" bodyfile="/home/desktop2/gnuradio/gnuradio-runtime/include/gnuradio/io_signature.h" bodystart="40" bodyend="188"/>
+    <listofallmembers>
+      <member refid="classgr_1_1io__signature_1a57bc48871edd5404c3613cc398fe3cfc" prot="private" virt="non-virtual"><scope>gr::io_signature</scope><name>d_max_streams</name></member>
+      <member refid="classgr_1_1io__signature_1aad035ad0b2077984b0fe49897783b560" prot="private" virt="non-virtual"><scope>gr::io_signature</scope><name>d_min_streams</name></member>
+      <member refid="classgr_1_1io__signature_1ae5a130eed5462cf018e2551a4653222a" prot="private" virt="non-virtual"><scope>gr::io_signature</scope><name>d_sizeof_stream_item</name></member>
+      <member refid="classgr_1_1io__signature_1a18198fdad0d45c69d4237e4af754132b" prot="private" virt="non-virtual"><scope>gr::io_signature</scope><name>d_stream_buffer_type</name></member>
+      <member refid="classgr_1_1io__signature_1a300beabaf21480acbcf9348dcd80d3c9" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>default_buftype</name></member>
+      <member refid="classgr_1_1io__signature_1a17cbcd3eedd8418ed1141ddd7ca5a52a" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>IO_INFINITE</name></member>
+      <member refid="classgr_1_1io__signature_1af20eb39e3a4605c897fb5441583b5b95" prot="private" virt="non-virtual"><scope>gr::io_signature</scope><name>io_signature</name></member>
+      <member refid="group__internal_1ga524c1d5413cf1d28ebb97656057d622f" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>make</name></member>
+      <member refid="group__internal_1gae8ff9ba44dadc54d5f03ec25e3efb4ae" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>make</name></member>
+      <member refid="classgr_1_1io__signature_1a558d64812b7129c3358bad5f3cae8c57" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>make2</name></member>
+      <member refid="classgr_1_1io__signature_1a7f216c2012d99558f8a27d95c791d09e" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>make3</name></member>
+      <member refid="classgr_1_1io__signature_1a99e0f9e8de8e7ce16ed92d9f2655e66c" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>makev</name></member>
+      <member refid="classgr_1_1io__signature_1a75acc4a2f4855ff722c2e6414bbc9591" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>makev</name></member>
+      <member refid="classgr_1_1io__signature_1af1b0c1b8baae3557b3e8dd256eabcaa5" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>max_streams</name></member>
+      <member refid="classgr_1_1io__signature_1a1cf724f47c3f0087617ce9aed04ec4c6" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>min_streams</name></member>
+      <member refid="classgr_1_1io__signature_1a6377cf24168cc6e4a7ac4861e4c83d00" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>operator==</name></member>
+      <member refid="classgr_1_1io__signature_1a2959e716e4b7908d56af204220fcd59d" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>sizeof_stream_item</name></member>
+      <member refid="classgr_1_1io__signature_1abb62271c4c64adfa75425c300f814a41" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>sizeof_stream_items</name></member>
+      <member refid="classgr_1_1io__signature_1a3aa5219846c4dfe7e8ebf03b322741f1" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>sptr</name></member>
+      <member refid="classgr_1_1io__signature_1ad04f671653d845322c4092114c293f4c" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>stream_buffer_type</name></member>
+      <member refid="classgr_1_1io__signature_1a5395b67c877c53f7539f847eef6e23f2" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>stream_buffer_types</name></member>
+      <member refid="classgr_1_1io__signature_1a4b063f3a1b517f3b1c97a896dced1a86" prot="public" virt="non-virtual"><scope>gr::io_signature</scope><name>~io_signature</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
